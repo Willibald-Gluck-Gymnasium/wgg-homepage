@@ -1,0 +1,1 @@
+# This file is here so git won't delete tests/Unit automatically. If this folder doesn't exist, PHPUnit testing could fail.

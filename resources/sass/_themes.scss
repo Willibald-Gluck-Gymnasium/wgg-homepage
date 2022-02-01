@@ -1,0 +1,95 @@
+//BLUE theme
+$clr-blue: (
+    clr-wgg-orange: rgb(26, 152, 255),
+    clr-bg-primary: hsl(0, 0%, 100%),
+    clr-bg-secondary: hsl(0, 0%, 95%),
+    clr-bg-tertiary: hsl(0, 0%, 90%),
+    clr-bg-transparent: hsla(0, 0%, 100%, .5),
+    clr-font: black,
+);
+$clr-blue-dark: (
+    clr-wgg-orange: rgb(26, 152, 255),
+    clr-bg-primary: hsl(0, 0%, 14%),
+    clr-bg-secondary: hsl(0, 0%, 8%),
+    clr-bg-tertiary: hsl(0, 0%, 30%),
+    clr-bg-transparent: hsla(0, 0%, 18%, 0.9),
+    clr-font: white,
+);
+//RED THEME
+$clr-red: (
+    clr-wgg-orange: rgb(184, 0, 0),
+    clr-bg-primary: hsl(0, 0%, 100%),
+    clr-bg-secondary: hsl(0, 0%, 95%),
+    clr-bg-tertiary: hsl(0, 0%, 90%),
+    clr-bg-transparent: hsla(0, 0%, 100%, .5),
+    clr-font: black,
+);
+
+$clr-red-dark: (
+    clr-wgg-orange: rgb(255, 82, 82),
+    clr-bg-primary: hsl(0, 0%, 14%),
+    clr-bg-secondary: hsl(0, 0%, 8%),
+    clr-bg-tertiary: hsl(0, 0%, 30%),
+    clr-bg-transparent: hsla(0, 0%, 18%, 0.9),
+    clr-font: white,
+);
+//GREEN theme
+$clr-green: (
+    clr-wgg-orange: rgb(37, 184, 0),
+    clr-bg-primary: hsl(0, 0%, 100%),
+    clr-bg-secondary: hsl(0, 0%, 95%),
+    clr-bg-tertiary: hsl(0, 0%, 90%),
+    clr-bg-transparent: hsla(0, 0%, 100%, .5),
+    clr-font: black,
+);
+
+$clr-green-dark: (
+    clr-wgg-orange: rgb(0, 184, 38),
+    clr-bg-primary: hsl(0, 0%, 14%),
+    clr-bg-secondary: hsl(0, 0%, 8%),
+    clr-bg-tertiary: hsl(0, 0%, 30%),
+    clr-bg-transparent: hsla(0, 0%, 18%, 0.9),
+    clr-font: white,
+);
+
+:root {
+    @each $prop, $val in $clr-blue {
+        --blue-#{$prop}: #{$val};
+    }
+    @each $prop, $val in $clr-blue-dark {
+        --blue-dark-#{$prop}: #{$val};
+    }
+    @each $prop, $val in $clr-red {
+        --red-#{$prop}: #{$val};
+    }
+    @each $prop, $val in $clr-red-dark {
+        --red-dark-#{$prop}: #{$val};
+    }
+    @each $prop, $val in $clr-green {
+        --green-#{$prop}: #{$val};
+    }
+    @each $prop, $val in $clr-green-dark {
+        --green-dark-#{$prop}: #{$val};
+    }
+}
+
+.blue {
+    @each $prop, $val in $clr-blue {
+        --#{$prop}: var(--blue-#{$prop});
+        --dark-#{$prop}: var(--blue-dark-#{$prop});
+    }
+}
+
+.red {
+    @each $prop, $val in $clr-red {
+        --#{$prop}: var(--red-#{$prop});
+        --dark-#{$prop}: var(--red-dark-#{$prop});
+    }
+}
+
+.green {
+    @each $prop, $val in $clr-green {
+        --#{$prop}: var(--green-#{$prop});
+        --dark-#{$prop}: var(--green-dark-#{$prop});
+    }
+}
