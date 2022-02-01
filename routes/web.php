@@ -1,6 +1,9 @@
 <?php
 
+use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
+use Inertia\Inertia;
+
 use Illuminate\Http\Request;
 
 
@@ -18,9 +21,22 @@ use App\Http\Controllers\WebControllers\CollectionController;
 |
 */
 
+// Route::get('/', function () {
+//     return Inertia::render('Welcome', [
+//         'canLogin' => Route::has('login'),
+//         'canRegister' => Route::has('register'),
+//         'laravelVersion' => Application::VERSION,
+//         'phpVersion' => PHP_VERSION,
+//     ]);
+// });
+
 Route::get('/', function () {
     return view('home');
 });
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return Inertia::render('Dashboard');
+})->name('dashboard');
 
 Route::get('/results', function () {
     return view('results');
@@ -46,9 +62,9 @@ Route::get('/phpinfo', function () {
     phpinfo();
 });
 
-// Route::get('/favicon.ico', function () {
-//     // return response()->file( public_path().'/favicons/favicon.ico' );
-// });
+Route::get('/favicon.ico', function () {
+    return response()->file( public_path().'/favicons/favicon.ico' );
+});
 
 Route::get('/{article}', [ArticleController::class, 'show']);
 

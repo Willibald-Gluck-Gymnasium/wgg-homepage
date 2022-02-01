@@ -1,37 +1,20 @@
-/**
- * First we will load all of this project's JavaScript dependencies which
- * includes Vue and other libraries. 
- */
+require('./bootstrap');
 
-window._ = require('lodash');
+import { createApp, h } from 'vue';
+import { createInertiaApp } from '@inertiajs/inertia-vue3';
+import { InertiaProgress } from '@inertiajs/progress';
 
-window.axios = require('axios');
-window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+const appName = window.document.getElementsByTagName('title')[0]?.innerText || 'Laravel';
 
-window.Isotope = require('isotope-layout')
-window.imagesLoaded = require('imagesloaded')
-
-window.timeago = require('timeago.js')
-
-import Vue from 'vue'
-
-/**
- * The following block of code is used to automatically register your
- * Vue components. It will recursively scan this directory for the Vue
- * components and automatically register them with their "basename".
- *
- * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
- */
-const files = require.context('./', true, /\.vue$/i)
-files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
-
-
-/**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
-
-const app = new Vue({
-    el: '#app'
+createInertiaApp({
+    title: (title) => `${title} - ${appName}`,
+    resolve: (name) => require(`./Pages/${name}.vue`),
+    setup({ el, app, props, plugin }) {
+        return createApp({ render: () => h(app, props) })
+            .use(plugin)
+            .mixin({ methods: { route } })
+            .mount(el);
+    },
 });
+
+InertiaProgress.init({ color: '#4B5563' });

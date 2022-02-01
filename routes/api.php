@@ -5,8 +5,6 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\APIControllers\ArticleController;
 
-use App\Models\Article;
-
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -17,6 +15,10 @@ use App\Models\Article;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
+
+Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+    return $request->user();
+});
 
 Route::get('/articles', [ArticleController::class, 'index']);
 
