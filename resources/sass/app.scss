@@ -1,0 +1,212 @@
+// Variables
+@import 'variables';
+
+* {
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    -webkit-text-size-adjust: none;
+}
+
+@media print {
+    * {
+        color: black;
+    }
+    .contentwrapper {
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+        min-height: 0;
+    }
+}
+
+#app {
+    overflow: hidden;
+    background: var(--clr-bg-secondary);
+}
+
+.dark {
+    @each $prop, $val in $clr {
+        --#{$prop}: var(--dark-#{$prop});
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    #app.detect-colorscheme {
+        @each $prop, $val in $clr {
+            --#{$prop}: var(--dark-#{$prop});
+        }
+    }
+}
+
+html, body {
+    overflow-x: hidden;
+    background: black;
+}
+
+html {
+    min-width: 320px;
+}
+
+body {
+    margin: 0;
+    color: var(--clr-font);
+}
+
+.contentwrapper form {
+    color: var(--clr-font);
+    $height: 35px;
+    .bar {
+        width: 100%;
+        // box-shadow: inset 0 0 5px 0 rgba(0,0,0,.2);
+        // background: var(--clr-bg-primary);
+        border-radius: 15px;
+        margin-bottom: 15px;
+        overflow: show;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        display: flex;
+        font-size: 18px;
+        div.field.spread {
+            flex: 1 1 auto;
+        }
+        div.field {
+            margin-right: 5px;
+            padding: 0;
+            padding-top: 22px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            &:last-child {
+                margin-right: 0 !important;
+            }
+            span {
+                position: absolute;
+                top: 0;
+                font-size: .8em;
+            }
+        }
+        input[type=text] {
+            width: 100%;
+            cursor: auto;
+        }
+        input, button, select {
+            cursor: pointer;
+            height: $height;
+            display: block;
+            transition-duration: .25s;
+            font-size: inherit;
+            padding: 0 12px;
+            position: relative;
+            color: var(--clr-font);
+            -webkit-appearance: none;
+            border-radius: 0;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            box-shadow: none;
+            background: var(--clr-bg-secondary);
+            border: none;
+            border-bottom: 2px solid var(--clr-font);
+            box-shadow: inset 0 0 5px 0 rgba(0,0,0,.2) !important;
+            &:hover {
+                box-shadow: inset 0 3px 5px -3px rgba(0,0,0,.5) !important;
+            }
+            &:focus {
+                border-color: var(--clr-wgg-orange);
+                outline: none;
+            }
+            // &:hover, &:focus {
+            //     border-color: rgba(20,20,20,.7);
+            //     background: var(--clr-bg-primary);
+            //     box-shadow: 0 0 5px 0 rgba(0,0,0,.2) !important;
+            // }
+            // &:focus {
+            //     border-color: rgba(20,20,20,1);
+            //     box-shadow: 0 2px 5px -2px rgba(0,0,0,.2) !important;
+            // }
+        }
+        button {
+            cursor: pointer;
+            &:hover {
+                // border-color: rgba(20,20,20,.7);
+                background: var(--clr-bg-primary);
+                box-shadow: 0 0 5px 0 rgba(0,0,0,.2) !important;
+            }
+            &:focus {
+                // border-color: rgba(20,20,20,1);
+                box-shadow: 0 2px 5px -2px rgba(0,0,0,.2) !important;
+            }
+        }
+        button.icon {
+            width: $height;
+            padding: 0;
+            i {
+                width: $height; line-height: $height;
+            }
+        }
+    }
+}
+
+.link, .article-container a {
+    display: inline-block;
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    &:hover {
+        text-decoration-thickness: 2px;
+        // transform: translateY(-3px);
+    }
+    // &:hover:before {
+    //     background: rgba(0,0,0,.2);
+    //     display: block;
+    //     position: absolute;
+    //     content: '';
+    //     top: 90%; left: 2.5%;
+    //     width: 95%;
+    //     height: 30%;
+    //     box-shadow: 0 0 5px 10px rgba(0,0,0,.2);
+    // }
+    &:active {
+        color: var(--clr-wgg-orange);
+    }
+}
+
+.contentwrapper {
+    min-height: calc(100vh - (2 * var(--sz-header-height)));
+    max-width: var(--sz-content-width);
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    // background: var(--clr-bg-secondary);
+}
+
+// Bitte so wenig globale styles wie möglich benutzen. Ich empfehle einen vue component Link.vue oder so
+//
+// a {
+//     color: inherit;
+//     text-decoration: underline;
+//     &:hover {
+//         text-decoration-thickness: 2px;
+//     }
+//     &:active {
+//         color: var(--clr-wgg-orange);
+//     }
+// }
+
+@media only screen and (max-width: 850px) {
+    #app {
+        --sz-header-height: 50px;
+    }
+    .contentwrapper {
+        min-height: calc(100vh - var(--sz-header-height)) !important;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .contentwrapper {
+        padding: 0;
+    }
+}
