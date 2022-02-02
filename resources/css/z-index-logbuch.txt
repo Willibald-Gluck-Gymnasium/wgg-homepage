@@ -1,7 +1,7 @@
 Hier sind alle wichtigen z-index Werte:
 
 
-Progressbar: 1031
+Progressbar: 1031 (Standard)
 
 MainHeader: 900
     SearchBar: 950

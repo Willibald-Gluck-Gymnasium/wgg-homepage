@@ -27008,8 +27008,7 @@ var appName = ((_window$document$getE = window.document.getElementsByTagName('ti
 });
 _inertiajs_progress__WEBPACK_IMPORTED_MODULE_2__.InertiaProgress.init({
   delay: 250,
-  color: '#ff881a',
-  showSpinner: true
+  color: '#ff881a'
 });
 
 /***/ }),
