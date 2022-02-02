@@ -28,35 +28,35 @@
       <div id="partners">
         <div class="title">Partner</div>
         <a href="https://mintzukunftschaffen.de">
-          <img :src="require('@/img/color1-footer.jpeg')" alt="MINT">
+          <img :src="require('@resources/img/color1-footer.jpeg')" alt="MINT">
           <span>mintzukunftschaffen</span>
         </a>
         <a href="https://www.mint-ec.de/">
-          <img :src="require('@/img/color2-footer.jpeg')" alt="MINT-EC">
+          <img :src="require('@resources/img/color2-footer.jpeg')" alt="MINT-EC">
           <span>MINT-EC</span>
         </a>
         <a href="https://www.schule-ohne-rassismus.org/">
-          <img :src="require('@/img/color3-footer.jpeg')" alt="SORSMC">
+          <img :src="require('@resources/img/color3-footer.jpeg')" alt="SORSMC">
           <span>Schule ohne Rassismus</span>
         </a>
         <a href="https://www.jugend-debattiert.de/">
-          <img :src="require('@/img/color4-footer.jpeg')" alt="JD">
+          <img :src="require('@resources/img/color4-footer.jpeg')" alt="JD">
           <span>Jugend Debattiert</span>
         </a>
         <a href="https://www.mintregion-neumarkt.de/">
-          <img :src="require('@/img/color5-footer.jpeg')" alt="Mint Neumarkt">
+          <img :src="require('@resources/img/color5-footer.jpeg')" alt="Mint Neumarkt">
           <span>MINT Region Neumarkt</span>
         </a>
         <a href="https://www.n-ergie.de/">
-          <img :src="require('@/img/color6-footer.jpeg')" alt="N-Ergie">
+          <img :src="require('@resources/img/color6-footer.jpeg')" alt="N-Ergie">
           <span>N-ERGIE</span>
         </a>
         <a href="http://wp.feedbackschule.de/">
-          <img :src="require('@/img/color7-footer.jpeg')" alt="FbSch">
+          <img :src="require('@resources/img/color7-footer.jpeg')" alt="FbSch">
           <span>FeedbackSchule</span>
         </a>
         <a href="http://www.umwelterziehung.de/projekte/umweltschule/index.html">
-          <img :src="require('@/img/color8-footer.jpeg')" alt="Umwelt">
+          <img :src="require('@resources/img/color8-footer.jpeg')" alt="Umwelt">
           <span>Umweltschule</span>
         </a>
       </div>

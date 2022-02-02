@@ -21,18 +21,25 @@ use App\Http\Controllers\WebControllers\CollectionController;
 |
 */
 
-// Route::get('/', function () {
-//     return Inertia::render('Welcome', [
-//         'canLogin' => Route::has('login'),
-//         'canRegister' => Route::has('register'),
-//         'laravelVersion' => Application::VERSION,
-//         'phpVersion' => PHP_VERSION,
-//     ]);
-// });
-
 Route::get('/', function () {
-    return view('home');
+    return Inertia::render('Home', [
+        'canLogin' => Route::has('login'),
+        'canRegister' => Route::has('register')
+    ]);
 });
+
+// Route::middleware(['guest:'.config('fortify.guard')])->get('/login', function () {
+//     return Inertia::render('Auth/Login', [
+//         'canResetPassword' => Route::has('password.request'),
+//         'canRegister' => Route::has('register'),
+//         'status'
+//     ]);
+// })->name('login');
+
+
+// Route::get('/', function () {
+//     return view('home');
+// });
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return Inertia::render('Dashboard');

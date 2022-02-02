@@ -12,6 +12,9 @@ const path = require('path')
  |
  */
 
+mix.alias({ '@resources': path.join(__dirname, 'resources') })
+    .alias({ '@components': path.join(__dirname, 'resources/js/components') })
+
 mix.js('resources/js/app.js', 'public/js').vue()
     .postCss('resources/css/app.css', 'public/css', [
         require('postcss-import'),
@@ -27,8 +30,7 @@ mix.override(webpackConfig => {
     webpackConfig.module.rules[2].use[0].options.esModule = false; 
 });
 
-mix.alias({ '@': path.join(__dirname, 'resources') })
-    .sass('resources/sass/app.scss', 'public/css')
+mix.sass('resources/sass/app.scss', 'public/css')
     .combine([
         'resources/js/modernizr.js'
     ], 'public/js/combined.js')

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "11416bf257df29cded20c702de5e1e01",
+    "content-hash": "34b7e2b0a03a9b4e90bad98677da54ab",
     "packages": [
         {
             "name": "alexanderhorner/laravel-orbit-html-driver",

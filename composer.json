@@ -17,7 +17,7 @@
         "laravel/tinker": "^2.5",
         "ryangjchandler/orbit": "^0.9.1",
         "soundasleep/html2text": "~1.1",
-        "tightenco/ziggy": "^1.0"
+        "tightenco/ziggy": "^1.4"
     },
     "require-dev": {
         "facade/ignition": "^2.5",

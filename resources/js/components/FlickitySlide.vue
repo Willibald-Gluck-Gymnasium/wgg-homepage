@@ -28,27 +28,27 @@ export default {
             slides: [
                 {
                     title: 'General blanket route factory available disease spring lion',
-                    image: require('@/img/color1-slide.jpeg'),
+                    image: require('@resources/img/color1-slide.jpeg'),
                     link: 'corona-sicherheit'
                 },
                 {
                     title: 'Tune left corn industrial pretty',
-                    image: require('@/img/color2-slide.jpeg'),
+                    image: require('@resources/img/color2-slide.jpeg'),
                     link: 'schulanmeldung'
                 },
                 {
                     title: 'Differ slipped skin cup motor bound select support moon',
-                    image: require('@/img/color3-slide.jpeg'),
+                    image: require('@resources/img/color3-slide.jpeg'),
                     link: 'schuljahr2020'
                 },
                 {
                     title: 'Sale recent silver be image gather layers smaller supper globe',
-                    image: require('@/img/color4-slide.jpeg'),
+                    image: require('@resources/img/color4-slide.jpeg'),
                     link: 'schuelergenossenschaft'
                 },
                 {
                     title: 'Object brother attention wintey break anything pie well hide nearly',
-                    image: require('@/img/color5-slide.jpeg'),
+                    image: require('@resources/img/color5-slide.jpeg'),
                     link: 'schuelergenossenschaft'
                 }
             ]

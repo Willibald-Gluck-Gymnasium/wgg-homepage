@@ -40,7 +40,7 @@
               href="https://twitter.com/intent/tweet?text=" 
               target="_blank"
               rel="noopener noreferrer">
-              <img :src="require('@/img/twitter-icon.svg')">
+              <img :src="require('@resources/img/twitter-icon.svg')">
             </a> -->
           </div>
         </div>

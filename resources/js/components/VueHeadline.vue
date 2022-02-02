@@ -17,8 +17,10 @@ export default {
         width: calc(100% - 20px);
         max-width: 1080px;
         color: var(--clr-font);
+
         @media (min-width: 500px) {
             width: calc(100% - 40px);
         }
+        
     }
 </style>
