@@ -1,6 +1,6 @@
 <template>
     <div class="card">
-		<Link :href="route('login')" class="content">
+		<Link :href="route('artikel.show', slug)" class="content">
         	<div class="force-thumbnail-aspect-ratio">
 				<img :src="image" class="thumbnail">
 			</div>
@@ -31,7 +31,7 @@ export default {
 	},
 
 
-	props: ['title', 'category', 'timestamp', 'image', 'link'],
+	props: ['title', 'category', 'timestamp', 'image', 'slug'],
 
 	mounted () {
 		var locale = function(number, index, totalSec) {

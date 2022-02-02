@@ -7,7 +7,7 @@
 			:category="card.main_category"
 			:timestamp="card.published_on"
     		:image="card.image"
-			:link="card.link"
+			:slug="card.slug"
         />
     </div>
 </template>
@@ -64,112 +64,112 @@ export default {
 				main_category: 'Aktuelles',
 				published_on: 'Thu Dec 24 2020 03:01:21 GMT+0100',
 				image: require('@resources/img/color1-thumbnail.jpeg'),
-				link: 'corona-sicherheit'
+				slug: 'corona-sicherheit'
 			},
 			{
 				title: 'Than indicate ball land brought themselves little path',
 				main_category: 'Unterricht',
 				published_on: 'Nov 2 2020 01:12:10 GMT+0100',
 				image: require('@resources/img/color2-thumbnail.jpeg'),
-				link: 'schulanmeldung'
+				slug: 'schulanmeldung'
 			},
 			{
 				title: 'Wife tin mighty court',
 				main_category: 'Aktivitäten',
 				published_on: 'Dec 19 2020 08:50:10 GMT+0100',
 				image: require('@resources/img/color3-thumbnail.jpeg'),
-				link: 'schuljahr2020'
+				slug: 'schuljahr2020'
 			},
 			{
 				title: 'Unsere Schülergenossenschaft findet demnächst ihre Anfänge',
 				main_category: 'Gemeinschafft',
 				published_on: 'Dec 2 2020 01:50:10 GMT+0100',
 				image: require('@resources/img/color4-thumbnail.jpeg'),
-				link: 'schuelergenossenschaft'
+				slug: 'schuelergenossenschaft'
 			},
 			{
 				title: 'Wie Sie Ihr Kind und unsere Gesellschaft schützen',
 				main_category: 'Aktuelles',
 				published_on: 'Thu Dec 24 2020 03:01:21 GMT+0100',
 				image: require('@resources/img/color5-thumbnail.jpeg'),
-				link: 'corona-sicherheit'
+				slug: 'corona-sicherheit'
 			},
 			{
 				title: 'Wie Sie Ihr Kind an unserer können',
 				main_category: 'Unterricht',
 				published_on: 'Nov 2 2020 01:12:10 GMT+0100',
 				image: require('@resources/img/color6-thumbnail.jpeg'),
-				link: 'schulanmeldung'
+				slug: 'schulanmeldung'
 			},
 			{
 				title: 'Das neue',
 				main_category: 'Aktivitäten',
 				published_on: 'Dec 14 2020 08:50:10 GMT+0100',
 				image: require('@resources/img/color7-thumbnail.jpeg'),
-				link: 'schuljahr2020'
+				slug: 'schuljahr2020'
 			},
 			{
 				title: 'Unsere Schülergenossenschaft findet demnächst ihre Anfänge',
 				main_category: 'Gemeinschafft',
 				published_on: 'Dec 2 2020 01:50:10 GMT+0100',
 				image: require('@resources/img/color8-thumbnail.jpeg'),
-				link: 'schuelergenossenschaft'
+				slug: 'schuelergenossenschaft'
 			},
 			{
 				title: 'Wie Sie Ihr Kind und unsere Gesellschaft schützen',
 				main_category: 'Aktuelles',
 				published_on: 'Thu Dec 24 2020 03:01:21 GMT+0100',
 				image: require('@resources/img/color9-thumbnail.jpeg'),
-				link: 'corona-sicherheit'
+				slug: 'corona-sicherheit'
 			},
 			{
 				title: 'Wie Sie Ihr Kind an unserer können',
 				main_category: 'Unterricht',
 				published_on: 'Nov 2 2020 01:12:10 GMT+0100',
 				image: require('@resources/img/color10-thumbnail.jpeg'),
-				link: 'schulanmeldung'
+				slug: 'schulanmeldung'
 			},
 			{
 				title: 'Das neue',
 				main_category: 'Aktivitäten',
 				published_on: 'Dec 14 2020 08:50:10 GMT+0100',
 				image: require('@resources/img/color11-thumbnail.jpeg'),
-				link: 'schuljahr2020'
+				slug: 'schuljahr2020'
 			},
 			{
 				title: 'Unsere Schülergenossenschaft findet demnächst ihre Anfänge',
 				main_category: 'Gemeinschafft',
 				published_on: 'Dec 2 2020 01:50:10 GMT+0100',
 				image: require('@resources/img/color12-thumbnail.jpeg'),
-				link: 'schuelergenossenschaft'
+				slug: 'schuelergenossenschaft'
 			},
 			{
 				title: 'Wie Sie Ihr Kind und unsere Gesellschaft schützen',
 				main_category: 'Aktuelles',
 				published_on: 'Thu Dec 24 2020 03:01:21 GMT+0100',
 				image: require('@resources/img/color13-thumbnail.jpeg'),
-				link: 'corona-sicherheit'
+				slug: 'corona-sicherheit'
 			},
 			{
 				title: 'Wie Sie Ihr Kind an unserer können',
 				main_category: 'Unterricht',
 				published_on: 'Nov 2 2020 01:12:10 GMT+0100',
 				image: require('@resources/img/color14-thumbnail.jpeg'),
-				link: 'schulanmeldung'
+				slug: 'schulanmeldung'
 			},
 			{
 				title: 'Das neue',
 				main_category: 'Aktivitäten',
 				published_on: 'Dec 14 2020 08:50:10 GMT+0100',
 				image: require('@resources/img/color1-thumbnail.jpeg'),
-				link: 'schuljahr2020'
+				slug: 'schuljahr2020'
 			},
 			{
 				title: 'Unsere Schülergenossenschaft findet demnächst ihre Anfänge',
 				main_category: 'Gemeinschafft',
 				published_on: 'Dec 2 2020 01:50:10 GMT+0100',
 				image: require('@resources/img/color2-thumbnail.jpeg'),
-				link: 'schuelergenossenschaft'
+				slug: 'schuelergenossenschaft'
 			}
 		]
 	})

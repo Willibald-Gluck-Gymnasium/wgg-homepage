@@ -74,7 +74,7 @@ export default {
         #rightfade, #leftfade {
             opacity: 0;
             top: 0;
-            z-index: 100000;
+            z-index: 850;
             // background-color: var(--clr-wgg-orange);
             width: 5px;
             height: 100%;
@@ -120,14 +120,14 @@ export default {
             width: 100%;
             height: 100%;
             margin: 0 auto;
-            z-index: 1000;
+            z-index: 800;
             position: relative;
 	        max-width: var(--sz-content-width);
             padding: 0 15px;
             top: 0;
 
             .items {
-                z-index: 1000;
+                z-index: 800;
                 display: flex;
                 justify-content: center;
                 align-items: center;

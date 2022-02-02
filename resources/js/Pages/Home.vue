@@ -13,7 +13,7 @@
 
 <script>
     import { defineComponent } from 'vue'
-    import { Head, Link } from '@inertiajs/inertia-vue3';
+    import { Link } from '@inertiajs/inertia-vue3';
 
     import MainHeader from '@components/MainHeader'
     import SecondaryHeader from '@components/SecondaryHeader'
@@ -24,7 +24,6 @@
 
     export default {
         components: {
-            Head,
             Link,
             MainHeader,
             SecondaryHeader,

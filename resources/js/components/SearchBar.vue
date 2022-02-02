@@ -72,7 +72,7 @@ a.unfocus {
 .search {
     height: $height;
     width: 100%;
-    z-index: 1000000;
+    z-index: 950;
     display: flex;
     position: relative;
     &:focus-within {
@@ -93,7 +93,7 @@ a.unfocus {
     // flex-direction: row-reverse;
     // padding-left: 15px;
     input[type=text] {
-        z-index: 1000000;
+        z-index: 960;
         background: hsl(0, 0%, 14%);
         border: none;
         flex: 1 1 auto;
@@ -113,7 +113,7 @@ a.unfocus {
         }
     }
     button {
-        z-index: 10000000;
+        z-index: 970;
         transition-duration: .1s;
         // width: calc(.5 * var(--sz-header-height));
         width: $height;
@@ -153,7 +153,7 @@ a.unfocus {
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         box-shadow: 0 0 15px 0 rgba(0,0,0,.6);
-        z-index: 100000;
+        z-index: 960;
         transition-duration: .25s;
         font-size: 16px;
         a {

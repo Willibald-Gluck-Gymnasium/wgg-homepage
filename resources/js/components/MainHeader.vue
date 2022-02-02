@@ -1,11 +1,11 @@
 <template>
     <div class="header">
         <div class="content">
-            <a href="/" class="logo-wrapper">
+            <Link :href="route('home')" class="logo-wrapper">
                 <img class="logo" src="/img/wgg-logo.svg" alt="">
                 <div class="divider"></div>
                 <div class="logo-text">WGG</div>
-            </a>
+            </Link>
             <search-bar></search-bar>
         </div>
     </div>
@@ -14,10 +14,13 @@
 <script>
 import SearchBar from '@components/SearchBar'
 
+import { Link } from '@inertiajs/inertia-vue3'
+
 export default {
 
     components: {
-        SearchBar
+        SearchBar,
+        Link
     }
 
 }
@@ -34,7 +37,7 @@ export default {
     background-color: #000;
     color: #FFF;
     position: relative;
-    z-index: 10000;
+    z-index: 900;
     box-shadow: 0 -7px 15px 5px rgba(0,0,0,0.3);
     .content {
         // padding-left: 15px;

@@ -26,7 +26,7 @@ Route::get('/', function () {
         'canLogin' => Route::has('login'),
         'canRegister' => Route::has('register')
     ]);
-});
+})->name('home');
 
 // Route::middleware(['guest:'.config('fortify.guard')])->get('/login', function () {
 //     return Inertia::render('Auth/Login', [
@@ -73,11 +73,12 @@ Route::get('/favicon.ico', function () {
     return response()->file( public_path().'/favicons/favicon.ico' );
 });
 
-Route::get('/{article}', [ArticleController::class, 'show']);
-
 // Route::get('/collection/{category}', [CollectionController::class, 'show']);
 Route::get('/collection/{category}', function($category) {
     return view('collection', [
         'category' => $category
     ]);
 });
+
+Route::get('/{article}', [ArticleController::class, 'show'])->name('artikel.show');
+

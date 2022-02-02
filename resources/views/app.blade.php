@@ -48,7 +48,7 @@
             [v-cloak] > * { display: none; }
 
             .loading-screen {
-                z-index: 15000;
+                z-index: 1000;
                 position: absolute;
                 top: 0;
                 right: 0;
