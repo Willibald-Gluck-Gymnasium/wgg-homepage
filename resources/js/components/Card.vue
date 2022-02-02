@@ -1,8 +1,7 @@
 <template>
     <div class="card">
-		<a :href="link" class="content">
-
-			<div class="force-thumbnail-aspect-ratio">
+		<Link :href="route('artikel.show', slug)" class="content">
+        	<div class="force-thumbnail-aspect-ratio">
 				<img :src="image" class="thumbnail">
 			</div>
 
@@ -15,17 +14,25 @@
 			</div>
 
         	<div class="title">{{ title }}</div>
-
-		</a>
+    	</Link>
     </div>
 </template>
 
 <script>
-// import * as timeago from 'timeago.js';
+import { Link } from '@inertiajs/inertia-vue3';
+
+
+import * as timeago from 'timeago.js';
 // Documentation: https://timeago.org
 
 export default {
-	props: ['title', 'category', 'timestamp', 'image', 'link'],
+	components: {
+		Link
+	},
+
+
+	props: ['title', 'category', 'timestamp', 'image', 'slug'],
+
 	mounted () {
 		var locale = function(number, index, totalSec) {
 			return [
@@ -70,7 +77,7 @@ $box-shadow--expanded: 0 8px 30px 0 $box-shadow-color;
 	justify-content: center;
 	color: var(--clr-font);
 
-	@media (min-width: 550px) {
+	@media (min-width: 600px) {
 		width: calc(50% - 15px);
 	}
 

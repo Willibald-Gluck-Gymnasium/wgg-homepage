@@ -10,11 +10,4 @@ use Illuminate\Routing\Controller as BaseController;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
-
-    // public function show($slug)
-    // {
-    //     // other stuff here
-    //     return view('someview', compact('slug'));
-    // }
-
 }

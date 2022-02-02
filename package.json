@@ -1,33 +1,37 @@
 {
     "private": true,
     "scripts": {
-        "development": "mix",
         "dev": "npm run development",
+        "development": "mix",
         "watch": "mix watch",
         "watch-poll": "mix watch -- --watch-options-poll=1000",
         "hot": "mix watch --hot",
-        "production": "mix --production",
-        "serve": "sudo php artisan serve --port 80 --host 0.0.0.0",
-        "build": "npm run dev"
+        "prod": "npm run production",
+        "production": "mix --production"
     },
     "devDependencies": {
+        "@inertiajs/inertia": "^0.10.0",
+        "@inertiajs/inertia-vue3": "^0.5.1",
+        "@inertiajs/progress": "^0.2.6",
+        "@tailwindcss/forms": "^0.4.0",
+        "@tailwindcss/typography": "^0.5.0",
+        "@vue/compiler-sfc": "^3.0.5",
         "axios": "^0.21",
-        "bootstrap": "^4.6.0",
-        "cross-env": "^7.0",
-        "laravel-mix": "^6.0.39",
-        "lodash": "^4.17.21",
-        "resolve-url-loader": "^4.0.0",
-        "sass": "^1.32.12",
-        "sass-loader": "^8.0.0",
-        "vue": "^2.5.17",
-        "vue-loader": "^15.9.8",
-        "vue-template-compiler": "^2.6.14"
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "postcss-import": "^12.0.1",
+        "resolve-url-loader": "^5.0.0",
+        "sass": "^1.49.7",
+        "sass-loader": "^12.4.0",
+        "tailwindcss": "^3.0.0",
+        "vue": "^3.0.5",
+        "vue-loader": "^16.1.2"
     },
     "dependencies": {
         "flickity": "^2.2.2",
         "imagesloaded": "^4.1.4",
         "isotope-layout": "^3.0.6",
         "timeago.js": "^4.0.2"
-    },
-    "name": "wgg-homepage"
+    }
 }

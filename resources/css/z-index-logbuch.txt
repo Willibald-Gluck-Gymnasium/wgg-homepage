@@ -1,0 +1,13 @@
+Hier sind alle wichtigen z-index Werte:
+
+
+Progressbar: 1031 (Standard)
+
+MainHeader: 900
+    SearchBar: 950
+        input: 960
+        button 970
+        results: 960
+
+SecondaryHeader: 800
+    shadowFade: 850
