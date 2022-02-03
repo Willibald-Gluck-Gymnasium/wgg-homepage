@@ -35,9 +35,7 @@
 
         props: {
             canLogin: Boolean,
-            canRegister: Boolean,
-            laravelVersion: String,
-            phpVersion: String,
+            canRegister: Boolean
         }
     }
 </script>

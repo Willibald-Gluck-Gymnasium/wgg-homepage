@@ -18,15 +18,15 @@
                             {{ author }}
                         </span>
                     </div> -->
-                    <div class="seperator">-</div>
+                    <!-- <div class="seperator">-</div> -->
                     <div class="readtime">
-                        {{ time }}
+                        {{ readTime }}
                     </div>
                     <div class="seperator">-</div>
                     <div class="date">
                         <span 
                             class="timeago" 
-                            :datetime="Math.round(new Date(timestamp).getTime())"
+                            :datetime="publishedAtUnix"
                         ></span>
                     </div> 
                     <div class="share">
@@ -63,8 +63,11 @@
 </template>
 
 <script>
-    import { defineComponent } from 'vue'
+    import { defineComponent, ref } from 'vue'
     import { Head, Link } from '@inertiajs/inertia-vue3';
+
+    import { format, render, cancel, register } from 'timeago.js';
+    import moment from 'moment'
 
     import MainHeader from '@components/MainHeader'
     import SecondaryHeader from '@components/SecondaryHeader'
@@ -72,7 +75,6 @@
     import ReadMore from '@components/ReadMore'
 
     let category = "Allgemein"
-    let time = 10000000
 
     export default defineComponent({
         components: {
@@ -90,14 +92,23 @@
             content: String,
             title: String,
             author: String,
-            publishedAt: String
+            publishedAt: String,
+            readTime: String
+        },
+
+        beforeMount() {
+            this.publishedAtUnix = moment(this.publishedAt, "MM.DD.YYYY HH:mm").unix() * 1000
+        },
+
+        mounted() {
+            const nodes = document.querySelectorAll('.timeago');
+            render(nodes, 'en_US');
         },
 
         data() {
             return {
-                category: "Allgemein",
-                time: 10000000,
-                timestamp: 10000000
+                category: 'Allgemein',
+                publishedAtUnix: null
             }
         }
     })
