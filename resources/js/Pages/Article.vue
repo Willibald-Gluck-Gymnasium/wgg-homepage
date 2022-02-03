@@ -74,8 +74,6 @@
     import VueFooter from '@components/VueFooter'
     import ReadMore from '@components/ReadMore'
 
-    let category = "Allgemein"
-
     export default defineComponent({
         components: {
             Head,
@@ -92,6 +90,7 @@
             content: String,
             title: String,
             author: String,
+            category: String,
             publishedAt: String,
             readTime: String
         },
@@ -107,7 +106,6 @@
 
         data() {
             return {
-                category: 'Allgemein',
                 publishedAtUnix: null
             }
         }

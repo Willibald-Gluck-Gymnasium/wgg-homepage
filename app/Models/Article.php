@@ -34,6 +34,7 @@ class Article extends Model
     {
         $table->string('title');
         $table->string('link');
+        $table->string('category');
         $table->string('author');
         $table->timestamp('published_at');
     }
