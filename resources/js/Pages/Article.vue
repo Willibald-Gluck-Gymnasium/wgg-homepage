@@ -66,15 +66,14 @@
     import { defineComponent, ref } from 'vue'
     import { Head, Link } from '@inertiajs/inertia-vue3';
 
-    import { format, render, cancel, register } from 'timeago.js';
+    import { render, register } from 'timeago.js';
+    import de from 'timeago.js/lib/lang/de.js'
     import moment from 'moment'
 
     import MainHeader from '@components/MainHeader'
     import SecondaryHeader from '@components/SecondaryHeader'
     import VueFooter from '@components/VueFooter'
     import ReadMore from '@components/ReadMore'
-
-    let category = "Allgemein"
 
     export default defineComponent({
         components: {
@@ -92,6 +91,7 @@
             content: String,
             title: String,
             author: String,
+            category: String,
             publishedAt: String,
             readTime: String
         },
@@ -101,13 +101,13 @@
         },
 
         mounted() {
+            register('de', de)
             const nodes = document.querySelectorAll('.timeago');
-            render(nodes, 'en_US');
+            render(nodes, 'de');
         },
 
         data() {
             return {
-                category: 'Allgemein',
                 publishedAtUnix: null
             }
         }

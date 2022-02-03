@@ -1,9 +1,13 @@
 <template>
+    <Head title="Home" />
+
     <main-header></main-header>
     <secondary-header></secondary-header>
     <flickity-slide></flickity-slide>
+
     <vue-headline class="mt-6 font-bold">Neuigkeiten</vue-headline>
     <card-cluster class="mt-5"></card-cluster>
+    
     <vue-footer></vue-footer>   
 </template>
 
@@ -13,7 +17,7 @@
 
 <script>
     import { defineComponent } from 'vue'
-    import { Link } from '@inertiajs/inertia-vue3';
+    import { Link, Head } from '@inertiajs/inertia-vue3';
 
     import MainHeader from '@components/MainHeader'
     import SecondaryHeader from '@components/SecondaryHeader'
@@ -24,6 +28,7 @@
 
     export default {
         components: {
+            Head,
             Link,
             MainHeader,
             SecondaryHeader,
