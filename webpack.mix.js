@@ -1,6 +1,8 @@
 const mix = require('laravel-mix');
 const path = require('path')
 
+require('dotenv').config()
+
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -20,11 +22,12 @@ mix.js('resources/js/app.js', 'public/js').vue()
         require('postcss-import'),
         require('tailwindcss'),
     ])
-    .webpackConfig(require('./webpack.config'));
+    .webpackConfig(require('./webpack.config'))
 
 if (mix.inProduction()) {
     mix.version();
 }
+
 // Work-arround for bug in vue-loader that causes src="[object] [module]"
 mix.override(webpackConfig => {
     webpackConfig.module.rules[2].use[0].options.esModule = false; 
@@ -39,3 +42,5 @@ mix.sass('resources/sass/app.scss', 'public/css')
     ], 'public/css/combined.css');
 
 mix.disableNotifications()
+
+mix.sourceMaps()

@@ -34,6 +34,7 @@ class ArticleController extends Controller
             'title' => $article->title,
             'author' => $article->author,
             'publishedAt' => $article->published_at,
+            'readTime' => $article->read_time()
         ]);
 
     }

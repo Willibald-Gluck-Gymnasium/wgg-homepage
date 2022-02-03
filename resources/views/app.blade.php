@@ -36,7 +36,7 @@
         {{-- <link rel="preload" href="{{ asset('img/Ripple-1.3s-200px.svg') }}" as="image"> --}}
 
 
-        <style>
+        {{-- <style>
             * {
                 box-sizing: border-box;
             }
@@ -68,7 +68,7 @@
                 #app.detect-colorscheme .loading-screen{
                     background-color: var(--clr-bg-primary) !important;
                 }
-            }
+            } --}}
         </style>
 
     </head>
@@ -81,8 +81,8 @@
 
         @inertia
 
-        @env ('local')
-            <script src="http://localhost:3000/browser-sync/browser-sync-client.js"></script>
-        @endenv
+        {{-- @env ('local')
+            <script src="{{ env('APP_URL') }}/browser-sync/browser-sync-client.js"></script>
+        @endenv --}}
     </body>
 </html>

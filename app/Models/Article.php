@@ -12,6 +12,8 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Schema\Blueprint;
 use \Soundasleep\Html2Text;
 use \Orbit\Concerns\Orbital;
+use \Mtownsend\ReadTime\ReadTime;
+
 
 class Article extends Model
 {
@@ -25,7 +27,6 @@ class Article extends Model
     {
         static::retrieved(function ($user) {
             $user->fixPublishedAt();
-            $user->plaintext = $user->textOnlyContent();
         });
     }
 
@@ -47,7 +48,7 @@ class Article extends Model
         return false;
     }
 
-    public function textOnlyContent()
+    public function plaintext()
     {
         $htmlToTextOptions = array(
             'ignore_errors' => true,
@@ -67,12 +68,13 @@ class Article extends Model
         $normalized = strtotime($old);
         $readable = gmdate("d.m.Y H:i", $normalized);
         $this->published_at = $readable;
+        $this->save();
+    }
+
+    public function read_time()
+    {
+        return (new ReadTime($this->plaintext()))->get();
     }
 
 }
 
-
-// Article::create([
-//     'title' => 'Test',
-//     'link' => 'test-link'
-// ]);

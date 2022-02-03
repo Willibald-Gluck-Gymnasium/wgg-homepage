@@ -51,7 +51,6 @@ export default {
 		window.addEventListener('resize', function(){
 			if (lastIsotopeWidth != cardCluster.clientWidth) {
 				isotope.arrange()
-				console.log("Test");
 			}
 			lastIsotopeWidth = cardCluster.clientWidth
 		});

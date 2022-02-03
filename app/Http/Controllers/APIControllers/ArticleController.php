@@ -46,7 +46,7 @@ class ArticleController extends Controller
             'author' => $article->author,
             'published_at' => $article->published_at,
             'content' => $article->content,
-            'plaintext' => $article->plaintext
+            'plaintext' => $article->plaintext()
         ];
 
         return [
