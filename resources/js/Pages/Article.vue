@@ -66,7 +66,8 @@
     import { defineComponent, ref } from 'vue'
     import { Head, Link } from '@inertiajs/inertia-vue3';
 
-    import { format, render, cancel, register } from 'timeago.js';
+    import { render, register } from 'timeago.js';
+    import de from 'timeago.js/lib/lang/de.js'
     import moment from 'moment'
 
     import MainHeader from '@components/MainHeader'
@@ -100,8 +101,9 @@
         },
 
         mounted() {
+            register('de', de)
             const nodes = document.querySelectorAll('.timeago');
-            render(nodes, 'en_US');
+            render(nodes, 'de');
         },
 
         data() {
