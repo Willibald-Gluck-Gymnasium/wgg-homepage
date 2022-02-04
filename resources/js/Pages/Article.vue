@@ -58,8 +58,8 @@
         </div>
     </div>
 
-
     <vue-footer></vue-footer>
+
 </template>
 
 <script>
@@ -97,7 +97,7 @@
         },
 
         beforeMount() {
-            this.publishedAtUnix = moment(this.publishedAt, "MM.DD.YYYY HH:mm").unix() * 1000
+            this.publishedAtUnix = moment(this.publishedAt, "DD.MM.YYYY HH:mm").unix() * 1000
         },
 
         mounted() {

@@ -8,7 +8,7 @@
     <vue-headline class="mt-6 font-bold">Neuigkeiten</vue-headline>
     <card-cluster class="mt-5"></card-cluster>
     
-    <vue-footer></vue-footer>   
+    <vue-footer></vue-footer>
 </template>
 
 <style>
@@ -16,7 +16,6 @@
 </style>
 
 <script>
-    import { defineComponent } from 'vue'
     import { Link, Head } from '@inertiajs/inertia-vue3';
 
     import MainHeader from '@components/MainHeader'

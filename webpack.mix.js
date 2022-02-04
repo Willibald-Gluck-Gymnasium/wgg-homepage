@@ -15,7 +15,9 @@ require('dotenv').config()
  */
 
 mix.alias({ '@resources': path.join(__dirname, 'resources') })
-    .alias({ '@components': path.join(__dirname, 'resources/js/components') })
+    .alias({ '@components': path.join(__dirname, 'resources/js/Components') })
+    .alias({ '@layouts': path.join(__dirname, 'resources/js/Layouts') })
+
 
 mix.js('resources/js/app.js', 'public/js').vue()
     .postCss('resources/css/app.css', 'public/css', [
