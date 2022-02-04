@@ -61,28 +61,28 @@ export default {
 			{
 				title: 'Finish further even graph clear close',
 				main_category: 'Aktuelles',
-				published_on: 'Thu Dec 24 2020 03:01:21 GMT+0100',
+				published_on: '01.11.2020 13:00',
 				image: require('@resources/img/color1-thumbnail.jpeg'),
 				slug: 'corona-sicherheit'
 			},
 			{
 				title: 'Than indicate ball land brought themselves little path',
 				main_category: 'Unterricht',
-				published_on: 'Nov 2 2020 01:12:10 GMT+0100',
+				published_on: '01.11.2020 13:00',
 				image: require('@resources/img/color2-thumbnail.jpeg'),
 				slug: 'schulanmeldung'
 			},
 			{
 				title: 'Wife tin mighty court',
 				main_category: 'Aktivitäten',
-				published_on: 'Dec 19 2020 08:50:10 GMT+0100',
+				published_on: '04.02.2022 9:21',
 				image: require('@resources/img/color3-thumbnail.jpeg'),
 				slug: 'schuljahr2020'
 			},
 			{
 				title: 'Unsere Schülergenossenschaft findet demnächst ihre Anfänge',
 				main_category: 'Gemeinschafft',
-				published_on: 'Dec 2 2020 01:50:10 GMT+0100',
+				published_on: '04.02.2022 10:05',
 				image: require('@resources/img/color4-thumbnail.jpeg'),
 				slug: 'schuelergenossenschaft'
 			},
