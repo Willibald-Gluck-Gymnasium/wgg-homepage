@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="readmore">
         <div class="text">Weiterlesen:</div>
         <div class="links">
             <a
@@ -61,7 +61,7 @@ data: () => ({
 <style lang="scss" scoped>
 $clr-border: rgba(0,0,0,.3);
 $clr-border-dark: rgba(255,255,255,.3);
-div.container {
+div.readmore {
     // border-top: 1px solid var(--clr-font);
     // border: 1px solid var(--clr-bg-secondary);
     border-radius: 15px;
@@ -70,6 +70,7 @@ div.container {
     // background: var(--clr-bg-secondary);
     // width: 100%;
     display: flex;
+    margin-top: 15px;
     div.text {
         font-size: 20px;
         font-weight: bold;
@@ -118,7 +119,7 @@ div.container {
     }
 }
 @media only screen and (max-width: 800px) {
-    div.container {
+    div.readmore {
         div.links {
             a {
                 span {
@@ -132,7 +133,7 @@ div.container {
     }
 }
 @media only screen and (max-width: 700px) {
-    div.container {
+    div.readmore {
         flex-direction: column;
         border-radius: 0;
         border: none;
@@ -140,7 +141,7 @@ div.container {
     }
 }
 @at-root .touchevents {
-    div.container {
+    div.readmore {
         div.links {
             a {
                 &:hover {
@@ -166,7 +167,7 @@ div.container {
     }
 }
 @media print {
-    div.container {
+    div.readmore {
         display: none;
     }
 }
