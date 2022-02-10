@@ -2,8 +2,8 @@
     <div class="header">
         <div class="content">
             <Link :href="route('home')" class="logo-wrapper">
-                <img class="logo" src="/img/wgg-logo.svg" alt="">
-                <div class="divider"></div>
+                <school-logo class="mr-3"></school-logo>
+                <div class="divider mr-3"></div>
                 <div class="logo-text">WGG</div>
             </Link>
             <search-bar></search-bar>
@@ -13,6 +13,7 @@
 
 <script>
 import SearchBar from '@components/SearchBar'
+import SchoolLogo from '@components/SchoolLogo'
 
 import { Link } from '@inertiajs/inertia-vue3'
 
@@ -20,6 +21,7 @@ export default {
 
     components: {
         SearchBar,
+        SchoolLogo,
         Link
     }
 
@@ -64,7 +66,6 @@ export default {
                 width: 3px;
                 background-color: #FFF;
                 height: 40px;
-                margin-right: 12px;
             }
 
             .logo-text {
