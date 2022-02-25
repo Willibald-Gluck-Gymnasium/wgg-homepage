@@ -15,13 +15,13 @@
         <br>
         Powered by <a class="link" href="https://vuejs.org/">Vue.js</a> and <a class="link" href="https://laravel.com/">Laravel</a>
         <br>
-        <a class="link" href="https://github.com/Willibald-Gluck-Gymnasium/wgg-homepage/blob/development/LICENSE">MIT License</a>
+        <a class="link" href="/license">MIT License</a>
       </div>
       <div id="links">
         <div class="title">Links</div>
-        <a class="link" href="impressum">Impressum</a>
+        <Link class="link" :href="'/impressum'">Impressum</Link>
         <br>
-        <a class="link" href="datenschutz">Datenschutz</a>
+        <Link class="link" :href="'/datenschutz'">Datenschutz</Link>
       </div>
     </div>
     <div class="content">
@@ -65,7 +65,12 @@
 </template>
 
 <script>
+import { Link} from '@inertiajs/inertia-vue3';
+
 export default {
+  components: {
+    Link
+  }
 
 }
 </script>
