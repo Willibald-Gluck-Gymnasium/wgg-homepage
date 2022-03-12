@@ -1,14 +1,17 @@
 <template>
-    <div class="slide">
+    <Link class="slide" :href="route('artikel.show', link)">
         <img class="background-image" :src="thumbnailImage">
         <div class="background-gradient"></div>
         <div class="title">{{ title }}</div>
-    </div>
+    </Link>
 </template>
 
 <script setup>
 import { onBeforeMount, onMounted, ref } from 'vue';
 import images from '@/images'
+
+import { Link } from '@inertiajs/inertia-vue3'
+
 
 const props = defineProps(['image', 'title', 'link'])
 
