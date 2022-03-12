@@ -36,8 +36,19 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 })->name('dashboard');
 
 Route::get('/results', function () {
-    return view('results');
-});
+    return Inertia::render('Results', [
+        'canLogin' => Route::has('login'),
+        'canRegister' => Route::has('register')
+    ]);
+})->name('results');
+
+Route::get('/collection/{category}', function ($category) {
+    return Inertia::render('Collection', [
+        'canLogin' => Route::has('login'),
+        'canRegister' => Route::has('register'),
+        'category' => $category
+    ]);
+})->name('collection');
 
 // Route::get('/collection', function () {
 //     return view('collection');
@@ -61,13 +72,6 @@ Route::get('/phpinfo', function () {
 
 Route::get('/favicon.ico', function () {
     return response()->file( public_path().'/favicons/favicon.ico' );
-});
-
-// Route::get('/collection/{category}', [CollectionController::class, 'show']);
-Route::get('/collection/{category}', function($category) {
-    return view('collection', [
-        'category' => $category
-    ]);
 });
 
 Route::get('/{article}', [ArticleController::class, 'show'])->name('artikel.show');

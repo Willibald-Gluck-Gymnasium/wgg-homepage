@@ -4,22 +4,26 @@
         <div id="leftfade"></div>
         <div id="scrollnav" v-on:scroll="updateFading()" class="content">
             <div class="items">
-                <a class="item" href="/collection/aktuelles">Aktuelles</a>
-                <a class="item" href="/collection/gemeinschaft">Gemeinschaft</a>
-                <a class="item" href="/collection/unterricht">Unterricht</a>
-                <a class="item" href="/collection/termine">Termine</a>
-                <a class="item" href="/collection/aktivitäten">Aktivitäten</a>
-                <a class="item" href="/collection/service">Service</a>
-                <a class="item" href="/collection/partner">Netzwerk</a>
-                <a class="item" href="/collection/partner">Partner</a>
-                <a class="item" href="/collection/kontakt">Kontakt</a>
+                <Link class="item" href="/collection/aktuelles">Aktuelles</Link>
+                <Link class="item" href="/collection/gemeinschaft">Gemeinschaft</Link>
+                <Link class="item" href="/collection/unterricht">Unterricht</Link>
+                <Link class="item" href="/collection/termine">Termine</Link>
+                <Link class="item" href="/collection/aktivitäten">Aktivitäten</Link>
+                <Link class="item" href="/collection/service">Service</Link>
+                <Link class="item" href="/collection/partner">Netzwerk</Link>
+                <Link class="item" href="/collection/partner">Partner</Link>
+                <Link class="item" href="/collection/kontakt">Kontakt</Link>
             </div>
         </div>
     </div>
 </template>
 
-<script>
+<script>import { Link} from '@inertiajs/inertia-vue3';
+
 export default {
+    components: {
+        Link
+    },
     
     // data() {
     //     return {

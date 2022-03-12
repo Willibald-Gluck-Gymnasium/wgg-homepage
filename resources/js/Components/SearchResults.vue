@@ -14,12 +14,17 @@
 </template>
 
 <script>
+import SearchResult from '@components/SearchResult'
+
 export default {
+    components: {
+        SearchResult
+    },
     data: () => ({
         results: [
             {
                 href: '/smv',
-                imgsrc: 'images/neuesschuljahr.jpg',
+                imgsrc: 'img/neuesschuljahr.jpg',
                 category: 'Gemeinschaft',
                 timestamp: 'Dec 2 2020 01:50:10 GMT+0100',
                 title: 'Die SMV',
@@ -27,7 +32,7 @@ export default {
             },
             {
                 href: '/schuelergenossenschaft',
-                imgsrc: 'images/schuelergenossenschaft.jpg',
+                imgsrc: 'img/schuelergenossenschaft.jpg',
                 category: 'Aktivitäten',
                 timestamp: 'May 4 2016 1:40:32 GMT+0100',
                 title: 'Die Schülergenossenschaft',
@@ -35,7 +40,7 @@ export default {
             },
             {
                 href: '/schulleitung',
-                imgsrc: 'images/schulbeginn.jpg',
+                imgsrc: 'img/schulbeginn.jpg',
                 category: 'Gemeinschaft',
                 timestamp: 'Feb 16 2021 4:50:12 GMT+0100',
                 title: 'Die Schulleitung',
@@ -43,7 +48,7 @@ export default {
             },
             {
                 href: '/schulgarten',
-                imgsrc: 'images/color4.jpg',
+                imgsrc: 'img/color4.jpg',
                 category: 'Aktivitäten',
                 timestamp: 'Apr 30 1994 2:30:24 GMT+0100',
                 title: 'Die Schulgärtner',

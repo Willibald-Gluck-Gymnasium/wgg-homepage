@@ -5,7 +5,7 @@
  use Illuminate\Foundation\Testing\RefreshDatabase;
  use Tests\TestCase;
 
- class ExampleTest extends TestCase
+ class RouteStatusTest extends TestCase
  {
      /**
       * Tests home route.
@@ -24,24 +24,24 @@
       *
       * @return void
       */
-     public function testImpressum()
-     {
-         $response = $this->get('/impressum');
+    //  public function testImpressum()
+    //  {
+    //      $response = $this->get('/impressum');
 
-         $response->assertStatus(200);
-     }
+    //      $response->assertStatus(200);
+    //  }
 
      /**
       * Tests datenschutz route.
       *
       * @return void
       */
-     public function testDatenschutz()
-     {
-         $response = $this->get('/datenschutz');
+    //  public function testDatenschutz()
+    //  {
+    //      $response = $this->get('/datenschutz');
 
-         $response->assertStatus(200);
-     }
+    //      $response->assertStatus(200);
+    //  }
 
      /**
       * Tests license route.
