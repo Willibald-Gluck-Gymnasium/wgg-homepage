@@ -1,4 +1,6 @@
 require('./bootstrap');
+require('./images.js')
+
 
 import { createApp, h } from 'vue';
 import { createInertiaApp } from '@inertiajs/inertia-vue3';

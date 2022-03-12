@@ -2,7 +2,7 @@
     <div class="card">
         <Link :href="route('artikel.show', slug)" class="content">
             <div class="force-thumbnail-aspect-ratio">
-                <img :src="image" class="thumbnail">
+                <img :src="thumbnailImage" class="thumbnail">
             </div>
 
             <div>
@@ -20,6 +20,10 @@
 
 <script>
 import { Link } from '@inertiajs/inertia-vue3'
+
+import { ref, onBeforeMount, onActivated } from 'vue'
+
+import images from '@/images'
 
 import { render, register } from 'timeago.js'
 import de from 'timeago.js/lib/lang/de.js'
@@ -46,6 +50,23 @@ export default {
         register('de', de);
         const nodes = document.querySelectorAll('.timeago');
         render(nodes, 'de')
+    },
+
+    setup(props) {
+        // If the prop image starts with !!getFromImageModule!! it will look in 
+        // the images object from the images.js module to replace the value 
+        const thumbnailImage = ref(props.image)
+        
+        onBeforeMount(() => {
+            let imgKey = thumbnailImage.value
+
+            if (imgKey.startsWith("!!getFromImageModule!!")) {
+                imgKey = imgKey.replace('!!getFromImageModule!!','')
+                thumbnailImage.value = images[imgKey]
+            }
+        })
+
+        return { thumbnailImage };
     }
 
 }

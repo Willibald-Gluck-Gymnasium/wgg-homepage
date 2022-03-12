@@ -23,7 +23,7 @@ class ArticleController extends Controller
         // view('article', [
         //     'title' => $article->title,
         //     'author' => $article->author,
-        //     'published_at' => $article->published_at,
+        //     'published_on' => $article->published_on,
         //     'content' => $article->content
         // ]);
 
@@ -34,7 +34,7 @@ class ArticleController extends Controller
             'title' => $article->title,
             'category' => $article->category,
             'author' => $article->author,
-            'publishedAt' => $article->published_at,
+            'publishedAt' => $article->published_on,
             'readTime' => $article->read_time()
         ]);
 
