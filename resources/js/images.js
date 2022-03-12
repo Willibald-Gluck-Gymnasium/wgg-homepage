@@ -4,7 +4,7 @@
 
 const images = {
     testimg1_thumbnail: require(`@img/color1.jpg?pipeline=thumbnail`),
-    testimg1_slider: require("@img/color1.jpg?pipeline=slider")
+    testimg1_slide: require("@img/color1.jpg?pipeline=slide")
 }
 
 export default images

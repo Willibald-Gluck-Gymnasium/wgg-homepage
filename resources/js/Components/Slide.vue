@@ -22,6 +22,7 @@ const thumbnailImage = ref(props.image)
 onBeforeMount(() => {
     let imgKey = thumbnailImage.value
 
+
     if (imgKey.startsWith("!!getFromImageModule!!")) {
         imgKey = imgKey.replace('!!getFromImageModule!!','')
         thumbnailImage.value = images[imgKey]

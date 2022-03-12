@@ -9,8 +9,8 @@
 ```js
 const images = {
     [...]
-    testimg1_thumbnail: require(`@img/color1.jpg?pipeline=thumbnail`),
-    testimg1_slider: require("@img/color1.jpg?pipeline=slider")
+    name_of_your_image: require(`@img/article-thumbnail.jpg?pipeline=thumbnail`),
+    name_of_your_image: require("@img/article-thumbnail.jpg?pipeline=slide")
 }
 ```
 
@@ -21,7 +21,7 @@ const images = {
 title: Titel deines Artikels
 link: link-zum-artikel
 thumbnail: name_of_your_image # here
-thumbnail_slider: name_of_your_image_sideshow # and here
+thumbnail_slide: name_of_your_image_sideshow # and here
 published_on: 02.11.2021 00:12
 ---
 <h2>Beispiel Überschrift</h2>

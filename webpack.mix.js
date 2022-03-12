@@ -26,7 +26,7 @@ mix.img({
 
         footer: sharp => sharp.resize(100, 100).runPipeline("compression"),
 
-        slider: sharp => sharp.resize(2160, 600).runPipeline("compression"),
+        slide: sharp => sharp.resize(2160, 600).runPipeline("compression"),
 
         compression: sharp => sharp.toFormat("jpeg", { quality: 60 })
 

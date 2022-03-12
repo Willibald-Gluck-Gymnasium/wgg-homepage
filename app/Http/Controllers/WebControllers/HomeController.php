@@ -31,14 +31,14 @@ class HomeController extends Controller
             return $item;
         })->toArray();
 
-        $slideCollection = Article::select('title', 'link', 'category', 'thumbnail_slider', 'published_on')
+        $slideCollection = Article::select('title', 'link', 'category', 'thumbnail_slide', 'published_on')
             // ->orderBy('published_on', 'desc')
             ->inRandomOrder()
             ->take(4)
             ->get();
 
         $slides = $slideCollection->map(function ($item, $key) {
-            $item['thumbnail_slider'] = '!!getFromImageModule!!'.$item['thumbnail_slider'];
+            $item['thumbnail_slide'] = '!!getFromImageModule!!'.$item['thumbnail_slide'];
             return $item;
         })->toArray();
 
