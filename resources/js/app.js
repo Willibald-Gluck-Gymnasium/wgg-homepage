@@ -1,4 +1,6 @@
 require('./bootstrap');
+require('./images.js')
+
 
 import { createApp, h } from 'vue';
 import { createInertiaApp } from '@inertiajs/inertia-vue3';
@@ -21,5 +23,3 @@ InertiaProgress.init({
     delay: 150,
     color: '#ff881a'
 });
-
-// require('./images')

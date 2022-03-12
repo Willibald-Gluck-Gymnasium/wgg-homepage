@@ -1,12 +1,5 @@
-const fs = require("fs")
+/**
+ * Here you require every image you need, and can then use it anywhere you want.
+ */
 
-const files = fs.readdirSync("@img/")
-
-const images = []
-
-// images.push(require('@img/color1.jpg?pipeline=article'))
-
-files.forEach(file => {
-    images.push(require('@img/' + file + '?pipeline=article'))
-});
-
+window.images.example = require("@img/color1.jpg?pipeline=article")

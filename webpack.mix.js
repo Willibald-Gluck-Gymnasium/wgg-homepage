@@ -1,7 +1,5 @@
 const mix = require('laravel-mix');
 
-require('dotenv').config()
-
 require('laravel-mix-image-processor')
 
 /*
