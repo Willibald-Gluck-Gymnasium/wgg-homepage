@@ -19,7 +19,7 @@ class Article extends Model
 {
     use Orbital;
 
-    protected $fillable = ['title', 'link', 'author', 'published_at'];
+    // protected $fillable = ['title', 'link', 'author', 'published_on'];
 
     public $timestamps = false;
 
@@ -34,9 +34,10 @@ class Article extends Model
     {
         $table->string('title');
         $table->string('link');
+        $table->string('thumbnail');
         $table->string('category');
         $table->string('author');
-        $table->timestamp('published_at');
+        $table->timestamp('published_on');
     }
 
     public function getKeyName()
@@ -65,10 +66,10 @@ class Article extends Model
 
     private function fixPublishedAt()
     {
-        $old = $this->published_at;
+        $old = $this->published_on;
         $normalized = strtotime($old);
         $readable = gmdate("d.m.Y H:i", $normalized);
-        $this->published_at = $readable;
+        $this->published_on = $readable;
         $this->save();
     }
 

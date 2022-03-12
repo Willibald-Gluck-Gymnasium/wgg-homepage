@@ -23,7 +23,7 @@ class ArticleController extends Controller
             'title',
             'link',
             'author',
-            'published_at'
+            'published_on'
         )->simplePaginate(15);
 
         return [
@@ -44,7 +44,7 @@ class ArticleController extends Controller
             'title' => $article->title,
             'link' => $article->link,
             'author' => $article->author,
-            'published_at' => $article->published_at,
+            'published_on' => $article->published_on,
             'content' => $article->content,
             'plaintext' => $article->plaintext()
         ];

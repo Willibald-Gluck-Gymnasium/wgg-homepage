@@ -1,7 +1,6 @@
 const mix = require('laravel-mix');
-const path = require('path')
 
-require('dotenv').config()
+require('laravel-mix-image-processor')
 
 /*
  |--------------------------------------------------------------------------
@@ -14,26 +13,38 @@ require('dotenv').config()
  |
  */
 
-mix.alias({ '@resources': path.join(__dirname, 'resources') })
-    .alias({ '@components': path.join(__dirname, 'resources/js/Components') })
-    .alias({ '@layouts': path.join(__dirname, 'resources/js/Layouts') })
+mix.webpackConfig(require('./webpack.config'))
 
+mix.img({
+    outputPath: 'img',
+    name: '[name]-[md4:hash:hex:10].[ext]',
+    esModule: false,
+    pipelines: {
+        thumbnail: sharp => sharp.resize(600, 300).runPipeline("compression"),
 
-mix.js('resources/js/app.js', 'public/js').vue()
+        article: sharp => sharp.resize(2160).runPipeline("compression"),
+
+        footer: sharp => sharp.resize(100, 100).runPipeline("compression"),
+
+        slideshow: sharp => sharp.resize(2160, 600).runPipeline("compression"),
+
+        compression: sharp => sharp.toFormat("jpeg", { quality: 60 })
+
+    }
+})
+
+mix.js('resources/js/app.js', 'public/js')
+    .vue()
     .postCss('resources/css/app.css', 'public/css', [
         require('postcss-import'),
         require('tailwindcss'),
     ])
-    .webpackConfig(require('./webpack.config'))
+    
 
 if (mix.inProduction()) {
     mix.version();
 }
 
-// Work-arround for bug in vue-loader that causes src="[object] [module]"
-mix.override(webpackConfig => {
-    webpackConfig.module.rules[2].use[0].options.esModule = false; 
-});
 
 mix.sass('resources/sass/app.scss', 'public/css')
     .combine([
@@ -42,7 +53,5 @@ mix.sass('resources/sass/app.scss', 'public/css')
     .combine([
         'resources/css/cssremedy.css'
     ], 'public/css/combined.css');
-
-mix.disableNotifications()
 
 mix.sourceMaps()
