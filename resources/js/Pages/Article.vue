@@ -51,7 +51,7 @@
                 </div>
             </div>
 
-            <div id="articleContent"></div>
+            <div v-html="content" id="articleContent"></div>
 
             <div class="clear"></div>
             <read-more></read-more>
