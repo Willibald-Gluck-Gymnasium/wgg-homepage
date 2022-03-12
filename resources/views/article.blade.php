@@ -7,7 +7,7 @@
         <article-content 
             category="{{ $category ?? 'Allgemein' }}" 
             title="{{ $title }}" 
-            timestamp="{{ $published_at }}" 
+            timestamp="{{ $published_on }}" 
             author="{{ $author ?? 'Unbekannter Autor' }}" 
             {{-- authorimg="<?php 
 

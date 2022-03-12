@@ -9,6 +9,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Controllers\WebControllers\ArticleController;
 use App\Http\Controllers\WebControllers\CollectionController;
+use App\Http\Controllers\WebControllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,25 +22,14 @@ use App\Http\Controllers\WebControllers\CollectionController;
 |
 */
 
-Route::get('/', function () {
-    return Inertia::render('Home', [
-        'canLogin' => Route::has('login'),
-        'canRegister' => Route::has('register')
-    ]);
-})->name('home');
-
-// Route::middleware(['guest:'.config('fortify.guard')])->get('/login', function () {
-//     return Inertia::render('Auth/Login', [
-//         'canResetPassword' => Route::has('password.request'),
-//         'canRegister' => Route::has('register'),
-//         'status'
-//     ]);
-// })->name('login');
-
-
 // Route::get('/', function () {
-//     return view('home');
-// });
+//     return Inertia::render('Home', [
+//         'canLogin' => Route::has('login'),
+//         'canRegister' => Route::has('register')
+//     ]);
+// })->name('home');
+
+Route::get('/', [HomeController::class, 'index'])->name('home');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return Inertia::render('Dashboard');

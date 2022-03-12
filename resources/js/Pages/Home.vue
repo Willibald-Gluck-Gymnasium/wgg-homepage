@@ -6,7 +6,7 @@
     <flickity-slide></flickity-slide>
 
     <vue-headline class="mt-6 font-bold">Neuigkeiten</vue-headline>
-    <card-cluster class="mt-5"></card-cluster>
+    <card-cluster :cards="cards" class="mt-5"></card-cluster>
     
     <vue-footer></vue-footer>
 </template>
@@ -39,7 +39,8 @@
 
         props: {
             canLogin: Boolean,
-            canRegister: Boolean
+            canRegister: Boolean,
+            cards: Array
         }
     }
 </script>
