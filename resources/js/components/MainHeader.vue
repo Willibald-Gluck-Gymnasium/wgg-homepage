@@ -12,8 +12,8 @@
 </template>
 
 <script>
-import SearchBar from '@components/SearchBar'
-import SchoolLogo from '@components/SchoolLogo'
+import SearchBar from '@Components/SearchBar'
+import SchoolLogo from '@Components/SchoolLogo'
 
 import { Link } from '@inertiajs/inertia-vue3'
 
