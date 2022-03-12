@@ -66,7 +66,7 @@ export default {
             }
         })
 
-        return { thumbnailImage };
+        return { thumbnailImage }
     }
 
 }
