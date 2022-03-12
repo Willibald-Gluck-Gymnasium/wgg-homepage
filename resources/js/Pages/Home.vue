@@ -3,7 +3,7 @@
 
     <main-header></main-header>
     <secondary-header></secondary-header>
-    <flickity-slide></flickity-slide>
+    <slideshow :slides="slides"></slideshow>
 
     <vue-headline class="mt-6 font-bold">Neuigkeiten</vue-headline>
     <card-cluster :cards="cards" class="mt-5"></card-cluster>
@@ -20,7 +20,7 @@
 
     import MainHeader from '@components/MainHeader'
     import SecondaryHeader from '@components/SecondaryHeader'
-    import FlickitySlide from '@components/FlickitySlide'
+    import Slideshow from '@components/Slideshow'
     import CardCluster from '@components/CardCluster'
     import VueFooter from '@components/VueFooter'
     import VueHeadline from '@components/VueHeadline'
@@ -31,16 +31,15 @@
             Link,
             MainHeader,
             SecondaryHeader,
-            FlickitySlide,
+            Slideshow,
             CardCluster,
             VueFooter,
             VueHeadline
         },
 
         props: {
-            canLogin: Boolean,
-            canRegister: Boolean,
-            cards: Array
+            slides: Array,
+            cards: Array,
         }
     }
 </script>

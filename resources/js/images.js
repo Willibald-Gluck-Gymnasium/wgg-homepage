@@ -2,8 +2,12 @@
  * Here you require every image you need, and can then use it anywhere you want.
  */
 
-let images = {}
+const images = {}
 
-images.testimg1 = require("@img/color1.jpg?pipeline=article")
+
+images.testimg1_thumbnail = require(`@img/color1.jpg?pipeline=thumbnail`)
+images.testimg1_slider = require("@img/color1.jpg?pipeline=slider")
+
+
 
 export default images

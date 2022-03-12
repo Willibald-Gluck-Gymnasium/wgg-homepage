@@ -20,13 +20,13 @@ mix.img({
     name: '[name]-[md4:hash:hex:10].[ext]',
     esModule: false,
     pipelines: {
-        thumbnail: sharp => sharp.resize(600, 300).runPipeline("compression"),
+        thumbnail: sharp => sharp.resize(800, 375).runPipeline("compression"),
 
         article: sharp => sharp.resize(2160).runPipeline("compression"),
 
         footer: sharp => sharp.resize(100, 100).runPipeline("compression"),
 
-        slideshow: sharp => sharp.resize(2160, 600).runPipeline("compression"),
+        slider: sharp => sharp.resize(2160, 600).runPipeline("compression"),
 
         compression: sharp => sharp.toFormat("jpeg", { quality: 60 })
 

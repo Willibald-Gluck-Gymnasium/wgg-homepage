@@ -35,6 +35,7 @@ class Article extends Model
         $table->string('title');
         $table->string('link');
         $table->string('thumbnail');
+        $table->string('thumbnail_slider');
         $table->string('category');
         $table->string('author');
         $table->timestamp('published_on');

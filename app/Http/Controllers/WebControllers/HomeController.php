@@ -22,17 +22,31 @@ class HomeController extends Controller
             'example'
         ];
 
-        $articleCollection = Article::select('title', 'link', 'category', 'author', 'thumbnail', 'published_on')
+        $cardCollection = Article::select('title', 'link', 'category', 'author', 'thumbnail', 'published_on')
             // ->whereIn('link', $titles)
             ->get();
 
-        $articles = $articleCollection->map(function ($item, $key) {
+        $cards = $cardCollection->map(function ($item, $key) {
             $item['thumbnail'] = "!!getFromImageModule!!".$item['thumbnail'];
             return $item;
         })->toArray();
 
+        $slideCollection = Article::select('title', 'link', 'category', 'thumbnail_slider', 'published_on')
+            // ->orderBy('published_on', 'desc')
+            ->inRandomOrder()
+            ->take(4)
+            ->get();
+
+        $slides = $slideCollection->map(function ($item, $key) {
+            $item['thumbnail_slider'] = '!!getFromImageModule!!'.$item['thumbnail_slider'];
+            return $item;
+        })->toArray();
+
+        // dd($slides);
+
         return Inertia::render('Home', [
-            'cards' => $articles,
+            'cards' => $cards,
+            'slides' => $slides
         ]);
     }
 }
