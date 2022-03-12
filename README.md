@@ -7,8 +7,11 @@
 1. Register your image in `resources/js/images.js`
 
 ```js
-images.name_of_your_image = require(`@img/color1.jpg?pipeline=thumbnail`)
-images.name_of_your_image_sideshow = require("@img/color1.jpg?pipeline=slider")
+const images = {
+    [...]
+    testimg1_thumbnail: require(`@img/color1.jpg?pipeline=thumbnail`),
+    testimg1_slider: require("@img/color1.jpg?pipeline=slider")
+}
 ```
 
 2. Add it to your article file in `resources/content/articles`
