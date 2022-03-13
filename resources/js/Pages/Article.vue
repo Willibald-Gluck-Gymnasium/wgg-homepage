@@ -51,7 +51,7 @@
                 </div>
             </div>
 
-            <div v-html="content" id="articleContent"></div>
+            <div ref="articlecontent" id="articlecontent"></div>
 
             <div class="clear"></div>
             <read-more></read-more>
@@ -63,7 +63,7 @@
 </template>
 
 <script>
-    import { defineComponent, onBeforeMount, ref, compile, createApp } from 'vue'
+    import { createApp, defineComponent, onMounted, ref, compile, h } from 'vue'
     import { Head, Link } from '@inertiajs/inertia-vue3';
 
     import { render, register } from 'timeago.js';
@@ -74,6 +74,7 @@
     import SecondaryHeader from '@components/SecondaryHeader'
     import VueFooter from '@components/VueFooter'
     import ReadMore from '@components/ReadMore'
+    import Youtube from '@components/Youtube'
 
     export default defineComponent({
         components: {
@@ -85,7 +86,6 @@
             ReadMore
         },
 
-        // Vue.compile(content)
         props: {
             canLogin: Boolean,
             canRegister: Boolean,
@@ -114,14 +114,28 @@
         },
 
         setup(props) {
-            onBeforeMount(() => {
-                const rawHTML = props.content
-                const renderer = compile(rawHTML)
-                const app = createApp({render:renderer})
-                app.mount('#articleContent')
+            
+
+            const ArticleComponent = defineComponent({
+                setup() {
+                    const rawHTML = props.content
+                    const renderer = compile(rawHTML)
+                    const vnode = h(renderer)
+                    return () => vnode
+                },
+                components: {
+                    Youtube
+                }
+            })
+        
+            const articlecontent = ref(null)
+
+            onMounted(() => {
+                console.log(articlecontent.value)
+                createApp(ArticleComponent).mount(articlecontent.value)
             })
 
-            return { }
+            return { articlecontent }
         }
     })
 </script>
