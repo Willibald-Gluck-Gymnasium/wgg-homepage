@@ -53,6 +53,7 @@ export default {
         .logo-wrapper {
             // margin-right: auto;
             display: flex;
+            flex-shrink: 0;
             align-items: center;
             color: inherit;
             text-decoration: none;

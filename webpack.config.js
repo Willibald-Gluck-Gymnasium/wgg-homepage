@@ -19,6 +19,6 @@ module.exports = {
     },
     cache: {
         type: 'filesystem',
-        cacheDirectory: path.resolve('cache/webpack')
+        cacheDirectory: path.resolve('bootstrap/cache/webpack')
     }
 };
