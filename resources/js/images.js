@@ -3,8 +3,14 @@
  */
 
 const images = {
-    testimg1_thumbnail: require(`@img/color1.jpg?pipeline=thumbnail`),
-    testimg1_slide: require("@img/color1.jpg?pipeline=slide")
+    testimg1_thumbnail: require(`@img/color3.jpg?pipeline=thumbnail`),
+    testimg1_slide: require("@img/color3.jpg?pipeline=slide"),
+
+    construction_sign_thumbnail: require("@img/construction-sign.jpg?pipeline=thumbnail"),
+    construction_sign_slide: require("@img/construction-sign.jpg?pipeline=slide"),
+
+    geogebra_thumbnail: require("@img/geogebra.png?pipeline=thumbnail"),
+    geogebra_slide: require("@img/geogebra.png?pipeline=slide")
 }
 
 export default images
