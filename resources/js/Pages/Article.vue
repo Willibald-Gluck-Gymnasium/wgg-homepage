@@ -75,6 +75,9 @@
     import VueFooter from '@components/VueFooter'
     import ReadMore from '@components/ReadMore'
 
+    import Youtube from '@components/Youtube'
+    import Image from '@components/Image'
+
     export default defineComponent({
         components: {
             Head,
@@ -114,11 +117,25 @@
         },
 
         setup(props) {
-            onBeforeMount(() => {
-                const rawHTML = props.content
-                const renderer = compile(rawHTML)
-                const app = createApp({render:renderer})
-                app.mount('#articleContent')
+            
+
+            const ArticleComponent = defineComponent({
+                setup() {
+                    const rawHTML = props.content
+                    const renderer = compile(rawHTML)
+                    const vnode = h(renderer)
+                    return () => vnode
+                }
+            })
+        
+            const articlecontent = ref(null)
+
+            onMounted(() => {
+                console.log(articlecontent.value)
+                createApp(ArticleComponent)
+                    .component("youtube", Youtube)
+                    .component("v-image", Image)
+                    .mount(articlecontent.value)
             })
 
             return { }
