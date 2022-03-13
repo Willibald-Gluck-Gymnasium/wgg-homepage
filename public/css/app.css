@@ -1469,6 +1469,9 @@ select {
 .flex-1 {
   flex: 1 1 0% !important;
 }
+.flex-shrink {
+  flex-shrink: 1 !important;
+}
 .shrink-0 {
   flex-shrink: 0 !important;
 }
