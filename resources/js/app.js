@@ -2,9 +2,10 @@ require('./bootstrap');
 require('./images.js')
 
 
-import { createApp, h } from 'vue';
+import { createApp, h, component } from 'vue';
 import { createInertiaApp } from '@inertiajs/inertia-vue3';
 import { InertiaProgress } from '@inertiajs/progress';
+
 
 const appName = window.document.getElementsByTagName('title')[0]?.innerText || 'Laravel';
 

@@ -51,7 +51,7 @@
                 </div>
             </div>
 
-            <div v-html="content" id="articleContent"></div>
+            <div ref="articlecontent" id="articlecontent"></div>
 
             <div class="clear"></div>
             <read-more></read-more>
@@ -63,7 +63,7 @@
 </template>
 
 <script>
-    import { defineComponent, onBeforeMount, ref, compile, createApp } from 'vue'
+    import { createApp, defineComponent, onMounted, ref, compile, h } from 'vue'
     import { Head, Link } from '@inertiajs/inertia-vue3';
 
     import { render, register } from 'timeago.js';
@@ -88,7 +88,7 @@
             ReadMore
         },
 
-        // Vue.compile(content)
+
         props: {
             canLogin: Boolean,
             canRegister: Boolean,
@@ -138,7 +138,7 @@
                     .mount(articlecontent.value)
             })
 
-            return { }
+            return { articlecontent }
         }
     })
 </script>
