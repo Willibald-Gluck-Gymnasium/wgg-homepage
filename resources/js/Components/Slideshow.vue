@@ -10,7 +10,7 @@
                 v-for="(slide, i) in slides"
                 :key="i"
                 :title="slide.title"
-                :image="slide.thumbnail_slider"
+                :image="slide.thumbnail_slide"
                 :link="slide.link"
             ></slide>
         </div>
