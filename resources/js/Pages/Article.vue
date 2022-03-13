@@ -74,6 +74,7 @@
     import SecondaryHeader from '@components/SecondaryHeader'
     import VueFooter from '@components/VueFooter'
     import ReadMore from '@components/ReadMore'
+
     import Youtube from '@components/Youtube'
 
     export default defineComponent({
@@ -85,6 +86,7 @@
             VueFooter,
             ReadMore
         },
+
 
         props: {
             canLogin: Boolean,
@@ -122,9 +124,6 @@
                     const renderer = compile(rawHTML)
                     const vnode = h(renderer)
                     return () => vnode
-                },
-                components: {
-                    Youtube
                 }
             })
         
@@ -132,7 +131,9 @@
 
             onMounted(() => {
                 console.log(articlecontent.value)
-                createApp(ArticleComponent).mount(articlecontent.value)
+                createApp(ArticleComponent)
+                    .component("youtube", Youtube)
+                    .mount(articlecontent.value)
             })
 
             return { articlecontent }
