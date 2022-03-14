@@ -4,17 +4,29 @@
 
 ## How to add images to articles
 
-1. Register your image in `resources/js/images.js`
+1. Put your image into `resources/img`
+
+2. Register your image in `resources/js/images.js`
 
 ```js
 const images = {
     [...]
-    name_of_your_image: require(`@img/image.jpg?pipeline=article`),
-    name_of_your_other_image: require("@img/otherimage.jpg?pipeline=article")
+    name_of_your_image: require('@img/image.jpg?pipeline=article'),
+    name_of_your_other_image: require('@img/otherimage.jpg?pipeline=article')
 }
 ```
 
-2. Insert the image using the v-image component in `resources/content/articles`
+This is what you write into the `require()` function:
+
+```js
+require('path/to/your/image.jpg?pipeline=version_you_want')
+```
+
+`@img` = `resources/img`
+
+There are many possible pipelines you can feed your image through. Each pipeline will resize the image diffrently, and maybe add filters. You can see and add filters in `webpack.mix.json`. 
+
+3. Insert the image using the v-image component in `resources/content/articles`
 
 ```yml
 ---
@@ -39,8 +51,8 @@ Done.
 ```js
 const images = {
     [...]
-    name_of_your_thumbnail: require(`@img/article-thumbnail.jpg?pipeline=thumbnail`),
-    name_of_your_slide_image: require("@img/article-thumbnail.jpg?pipeline=slide")
+    name_of_your_thumbnail: require('@img/article-thumbnail.jpg?pipeline=thumbnail'),
+    name_of_your_slide_image: require('@img/article-thumbnail.jpg?pipeline=slide')
 }
 ```
 
