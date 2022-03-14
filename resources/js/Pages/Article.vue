@@ -76,6 +76,7 @@
     import ReadMore from '@components/ReadMore'
 
     import Youtube from '@components/Youtube'
+    import Image from '@components/Image'
 
     export default defineComponent({
         components: {
@@ -133,6 +134,7 @@
                 console.log(articlecontent.value)
                 createApp(ArticleComponent)
                     .component("youtube", Youtube)
+                    .component("v-image", Image)
                     .mount(articlecontent.value)
             })
 
