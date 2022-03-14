@@ -1,5 +1,4 @@
 const path = require('path');
-const { h } = require('vue');
 
 module.exports = {
     resolve: {
@@ -9,9 +8,6 @@ module.exports = {
             '@layouts': path.resolve('resources/js/Layouts'),
             '@img': path.resolve('resources/img'),
             '@resources': path.resolve('resources')
-        },
-        fallback: {
-            "fs": false
         },
     },
     resolveLoader: {
