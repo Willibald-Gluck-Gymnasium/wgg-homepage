@@ -4,9 +4,9 @@
 
 ## How to add images to articles
 
-1. Put your image into `resources/img`
+### 1. Put your image into `resources/img`
 
-2. Register your image in `resources/js/images.js`
+### 2. Register your image in `resources/js/images.js`
 
 ```js
 const images = {
@@ -24,9 +24,11 @@ require('path/to/your/image.jpg?pipeline=version_you_want')
 
 `@img` = `resources/img`
 
+### Whats `?pipeline=version_you_want`?
+
 There are many possible pipelines you can feed your image through. Each pipeline will resize the image diffrently, and maybe add filters. You can see and add filters in `webpack.mix.json`. 
 
-3. Insert the image using the v-image component in `resources/content/articles`
+### 3. Insert the image using the v-image component in `resources/content/articles`
 
 ```yml
 ---
@@ -42,11 +44,11 @@ published_on: 02.11.2021 00:12
 [...]
 ```
 
-Done. 
+### Done. 
 
 ## How to add thumbnail images
 
-1. Register your image in `resources/js/images.js`
+### 1. Register your image in `resources/js/images.js`
 
 ```js
 const images = {
@@ -56,7 +58,7 @@ const images = {
 }
 ```
 
-2. Add it to your article file in `resources/content/articles`
+### 2. Add it to your article file in `resources/content/articles`
 
 ```yml
 ---
@@ -70,7 +72,7 @@ published_on: 02.11.2021 00:12
 [...]
 ```
 
-Done. 
+### Done. 
 
 
 ## Live Deployment
