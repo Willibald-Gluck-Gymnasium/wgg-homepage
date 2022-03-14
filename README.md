@@ -48,7 +48,9 @@ published_on: 02.11.2021 00:12
 
 ## How to add thumbnail images
 
-### 1. Register your image in `resources/js/images.js`
+### 1. Put your image into `resources/img`
+
+### 2. Register your image in `resources/js/images.js`
 
 ```js
 const images = {
@@ -58,7 +60,7 @@ const images = {
 }
 ```
 
-### 2. Add it to your article file in `resources/content/articles`
+### 3. Add it to your article file in `resources/content/articles`
 
 ```yml
 ---
