@@ -1,21 +1,22 @@
 {
-    "name": "laravel/laravel",
+    "name": "willibald-gluck-gymnasium/wgg-homepage",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Official homepage for the Willibald-Gluck-Gymnasium Neumarkt i.d.Opf.",
     "keywords": ["framework", "laravel"],
-    "license": "MIT",
+    "license": "GPL-3.0-or-later",
     "require": {
         "php": "^8.0.2",
+        "alexanderhorner/laravel-orbit-html-driver": "^2.2",
         "guzzlehttp/guzzle": "^7.2",
-        "alexanderhorner/laravel-orbit-html-driver": "dev-main",
         "inertiajs/inertia-laravel": "^0.5.2",
         "laravel/framework": "^9.2",
         "laravel/jetstream": "^2.6",
         "laravel/sanctum": "^2.14.1",
         "laravel/tinker": "^2.7",
-        "tightenco/ziggy": "^1.0",
         "mtownsend/read-time": "^2.0",
-        "soundasleep/html2text": "~1.1"
+        "ryangjchandler/orbit": "^1.1",
+        "soundasleep/html2text": "~1.1",
+        "tightenco/ziggy": "^1.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
