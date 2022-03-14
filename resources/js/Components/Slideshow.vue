@@ -32,7 +32,15 @@ onMounted(() => {
     var flickity = new Flickity(slider.value, {
         wrapAround: true,
         autoPlay: true,
-        autoPlay: 6000
+        autoPlay: 6000,
+        on: {
+            'dragStart': () => {
+                slider.value.style.pointerEvents = 'none'
+            },
+            'dragEnd': () => {
+                slider.value.style.pointerEvents = 'all'
+            }
+        }
     });
 })
 
