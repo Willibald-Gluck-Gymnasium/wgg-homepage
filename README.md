@@ -26,7 +26,7 @@ require('path/to/your/image.jpg?pipeline=version_you_want')
 
 ### Whats `?pipeline=version_you_want`?
 
-There are many possible pipelines you can feed your image through. Each pipeline will resize the image diffrently, and maybe add filters. You can see and add filters in `webpack.mix.json`. 
+There are many possible pipelines you can feed your image through. Each pipeline will resize the image diffrently, and maybe add filters. You can see all  pipelines (and add your own) in `webpack.mix.json`. 
 
 ### 3. Insert the image using the v-image component in `resources/content/articles`
 
