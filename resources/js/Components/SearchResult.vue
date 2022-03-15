@@ -1,5 +1,5 @@
 <template>
-    <a :href="href" class="result">
+    <Link :href="href" class="result">
         <div class="img">
             <img :src="imgsrc" :alt="title"> 
         </div>
@@ -13,11 +13,16 @@
                 {{ preview }}
             </span>
         </div>
-    </a>
+    </Link>
 </template>
 
 <script>
+import { Link } from '@inertiajs/inertia-vue3';
+
 export default {
+    components: {
+        Link
+    },
     props: ['href', 'imgsrc', 'category', 'timestamp', 'title', 'preview'],
     mounted () {
 		var locale = function(number, index, totalSec) {

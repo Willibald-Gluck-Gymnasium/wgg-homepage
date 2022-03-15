@@ -2,7 +2,7 @@
     <div class="readmore">
         <div class="text">Weiterlesen:</div>
         <div class="links">
-            <a
+            <Link
                 v-for="(link, i) in links"
                 :key="i"
                 :href="link.href"
@@ -12,13 +12,18 @@
                 <span class="title">{{ link.title }}</span>
                 <span class="seperator">-</span>
                 <span class="timestamp">Vor einem Jahr</span>
-            </a>
+            </Link>
         </div>
     </div>
 </template>
 
 <script>
+import { Link } from '@inertiajs/inertia-vue3';
+
 export default {
+components: {
+    Link
+},
 data: () => ({
         links: [
             {

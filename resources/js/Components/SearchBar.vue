@@ -3,10 +3,10 @@
         <form action="/results" class="search" autocomplete="off">
             <input type="text" name="q">
             <div id="results">
-                <a v-for="(result, i) in results"
+                <Link v-for="(result, i) in results"
                     :key="i"
                     :href="result.href"
-                >{{ result.title }}</a>
+                >{{ result.title }}</Link>
             </div>
             <button id="submit">
                 <i class='material-icons'>search</i>
@@ -18,8 +18,12 @@
 </template>
 
 <script>
+import { Link} from '@inertiajs/inertia-vue3';
 
 export default {
+    components: {
+        Link
+    },
     data: () => ({
         results: [
             {
