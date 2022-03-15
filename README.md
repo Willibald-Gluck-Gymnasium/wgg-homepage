@@ -2,6 +2,23 @@
 
 ![Tests](https://github.com/Willibald-Gluck-Gymnasium/wgg-homepage/workflows/Tests/badge.svg)
 
+## How to link to other pages, articles, or websites
+
+### Other websites:
+
+Simply link to them as you would normally:
+
+```html
+<a href="https://www.google.com">Link to Google</a>
+```
+
+### To another page or article on this site: 
+```html
+<inertia-link href="/example-article">Another Article</inertia-link>
+```
+
+There are a few options you can pass to `inertia-link`, learn more about them [here in the inertia documentation](https://inertiajs.com/links).
+
 ## How to add images to articles
 
 ### 1. Put your image into `resources/img`
@@ -76,6 +93,22 @@ published_on: 02.11.2021 00:12
 
 ### Done. 
 
+
+## How to use custom components inside articles
+
+In Vue, every component has to be registered before you can use them. You can register your component globally, or inside your parent component (more efficient). 
+
+All articles share the same component, so you have to register your components there. Open `resources/js/Pages/Article.vue`, go to the setup function, to the `onMounted()` lifecycle hook. Here the vue function `createApp()` is called to render the Article code from the database. Here you register your components. They are registered like global components.
+
+```js
+onMounted(() => {
+    createApp(ArticleComponent)
+        .component("youtube", Youtube)
+        .component("v-image", Image)
+        .component("inertia-link", Link)
+        .mount(articlecontent.value)
+})
+```
 
 ## Live Deployment
 

@@ -131,10 +131,10 @@
             const articlecontent = ref(null)
 
             onMounted(() => {
-                console.log(articlecontent.value)
                 createApp(ArticleComponent)
                     .component("youtube", Youtube)
                     .component("v-image", Image)
+                    .component("inertia-link", Link)
                     .mount(articlecontent.value)
             })
 
