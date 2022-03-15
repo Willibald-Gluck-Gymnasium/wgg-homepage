@@ -48,15 +48,15 @@ Now we will install the other applications we will need:
 
     The next thing to do is add the php binary folder to Window's `PATH` variable, so that we can access it from the command line. To do that go into the file explorer and locate the php folder on your disk. It could be `C:\php\` for example. Now open the Start Menu and start typing `environment variable`. You shouldn't have to type it out, but you should be able to access a panel looking somewhat like this:
 
-    ![system-properties-panel](/documentation/system-properties-panel.png)
+    [![Screenshot-2022-03-15-114933.png](https://i.postimg.cc/nVPhGtPr/Screenshot-2022-03-15-114933.png)](https://postimg.cc/dDGFJgvc)
 
     In this panel you should be able to click on `Environment Variables...`, which should open a panel somewhat resembling the following:
 
-    ![environment-management-panel](/documentation/environment-management-panel.png)
+    [![Screenshot-2022-03-15-115535.png](https://i.postimg.cc/fTSTHgGK/Screenshot-2022-03-15-115535.png)](https://postimg.cc/GHrCtzh8)
 
     In the top section, click on the line which has `Path` in the beginning and then click on `Edit`. This should open the Edit panel.
 
-    ![edit-panel](/documentation/edit-panel.png)
+    [![Screenshot-2022-03-15-120051.png](https://i.postimg.cc/NFSGs1Hm/Screenshot-2022-03-15-120051.png)](https://postimg.cc/wR5YFRFj)
 
     In this panel click on `New` on the right side and paste the path for the php folder from before, which could be `C:\php\`. After that affirm every dialogue and php should be in your path. You may need to log out and back in or even reboot for this to be picked up, but it should work now. To test if it does execute this in powershell:
     ```
@@ -225,7 +225,7 @@ The next step is to open a Terminal or shell in the directory you just cloned. I
 The next command can be copied and pasted into the shell and executed, almost everything is readily set up for contributing.
 
 ```
-composer install && npm install && touch ./database/database.sqlite && cp .env.example .env && sed "s/\/absolute\/path\/to/$(pwd | sed 's/\//\\\//g')\/database/g" .env && php artisan migrate:fresh && npm run watch
+composer install && npm install && touch ./database/database.sqlite && sed "s/\/absolute\/path\/to/$(pwd | sed 's/\//\\\//g')\/database/g" .env.example > .env && php artisan migrate:fresh && npm run watch
 ```
 
 The last command of this construct (`npm run watch`) will not exit once completed. It will only display a message that the webpack compilation was successful. To exit it and return to the shell press `Ctrl` + `C`.
