@@ -12,33 +12,47 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Schema\Blueprint;
 use \Soundasleep\Html2Text;
 use \Orbit\Concerns\Orbital;
+use Laravel\Scout\Searchable;
 use \Mtownsend\ReadTime\ReadTime;
 
 
 class Article extends Model
 {
-    use Orbital;
+    use Orbital, Searchable;
 
-    // protected $fillable = ['title', 'link', 'author', 'published_on'];
+    protected $fillable = [
+        'title',
+        'link',
+        'category',
+        'author',
+        'published_on',
+        'thumbnail',
+        'thumbnail_slide'
+    ];
 
     public $timestamps = false;
 
-    protected static function booted()
-    {
-        static::retrieved(function ($user) {
-            $user->fixPublishedAt();
-        });
-    }
-
     public static function schema(Blueprint $table)
     {
-        $table->string('title');
-        $table->string('link');
-        $table->string('thumbnail');
-        $table->string('thumbnail_slide');
-        $table->string('category');
-        $table->string('author');
-        $table->timestamp('published_on');
+        $table->string('title')->default("Titel des Artikels");
+        $table->string('link')->default("link-zum-Artikel");
+        $table->string('category')->default("Allgemein");
+        $table->string('author')->nullable()->default(null);
+        $table->timestamp('published_on')->nullable()->default('YYYY-MM-DD HH:MI:SS');
+        $table->string('thumbnail')->default('name_of_thumbnail_image');
+        $table->string('thumbnail_slide')->default('name_of_slide_image');
+    }
+
+    public function toSearchableArray()
+    {
+        return [
+            'title' => $this->title,
+            'link' => $this->link,
+            'category' => $this->category,
+            'author' => $this->author,
+            'published_on' => $this->published_on,
+            'plaintext' => $this->plaintext()
+        ];
     }
 
     public function getKeyName()
@@ -63,15 +77,6 @@ class Article extends Model
         $onlyOneSpaceAllowed = preg_replace('!\s+!', ' ', $oneLine);
 
         return $onlyOneSpaceAllowed;
-    }
-
-    private function fixPublishedAt()
-    {
-        $old = $this->published_on;
-        $normalized = strtotime($old);
-        $readable = gmdate("d.m.Y H:i", $normalized);
-        $this->published_on = $readable;
-        $this->save();
     }
 
     public function read_time()

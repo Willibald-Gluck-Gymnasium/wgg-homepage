@@ -12,19 +12,20 @@ class ArticleController extends Controller
     /**
      * Index the article.
      *
-     * @param Article $article
-     * @return \Illuminate\View\View
      */
-    public function index()
+    public function index(Request $request)
     {   
-        // $articles = Article::all();
+        if (isset($request->search)) {
+            $data = Article::search($request->searc)->raw();
 
-        $data = Article::select(
-            'title',
-            'link',
-            'author',
-            'published_on'
-        )->simplePaginate(15);
+        } else {
+            $data->select(
+                'title',
+                'link',
+                'author',
+                'published_on'
+            )->simplePaginate(15);
+        }
 
         return [
             'status' => 'success',
@@ -36,7 +37,6 @@ class ArticleController extends Controller
      * Show the article.
      *
      * @param Article $article
-     * @return \Illuminate\View\View
      */
     public function show(Article $article, Request $request)
     {
