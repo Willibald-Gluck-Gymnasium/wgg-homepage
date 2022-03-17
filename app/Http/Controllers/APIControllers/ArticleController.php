@@ -19,7 +19,7 @@ class ArticleController extends Controller
             $data = Article::search($request->searc)->raw();
 
         } else {
-            $data->select(
+            $data = Article::select(
                 'title',
                 'link',
                 'author',
