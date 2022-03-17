@@ -1267,6 +1267,12 @@ select {
 .right-0 {
   right: 0px !important;
 }
+<<<<<<< HEAD
+=======
+.top-0 {
+  top: 0px !important;
+}
+>>>>>>> main
 .z-0 {
   z-index: 0 !important;
 }
@@ -1358,6 +1364,12 @@ select {
 .mb-4 {
   margin-bottom: 1rem !important;
 }
+<<<<<<< HEAD
+=======
+.-mt-px {
+  margin-top: -1px !important;
+}
+>>>>>>> main
 .block {
   display: block !important;
 }
@@ -1457,6 +1469,12 @@ select {
 .max-w-xl {
   max-width: 36rem !important;
 }
+<<<<<<< HEAD
+=======
+.max-w-6xl {
+  max-width: 72rem !important;
+}
+>>>>>>> main
 .flex-1 {
   flex: 1 1 0% !important;
 }
@@ -1625,6 +1643,12 @@ select {
 .border-b {
   border-bottom-width: 1px !important;
 }
+<<<<<<< HEAD
+=======
+.border-r {
+  border-right-width: 1px !important;
+}
+>>>>>>> main
 .border-gray-300 {
   --tw-border-opacity: 1 !important;
   border-color: rgb(209 213 219 / var(--tw-border-opacity)) !important;
@@ -1644,6 +1668,13 @@ select {
   --tw-border-opacity: 1 !important;
   border-color: rgb(243 244 246 / var(--tw-border-opacity)) !important;
 }
+<<<<<<< HEAD
+=======
+.border-gray-400 {
+  --tw-border-opacity: 1 !important;
+  border-color: rgb(156 163 175 / var(--tw-border-opacity)) !important;
+}
+>>>>>>> main
 .bg-white {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
@@ -1800,6 +1831,12 @@ select {
 .pb-1 {
   padding-bottom: 0.25rem !important;
 }
+<<<<<<< HEAD
+=======
+.pt-8 {
+  padding-top: 2rem !important;
+}
+>>>>>>> main
 .text-left {
   text-align: left !important;
 }
@@ -1866,6 +1903,12 @@ select {
 .tracking-widest {
   letter-spacing: 0.1em !important;
 }
+<<<<<<< HEAD
+=======
+.tracking-wider {
+  letter-spacing: 0.05em !important;
+}
+>>>>>>> main
 .text-gray-500 {
   --tw-text-opacity: 1 !important;
   color: rgb(107 114 128 / var(--tw-text-opacity)) !important;
@@ -1926,6 +1969,17 @@ select {
   --tw-text-opacity: 1 !important;
   color: rgb(34 197 94 / var(--tw-text-opacity)) !important;
 }
+<<<<<<< HEAD
+=======
+.text-gray-200 {
+  --tw-text-opacity: 1 !important;
+  color: rgb(229 231 235 / var(--tw-text-opacity)) !important;
+}
+.text-gray-300 {
+  --tw-text-opacity: 1 !important;
+  color: rgb(209 213 219 / var(--tw-text-opacity)) !important;
+}
+>>>>>>> main
 .underline {
   -webkit-text-decoration-line: underline !important;
           text-decoration-line: underline !important;
@@ -2218,6 +2272,16 @@ select {
 .disabled\:opacity-25:disabled {
   opacity: 0.25 !important;
 }
+<<<<<<< HEAD
+=======
+@media (prefers-color-scheme: dark) {
+
+  .dark\:bg-gray-900 {
+    --tw-bg-opacity: 1 !important;
+    background-color: rgb(17 24 39 / var(--tw-bg-opacity)) !important;
+  }
+}
+>>>>>>> main
 @media (min-width: 640px) {
 
   .sm\:col-span-4 {
@@ -2336,6 +2400,13 @@ select {
     align-items: center !important;
   }
 
+<<<<<<< HEAD
+=======
+  .sm\:justify-start {
+    justify-content: flex-start !important;
+  }
+
+>>>>>>> main
   .sm\:justify-center {
     justify-content: center !important;
   }
