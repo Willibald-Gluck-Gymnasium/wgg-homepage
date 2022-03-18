@@ -24,7 +24,7 @@ export default {
         results: [
             {
                 href: '/smv',
-                imgsrc: 'img/neuesschuljahr.jpg',
+                imgsrc: '/img/neuesschuljahr.jpg&pipeline=thumbnail',
                 category: 'Gemeinschaft',
                 timestamp: 'Dec 2 2020 01:50:10 GMT+0100',
                 title: 'Die SMV',
@@ -61,7 +61,8 @@ export default {
 
 <style scoped lang="scss">
 .container {
-    margin: 25px 0;
+    margin: 25px auto;
+    width: auto !important;
 }
 @media only screen and (max-width: 700px) {
     .container {

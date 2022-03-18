@@ -1,5 +1,5 @@
 <template>
-    <Head title="Home" />
+    <Head title="Home"/>
 
     <main-header></main-header>
     <secondary-header></secondary-header>

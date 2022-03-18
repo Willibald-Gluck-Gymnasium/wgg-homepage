@@ -66,7 +66,7 @@ export default {
         // height: 200px;
         overflow: auto;
         border-radius: 15px;
-        box-shadow: 0 0 15px rgba(0,0,0,.2);
+        box-shadow: 0 4px 20px 0 rgba(0,0,0,.2);
         z-index: 10;
         // CLARIFICATION:
         // This workaround replicates the behavior of the experimental feature 'aspect-ratio'
@@ -102,7 +102,7 @@ export default {
         padding: 15px;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
-        box-shadow: 0 0 15px rgba(0,0,0,.1);
+        box-shadow: 0 4px 20px 0 rgba(0,0,0,.05);
         transition-duration: .2s;
         h2 {
             font-size: 1.5em;
@@ -140,7 +140,7 @@ export default {
 @media only screen and (max-width: 580px) {
     .result {
         flex-direction: column;
-        width: 100%;
+        // width: 100%;
         .img {
             margin-bottom: 0;
             width: auto;
