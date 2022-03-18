@@ -45,7 +45,22 @@ const images = {
     calculator_slide: require('@img/calculator.jpg?pipeline=thumbnail'),
 
     infoportal_login_thumbnail: require('@img/infoportal-login.png?pipeline=thumbnail'),
-    infoportal_login_slide: require('@img/infoportal-login.png?pipeline=slide')
+    infoportal_login_slide: require('@img/infoportal-login.png?pipeline=slide'),
+
+    wirtschaft_neues_aus_wr_thumbnail: require('@img/unterricht_wirtschaft_neues_aus_wr_1.png?pipeline=thumbnail'),
+    wirtschaft_neues_aus_wr_slide_image: require('@img/unterricht_wirtschaft_neues_aus_wr_1.png?pipeline=slide'),
+
+    wirtschaft_neues_aus_wr_1: require('@img/unterricht_wirtschaft_neues_aus_wr_1.png?pipeline=article'),
+    wirtschaft_neues_aus_wr_2: require('@img/unterricht_wirtschaft_neues_aus_wr_2.png?pipeline=article'),
+    wirtschaft_neues_aus_wr_3: require('@img/unterricht_wirtschaft_neues_aus_wr_3.png?pipeline=article'),
+    wirtschaft_neues_aus_wr_4: require('@img/unterricht_wirtschaft_neues_aus_wr_4.png?pipeline=article'),
+    wirtschaft_naturkosmetikspende: require('@img/unterricht_wirtschaft_naturkosmetikspende.jpg?pipeline=article'),
+
+    Dull_WR_Gründung_Schülergenossenschaft_Bild_Logo: require('@img/04Dull_WR_Gründung-Schülergenossenschaft_Bild_Logo.jpg?pipeline=article'),
+    Dull_WR_Gründung_Schülergenossenschaft_Bild2: require('@img/04Dull_WR_Gründung-Schülergenossenschaft_Bild2.JPG?pipeline=article'),
+    Dull_WR_Gründung_Schülergenossenschaft_Bild: require('@img/04Dull_WR_Gründung-Schülergenossenschaft_Bild.JPG?pipeline=article'),
+
+    mathe_17_wb: require('@img/mathe_17_wb.jpg?pipeline=article')
 }
 
 export default images
