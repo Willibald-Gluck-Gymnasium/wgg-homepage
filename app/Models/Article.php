@@ -19,26 +19,19 @@ class Article extends Model
 {
     use Orbital;
 
-    // protected $fillable = ['title', 'link', 'author', 'published_on'];
+    protected $fillable = ['title', 'link', 'category', 'author', 'published_on', 'thumbnail', 'thumbnail_slide'];
 
     public $timestamps = false;
-
-    protected static function booted()
-    {
-        static::retrieved(function ($user) {
-            $user->fixPublishedAt();
-        });
-    }
 
     public static function schema(Blueprint $table)
     {
         $table->string('title');
         $table->string('link');
-        $table->string('thumbnail');
-        $table->string('thumbnail_slide');
-        $table->string('category');
-        $table->string('author');
-        $table->timestamp('published_on');
+        $table->string('category')->default("Allgemein");
+        $table->string('author')->nullable()->default(null);
+        $table->timestamp('published_on')->nullable()->default(null); // 'YYYY-MM-DD HH:MI:SS'
+        $table->string('thumbnail')->default('missing_thumbnail');
+        $table->string('thumbnail_slide')->default('missing_thumbnail_slide');
     }
 
     public function getKeyName()
@@ -65,19 +58,12 @@ class Article extends Model
         return $onlyOneSpaceAllowed;
     }
 
-    private function fixPublishedAt()
-    {
-        $old = $this->published_on;
-        $normalized = strtotime($old);
-        $readable = gmdate("d.m.Y H:i", $normalized);
-        $this->published_on = $readable;
-        $this->save();
-    }
-
     public function read_time()
     {
         return (new ReadTime($this->plaintext()))->get();
     }
 
 }
+
+
 
