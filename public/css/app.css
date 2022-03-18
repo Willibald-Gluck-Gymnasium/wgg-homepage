@@ -1,35 +1,41 @@
 :root {
   --blue-clr-wgg-orange: #1a98ff;
+  --blue-clr-wgg-orange-lighter: #80c6ff;
   --blue-clr-bg-primary: white;
   --blue-clr-bg-secondary: #f2f2f2;
   --blue-clr-bg-tertiary: #e6e6e6;
   --blue-clr-bg-transparent: rgba(255, 255, 255, 0.5);
   --blue-clr-font: black;
   --blue-dark-clr-wgg-orange: #1a98ff;
+  --blue-dark-clr-wgg-orange-lighter: #0062b3;
   --blue-dark-clr-bg-primary: #242424;
   --blue-dark-clr-bg-secondary: #141414;
   --blue-dark-clr-bg-tertiary: #4d4d4d;
   --blue-dark-clr-bg-transparent: rgba(46, 46, 46, 0.9);
   --blue-dark-clr-font: white;
   --red-clr-wgg-orange: #b80000;
+  --red-clr-wgg-orange-lighter: #ff1f1f;
   --red-clr-bg-primary: white;
   --red-clr-bg-secondary: #f2f2f2;
   --red-clr-bg-tertiary: #e6e6e6;
   --red-clr-bg-transparent: rgba(255, 255, 255, 0.5);
   --red-clr-font: black;
   --red-dark-clr-wgg-orange: #ff5252;
+  --red-dark-clr-wgg-orange-lighter: #eb0000;
   --red-dark-clr-bg-primary: #242424;
   --red-dark-clr-bg-secondary: #141414;
   --red-dark-clr-bg-tertiary: #4d4d4d;
   --red-dark-clr-bg-transparent: rgba(46, 46, 46, 0.9);
   --red-dark-clr-font: white;
   --green-clr-wgg-orange: #25b800;
+  --green-clr-wgg-orange-lighter: #4bff1f;
   --green-clr-bg-primary: white;
   --green-clr-bg-secondary: #f2f2f2;
   --green-clr-bg-tertiary: #e6e6e6;
   --green-clr-bg-transparent: rgba(255, 255, 255, 0.5);
   --green-clr-font: black;
-  --green-dark-clr-wgg-orange: #00b826;
+  --green-dark-clr-wgg-orange: #00b825;
+  --green-dark-clr-wgg-orange-lighter: #005210;
   --green-dark-clr-bg-primary: #242424;
   --green-dark-clr-bg-secondary: #141414;
   --green-dark-clr-bg-tertiary: #4d4d4d;
@@ -40,6 +46,8 @@
 .blue {
   --clr-wgg-orange: var(--blue-clr-wgg-orange);
   --dark-clr-wgg-orange: var(--blue-dark-clr-wgg-orange);
+  --clr-wgg-orange-lighter: var(--blue-clr-wgg-orange-lighter);
+  --dark-clr-wgg-orange-lighter: var(--blue-dark-clr-wgg-orange-lighter);
   --clr-bg-primary: var(--blue-clr-bg-primary);
   --dark-clr-bg-primary: var(--blue-dark-clr-bg-primary);
   --clr-bg-secondary: var(--blue-clr-bg-secondary);
@@ -55,6 +63,8 @@
 .red {
   --clr-wgg-orange: var(--red-clr-wgg-orange);
   --dark-clr-wgg-orange: var(--red-dark-clr-wgg-orange);
+  --clr-wgg-orange-lighter: var(--red-clr-wgg-orange-lighter);
+  --dark-clr-wgg-orange-lighter: var(--red-dark-clr-wgg-orange-lighter);
   --clr-bg-primary: var(--red-clr-bg-primary);
   --dark-clr-bg-primary: var(--red-dark-clr-bg-primary);
   --clr-bg-secondary: var(--red-clr-bg-secondary);
@@ -70,6 +80,8 @@
 .green {
   --clr-wgg-orange: var(--green-clr-wgg-orange);
   --dark-clr-wgg-orange: var(--green-dark-clr-wgg-orange);
+  --clr-wgg-orange-lighter: var(--green-clr-wgg-orange-lighter);
+  --dark-clr-wgg-orange-lighter: var(--green-dark-clr-wgg-orange-lighter);
   --clr-bg-primary: var(--green-clr-bg-primary);
   --dark-clr-bg-primary: var(--green-dark-clr-bg-primary);
   --clr-bg-secondary: var(--green-clr-bg-secondary);
@@ -90,12 +102,14 @@
   --sz-footer-height: 150px;
   --media-width-phone: 500px;
   --clr-wgg-orange: #ff881a;
+  --clr-wgg-orange-lighter: #ffbd80;
   --clr-bg-primary: white;
   --clr-bg-secondary: #f2f2f2;
   --clr-bg-tertiary: #e6e6e6;
   --clr-bg-transparent: rgba(255, 255, 255, 0.5);
   --clr-font: black;
   --dark-clr-wgg-orange: #e7770d;
+  --dark-clr-wgg-orange-lighter: #874508;
   --dark-clr-bg-primary: #242424;
   --dark-clr-bg-secondary: #141414;
   --dark-clr-bg-tertiary: #4d4d4d;
@@ -128,6 +142,7 @@
 
 .dark {
   --clr-wgg-orange: var(--dark-clr-wgg-orange);
+  --clr-wgg-orange-lighter: var(--dark-clr-wgg-orange-lighter);
   --clr-bg-primary: var(--dark-clr-bg-primary);
   --clr-bg-secondary: var(--dark-clr-bg-secondary);
   --clr-bg-tertiary: var(--dark-clr-bg-tertiary);
@@ -138,6 +153,7 @@
 @media (prefers-color-scheme: dark) {
   #app.detect-colorscheme {
     --clr-wgg-orange: var(--dark-clr-wgg-orange);
+    --clr-wgg-orange-lighter: var(--dark-clr-wgg-orange-lighter);
     --clr-bg-primary: var(--dark-clr-bg-primary);
     --clr-bg-secondary: var(--dark-clr-bg-secondary);
     --clr-bg-tertiary: var(--dark-clr-bg-tertiary);
@@ -157,88 +173,6 @@ html {
 body {
   margin: 0;
   color: var(--clr-font);
-}
-
-.contentwrapper form {
-  color: var(--clr-font);
-}
-.contentwrapper form .bar {
-  width: 100%;
-  border-radius: 15px;
-  margin-bottom: 15px;
-  overflow: show;
-  display: flex;
-  font-size: 18px;
-}
-.contentwrapper form .bar:last-child {
-  margin-bottom: 0;
-}
-.contentwrapper form .bar div.field.spread {
-  flex: 1 1 auto;
-}
-.contentwrapper form .bar div.field {
-  margin-right: 5px;
-  padding: 0;
-  padding-top: 22px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
-.contentwrapper form .bar div.field:last-child {
-  margin-right: 0 !important;
-}
-.contentwrapper form .bar div.field span {
-  position: absolute;
-  top: 0;
-  font-size: 0.8em;
-}
-.contentwrapper form .bar input[type=text] {
-  width: 100%;
-  cursor: auto;
-}
-.contentwrapper form .bar input, .contentwrapper form .bar button, .contentwrapper form .bar select {
-  cursor: pointer;
-  height: 35px;
-  display: block;
-  transition-duration: 0.25s;
-  font-size: inherit;
-  padding: 0 12px;
-  position: relative;
-  color: var(--clr-font);
-  -webkit-appearance: none;
-  border-radius: 0;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  box-shadow: none;
-  background: var(--clr-bg-secondary);
-  border: none;
-  border-bottom: 2px solid var(--clr-font);
-  box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, 0.2) !important;
-}
-.contentwrapper form .bar input:hover, .contentwrapper form .bar button:hover, .contentwrapper form .bar select:hover {
-  box-shadow: inset 0 3px 5px -3px rgba(0, 0, 0, 0.5) !important;
-}
-.contentwrapper form .bar input:focus, .contentwrapper form .bar button:focus, .contentwrapper form .bar select:focus {
-  border-color: var(--clr-wgg-orange);
-  outline: none;
-}
-.contentwrapper form .bar button {
-  cursor: pointer;
-}
-.contentwrapper form .bar button:hover {
-  background: var(--clr-bg-primary);
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2) !important;
-}
-.contentwrapper form .bar button:focus {
-  box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.2) !important;
-}
-.contentwrapper form .bar button.icon {
-  width: 35px;
-  padding: 0;
-}
-.contentwrapper form .bar button.icon i {
-  width: 35px;
-  line-height: 35px;
 }
 
 .link, .article-container a {

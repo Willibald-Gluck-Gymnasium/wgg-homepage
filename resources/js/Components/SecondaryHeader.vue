@@ -4,15 +4,15 @@
         <div id="leftfade"></div>
         <div id="scrollnav" v-on:scroll="updateFading()" class="content">
             <div class="items">
-                <Link class="item" href="/collection/aktuelles">Aktuelles</Link>
-                <Link class="item" href="/collection/gemeinschaft">Gemeinschaft</Link>
-                <Link class="item" href="/collection/unterricht">Unterricht</Link>
-                <Link class="item" href="/collection/termine">Termine</Link>
-                <Link class="item" href="/collection/aktivitäten">Aktivitäten</Link>
-                <Link class="item" href="/collection/service">Service</Link>
-                <Link class="item" href="/collection/partner">Netzwerk</Link>
-                <Link class="item" href="/collection/partner">Partner</Link>
-                <Link class="item" href="/collection/kontakt">Kontakt</Link>
+                <Link class="item" href="/collection/Aktuelles">Aktuelles</Link>
+                <Link class="item" href="/collection/Gemeinschaft">Gemeinschaft</Link>
+                <Link class="item" href="/collection/Unterricht">Unterricht</Link>
+                <Link class="item" href="/collection/Termine">Termine</Link>
+                <Link class="item" href="/collection/Aktivitäten">Aktivitäten</Link>
+                <Link class="item" href="/collection/Service">Service</Link>
+                <Link class="item" href="/collection/Netzwerk">Netzwerk</Link>
+                <Link class="item" href="/collection/Partner">Partner</Link>
+                <Link class="item" href="/collection/Kontakt">Kontakt</Link>
             </div>
         </div>
     </div>
