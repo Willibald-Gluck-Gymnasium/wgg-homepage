@@ -1,5 +1,5 @@
 <template>
-    <form>
+    <form class="vue-form">
         <slot/>
     </form>
 </template>
@@ -16,7 +16,7 @@ $shadow-color: rgb(220,220,220);
 $border-color-dark: rgb(200,200,200);
 $shadow-color-dark: rgb(120,120,120);
 
-form {
+form.vue-form {
     position: relative;
     section {
         display: flex;
@@ -347,6 +347,12 @@ form {
                 cursor: pointer;
             }
         }
+    }
+}
+@media only screen and (max-width: 700px) {
+    form.vue-form {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
     }
 }
 </style>
