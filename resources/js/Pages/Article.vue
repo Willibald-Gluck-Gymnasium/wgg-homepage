@@ -7,7 +7,7 @@
     <div class="article-container manual-scope-XKpYE">
         <div id="wrapper">
             <div class="header">
-                <a :href="'collection/' + category" class="category">{{ category }}</a>
+                <Link :href="'collection/' + category" class="category">{{ category }}</Link>
                 <h1>{{ title }}</h1>
                 <div class="info">
                     <!-- <div class="author">
@@ -77,6 +77,7 @@
 
     import Youtube from '@components/Youtube'
     import Image from '@components/Image'
+    import VueForm from '@components/VueForm'
 
     export default defineComponent({
         components: {
@@ -85,7 +86,8 @@
             MainHeader,
             SecondaryHeader,
             VueFooter,
-            ReadMore
+            ReadMore,
+            VueForm
         },
 
 
@@ -135,6 +137,7 @@
                     .component("youtube", Youtube)
                     .component("v-image", Image)
                     .component("inertia-link", Link)
+                    .component("vue-form", VueForm)
                     .mount(articlecontent.value)
             })
 

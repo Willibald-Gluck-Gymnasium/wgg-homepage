@@ -97,7 +97,7 @@ a.unfocus {
     // flex-direction: row-reverse;
     // padding-left: 15px;
     input[type=text] {
-        z-index: 960;
+        z-index: 2;
         background: hsl(0, 0%, 14%);
         border: none;
         flex: 1 1 auto;
@@ -117,7 +117,7 @@ a.unfocus {
         }
     }
     button {
-        z-index: 970;
+        z-index: 3;
         transition-duration: .1s;
         // width: calc(.5 * var(--sz-header-height));
         width: $height;
@@ -157,7 +157,7 @@ a.unfocus {
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         box-shadow: 0 0 15px 0 rgba(0,0,0,.6);
-        z-index: 960;
+        z-index: 1;
         transition-duration: .25s;
         font-size: 16px;
         a {
