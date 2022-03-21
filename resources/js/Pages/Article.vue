@@ -10,27 +10,29 @@
                 <Link :href="'collection/' + category" class="category">{{ category }}</Link>
                 <h1>{{ title }}</h1>
                 <div class="info">
-                    <!-- <div class="author">
-                        <div class="img force-aspect-ratio">
+                    <div v-if="author" class="author">
+                        <!-- <div class="img force-aspect-ratio">
                             <img class="image" :src="authorimg" onerror="this.src='/img/authors/default-authorimg.svg';this.classList.add('svg');" alt="Author" />
-                        </div>
+                        </div> -->
                         <span class="author">
                             {{ author }}
                         </span>
-                    </div> -->
-                    <!-- <div class="seperator">-</div> -->
+                    </div>
+                    <div v-if="author" class="seperator">-</div>
                     <div class="readtime">
                         {{ readTime }}
                     </div>
-                    <div class="seperator">-</div>
-                    <div class="date">
+                    <div class="seperator" v-if="publishedAt">-</div>
+                    <div v-if="publishedAt" class="date">
                         <span 
                             class="timeago" 
                             :datetime="publishedAtUnix"
                         ></span>
                     </div> 
+                    
+                    <!--
                     <div class="share">
-                        <!-- <a href="">
+                         <a href="">
                             <i class='material-icons'>facebook</i>
                         </a>
                         
@@ -46,8 +48,8 @@
                             target="_blank"
                             rel="noopener noreferrer">
                             <img :src="require('@img/twitter-icon.svg')">
-                        </a> -->
-                    </div>
+                        </a>
+                    </div> -->
                 </div>
             </div>
 
