@@ -3,7 +3,7 @@
 </template>
 
 <script setup>
-import { onBeforeMount, ref, defineProps } from 'vue'
+import { onBeforeMount, ref } from 'vue'
 
 import images from '@/images.js'
 
@@ -15,4 +15,4 @@ const src = ref(images[props.name])
 
 <style>
 
-</style>
+</style>  

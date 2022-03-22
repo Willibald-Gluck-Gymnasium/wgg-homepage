@@ -32,15 +32,17 @@ class Article extends Model
 
     public $timestamps = false;
 
+    protected $keyType = 'string';
+
     public static function schema(Blueprint $table)
     {
-        $table->string('title')->default("Titel des Artikels");
-        $table->string('link')->default("link-zum-Artikel");
-        $table->string('category')->default("Allgemein");
+        $table->string('title');
+        $table->string('link');
+        $table->string('category')->default('Allgemein');
         $table->string('author')->nullable()->default(null);
-        $table->timestamp('published_on')->nullable()->default('YYYY-MM-DD HH:MI:SS');
-        $table->string('thumbnail')->default('name_of_thumbnail_image');
-        $table->string('thumbnail_slide')->default('name_of_slide_image');
+        $table->timestamp('published_on')->nullable()->default(null);
+        $table->string('thumbnail')->default('missing_thumbnail');
+        $table->string('thumbnail_slide')->default('missing_thumbnail_slide');
     }
 
     public function toSearchableArray()
@@ -86,3 +88,5 @@ class Article extends Model
 
 }
 
+
+// Article::create(['title' => 'Default Test', 'thumbnail' => 'missing_thumbnail', 'thumbnail_slide' => 'missing_thumbnail_slide', 'link' => 'default-test1']);

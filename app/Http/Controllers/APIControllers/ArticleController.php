@@ -16,15 +16,28 @@ class ArticleController extends Controller
     public function index(Request $request)
     {   
         if (isset($request->search)) {
-            $data = Article::search($request->searc)->raw();
+            $data = Article::search($request->search)->paginate(15);
+
+            $data = $data->toArray();
+
+            $data['data'] = collect($data['data'])->map(function ($item, $key) {
+                return [
+                    'title' => $item['title'],
+                    'link' => $item['link'],
+                    'category' => $item['category'],
+                    'author' => $item['author'],
+                    'published_on' => $item['published_on']
+                ];
+            })->toArray();
 
         } else {
             $data = Article::select(
                 'title',
                 'link',
+                'category',
                 'author',
                 'published_on'
-            )->simplePaginate(15);
+            )->paginate(15);
         }
 
         return [
