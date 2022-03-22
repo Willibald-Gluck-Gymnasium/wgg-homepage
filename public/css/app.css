@@ -1268,13 +1268,10 @@ select {
   right: 0px !important;
 }
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 .top-0 {
   top: 0px !important;
 }
->>>>>>> main
-=======
 >>>>>>> main
 .z-0 {
   z-index: 0 !important;
@@ -1368,13 +1365,10 @@ select {
   margin-bottom: 1rem !important;
 }
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 .-mt-px {
   margin-top: -1px !important;
 }
->>>>>>> main
-=======
 >>>>>>> main
 .block {
   display: block !important;
@@ -1476,13 +1470,10 @@ select {
   max-width: 36rem !important;
 }
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 .max-w-6xl {
   max-width: 72rem !important;
 }
->>>>>>> main
-=======
 >>>>>>> main
 .flex-1 {
   flex: 1 1 0% !important;
@@ -1653,13 +1644,10 @@ select {
   border-bottom-width: 1px !important;
 }
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 .border-r {
   border-right-width: 1px !important;
 }
->>>>>>> main
-=======
 >>>>>>> main
 .border-gray-300 {
   --tw-border-opacity: 1 !important;
@@ -1681,14 +1669,11 @@ select {
   border-color: rgb(243 244 246 / var(--tw-border-opacity)) !important;
 }
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 .border-gray-400 {
   --tw-border-opacity: 1 !important;
   border-color: rgb(156 163 175 / var(--tw-border-opacity)) !important;
 }
->>>>>>> main
-=======
 >>>>>>> main
 .bg-white {
   --tw-bg-opacity: 1 !important;
@@ -1847,13 +1832,10 @@ select {
   padding-bottom: 0.25rem !important;
 }
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 .pt-8 {
   padding-top: 2rem !important;
 }
->>>>>>> main
-=======
 >>>>>>> main
 .text-left {
   text-align: left !important;
@@ -1922,13 +1904,10 @@ select {
   letter-spacing: 0.1em !important;
 }
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 .tracking-wider {
   letter-spacing: 0.05em !important;
 }
->>>>>>> main
-=======
 >>>>>>> main
 .text-gray-500 {
   --tw-text-opacity: 1 !important;
@@ -1991,7 +1970,6 @@ select {
   color: rgb(34 197 94 / var(--tw-text-opacity)) !important;
 }
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 .text-gray-200 {
   --tw-text-opacity: 1 !important;
@@ -2001,8 +1979,6 @@ select {
   --tw-text-opacity: 1 !important;
   color: rgb(209 213 219 / var(--tw-text-opacity)) !important;
 }
->>>>>>> main
-=======
 >>>>>>> main
 .underline {
   -webkit-text-decoration-line: underline !important;
@@ -2297,7 +2273,6 @@ select {
   opacity: 0.25 !important;
 }
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 @media (prefers-color-scheme: dark) {
 
@@ -2306,8 +2281,6 @@ select {
     background-color: rgb(17 24 39 / var(--tw-bg-opacity)) !important;
   }
 }
->>>>>>> main
-=======
 >>>>>>> main
 @media (min-width: 640px) {
 
@@ -2428,14 +2401,11 @@ select {
   }
 
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
   .sm\:justify-start {
     justify-content: flex-start !important;
   }
 
->>>>>>> main
-=======
 >>>>>>> main
   .sm\:justify-center {
     justify-content: center !important;

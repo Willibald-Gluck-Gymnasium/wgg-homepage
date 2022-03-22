@@ -1,7 +1,6 @@
 //BLUE theme
 $clr-blue: (
-    clr-wgg-orange: hsl(207, 100%, 55%),
-    clr-wgg-orange-lighter: hsl(207, 100%, 75%),
+    clr-wgg-orange: rgb(26, 152, 255),
     clr-bg-primary: hsl(0, 0%, 100%),
     clr-bg-secondary: hsl(0, 0%, 95%),
     clr-bg-tertiary: hsl(0, 0%, 90%),
@@ -9,8 +8,7 @@ $clr-blue: (
     clr-font: black,
 );
 $clr-blue-dark: (
-    clr-wgg-orange: hsl(207, 100%, 55%),
-    clr-wgg-orange-lighter: hsl(207, 100%, 35%),
+    clr-wgg-orange: rgb(26, 152, 255),
     clr-bg-primary: hsl(0, 0%, 14%),
     clr-bg-secondary: hsl(0, 0%, 8%),
     clr-bg-tertiary: hsl(0, 0%, 30%),
@@ -19,8 +17,7 @@ $clr-blue-dark: (
 );
 //RED THEME
 $clr-red: (
-    clr-wgg-orange: hsl(0, 100%, 36%),
-    clr-wgg-orange-lighter: hsl(0, 100%, 56%),
+    clr-wgg-orange: rgb(184, 0, 0),
     clr-bg-primary: hsl(0, 0%, 100%),
     clr-bg-secondary: hsl(0, 0%, 95%),
     clr-bg-tertiary: hsl(0, 0%, 90%),
@@ -29,8 +26,7 @@ $clr-red: (
 );
 
 $clr-red-dark: (
-    clr-wgg-orange: hsl(0, 100%, 66%),
-    clr-wgg-orange-lighter: hsl(0, 100%, 46%),
+    clr-wgg-orange: rgb(255, 82, 82),
     clr-bg-primary: hsl(0, 0%, 14%),
     clr-bg-secondary: hsl(0, 0%, 8%),
     clr-bg-tertiary: hsl(0, 0%, 30%),
@@ -39,8 +35,7 @@ $clr-red-dark: (
 );
 //GREEN theme
 $clr-green: (
-    clr-wgg-orange: hsl(108, 100%, 36%),
-    clr-wgg-orange-lighter: hsl(108, 100%, 56%),
+    clr-wgg-orange: rgb(37, 184, 0),
     clr-bg-primary: hsl(0, 0%, 100%),
     clr-bg-secondary: hsl(0, 0%, 95%),
     clr-bg-tertiary: hsl(0, 0%, 90%),
@@ -49,8 +44,7 @@ $clr-green: (
 );
 
 $clr-green-dark: (
-    clr-wgg-orange: hsl(132, 100%, 36%),
-    clr-wgg-orange-lighter: hsl(132, 100%, 16%),
+    clr-wgg-orange: rgb(0, 184, 38),
     clr-bg-primary: hsl(0, 0%, 14%),
     clr-bg-secondary: hsl(0, 0%, 8%),
     clr-bg-tertiary: hsl(0, 0%, 30%),

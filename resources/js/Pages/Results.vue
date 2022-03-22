@@ -4,37 +4,30 @@
     <main-header></main-header>
     <secondary-header></secondary-header>
     <div class="contentwrapper">
-        <div class="menu-container">
-            <vue-form action="/results">
-                <section>
-                    <field class="fill">
-                        <label for="q">Suchbegriff</label>
-                        <input id="q" name="q" type="search" :value=this.initSearchParam>
-                    </field>
-                    <field>
-                        <button id="submit" class="icon">
-                            <i class='material-icons'>search</i>
-                        </button>
-                    </field>
-                </section>
-                <section>
-                    <field class="fill">
-                        <label for="tags">Kategorien (Kommasepariert)</label>
-                        <input type="text" name="tags" id="tags" preview="hello there">
-                    </field>
-                    <field>
-                        <label for="s">Sortierung</label>
-                        <select id="s" name="s">
-                            <option value="r">Relevanz</option>
-                            <option value="a">Alphabet</option>
-                            <option value="d">Datum</option>
-                        </select>
-                    </field>
-                </section>
-                <!-- <div class="bar">
-                </div> -->
-            </vue-form>
-        </div>
+        <form class="menu-container">
+            <div class="bar search">
+                <div class="field spread">
+                    <span>Suchbegriff</span>
+                    <input name="q" type="text" :value=this.initSearchParam>
+                </div>
+                <div class="field">
+                    <span>Sortieren nach</span>
+                    <select name="s" id="sort">
+                        <option value="r">Relevanz</option>
+                        <option value="a">Alphabet</option>
+                        <option value="d">Datum</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <span></span>
+                    <button id="submit" class="icon">
+                        <i class='material-icons'>search</i>
+                    </button>
+                </div>
+            </div>
+            <!-- <div class="bar">
+            </div> -->
+        </form>
         <search-results><b>TODO</b></search-results>
     </div>
     <vue-footer></vue-footer>
@@ -52,7 +45,6 @@
     import SearchResults from '@components/SearchResults'
     import SearchResult from '@components/SearchResult'
     import VueFooter from '@components/VueFooter'
-    import VueForm from '@components/VueForm'
 
     export default {
         components: {
@@ -62,8 +54,7 @@
             SecondaryHeader,
             SearchResults,
             SearchResult,
-            VueFooter,
-            VueForm
+            VueFooter
         },
 
         props: {
@@ -82,7 +73,7 @@
                 this.initSearchParam = urlParams.get('q');
             }
         },
-        beforeMount() {
+        mounted() {
             this.checkURL();
         }
     }
@@ -98,7 +89,7 @@ $height: 35px;
     background: var(--clr-bg-primary);
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    box-shadow: 0 0 15px rgba(0,0,0,.05);
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
 }
 
 @media only screen and (max-width: 700px) {
