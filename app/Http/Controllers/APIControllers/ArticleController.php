@@ -15,8 +15,13 @@ class ArticleController extends Controller
      */
     public function index(Request $request)
     {   
+        define('ITEMS_PER_PAGE', 15);
+
         if (isset($request->search)) {
-            $data = Article::search($request->search)->paginate(15);
+            $data = Article::search($request->search)
+                        ->paginate(ITEMS_PER_PAGE)
+                        ->withQueryString();
+                        // ->appends(['search' => $request->search]);
 
             $data = $data->toArray();
 
@@ -37,13 +42,10 @@ class ArticleController extends Controller
                 'category',
                 'author',
                 'published_on'
-            )->paginate(15);
+            )->paginate(ITEMS_PER_PAGE)->withQueryString()->toArray();
         }
 
-        return [
-            'status' => 'success',
-            'data' => $data
-        ];
+        return ['status' => 'sucess'] + $data;
     }
 
     /**
