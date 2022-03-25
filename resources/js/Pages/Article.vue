@@ -111,7 +111,7 @@
         mounted() {
             register('de', de)
             const nodes = document.querySelectorAll('.timeago');
-            render(nodes, 'de');
+            if (nodes.length > 0) render(nodes, 'de');
         },
 
         data() {
