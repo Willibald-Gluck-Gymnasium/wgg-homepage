@@ -34,7 +34,7 @@ class HomeController extends Controller
         $slideCollection = Article::select('title', 'link', 'category', 'thumbnail_slide', 'published_on')
             // ->orderBy('published_on', 'desc')
             ->inRandomOrder()
-            // ->take(4)
+            ->take(4)
             ->get();
 
         $slides = $slideCollection->map(function ($item, $key) {
