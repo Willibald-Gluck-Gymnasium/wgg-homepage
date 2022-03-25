@@ -7,7 +7,7 @@
             <span class="category">
                 {{ category }}
             </span>
-            <span class="timeago" :datetime="Math.round(new Date(timestamp).getTime())"></span>
+            <span class="timeago" ref="publishedAt" :datetime="Math.round(new Date(timestamp).getTime())"></span>
             <h2>{{ title }}</h2>
             <span class="preview">
                 {{ preview }}
@@ -32,7 +32,7 @@ export default {
 		register('de_DE', de);
 
 		render(
-			this.$el.querySelector('.timeago'),
+			this.$refs.publishedAt,
 			'de_DE'
 		)
     }
@@ -108,6 +108,7 @@ export default {
 
             }
             &.timeago {
+                margin-left: 15px;
                 right: 0;
                 color: gray;
             }

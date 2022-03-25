@@ -19,10 +19,7 @@
 
 <script>
 export default {
-    props: ['category', 'sort'],
-    mounted() {
-      this.$el.querySelector("#header").innerHTML = this.$el.querySelector("#header").innerHTML.charAt(0).toUpperCase() + this.$el.querySelector("#header").innerHTML.substring(1);
-    }
+    props: ['category', 'sort']
 }
 </script>
 

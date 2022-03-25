@@ -9,7 +9,7 @@
             <div class="header">
                 <Link :href="'collection/' + category" class="category">{{ category }}</Link>
                 <h1>{{ title }}</h1>
-                <div class="info">
+                <div id="info" class="info">
                     <div v-if="author" class="author">
                         <!-- <div class="img force-aspect-ratio">
                             <img class="image" :src="authorimg" onerror="this.src='/img/authors/default-authorimg.svg';this.classList.add('svg');" alt="Author" />
@@ -25,6 +25,7 @@
                     <div class="seperator" v-if="publishedAt">-</div>
                     <div v-if="publishedAt" class="date">
                         <span 
+                            ref="publishedAt"
                             class="timeago" 
                             :datetime="publishedAtUnix"
                         ></span>
@@ -109,9 +110,10 @@
         },
 
         mounted() {
-            register('de', de)
-            const nodes = document.querySelectorAll('.timeago');
-            if (nodes.length > 0) render(nodes, 'de');
+            register('de', de);
+            const publishedAt = this.$refs.publishedAt;
+            // const nodes = this.$el.parentNode.querySelectorAll(".timeago");
+            if (publishedAt != undefined) render([publishedAt], 'de');
         },
 
         data() {
