@@ -2,6 +2,17 @@
 
 You do not need to be part of this school to contribute, if you have an idea on how to improve the site, please do make a Pull Request and we will take a look at it.
 
+- [Setup the environment](#setup-the-environment)
+    - [Install necessary applications](#install-necessary-applications)
+        - [Installing the applications on Windows](#installing-the-applications-on-windows)
+        - [Installing the applications on macOS](#installing-the-applications-on-macos)
+        - [Installing the applications on Linux](#installing-the-applications-on-linux)
+    - [Configuring the environment](#configuring-the-environment)
+        - [Windows configuration](#windows-configuration)
+        - [macOS and Linux configuration](#macos-and-linux-configuration)
+- [Use the environment](#use-the-environment)
+
+
 ## Setup the environment
 
 In this step we will install the necessary applications and packages, configure the environment and generate or create the necessary files
@@ -10,7 +21,7 @@ In this step we will install the necessary applications and packages, configure 
 
 This step is different for different OSes, make sure to follow the steps for your specific Operating System!
 
-#### On Windows:
+#### Installing the applications on Windows
 
 You should be on either Windows 11 or an up-to-date version of Windows 10 in order for these commands to work. We will start by installing the applications that are available using Window's package manager `winget`:
 
@@ -102,7 +113,7 @@ Now we will install the other applications we will need:
     ```
     This should output version information for composer, if executing it throws an error like "command not found" or similar, something went wrong or you haven't relogged in or restarted yet.
 
-#### On macOS:
+#### Installing the applications on macOS
 
 If you scrolled through the instructions for windows and think "why are these so long", it's Window's fault, on macOS the install process is a little bit simpler
 
@@ -145,7 +156,7 @@ valet install
 ```
 To edit the project and push to github more easily you can install [Visual Studio Code](https://code.visualstudio.com/download) and [Github Desktop](https://desktop.github.com/). 
 
-#### On Linux:
+#### Installing the applications on Linux
 
 The first thing we'll do is install the needed packages with the packages of your distro. We will need `npm`, `php`, `composer`, `php-fileinfo`, `php-iconv`, `php-sqlite`. These packages may be called something different on your distribution. A rather common difference is the `php` packages being called `php8-...` instead of `php-...`. If you can't find the packages, please make use of your package managers search function, or browse the web for what the packages are called on your distribution. There is no single way to install these packages, as every Linux distro does things a little differently.
 
@@ -161,13 +172,13 @@ For easier code editing you may install any code editor of your preference, but 
 
 After that you should have all software for contributing to this project installed.
 
-### Configure the environment
+### Configuring the environment
 
 Now we will download the actual repository and set up the environment for contributing. 
 
 Before being able to, you will have to create your own fork of <a href="https://github.com/Willibald-Gluck-Gymnasium/wgg-homepage" target="_blank">this repository</a>, by clicking on the `Fork` button on the top right of GitHub and then clicking on your username. Any changes you make, commit and push will be on this fork and if you want the changes to be implemented you will have to create a Pull Request.
 
-#### On Windows:
+#### Windows configuration
 
 - Open GitHub Desktop
 - Log into GitHub Desktop
@@ -200,7 +211,7 @@ Before being able to, you will have to create your own fork of <a href="https://
 
 And now the project should be readily configured for contributing on Windows.
 
-#### On macOS and Linux
+#### macOS and Linux configuration
 
 macOS and Linux make it far easier to run many commands at once, because of this and because they are both UNIX-based the configuring process is very similar between the two, which is why we will be able to use a lot of commands on bot OSes.
 
