@@ -7,7 +7,7 @@
     - [2.2 Registering images](#22-registering-images)
     - [2.3 The actual content](#23-the-actual-content)
         - [2.3.1 Paragraphs](#231-paragraphs)
-        - [2.3.2 **Bold**, *Italic* and <u>underline</u>](#232-bold-italic-and-uunderlineu)
+        - [2.3.2 **Bold**, *Italic* and underlined](#232-bold-italic-and-underlined)
         - [2.3.3 Links](#233-links)
         - [2.3.4 Lists](#234-lists)
         - [2.3.5 Images](#235-images)
@@ -42,6 +42,8 @@ On Windows and Linux you will always have to host the website with a command. Yo
 ```
 php artisan serve
 ```
+You will be able to access the site by going to [localhost:8000](localhost:8000) or with another port instead of 8000, depending on what the command outputs or what other port you chose.
+
 For macOS, if you followed [CONTRIBUTING.md](/CONTRIBUTING.md), you shouldn't have to run a command to host the website, as valet should already be doing that. To access the website in your browser go to [wgg.test](wgg.test).
 
 You should also always have a watcher running in the background to recognize changes so that they can be displayed on the website. This command has to be run on all systems, so Windows, Linux **and** macOS:
@@ -54,7 +56,7 @@ This command should also be run from a VSCode terminal.
 
 **DISCLAIMER 2**: These are the the basics on how to write an article. For more specialized info on how to add specific parts to an article, refer to [3. Advanced Content](#3-advanced-content).
 
-<hr>
+---
 
 The first thing to do is create the `.html` file for the article. The file should be located in `/resources/content/articles/` and the filename should be the link to the article. Take a look at `/resources/content/articles/corona-sicherheit.html` as an example.
 
@@ -128,7 +130,7 @@ Putting multiple paragraphs beneath each other will automatically space them (As
 <p>Paragraph 2, this is some more filler</p>
 ```
 
-#### 2.3.2 **Bold**, *Italic* and <u>underline</u>
+#### 2.3.2 **Bold**, *Italic* and underlined
 
 To make text **bold**, use the `<b>...</b>` tag, to make text *italic*, use the `<i>...</i>` tag and to make text <u>underlined</u>, use the `<u>...</u>` tag. For example to make a paragraph that says "**Hello there!** This *exquisite* establishment is <u>everything</u> you would want!", you would write:
 
