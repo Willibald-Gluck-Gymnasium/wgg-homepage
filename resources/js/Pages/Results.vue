@@ -7,29 +7,29 @@
         <div class="menu-container">
             <vue-form action="/results">
                 <section>
-                    <field class="fill">
+                    <div class="field fill">
                         <label for="q">Suchbegriff</label>
                         <input id="q" name="q" type="search" :value=this.initSearchParam>
-                    </field>
-                    <field>
-                        <button id="submit" class="icon">
+                    </div>
+                    <div class="field">
+                        <button id="submit" class="fill">
                             <i class='material-icons'>search</i>
                         </button>
-                    </field>
+                    </div>
                 </section>
                 <section>
-                    <field class="fill">
+                    <div class="field fill">
                         <label for="tags">Kategorien (Kommasepariert)</label>
                         <input type="text" name="tags" id="tags" preview="hello there">
-                    </field>
-                    <field>
+                    </div>
+                    <div class="field">
                         <label for="s">Sortierung</label>
                         <select id="s" name="s">
                             <option value="r">Relevanz</option>
                             <option value="a">Alphabet</option>
                             <option value="d">Datum</option>
                         </select>
-                    </field>
+                    </div>
                 </section>
                 <!-- <div class="bar">
                 </div> -->

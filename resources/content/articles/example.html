@@ -10,7 +10,7 @@ published_on: '02.11.2020 00:12'
 <h2>Beispiel Überschrift</h2>
 <p>Dies ist ein Beispiel-Artikel für die Leute die nach uns an dieser Website arbeiten werden und Artikel einfügen werden. Im Verlauf dieses "Artikels" werden Begriffe wie "wie hier" oder "wie folgt" o.ä. verwendet. Diese sollen darauf hinweisen in den Quellcode dieses Artikels zu schauen.</p>
 <p>Jeder Text sollte wie hier in einem Paragraph eingefügt werden.</p>
-<p>Für Überschriften sollten die Tags <code>h3</code> bis <code>h6</code> benutzt werden:</p>
+<p>Für Überschriften sollten die Tags <code>h2</code> bis <code>h6</code> benutzt werden:</p>
 <h3>Große Überschrift</h3>
 <h4>Unter der Großen Überschrift</h4>
 <h5>Kleine Überschrift</h5>
@@ -49,6 +49,15 @@ published_on: '02.11.2020 00:12'
     <li>Zweiter Punkt</li>
     <li>Dritter Punkt, der sehr lang ist Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nobis iure voluptatum alias voluptatibus, sapiente vel ut eaque dignissimos odio necessitatibus provident veritatis tempora quam vitae consequuntur minus earum iste!</li>
 </ol>
+<ol>
+    <li>Erster Punkt</li>
+    <li>Zweiter Punkt
+        <ul>
+            <li>Erstens</li>
+            <li>Zweitens</li>
+        </ul>
+    </li>
+</ol>
 <p>Außerdem ist es möglich, YouTube Videos einzubinden:</p>
 <youtube watch="B727cMaMW0M"></youtube>
 <p>Diese Videos können auch floaten: </p>
@@ -59,77 +68,77 @@ published_on: '02.11.2020 00:12'
 <p class="afterfloat">Zudem können allgemein sehr simpel forms genutzt werden werden, wie folgt:</p>
 <vue-form autocomplete="off">
     <section>
-        <field>
+        <div class="field">
             <label for="name">Name</label>
             <input type="text" name="name" id="name">
-        </field>
+        </div>
     </section>
     <section>
-        <field class="fill">
+        <div class="field" class="fill">
             <label for="fill">Sich streckendes Feld</label>
             <input type="tel" name="fill" id="fill">
-        </field>
-        <field>
+        </div>
+        <div class="field">
             <label for="file">Datei:</label>
             <input type="file" name="file" id="file">
-        </field>
+        </div>
     </section>
     <section>
-        <field>
+        <div class="field">
             <label for="email">E-Mail</label>
             <input type="email" name="email" id="email">
-        </field>
-        <field>
+        </div>
+        <div class="field">
             <label for="color">Farbe</label>
             <input type="color" name="color" id="color">
-        </field>
-        <field>
+        </div>
+        <div class="field">
             <label for="date">Datum</label>
             <input type="datetime-local" name="date" id="date">
-        </field>
-        <field>
+        </div>
+        <div class="field">
             <label for="month">Monat</label>
             <input type="month" name="month" id="month">
-        </field>
-        <field class="fill">
+        </div>
+        <div class="field" class="fill">
             <label for="range">Slider</label>
             <input type="range" name="range" id="range">
-        </field>
+        </div>
     </section>
     <section>
-        <field>
+        <div class="field">
             <label for="pw">Password</label>
             <input type="password" name="pw" id="pw">
-        </field>
-        <field class="fill">
+        </div>
+        <div class="field" class="fill">
             <label for="url">URL</label>
             <input type="url" name="url" id="url">
-        </field>
-        <field>
+        </div>
+        <div class="field">
             <label for="radio">Radio</label>
             <input type="radio" name="radio" id="radio">
-        </field>
-        <field>
+        </div>
+        <div class="field">
             <label for="check">Check</label>
             <input type="checkbox" name="check" id="check">
-        </field>
-        <field>
+        </div>
+        <div class="field">
             <input type="reset" value="Reset">
-        </field>
-        <field>
+        </div>
+        <div class="field">
             <input type="button" value="Button">
-        </field>
-        <field>
+        </div>
+        <div class="field">
             <input type="submit" value="Submit">
-        </field>
-        <field>
+        </div>
+        <div class="field">
             <button>Test</button>
-        </field>
+        </div>
     </section>
     <section>
-        <field class="fill">
+        <div class="field" class="fill">
             <label for="ta">Text Area</label>
             <textarea name="ta" id="ta" rows="5"></textarea>
-        </field>
+        </div>
     </section>
 </vue-form>

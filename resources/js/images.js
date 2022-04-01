@@ -6,6 +6,9 @@ const images = {
     testimg1_thumbnail: require(`@img/color3.jpg?pipeline=thumbnail`),
     testimg1_slide: require("@img/color3.jpg?pipeline=slide"),
 
+    missing_thumbnail: require(`@img/missing-thumbnail.png?pipeline=thumbnail`),
+    missing_thumbnail_slide: require("@img/missing-thumbnail.png?pipeline=slide"),
+
     testimg2_article: require("@img/color9.jpg?pipeline=article"),
 
     construction_sign_thumbnail: require("@img/construction-sign.jpg?pipeline=thumbnail"),

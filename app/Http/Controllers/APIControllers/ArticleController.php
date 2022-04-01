@@ -12,31 +12,46 @@ class ArticleController extends Controller
     /**
      * Index the article.
      *
-     * @param Article $article
-     * @return \Illuminate\View\View
      */
-    public function index()
+    public function index(Request $request)
     {   
-        // $articles = Article::all();
+        define('ITEMS_PER_PAGE', 15);
 
-        $data = Article::select(
-            'title',
-            'link',
-            'author',
-            'published_on'
-        )->simplePaginate(15);
+        if (isset($request->search)) {
+            $data = Article::search($request->search)
+                        ->paginate(ITEMS_PER_PAGE)
+                        ->withQueryString();
+                        // ->appends(['search' => $request->search]);
 
-        return [
-            'status' => 'success',
-            'data' => $data
-        ];
+            $data = $data->toArray();
+
+            $data['data'] = collect($data['data'])->map(function ($item, $key) {
+                return [
+                    'title' => $item['title'],
+                    'link' => $item['link'],
+                    'category' => $item['category'],
+                    'author' => $item['author'],
+                    'published_on' => $item['published_on']
+                ];
+            })->toArray();
+
+        } else {
+            $data = Article::select(
+                'title',
+                'link',
+                'category',
+                'author',
+                'published_on'
+            )->paginate(ITEMS_PER_PAGE)->withQueryString()->toArray();
+        }
+
+        return ['status' => 'sucess'] + $data;
     }
 
     /**
      * Show the article.
      *
      * @param Article $article
-     * @return \Illuminate\View\View
      */
     public function show(Article $article, Request $request)
     {

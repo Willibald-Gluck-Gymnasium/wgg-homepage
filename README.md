@@ -2,113 +2,61 @@
 
 ![Tests](https://github.com/Willibald-Gluck-Gymnasium/wgg-homepage/workflows/Tests/badge.svg)
 
-## How to link to other pages, articles, or websites
+## FAQ
 
-### Other websites:
+> How do I contribute to this project?
 
-Simply link to them as you would normally:
+Clone this repository, install the necessary dependencies with npm and composer and host it with artisan. For mor detailed information please refer to [CONTRIBUTING.md](/CONTRIBUTING.md).
 
-```html
-<a href="https://www.google.com">Link to Google</a>
-```
+> How do I write an article?
 
-### To another page or article on this site: 
-```html
-<inertia-link href="/example-article">Another Article</inertia-link>
-```
+- Create an article.html file in `/resources/content/articles/`
+- Give the file the appropriate header:
+	```yml
+	---
+	title: 'Titel des Artikels'
+	link: link-zum-artikel #Sollte dem Dateinamen entsprechen
+	category: Allgemein #Bei Artikeln zu einem Fach sollte das Fach als Kategorie angegeben werden
+	author: 'Max Mustermann' #Ist optional, kann auch weggelassen werden
+	thumbnail: construction_sign_thumbnail #This and thumbnail_slide need to be registered in order for them to work
+	thumbnail_slide: construction_sign_slide
+	published_on: '02.11.2020 00:12' #Ist optional, kann auch weggelassen werden
+	---
+	```
+- Put your images into `/resources/img/` and register them in `/resources/js/images.js` using the pipeline `thumbnail` for the thumbnail and `slide` for thumbnail_slide.
+- Write the content of your article below the header with basic html syntax
 
-There are a few options you can pass to `inertia-link`, learn more about them [here in the inertia documentation](https://inertiajs.com/links).
+For more information please refer to [WRITING.md](/WRITING.md).
 
-## How to add images to articles
+> How do I put images into my articles?
 
-### 1. Put your image into `resources/img`
+- Register them in `images.js`
+- Use the `<v-image>` component to insert the image into a `<figure>`:
+	```html
+	<figure>
+		<v-image name="name_of_your_image" alt="Beschreibung"></v-image>
+		<figcaption>Untertitel (optional)</figcaption>
+	</figure>
+	```
+For more information please refer to [WRITING.md 2.3.5 Images](/WRITING.md#235-images).
 
-### 2. Register your image in `resources/js/images.js`
+> How do I put links into my articles?
 
-```js
-const images = {
-    [...]
-    name_of_your_image: require('@img/image.jpg?pipeline=article'),
-    name_of_your_other_image: require('@img/otherimage.jpg?pipeline=article')
-}
-```
+- If you want to another article use the `<inertia-link>` component:
+	```html
+	<inertia-link href="/link-to-other-article">Text</inertia-link>
+	```
+- If you want to link away from our website use the default `<a>` tag from HTML:
+	```html
+	<a href="https://github.com">Text</a>
+	```
+> I'm an advanced developer, how do I add new features/components to this website?
 
-This is what you write into the `require()` function:
+This website was/is developed using Laravel, Vue.js 3 and InertiaJS. We have tried to stick to the industry standards and best practices as closely as possible. If you know how these work you will know how this project works. There is some more information you should know about:
 
-```js
-require('path/to/your/image.jpg?pipeline=version_you_want')
-```
+If you want to use new custom Vue Components in articles, you will have to register them in `Article.vue` and apply them.
 
-`@img` = `resources/img`
-
-### Whats `?pipeline=version_you_want`?
-
-There are many possible pipelines you can feed your image through. Each pipeline will resize the image diffrently, and maybe add filters. You can see all  pipelines (and add your own) in `webpack.mix.json`. 
-
-### 3. Insert the image using the v-image component in `resources/content/articles`
-
-```yml
----
-title: Titel deines Artikels
-link: link-zum-artikel
-thumbnail: name_of_your_thumbnail
-thumbnail_slide: name_of_your_slide_image
-published_on: 02.11.2021 00:12
----
-<h2>Beispiel Überschrift</h2>
-<v-image name="name_of_your_image" alt="Kurze Beschreibung des Bildes" />
-<v-image name="name_of_your_other_image" alt="Ganz kurzer Satz" />
-[...]
-```
-
-### Done. 
-
-## How to add thumbnail images
-
-### 1. Put your image into `resources/img`
-
-### 2. Register your image in `resources/js/images.js`
-
-```js
-const images = {
-    [...]
-    name_of_your_thumbnail: require('@img/article-thumbnail.jpg?pipeline=thumbnail'),
-    name_of_your_slide_image: require('@img/article-thumbnail.jpg?pipeline=slide')
-}
-```
-
-### 3. Add it to your article file in `resources/content/articles`
-
-```yml
----
-title: Titel deines Artikels
-link: link-zum-artikel
-thumbnail: name_of_your_thumbnail # here
-thumbnail_slide: name_of_your_slide_image # and here
-published_on: 02.11.2021 00:12
----
-<h2>Beispiel Überschrift</h2>
-[...]
-```
-
-### Done. 
-
-
-## How to use custom components inside articles
-
-In Vue, every component has to be registered before you can use them. You can register your component globally, or inside your parent component (more efficient). 
-
-All articles share the same component, so you have to register your components there. Open `resources/js/Pages/Article.vue`, go to the setup function, to the `onMounted()` lifecycle hook. Here the vue function `createApp()` is called to render the Article code from the database. Here you register your components. They are registered like global components.
-
-```js
-onMounted(() => {
-    createApp(ArticleComponent)
-        .component("youtube", Youtube)
-        .component("v-image", Image)
-        .component("inertia-link", Link)
-        .mount(articlecontent.value)
-})
-```
+For more detailed information please refer to [DEVELOPING.md](/DEVELOPING.md).
 
 ## Live Deployment
 

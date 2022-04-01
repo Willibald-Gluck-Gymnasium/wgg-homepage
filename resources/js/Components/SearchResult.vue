@@ -7,7 +7,7 @@
             <span class="category">
                 {{ category }}
             </span>
-            <span class="timeago" :datetime="Math.round(new Date(timestamp).getTime())"></span>
+            <span class="timeago" ref="publishedAt" :datetime="Math.round(new Date(timestamp).getTime())"></span>
             <h2>{{ title }}</h2>
             <span class="preview">
                 {{ preview }}
@@ -19,34 +19,20 @@
 <script>
 import { Link } from '@inertiajs/inertia-vue3';
 
+import { render, register } from 'timeago.js'
+import de from 'timeago.js/lib/lang/de.js'
+
+
 export default {
     components: {
         Link
     },
     props: ['href', 'imgsrc', 'category', 'timestamp', 'title', 'preview'],
     mounted () {
-		var locale = function(number, index, totalSec) {
-			return [
-				['gerade eben', 'vor einer Weile'],
-				['vor %s Sekunden', 'in %s Sekunden'],
-				['vor 1 Minute', 'in 1 Minute'],
-				['vor %s Minuten', 'in %s Minuten'],
-				['vor 1 Stunde', 'in 1 Stunde'],
-				['vor %s Stunden', 'in %s Stunden'],
-				['vor 1 Tag', 'in 1 Tag'],
-				['vor %s Tagen', 'in %s Tagen'],
-				['vor 1 Woche', 'in 1 Woche'],
-				['vor %s Wochen', 'in %s Wochen'],
-				['vor 1 Monat', 'in 1 Monat'],
-				['vor %s Monaten', 'in %s Monaten'],
-				['vor 1 Jahr', 'in 1 Jahr'],
-				['vor %s Jahren', 'in %s Jahren']
-			][index];
-		};
-		timeago.register('de_DE', locale);
+		register('de_DE', de);
 
-		timeago.render(
-			this.$el.querySelector('.timeago'),
+		render(
+			this.$refs.publishedAt,
 			'de_DE'
 		)
     }
@@ -122,6 +108,7 @@ export default {
 
             }
             &.timeago {
+                margin-left: 15px;
                 right: 0;
                 color: gray;
             }
