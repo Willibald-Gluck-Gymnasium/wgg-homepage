@@ -2,6 +2,7 @@
 
 - [1. What do I need?](#1-what-do-i-need)
 - [2. The basics](#2-the-basics)
+    - [2.0 Before writing](#20-before-writing)
     - [2.1 The header](#21-the-header)
     - [2.2 Registering images](#22-registering-images)
     - [2.3 The actual content](#23-the-actual-content)
@@ -33,9 +34,27 @@ These are optional:
 
 ## 2. The basics
 
-**DISCLAIMER**: If you want to see the following information in action, open the file `/resources/content/articles/example.html`, open the webpage and navigate to `/example` (e.g. [localhost/example](localhost/example), if you host it yourself on port `80`, or [localhost:8000/example](localhost:8000/example), if you host it locally, but can't use the port `80` so you use `8000`). You can compare what is written in `example.html` with what is shown in the browser to compare. Most examples in this document are taken - in one way or another - from `example.html`
+### 2.0 Before writing
 
-These are the the basics on how to write an article. For more specialized info on how to add specific parts to an article, refer to [3. Advanced Content](#3-advanced-content).
+For developing you should have your website hosted. 
+
+On Windows and Linux you will always have to host the website with a command. You can execute this directly form a VSCode terminal:
+```
+php artisan serve
+```
+For macOS, if you followed [CONTRIBUTING.md](/CONTRIBUTING.md), you shouldn't have to run a command to host the website, as valet should already be doing that. To access the website in your browser go to [wgg.test](wgg.test).
+
+You should also always have a watcher running in the background to recognize changes so that they can be displayed on the website. This command has to be run on all systems, so Windows, Linux **and** macOS:
+```
+npm run watch
+```
+This command should also be run from a VSCode terminal.
+
+**DISCLAIMER**: You can compare what is written in `example.html` with what is shown in the browser to compare. Most examples in this document are taken - in one way or another - from `example.html`
+
+**DISCLAIMER 2**: These are the the basics on how to write an article. For more specialized info on how to add specific parts to an article, refer to [3. Advanced Content](#3-advanced-content).
+
+<hr>
 
 The first thing to do is create the `.html` file for the article. The file should be located in `/resources/content/articles/` and the filename should be the link to the article. Take a look at `/resources/content/articles/corona-sicherheit.html` as an example.
 
