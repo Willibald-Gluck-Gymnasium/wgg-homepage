@@ -1,45 +1,33 @@
 <template>
     <Head title="Home"/>
 
-    <main-header></main-header>
-    <secondary-header></secondary-header>
     <slideshow :slides="slides"></slideshow>
-
     <vue-headline class="mt-6 font-bold">Neuigkeiten</vue-headline>
     <card-cluster :cards="cards" class="mt-5"></card-cluster>
-    
-    <vue-footer></vue-footer>
 </template>
 
 <style>
     
 </style>
 
+<script setup>
+import { defineProps } from 'vue'
+
+import { Head } from '@inertiajs/inertia-vue3';
+import Slideshow from '@components/Slideshow'
+import CardCluster from '@components/CardCluster'
+import VueHeadline from '@components/VueHeadline'
+
+const props = defineProps({
+    slides: Array,
+    cards: Array,
+})
+</script>
+
 <script>
-    import { Link, Head } from '@inertiajs/inertia-vue3';
+import MainAppLayout from '@/Layouts/MainAppLayout.vue'; 
 
-    import MainHeader from '@components/MainHeader'
-    import SecondaryHeader from '@components/SecondaryHeader'
-    import Slideshow from '@components/Slideshow'
-    import CardCluster from '@components/CardCluster'
-    import VueFooter from '@components/VueFooter'
-    import VueHeadline from '@components/VueHeadline'
-
-    export default {
-        components: {
-            Head,
-            Link,
-            MainHeader,
-            SecondaryHeader,
-            Slideshow,
-            CardCluster,
-            VueFooter,
-            VueHeadline
-        },
-
-        props: {
-            slides: Array,
-            cards: Array,
-        }
-    }
+export default {
+    layout: MainAppLayout
+}
 </script>

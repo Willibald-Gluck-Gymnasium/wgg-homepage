@@ -1,9 +1,6 @@
 <template>
     <Head :title="title" />
 
-    <main-header></main-header>
-    <secondary-header></secondary-header>
-
     <div class="article-container manual-scope-XKpYE">
         <div id="wrapper">
             <div class="header">
@@ -61,12 +58,13 @@
         </div>
     </div>
 
-    <vue-footer></vue-footer>
-
 </template>
 
 <script>
     import { createApp, defineComponent, onMounted, ref, compile, h } from 'vue'
+
+    import MainAppLayout from '@/Layouts/MainAppLayout.vue'; 
+
     import { Head, Link } from '@inertiajs/inertia-vue3';
 
     import { render, register } from 'timeago.js';
@@ -104,6 +102,8 @@
             publishedAt: String,
             readTime: String
         },
+
+        layout: MainAppLayout,
 
         beforeMount() {
             this.publishedAtUnix = moment(this.publishedAt, "DD.MM.YYYY HH:mm").unix() * 1000
@@ -149,6 +149,8 @@
         }
     })
 </script>
+
+
 
 <style lang="scss">
 .manual-scope-XKpYE {
