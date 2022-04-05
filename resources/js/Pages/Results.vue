@@ -35,14 +35,9 @@
     <vue-footer></vue-footer>
 </template>
 
-<style lang="scss" scoped>
-
-</style>
-
 <script setup>
 import { ref } from 'vue'
 
-// import InstantSearch from 'vue-instantsearch/vue3/es/components';
 import algoliasearch from 'algoliasearch/lite';
 import 'instantsearch.css/themes/satellite-min.css';
 
@@ -50,8 +45,6 @@ import { Link, Head } from '@inertiajs/inertia-vue3';
 import MainHeader from '@components/MainHeader'
 import SecondaryHeader from '@components/SecondaryHeader'
 import VueFooter from '@components/VueFooter'
-
-console.log(process.env.MIX_SCOUT_PREFIX)
 
 const searchClient = ref(algoliasearch(
     process.env.MIX_ALGOLIA_APP_ID,
@@ -61,3 +54,7 @@ const searchClient = ref(algoliasearch(
 const mixScoutPrefix = ref(process.env.MIX_SCOUT_PREFIX)
 
 </script>
+
+<style lang="scss" scoped>
+
+</style>
