@@ -37,8 +37,16 @@
 import { ref } from 'vue'
 
 import { Link} from '@inertiajs/inertia-vue3'
-import algoliasearch from 'algoliasearch/lite';
 import 'instantsearch.css/themes/satellite-min.css';
+import algoliasearch from 'algoliasearch/lite';
+import {
+  AisInstantSearch,
+  AisSearchBox,
+  AisHits,
+  AisSnippet,
+  AisHighlight,
+  AisConfigure
+} from 'vue-instantsearch/vue3/es';
 
 const showResults = ref(false)
 
