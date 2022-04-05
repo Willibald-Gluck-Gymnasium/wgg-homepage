@@ -1,11 +1,11 @@
 <template>
     <div class="container">
         <ais-instant-search :search-client="searchClient" :index-name="mixScoutPrefix + 'articles'">
-            <ais-search-box @focus="showResults = true" @blur="showResults = false"/>
+            <ais-search-box ref="searchbox" @focus="showResults = true" @blur="showResults = false"/>
 
             <ais-hits :escape-HTML="true" v-if="showResults">
                 <template v-slot:item="{ item }">
-                    <Link @mousedown.prevent :href="item.link">
+                    <Link @mousedown.prevent @click="unfocusSearchBox()" :href="item.link">
                         <h2>
                             <ais-highlight
                                 attribute="title"
@@ -34,21 +34,33 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 
 import { Link} from '@inertiajs/inertia-vue3'
 import 'instantsearch.css/themes/satellite-min.css';
 import algoliasearch from 'algoliasearch/lite';
 import {
-  AisInstantSearch,
-  AisSearchBox,
-  AisHits,
-  AisSnippet,
-  AisHighlight,
-  AisConfigure
+    AisInstantSearch,
+    AisSearchBox,
+    AisHits,
+    AisSnippet,
+    AisHighlight,
+    AisConfigure
 } from 'vue-instantsearch/vue3/es';
 
 const showResults = ref(false)
+
+const searchbox = ref(null)
+
+// onMounted(() => {
+//     setInterval(() => {
+//         console.log(searchbox.value.$el)
+//     }, 1000)
+// })
+
+function unfocusSearchBox() {
+    searchbox.value.$el.querySelector('input').blur()
+}
 
 const searchClient = ref(algoliasearch(
     process.env.MIX_ALGOLIA_APP_ID,
@@ -56,6 +68,10 @@ const searchClient = ref(algoliasearch(
 ))
 
 const mixScoutPrefix = ref(process.env.MIX_SCOUT_PREFIX)
+
+function log(val) {
+  console.log(val)
+}
 </script>
 
 <style lang="scss" scoped>
