@@ -48,7 +48,18 @@ const images = {
     calculator_slide: require('@img/calculator.jpg?pipeline=thumbnail'),
 
     infoportal_login_thumbnail: require('@img/infoportal-login.png?pipeline=thumbnail'),
-    infoportal_login_slide: require('@img/infoportal-login.png?pipeline=slide')
+    infoportal_login_slide: require('@img/infoportal-login.png?pipeline=slide'),
+
+    cae_information_thumbnail: require("@img/cae_information_thumbnail_slide.png?pipeline=thumbnail"),
+    cae_information_slide: require(`@img/cae_information_thumbnail_slide.png?pipeline=slide`),
+    cae_information_banner: require(`@img/cae_information_banner.png?pipeline=article`),
+
+    spanisch_thumbnail: require("@img/spanisch_thumbnail_slide.jpg?pipeline=thumbnail"),
+    spanisch_slide: require(`@img/spanisch_thumbnail_slide.jpg?pipeline=slide`),
+
+    big_challenge_thumbnail: require("@img/big_challenge_thumbnail_slide.jpg?pipeline=thumbnail"),
+    big_challenge_slide: require(`@img/big_challenge_thumbnail_slide.jpg?pipeline=slide`),
+    big_challenge_banner: require(`@img/big_challenge_banner.png?pipeline=article`),
 }
 
 export default images
