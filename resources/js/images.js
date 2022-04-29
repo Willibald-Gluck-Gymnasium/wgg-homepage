@@ -48,7 +48,12 @@ const images = {
     calculator_slide: require('@img/calculator.jpg?pipeline=thumbnail'),
 
     infoportal_login_thumbnail: require('@img/infoportal-login.png?pipeline=thumbnail'),
-    infoportal_login_slide: require('@img/infoportal-login.png?pipeline=slide')
-}
+    infoportal_login_slide: require('@img/infoportal-login.png?pipeline=slide'),
 
+    kunst_thumbnail: require('@img/kunst_thumbnail.jpg?pipeline=thumbnail'),
+    kunst_ausstattung_thumbnail: require('@img/malkasten.jpg?pipeline=thumbnail'),
+    glasworkshop_selfie: require('@img/glasworkshop1.jpg?pipeline=article'),
+    glasworkshop_bild: require('@img/glasworkshop2.jpg?pipeline=article'),
+
+}
 export default images
