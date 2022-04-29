@@ -1,45 +1,45 @@
 :root {
-  --blue-clr-wgg-orange: #1a98ff;
-  --blue-clr-wgg-orange-lighter: #80c6ff;
-  --blue-clr-bg-primary: white;
-  --blue-clr-bg-secondary: #f2f2f2;
-  --blue-clr-bg-tertiary: #e6e6e6;
-  --blue-clr-bg-transparent: rgba(255, 255, 255, 0.5);
+  --blue-clr-wgg-orange: hsl(207deg, 100%, 55%);
+  --blue-clr-wgg-orange-lighter: hsl(207deg, 100%, 75%);
+  --blue-clr-bg-primary: hsl(0deg, 0%, 100%);
+  --blue-clr-bg-secondary: hsl(0deg, 0%, 95%);
+  --blue-clr-bg-tertiary: hsl(0deg, 0%, 90%);
+  --blue-clr-bg-transparent: hsla(0deg, 0%, 100%, 0.5);
   --blue-clr-font: black;
-  --blue-dark-clr-wgg-orange: #1a98ff;
-  --blue-dark-clr-wgg-orange-lighter: #0062b3;
-  --blue-dark-clr-bg-primary: #242424;
-  --blue-dark-clr-bg-secondary: #141414;
-  --blue-dark-clr-bg-tertiary: #4d4d4d;
-  --blue-dark-clr-bg-transparent: rgba(46, 46, 46, 0.9);
+  --blue-dark-clr-wgg-orange: hsl(207deg, 100%, 55%);
+  --blue-dark-clr-wgg-orange-lighter: hsl(207deg, 100%, 35%);
+  --blue-dark-clr-bg-primary: hsl(0deg, 0%, 14%);
+  --blue-dark-clr-bg-secondary: hsl(0deg, 0%, 8%);
+  --blue-dark-clr-bg-tertiary: hsl(0deg, 0%, 30%);
+  --blue-dark-clr-bg-transparent: hsla(0deg, 0%, 18%, 0.9);
   --blue-dark-clr-font: white;
-  --red-clr-wgg-orange: #b80000;
-  --red-clr-wgg-orange-lighter: #ff1f1f;
-  --red-clr-bg-primary: white;
-  --red-clr-bg-secondary: #f2f2f2;
-  --red-clr-bg-tertiary: #e6e6e6;
-  --red-clr-bg-transparent: rgba(255, 255, 255, 0.5);
+  --red-clr-wgg-orange: hsl(0deg, 100%, 36%);
+  --red-clr-wgg-orange-lighter: hsl(0deg, 100%, 56%);
+  --red-clr-bg-primary: hsl(0deg, 0%, 100%);
+  --red-clr-bg-secondary: hsl(0deg, 0%, 95%);
+  --red-clr-bg-tertiary: hsl(0deg, 0%, 90%);
+  --red-clr-bg-transparent: hsla(0deg, 0%, 100%, 0.5);
   --red-clr-font: black;
-  --red-dark-clr-wgg-orange: #ff5252;
-  --red-dark-clr-wgg-orange-lighter: #eb0000;
-  --red-dark-clr-bg-primary: #242424;
-  --red-dark-clr-bg-secondary: #141414;
-  --red-dark-clr-bg-tertiary: #4d4d4d;
-  --red-dark-clr-bg-transparent: rgba(46, 46, 46, 0.9);
+  --red-dark-clr-wgg-orange: hsl(0deg, 100%, 66%);
+  --red-dark-clr-wgg-orange-lighter: hsl(0deg, 100%, 46%);
+  --red-dark-clr-bg-primary: hsl(0deg, 0%, 14%);
+  --red-dark-clr-bg-secondary: hsl(0deg, 0%, 8%);
+  --red-dark-clr-bg-tertiary: hsl(0deg, 0%, 30%);
+  --red-dark-clr-bg-transparent: hsla(0deg, 0%, 18%, 0.9);
   --red-dark-clr-font: white;
-  --green-clr-wgg-orange: #25b800;
-  --green-clr-wgg-orange-lighter: #4bff1f;
-  --green-clr-bg-primary: white;
-  --green-clr-bg-secondary: #f2f2f2;
-  --green-clr-bg-tertiary: #e6e6e6;
-  --green-clr-bg-transparent: rgba(255, 255, 255, 0.5);
+  --green-clr-wgg-orange: hsl(108deg, 100%, 36%);
+  --green-clr-wgg-orange-lighter: hsl(108deg, 100%, 56%);
+  --green-clr-bg-primary: hsl(0deg, 0%, 100%);
+  --green-clr-bg-secondary: hsl(0deg, 0%, 95%);
+  --green-clr-bg-tertiary: hsl(0deg, 0%, 90%);
+  --green-clr-bg-transparent: hsla(0deg, 0%, 100%, 0.5);
   --green-clr-font: black;
-  --green-dark-clr-wgg-orange: #00b825;
-  --green-dark-clr-wgg-orange-lighter: #005210;
-  --green-dark-clr-bg-primary: #242424;
-  --green-dark-clr-bg-secondary: #141414;
-  --green-dark-clr-bg-tertiary: #4d4d4d;
-  --green-dark-clr-bg-transparent: rgba(46, 46, 46, 0.9);
+  --green-dark-clr-wgg-orange: hsl(132deg, 100%, 36%);
+  --green-dark-clr-wgg-orange-lighter: hsl(132deg, 100%, 16%);
+  --green-dark-clr-bg-primary: hsl(0deg, 0%, 14%);
+  --green-dark-clr-bg-secondary: hsl(0deg, 0%, 8%);
+  --green-dark-clr-bg-tertiary: hsl(0deg, 0%, 30%);
+  --green-dark-clr-bg-transparent: hsla(0deg, 0%, 18%, 0.9);
   --green-dark-clr-font: white;
 }
 
@@ -101,19 +101,19 @@
   --sz-header-height: 70px;
   --sz-footer-height: 150px;
   --media-width-phone: 500px;
-  --clr-wgg-orange: #ff881a;
-  --clr-wgg-orange-lighter: #ffbd80;
-  --clr-bg-primary: white;
-  --clr-bg-secondary: #f2f2f2;
-  --clr-bg-tertiary: #e6e6e6;
-  --clr-bg-transparent: rgba(255, 255, 255, 0.5);
+  --clr-wgg-orange: hsl(29deg, 100%, 55%);
+  --clr-wgg-orange-lighter: hsl(29deg, 100%, 75%);
+  --clr-bg-primary: hsl(0deg, 0%, 100%);
+  --clr-bg-secondary: hsl(0deg, 0%, 95%);
+  --clr-bg-tertiary: hsl(0deg, 0%, 90%);
+  --clr-bg-transparent: hsla(0deg, 0%, 100%, 0.5);
   --clr-font: black;
-  --dark-clr-wgg-orange: #e7770d;
-  --dark-clr-wgg-orange-lighter: #874508;
-  --dark-clr-bg-primary: #242424;
-  --dark-clr-bg-secondary: #141414;
-  --dark-clr-bg-tertiary: #4d4d4d;
-  --dark-clr-bg-transparent: rgba(46, 46, 46, 0.9);
+  --dark-clr-wgg-orange: hsl(29deg, 89%, 48%);
+  --dark-clr-wgg-orange-lighter: hsl(29deg, 89%, 28%);
+  --dark-clr-bg-primary: hsl(0deg, 0%, 14%);
+  --dark-clr-bg-secondary: hsl(0deg, 0%, 8%);
+  --dark-clr-bg-tertiary: hsl(0deg, 0%, 30%);
+  --dark-clr-bg-transparent: hsla(0deg, 0%, 18%, 0.9);
   --dark-clr-font: white;
 }
 
@@ -214,7 +214,7 @@ body {
   }
 }
 /*
-! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com
+! tailwindcss v3.0.24 | MIT License | https://tailwindcss.com
 *//*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
@@ -1381,6 +1381,9 @@ select {
 }
 .w-10 {
   width: 2.5rem !important;
+}
+.w-1\/2 {
+  width: 50% !important;
 }
 .w-20 {
   width: 5rem !important;

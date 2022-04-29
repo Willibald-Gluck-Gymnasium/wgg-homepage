@@ -76,3 +76,7 @@ Route::get('/favicon.ico', function () {
 
 Route::get('/{article}', [ArticleController::class, 'show'])->name('artikel.show');
 
+Route::get('/pdf/{pdf}', function($pdf) {
+    return response()->file( base_path().'/resources/pdf/'.$pdf);
+});
+
