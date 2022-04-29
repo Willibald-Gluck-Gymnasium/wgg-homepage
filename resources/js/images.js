@@ -48,7 +48,27 @@ const images = {
     calculator_slide: require('@img/calculator.jpg?pipeline=thumbnail'),
 
     infoportal_login_thumbnail: require('@img/infoportal-login.png?pipeline=thumbnail'),
-    infoportal_login_slide: require('@img/infoportal-login.png?pipeline=slide')
+    infoportal_login_slide: require('@img/infoportal-login.png?pipeline=slide'),
+
+    sport_thumbnail: require('@img/badminton.png?pipeline=thumbnail'),
+    sport_pedalo: require('@img/pedalo.jpg?pipeline=article'),
+    sport_kastenlauf: require('@img/kastenlauf.jpg?pipeline=article'),
+    sport_huerdenlauf2: require('@img/huerdenlauf2.jpg?pipeline=article'),
+    sport_sackhupfen: require('@img/sackhupfen.jpg?pipeline=article'),
+    sport_huerdenlauf1: require('@img/huerdenlauf1.jpg?pipeline=article'),
+    sport_bauchball: require('@img/bauchball.jpg?pipeline=article'),
+    sport_bechern: require('@img/bechern.jpg?pipeline=article'),
+
+    sport_tischtennis_thumbnail: require('@img/spiel.jpg?pipeline=article'),
+    sport_gruppenbild: require('@img/gruppenbild.jpg?pipeline=article'),
+    
+    sport_psem_kraftraum: require('@img/plakate.png?pipeline=article'),
+
+    sport_lehrertt_thumbnail: require('@img/18_lehrertt_1.jpg?pipeline=article'),
+    sport_lehrertt_2: require('@img/18_lehrertt_2.jpg?pipeline=article'),
+
+    sport_fussball_1: require('@img/18_fussball_01.jpg?pipeline=thumbnail'),
+   
 }
 
 export default images
