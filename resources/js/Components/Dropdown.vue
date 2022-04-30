@@ -94,6 +94,7 @@ $sizing: 10px;
 	.dropdown {
 		.slide, .title {
 			font-size: .95em !important;
+			padding: 0 !important;
 		}
 		margin-left: 10px;
 		margin-right: 10px;
