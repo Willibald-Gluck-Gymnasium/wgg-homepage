@@ -14,7 +14,8 @@
 - [3. Advanced content](#3-advanced-content)
     - [3.1 YouTube videos](#31-youtube-videos)
     - [3.2 Input forms (WIP)](#32-input-forms-wip)
-    - [3.3 More to come!](#33-more-to-come)
+    - [3.3 Dropdown/collapsible content](#33-dropdowncollapsible-content)
+    - [3.4 More to come!](#34-more-to-come)
 
 
 ## 1. What do I need?
@@ -345,6 +346,18 @@ Now let's explain the different parts:
 - `textarea`: basically the same as `input type="text"`, however it can be scaled vertically by using the `rows` attribute and (optionally) horizontally with the `columns` attribute.
 - `label for="month"`: This is the text that appears above an input, the argument passed through `for` should be the id of the input that follows, which is why every input should have one. An input doesn't need a label, but it is better to provide it, because it could be unclear what the input field you provide is for.
 
-### 3.3 More to come!
+### 3.3 Dropdown/Collapsible content
+
+You can also easily add content that is hidden by default, inside a collapsible container. To do this we have made a custom component `dropdown`. The syntax to use it looks like this:
+
+```html
+<dropdown heading="Überschrift (Wird immer angezeigt)">
+    <p>Inhalt</p>
+</dropdown>
+```
+
+Whatever you provide as the `heading` property will be the heading for the dropdown, whereas what you put into the component will be the hidden part. As this is basically a collapsed part of the article you will have to put text in paragraphs `<p>...</p>`, but you are also able to [insert images](#235-images) or [YouTube videos](#31-youtube-videos) and basically everything you could put into the article normally.
+
+### 3.4 More to come!
 
 We have more advanced features planned, but not yet released as they are very very WIP. Stay tuned!
