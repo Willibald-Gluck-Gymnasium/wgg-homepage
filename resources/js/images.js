@@ -60,6 +60,11 @@ const images = {
     big_challenge_thumbnail: require("@img/big_challenge_thumbnail_slide.jpg?pipeline=thumbnail"),
     big_challenge_slide: require(`@img/big_challenge_thumbnail_slide.jpg?pipeline=slide`),
     big_challenge_banner: require(`@img/big_challenge_banner.png?pipeline=article`),
-}
 
+    kunst_thumbnail: require('@img/kunst_thumbnail.jpg?pipeline=thumbnail'),
+    kunst_ausstattung_thumbnail: require('@img/malkasten.jpg?pipeline=thumbnail'),
+    glasworkshop_selfie: require('@img/glasworkshop1.jpg?pipeline=article'),
+    glasworkshop_bild: require('@img/glasworkshop2.jpg?pipeline=article'),
+
+}
 export default images
