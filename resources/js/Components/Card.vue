@@ -8,7 +8,9 @@
             <div>
                 <span class="category mr-2 font-bold">{{ category }}</span>
                 <span 
+                    v-if="publishedAtUnix"
                     class="timeago" 
+                    ref="publishedAt"
                     :datetime="publishedAtUnix"
                 ></span>
             </div>
@@ -48,8 +50,8 @@ export default {
 
     mounted () {
         register('de', de);
-        const nodes = document.querySelectorAll('.timeago');
-        render(nodes, 'de')
+        const node = this.$refs.publishedAt;
+        if (node != undefined) render([node], 'de');
     },
 
     setup(props) {

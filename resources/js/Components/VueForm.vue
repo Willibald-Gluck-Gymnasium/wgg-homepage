@@ -23,7 +23,7 @@ form.vue-form {
         flex-wrap: wrap;
         position: relative;
         margin-top: 10px;
-        field {
+        .field {
             position: relative;
             display: block;
             margin-right: 10px;

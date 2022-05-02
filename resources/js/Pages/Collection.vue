@@ -10,14 +10,14 @@
             </div>
             <vue-form action="/collection">
                 <section>
-                    <field>
+                    <div class="field">
                         <label for="s">Sortierung</label>
                         <select id="s" name="s">
                             <option value="r">Relevanz</option>
                             <option value="a">Alphabet</option>
                             <option value="d">Datum</option>
                         </select>
-                    </field>
+                    </div>
                 </section>
             </vue-form>
         </div>
