@@ -69,6 +69,10 @@ const images = {
 
     sport_fussball_1: require('@img/18_fussball_01.jpg?pipeline=thumbnail'),
    
-}
+    kunst_thumbnail: require('@img/kunst_thumbnail.jpg?pipeline=thumbnail'),
+    kunst_ausstattung_thumbnail: require('@img/malkasten.jpg?pipeline=thumbnail'),
+    glasworkshop_selfie: require('@img/glasworkshop1.jpg?pipeline=article'),
+    glasworkshop_bild: require('@img/glasworkshop2.jpg?pipeline=article'),
 
+}
 export default images
