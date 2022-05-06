@@ -72,18 +72,45 @@ const images = {
 
     sport_tischtennis_thumbnail: require('@img/spiel.jpg?pipeline=article'),
     sport_gruppenbild: require('@img/gruppenbild.jpg?pipeline=article'),
-    
+
     sport_psem_kraftraum: require('@img/plakate.png?pipeline=article'),
 
     sport_lehrertt_thumbnail: require('@img/18_lehrertt_1.jpg?pipeline=article'),
     sport_lehrertt_2: require('@img/18_lehrertt_2.jpg?pipeline=article'),
 
     sport_fussball_1: require('@img/18_fussball_01.jpg?pipeline=thumbnail'),
-   
+
     kunst_thumbnail: require('@img/kunst_thumbnail.jpg?pipeline=thumbnail'),
     kunst_ausstattung_thumbnail: require('@img/malkasten.jpg?pipeline=thumbnail'),
     glasworkshop_selfie: require('@img/glasworkshop1.jpg?pipeline=article'),
     glasworkshop_bild: require('@img/glasworkshop2.jpg?pipeline=article'),
 
+    physik_psem_neues_gluck: require('@img/physik_psem_neues_gluck.jpg?pipeline=article'),
+
+    physik_fa_ss_ralf_fa_sofi_thumb: require('@img/physik_fa_ss_ralf_fa_sofi.jpg?pipeline=thumbnail'),
+    physik_fa_ss_ralf_fa_sofi: require('@img/physik_fa_ss_ralf_fa_sofi.jpg?pipeline=article'),
+    physik_fa_ss_ralf_fa_2dspek: require('@img/physik_fa_ss_ralf_fa_2dspek.jpg?pipeline=article'),
+    physik_fa_ss_ralf_fa_1dspek: require('@img/physik_fa_ss_ralf_fa_1dspek.png?pipeline=article'),
+    physik_fa_ss_ralf_fa_sol: require('@img/physik_fa_ss_ralf_fa_sol.png?pipeline=article'),
+    physik_fa_ss_ralf_fa_selfabs: require('@img/physik_fa_ss_ralf_fa_selfabs.png?pipeline=article'),
+
+    physik_grav_schueler1: require('@img/physik_grav_schueler1.jpg?pipeline=article'),
+    physik_grav_schueler2: require('@img/physik_grav_schueler2.jpg?pipeline=article'),
+    physik_grav_lf1: require('@img/physik_grav_lf1.png?pipeline=article'),
+    physik_grav_drehwaage: require('@img/physik_grav_drehwaage.jpg?pipeline=article'),
+    physik_grav_aproksch: require('@img/physik_grav_aproksch.jpg?pipeline=article'),
+    physik_grav_lf2: require('@img/physik_grav_lf2.png?pipeline=article'),
+    physik_grav_lf3: require('@img/physik_grav_lf3.png?pipeline=article'),
+    physik_grav_lf4: require('@img/physik_grav_lf4.png?pipeline=article'),
+    physik_grav_lf5: require('@img/physik_grav_lf5.png?pipeline=article'),
+    physik_grav_lf6: require('@img/physik_grav_lf6.png?pipeline=article'),
+    physik_grav_lf7: require('@img/physik_grav_lf7.png?pipeline=article'),
+    physik_grav_auslenkung: require('@img/physik_grav_auslenkung.jpg?pipeline=article'),
+    physik_grav_lf9: require('@img/physik_grav_lf9.png?pipeline=article'),
+    physik_grav_lf10: require('@img/physik_grav_lf10.png?pipeline=article'),
+    physik_grav_lf11: require('@img/physik_grav_lf11.png?pipeline=article'),
+    physik_grav_lf12: require('@img/physik_grav_lf12.png?pipeline=article')
+
 }
+
 export default images
