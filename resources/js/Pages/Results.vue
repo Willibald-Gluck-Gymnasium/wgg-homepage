@@ -3,108 +3,58 @@
 
     <main-header></main-header>
     <secondary-header></secondary-header>
-    <div class="contentwrapper">
-        <div class="menu-container">
-            <vue-form action="/results">
-                <section>
-                    <div class="field fill">
-                        <label for="q">Suchbegriff</label>
-                        <input id="q" name="q" type="search" :value=this.initSearchParam>
-                    </div>
-                    <div class="field">
-                        <button id="submit" class="fill">
-                            <i class='material-icons'>search</i>
-                        </button>
-                    </div>
-                </section>
-                <section>
-                    <div class="field fill">
-                        <label for="tags">Kategorien (Kommasepariert)</label>
-                        <input type="text" name="tags" id="tags" preview="hello there">
-                    </div>
-                    <div class="field">
-                        <label for="s">Sortierung</label>
-                        <select id="s" name="s">
-                            <option value="r">Relevanz</option>
-                            <option value="a">Alphabet</option>
-                            <option value="d">Datum</option>
-                        </select>
-                    </div>
-                </section>
-                <!-- <div class="bar">
-                </div> -->
-            </vue-form>
-        </div>
-        <search-results><b>TODO</b></search-results>
-    </div>
+
+    <ais-instant-search :search-client="searchClient" :index-name="mixScoutPrefix + 'articles'">
+        <ais-search-box />
+        <ais-hits>
+            <ais-hits :escape-HTML="true">
+                <template v-slot:item="{ item }">
+                    <h2>
+                        <ais-highlight
+                            attribute="title"
+                            :hit="item"
+                            highlightedTagName="mark"
+                        />
+                    </h2>
+                    <p>
+                        <ais-snippet
+                            attribute="plaintext"
+                            :hit="item"
+                            highlightedTagName="mark"
+                        />
+                    </p>
+                </template>
+                </ais-hits>
+                <ais-configure
+                    :attributesToSnippet="['plaintext']"
+                    snippetEllipsisText="…"
+                />
+        </ais-hits>
+    </ais-instant-search>
+
     <vue-footer></vue-footer>
 </template>
 
-<style>
-    
-</style>
+<script setup>
+import { ref } from 'vue'
 
-<script>
-    import { Link, Head } from '@inertiajs/inertia-vue3';
+import algoliasearch from 'algoliasearch/lite';
+import 'instantsearch.css/themes/satellite-min.css';
 
-    import MainHeader from '@components/MainHeader'
-    import SecondaryHeader from '@components/SecondaryHeader'
-    import SearchResults from '@components/SearchResults'
-    import SearchResult from '@components/SearchResult'
-    import VueFooter from '@components/VueFooter'
-    import VueForm from '@components/VueForm'
+import { Link, Head } from '@inertiajs/inertia-vue3';
+import MainHeader from '@components/MainHeader'
+import SecondaryHeader from '@components/SecondaryHeader'
+import VueFooter from '@components/VueFooter'
 
-    export default {
-        components: {
-            Head,
-            Link,
-            MainHeader,
-            SecondaryHeader,
-            SearchResults,
-            SearchResult,
-            VueFooter,
-            VueForm
-        },
+const searchClient = ref(algoliasearch(
+    process.env.MIX_ALGOLIA_APP_ID,
+    'a485ae5a39f40a9741030971f9ba576a'
+))
 
-        props: {
-            canLogin: Boolean,
-            canRegister: Boolean
-        },
+const mixScoutPrefix = ref(process.env.MIX_SCOUT_PREFIX)
 
-        //Search Menu
-        data: () => ({
-        initSearchParam: "Search Param"
-        }),
-        methods: {
-            checkURL() {
-                const url = window.location.search;
-                const urlParams = new URLSearchParams(url);
-                this.initSearchParam = urlParams.get('q');
-            }
-        },
-        beforeMount() {
-            this.checkURL();
-        }
-    }
 </script>
 
 <style lang="scss" scoped>
-$height: 35px;
 
-.menu-container {
-    // margin-top: 25px;
-    // width: 100%;
-    padding: 15px;
-    background: var(--clr-bg-primary);
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    box-shadow: 0 0 15px rgba(0,0,0,.05);
-}
-
-@media only screen and (max-width: 700px) {
-    .menu-container {
-        margin-left: 10px !important;
-        margin-right: 10px !important;
-    }
-}
 </style>

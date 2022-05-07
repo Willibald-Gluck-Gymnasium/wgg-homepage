@@ -66,6 +66,8 @@
  * MIT License
  */
 
+/*! algoliasearch-lite.umd.js | 4.13.0 | © Algolia, inc. | https://github.com/algolia/algoliasearch-client-javascript */
+
 /**
  * @license
  * Lodash <https://lodash.com/>
