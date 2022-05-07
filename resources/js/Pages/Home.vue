@@ -11,8 +11,6 @@
 </style>
 
 <script setup>
-import { defineProps } from 'vue'
-
 import { Head } from '@inertiajs/inertia-vue3';
 import Slideshow from '@components/Slideshow'
 import CardCluster from '@components/CardCluster'
