@@ -1,7 +1,7 @@
 <template>
     <ais-instant-search :search-client="searchClient" :index-name="mixScoutPrefix + 'articles'">
-        <ais-search-box ref="searchbox"  @focus="showResults = true" /> 
-<!-- @blur="showResults = false" -->
+        <ais-search-box ref="searchbox" @focus="showResults = true" @blur="showResults = false" /> 
+
         <ais-state-results>
             <template v-slot="{ results: { hits, query } }">
 
