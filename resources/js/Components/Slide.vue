@@ -21,9 +21,7 @@ const thumbnailImage = ref(props.image)
 
 onBeforeMount(() => {
     let imgName = thumbnailImage.value
-
-    console.log(imgName)
-
+    
     if (imgName.startsWith("!!getImageByName!!")) {
         imgName = imgName.replace('!!getImageByName!!','')
         thumbnailImage.value = `/img/${imgName}-slide.jpeg`

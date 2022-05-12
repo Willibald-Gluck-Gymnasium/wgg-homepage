@@ -62,8 +62,6 @@ export default {
         onBeforeMount(() => {
             let imgName = thumbnailImage.value
 
-            console.log(imgName)
-
             if (imgName.startsWith("!!getImageByName!!")) {
                 imgName = imgName.replace('!!getImageByName!!','')
                 thumbnailImage.value = `/img/${imgName}-thumbnail.jpeg`

@@ -75,7 +75,7 @@ function unfocusSearchBox() {
 
 const searchClient = ref(algoliasearch(
     process.env.MIX_ALGOLIA_APP_ID,
-    'a485ae5a39f40a9741030971f9ba576a'
+    process.env.MIX_ALGOLIA_API_SEARCH_ONLY_KEY
 ))
 
 const mixScoutPrefix = ref(process.env.MIX_SCOUT_PREFIX)
