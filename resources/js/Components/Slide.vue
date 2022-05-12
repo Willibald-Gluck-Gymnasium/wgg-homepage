@@ -15,17 +15,18 @@ import { Link } from '@inertiajs/inertia-vue3'
 
 const props = defineProps(['image', 'title', 'link'])
 
-// If the prop image starts with !!getFromImageModule!! it will look in 
+// If the prop image starts with !!getImageByName!! it will look in 
 // the images object from the images.js module to replace the value 
 const thumbnailImage = ref(props.image)
 
 onBeforeMount(() => {
-    let imgKey = thumbnailImage.value
+    let imgName = thumbnailImage.value
 
+    console.log(imgName)
 
-    if (imgKey.startsWith("!!getFromImageModule!!")) {
-        imgKey = imgKey.replace('!!getFromImageModule!!','')
-        thumbnailImage.value = images[imgKey]
+    if (imgName.startsWith("!!getImageByName!!")) {
+        imgName = imgName.replace('!!getImageByName!!','')
+        thumbnailImage.value = `/img/${imgName}-slide.jpeg`
     }
 })
 </script>
