@@ -8,6 +8,7 @@ use Illuminate\Support\Str;
 // https://laravel.com/docs/8.x/eloquent
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Support\Facades\Route;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Schema\Blueprint;
 use \Soundasleep\Html2Text;
@@ -42,7 +43,6 @@ class Article extends Model
         $table->string('author')->nullable()->default(null);
         $table->timestamp('published_on')->nullable()->default(null);
         $table->string('thumbnail')->default('missing_thumbnail');
-        $table->string('thumbnail_slide')->default('missing_thumbnail_slide');
     }
 
     public function toSearchableArray()

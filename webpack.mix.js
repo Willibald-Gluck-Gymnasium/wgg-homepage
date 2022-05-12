@@ -17,7 +17,7 @@ mix.webpackConfig(require('./webpack.config'))
 
 mix.img({
     outputPath: 'img',
-    name: '[name]-[md4:hash:hex:5].[ext]',
+    name: '[name]-[pipelinename].[ext]',
     esModule: false,
     pipelines: {
         thumbnail: sharp => sharp.resize(800, 375).runPipeline("compression"),

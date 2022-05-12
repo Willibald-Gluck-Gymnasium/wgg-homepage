@@ -74,5 +74,5 @@ Route::get('/favicon.ico', function () {
     return response()->file( public_path().'/favicons/favicon.ico' );
 });
 
-Route::get('/{article}', [ArticleController::class, 'show'])->name('artikel.show');
+Route::get('/{articleCaseInsensitive}', [ArticleController::class, 'show'])->name('artikel.show');
 
