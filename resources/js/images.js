@@ -50,6 +50,7 @@ const images = {
     infoportal_login_thumbnail: require('@img/infoportal-login.png?pipeline=thumbnail'),
     infoportal_login_slide: require('@img/infoportal-login.png?pipeline=slide'),
 
+<<<<<<< Updated upstream
     cae_information_thumbnail: require("@img/cae_information_thumbnail_slide.png?pipeline=thumbnail"),
     cae_information_slide: require(`@img/cae_information_thumbnail_slide.png?pipeline=slide`),
     cae_information_banner: require(`@img/cae_information_banner.png?pipeline=article`),
@@ -86,12 +87,16 @@ const images = {
     glasworkshop_bild: require('@img/glasworkshop2.jpg?pipeline=article'),
 
     physik_psem_neues_gluck: require('@img/physik_psem_neues_gluck.jpg?pipeline=article'),
+=======
+    physik_psem_neues_gluck: require('@img/physik_psem_neues_gluck.jpg?pipline=article'),
+>>>>>>> Stashed changes
 
     physik_fa_ss_ralf_fa_sofi_thumb: require('@img/physik_fa_ss_ralf_fa_sofi.jpg?pipeline=thumbnail'),
     physik_fa_ss_ralf_fa_sofi: require('@img/physik_fa_ss_ralf_fa_sofi.jpg?pipeline=article'),
     physik_fa_ss_ralf_fa_2dspek: require('@img/physik_fa_ss_ralf_fa_2dspek.jpg?pipeline=article'),
     physik_fa_ss_ralf_fa_1dspek: require('@img/physik_fa_ss_ralf_fa_1dspek.png?pipeline=article'),
     physik_fa_ss_ralf_fa_sol: require('@img/physik_fa_ss_ralf_fa_sol.png?pipeline=article'),
+<<<<<<< Updated upstream
     physik_fa_ss_ralf_fa_selfabs: require('@img/physik_fa_ss_ralf_fa_selfabs.png?pipeline=article'),
 
     physik_grav_schueler1: require('@img/physik_grav_schueler1.jpg?pipeline=article'),
@@ -111,6 +116,9 @@ const images = {
     physik_grav_lf11: require('@img/physik_grav_lf11.png?pipeline=article'),
     physik_grav_lf12: require('@img/physik_grav_lf12.png?pipeline=article')
 
+=======
+    physik_fa_ss_ralf_fa_selfabs: require('@img/physik_fa_ss_ralf_fa_selfabs.png?pipeline=article')
+>>>>>>> Stashed changes
 }
 
 export default images
