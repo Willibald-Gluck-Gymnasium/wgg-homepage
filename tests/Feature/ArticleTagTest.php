@@ -10,7 +10,7 @@ use App\Models\Article;
 
 class ArticleTagTest extends TestCase
 {
-    // All tags used in articles must be included in this list, or the test will fail
+    // All tags used in articles must be included in this list, else the test will fail
     private $allowedTags = [
         'Allgemein',
         'Elternbrief',
@@ -21,7 +21,7 @@ class ArticleTagTest extends TestCase
         'Unterricht',
         'Verein der Freunde',
         'dev-only',
-        
+
         // Fächer
         'Spanisch',
         'Sport',
