@@ -27,19 +27,22 @@ class Article extends Model
         'category',
         'author',
         'published_on',
-        'thumbnail',
-        'thumbnail_slide'
+        'thumbnail'
     ];
 
     public $timestamps = false;
 
     protected $keyType = 'string';
 
+    protected $casts = [
+        'tags' => 'array'
+    ];
+
     public static function schema(Blueprint $table)
     {
         $table->string('title');
         $table->string('link');
-        $table->string('category')->default('Allgemein');
+        $table->string('tags')->default('["Allgemein"]');
         $table->string('author')->nullable()->default(null);
         $table->timestamp('published_on')->nullable()->default(null);
         $table->string('thumbnail')->default('missing_thumbnail');
@@ -84,6 +87,11 @@ class Article extends Model
     public function read_time()
     {
         return (new ReadTime($this->plaintext()))->get();
+    }
+
+    public function category()
+    {
+        return $this->tags[0];
     }
 
 }
