@@ -72,7 +72,7 @@ The article `.html` file has two important parts:
 
 ### 2.2 The header
 
-First, let's take a look at what should be in the header. The following is the example from before, `corona-sicherheit`:
+First, let's take a look at what should be in the header. The following is the example from before, `Beispiel-Artikel`:
 
 ```yml
 ---
