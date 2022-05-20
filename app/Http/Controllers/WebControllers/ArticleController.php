@@ -62,6 +62,7 @@ class ArticleController extends Controller
             'canRegister' => Route::has('register'),
             'content' => $article->content,
             'title' => $article->title,
+            'category' => $article->tags[0],
             'author' => $article->author,
             'publishedAt' => $article->published_on,
             'readTime' => $article->read_time()
