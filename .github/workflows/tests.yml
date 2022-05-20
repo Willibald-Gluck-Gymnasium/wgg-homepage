@@ -36,3 +36,26 @@ jobs:
       run: npm install
     - name: Compile assets
       run: npm run production
+
+    - name: DUSK Upgrade Chrome Driver
+      run: php artisan dusk:chrome-driver `/opt/google/chrome/chrome --version | cut -d " " -f3 | cut -d "." -f1`
+    - name: Start Chrome Driver
+      run: ./vendor/laravel/dusk/bin/chromedriver-linux &
+    - name: Run Laravel Server
+      run: php artisan serve --no-reload &
+    - name: Run Dusk Tests
+      env:
+        APP_URL: "http://127.0.0.1:8000"
+      run: php artisan dusk
+    - name: Upload Screenshots
+      if: failure()
+      uses: actions/upload-artifact@v2
+      with:
+        name: screenshots
+        path: tests/Browser/screenshots
+    - name: Upload Console Logs
+      if: failure()
+      uses: actions/upload-artifact@v2
+      with:
+        name: console
+        path: tests/Browser/console
