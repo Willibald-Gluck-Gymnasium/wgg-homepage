@@ -7,7 +7,10 @@
         "watch-poll": "mix watch -- --watch-options-poll=1000",
         "hot": "mix watch --hot",
         "prod": "npm run production",
-        "production": "mix --production"
+        "production": "mix --production",
+        "pre-prod-test": "npm run prod; php artisan test; php artisan dusk",
+        "article-test": "npm run dev; php artisan dusk",
+        "articletest": "npm run article-test"
     },
     "devDependencies": {
         "@inertiajs/inertia": "^0.10.0",
