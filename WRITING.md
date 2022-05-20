@@ -39,7 +39,7 @@ These are optional:
 
 ## 2. The basics
 
-**DISCLAIMER**: You can compare what is written in `example.html` with what is shown in the browser to compare. Most examples in this document are taken - in one way or another - from `example.html`
+**DISCLAIMER**: You can compare what is written in `Beispiel-Artikel.html` with what is shown in the browser to compare. Most examples in this document are taken - in one way or another - from `Beispiel-Artikel.html`
 
 **DISCLAIMER 2**: These are the the basics on how to write an article. For more specialized info on how to add specific parts to an article, refer to [3. Advanced Content](#3-advanced-content).
 
@@ -63,7 +63,7 @@ This command should also be run from a VSCode terminal.
 
 ### 2.1 The article file
 
-The first thing to do is create the `.html` file for the article. The file should be located in `/resources/content/articles/` and the filename should be the link to the article. Take a look at `/resources/content/articles/corona-sicherheit.html` as an example.
+The first thing to do is create the `.html` file for the article. The file should be located in `/resources/content/articles/` and the filename should be the link to the article. Take a look at `/resources/content/articles/Beispiel-Artikel.html` as an example.
 
 The article `.html` file has two important parts:
 
@@ -76,12 +76,12 @@ First, let's take a look at what should be in the header. The following is the e
 
 ```yml
 ---
-title: Geogebra - eine freie Geometriesoftware
-link: Geogebra-eine-freie-Geometriesoftware
-tags: [Mathematik, Unterricht]
-thumbnail: geogebra
-author: Jan Bayer
-published_on: '01.11.2020 13:00'
+title: 'Beispiel Artikel'
+link: Beispiel-Artikel
+tags: [dev-only]
+author: 'Max Mustermann'
+thumbnail: construction-sign
+published_on: '02.11.2020 00:12'
 ---
 ```
 
@@ -184,7 +184,7 @@ Other websites: Simply link to them as you would normally:
 To another page or article on this site:
 
 ```html
-<inertia-link href="/example-article">Another Article</inertia-link>
+<inertia-link href="/Big-Challenge">Another Article</inertia-link>
 ```
 
 There are a few options you can pass to `inertia-link`, learn more about them [here in the inertia documentation](https://inertiajs.com/links). As links are inline objects (e.g. they are basically just text) you should put them in paragraphs, as the text formatting happens with the paragraph and not in the links themself.
