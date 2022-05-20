@@ -35,23 +35,14 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->name('dashboard');
 
-Route::get('/results', function () {
-    return Inertia::render('Results', [
-        'canLogin' => Route::has('login'),
-        'canRegister' => Route::has('register')
-    ]);
-})->name('results');
-
-Route::get('/tag/{tag}', function ($category) {
-    return Inertia::render('Collection', [
-        'canLogin' => Route::has('login'),
-        'canRegister' => Route::has('register'),
-        'category' => $category
-    ]);
-})->name('collection');
+// Route::get('/results', function () {
+//     return Inertia::render('Results', [
+//         'canLogin' => Route::has('login'),
+//         'canRegister' => Route::has('register')
+//     ]);
+// })->name('results');
 
 Route::get('/tag/{tag}', [ArticleController::class, 'index'])->name('artikel.index');
-
 
 // Route::get('/impressum', function () {
 //     //
