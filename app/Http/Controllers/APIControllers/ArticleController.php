@@ -10,7 +10,7 @@ use App\Models\Article;
 class ArticleController extends Controller
 {
     /**
-     * Index the article.
+     * Index the articles.
      *
      */
     public function index(Request $request)
@@ -18,6 +18,7 @@ class ArticleController extends Controller
         define('ITEMS_PER_PAGE', 15);
 
         if (isset($request->search)) {
+
             $data = Article::search($request->search)
                         ->paginate(ITEMS_PER_PAGE)
                         ->withQueryString();
@@ -29,6 +30,24 @@ class ArticleController extends Controller
                 return [
                     'title' => $item['title'],
                     'link' => $item['link'],
+                    'tags' => $item['tags'],
+                    'category' => $item['category'],
+                    'author' => $item['author'],
+                    'published_on' => $item['published_on']
+                ];
+            })->toArray();
+
+        } else if (isset($request->tag)) {
+            $tag = '"'.$request->tag.'"';
+            $data = Article::where('tags', 'like', "%{$tag}%")->paginate(ITEMS_PER_PAGE)->withQueryString();
+            
+            $data = $data->toArray();
+
+            $data['data'] = collect($data['data'])->map(function ($item, $key) {
+                return [
+                    'title' => $item['title'],
+                    'link' => $item['link'],
+                    'tags' => $item['tags'],
                     'category' => $item['category'],
                     'author' => $item['author'],
                     'published_on' => $item['published_on']
@@ -39,7 +58,7 @@ class ArticleController extends Controller
             $data = Article::select(
                 'title',
                 'link',
-                'category',
+                'tags',
                 'author',
                 'published_on'
             )->paginate(ITEMS_PER_PAGE)->withQueryString()->toArray();

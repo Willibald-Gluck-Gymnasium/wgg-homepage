@@ -1,220 +1,153 @@
 <template>
-    <div class="container">
-        <form action="/results" class="search" autocomplete="off">
-            <input type="text" name="q">
-            <div id="results">
-                <Link v-for="(result, i) in results"
-                    :key="i"
-                    :href="result.href"
-                >{{ result.title }}</Link>
-            </div>
-            <button id="submit">
-                <i class='material-icons'>search</i>
-            </button>
-        </form>
-        <a class="unfocus" href="#">
-        </a>
-    </div>
+    <ais-instant-search :search-client="searchClient" :index-name="mixScoutPrefix + 'articles'">
+        <ais-search-box ref="searchbox" @focus="showResults = true" @blur="showResults = false" /> 
+
+        <ais-state-results>
+            <template v-slot="{ results: { hits, query } }">
+
+                <ais-hits v-if="hits.length > 0 && showResults" :escape-HTML="true">
+                    <template v-slot:item="{ item }">
+                        <Link @mousedown.prevent @click="unfocusSearchBox()" :href="item.link">
+                            <h2>
+                                <ais-highlight
+                                    attribute="title"
+                                    :hit="item"
+                                    highlightedTagName="mark"
+                                />
+                            </h2>
+                            <p>
+                                <ais-snippet
+                                    attribute="plaintext"
+                                    :hit="item"
+                                    highlightedTagName="mark"
+                                />
+                            </p>
+                        </Link>
+                    </template>
+                </ais-hits>
+        
+                <div v-else-if="showResults">
+                    <div class="ais-Hits">
+                        <ol class="ais-Hits-list">
+                            <li class="ais-Hits-item">
+                                No results have been found for {{ query }}.
+                            </li>
+                        </ol>
+                    </div>                
+                
+                </div>
+                <div v-else></div>
+
+            </template>
+        </ais-state-results>
+
+        <ais-configure
+            :attributesToSnippet="['plaintext']"
+            snippetEllipsisText="..."
+            :hits-per-page.camel="3"
+        />
+    </ais-instant-search>
 </template>
 
-<script>
-import { Link} from '@inertiajs/inertia-vue3';
+<script setup>
+import { ref, onMounted } from 'vue'
 
-export default {
-    components: {
-        Link
-    },
-    data: () => ({
-        results: [
-            {
-                href: '/example',
-                title: 'Example Web Page'
-            },
-            {
-                href: '/smv',
-                title: 'Die SMV'
-            },
-            {
-                href: '/schuelergenossenschaft',
-                title: 'Die Schülergenossenschaft'
-            },
-            {
-                href: '/schulleitung',
-                title: 'Die Schulleitung'
-            },
-            {
-                href: '/schulgarten',
-                title: 'Die Schulgärtner'
-            }
-        ]
-    })
+import { Link} from '@inertiajs/inertia-vue3'
+import algoliasearch from 'algoliasearch/lite';
+import {
+    AisInstantSearch,
+    AisSearchBox,
+    AisHits,
+    AisSnippet,
+    AisHighlight,
+    AisConfigure,
+    AisStateResults
+} from 'vue-instantsearch/vue3/es';
+
+import 'instantsearch.css/themes/satellite-min.css';
+
+const showResults = ref(false)
+const searchbox = ref(null)
+
+function unfocusSearchBox() {
+    searchbox.value.$el.querySelector('input').blur()
 }
 
+const searchClient = ref(algoliasearch(
+    process.env.MIX_ALGOLIA_APP_ID,
+    process.env.MIX_ALGOLIA_API_SEARCH_ONLY_KEY
+))
+
+const mixScoutPrefix = ref(process.env.MIX_SCOUT_PREFIX)
 </script>
 
-<style lang="scss" scoped>
-$height: 35px;
-
-div.container {
-    max-width: 500px;
-    // width: 100%;
+<style lang="scss">
+.ais-InstantSearch {
+    width: 100%;
     margin-left: auto;
-    flex: 1 1 auto;
-    height: $height;
-}
-
-a.unfocus {
-    display: none;
-    position: fixed;
-    top: 0; left: 0;
-    background: rgba(0,0,0,0.2);
-    width: 100%;
-    height: 100%;
-    transition-duration: .2s;
-}
-
-.search {
-    height: $height;
-    width: 100%;
-    z-index: 950;
-    display: flex;
-    position: relative;
-    &:focus-within {
-        input[type=text] {
-            background: hsl(0,0%, 20%);
-            // border: 3px solid hsl(0,0%,18%);
-            outline: none;
-            border-bottom-left-radius: 0;
-        }
-        #results {
-            max-height: 300vh;
-            border-top-left-radius: 0;
-        }
-        & + a.unfocus {
-            display: block;
-        }
-    }
-    // flex-direction: row-reverse;
-    // padding-left: 15px;
-    input[type=text] {
-        z-index: 2;
-        background: hsl(0, 0%, 14%);
-        border: none;
-        flex: 1 1 auto;
-        border-radius: 0;
-        margin: 0;
-        padding: 0;
-        padding-left: 12px;
-        width: 10px;
-        color: white;
-        font-size: 20px;
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px;
-        box-shadow: 0 0 5px 0 rgba(0,0,0,.6);
-        transition-duration: .25s;
-        &:hover {
-            background: hsl(0, 0%, 18%);
-        }
-    }
-    button {
-        z-index: 3;
-        transition-duration: .1s;
-        // width: calc(.5 * var(--sz-header-height));
-        width: $height;
-        background: hsl(0, 0%, 14%);
-        border: none;
-        padding: 0;
-        margin: 0;
-        border-radius: 0;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-        cursor: pointer;
-        i {
-            // width: calc(.5 * var(--sz-header-height));
-            // line-height: calc(.5 * var(--sz-header-height));
-            width: $height; line-height: $height;
-            color: white;
-        }
-        &:hover {
-            background: hsl(0, 0%, 18%);
-        }
-        &:active {
-            background: hsl(0,0%, 20%);
-        }
-    }
-    #results {
-        // display: none;
-        max-height: 0;
-        overflow: hidden;
-        position: absolute;
-        // transform: translateY(-100%);
-        top: $height;
-        left: 0;
-        width: calc(100% - 35px);
-        // padding: 10px;
-        background: hsl(0, 0%, 14%);
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        box-shadow: 0 0 15px 0 rgba(0,0,0,.6);
-        z-index: 1;
-        transition-duration: .25s;
+    max-width: 500px;
+    height: 42px;
+    
+    * {
         font-size: 16px;
-        a {
-            display: block;
-            padding: 10px 12px;
-            color: inherit;
-            text-decoration: none;
-            // &:first-child {
-            //     margin-top: 0;
-            // }
-            &:hover, &:focus { 
-                background: hsl(0, 0%, 18%);
-                box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
-            }
+    }
+
+    .ais-SearchBox-resetIcon {
+        fill: hsl(0, 0%, 40%);
+    }
+
+    .ais-SearchBox-form {
+        background: none;
+
+        &::before {
+            background: transparent url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%23666666%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%2211%22%20cy%3D%2211%22%20r%3D%228%22%3E%3C%2Fcircle%3E%3Cline%20x1%3D%2221%22%20y1%3D%2221%22%20x2%3D%2216.65%22%20y2%3D%2216.65%22%3E%3C%2Fline%3E%3C%2Fsvg%3E") repeat scroll 0 0;
+        }
+
+        .ais-SearchBox-input {
+            caret-color: hsl(29, 100%, 55%);
+            box-shadow: none;
+            border: none;
+            color: #FFFFFF;
+            background-color: hsl(0, 0%, 20%);
+            border-radius: 21px;
+            width: 100%;
+            margin-left: auto;
+            max-width: 500px;
+            transition: border-radius 150ms;
+
+            &::placeholder {
+                color: hsl(0, 0%, 40%);
+            } 
+
             &:focus {
-                box-shadow: inset 0 0 0 5px white;
-            }
-            &:active {
-                background: hsl(0,0%, 20%);
-            }
-            @at-root .touchevents #results a {
-                // border-bottom: 1px solid rgba(255,255,255,.1);
-                border-top: 1px solid rgba(255,255,255,.1);
-                &:hover { 
-                    background: none;
-                    box-shadow: none;
-                }
-                &:active {
-                    background: none;
-                }
+                border-radius: 21px 21px 0 0;
             }
         }
     }
-}
-@media only screen and (max-width: 850px) {
-    .search {
-        // height: calc(.7 * var(--sz-header-height));
-        button {
-            // width: calc(.7 * var(--sz-header-height));
-            background: hsl(0, 0%, 18%);
-            // i {
-            //     // width: calc(.7 * var(--sz-header-height));
-            //     // line-height: calc(.7 * var(--sz-header-height));
-            // }
+
+    .ais-Hits {
+        border-radius: 0 0 21px 21px;
+        overflow: hidden;
+
+        .ais-Hits-list {
+            .ais-Hits-item {
+                border-radius: 0;
+                background-color: hsl(0, 0%, 20%);
+                border-top: 1px solid hsl(0, 0%, 10%);
+
+                h2 {
+                    * {
+                        font-size: 22px;
+                    }
+                }
+
+                .ais-Highlight-highlighted, .ais-Snippet-highlighted {
+                    background-color: hsla(29, 100%, 55%, 0.2);
+                    color: hsl(29, 100%, 85%);
+                }
+                
+            }
         }
-    }
-}
-
-@media only screen and (max-width: 1100px) {
-    .container {
-        margin-right: 15px;
-    }
-}
-
-@media print {
-    .container {
-        display: none;
     }
 }
 </style>

@@ -22,23 +22,24 @@ class HomeController extends Controller
             'example'
         ];
 
-        $cardCollection = Article::select('title', 'link', 'category', 'author', 'thumbnail', 'published_on')
+        $cardCollection = Article::select('title', 'link', 'tags', 'author', 'thumbnail', 'published_on')
             // ->whereIn('link', $titles)
+            ->orderBy('link', 'asc')
             ->get();
 
         $cards = $cardCollection->map(function ($item, $key) {
-            $item['thumbnail'] = "!!getFromImageModule!!".$item['thumbnail'];
+            $item['thumbnail'] = "!!getImageByName!!".$item['thumbnail'];
             return $item;
         })->toArray();
 
-        $slideCollection = Article::select('title', 'link', 'category', 'thumbnail_slide', 'published_on')
+        $slideCollection = Article::select('title', 'link', 'tags', 'thumbnail', 'published_on')
             // ->orderBy('published_on', 'desc')
             ->inRandomOrder()
             ->take(4)
             ->get();
 
         $slides = $slideCollection->map(function ($item, $key) {
-            $item['thumbnail_slide'] = '!!getFromImageModule!!'.$item['thumbnail_slide'];
+            $item['thumbnail'] = '!!getImageByName!!'.$item['thumbnail'];
             return $item;
         })->toArray();
 

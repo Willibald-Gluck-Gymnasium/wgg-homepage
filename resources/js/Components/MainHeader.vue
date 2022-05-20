@@ -41,15 +41,15 @@ export default {
     position: relative;
     z-index: 900;
     box-shadow: 0 -7px 15px 5px rgba(0,0,0,0.3);
+
     .content {
-        // padding-left: 15px;
         margin: 0 auto;
         height: 100%;
-        width: 100%;
-        max-width: var(--sz-content-width);
+        width: calc(100% - 20px);
+        max-width: 1080px;
         display: flex;
-        // justify-content: center;
         align-items: center;
+
         .logo-wrapper {
             // margin-right: auto;
             display: flex;
@@ -85,11 +85,7 @@ export default {
         }
     }
 }
-@media only screen and (max-width: 1100px) {
-    .logo-wrapper {
-        margin-left: 15px;
-    }
-}
+
 
 @media print {
     .header {
