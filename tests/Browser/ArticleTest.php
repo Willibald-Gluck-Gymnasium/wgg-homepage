@@ -13,6 +13,8 @@ class ArticleTest extends DuskTestCase
     /**
      * Test if the articles have any compile error like missing endtags or 
      * unknown components
+     * 
+     * @group articles
      *
      * @return void
      */
