@@ -28,14 +28,14 @@ jobs:
       run: |
         mkdir -p database
         touch database/database.sqlite
-    - name: Populate Database
-      run: php artisan migrate:fresh
-    - name: Execute tests (Unit and Feature tests) via PHPUnit
-      run: vendor/bin/phpunit
     - name: Install NPM dependencies
       run: npm install
     - name: Compile assets
       run: npm run production
+    - name: Populate Database
+      run: php artisan migrate:fresh
+    - name: Execute tests (Unit and Feature tests) via PHPUnit
+      run: vendor/bin/phpunit
 
     - name: DUSK Upgrade Chrome Driver
       run: php artisan dusk:chrome-driver `/opt/google/chrome/chrome --version | cut -d " " -f3 | cut -d "." -f1`
