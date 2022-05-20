@@ -30,10 +30,13 @@
         "vue-loader": "^16.1.2"
     },
     "dependencies": {
+        "algoliasearch": "^4.13.0",
         "flickity": "^2.2.2",
         "imagesloaded": "^4.1.4",
+        "instantsearch.css": "^7.4.5",
         "isotope-layout": "^3.0.6",
         "moment": "^2.29.1",
-        "timeago.js": "^4.0.2"
+        "timeago.js": "^4.0.2",
+        "vue-instantsearch": "^4.3.3"
     }
 }

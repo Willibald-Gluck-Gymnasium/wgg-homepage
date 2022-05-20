@@ -28,7 +28,7 @@ return [
     |
     */
 
-    'prefix' => env('SCOUT_PREFIX', ''),
+    'prefix' => env('MIX_SCOUT_PREFIX', ''),
 
     /*
     |--------------------------------------------------------------------------
@@ -41,7 +41,7 @@ return [
     |
     */
 
-    'queue' => env('SCOUT_QUEUE', false),
+    'queue' => env('SCOUT_QUEUE', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -112,7 +112,7 @@ return [
     */
 
     'algolia' => [
-        'id' => env('ALGOLIA_APP_ID', ''),
+        'id' => env('MIX_ALGOLIA_APP_ID', ''),
         'secret' => env('ALGOLIA_SECRET', ''),
     ],
 
