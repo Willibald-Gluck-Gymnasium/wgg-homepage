@@ -20,7 +20,7 @@ class ArticleController extends Controller
     {   
         if ($tag != false) {
             $tagFullWord = '"'.$tag.'"';
-            $articles = Article::where('tags', 'like', "%{$tagFullWord}%")->get();
+            $articles = Article::select('link', 'title', 'thumbnail', 'tags', 'published_on')->where('tags', 'like', "%{$tagFullWord}%")->get();
             
             if ($articles->isEmpty()) {
                 abort(404);
