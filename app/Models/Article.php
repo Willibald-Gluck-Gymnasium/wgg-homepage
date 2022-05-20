@@ -53,7 +53,7 @@ class Article extends Model
         return [
             'title' => $this->title,
             'link' => $this->link,
-            'category' => $this->category,
+            'tags' => $this->tags,
             'author' => $this->author,
             'published_on' => $this->published_on,
             'plaintext' => $this->plaintext()
