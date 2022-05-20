@@ -3,8 +3,10 @@
 - [1. What do I need?](#1-what-do-i-need)
 - [2. The basics](#2-the-basics)
     - [2.0 Before writing](#20-before-writing)
-    - [2.1 The header](#21-the-header)
-    - [2.2 Registering images](#22-registering-images)
+    - [2.1 The article file](#21-the-article-file)
+    - [2.2 The header](#22-the-header)
+        - [2.2.1 Adding new tags for your articles](#221-adding-new-tags-for-your-articles)
+        - [2.2.2 Adding thumbnail images](#222-adding-thumbnail-images)
     - [2.3 The actual content](#23-the-actual-content)
         - [2.3.1 Paragraphs](#231-paragraphs)
         - [2.3.2 **Bold**, *Italic* and underlined](#232-bold-italic-and-underlined)
@@ -17,6 +19,7 @@
     - [3.3 Dropdown/collapsible content](#33-dropdowncollapsible-content)
     - [3.4 More to come!](#34-more-to-come)
 
+---
 
 ## 1. What do I need?
 
@@ -24,7 +27,7 @@ These are a must:
 
 - The images you want to put into the article **and** the pictues you want to have as a *thumbmail*
 - Some content
-- The category for which the article is intended
+- The tags for which the article is intended
 - A fitting title
 - a unique link, which will be the part after *domain*/
 
@@ -33,7 +36,13 @@ These are optional:
 - The name of the author
 - A timestamp when the article was written
 
+---
+
 ## 2. The basics
+
+**DISCLAIMER**: You can compare what is written in `example.html` with what is shown in the browser to compare. Most examples in this document are taken - in one way or another - from `example.html`
+
+**DISCLAIMER 2**: These are the the basics on how to write an article. For more specialized info on how to add specific parts to an article, refer to [3. Advanced Content](#3-advanced-content).
 
 ### 2.0 Before writing
 
@@ -53,11 +62,7 @@ npm run watch
 ```
 This command should also be run from a VSCode terminal.
 
-**DISCLAIMER**: You can compare what is written in `example.html` with what is shown in the browser to compare. Most examples in this document are taken - in one way or another - from `example.html`
-
-**DISCLAIMER 2**: These are the the basics on how to write an article. For more specialized info on how to add specific parts to an article, refer to [3. Advanced Content](#3-advanced-content).
-
----
+### 2.1 The article file
 
 The first thing to do is create the `.html` file for the article. The file should be located in `/resources/content/articles/` and the filename should be the link to the article. Take a look at `/resources/content/articles/corona-sicherheit.html` as an example.
 
@@ -66,18 +71,17 @@ The article `.html` file has two important parts:
 1. The header
 2. The actual content
 
-### 2.1 The header
+### 2.2 The header
 
 First, let's take a look at what should be in the header. The following is the example from before, `corona-sicherheit`:
 
 ```yml
 ---
-title: 'Sicherheit während Corona'
-link: corona-sicherheit
-author: 'Jan Bayer'
-category: Allgemein
-thumbnail: masks_thumbnail
-thumbnail_slide: masks_slide
+title: Geogebra - eine freie Geometriesoftware
+link: Geogebra-eine-freie-Geometriesoftware
+tags: [Mathematik, Unterricht]
+thumbnail: geogebra
+author: Jan Bayer
 published_on: '01.11.2020 13:00'
 ---
 ```
@@ -87,30 +91,61 @@ The header is opened by three dashes `---` and closed by the same. Do not forget
 - `title`: The title of the article. You should put quotes around them, other than that you should be able to use all kinds of symbols, such as `ü` or `*`. The only two symbols that need special treatments are the quotes `'` themself and the backslash `\`, which need to be written as `\'` and `\\` respectively.
 - `link`: This is the link a user visits when opening an article, more specifically the part after the domain, as in `wgg-neumarkt.de/[...]`. This should be the same as the filename of the article.
 - `author` (optional): This is an optional part of the header, if you know who the author of an article is you can decide to show that on the article by using this part in your header
-- `category`: This is the category you intend your article to be in. If an article is about a specific subject, the category should be that subject, e.g. `Mathematik`
-- `thumbnail`: The name of the image you registered for the thumbnail. If you do not yet know what that means, be patient, as it will be explained [later](#22-registering-images).
-- `thumbnail_slide`: The same as the thumbnail, but this time for the big slide on the homepage.
+- `tags`: A list of tags the article is to be categorized under. In this example, GeoGebra is part of Mathematik and Unterricht and can be searched for with either or both of these tags
+- `thumbnail`: The name of the image you registered for the thumbnail. This will be used for both, the thumbnail on boxes and if the article gets featured in the slide. If you do not yet know what that means, be patient, as it will be explained [later](#222-adding-thumbnail-images).
 - `published_on` (optional): The timestamp of when an article was written. This will be used by the webpage to display how long ago an article was written
 
-### 2.2 Registering images
+#### 2.2.1 Adding new tags for your articles
 
-Now that you have your header and have decided on names for your images, you will have to store your image in the right place, so put it into `resources/img`. After this you will have to register them in `/resources/js/images.js` as follows:
+1. Add tag to allowed list of tags in `test/Feature/ArticleTagTest.php`
+    Add your new tag to the array `$allowedTags` at the top of the class:
 
-```js
-const images = {
+    ```php
+    class ArticleTagTest extends TestCase
+    {
+        // All tags used in articles must be included in this list, else the test will fail
+        private $allowedTags = [
+            [...]
+            'Neuigkeiten',
+            'Englisch',
+            'Dein neuer Tag' // <- Hier
+        ];
+    ```
+
+2. Done. You can now use the tag for every article
+
+    ```yml
+    ---
+    title: Geogebra - eine freie Geometriesoftware
+    link: Geogebra-eine-freie-Geometriesoftware
+    tags: [Mathematik, Unterricht, Dein neuer Tag]
+    thumbnail: geogebra
+    ---
     [...]
-    name_of_your_image: require('@img/image.jpg?pipeline=article'),
-    name_of_your_other_image: require('@img/otherimage.jpg?pipeline=article')
-}
-```
+    ```
 
-This is what you write into the `require()` function. Please remember that `@img` = `resources/img`:
+#### 2.2.2 Adding thumbnail images
 
-```js
-require('path/to/your/image.jpg?pipeline=version_you_want')
-```
+1. Put your image into `resources/img`
 
-Whats `?pipeline=version_you_want`? There are many possible pipelines you can feed your image through. Each pipeline will resize the image diffrently, and maybe add filters. You can see all  pipelines (and add your own) in `webpack.mix.json`. For the `thumbnail` and the `thumbnail_slide` use the pipelines `thumbnail` or `slide` respectively.
+    Make sure no other file has the same filename, even if the extension is different. (`picture.jpg` and `picture.png` can not both exist) 
+
+2. Add it to your article file in `resources/content/articles`
+
+    The name of the image is your file name (without extension).
+
+    ```yml
+    ---
+    title: Titel deines Artikels
+    link: link-zum-artikel
+    thumbnail: name_of_your_thumbnail # here
+    published_on: 02.11.2021 00:12
+    ---
+    <h2>Beispiel Überschrift</h2>
+    [...]
+    ```
+
+3. Done. 
 
 ### 2.3 The actual content
 
@@ -207,30 +242,44 @@ You can also put a list in a list:
 
 #### 2.3.5 Images
 
-First, register your image in `images.js`. Refer to [2.2 Registering images](#22-registering-images) if you don't know how. You could declare your own pipeline if needed, as mentioned in [2.2 Registering images](#22-registering-images), but generally `article` should work just fine. To insert the image into your article, use the `<v-image>` tag inside a `<figure>`. Here is an example on how to insert an image into an article, note that figures also shouldn't be put in paragraphs, as shouldn't their captions:
+1. Put your image into `resources/img`
 
-```html
-<figure>
-    <v-image name="name_of_your_image" alt="Short description of the image"></v-image>
-</figure>
-```
+    Make sure no other file has the same filename, even if the extension is different. (`picture.jpg` and `picture.png` can not both exist) 
 
-You may also use the `<figcaption>` tag to give your picture a description/subtext:
+2. Insert the image using the v-image component in `resources/content/articles`
 
-```html
-<figure>
-    <v-image name="name_of_your_other_image" alt="Short description of the image"></v-image>
-    <figcaption>This is a text below the picture</figcaption>
-</figure>
-```
+    The name of the image is your file name (without extension). You should put the v-image inside of a figure so that they are formatted correctly:
 
-If you want your picture to be on the left or right side of the article, give your `figure` the class `float-left` or `float-right`:
-
-```html
-<figure class="float-right">
+    ```html
+    ---
+    title: Titel deines Artikels
+    link: link-zum-artikel
+    thumbnail: name_of_your_thumbnail
+    published_on: 02.11.2021 00:12
+    ---
+    <h2>Beispiel Überschrift</h2>
+    <figure>
+        <v-image name="name_of_your_image" alt="Kurze Beschreibung des Bildes" />
+    </figure>
+    <figure class="float-right">
+        <v-image name="name_of_your_other_image" alt="Beschreibung" />
+    </figure>
     [...]
-</figure>
+    ```
+
+    The figures can also have classes to float to the right or left and have text wrap around them. These classes are just `float-right` and `float-left`.
+
+3. Done. 
+
+### 2.3.6 After writing
+
+To confirm whether your article is syntactically correct, run the command:
+
 ```
+npm run articletest
+```
+
+This will run a test on your articles to see if there are any syntax errors.
 
 ## 3. Advanced content
 
