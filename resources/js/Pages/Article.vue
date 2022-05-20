@@ -4,7 +4,7 @@
     <div class="article-container manual-scope-XKpYE">
         <div id="wrapper">
             <div class="header">
-                <Link :href="'collection/' + category" class="category">{{ category }}</Link>
+                <Link :href="'tag/' + category" class="category">{{ category }}</Link>
                 <h1>{{ title }}</h1>
                 <div id="info" class="info">
                     <div v-if="author" class="author">
