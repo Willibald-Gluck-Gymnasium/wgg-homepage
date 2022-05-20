@@ -1,7 +1,7 @@
 <template>
     <Head :title="title" />
 
-    <div class="article-container manual-scope-XKpYE">
+    <div dusk="article-component" class="article-container manual-scope-XKpYE">
         <div id="wrapper">
             <div class="header">
                 <Link :href="'tag/' + category" class="category">{{ category }}</Link>
