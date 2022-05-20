@@ -8,7 +8,9 @@
             <div>
                 <span class="category mr-2 font-bold">{{ category }}</span>
                 <span 
+                    v-if="publishedAtUnix"
                     class="timeago" 
+                    ref="publishedAt"
                     :datetime="publishedAtUnix"
                 ></span>
             </div>
@@ -48,21 +50,21 @@ export default {
 
     mounted () {
         register('de', de);
-        const nodes = document.querySelectorAll('.timeago');
-        render(nodes, 'de')
+        const node = this.$refs.publishedAt;
+        if (node != undefined) render([node], 'de');
     },
 
     setup(props) {
-        // If the prop image starts with !!getFromImageModule!! it will look in 
+        // If the prop image starts with !!getImageByName!! it will look in 
         // the images object from the images.js module to replace the value 
         const thumbnailImage = ref(props.image)
         
         onBeforeMount(() => {
-            let imgKey = thumbnailImage.value
+            let imgName = thumbnailImage.value
 
-            if (imgKey.startsWith("!!getFromImageModule!!")) {
-                imgKey = imgKey.replace('!!getFromImageModule!!','')
-                thumbnailImage.value = images[imgKey]
+            if (imgName.startsWith("!!getImageByName!!")) {
+                imgName = imgName.replace('!!getImageByName!!','')
+                thumbnailImage.value = `/img/${imgName}-thumbnail.jpeg`
             }
         })
 

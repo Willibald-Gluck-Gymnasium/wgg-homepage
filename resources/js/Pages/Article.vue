@@ -1,36 +1,36 @@
 <template>
     <Head :title="title" />
 
-    <main-header></main-header>
-    <secondary-header></secondary-header>
-
     <div class="article-container manual-scope-XKpYE">
         <div id="wrapper">
             <div class="header">
-                <Link :href="'collection/' + category" class="category">{{ category }}</Link>
+                <Link :href="'tag/' + category" class="category">{{ category }}</Link>
                 <h1>{{ title }}</h1>
-                <div class="info">
-                    <!-- <div class="author">
-                        <div class="img force-aspect-ratio">
+                <div id="info" class="info">
+                    <div v-if="author" class="author">
+                        <!-- <div class="img force-aspect-ratio">
                             <img class="image" :src="authorimg" onerror="this.src='/img/authors/default-authorimg.svg';this.classList.add('svg');" alt="Author" />
-                        </div>
+                        </div> -->
                         <span class="author">
                             {{ author }}
                         </span>
-                    </div> -->
-                    <!-- <div class="seperator">-</div> -->
+                    </div>
+                    <div v-if="author" class="seperator">-</div>
                     <div class="readtime">
                         {{ readTime }}
                     </div>
-                    <div class="seperator">-</div>
-                    <div class="date">
+                    <div class="seperator" v-if="publishedAt">-</div>
+                    <div v-if="publishedAt" class="date">
                         <span 
+                            ref="publishedAt"
                             class="timeago" 
                             :datetime="publishedAtUnix"
                         ></span>
                     </div> 
+                    
+                    <!--
                     <div class="share">
-                        <!-- <a href="">
+                         <a href="">
                             <i class='material-icons'>facebook</i>
                         </a>
                         
@@ -46,8 +46,8 @@
                             target="_blank"
                             rel="noopener noreferrer">
                             <img :src="require('@img/twitter-icon.svg')">
-                        </a> -->
-                    </div>
+                        </a>
+                    </div> -->
                 </div>
             </div>
 
@@ -58,12 +58,13 @@
         </div>
     </div>
 
-    <vue-footer></vue-footer>
-
 </template>
 
 <script>
     import { createApp, defineComponent, onMounted, ref, compile, h } from 'vue'
+
+    import MainAppLayout from '@/Layouts/MainAppLayout.vue'; 
+
     import { Head, Link } from '@inertiajs/inertia-vue3';
 
     import { render, register } from 'timeago.js';
@@ -102,14 +103,17 @@
             readTime: String
         },
 
+        layout: MainAppLayout,
+
         beforeMount() {
             this.publishedAtUnix = moment(this.publishedAt, "DD.MM.YYYY HH:mm").unix() * 1000
         },
 
         mounted() {
-            register('de', de)
-            const nodes = document.querySelectorAll('.timeago');
-            render(nodes, 'de');
+            register('de', de);
+            const publishedAt = this.$refs.publishedAt;
+            // const nodes = this.$el.parentNode.querySelectorAll(".timeago");
+            if (publishedAt != undefined) render([publishedAt], 'de');
         },
 
         data() {
@@ -145,6 +149,8 @@
         }
     })
 </script>
+
+
 
 <style lang="scss">
 .manual-scope-XKpYE {

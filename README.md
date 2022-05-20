@@ -2,6 +2,38 @@
 
 ![Tests](https://github.com/Willibald-Gluck-Gymnasium/wgg-homepage/workflows/Tests/badge.svg)
 
+## How to add new tags to articles
+
+### 1. Add tag to allowed list of tags in `test/Feature/ArticleTagTest.php`
+
+Add your new tag to the array `$allowedTags` at the top of the class:
+
+```php
+class ArticleTagTest extends TestCase
+{
+    // All tags used in articles must be included in this list, else the test will fail
+    private $allowedTags = [
+        [...]
+        'Neuigkeiten',
+        'Englisch',
+        'Dein neuer Tag' // <- Hier
+    ];
+```
+
+### 2. Done. You can now use the tag for every article
+
+```yml
+---
+title: Geogebra - eine freie Geometriesoftware
+link: Geogebra-eine-freie-Geometriesoftware
+tags: [Mathematik, Unterricht, Dein neuer Tag]
+thumbnail: geogebra
+---
+[...]
+```
+
+
+
 ## How to link to other pages, articles, or websites
 
 ### Other websites:
@@ -23,41 +55,22 @@ There are a few options you can pass to `inertia-link`, learn more about them [h
 
 ### 1. Put your image into `resources/img`
 
-### 2. Register your image in `resources/js/images.js`
+Make sure no other file has the same filename, even if the extension is different. (`picture.jpg` and `picture.png` can not both exist) 
 
-```js
-const images = {
-    [...]
-    name_of_your_image: require('@img/image.jpg?pipeline=article'),
-    name_of_your_other_image: require('@img/otherimage.jpg?pipeline=article')
-}
-```
+### 2. Insert the image using the v-image component in `resources/content/articles`
 
-This is what you write into the `require()` function:
-
-```js
-require('path/to/your/image.jpg?pipeline=version_you_want')
-```
-
-`@img` = `resources/img`
-
-### Whats `?pipeline=version_you_want`?
-
-There are many possible pipelines you can feed your image through. Each pipeline will resize the image diffrently, and maybe add filters. You can see all  pipelines (and add your own) in `webpack.mix.json`. 
-
-### 3. Insert the image using the v-image component in `resources/content/articles`
+The name of the image is your file name (without extension).
 
 ```yml
 ---
 title: Titel deines Artikels
 link: link-zum-artikel
 thumbnail: name_of_your_thumbnail
-thumbnail_slide: name_of_your_slide_image
 published_on: 02.11.2021 00:12
 ---
 <h2>Beispiel Überschrift</h2>
 <v-image name="name_of_your_image" alt="Kurze Beschreibung des Bildes" />
-<v-image name="name_of_your_other_image" alt="Ganz kurzer Satz" />
+<v-image name="name_of_your_other_image" alt="Beschreibung" />
 [...]
 ```
 
@@ -67,24 +80,17 @@ published_on: 02.11.2021 00:12
 
 ### 1. Put your image into `resources/img`
 
-### 2. Register your image in `resources/js/images.js`
+Make sure no other file has the same filename, even if the extension is different. (`picture.jpg` and `picture.png` can not both exist) 
 
-```js
-const images = {
-    [...]
-    name_of_your_thumbnail: require('@img/article-thumbnail.jpg?pipeline=thumbnail'),
-    name_of_your_slide_image: require('@img/article-thumbnail.jpg?pipeline=slide')
-}
-```
+### 2. Add it to your article file in `resources/content/articles`
 
-### 3. Add it to your article file in `resources/content/articles`
+The name of the image is your file name (without extension).
 
 ```yml
 ---
 title: Titel deines Artikels
 link: link-zum-artikel
 thumbnail: name_of_your_thumbnail # here
-thumbnail_slide: name_of_your_slide_image # and here
 published_on: 02.11.2021 00:12
 ---
 <h2>Beispiel Überschrift</h2>
@@ -111,6 +117,8 @@ onMounted(() => {
 ```
 
 ## Live Deployment
+
+### **Attention**: Live deployment is currently unavilable. ([More information here](https://github.com/Willibald-Gluck-Gymnasium/wgg-homepage/issues/3#issuecomment-1120217411))
 
 View the [current version of the development branch](https://current-dev-version-rqm5kgi.alexanderhorner.com) and other deployments like pull requests in the environments section or under [deployments](https://github.com/Willibald-Gluck-Gymnasium/wgg-homepage/deployments).
 
