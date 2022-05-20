@@ -10,7 +10,7 @@ use App\Models\Article;
 class ArticleController extends Controller
 {
     /**
-     * Index the article.
+     * Index the articles.
      *
      */
     public function index(Request $request)

@@ -22,7 +22,7 @@ class HomeController extends Controller
             'example'
         ];
 
-        $cardCollection = Article::select('title', 'link', 'category', 'author', 'thumbnail', 'published_on')
+        $cardCollection = Article::select('title', 'link', 'tags', 'author', 'thumbnail', 'published_on')
             // ->whereIn('link', $titles)
             ->orderBy('link', 'asc')
             ->get();
@@ -32,7 +32,7 @@ class HomeController extends Controller
             return $item;
         })->toArray();
 
-        $slideCollection = Article::select('title', 'link', 'category', 'thumbnail', 'published_on')
+        $slideCollection = Article::select('title', 'link', 'tags', 'thumbnail', 'published_on')
             // ->orderBy('published_on', 'desc')
             ->inRandomOrder()
             ->take(4)

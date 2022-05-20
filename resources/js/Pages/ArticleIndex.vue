@@ -1,13 +1,12 @@
 <template>
     <Head title="Collection" />
 
-    <main-header></main-header>
-    <secondary-header></secondary-header>
     <div class="contentwrapper">
-        <div class="top-container">
+        <!-- <div class="top-container">
             <div class="heading">
-                <span>Kollektion: </span><h1 id="header">{{ this.category }}</h1>
+                <h1 id="header">{{ this.tag }}</h1>
             </div>
+           
             <vue-form action="/collection">
                 <section>
                     <div class="field">
@@ -20,10 +19,10 @@
                     </div>
                 </section>
             </vue-form>
-        </div>
-        <card-cluster style="margin-top: 15px"></card-cluster>
+        </div> -->
+        <vue-headline>{{ this.tag }}</vue-headline>
+        <card-cluster :cards="cards" style="margin-top: 15px"></card-cluster>
     </div>
-    <vue-footer></vue-footer>
 </template>
 
 <style>
@@ -33,30 +32,28 @@
 <script>
     import { Link, Head } from '@inertiajs/inertia-vue3';
 
-    import MainHeader from '@components/MainHeader'
-    import SecondaryHeader from '@components/SecondaryHeader'
-    import Collection from '@components/Collection'
+    import MainAppLayout from '@/Layouts/MainAppLayout.vue'; 
+
     import CardCluster from '@components/CardCluster'
-    import VueFooter from '@components/VueFooter'
     import VueForm from '@components/VueForm'
+    import VueHeadline from '@components/VueHeadline';
 
     export default {
         components: {
+            VueHeadline,
             Head,
-            Link,
-            MainHeader,
-            SecondaryHeader,
-            Collection,
             CardCluster,
-            VueFooter,
             VueForm
         },
 
         props: {
             canLogin: Boolean,
             canRegister: Boolean,
-            category: String
-        }
+            tag: String,
+            cards: Array
+        },
+
+        layout: MainAppLayout,
     }
 </script>
 

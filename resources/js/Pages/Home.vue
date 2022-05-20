@@ -2,7 +2,7 @@
     <Head title="Home"/>
 
     <slideshow :slides="slides"></slideshow>
-    <vue-headline class="mt-6 font-bold">Neuigkeiten</vue-headline>
+    <vue-headline class="mt-6">Neuigkeiten</vue-headline>
     <card-cluster :cards="cards" class="mt-5"></card-cluster>
 </template>
 

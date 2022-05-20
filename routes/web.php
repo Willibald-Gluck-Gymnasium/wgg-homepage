@@ -42,7 +42,7 @@ Route::get('/results', function () {
     ]);
 })->name('results');
 
-Route::get('/collection/{category}', function ($category) {
+Route::get('/tag/{tag}', function ($category) {
     return Inertia::render('Collection', [
         'canLogin' => Route::has('login'),
         'canRegister' => Route::has('register'),
@@ -50,9 +50,8 @@ Route::get('/collection/{category}', function ($category) {
     ]);
 })->name('collection');
 
-// Route::get('/collection', function () {
-//     return view('collection');
-// });
+Route::get('/tag/{tag}', [ArticleController::class, 'index'])->name('artikel.index');
+
 
 // Route::get('/impressum', function () {
 //     //
@@ -66,13 +65,14 @@ Route::get('/license', function () {
     return response()->file( base_path().'/LICENSE' );
 });
 
-Route::get('/phpinfo', function () {
-    phpinfo();
-});
+// Route::get('/phpinfo', function () {
+//     phpinfo();
+// });
 
 Route::get('/favicon.ico', function () {
     return response()->file( public_path().'/favicons/favicon.ico' );
 });
 
-Route::get('/{articleCaseInsensitive}', [ArticleController::class, 'show'])->name('artikel.show');
 
+// articleCaseInsensitive is defined in the RouteServiceProvider
+Route::get('/{articleCaseInsensitive}', [ArticleController::class, 'show'])->name('artikel.show');
