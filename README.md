@@ -2,6 +2,10 @@
 
 ![Tests](https://github.com/Willibald-Gluck-Gymnasium/wgg-homepage/workflows/Tests/badge.svg)
 
+# Writing articles
+
+This is a quick overview, for a more detailed breakdown on how to write an article, refer to [WRITING.md](/WRITING.md).
+
 ## How to add new tags to articles
 
 ### 1. Add tag to allowed list of tags in `test/Feature/ArticleTagTest.php`
@@ -32,7 +36,28 @@ thumbnail: geogebra
 [...]
 ```
 
+## How to add thumbnail images
 
+### 1. Put your image into `resources/img`
+
+Make sure no other file has the same filename, even if the extension is different. (`picture.jpg` and `picture.png` can not both exist) 
+
+### 2. Add it to your article file in `resources/content/articles`
+
+The name of the image is your file name (without extension).
+
+```yml
+---
+title: Titel deines Artikels
+link: link-zum-artikel
+thumbnail: name_of_your_thumbnail # here
+published_on: 02.11.2021 00:12
+---
+<h2>Beispiel Überschrift</h2>
+[...]
+```
+
+### Done. 
 
 ## How to link to other pages, articles, or websites
 
@@ -59,9 +84,9 @@ Make sure no other file has the same filename, even if the extension is differen
 
 ### 2. Insert the image using the v-image component in `resources/content/articles`
 
-The name of the image is your file name (without extension).
+The name of the image is your file name (without extension). You should put the v-image inside of a figure so that they are formatted correctly:
 
-```yml
+```html
 ---
 title: Titel deines Artikels
 link: link-zum-artikel
@@ -69,38 +94,24 @@ thumbnail: name_of_your_thumbnail
 published_on: 02.11.2021 00:12
 ---
 <h2>Beispiel Überschrift</h2>
-<v-image name="name_of_your_image" alt="Kurze Beschreibung des Bildes" />
-<v-image name="name_of_your_other_image" alt="Beschreibung" />
+<figure>
+    <v-image name="name_of_your_image" alt="Kurze Beschreibung des Bildes" />
+</figure>
+<figure class="float-right">
+    <v-image name="name_of_your_other_image" alt="Beschreibung" />
+</figure>
 [...]
 ```
 
-### Done. 
-
-## How to add thumbnail images
-
-### 1. Put your image into `resources/img`
-
-Make sure no other file has the same filename, even if the extension is different. (`picture.jpg` and `picture.png` can not both exist) 
-
-### 2. Add it to your article file in `resources/content/articles`
-
-The name of the image is your file name (without extension).
-
-```yml
----
-title: Titel deines Artikels
-link: link-zum-artikel
-thumbnail: name_of_your_thumbnail # here
-published_on: 02.11.2021 00:12
----
-<h2>Beispiel Überschrift</h2>
-[...]
-```
+The figures can also have classes to float to the right or left and have text wrap around them. These classes are just `float-right` and `float-left`.
 
 ### Done. 
 
+# Development
 
-## How to use custom components inside articles
+This is a quick overview, for more detailed information refer to [DEVELOPMENT.md](/DEVELOPING.md).
+
+## Using custom components in articles
 
 In Vue, every component has to be registered before you can use them. You can register your component globally, or inside your parent component (more efficient). 
 
@@ -116,14 +127,10 @@ onMounted(() => {
 })
 ```
 
-## Live Deployment
+# Live Deployment
 
 ### **Attention**: Live deployment is currently unavilable. ([More information here](https://github.com/Willibald-Gluck-Gymnasium/wgg-homepage/issues/3#issuecomment-1120217411))
 
 View the [current version of the development branch](https://current-dev-version-rqm5kgi.alexanderhorner.com) and other deployments like pull requests in the environments section or under [deployments](https://github.com/Willibald-Gluck-Gymnasium/wgg-homepage/deployments).
 
 <img src="https://i.postimg.cc/FH8HjyBZ/Screenshot-2021-11-13-at-16-32-51.png" alt="Environment Section" width="350"/>
-
-![homescreen](https://github.com/Erdragh/Erdragh.github.io/raw/master/img/home.png)
-
-
