@@ -10,4 +10,5 @@ MainHeader: 900
         results: 960
 
 SecondaryHeader: 800
+    Navigation: 825
     shadowFade: 850
