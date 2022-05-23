@@ -74,8 +74,8 @@ export default {
     .header {
         color: var(--clr-font);
         height: var(--sz-header-height);
-        background-color: hsl(24, 100%, 60%);
-        background-color: color(display-p3 1 0.524 0.217 / 1);
+        background-color: hsl(29,100%,55%);
+        background-color: color(display-p3 1 0.524 0.217);
         box-shadow: 0 -7px 20px 5px rgba(0,0,0,0.3);
         position: relative;
         z-index: 10;
