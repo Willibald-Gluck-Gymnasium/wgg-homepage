@@ -65,8 +65,5 @@ Route::get('/favicon.ico', function () {
 });
 
 
-Route::get('/pdf/{pdf}', function($pdf) {
-    return response()->file( base_path().'/resources/pdf/'.$pdf);
-});
 // articleCaseInsensitive is defined in the RouteServiceProvider
 Route::get('/{articleCaseInsensitive}', [ArticleController::class, 'show'])->name('artikel.show');
