@@ -19,8 +19,8 @@ class ArticleController extends Controller
     public function index($tag = false)
     {   
         if ($tag != false) {
-            $tagFullWord = '"'.$tag.'"';
-            $articles = Article::select('link', 'title', 'thumbnail', 'tags', 'published_on')->where('tags', 'like', "%{$tagFullWord}%")->get();
+            $tag_full_word = '"'.$tag.'"';
+            $articles = Article::select('link', 'title', 'thumbnail', 'tags', 'published_on')->where('tags', 'like', "%{$tag_full_word}%")->get();
             
             if ($articles->isEmpty()) {
                 abort(404);
@@ -57,6 +57,13 @@ class ArticleController extends Controller
      */
     public function show(Article $article)
     {
+        $tag_full_word = '"'.$article->tags[0].'"';
+        $read_more = Article::select('title', 'link', 'tags', 'thumbnail', 'published_on')
+            // ->orderBy('published_on', 'desc')
+            ->where('tags', 'like', "%{$tag_full_word}%")
+            ->orderBy('published_on', 'desc')
+            ->take(5)
+            ->get();
         return Inertia::render('Article', [
             'canLogin' => Route::has('login'),
             'canRegister' => Route::has('register'),
@@ -65,7 +72,8 @@ class ArticleController extends Controller
             'category' => $article->tags[0],
             'author' => $article->author,
             'publishedAt' => $article->published_on,
-            'readTime' => $article->read_time()
+            'readTime' => $article->read_time(),
+            'readMore' => $read_more
         ]);
 
     }

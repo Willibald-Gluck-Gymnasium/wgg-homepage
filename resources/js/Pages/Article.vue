@@ -52,9 +52,9 @@
             </div>
 
             <div ref="articlecontent" id="articlecontent"></div>
-
+            {{ readMore }}
             <div class="clear"></div>
-            <read-more></read-more>
+            <read-more :articles="readMore"></read-more>
         </div>
     </div>
 
@@ -102,7 +102,8 @@
             author: String,
             category: String,
             publishedAt: String,
-            readTime: String
+            readTime: String,
+            readMore: Array,
         },
 
         layout: MainAppLayout,

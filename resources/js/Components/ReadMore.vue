@@ -3,11 +3,11 @@
         <div class="text">Weiterlesen:</div>
         <div class="links">
             <Link
-                v-for="(link, i) in links"
+                v-for="(link, i) in articles"
                 :key="i"
                 :href="link.href"
             >
-                <span class="category">{{ link.category }}</span>
+                <span class="category">{{ link.tags[0] }}</span>
                 <span class="seperator">-</span>
                 <span class="title">{{ link.title }}</span>
                 <span class="seperator">-</span>
@@ -21,10 +21,11 @@
 import { Link } from '@inertiajs/inertia-vue3';
 
 export default {
-components: {
-    Link
-},
-data: () => ({
+    props: ['articles'],
+    components: {
+        Link
+    },
+    data: () => ({
         links: [
             {
                 href: '/smv',
@@ -59,7 +60,10 @@ data: () => ({
                 preview: 'Der Schulgarten des WGGs wächst langsam heran und mit ihm die Schulgärtner. Nun wird Nachwuchs gesucht. Der Schulgarten ist schon länger ...'
             }
         ]
-    })
+    }),
+    mounted() {
+        console.log("hi");
+    }
 }
 </script>
 
