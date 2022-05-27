@@ -8,8 +8,8 @@ use Illuminate\Http\Request;
 
 
 use App\Http\Controllers\WebControllers\ArticleController;
-use App\Http\Controllers\WebControllers\CollectionController;
 use App\Http\Controllers\WebControllers\HomeController;
+use App\Http\Controllers\WebControllers\DirectFileController;
 
 /*
 |--------------------------------------------------------------------------
@@ -67,3 +67,5 @@ Route::get('/favicon.ico', function () {
 
 // articleCaseInsensitive is defined in the RouteServiceProvider
 Route::get('/{articleCaseInsensitive}', [ArticleController::class, 'show'])->name('artikel.show');
+
+Route::get('/file/{filename}', [DirectFileController::class, 'get'])->name('file.direct');
