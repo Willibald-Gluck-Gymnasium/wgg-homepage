@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Response;
 
 class DirectFileController extends Controller
 {
-    public function get($filename)
+    public function show($filename)
     {   
 		$extension = pathinfo($filename, PATHINFO_EXTENSION);
 		$allowed_extensions = ["pdf", "mp3", "ogg", "wav"];

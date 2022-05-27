@@ -68,4 +68,4 @@ Route::get('/favicon.ico', function () {
 // articleCaseInsensitive is defined in the RouteServiceProvider
 Route::get('/{articleCaseInsensitive}', [ArticleController::class, 'show'])->name('artikel.show');
 
-Route::get('/file/{filename}', [DirectFileController::class, 'get'])->name('file.direct');
+Route::get('/file/{filename}', [DirectFileController::class, 'show'])->name('file.show');
