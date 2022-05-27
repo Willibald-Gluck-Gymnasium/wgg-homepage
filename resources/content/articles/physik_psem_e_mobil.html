@@ -6,10 +6,143 @@ thumbnail: psem_emobil_tesla
 ---
 
 <p>
-    Das P-Seminar Elektromobiliät (2018/20) beschäftigte sich mit alternativen Antriebsmethoden und 
+    Das P-Seminar Elektromobiliät (2018/20) beschäftigte sich mit alternativen Antriebsmethoden und
     deren ökologischen Auswirkungen.
 </p>
 <p>
-    Einen eigens von den Schülern entwickelter Fragekatalog, der die Wahl eines Autos erleichtern soll, 
-    können Sie <a href="questionair">hier</a> testen.
+    Einen eigens von den Schülern entwickelter Fragekatalog, der die Wahl eines Autos erleichtern soll,
+    können Sie hier testen:
 </p>
+
+<br>
+
+<vue-form>
+    <label for="q1">Welche Antriebsart(en) bevorzugen Sie?</label>
+    <section id="q1">
+        <div class="field fill">
+            <label for="q1em">Elektromotor</label>
+            <input type="checkbox" name="q1em" id="q1em">
+        </div>
+        <div class="field fill">
+            <label for="q1bm">Benzinmotor</label>
+            <input type="checkbox" name="q1bm" id="q1bm">
+        </div>
+        <div class="field fill">
+            <label for="q1dm">Dieselmotor</label>
+            <input type="checkbox" name="q1dm" id="q1dm">
+        </div>
+        <div class="field fill">
+            <label for="q1hm">Hybridmotor</label>
+            <input type="checkbox" name="q1hm" id="q1hm">
+        </div>
+        <div class="field fill">
+            <label for="q1ka">Keine Angabe</label>
+            <input type="checkbox" name="q1ka" id="q1ka">
+        </div>
+    </section>
+
+    <br>
+    <br>
+
+    <label for="q2">Welche Antriebsart(en) schließen Sie aus?</label>
+    <section id="q2">
+        <div class="field fill">
+            <label for="q2em">Elektromotor</label>
+            <input type="checkbox" name="q2em" id="q2em">
+        </div>
+        <div class="field fill">
+            <label for="q2bm">Benzinmotor</label>
+            <input type="checkbox" name="q2bm" id="q2bm">
+        </div>
+        <div class="field fill">
+            <label for="q2dm">Dieselmotor</label>
+            <input type="checkbox" name="q2dm" id="q2dm">
+        </div>
+        <div class="field fill">
+            <label for="q2hm">Hybridmotor</label>
+            <input type="checkbox" name="q2hm" id="q2hm">
+        </div>
+        <div class="field fill">
+            <label for="q2ka">Keine Angabe</label>
+            <input type="checkbox" name="q2ka" id="q2ka">
+        </div>
+    </section>
+
+    <br>
+    <br>
+
+    <section id="q3">
+        <div class="field fill">
+            <label for="q3range">Wie viele Kilometer fahren Sie an einem Arbeitstag maximal?</label>
+            <input type="range" min="2" max="14" value="8" name="q3range" id="q3range">
+        </div>
+    </section>
+    <section id="q3out">
+        <div class="field fill">
+            <label id="q3output">400km</label>
+        </div>
+    </section>
+
+    <br>
+    <br>
+
+    <section id="q4">
+        <div class="field fill">
+            <label for="q4range">Wie viel Geld würden Sie für ein neues Auto ausgeben?</label>
+            <input type="range" min="3" max="16" value="9" name="q4range" id="q4range">
+        </div>
+    </section>
+    <section id="q4out">
+        <div class="field fill">
+            <label id="q4output">45000€</label>
+        </div>
+    </section>
+
+    <br>
+    <br>
+
+    <label for="q5">Wie viele Sitze soll Ihr Auto haben?</label>
+    <section id="q5">
+        <div class="field fill">
+            <label for="q5s4">4</label>
+            <input type="radio" name="q5s" id="q5s4">
+        </div>
+        <div class="field fill">
+            <label for="q5s5">5</label>
+            <input type="radio" name="q5s" id="q5s5">
+        </div>
+        <div class="field fill">
+            <label for="q5s7">7</label>
+            <input type="radio" name="q5s" id="q5s7">
+        </div>
+        <div class="field fill">
+            <label for="q5ska">Keine Angabe</label>
+            <input type="radio" name="q5s" id="q5ska">
+        </div>
+    </section>
+
+    <br>
+    <br>
+
+    <section id="q6">
+        <div class="field fill">
+            <label for="q6range">Wie viel PS soll Ihr Auto mindestens haben?</label>
+            <input type="range" min="8" max="30" value="19" name="q6range" id="q6range">
+        </div>
+    </section>
+    <section id="q6out">
+        <div class="field fill">
+            <label id="q6output">190PS</label>
+        </div>
+    </section>
+
+    <br>
+
+    <section id="submit">
+        <div class="field fill">
+            <input type="submit" value="Zur Auswertung" id="s_submit">
+        </div>
+    </section>
+</vue-form>
+
+<br>
