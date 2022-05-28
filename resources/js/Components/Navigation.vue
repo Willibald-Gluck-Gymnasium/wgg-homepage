@@ -12,59 +12,59 @@
             <!--Necessarily need to have at least one element within the slot-->
             <!--An alternate background will be applied from the 2nd element-->
             <div style="width: 300px; padding: 30px">
-                Custom component: <br>
                 <component :is="componentsMap[item.component]" />
             </div>
-            <div style="padding: 30px">
+            <!-- <div style="padding: 30px">
                 Second element
-            </div>
+            </div> -->
         </template>
         <template #before-nav>
-            <!--Image or svg of website logo-->
-            <!-- <school-logo class="mr-3"></school-logo> -->
+             <Link :href="route('home')" style="flex-shrink: 0">
+                <school-logo-with-text class="mr-3" />
+            </Link>
         </template>
         <template #after-nav>
-            <!--Mobile Burger, buttons, etc-->
-            <!-- <li class="vsm-mob-hide">
-                <button>My Button</button>
-            </li> -->
-            <!--Set "display: block" for the .vsm-mob-show class to display content-->
+            <search-bar></search-bar>
             <vsm-mob>Mobile Content</vsm-mob>
         </template>
     </vsm-menu>
 </template>
 
 <script setup>
-import SchoolLogo from '@components/SchoolLogo'
+import { Link } from '@inertiajs/inertia-vue3'
+import SchoolLogoWithText from '@components/SchoolLogoWithText'
 import { VsmMenu, VsmMob } from 'vue-stripe-menu'
 import { ref } from 'vue'
-import SearchBar from '@components/SearchBar'
-import VueHeadline from '@components/VueHeadline'
+import SearchBar from './SearchBar'
 
+import UnterrichtNav from '@components/navigation/Unterricht'
 
 // This is to prevent the component from getting reactive, wich can cause problems
 const componentsMap = {
-  comp1: SearchBar,
-  comp2: VueHeadline,
+  UnterrichtNav,
   // ... 
 }
 
 const menu = ref([
-    { title: 'Company', dropdown: 'company', component: 'comp1' },
-    {
-        title: 'News',
-        dropdown: 'news',
-        component: 'comp2',
-        element: 'span',
-        align: 'left',
-        // attributes: {
-        //     // I want more classes! No problem
-        //     // string, array, object, not matter
-        //     class: ['my-class1', { 'my-class2': true }],
-        //     // Custom attributes
-        //     'data-big': 'yes'
-        // }
-    },
+    { title: 'Aktuelles', dropdown: 'aktuelles', component: 'comp1' },
+    { title: 'Schulleben', dropdown: 'schulleben', component: 'comp1' },
+    { title: 'Unterricht', dropdown: 'unterricht', component: 'UnterrichtNav' },
+    { title: 'Für Eltern', dropdown: 'füreltern', component: 'comp1' },
+
+    // {
+    //     title: 'News',
+    //     dropdown: 'news',
+    //     component: 'comp2',
+    //     element: 'span',
+    //     align: 'left',
+    //     // attributes: {
+    //     //     // I want more classes! No problem
+    //     //     // string, array, object, not matter
+    //     //     class: ['my-class1', { 'my-class2': true }],
+    //     //     // Custom attributes
+    //     //     'data-big': 'yes'
+    //     // }
+    // },
     // {
     //     title: 'Aktuelles',
     //     dropdown: 'aktuelles',
@@ -93,13 +93,12 @@ const menu = ref([
 @import 'vue-stripe-menu/dist/vue-stripe-menu.css';
 
 .navigation-scoped-P6Wnx, .vsm-menu {
-    max-width: 1080px;
-    width: 100%;
-    margin: 0 auto;
+    background-color: black;
+    border-bottom: 2px solid hsl(29,100%,55%);
     opacity: 1;
     position: relative;
     z-index: 825;
-    --vsm-border-radius: 20px;
+    height: 70px;
 
     .vsm-background {
         // background: none;
@@ -111,11 +110,19 @@ const menu = ref([
     } 
 
     .vsm-nav {
-        margin: 0 10px;
+        height: 100%;
+        margin: 0 auto;
+        max-width: 1080px;
+        width: calc(100% - 20px);
+    }
+
+    .vsm-root {
+        height: 100%;
     }
 
     .vsm-link {
-        color: hsl(0, 0%, 0%);
+        padding: 0 20px;
+        color: hsl(0, 0%, 100%);
     }
 
     .vsm-link-container {

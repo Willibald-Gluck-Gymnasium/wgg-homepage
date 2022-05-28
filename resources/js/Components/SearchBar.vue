@@ -85,8 +85,10 @@ const mixScoutPrefix = ref(process.env.MIX_SCOUT_PREFIX)
 .ais-InstantSearch {
     width: 100%;
     margin-left: auto;
-    max-width: 500px;
+    max-width: 400px;
     height: 42px;
+    color: white;
+    z-index: 950;
     
     * {
         font-size: 16px;
