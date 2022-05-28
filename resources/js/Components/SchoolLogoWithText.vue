@@ -24,12 +24,11 @@ import SchoolLogo from './SchoolLogo';
 
     .divider {
         width: 3px;
-        background-color: #FFF;
+        background-color: #000;
         height: 40px;
     }
 
     .logo-text {
-        color: #FFF;
         font-size: 26px;
         font-family: 'Montserrat', sans-serif;
     }

@@ -93,8 +93,9 @@ const menu = ref([
 @import 'vue-stripe-menu/dist/vue-stripe-menu.css';
 
 .navigation-scoped-P6Wnx, .vsm-menu {
-    background-color: black;
-    border-bottom: 2px solid hsl(29,100%,55%);
+    color: black;
+    background-color: white;
+    border-bottom: 3px solid hsl(29,100%,55%);
     opacity: 1;
     position: relative;
     z-index: 825;
@@ -120,10 +121,15 @@ const menu = ref([
         height: 100%;
     }
 
-    .vsm-link {
-        padding: 0 20px;
-        color: hsl(0, 0%, 100%);
+    .vsm-link-container {
+        justify-content: flex-start;
+        .vsm-link {
+            padding: 0 20px;
+            color: inherit;
+        }
     }
+
+    
 
     .vsm-link-container {
         display: flex;
