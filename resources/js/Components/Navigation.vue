@@ -5,13 +5,14 @@
         element="header"
         handler="hover"
         align="center"
+        ref="navigationMenu"
     >
         <template #default="{ item }">
             <!--Dropdown content of each menu item with a "dropdown" property-->
             <!--You can replace it with a separate component if each menu item has its own style-->
             <!--Necessarily need to have at least one element within the slot-->
             <!--An alternate background will be applied from the 2nd element-->
-            <div style="width: 300px; padding: 30px">
+            <div>
                 <component :is="componentsMap[item.component]" />
             </div>
             <!-- <div style="padding: 30px">
@@ -34,7 +35,7 @@
 import { Link } from '@inertiajs/inertia-vue3'
 import SchoolLogoWithText from '@components/SchoolLogoWithText'
 import { VsmMenu, VsmMob } from 'vue-stripe-menu'
-import { ref } from 'vue'
+import { ref, onMounted} from 'vue'
 import SearchBar from './SearchBar'
 
 import UnterrichtNav from '@components/navigation/Unterricht'
@@ -45,45 +46,21 @@ const componentsMap = {
   // ... 
 }
 
-const menu = ref([
+const navigationMenu = ref(null)
+
+let closeNavMenu
+
+onMounted(() => {
+    closeNavMenu = navigationMenu.value.closeDropdown
+    window.testnav = closeNavMenu
+})
+
+const menu = [
     { title: 'Aktuelles', dropdown: 'aktuelles', component: 'comp1' },
     { title: 'Schulleben', dropdown: 'schulleben', component: 'comp1' },
     { title: 'Unterricht', dropdown: 'unterricht', component: 'UnterrichtNav' },
-    { title: 'Für Eltern', dropdown: 'füreltern', component: 'comp1' },
-
-    // {
-    //     title: 'News',
-    //     dropdown: 'news',
-    //     component: 'comp2',
-    //     element: 'span',
-    //     align: 'left',
-    //     // attributes: {
-    //     //     // I want more classes! No problem
-    //     //     // string, array, object, not matter
-    //     //     class: ['my-class1', { 'my-class2': true }],
-    //     //     // Custom attributes
-    //     //     'data-big': 'yes'
-    //     // }
-    // },
-    // {
-    //     title: 'Aktuelles',
-    //     dropdown: 'aktuelles',
-    //     element: 'span',
-    //     align: 'center',
-    // },
-    // {
-    //     title: 'test',
-    //     dropdown: 'tes',
-    //     align: 'right',
-    // },
-    // {
-    //     title: 'External Link',
-    //     attributes: {
-    //         href: 'https://github.com/Alexeykhr/vue-stripe-menu',
-    //         target: '_blank'
-    //     }
-    // }
-])
+    { title: 'Für Eltern', dropdown: 'füreltern', component: 'comp1' }
+]
 
 </script>
 
@@ -98,7 +75,7 @@ const menu = ref([
     border-bottom: 3px solid hsl(29,100%,55%);
     opacity: 1;
     position: relative;
-    z-index: 825;
+    z-index: 800;
     height: 70px;
 
     .vsm-background {
