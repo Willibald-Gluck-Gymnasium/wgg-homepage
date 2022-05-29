@@ -24,6 +24,9 @@
         <Link class="link" :href="'/impressum'">Impressum</Link>
         <br>
         <Link class="link" :href="'/Datenschutzhinweise'">Datenschutz</Link>
+        <br>
+        <!-- <Link class="link" :href="'/credits'">Credits</Link> -->
+        <a class="underline" href="/credits">Credits</a>
       </div>
     </div>
     <div class="content">

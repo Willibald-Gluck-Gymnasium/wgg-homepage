@@ -13,7 +13,7 @@
             <!--Necessarily need to have at least one element within the slot-->
             <!--An alternate background will be applied from the 2nd element-->
             <div>
-                <component :is="componentsMap[item.component]" />
+                <component @closeNavMenu="closeNavMenu()" :is="componentsMap[item.component]" />
             </div>
             <!-- <div style="padding: 30px">
                 Second element
@@ -48,11 +48,18 @@ const componentsMap = {
 
 const navigationMenu = ref(null)
 
-let closeNavMenu
+const closeNavMenu = ref(() => {
+    console.log("bruh")
+})
+
 
 onMounted(() => {
-    closeNavMenu = navigationMenu.value.closeDropdown
-    window.testnav = closeNavMenu
+    closeNavMenu.value = navigationMenu.value.closeDropdown
+    console.log("Mounted")
+    // setTimeout(() => {
+    //     console.log("closing nav")
+    //     closeNavMenu()
+    // }, 5000)
 })
 
 const menu = [
