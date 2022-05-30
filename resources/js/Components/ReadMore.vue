@@ -5,7 +5,7 @@
             <Link
                 v-for="(link, i) in articles"
                 :key="i"
-                :href="link.href"
+                :href="link.link"
             >
                 <span class="category">{{ link.tags[0] }}</span>
                 <span class="seperator">-</span>

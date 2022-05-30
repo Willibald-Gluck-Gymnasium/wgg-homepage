@@ -58,10 +58,17 @@ class ArticleController extends Controller
     public function show(Article $article)
     {
         $tag_full_word = '"'.$article->tags[0].'"';
+        // $link_full_word = '"'.$article->link.'"';
+        $link_full_word = $article->link;
         $read_more = Article::select('title', 'link', 'tags', 'thumbnail', 'published_on')
             // ->orderBy('published_on', 'desc')
             ->where('tags', 'like', "%{$tag_full_word}%")
-            ->orderBy('published_on', 'desc')
+            // ->orWhere('tags', 'like', "%{$tag1_full_word}%")
+            ->whereNot(function ($query) use ($link_full_word){
+                $query->where('link', $link_full_word);
+            })
+            // ->orderBy('updated_at', 'desc')
+            ->inRandomOrder()
             ->take(5)
             ->get();
         return Inertia::render('Article', [

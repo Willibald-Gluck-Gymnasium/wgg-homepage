@@ -52,9 +52,8 @@
             </div>
 
             <div ref="articlecontent" id="articlecontent"></div>
-            {{ readMore }}
             <div class="clear"></div>
-            <read-more :articles="readMore"></read-more>
+            <read-more v-if="readMore.length > 0" :articles="readMore"></read-more>
         </div>
     </div>
 
@@ -117,6 +116,7 @@
             const publishedAt = this.$refs.publishedAt;
             // const nodes = this.$el.parentNode.querySelectorAll(".timeago");
             if (publishedAt != undefined) render([publishedAt], 'de');
+            // alert(this.readMore.length);
         },
 
         data() {
