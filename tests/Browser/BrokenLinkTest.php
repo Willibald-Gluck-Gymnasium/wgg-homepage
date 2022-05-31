@@ -2,116 +2,106 @@
 
 namespace Tests\Browser;
 
-use App\Models\Page;
-use Facebook\WebDriver\WebDriverBy;
-use Tests\DuskTestCase;
+use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Laravel\Dusk\Browser;
+use Tests\DuskTestCase;
+use Illuminate\Support\Str;
 
 class BrokenLinkTest extends DuskTestCase
 {
-    public function setUp(): void{
-        parent::setUp();
-        $this->artisan('migrate:fresh');
-    }
-
-    /** @test */
-    public function urlSpider()
+    /**
+     * A Dusk test example.
+     *
+     * @return void
+     */
+    public function testBrokenLinks()
     {
+        $visitedPages = collect([]);
 
-        $startingLink = Page::create([
-            'url' => env('APP_URL'),
-            'isCrawled' => false,
-        ]);
+        $self = $this;
 
-        $this->browse(function (Browser $browser) use ($startingLink) {
-            $this->getLinks($browser, $startingLink);
-        });
-    }
+        function crawlPage($self, $link, $visitedPages) {
+            $self->browse(function (Browser $browser) use($self, $link, $visitedPages) {
 
-    protected function getLinks(Browser $browser, $currentUrl){
+                $browser->visit($link);
 
-        $this->processCurrentUrl($browser, $currentUrl);
+                // stop crawling when current page was already visited, else push to list
+                $currentUrl = $browser->driver->getCurrentURL();
+                if ($visitedPages->contains($currentUrl)) {
+                    return;
+                }
+                $visitedPages->push($currentUrl);
+
+                fwrite(STDERR, print_r($visitedPages, TRUE));
+                fwrite(STDERR, print_r("\n", TRUE));
+
+                $browser->screenshot( Str::random() );
+
+                // crawl links and recursively call crawl function crawlPage()
+                $links = collect($browser->elements('a[href]'));
+
+                if ($links->has([2])) {
+                    $link = $links[2];
+                } else {
+                    return;
+                }
+
+                try {
+                    $href = $link->getAttribute('href');
+                } catch (\Throwable $th) {
+                    fwrite(STDERR, print_r($th->getMessage(), TRUE));
+                    fwrite(STDERR, print_r("\n", TRUE));
+                    return;
+                }
+                crawlPage($self, $href, $visitedPages);
 
 
-        try{
+                if ($links->has([3])) {
+                    $link = $links[3];
+                } else {
+                    return;
+                }
 
-            foreach(Page::where('isCrawled', false)->get() as $link) {
-                $this->getLinks($browser, $link);
-            }
+                try {
+                    $href = $link->getAttribute('href');
+                } catch (\Throwable $th) {
+                    fwrite(STDERR, print_r($th->getMessage(), TRUE));
+                    fwrite(STDERR, print_r("\n", TRUE));
+                    return;
+                }
+                crawlPage($self, $href, $visitedPages);
 
 
-        }catch(Exception $e){
+                // $links->each(function ($link) use($self, $browser, $visitedPages){
+                //     fwrite(STDERR, print_r($link, TRUE));
+                //     fwrite(STDERR, print_r("\n", TRUE));
 
+                //     try {
+                //         $href = $link->getAttribute('href');    
+                //     } catch (\Throwable $th) {
+                //         fwrite(STDERR, print_r($th->getMessage(), TRUE));
+                //         fwrite(STDERR, print_r("\n", TRUE));
+                //         return;
+                //     }
+                //     $href = "/";
+                //     crawlPage($self, $href, $visitedPages);
+                // });
+
+            });
         }
-    }
 
-    protected function processCurrentUrl(Browser $browser, $currentUrl){
+        crawlPage($this, '/', $visitedPages);
 
-        //Check if already crawled
-        if(Page::where('url', $currentUrl->url)->first()->isCrawled == true)
-            return;
+        dd($visitedPages);
 
-        //Visit URL
-        $browser->visit($currentUrl->url);
-
-        //Get Links and Save to DB if Valid
-        // $linkElements = $browser->driver->findElements(WebDriverBy::tagName('a'));
-        $linkElements = $browser->elements('a[href]');
-
-        foreach($linkElements as $element){
-            $href = $element->getAttribute('href');
-            $href = $this->trimUrl($href);
-            if($this->isValidUrl($href)){
-                //var_dump($href);
-                Page::create([
-                    'url' => $href,
-                    'isCrawled' => false,
-                ]);
-            }
-        }
-
-        //Update current url status to crawled
-        $currentUrl->isCrawled = true;
-        $currentUrl->status  = $this->getHttpStatus($currentUrl->url);
-        $currentUrl->title = $browser->driver->getTitle();
-        $currentUrl->save();
-    }
-
-
-    protected function isValidUrl($url){
-        $parsed_url = parse_url($url);
-
-        
-
-        if(isset($parsed_url['host'])){
-            if(strpos($parsed_url['host'], parse_url(env('APP_URL'))['host'] ) !== false && !Page::where('url', $url)->exists()){
-                fwrite(STDERR, print_r($url, TRUE));
-                fwrite(STDERR, print_r("\n", TRUE));
-                fwrite(STDERR, print_r('true', TRUE));
-                fwrite(STDERR, print_r("\n", TRUE));
-                return true;
-            }
-            if(strpos($url, 'https://') !== false && strpos($url, 'http://') !== false && !Page::where('url', $url)->exists()) {
-                fwrite(STDERR, print_r($url, TRUE));
-                fwrite(STDERR, print_r("\n", TRUE));
-                fwrite(STDERR, print_r('true', TRUE));
-                fwrite(STDERR, print_r("\n", TRUE));
-                return true;
-            }
-        }
-        // fwrite(STDERR, print_r('false', TRUE));
-        // fwrite(STDERR, print_r("\n", TRUE));
-        return false;
-    }
-
-    protected function trimUrl($url){
-        $url = strtok($url, '#');
-        $url = rtrim($url,"/");
-        return $url;
-    }
-
-    protected function getHttpStatus($url){
-        $headers = get_headers($url, 1);
-        return intval(substr($headers[0], 9, 3));
+        // $this->browse(function (Browser $browser) use($visitedPages) {
+        //     $browser->visit('/');
+            // $links = $browser->elements('a[href]');
+            // collect($links)->each(function ($link) use($visitedPages){
+            //     $href = $link->getAttribute('href');
+            //     $visitedPages->push($href);
+            // });
+        //     dd($visitedPages);
+        // });
     }
 }
