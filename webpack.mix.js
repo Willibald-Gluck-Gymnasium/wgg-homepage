@@ -45,6 +45,7 @@ if (mix.inProduction()) {
     mix.version();
 }
 
+mix.extract();
 
 mix.sass('resources/sass/app.scss', 'public/css')
     .combine([
