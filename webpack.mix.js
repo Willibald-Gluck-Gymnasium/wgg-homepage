@@ -15,6 +15,10 @@ require('laravel-mix-image-processor')
 
 mix.webpackConfig(require('./webpack.config'))
 
+mix.babelConfig({
+    plugins: ['@babel/plugin-syntax-dynamic-import'],
+});
+
 mix.img({
     outputPath: 'img',
     name: '[name]-[pipelinename].[ext]',
@@ -46,6 +50,8 @@ if (mix.inProduction()) {
 }
 
 mix.extract();
+
+
 
 mix.sass('resources/sass/app.scss', 'public/css')
     .combine([
