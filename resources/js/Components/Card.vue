@@ -20,10 +20,10 @@
     </div>
 </template>
 
-<script>
+<script setup>
 import { Link } from '@inertiajs/inertia-vue3'
 
-import { ref, onBeforeMount, onActivated } from 'vue'
+import { ref, onBeforeMount, defineProps, onMounted } from 'vue'
 
 import images from '@/images'
 
@@ -31,47 +31,37 @@ import { render, register } from 'timeago.js'
 import de from 'timeago.js/lib/lang/de.js'
 import moment from 'moment'
 
-export default {
-    components: {
-        Link
-    },
 
-    props: ['title', 'category', 'timestamp', 'image', 'slug'],
 
-    data() {
-        return {
-            publishedAtUnix: null
-        }
-    },
+const props = defineProps(['title', 'category', 'timestamp', 'image', 'slug'])
 
-    beforeMount() {
-        this.publishedAtUnix = moment(this.timestamp, "DD.MM.YYYY HH:mm").unix() * 1000
-    },
+const publishedAtUnix = ref(null)
+    
+onBeforeMount(() => {
+    publishedAtUnix.value = moment(props.timestamp, "DD.MM.YYYY HH:mm").unix() * 1000
+})
 
-    mounted () {
-        register('de', de);
-        const node = this.$refs.publishedAt;
-        if (node != undefined) render([node], 'de');
-    },
+const publishedAt = ref(null)
 
-    setup(props) {
-        // If the prop image starts with !!getImageByName!! it will look in 
-        // the images object from the images.js module to replace the value 
-        const thumbnailImage = ref(props.image)
-        
-        onBeforeMount(() => {
-            let imgName = thumbnailImage.value
+onMounted(() => {
+    register('de', de);
+    const node = publishedAt.value;
+    if (node != undefined) render([node], 'de');
+})
 
-            if (imgName.startsWith("!!getImageByName!!")) {
-                imgName = imgName.replace('!!getImageByName!!','')
-                thumbnailImage.value = `/img/${imgName}-thumbnail.jpeg`
-            }
-        })
 
-        return { thumbnailImage }
+// If the prop image starts with !!getImageByName!! it will look in 
+// the images object from the images.js module to replace the value 
+const thumbnailImage = ref(props.image)
+
+onBeforeMount(() => {
+    let imgName = thumbnailImage.value
+
+    if (imgName.startsWith("!!getImageByName!!")) {
+        imgName = imgName.replace('!!getImageByName!!','')
+        thumbnailImage.value = `/img/${imgName}-thumbnail.jpeg`
     }
-
-}
+})
 </script>
 
 <style lang="scss" scoped>
