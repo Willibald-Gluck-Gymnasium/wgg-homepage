@@ -2,7 +2,8 @@
     <div class="card">
         <Link :href="route('artikel.show', slug)" class="content">
             <div class="force-thumbnail-aspect-ratio">
-                <img :src="thumbnailImage" class="thumbnail">
+                <!-- <img :v-lazy="thumbnailImage" class="thumbnail"> -->
+                <img ref="lazyRef" class="thumbnail">
             </div>
 
             <div>
@@ -31,6 +32,7 @@ import { render, register } from 'timeago.js'
 import de from 'timeago.js/lib/lang/de.js'
 import moment from 'moment'
 
+import { useLazyload } from 'vue3-lazyload'
 
 
 const props = defineProps(['title', 'category', 'timestamp', 'image', 'slug'])
@@ -62,6 +64,7 @@ onBeforeMount(() => {
         thumbnailImage.value = `/img/${imgName}-thumbnail.jpeg`
     }
 })
+const lazyRef = useLazyload(thumbnailImage)
 </script>
 
 <style lang="scss" scoped>

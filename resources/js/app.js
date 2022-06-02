@@ -5,7 +5,7 @@ require('./images.js')
 import { createApp, h, component } from 'vue';
 import { createInertiaApp } from '@inertiajs/inertia-vue3';
 import { InertiaProgress } from '@inertiajs/progress';
-
+import VueLazyLoad from 'vue3-lazyload'
 
 const appName = window.document.getElementsByTagName('title')[0]?.innerText || 'Laravel';
 
@@ -15,6 +15,7 @@ createInertiaApp({
     setup({ el, app, props, plugin }) {
         return createApp({ render: () => h(app, props) })
             .use(plugin)
+            // .use(VueLazyLoad)
             .mixin({ methods: { route } })
             .mount(el);
     },
