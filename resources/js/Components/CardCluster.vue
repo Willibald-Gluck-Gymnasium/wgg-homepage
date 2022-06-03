@@ -14,10 +14,10 @@
 </template>
 
 <script setup>
-import { onMounted, onUnmounted, defineProps, ref } from 'vue';
+import { onMounted, onUnmounted, ref } from 'vue';
 import Card from '@components/Card'
 import Isotope from 'isotope-layout'
-import imagesLoaded from 'imagesloaded'
+// import imagesLoaded from 'imagesloaded'
 
 const props = defineProps(['cards'])
 

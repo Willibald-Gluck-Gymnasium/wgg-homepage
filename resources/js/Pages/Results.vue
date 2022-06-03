@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <Head title="Results" />
 
     <main-header></main-header>
@@ -57,4 +57,4 @@ const mixScoutPrefix = ref(process.env.MIX_SCOUT_PREFIX)
 
 <style lang="scss" scoped>
 
-</style>
+</style> -->

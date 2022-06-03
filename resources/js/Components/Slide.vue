@@ -8,7 +8,6 @@
 
 <script setup>
 import { onBeforeMount, onMounted, ref } from 'vue';
-import images from '@/images'
 
 import { Link } from '@inertiajs/inertia-vue3'
 

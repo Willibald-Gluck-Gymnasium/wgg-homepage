@@ -24,13 +24,11 @@
 <script setup>
 import { Link } from '@inertiajs/inertia-vue3'
 
-import { ref, onBeforeMount, defineProps, onMounted, defineEmits } from 'vue'
+import { ref, onBeforeMount, defineEmits } from 'vue'
 
-// import images from '@/images'
-
-import { render, register } from 'timeago.js'
-import de from 'timeago.js/lib/lang/de.js'
-import moment from 'moment'
+// import { render, register } from 'timeago.js'
+// import de from 'timeago.js/lib/lang/de.js'
+// import moment from 'moment'
 
 import { useLazyload } from 'vue3-lazyload'
 
@@ -40,17 +38,17 @@ const props = defineProps(['title', 'category', 'timestamp', 'image', 'slug'])
 
 const publishedAtUnix = ref(null)
     
-onBeforeMount(() => {
-    publishedAtUnix.value = moment(props.timestamp, "DD.MM.YYYY HH:mm").unix() * 1000
-})
+// onBeforeMount(() => {
+//     publishedAtUnix.value = moment(props.timestamp, "DD.MM.YYYY HH:mm").unix() * 1000
+// })
 
-const publishedAt = ref(null)
+// const publishedAt = ref(null)
 
-onMounted(() => {
-    register('de', de);
-    const node = publishedAt.value;
-    if (node != undefined) render([node], 'de');
-})
+// onMounted(() => {
+//     register('de', de);
+//     const node = publishedAt.value;
+//     if (node != undefined) render([node], 'de');
+// })
 
 
 // If the prop image starts with !!getImageByName!! it will look in 

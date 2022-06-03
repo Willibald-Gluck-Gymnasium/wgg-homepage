@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <ais-instant-search :search-client="searchClient" :index-name="mixScoutPrefix + 'articles'">
         <ais-search-box ref="searchbox" @focus="showResults = true" @blur="showResults = false" /> 
 
@@ -150,4 +150,4 @@ const mixScoutPrefix = ref(process.env.MIX_SCOUT_PREFIX)
         }
     }
 }
-</style>
+</style> -->
