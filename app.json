@@ -6,5 +6,10 @@
         {
             "url": "heroku/php"
         }
+    ],
+    "addons": [
+        {
+            "plan": "heroku-postgresql"
+        }
     ]
 }
