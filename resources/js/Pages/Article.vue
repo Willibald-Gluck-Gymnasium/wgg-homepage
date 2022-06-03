@@ -76,13 +76,15 @@
     import Youtube from '@components/Youtube'
     import Image from '@components/Image'
     import VueForm from '@components/VueForm'
+    import Dropdown from '@components/Dropdown'
 
     export default defineComponent({
         components: {
             Head,
             Link,
             ReadMore,
-            VueForm
+            VueForm,
+            Dropdown
         },
 
 
@@ -136,6 +138,7 @@
                     .component("v-image", Image)
                     .component("inertia-link", Link)
                     .component("vue-form", VueForm)
+                    .component("dropdown", Dropdown)
                     .mount(articlecontent.value)
             })
 
