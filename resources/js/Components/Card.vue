@@ -24,7 +24,7 @@
 <script setup>
 import { Link } from '@inertiajs/inertia-vue3'
 
-import { ref, onBeforeMount, defineProps, defineEmits } from 'vue'
+import { ref, onBeforeMount, defineEmits } from 'vue'
 
 // import images from '@/images'
 
