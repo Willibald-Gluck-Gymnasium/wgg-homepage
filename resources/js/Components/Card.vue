@@ -24,7 +24,7 @@
 <script setup>
 import { Link } from '@inertiajs/inertia-vue3'
 
-import { ref, onBeforeMount, defineProps, onMounted } from 'vue'
+import { ref, onBeforeMount, defineProps, onMounted, defineEmits } from 'vue'
 
 // import images from '@/images'
 
@@ -34,6 +34,7 @@ import moment from 'moment'
 
 import { useLazyload } from 'vue3-lazyload'
 
+const emit = defineEmits(['imageLoaded'])
 
 const props = defineProps(['title', 'category', 'timestamp', 'image', 'slug'])
 
@@ -55,7 +56,13 @@ onMounted(() => {
 // If the prop image starts with !!getImageByName!! it will look in 
 // the images object from the images.js module to replace the value 
 const thumbnailImage = ref(props.image)
-const lazyRef = useLazyload(thumbnailImage)
+const lazyRef = useLazyload(thumbnailImage,{
+    lifecycle: {
+        loaded: () => {
+            emit('imageLoaded')
+        }
+    }
+})
 
 onBeforeMount(() => {
     let imgName = thumbnailImage.value
@@ -154,7 +161,7 @@ $box-shadow--expanded: 0 8px 30px 0 $box-shadow-color;
                 height: 100%;
                 object-fit: cover;
                 transition: transform 0.2s, box-shadow 0.2s;
-                // background-color: hsl(0, 0%, 80%);
+                background-color: hsl(0, 0%, 80%);
 
                 @at-root html.no-touchevents .card:hover .thumbnail {
                     box-shadow: $box-shadow--expanded;

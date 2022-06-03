@@ -8,6 +8,7 @@
 			:timestamp="card.published_on"
     		:image="card.thumbnail"
 			:slug="card.link"
+			@imageLoaded="isotopeArrange()"
         />
     </div>
 </template>
@@ -23,6 +24,10 @@ const props = defineProps(['cards'])
 const cardCluster = ref(null)
 
 let isotope
+
+let isotopeArrange = ref(() => {
+	console.error("isotopeArrange() called before isotope layout was created")
+})
 
 onMounted(() => {
 	// Resources:
@@ -40,13 +45,20 @@ onMounted(() => {
 			}
 		});
 
-		// rearrange isotope everytime an image is finished loading
-		let imgLoad = imagesLoaded(cardCluster.value);
-		imgLoad.on('progress', function(instance, image) {
-			isotope.arrange()
-		});
-})
+		// Rearrange when images loaded
+		isotopeArrange.value = () => {
+			isotope.layout()
+			console.log("Handled: Arrange: Loaded")
+		}
+		
 
+		// rearrange isotope everytime an image is finished loading
+		// let imgLoad = imagesLoaded(cardCluster.value);
+		// imgLoad.on('progress', function(instance, image) {
+		// 	isotope.arrange()
+		// 	console.log("Rearrange")
+		// });
+})
 
 // rearrange isotope when cardCluster is resized
 let lastIsotopeWidth
