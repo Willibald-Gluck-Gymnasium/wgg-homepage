@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <Link :href="href" class="result">
         <div class="img">
             <img :src="imgsrc" :alt="title"> 
@@ -146,4 +146,4 @@ export default {
         font-size: 1.1em !important;
     }
 }
-</style>
+</style> -->

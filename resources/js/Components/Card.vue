@@ -26,8 +26,6 @@ import { Link } from '@inertiajs/inertia-vue3'
 
 import { ref, onBeforeMount, defineEmits } from 'vue'
 
-// import images from '@/images'
-
 // import { render, register } from 'timeago.js'
 // import de from 'timeago.js/lib/lang/de.js'
 // import moment from 'moment'
