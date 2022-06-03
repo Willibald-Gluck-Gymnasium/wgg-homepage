@@ -26,7 +26,7 @@ import { Link } from '@inertiajs/inertia-vue3'
 
 import { ref, onBeforeMount, defineProps, onMounted } from 'vue'
 
-import images from '@/images'
+// import images from '@/images'
 
 import { render, register } from 'timeago.js'
 import de from 'timeago.js/lib/lang/de.js'
@@ -55,6 +55,7 @@ onMounted(() => {
 // If the prop image starts with !!getImageByName!! it will look in 
 // the images object from the images.js module to replace the value 
 const thumbnailImage = ref(props.image)
+const lazyRef = useLazyload(thumbnailImage)
 
 onBeforeMount(() => {
     let imgName = thumbnailImage.value
@@ -64,7 +65,6 @@ onBeforeMount(() => {
         thumbnailImage.value = `/img/${imgName}-thumbnail.jpeg`
     }
 })
-const lazyRef = useLazyload(thumbnailImage)
 </script>
 
 <style lang="scss" scoped>
