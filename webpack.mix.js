@@ -32,7 +32,7 @@ mix.img({
 
         slide: sharp => sharp.resize(2160, 600).runPipeline("compression"),
 
-        compression: sharp => sharp.toFormat("jpeg", { quality: 60 })
+        compression: sharp => sharp.toFormat("jpeg", { quality: 60, mozjpeg: true, progressive: true, optimiseScans: true })
 
     }
 })
