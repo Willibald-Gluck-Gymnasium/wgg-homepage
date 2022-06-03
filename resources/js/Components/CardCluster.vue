@@ -48,7 +48,6 @@ onMounted(() => {
 		// Rearrange when images loaded
 		isotopeArrange.value = () => {
 			isotope.layout()
-			console.log("Handled: Arrange: Loaded")
 		}
 		
 
