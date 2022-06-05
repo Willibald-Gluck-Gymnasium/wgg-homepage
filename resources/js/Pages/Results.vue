@@ -1,9 +1,6 @@
 <template>
     <Head title="Results" />
 
-    <main-header></main-header>
-    <secondary-header></secondary-header>
-
     <ais-instant-search :search-client="searchClient" :index-name="mixScoutPrefix + 'articles'">
         <ais-search-box />
         <ais-hits>
@@ -32,7 +29,6 @@
         </ais-hits>
     </ais-instant-search>
 
-    <vue-footer></vue-footer>
 </template>
 
 <script setup>
@@ -42,9 +38,6 @@ import algoliasearch from 'algoliasearch/lite';
 import 'instantsearch.css/themes/satellite-min.css';
 
 import { Link, Head } from '@inertiajs/inertia-vue3';
-import MainHeader from '@components/MainHeader'
-import SecondaryHeader from '@components/SecondaryHeader'
-import VueFooter from '@components/VueFooter'
 
 const searchClient = ref(algoliasearch(
     process.env.MIX_ALGOLIA_APP_ID,
@@ -53,6 +46,12 @@ const searchClient = ref(algoliasearch(
 
 const mixScoutPrefix = ref(process.env.MIX_SCOUT_PREFIX)
 
+</script>
+
+<script>
+export default {
+    layout: MainAppLayout
+}
 </script>
 
 <style lang="scss" scoped>

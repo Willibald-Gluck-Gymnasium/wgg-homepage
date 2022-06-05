@@ -56,6 +56,10 @@ Route::get('/license', function () {
     return response()->file( base_path().'/LICENSE' );
 });
 
+Route::get('/credits', function () {
+    return response()->file(resource_path('txt/credits.txt'));
+});
+
 // Route::get('/phpinfo', function () {
 //     phpinfo();
 // });
