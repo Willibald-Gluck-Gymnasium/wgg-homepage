@@ -60,10 +60,7 @@ export default {
                 preview: 'Der Schulgarten des WGGs wächst langsam heran und mit ihm die Schulgärtner. Nun wird Nachwuchs gesucht. Der Schulgarten ist schon länger ...'
             }
         ]
-    }),
-    mounted() {
-        console.log("hi");
-    }
+    })
 }
 </script>
 
