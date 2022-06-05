@@ -19,8 +19,10 @@
                     <div class="readtime">
                         {{ readTime }}
                     </div>
-                    <div class="seperator" v-if="publishedAt">-</div>
-                    <div v-if="publishedAt" class="date">
+                    <div class="seperator" v-if="false">-</div>
+                    <!-- <div class="seperator" v-if="publishedAt">-</div> -->
+                    <div v-if="false" class="date">
+                    <!-- <div v-if="publishedAt" class="date"> -->
                         <span 
                             ref="publishedAt"
                             class="timeago" 
