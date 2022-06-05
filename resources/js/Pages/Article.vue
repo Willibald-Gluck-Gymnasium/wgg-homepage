@@ -60,103 +60,80 @@
     <card-cluster class="mt-3 mb-6" v-if="readMore.length > 0" :cards="readMore"></card-cluster>
 </template>
 
+<script setup>
+import { createApp, defineComponent, onMounted, ref, compile, h } from 'vue'
+
+import { Head, Link } from '@inertiajs/inertia-vue3';
+
+// import MainHeader from '@components/MainHeader'
+// import SecondaryHeader from '@components/SecondaryHeader'
+import VueHeadline from '@components/VueHeadline'
+import CardCluster from '@components/CardCluster'
+// import VueFooter from '@components/VueFooter'
+
+import Youtube from '@components/Youtube'
+import Image from '@components/Image'
+import VueForm from '@components/VueForm'
+import Dropdown from '@components/Dropdown'
+
+const props = defineProps({
+    canLogin: Boolean,
+    canRegister: Boolean,
+    content: String,
+    title: String,
+    author: String,
+    category: String,
+    publishedAt: String,
+    readTime: String,
+    readMore: Array,
+})
+
+const ArticleComponent = defineComponent({
+    setup() {
+        const rawHTML = props.content
+        const renderer = compile(rawHTML)
+        const vnode = h(renderer)
+        return () => vnode
+    }
+})
+
+const articlecontent = ref(null)
+
+onMounted(() => {
+    createApp(ArticleComponent)
+        .component("youtube", Youtube)
+        .component("v-image", Image)
+        .component("inertia-link", Link)
+        .component("vue-form", VueForm)
+        .component("dropdown", Dropdown)
+        .mount(articlecontent.value)
+})
+</script>
+
 <script>
-    import { createApp, defineComponent, onMounted, ref, compile, h } from 'vue'
+import MainAppLayout from '@/Layouts/MainAppLayout.vue'; 
 
-    import MainAppLayout from '@/Layouts/MainAppLayout.vue'; 
+export default {
+    layout: MainAppLayout,
+     
+    // beforeMount() {
+    //     this.publishedAtUnix = moment(this.publishedAt, "DD.MM.YYYY HH:mm").unix() * 1000
+    // },
 
-    import { Head, Link } from '@inertiajs/inertia-vue3';
+    // mounted() {
+    //     register('de', de);
+    //     const publishedAt = this.$refs.publishedAt;
+    //     // const nodes = this.$el.parentNode.querySelectorAll(".timeago");
+    //     if (publishedAt != undefined) render([publishedAt], 'de');
+    //     // alert(this.readMore.length);
+    // },
 
-    import { render, register } from 'timeago.js';
-    import de from 'timeago.js/lib/lang/de.js'
-    import moment from 'moment'
-
-    import MainHeader from '@components/MainHeader'
-    import SecondaryHeader from '@components/SecondaryHeader'
-    import VueHeadline from '@components/VueHeadline'
-    import CardCluster from '@components/CardCluster'
-    import VueFooter from '@components/VueFooter'
-    import ReadMore from '@components/ReadMore'
-
-    import Youtube from '@components/Youtube'
-    import Image from '@components/Image'
-    import VueForm from '@components/VueForm'
-    import Dropdown from '@components/Dropdown'
-
-    export default defineComponent({
-        components: {
-            Head,
-            Link,
-            MainHeader,
-            SecondaryHeader,
-            VueHeadline,
-            CardCluster,
-            VueFooter,
-            ReadMore,
-            VueForm,
-            Dropdown
-        },
-
-
-        props: {
-            canLogin: Boolean,
-            canRegister: Boolean,
-            content: String,
-            title: String,
-            author: String,
-            category: String,
-            publishedAt: String,
-            readTime: String,
-            readMore: Array,
-        },
-
-        layout: MainAppLayout,
-
-        beforeMount() {
-            this.publishedAtUnix = moment(this.publishedAt, "DD.MM.YYYY HH:mm").unix() * 1000
-        },
-
-        mounted() {
-            register('de', de);
-            const publishedAt = this.$refs.publishedAt;
-            // const nodes = this.$el.parentNode.querySelectorAll(".timeago");
-            if (publishedAt != undefined) render([publishedAt], 'de');
-            // alert(this.readMore.length);
-        },
-
-        data() {
-            return {
-                publishedAtUnix: null
-            }
-        },
-
-        setup(props) {
-            
-
-            const ArticleComponent = defineComponent({
-                setup() {
-                    const rawHTML = props.content
-                    const renderer = compile(rawHTML)
-                    const vnode = h(renderer)
-                    return () => vnode
-                }
-            })
-        
-            const articlecontent = ref(null)
-
-            onMounted(() => {
-                createApp(ArticleComponent)
-                    .component("youtube", Youtube)
-                    .component("v-image", Image)
-                    .component("inertia-link", Link)
-                    .component("vue-form", VueForm)
-                    .component("dropdown", Dropdown)
-                    .mount(articlecontent.value)
-            })
-
-            return { articlecontent }
-        }
-    })
+    // data() {
+    //     return {
+    //         publishedAtUnix: null
+    //     }
+    // }
+}
 </script>
 
 
