@@ -60,7 +60,7 @@ class ArticleController extends Controller
         $tag_full_word = '"'.$article->tags[0].'"';
         // $link_full_word = '"'.$article->link.'"';
         $link_full_word = $article->link;
-        $read_more = Article::select('title', 'link', 'tags', 'thumbnail', 'published_on')
+        $read_more_collection = Article::select('title', 'link', 'tags', 'thumbnail', 'published_on')
             // ->orderBy('published_on', 'desc')
             ->where('tags', 'like', "%{$tag_full_word}%")
             // ->orWhere('tags', 'like', "%{$tag1_full_word}%")
@@ -69,8 +69,13 @@ class ArticleController extends Controller
             })
             // ->orderBy('updated_at', 'desc')
             ->inRandomOrder()
-            ->take(5)
+            ->take(6)
             ->get();
+        $read_more = $read_more_collection->map(function ($item, $key) {
+            $item['thumbnail'] = "!!getImageByName!!".$item['thumbnail'];
+            return $item;
+        })->toArray();
+
         return Inertia::render('Article', [
             'canLogin' => Route::has('login'),
             'canRegister' => Route::has('register'),

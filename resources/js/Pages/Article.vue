@@ -2,7 +2,7 @@
     <Head :title="title" />
 
     <div dusk="article-component" class="article-container manual-scope-XKpYE">
-        <div id="wrapper">
+        <div id="wrapper" :class="{ 'has-readmore': readMore.length > 0 }">
             <div class="header">
                 <Link :href="'tag/' + category" class="category">{{ category }}</Link>
                 <h1>{{ title }}</h1>
@@ -53,10 +53,11 @@
 
             <div ref="articlecontent" id="articlecontent"></div>
             <div class="clear"></div>
-            <read-more v-if="readMore.length > 0" :articles="readMore"></read-more>
+            <!-- <read-more v-if="readMore.length > 0" :articles="readMore"></read-more> -->
         </div>
     </div>
-
+    <vue-headline class="mt-10" v-if="readMore.length > 0">Weiterlesen:</vue-headline>
+    <card-cluster class="mt-3 mb-6" v-if="readMore.length > 0" :cards="readMore"></card-cluster>
 </template>
 
 <script>
@@ -72,6 +73,8 @@
 
     import MainHeader from '@components/MainHeader'
     import SecondaryHeader from '@components/SecondaryHeader'
+    import VueHeadline from '@components/VueHeadline'
+    import CardCluster from '@components/CardCluster'
     import VueFooter from '@components/VueFooter'
     import ReadMore from '@components/ReadMore'
 
@@ -86,6 +89,8 @@
             Link,
             MainHeader,
             SecondaryHeader,
+            VueHeadline,
+            CardCluster,
             VueFooter,
             ReadMore,
             VueForm,
@@ -332,9 +337,12 @@
             width: 100%;
             padding: 35px;
             padding-top: 38px;
+            padding-bottom: 50px;
             background: var(--clr-bg-primary);
             box-shadow: 0 0 15px rgba(0,0,0,.05);
             color: var(--clr-font);
+            // border-bottom-right-radius: 15px;
+            // border-bottom-left-radius: 15px;
             a.category {
                 color: var(--clr-wgg-orange);
                 text-decoration: none;
@@ -548,6 +556,15 @@
             div.share {
                 display: none;
             }
+        }
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    .manual-scope-XKpYE {
+        #wrapper.has-readmore {
+            border-bottom-right-radius: 15px;
+            border-bottom-left-radius: 15px;
         }
     }
 }
