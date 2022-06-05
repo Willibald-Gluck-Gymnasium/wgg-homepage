@@ -19,8 +19,8 @@ class ArticleController extends Controller
     public function index($tag = false)
     {   
         if ($tag != false) {
-            $tagFullWord = '"'.$tag.'"';
-            $articles = Article::select('link', 'title', 'thumbnail', 'tags', 'published_on')->where('tags', 'like', "%{$tagFullWord}%")->get();
+            $tag_full_word = '"'.$tag.'"';
+            $articles = Article::select('link', 'title', 'thumbnail', 'tags', 'published_on')->where('tags', 'like', "%{$tag_full_word}%")->get();
             
             if ($articles->isEmpty()) {
                 abort(404);
@@ -57,6 +57,25 @@ class ArticleController extends Controller
      */
     public function show(Article $article)
     {
+        $tag_full_word = '"'.$article->tags[0].'"';
+        // $link_full_word = '"'.$article->link.'"';
+        $link_full_word = $article->link;
+        $read_more_collection = Article::select('title', 'link', 'tags', 'thumbnail', 'published_on')
+            // ->orderBy('published_on', 'desc')
+            ->where('tags', 'like', "%{$tag_full_word}%")
+            // ->orWhere('tags', 'like', "%{$tag1_full_word}%")
+            ->whereNot(function ($query) use ($link_full_word){
+                $query->where('link', $link_full_word);
+            })
+            // ->orderBy('updated_at', 'desc')
+            ->inRandomOrder()
+            ->take(6)
+            ->get();
+        $read_more = $read_more_collection->map(function ($item, $key) {
+            $item['thumbnail'] = "!!getImageByName!!".$item['thumbnail'];
+            return $item;
+        })->toArray();
+
         return Inertia::render('Article', [
             'canLogin' => Route::has('login'),
             'canRegister' => Route::has('register'),
@@ -65,7 +84,8 @@ class ArticleController extends Controller
             'category' => $article->tags[0],
             'author' => $article->author,
             'publishedAt' => $article->published_on,
-            'readTime' => $article->read_time()
+            'readTime' => $article->read_time(),
+            'readMore' => $read_more
         ]);
 
     }
