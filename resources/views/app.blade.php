@@ -8,8 +8,13 @@
         <title inertia>{{ config('app.name', 'Laravel') }}</title>
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&display=swap">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        {{-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&display=swap"> --}}
+        <link
+            rel="preload"
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Nunito+Sans:wght@300;400;700&display=swap"
+            as="style"
+            onload="this.onload=null;this.rel='stylesheet'"
+        />
     
         <!-- Styles -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
@@ -18,6 +23,8 @@
 
         <!-- Scripts -->
         @routes
+        <script src="{{ mix('js/manifest.js') }}" defer></script>
+        <script src="{{ mix('js/vendor.js') }}" defer></script>
         <script src="{{ mix('js/app.js') }}" defer></script>
         <script src="{{ mix('js/combined.js') }}" defer></script>
 

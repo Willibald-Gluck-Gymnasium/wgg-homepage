@@ -11,10 +11,15 @@
 </style>
 
 <script setup>
-import { Head } from '@inertiajs/inertia-vue3';
+import { Head } from '@inertiajs/inertia-vue3'
+// import { defineAsyncComponent } from 'vue'
 import Slideshow from '@components/Slideshow'
 import CardCluster from '@components/CardCluster'
 import VueHeadline from '@components/VueHeadline'
+
+// const Slideshow = defineAsyncComponent(() => import('@components/Slideshow'))
+
+// const CardCluster = defineAsyncComponent(() => import('@components/CardCluster'))
 
 const props = defineProps({
     slides: Array,

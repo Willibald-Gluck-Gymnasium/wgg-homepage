@@ -2,7 +2,8 @@
     <div class="card">
         <Link :href="route('artikel.show', slug)" class="content">
             <div class="force-thumbnail-aspect-ratio">
-                <img :src="thumbnailImage" class="thumbnail">
+                <!-- <img :v-lazy="thumbnailImage" class="thumbnail"> -->
+                <img ref="lazyRef" class="thumbnail">
             </div>
 
             <div>
@@ -20,58 +21,57 @@
     </div>
 </template>
 
-<script>
+<script setup>
 import { Link } from '@inertiajs/inertia-vue3'
 
-import { ref, onBeforeMount, onActivated } from 'vue'
+import { ref, onBeforeMount, defineProps, onMounted, defineEmits } from 'vue'
 
-import images from '@/images'
+// import images from '@/images'
 
 import { render, register } from 'timeago.js'
 import de from 'timeago.js/lib/lang/de.js'
 import moment from 'moment'
 
-export default {
-    components: {
-        Link
-    },
+import { useLazyload } from 'vue3-lazyload'
 
-    props: ['title', 'category', 'timestamp', 'image', 'slug'],
+const emit = defineEmits(['imageLoaded'])
 
-    data() {
-        return {
-            publishedAtUnix: null
+const props = defineProps(['title', 'category', 'timestamp', 'image', 'slug'])
+
+const publishedAtUnix = ref(null)
+    
+onBeforeMount(() => {
+    publishedAtUnix.value = moment(props.timestamp, "DD.MM.YYYY HH:mm").unix() * 1000
+})
+
+const publishedAt = ref(null)
+
+onMounted(() => {
+    register('de', de);
+    const node = publishedAt.value;
+    if (node != undefined) render([node], 'de');
+})
+
+
+// If the prop image starts with !!getImageByName!! it will look in 
+// the images object from the images.js module to replace the value 
+const thumbnailImage = ref(props.image)
+const lazyRef = useLazyload(thumbnailImage,{
+    lifecycle: {
+        loaded: () => {
+            emit('imageLoaded')
         }
-    },
-
-    beforeMount() {
-        this.publishedAtUnix = moment(this.timestamp, "DD.MM.YYYY HH:mm").unix() * 1000
-    },
-
-    mounted () {
-        register('de', de);
-        const node = this.$refs.publishedAt;
-        if (node != undefined) render([node], 'de');
-    },
-
-    setup(props) {
-        // If the prop image starts with !!getImageByName!! it will look in 
-        // the images object from the images.js module to replace the value 
-        const thumbnailImage = ref(props.image)
-        
-        onBeforeMount(() => {
-            let imgName = thumbnailImage.value
-
-            if (imgName.startsWith("!!getImageByName!!")) {
-                imgName = imgName.replace('!!getImageByName!!','')
-                thumbnailImage.value = `/img/${imgName}-thumbnail.jpeg`
-            }
-        })
-
-        return { thumbnailImage }
     }
+})
 
-}
+onBeforeMount(() => {
+    let imgName = thumbnailImage.value
+
+    if (imgName.startsWith("!!getImageByName!!")) {
+        imgName = imgName.replace('!!getImageByName!!','')
+        thumbnailImage.value = `/img/${imgName}-thumbnail.jpeg`
+    }
+})
 </script>
 
 <style lang="scss" scoped>
@@ -161,7 +161,7 @@ $box-shadow--expanded: 0 8px 30px 0 $box-shadow-color;
                 height: 100%;
                 object-fit: cover;
                 transition: transform 0.2s, box-shadow 0.2s;
-                // background-color: hsl(0, 0%, 80%);
+                background-color: hsl(0, 0%, 80%);
 
                 @at-root html.no-touchevents .card:hover .thumbnail {
                     box-shadow: $box-shadow--expanded;
