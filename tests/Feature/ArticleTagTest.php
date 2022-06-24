@@ -21,6 +21,10 @@ class ArticleTagTest extends TestCase
         'Unterricht',
         'Verein der Freunde',
         'dev-only',
+        'Schülerexperimentieren',
+        'Jugend forscht',
+        'Schulprojekte',
+
 
         // Fächer
         'Spanisch',
@@ -28,6 +32,7 @@ class ArticleTagTest extends TestCase
         'Kunst',
         'Mathematik',
         'Englisch',
+        'Chemie',
     ];
 
     /**
