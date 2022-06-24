@@ -106,14 +106,21 @@ div#youtube-container {
         font-size: 15px !important;
     }
     .float-right, .float-left {
-        div.message span.more {
-            display: none;
+        div.message {
+            span.more {
+                display: none;
+            }
         }
     }
 }
 @media only screen and (max-width: 400px) {
     div.message {
         font-size: 15px !important
+    }
+}
+@media only screen and (max-width: 450px) {
+    span.more {
+        display: none;
     }
 }
 </style>
