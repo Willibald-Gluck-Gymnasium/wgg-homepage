@@ -10,18 +10,20 @@
         Tel.: 09181 472-0
       </div>
       <div id="copyright">
-        <div class="title">Copyright and Licenses</div>
-        2020 by Alexander Horner and Jan Bayer. All rights reserved.
+        <div class="title">Authors and Licensing</div>
+        Made by Alexander Horner, Jan Bayer, <a class="link" href="https://github.com/Willibald-Gluck-Gymnasium">WGG</a>
         <br>
-        Powered by <a class="link" href="https://vuejs.org/">Vue.js</a> and <a class="link" href="https://laravel.com/">Laravel</a>
+        Powered by <a class="link" href="https://vuejs.org/">Vue.js</a>, <a class="link" href="https://laravel.com/">Laravel</a>, <a class="link" href="https://www.algolia.com/">algolia</a>
         <br>
-        <a class="link" href="/license">MIT License</a>
+        GitHub: <a class="link" href="https://github.com/Willibald-Gluck-Gymnasium/wgg-homepage">Willibald-Gluck-Gymnasium/wgg-homepage</a>
+        <br>
+        <a class="link" href="/license">GPL-3.0 license</a>
       </div>
       <div id="links">
         <div class="title">Links</div>
         <Link class="link" :href="'/impressum'">Impressum</Link>
         <br>
-        <Link class="link" :href="'/datenschutz'">Datenschutz</Link>
+        <Link class="link" :href="'/Datenschutzhinweise'">Datenschutz</Link>
       </div>
     </div>
     <div class="content">
