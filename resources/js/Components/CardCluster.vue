@@ -1,5 +1,5 @@
 <template>
-    <div class="card-cluster">
+    <div ref="cardCluster" class="card-cluster">
         <card
             v-for="(card, i) in cards"
 			:key="i"
@@ -8,33 +8,34 @@
 			:timestamp="card.published_on"
     		:image="card.thumbnail"
 			:slug="card.link"
+			@imageLoaded="isotopeArrange()"
         />
     </div>
 </template>
 
-<script>
+<script setup>
+import { onMounted, onUnmounted, defineProps, ref } from 'vue';
 import Card from '@components/Card'
-
 import Isotope from 'isotope-layout'
 import imagesLoaded from 'imagesloaded'
 
+const props = defineProps(['cards'])
 
-export default {
-	components: {
-		Card
-	},
+const cardCluster = ref(null)
 
-	props: [
-		'cards'
-	],
+let isotope
 
-	mounted() {
-		// Resources:
+let isotopeArrange = ref(() => {
+	console.error("isotopeArrange() called before isotope layout was created")
+})
+
+onMounted(() => {
+	// Resources:
 		// https://isotope.metafizzy.co
 		// https://masonry.desandro.com
 		//
-		var cardCluster = this.$el
-		var isotope = new Isotope( cardCluster, {
+
+		isotope = new Isotope(cardCluster.value, {
 			// options
 			itemSelector: '.card',
 			layoutMode: 'masonry',
@@ -44,22 +45,41 @@ export default {
 			}
 		});
 
-		// rearrange isotope everytime an image is finished loading
-		var imgLoad = imagesLoaded(cardCluster);
-		imgLoad.on('progress', function(instance, image) {
-			isotope.arrange()
-		});
+		// Rearrange when images loaded
+		isotopeArrange.value = () => {
+			isotope.layout()
+		}
+		
 
-		// rearrange isotope when cardCluster is resized
-		var lastIsotopeWidth = cardCluster.clientWidth
-		window.addEventListener('resize', function(){
-			if (lastIsotopeWidth != cardCluster.clientWidth) {
-				isotope.arrange()
-			}
-			lastIsotopeWidth = cardCluster.clientWidth
-		});
-	},
+		// rearrange isotope everytime an image is finished loading
+		// let imgLoad = imagesLoaded(cardCluster.value);
+		// imgLoad.on('progress', function(instance, image) {
+		// 	isotope.arrange()
+		// 	console.log("Rearrange")
+		// });
+})
+
+// rearrange isotope when cardCluster is resized
+let lastIsotopeWidth
+
+onMounted(() => {
+	lastIsotopeWidth = cardCluster.value.clientWidth
+})
+
+const eventResizeHandle = () => {
+	if (lastIsotopeWidth != cardCluster.value.clientWidth) {
+		isotope.arrange()
+	}
+	lastIsotopeWidth = cardCluster.value.clientWidth
 }
+
+onMounted(() => {
+	window.addEventListener('resize', eventResizeHandle);
+})
+
+onUnmounted(() => {
+	window.removeEventListener('resize', eventResizeHandle);
+})
 </script>
 
 <style lang="scss" scoped>

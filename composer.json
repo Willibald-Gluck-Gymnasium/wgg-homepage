@@ -18,10 +18,12 @@
         "mtownsend/read-time": "^2.0",
         "ryangjchandler/orbit": "^1.1.3",
         "soundasleep/html2text": "~1.1",
-        "tightenco/ziggy": "^1.0"
+        "tightenco/ziggy": "^1.0",
+        "ext-pdo_sqlite": "*"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
+        "laravel/dusk": "^6.24",
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^6.1",
