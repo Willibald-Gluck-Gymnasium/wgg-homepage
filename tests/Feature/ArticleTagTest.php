@@ -28,6 +28,9 @@ class ArticleTagTest extends TestCase
         'Kunst',
         'Mathematik',
         'Englisch',
+        'Religion',
+        'Chemie',
+        'Ethik',
     ];
 
     /**
