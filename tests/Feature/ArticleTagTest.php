@@ -22,7 +22,7 @@ class ArticleTagTest extends TestCase
         'Verein der Freunde',
         'dev-only',
         'Schülerexperimentieren',
-        'Jugend forscht',
+        'Jugendforscht',
         'Schulprojekte',
 
 
