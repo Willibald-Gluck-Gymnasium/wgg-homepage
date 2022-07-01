@@ -7,9 +7,15 @@
         "watch-poll": "mix watch -- --watch-options-poll=1000",
         "hot": "mix watch --hot",
         "prod": "npm run production",
-        "production": "mix --production"
+        "production": "mix --production",
+        "test": "npm run dev; php artisan test; php artisan dusk",
+        "pre-prod-test": "npm run prod; php artisan test; php artisan dusk",
+        "article-test": "npm run dev; php artisan dusk --group=articles",
+        "articletest": "npm run article-test",
+        "build": "npm run prod"
     },
     "devDependencies": {
+        "@babel/plugin-syntax-dynamic-import": "^7.8.3",
         "@inertiajs/inertia": "^0.10.0",
         "@inertiajs/inertia-vue3": "^0.5.1",
         "@inertiajs/progress": "^0.2.6",
@@ -37,6 +43,7 @@
         "isotope-layout": "^3.0.6",
         "moment": "^2.29.1",
         "timeago.js": "^4.0.2",
-        "vue-instantsearch": "^4.3.3"
+        "vue-instantsearch": "^4.3.3",
+        "vue3-lazyload": "^0.3.4"
     }
 }

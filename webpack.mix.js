@@ -15,6 +15,10 @@ require('laravel-mix-image-processor')
 
 mix.webpackConfig(require('./webpack.config'))
 
+mix.babelConfig({
+    plugins: ['@babel/plugin-syntax-dynamic-import'],
+});
+
 mix.img({
     outputPath: 'img',
     name: '[name]-[pipelinename].[ext]',
@@ -28,7 +32,7 @@ mix.img({
 
         slide: sharp => sharp.resize(2160, 600).runPipeline("compression"),
 
-        compression: sharp => sharp.toFormat("jpeg", { quality: 60 })
+        compression: sharp => sharp.toFormat("jpeg", { quality: 60, mozjpeg: true, progressive: true, optimiseScans: true })
 
     }
 })
@@ -44,6 +48,9 @@ mix.js('resources/js/app.js', 'public/js')
 if (mix.inProduction()) {
     mix.version();
 }
+
+mix.extract();
+
 
 
 mix.sass('resources/sass/app.scss', 'public/css')
