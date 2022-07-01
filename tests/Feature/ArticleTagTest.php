@@ -30,6 +30,7 @@ class ArticleTagTest extends TestCase
         'Englisch',
         'Religion',
         'Chemie',
+        'Ethik',
     ];
 
     /**
