@@ -18,6 +18,7 @@ $shadow-color-dark: rgb(120,120,120);
 
 form.vue-form {
     position: relative;
+    margin-bottom: 1em;
     section {
         display: flex;
         flex-wrap: wrap;
