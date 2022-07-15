@@ -12,6 +12,7 @@ class ArticleTagTest extends TestCase
 {
     // All tags used in articles must be included in this list, else the test will fail
     private $allowedTags = [
+        'Aktivitäten',
         'Allgemein',
         'Elternbrief',
         'Events',
@@ -21,6 +22,8 @@ class ArticleTagTest extends TestCase
         'Unterricht',
         'Verein der Freunde',
         'dev-only',
+        'P-Seminar',
+        'Schulhaus',
 
         // Fächer
         'Spanisch',
@@ -28,6 +31,7 @@ class ArticleTagTest extends TestCase
         'Kunst',
         'Mathematik',
         'Englisch',
+        'Physik',
     ];
 
     /**
