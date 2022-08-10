@@ -39,34 +39,34 @@ import { ref, onMounted} from 'vue'
 import SearchBar from './SearchBar'
 
 import UnterrichtNav from '@components/navigation/Unterricht'
+import FürElternNav from '@components/navigation/FürEltern'
+import SchullebenNav from '@components/navigation/Schulleben'
 
 // This is to prevent the component from getting reactive, wich can cause problems
 const componentsMap = {
   UnterrichtNav,
+  FürElternNav,
+  SchullebenNav
   // ... 
 }
 
 const navigationMenu = ref(null)
 
 const closeNavMenu = ref(() => {
-    console.log("bruh")
+    console.log("Not mounted yet")
 })
 
 
 onMounted(() => {
     closeNavMenu.value = navigationMenu.value.closeDropdown
-    console.log("Mounted")
-    // setTimeout(() => {
-    //     console.log("closing nav")
-    //     closeNavMenu()
-    // }, 5000)
+    navigationMenu.value.closeDropdown = () => {}
 })
 
 const menu = [
-    { title: 'Aktuelles', dropdown: 'aktuelles', component: 'comp1' },
-    { title: 'Schulleben', dropdown: 'schulleben', component: 'comp1' },
+    // { title: 'Aktuelles', dropdown: 'aktuelles', component: 'comp1' },
+    { title: 'Schulleben', dropdown: 'schulleben', component: 'SchullebenNav' },
     { title: 'Unterricht', dropdown: 'unterricht', component: 'UnterrichtNav' },
-    { title: 'Für Eltern', dropdown: 'füreltern', component: 'comp1' }
+    { title: 'Für Eltern', dropdown: 'füreltern', component: 'FürElternNav' }
 ]
 
 </script>
