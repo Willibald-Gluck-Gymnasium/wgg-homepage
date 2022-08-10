@@ -1,6 +1,7 @@
 const mix = require('laravel-mix');
 
 require('laravel-mix-image-processor')
+require('laravel-mix-bundle-analyzer')
 
 /*
  |--------------------------------------------------------------------------
@@ -44,14 +45,9 @@ mix.js('resources/js/app.js', 'public/js')
         require('tailwindcss'),
     ])
     
-
-if (mix.inProduction()) {
-    mix.version();
-}
+mix.js('resources/js/images.js', 'public/js')
 
 mix.extract();
-
-
 
 mix.sass('resources/sass/app.scss', 'public/css')
     .combine([
@@ -62,3 +58,11 @@ mix.sass('resources/sass/app.scss', 'public/css')
     ], 'public/css/combined.css');
 
 mix.sourceMaps()
+
+if (mix.inProduction()) {
+    mix.version();
+}
+
+// if (!mix.inProduction()) {
+//     mix.bundleAnalyzer();
+// }

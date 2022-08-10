@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <Head title="Results" />
 
     <ais-instant-search :search-client="searchClient" :index-name="mixScoutPrefix + 'articles'">
@@ -56,4 +56,4 @@ export default {
 
 <style lang="scss" scoped>
 
-</style>
+</style> -->

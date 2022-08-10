@@ -19,14 +19,14 @@
                     <div class="readtime">
                         {{ readTime }}
                     </div>
-                    <div class="seperator" v-if="publishedAt">-</div>
+                    <!-- <div class="seperator" v-if="publishedAt">-</div>
                     <div v-if="publishedAt" class="date">
                         <span 
                             ref="publishedAt"
                             class="timeago" 
                             :datetime="publishedAtUnix"
                         ></span>
-                    </div> 
+                    </div>  -->
                     
                     <!--
                     <div class="share">
@@ -67,9 +67,9 @@
 
     import { Head, Link } from '@inertiajs/inertia-vue3';
 
-    import { render, register } from 'timeago.js';
-    import de from 'timeago.js/lib/lang/de.js'
-    import moment from 'moment'
+    // import { render, register } from 'timeago.js';
+    // import de from 'timeago.js/lib/lang/de.js'
+    // import moment from 'moment'
 
     import ReadMore from '@components/ReadMore'
 
@@ -101,22 +101,22 @@
 
         layout: MainAppLayout,
 
-        beforeMount() {
-            this.publishedAtUnix = moment(this.publishedAt, "DD.MM.YYYY HH:mm").unix() * 1000
-        },
+        // beforeMount() {
+        //     this.publishedAtUnix = moment(this.publishedAt, "DD.MM.YYYY HH:mm").unix() * 1000
+        // },
 
-        mounted() {
-            register('de', de);
-            const publishedAt = this.$refs.publishedAt;
-            // const nodes = this.$el.parentNode.querySelectorAll(".timeago");
-            if (publishedAt != undefined) render([publishedAt], 'de');
-        },
+        // mounted() {
+        //     register('de', de);
+        //     const publishedAt = this.$refs.publishedAt;
+        //     // const nodes = this.$el.parentNode.querySelectorAll(".timeago");
+        //     if (publishedAt != undefined) render([publishedAt], 'de');
+        // },
 
-        data() {
-            return {
-                publishedAtUnix: null
-            }
-        },
+        // data() {
+        //     return {
+        //         publishedAtUnix: null
+        //     }
+        // },
 
         setup(props) {
             
