@@ -6,7 +6,7 @@
                 <div class="divider mr-3"></div>
                 <div class="logo-text">WGG</div>
             </Link>
-            <search-bar></search-bar>
+            <!-- <search-bar></search-bar> -->
         </div>
     </div>
 </template>

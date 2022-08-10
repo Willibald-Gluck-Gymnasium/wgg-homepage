@@ -19,14 +19,14 @@
                     <div class="readtime">
                         {{ readTime }}
                     </div>
-                    <div class="seperator" v-if="publishedAt">-</div>
+                    <!-- <div class="seperator" v-if="publishedAt">-</div>
                     <div v-if="publishedAt" class="date">
                         <span 
                             ref="publishedAt"
                             class="timeago" 
                             :datetime="publishedAtUnix"
                         ></span>
-                    </div> 
+                    </div>  -->
                     
                     <!--
                     <div class="share">
