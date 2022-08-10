@@ -25,7 +25,7 @@
             </Link>
         </template>
         <template #after-nav>
-            <search-bar></search-bar>
+            <!-- <search-bar></search-bar> -->
             <vsm-mob>Mobile Content</vsm-mob>
         </template>
     </vsm-menu>
