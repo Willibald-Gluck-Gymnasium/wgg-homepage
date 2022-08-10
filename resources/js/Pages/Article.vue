@@ -71,9 +71,6 @@
     // import de from 'timeago.js/lib/lang/de.js'
     // import moment from 'moment'
 
-    import MainHeader from '@components/MainHeader'
-    import SecondaryHeader from '@components/SecondaryHeader'
-    import VueFooter from '@components/VueFooter'
     import ReadMore from '@components/ReadMore'
 
     import Youtube from '@components/Youtube'
@@ -85,9 +82,6 @@
         components: {
             Head,
             Link,
-            MainHeader,
-            SecondaryHeader,
-            VueFooter,
             ReadMore,
             VueForm,
             Dropdown
