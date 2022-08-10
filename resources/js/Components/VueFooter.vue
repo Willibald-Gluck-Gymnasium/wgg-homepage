@@ -33,35 +33,35 @@
       <div id="partners">
         <div class="title">Partner</div>
         <a href="https://mintzukunftschaffen.de">
-          <img :src="require('@img/color1.jpg?pipeline=footer')" alt="MINT">
+          <img :src="require('@img/mint_logo.jpg?pipeline=footer')" alt="MINT">
           <span>mintzukunftschaffen</span>
         </a>
         <a href="https://www.mint-ec.de/">
-          <img :src="require('@img/color2.jpg?pipeline=footer')" alt="MINT-EC">
+          <img :src="require('@img/mint_ec_logo.jpg?pipeline=footer')" alt="MINT-EC">
           <span>MINT-EC</span>
         </a>
         <a href="https://www.schule-ohne-rassismus.org/">
-          <img :src="require('@img/color3.jpg?pipeline=footer')" alt="SORSMC">
+          <img :src="require('@img/sor-logo.jpg?pipeline=footer')" alt="SORSMC">
           <span>Schule ohne Rassismus</span>
         </a>
         <a href="https://www.jugend-debattiert.de/">
-          <img :src="require('@img/color4.jpg?pipeline=footer')" alt="JD">
+          <img :src="require('@img/jugend-debattiert-logo.jpg?pipeline=footer')" alt="JD">
           <span>Jugend Debattiert</span>
         </a>
         <a href="https://www.mintregion-neumarkt.de/">
-          <img :src="require('@img/color5.jpg?pipeline=footer')" alt="Mint Neumarkt">
+          <img :src="require('@img/mint_nm_logo.jpg?pipeline=footer')" alt="Mint Neumarkt">
           <span>MINT Region Neumarkt</span>
         </a>
         <a href="https://www.n-ergie.de/">
-          <img :src="require('@img/color6.jpg?pipeline=footer')" alt="N-Ergie">
+          <img :src="require('@img/n-ergie_logo.jpg?pipeline=footer')" alt="N-Ergie">
           <span>N-ERGIE</span>
         </a>
         <a href="http://wp.feedbackschule.de/">
-          <img :src="require('@img/color7.jpg?pipeline=footer')" alt="FbSch">
+          <img :src="require('@img/feedback_schule_logo.jpg?pipeline=footer')" alt="FbSch">
           <span>FeedbackSchule</span>
         </a>
         <a href="http://www.umwelterziehung.de/projekte/umweltschule/index.html">
-          <img :src="require('@img/color8.jpg?pipeline=footer')" alt="Umwelt">
+          <img :src="require('@img/umweltschule_logo.jpg?pipeline=footer')" alt="Umwelt">
           <span>Umweltschule</span>
         </a>
       </div>
