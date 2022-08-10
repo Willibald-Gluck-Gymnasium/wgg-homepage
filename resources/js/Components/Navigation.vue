@@ -59,7 +59,6 @@ const closeNavMenu = ref(() => {
 
 onMounted(() => {
     closeNavMenu.value = navigationMenu.value.closeDropdown
-    navigationMenu.value.closeDropdown = () => {}
 })
 
 const menu = [
