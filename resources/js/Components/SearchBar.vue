@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <ais-instant-search :search-client="searchClient" :index-name="mixScoutPrefix + 'articles'">
         <ais-search-box ref="searchbox" @focus="showResults = true" @blur="showResults = false" /> 
 
@@ -85,8 +85,10 @@ const mixScoutPrefix = ref(process.env.MIX_SCOUT_PREFIX)
 .ais-InstantSearch {
     width: 100%;
     margin-left: auto;
-    max-width: 500px;
+    max-width: 400px;
     height: 42px;
+    color: black;
+    z-index: 950;
     
     * {
         font-size: 16px;
@@ -107,8 +109,8 @@ const mixScoutPrefix = ref(process.env.MIX_SCOUT_PREFIX)
             caret-color: hsl(29, 100%, 55%);
             box-shadow: none;
             border: none;
-            color: #FFFFFF;
-            background-color: hsl(0, 0%, 20%);
+            color: black;
+            background-color: hsl(0, 0%, 90%);
             border-radius: 21px;
             width: 100%;
             margin-left: auto;
@@ -132,8 +134,8 @@ const mixScoutPrefix = ref(process.env.MIX_SCOUT_PREFIX)
         .ais-Hits-list {
             .ais-Hits-item {
                 border-radius: 0;
-                background-color: hsl(0, 0%, 20%);
-                border-top: 1px solid hsl(0, 0%, 10%);
+                background-color: hsl(0, 0%, 90%);
+                border-top: 1px solid hsl(0, 0%, 70%);
 
                 h2 {
                     * {
@@ -150,4 +152,4 @@ const mixScoutPrefix = ref(process.env.MIX_SCOUT_PREFIX)
         }
     }
 }
-</style>
+</style> -->
