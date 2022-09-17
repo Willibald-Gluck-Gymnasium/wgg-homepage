@@ -1,31 +1,13 @@
 <template>
-    <Link class="slide" :href="route('artikel.show', link)">
-        <img class="background-image" :src="thumbnailImage">
+    <NuxtLink class="slide" :to="'/' + link">
+        <img class="background-image" src="/images/construction-sign.jpg">
         <div class="background-gradient"></div>
         <div class="title">{{ title }}</div>
-    </Link>
+    </NuxtLink>
 </template>
 
 <script setup>
-import { onBeforeMount, onMounted, ref } from 'vue';
-
-import { Link } from '@inertiajs/inertia-vue3'
-
-
 const props = defineProps(['image', 'title', 'link'])
-
-// If the prop image starts with !!getImageByName!! it will look in 
-// the images object from the images.js module to replace the value 
-const thumbnailImage = ref(props.image)
-
-onBeforeMount(() => {
-    let imgName = thumbnailImage.value
-    
-    if (imgName.startsWith("!!getImageByName!!")) {
-        imgName = imgName.replace('!!getImageByName!!','')
-        thumbnailImage.value = `/img/${imgName}-slide.jpeg`
-    }
-})
 </script>
 
 <style lang="scss" scoped>

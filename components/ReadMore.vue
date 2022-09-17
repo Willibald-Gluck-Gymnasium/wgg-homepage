@@ -2,28 +2,24 @@
     <div class="readmore">
         <div class="text">Weiterlesen:</div>
         <div class="links">
-            <Link
+            <NuxtLink
                 v-for="(link, i) in links"
                 :key="i"
-                :href="link.href"
+                :to="link.href"
             >
                 <span class="category">{{ link.category }}</span>
                 <span class="seperator">-</span>
                 <span class="title">{{ link.title }}</span>
                 <span class="seperator">-</span>
                 <span class="timestamp">Vor einem Jahr</span>
-            </Link>
+            </NuxtLink>
         </div>
     </div>
 </template>
 
 <script>
-import { Link } from '@inertiajs/inertia-vue3';
 
 export default {
-components: {
-    Link
-},
 data: () => ({
         links: [
             {

@@ -20,9 +20,9 @@
             </div> -->
         </template>
         <template #before-nav>
-             <Link :href="route('home')" style="flex-shrink: 0">
+             <NuxtLink to="/" style="flex-shrink: 0">
                 <school-logo-with-text class="mr-3" />
-            </Link>
+            </NuxtLink>
         </template>
         <template #after-nav>
             <!-- <search-bar></search-bar> -->
@@ -32,21 +32,14 @@
 </template>
 
 <script setup>
-import { Link } from '@inertiajs/inertia-vue3'
-import SchoolLogoWithText from '@components/SchoolLogoWithText'
 import { VsmMenu, VsmMob } from 'vue-stripe-menu'
 import { ref, onMounted} from 'vue'
-import SearchBar from './SearchBar'
-
-import UnterrichtNav from '@components/navigation/Unterricht'
-import FürElternNav from '@components/navigation/FürEltern'
-import SchullebenNav from '@components/navigation/Schulleben'
 
 // This is to prevent the component from getting reactive, wich can cause problems
 const componentsMap = {
-  UnterrichtNav,
-  FürElternNav,
-  SchullebenNav
+    NavigationUnterricht: resolveComponent('NavigationUnterricht'),
+    NavigationFürEltern: resolveComponent('NavigationFürEltern'),
+    NavigationSchulleben: resolveComponent('NavigationSchulleben')
   // ... 
 }
 

@@ -1,13 +1,12 @@
 <template>
-    <Link :href="`/tag/${link || text}`" class="menu-item">
+    <NuxtLink :to="`/tag/${link || text}`" class="menu-item">
         <component v-if="icon" class="icon" :is="icon" />
         <span>{{ text }}</span>
-    </Link>
+    </NuxtLink>
 </template>
 
 <script setup>
-import { Link } from '@inertiajs/inertia-vue3'
-
+    
 const props = defineProps({
     text: {
         type: String,

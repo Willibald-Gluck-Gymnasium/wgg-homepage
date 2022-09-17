@@ -12,28 +12,29 @@
 </template>
 
 <script setup>
-import menuItem from '@components/navigation/menuItem'
+const menuItem = resolveComponent('Icons/menuItem')
 
-import ArtIcon from '@components/icons/ArtIcon'
-import BiologyIcon from '@components/icons/BiologyIcon'
-import BusinessInformaticsIcon from '@components/icons/BusinessInformaticsIcon'
-import ChemistryIcon from '@components/icons/ChemistryIcon'
-import EconomyIcon from '@components/icons/EconomyIcon'
-import EnglishIcon from '@components/icons/EnglishIcon'
-import EthicsIcon from '@components/icons/EthicsIcon'
-import FrenchIcon from '@components/icons/FrenchIcon'
-import GeographyIcon from '@components/icons/GeographyIcon'
-import GermanIcon from '@components/icons/GermanIcon'
-import HistoryIcon from '@components/icons/HistoryIcon'
-import LatinIcon from '@components/icons/LatinIcon'
-import MathIcon from '@components/icons/MathIcon'
-import MusicIcon from '@components/icons/MusicIcon'
-import PhysicsIcon from '@components/icons/PhysicsIcon'
-import ProgrammingIcon from '@components/icons/ProgrammingIcon'
-import ReligionIcon from '@components/icons/ReligionIcon'
-import SocialStudiesIcon from '@components/icons/SocialStudiesIcon'
-import SpanishIcon from '@components/icons/SpanishIcon'
-import SportsIcon from '@components/icons/SportsIcon'
+const ArtIcon = resolveComponent('IconsArtIcon')
+const BiologyIcon = resolveComponent('IconsBiologyIcon')
+const BusinessInformaticsIcon = resolveComponent('IconsBusinessInformaticsIcon')
+const ChemistryIcon = resolveComponent('IconsChemistryIcon')
+const EconomyIcon = resolveComponent('IconsEconomyIcon')
+const EnglishIcon = resolveComponent('IconsEnglishIcon')
+const EthicsIcon = resolveComponent('IconsEthicsIcon')
+const FrenchIcon = resolveComponent('IconsFrenchIcon')
+const GeographyIcon = resolveComponent('IconsGeographyIcon')
+const GermanIcon = resolveComponent('IconsGermanIcon')
+const HistoryIcon = resolveComponent('IconsHistoryIcon')
+const LatinIcon = resolveComponent('IconsLatinIcon')
+const MathIcon = resolveComponent('IconsMathIcon')
+const MusicIcon = resolveComponent('IconsMusicIcon')
+const PhysicsIcon = resolveComponent('IconsPhysicsIcon')
+const ProgrammingIcon = resolveComponent('IconsProgrammingIcon')
+const ReligionIcon = resolveComponent('IconsReligionIcon')
+const SocialStudiesIcon = resolveComponent('IconsSocialStudiesIcon')
+const SpanishIcon = resolveComponent('IconsSpanishIcon')
+const SportsIcon = resolveComponent('IconsSportsIcon')
+
 
 
 const emit = defineEmits(['closeNavMenu'])

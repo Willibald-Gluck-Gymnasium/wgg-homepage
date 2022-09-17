@@ -7,8 +7,6 @@
 </template>
 
 <script setup>
-import menuItem from '@components/navigation/menuItem'
-import { Link } from '@inertiajs/inertia-vue3' 
 
 const emit = defineEmits(['closeNavMenu'])
 

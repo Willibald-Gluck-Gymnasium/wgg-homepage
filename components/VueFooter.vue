@@ -21,11 +21,11 @@
       </div>
       <div id="links">
         <div class="title">Links</div>
-        <Link class="link" :href="'/impressum'">Impressum</Link>
+        <NuxtLink class="link" to="'/impressum'">Impressum</NuxtLink>
         <br>
-        <Link class="link" :href="'/Datenschutzhinweise'">Datenschutz</Link>
+        <NuxtLink class="link" to="'/Datenschutzhinweise'">Datenschutz</NuxtLink>
         <br>
-        <!-- <Link class="link" :href="'/credits'">Credits</Link> -->
+        <!-- <NuxtLink class="link" :href="'/credits'">Credits</NuxtLink> -->
         <a class="underline" href="/credits">Credits</a>
       </div>
     </div>
@@ -33,52 +33,41 @@
       <div id="partners">
         <div class="title">Partner</div>
         <a href="https://mintzukunftschaffen.de">
-          <img :src="require('@img/mint_logo.jpg?pipeline=footer')" alt="MINT">
+          <img src="/images/mint_logo.jpg" alt="MINT">
           <span>mintzukunftschaffen</span>
         </a>
         <a href="https://www.mint-ec.de/">
-          <img :src="require('@img/mint_ec_logo.jpg?pipeline=footer')" alt="MINT-EC">
+          <img src="/images/mint_ec_logo.jpg" alt="MINT-EC">
           <span>MINT-EC</span>
         </a>
         <a href="https://www.schule-ohne-rassismus.org/">
-          <img :src="require('@img/sor-logo.jpg?pipeline=footer')" alt="SORSMC">
+          <img src="/images/sor-logo.jpg" alt="SORSMC">
           <span>Schule ohne Rassismus</span>
         </a>
         <a href="https://www.jugend-debattiert.de/">
-          <img :src="require('@img/jugend-debattiert-logo.jpg?pipeline=footer')" alt="JD">
+          <img src="/images/jugend-debattiert-logo.jpg" alt="JD">
           <span>Jugend Debattiert</span>
         </a>
         <a href="https://www.mintregion-neumarkt.de/">
-          <img :src="require('@img/mint_nm_logo.jpg?pipeline=footer')" alt="Mint Neumarkt">
+          <img src="/images/mint_nm_logo.jpg" alt="Mint Neumarkt">
           <span>MINT Region Neumarkt</span>
         </a>
         <a href="https://www.n-ergie.de/">
-          <img :src="require('@img/n-ergie_logo.jpg?pipeline=footer')" alt="N-Ergie">
+          <img src="/images/n-ergie_logo.jpg" alt="N-Ergie">
           <span>N-ERGIE</span>
         </a>
         <a href="http://wp.feedbackschule.de/">
-          <img :src="require('@img/feedback_schule_logo.jpg?pipeline=footer')" alt="FbSch">
+          <img src="/images/feedback_schule_logo.jpg" alt="FbSch">
           <span>FeedbackSchule</span>
         </a>
         <a href="http://www.umwelterziehung.de/projekte/umweltschule/index.html">
-          <img :src="require('@img/umweltschule_logo.jpg?pipeline=footer')" alt="Umwelt">
+          <img src="/images/umweltschule_logo.jpg" alt="Umwelt">
           <span>Umweltschule</span>
         </a>
       </div>
     </div>
   </div>
 </template>
-
-<script>
-import { Link} from '@inertiajs/inertia-vue3';
-
-export default {
-  components: {
-    Link
-  }
-
-}
-</script>
 
 <style lang="scss" scoped>
 .footer {

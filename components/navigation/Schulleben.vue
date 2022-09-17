@@ -12,10 +12,6 @@
 </template>
 
 <script setup>
-import menuItem from '@components/navigation/menuItem'
-
-
-
 const emit = defineEmits(['closeNavMenu'])
 
 const menuItems = {

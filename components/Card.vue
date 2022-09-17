@@ -1,6 +1,6 @@
 <template>
     <div class="card">
-        <Link :href="route('artikel.show', slug)" class="content">
+        <NuxtLink :to="'/' + link" class="content">
             <div class="force-thumbnail-aspect-ratio">
                 <!-- <img :v-lazy="thumbnailImage" class="thumbnail"> -->
                 <img ref="lazyRef" class="thumbnail">
@@ -9,67 +9,47 @@
             <div>
                 <span class="category mr-2 font-bold">{{ category }}</span>
                 <span 
-                    v-if="publishedAtUnix"
+                    v-if="timestamp"
                     class="timeago" 
                     ref="publishedAt"
-                    :datetime="publishedAtUnix"
+                    :datetime="timestamp"
                 ></span>
             </div>
 
             <div class="title">{{ title }}</div>
-        </Link>
+        </NuxtLink>
     </div>
 </template>
 
 <script setup>
-import { Link } from '@inertiajs/inertia-vue3'
-
-import { ref, onBeforeMount, defineEmits } from 'vue'
-
-// import { render, register } from 'timeago.js'
-// import de from 'timeago.js/lib/lang/de.js'
-// import moment from 'moment'
-
+import { ref, defineEmits } from 'vue'
 import { useLazyload } from 'vue3-lazyload'
 
 const emit = defineEmits(['imageLoaded'])
 
-const props = defineProps(['title', 'category', 'timestamp', 'image', 'slug'])
-
-const publishedAtUnix = ref(null)
-    
-// onBeforeMount(() => {
-//     publishedAtUnix.value = moment(props.timestamp, "DD.MM.YYYY HH:mm").unix() * 1000
-// })
-
-// const publishedAt = ref(null)
-
-// onMounted(() => {
-//     register('de', de);
-//     const node = publishedAt.value;
-//     if (node != undefined) render([node], 'de');
-// })
-
-
-// If the prop image starts with !!getImageByName!! it will look in 
-// the images object from the images.js module to replace the value 
-const thumbnailImage = ref(props.image)
-const lazyRef = useLazyload(thumbnailImage,{
-    lifecycle: {
-        loaded: () => {
-            emit('imageLoaded')
-        }
+const props = defineProps({
+    title: {
+        type: String,
+        required: true
+    },
+    category: {
+        type: String,
+        default: 'ERROR CATEGORY'
+    },
+    timestamp: {
+        default: 'ERROR TIMESTAMP'
+    },
+    image: {
+        default: 'construction-sign.jpg'
+    },
+    link: {
+        type: String
     }
 })
 
-onBeforeMount(() => {
-    let imgName = thumbnailImage.value
+const thumbnailImage = ref(`/images/${props.image}`)
+const lazyRef = useLazyload(thumbnailImage)
 
-    if (imgName.startsWith("!!getImageByName!!")) {
-        imgName = imgName.replace('!!getImageByName!!','')
-        thumbnailImage.value = `/img/${imgName}-thumbnail.jpeg`
-    }
-})
 </script>
 
 <style lang="scss" scoped>
