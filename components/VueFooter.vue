@@ -13,7 +13,7 @@
         <div class="title">Authors and Licensing</div>
         Made by Alexander Horner, Jan Bayer, <a class="link" href="https://github.com/Willibald-Gluck-Gymnasium">WGG</a>
         <br>
-        Powered by <a class="link" href="https://vuejs.org/">Vue.js</a>, <a class="link" href="https://laravel.com/">Laravel</a>, <a class="link" href="https://www.algolia.com/">algolia</a>
+        Powered by <a class="link" href="https://v3.nuxtjs.org/">Nuxt</a>
         <br>
         GitHub: <a class="link" href="https://github.com/Willibald-Gluck-Gymnasium/wgg-homepage">Willibald-Gluck-Gymnasium/wgg-homepage</a>
         <br>
@@ -26,7 +26,7 @@
         <NuxtLink class="link" to="'/Datenschutzhinweise'">Datenschutz</NuxtLink>
         <br>
         <!-- <NuxtLink class="link" :href="'/credits'">Credits</NuxtLink> -->
-        <a class="underline" href="/credits">Credits</a>
+        <a class="link" href="/credits">Credits</a>
       </div>
     </div>
     <div class="content">

@@ -16,6 +16,7 @@
     "flickity": "^3.0.0",
     "isotope-layout": "^3.0.6",
     "nuxt-modernizr": "^2.0.10",
+    "reading-time": "^1.5.0",
     "vue-stripe-menu": "^2.1.1",
     "vue3-lazyload": "^0.3.6"
   }

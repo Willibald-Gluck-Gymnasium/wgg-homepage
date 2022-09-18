@@ -64,9 +64,7 @@ onMounted(async () => {
     // }
 
     // .flickity-viewport {
-    //     overflow: hidden;
-    //     position: relative;
-    //     height: 100%;
+    //     height: 100% !important;
     // }
 
     // .flickity-slider {

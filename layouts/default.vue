@@ -41,4 +41,26 @@ body {
     margin: 0;
     color: #000000;
 }
+
+.link {
+    color: hsl(29deg, 100%, 55%);
+    text-decoration: none;
+    position: relative;
+
+    &::after {
+        transition: all 250ms;
+        will-change: width;
+        width: 0;
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0em;
+        height: 0.2em;
+        background-color: hsl(29deg, 100%, 55%);
+    }
+
+    &:hover::after {
+        width: 100%;
+    }
+}
 </style>
