@@ -1,12 +1,17 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  modules: ['@nuxt/content'],
+  modules: [
+    '@nuxt/content',
+    '@nuxtjs/google-fonts',
+  ],
   meta: {
     title: 'WGG'
   },
-  buildModules: [
-    '@nuxtjs/google-fonts'
-  ],
+  head: {
+    script: {
+      src: '/js/modernizr.js'
+    }
+  },
   googleFonts: {
     download: true,
     families: {

@@ -35,6 +35,8 @@ html {
 }
 
 body {
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
     font-family: 'Nunito Sans', sans-serif;
     margin: 0;
     color: #000000;

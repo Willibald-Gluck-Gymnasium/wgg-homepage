@@ -7,15 +7,19 @@
 			category="Test"
 			:timestamp="card.published_on"
     		:image="card.thumbnail"
-			:slug="card.link"
+			:link="card._path"
 			@imageLoaded="isotopeArrange()"
         />
     </div>
 </template>
 
 <script setup>
-import { onMounted, ref, watch } from 'vue'
 import Isotope from 'isotope-layout'
+// let Isotope
+// if (process.client) {
+// 	Isotope = await import('isotope-layout')
+// 	console.log(Isotope)
+// }
 
 const props = defineProps({
 	cards: {
@@ -25,42 +29,31 @@ const props = defineProps({
 
 const cardCluster = ref(null)
 
-let isotope
-
-let isotopeArrange = ref(() => {
-	console.error("isotopeArrange() called before isotope layout was created")
-})
-
-onMounted(() => {
+onMounted(async () => {
 	// Resources:
-		// https://isotope.metafizzy.co
-		// https://masonry.desandro.com
-		//
-
-		watch(cardCluster, () => {
-			if (cardCluster.value instanceof HTMLDivElement) {
-
-				isotope = new Isotope(cardCluster.value, {
-					// options
-					itemSelector: '.card',
-					layoutMode: 'masonry',
-					transitionDuration: 0,
-					masonry: {
-						gutter: 30
-					}
-				});
-
-				// Rearrange when images loaded
-				isotopeArrange.value = () => {
-					isotope.layout()
-				}
-				
+	// https://isotope.metafizzy.co
+	// https://masonry.desandro.com
+	if (process.client) {
+		await nextTick()
+		new Isotope(cardCluster.value, {
+			// options
+			itemSelector: '.card',
+			layoutMode: 'masonry',
+			transitionDuration: 0,
+			masonry: {
+				gutter: 30
 			}
-		});
-
-		
-		
+		})
+	}
+	
+	
 })
+
+// onUpdated(() => {
+// 	if (isotope !== undefined) {
+// 		isotope.arrange()
+// 	}
+// })
 
 // rearrange isotope when cardCluster is resized
 // let lastIsotopeWidth

@@ -20,7 +20,7 @@
             </div> -->
         </template>
         <template #before-nav>
-             <NuxtLink to="/" style="flex-shrink: 0">
+             <NuxtLink to="/" style="flex-shrink: 0; color: inherit; text-decoration: inherit;">
                 <school-logo-with-text class="mr-3" />
             </NuxtLink>
         </template>

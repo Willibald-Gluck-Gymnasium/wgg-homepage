@@ -7,7 +7,22 @@
 </template>
 
 <script setup>
-const props = defineProps(['image', 'title', 'link'])
+// const props = defineProps(['image', 'title', 'link'])
+const props = defineProps({
+    image: {
+        type: String,
+        required: true
+    },
+    title: {
+        type: String,
+        required: true
+    },
+    link: {
+        type: String,
+        required: true
+    }
+})
+
 </script>
 
 <style lang="scss" scoped>
@@ -15,15 +30,14 @@ const props = defineProps(['image', 'title', 'link'])
     width: 100%;
     max-width: 1080px;
     height: 100%;
-    position: relative;
     transition: filter 0.5s;
+    display: block;
 
     &:not(.is-selected) {
         filter: saturate(0.5) brightness(40%);
     }
 
     .background-image {
-        position: absolute;
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -31,13 +45,15 @@ const props = defineProps(['image', 'title', 'link'])
 
     .background-gradient {
         position: absolute;
-        width: 100%;
-        height: 100%;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
         background: linear-gradient(0deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0) 100%);
     }
 
     .title {
-        font-family: var(--fnt-title);
+        font-family: 'Montserrat', sans-serif;
         font-weight: 700;
         font-size: 2.5rem;
         // font-size: 1.8rem;

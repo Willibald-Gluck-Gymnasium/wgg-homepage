@@ -7,7 +7,7 @@ import { onBeforeMount, ref } from 'vue'
 
 const props = defineProps(['name', 'alt'])
 
-const src = ref(`/img/${props.name}-article.jpeg`)
+const src = ref(`/images/${props.name}.jpg`)
 
 </script>
 

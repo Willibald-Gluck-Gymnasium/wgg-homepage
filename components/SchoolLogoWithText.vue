@@ -1,7 +1,7 @@
 <template>
     <div class="logo-container">
-        <school-logo class="mr-3"></school-logo>
-        <div class="divider mr-3"></div>
+        <school-logo style="margin-right: 12px;"></school-logo>
+        <div class="divider"></div>
         <div class="logo-text">WGG</div>
     </div>
 </template>
@@ -26,6 +26,7 @@ import SchoolLogo from './SchoolLogo';
         width: 3px;
         background-color: #000;
         height: 40px;
+        margin-right: 12px
     }
 
     .logo-text {

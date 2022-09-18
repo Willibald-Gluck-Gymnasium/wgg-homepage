@@ -83,9 +83,9 @@
     // margin-top: 15px;
     .content {
       // position: absolute;
-	    max-width: calc(var(--sz-content-width) + 50px);
+	    max-width: 1080px;
+      width: calc(100% - 50px);
       position: relative;
-      padding: 0px 25px;
       padding-top: 20px;
       margin: 0 auto;
       display: flex;
@@ -103,7 +103,7 @@
           font-weight: 900;
           border: none;
           box-shadow: none;
-          font-family: var(--fnt-title);
+          font-family: 'Montserrat', sans-serif;
           font-size: 25px;
           &:before {
             content: '';
@@ -113,7 +113,7 @@
             left: 0;
             width: 3em;
             height: .1em;
-            background: var(--clr-wgg-orange);
+            background: hsl(29, 100%, 55%);
           }
         }
         // &:nth-child(1) {

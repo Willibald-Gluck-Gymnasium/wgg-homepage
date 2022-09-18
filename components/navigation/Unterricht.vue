@@ -95,7 +95,7 @@ const menuItems = {
         margin-bottom: 0.7em;
     }
 
-    ::v-deep .menu-item {
+    :v-deep(.menu-item) {
         margin-right: 50px;
     }
     

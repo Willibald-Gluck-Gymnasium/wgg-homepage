@@ -1,6 +1,6 @@
 <template>
     <div class="card">
-        <NuxtLink :to="'/' + link" class="content">
+        <NuxtLink :to="link" class="content">
             <div class="force-thumbnail-aspect-ratio">
                 <!-- <img :v-lazy="thumbnailImage" class="thumbnail"> -->
                 <img ref="lazyRef" class="thumbnail">
@@ -22,7 +22,6 @@
 </template>
 
 <script setup>
-import { ref, defineEmits } from 'vue'
 import { useLazyload } from 'vue3-lazyload'
 
 const emit = defineEmits(['imageLoaded'])
@@ -81,7 +80,7 @@ $box-shadow--expanded: 0 8px 30px 0 $box-shadow-color;
         color: inherit;
         cursor: pointer;
         width: calc(100% - 20px);
-        background: var(--clr-bg-primary);
+        background: #FFF;
         padding: 15px;
         box-shadow: $box-shadow--default;
         border-radius: 15px;
@@ -95,8 +94,8 @@ $box-shadow--expanded: 0 8px 30px 0 $box-shadow-color;
 
         .category {
             font-size: 18px;
-            color: var(--clr-wgg-orange);
-            font-family: var(--fnt-title);
+            color: hsl(29, 100%, 55%);
+            font-family: 'Montserrat', sans-serif;
             font-weight: 600;
         }
 
@@ -106,7 +105,7 @@ $box-shadow--expanded: 0 8px 30px 0 $box-shadow-color;
         }
 
         .title {
-            font-family: var(--fnt-title);
+            font-family: 'Montserrat', sans-serif;
             font-size: 24px;
             font-weight: 700;
             word-wrap: break-word;

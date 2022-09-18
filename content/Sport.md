@@ -4,10 +4,11 @@ link: Sport
 tags: [Sport, Unterricht]
 thumbnail: typ-schwimmt-vogelperspektive.jpg
 ---
-<h2 v-if="false">ATest</h2>
 <p>Stellvertretend für viele sportliche Aktionen an unserer Schule werden hier kurz ein paar Eindrücke von der alljährlich stattfindenden Gemeinschaftsolympiade am WGG vorgestellt.
-
-    Sportlicher Höhepunkt in jedem Schuljahr ist das große Sportfest im Juli für alle Jahrgangsstufen. Bei der Gemeinschaftsolympiade wetteifern rund 1400 Schüler auf unterschiedlichen Spielstationen. Dabei geht es mehr um Erlebnisse als um Ergebnisse. </p>
+</p>
+<p>
+Sportlicher Höhepunkt in jedem Schuljahr ist das große Sportfest im Juli für alle Jahrgangsstufen. Bei der Gemeinschaftsolympiade wetteifern rund 1400 Schüler auf unterschiedlichen Spielstationen. Dabei geht es mehr um Erlebnisse als um Ergebnisse. 
+</p>
 <figure class="float-left">
     <v-image name="pedalo" alt="Pedalo"></v-image>
 </figure>
