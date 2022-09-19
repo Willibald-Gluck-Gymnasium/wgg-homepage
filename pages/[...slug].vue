@@ -7,8 +7,6 @@ const meta = await queryContent().where({ _path: useRoute().path }).only(['title
 
 const category = meta.tags?.[0] || 'Allgemein'
 
-console.log(category);
-
 const article = ref(null)
 
 const lesezeit = ref('')

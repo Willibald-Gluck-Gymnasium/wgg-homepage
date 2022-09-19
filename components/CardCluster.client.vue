@@ -35,6 +35,18 @@ const isotopeArrange = ref(() => {
 	console.error('isotopeArrange called before isotope was instantiated.')
 })
 
+// const resizeObserver = new ResizeObserver(() => {
+// 	isotopeArrange.value()
+// })
+
+// detect when node was added to the dom, then rearrange
+const mutationObserver = new MutationObserver(() => {
+	if (document.contains(cardCluster.value)) {
+		isotopeArrange.value()
+		mutationObserver.disconnect()
+	}
+})
+
 let isotopeInstance
 
 onMounted(async () => {
@@ -47,6 +59,7 @@ onMounted(async () => {
 		itemSelector: '.card',
 		layoutMode: 'masonry',
 		transitionDuration: 0,
+		// resize: false,
 		masonry: {
 			gutter: 30
 		}
@@ -57,8 +70,13 @@ onMounted(async () => {
 	}
 })
 
-onActivated(() => {
-	console.log("test")
+onMounted(async () => {
+	await nextTick()
+	// resizeObserver.observe(cardCluster.value)
+	mutationObserver.observe(document, {attributes: false, childList: true, characterData: false, subtree:true})
+})
+onUnmounted(() => {
+	// resizeObserver.disconnect()
 })
 
 onUpdated(async() => {
@@ -70,28 +88,6 @@ onUpdated(async() => {
 		isotopeArrange.value()
 	}
 })
-
-// rearrange isotope when cardCluster is resized
-// let lastIsotopeWidth
-
-// onMounted(() => {
-// 	lastIsotopeWidth = cardCluster.value.clientWidth
-// })
-
-// const eventResizeHandle = () => {
-// 	if (lastIsotopeWidth != cardCluster.value.clientWidth) {
-// 		isotope.arrange()
-// 	}
-// 	lastIsotopeWidth = cardCluster.value.clientWidth
-// }
-
-// onMounted(() => {
-// 	window.addEventListener('resize', eventResizeHandle);
-// })
-
-// onUnmounted(() => {
-// 	window.removeEventListener('resize', eventResizeHandle);
-// })
 </script>
 
 <style lang="scss" scoped>

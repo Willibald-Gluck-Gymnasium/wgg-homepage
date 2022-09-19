@@ -1,14 +1,12 @@
 <template>
-    <div class="flickity-slide-scoped-css-5mf3i">
-        <div ref="slider" class="slider">
-            <Slide
-                v-for="(slide, i) in slides"
-                :key="i"
-                :title="slide.title"
-                :image="slide.thumbnail || 'test'"
-                :link="slide.link || 'link'"
-            ></Slide>
-        </div>
+    <div ref="slider" class="slider">
+        <Slide
+            v-for="(slide, i) in slides"
+            :key="i"
+            :title="slide.title"
+            :image="slide.thumbnail || 'test'"
+            :link="slide.link || 'link'"
+        ></Slide>
     </div>
 </template>
 
@@ -25,19 +23,28 @@ const slider = ref(null)
 onMounted(async () => {
     await nextTick()
 
-    new Flickity(slider.value, {
-        wrapAround: true,
-        autoPlay: true,
-        autoPlay: 6000,
-        on: {
-            'dragStart': () => {
-                slider.value.style.pointerEvents = 'none'
-            },
-            'dragEnd': () => {
-                slider.value.style.pointerEvents = 'all'
-            }
+    const mutationObserver = new MutationObserver(() => {
+	    if (document.contains(slider.value)) {
+            console.log('Ready');
+
+            new Flickity(slider.value, {
+                wrapAround: true,
+                autoPlay: true,
+                autoPlay: 6000,
+                on: {
+                    'dragStart': () => {
+                        slider.value.style.pointerEvents = 'none'
+                    },
+                    'dragEnd': () => {
+                        slider.value.style.pointerEvents = 'all'
+                    }
+                }
+            });
+
+            mutationObserver.disconnect()
         }
-    });
+    })
+    mutationObserver.observe(document, {attributes: false, childList: true, characterData: false, subtree:true})
 })
 
 </script>
