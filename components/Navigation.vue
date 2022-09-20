@@ -32,8 +32,9 @@
 </template>
 
 <script setup>
-import { VsmMenu, VsmMob } from 'vue-stripe-menu'
-import { ref, onMounted} from 'vue'
+import * as vueStripeMenu from 'vue-stripe-menu'
+
+const { VsmMenu, VsmMob} = vueStripeMenu
 
 // This is to prevent the component from getting reactive, wich can cause problems
 const componentsMap = {

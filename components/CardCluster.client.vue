@@ -17,76 +17,52 @@
 <script setup>
 import Isotope from 'isotope-layout'
 
-// let Isotope
-// if (process.client) {
-// 	Isotope = await import('isotope-layout')
-// 	console.log(Isotope)
-// }
-
 const props = defineProps({
 	cards: {
-		require: true
+		required: true
 	}
 })
 
 const cardCluster = ref(null)
-
-const isotopeArrange = ref(() => {
-	console.error('isotopeArrange called before isotope was instantiated.')
-})
 
 // const resizeObserver = new ResizeObserver(() => {
 // 	isotopeArrange.value()
 // })
 
 // detect when node was added to the dom, then rearrange
-const mutationObserver = new MutationObserver(() => {
-	if (document.contains(cardCluster.value)) {
-		isotopeArrange.value()
-		mutationObserver.disconnect()
-	}
-})
+// const mutationObserver = new MutationObserver(() => {
+// 	if (document.contains(cardCluster.value)) {
+// 		isotopeArrange.value()
+// 		mutationObserver.disconnect()
+// 	}
+// })
 
-let isotopeInstance
 
 onMounted(async () => {
 	// Resources:
 	// https://isotope.metafizzy.co
 	// https://masonry.desandro.com
 	await nextTick()
-	isotopeInstance = new Isotope(cardCluster.value, {
-		// options
-		itemSelector: '.card',
-		layoutMode: 'masonry',
-		transitionDuration: 0,
-		// resize: false,
-		masonry: {
-			gutter: 30
-		}
-	})
 
-	isotopeArrange.value = () => {
-		isotopeInstance.arrange()
-	}
-})
+	const mutationObserver = new MutationObserver(() => {
+	    if (document.contains(cardCluster.value)) {
+            console.log('Ready');
 
-onMounted(async () => {
-	await nextTick()
-	// resizeObserver.observe(cardCluster.value)
-	mutationObserver.observe(document, {attributes: false, childList: true, characterData: false, subtree:true})
-})
-onUnmounted(() => {
-	// resizeObserver.disconnect()
-})
+            new Isotope(cardCluster.value, {
+				// options
+				itemSelector: '.card',
+				layoutMode: 'masonry',
+				transitionDuration: 0,
+				// resize: false,
+				masonry: {
+					gutter: 30
+				}
+			})
 
-onUpdated(async() => {
-	await nextTick()
-	if (isotopeInstance !== undefined) {
-		console.log("arranged")
-		console.log(cardCluster.value.childElementCount)
-		console.log(cardCluster.value.offsetWidth)
-		isotopeArrange.value()
-	}
+            mutationObserver.disconnect()
+        }
+    })
+    mutationObserver.observe(document, {attributes: false, childList: true, characterData: false, subtree:true})
 })
 </script>
 
