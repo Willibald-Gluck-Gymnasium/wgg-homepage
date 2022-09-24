@@ -20,38 +20,35 @@ const props = defineProps(['slides'])
 
 const slider = ref(null)
 
-onMounted(async () => {
-    await nextTick()
+const mutationObserver = new MutationObserver(() => {
+    if (document.contains(slider.value)) {
+        // console.log('Slideshow: Ready!');
 
-    const mutationObserver = new MutationObserver(() => {
-	    if (document.contains(slider.value)) {
-            console.log('Ready');
-
-            new Flickity(slider.value, {
-                wrapAround: true,
-                autoPlay: true,
-                autoPlay: 6000,
-                on: {
-                    'dragStart': () => {
-                        slider.value.style.pointerEvents = 'none'
-                    },
-                    'dragEnd': () => {
-                        slider.value.style.pointerEvents = 'all'
-                    }
+        new Flickity(slider.value, {
+            wrapAround: true,
+            autoPlay: true,
+            autoPlay: 6000,
+            on: {
+                'dragStart': () => {
+                    slider.value.style.pointerEvents = 'none'
+                },
+                'dragEnd': () => {
+                    slider.value.style.pointerEvents = 'all'
                 }
-            });
+            }
+        });
 
-            mutationObserver.disconnect()
-        }
-    })
-    mutationObserver.observe(document, {attributes: false, childList: true, characterData: false, subtree:true})
+        mutationObserver.disconnect()
+    }
 })
+mutationObserver.observe(document, {attributes: false, childList: true, characterData: false, subtree:true})
 
 </script>
 
 <style lang="scss" scoped>
 
 .slider {
+    overflow: hidden;
     width: 100%;
     height: 300px;
 }

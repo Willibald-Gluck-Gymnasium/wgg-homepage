@@ -29,41 +29,30 @@ const cardCluster = ref(null)
 // 	isotopeArrange.value()
 // })
 
-// detect when node was added to the dom, then rearrange
-// const mutationObserver = new MutationObserver(() => {
-// 	if (document.contains(cardCluster.value)) {
-// 		isotopeArrange.value()
-// 		mutationObserver.disconnect()
-// 	}
-// })
+// Resources:
+// https://isotope.metafizzy.co
+// https://masonry.desandro.com
 
+const mutationObserver = new MutationObserver(() => {
+	if (document.contains(cardCluster.value)) {
+		// console.log('Cluster: Ready!');
 
-onMounted(async () => {
-	// Resources:
-	// https://isotope.metafizzy.co
-	// https://masonry.desandro.com
-	await nextTick()
+		new Isotope(cardCluster.value, {
+			// options
+			itemSelector: '.card',
+			layoutMode: 'masonry',
+			transitionDuration: 0,
+			// resize: false,
+			masonry: {
+				gutter: 30
+			}
+		})
 
-	const mutationObserver = new MutationObserver(() => {
-	    if (document.contains(cardCluster.value)) {
-            console.log('Ready');
-
-            new Isotope(cardCluster.value, {
-				// options
-				itemSelector: '.card',
-				layoutMode: 'masonry',
-				transitionDuration: 0,
-				// resize: false,
-				masonry: {
-					gutter: 30
-				}
-			})
-
-            mutationObserver.disconnect()
-        }
-    })
-    mutationObserver.observe(document, {attributes: false, childList: true, characterData: false, subtree:true})
+		mutationObserver.disconnect()
+	}
 })
+mutationObserver.observe(document, {attributes: false, childList: true, characterData: false, subtree:true})
+
 </script>
 
 <style lang="scss" scoped>

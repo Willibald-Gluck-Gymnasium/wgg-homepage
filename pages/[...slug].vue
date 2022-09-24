@@ -2,8 +2,6 @@
 import readingTime from 'reading-time/lib/reading-time.js'
 
 const meta = await queryContent().where({ _path: useRoute().path }).only(['title', 'author', 'category', 'tags']).findOne()
-// const test = await queryContent().where({ _path: useRoute().path }).findOne()
-// console.log(test);
 
 const category = meta.tags?.[0] || 'Allgemein'
 
@@ -21,7 +19,6 @@ onMounted(() => {
             return `${minuten} Minuten`
         }
     })()
-    console.log(readingTime(article.value.innerText))
 })
 </script>
 
