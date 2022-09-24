@@ -70,6 +70,10 @@ mutationObserver.observe(document, {attributes: false, childList: true, characte
             cursor: pointer
         }
 
+        &:focus {
+            box-shadow: none;
+        }
+
         html.backdropfilter & {
             background: hsla(0, 0%, 0%, 0.1);
             color: hsla(0, 0%, 100%, 1);

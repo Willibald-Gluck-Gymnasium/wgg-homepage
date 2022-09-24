@@ -1,6 +1,6 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 
-const imageScaleFactor = 1.5
+const imageScaleFactor = 2
 
 export default defineNuxtConfig({
   modules: [

@@ -95,7 +95,7 @@ $box-shadow--expanded: 0 8px 30px 0 $box-shadow-color;
         min-height: 200px;
         transition: transform 0.2s, box-shadow 0.2s;
 
-        @at-root html.no-touchevents .card:hover .content {
+        @at-root /*html.no-touchevents*/ .card:hover .content {
             transform: scale(1.008) translate(0, -5px);
             box-shadow: $box-shadow--expanded;
         }
@@ -148,7 +148,7 @@ $box-shadow--expanded: 0 8px 30px 0 $box-shadow-color;
                 transition: transform 0.2s, box-shadow 0.2s;
                 background-color: hsl(0, 0%, 80%);
 
-                @at-root html.no-touchevents .card:hover .thumbnail {
+                @at-root /*html.no-touchevents*/ .card:hover .thumbnail {
                     box-shadow: $box-shadow--expanded;
                     transform: scale(1.008);
                 }
