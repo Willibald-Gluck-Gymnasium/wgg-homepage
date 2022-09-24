@@ -6,8 +6,6 @@ const props = defineProps(['slides'])
 
 const slider = ref(null)
 
-console.log(props.slides)
-
 const mutationObserver = new MutationObserver(() => {
     if (document.contains(slider.value)) {
         // console.log('Slideshow: Ready!');

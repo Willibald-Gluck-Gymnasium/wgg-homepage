@@ -2,7 +2,8 @@
     <div class="card">
         <NuxtLink :to="link" class="content">
             <div class="force-thumbnail-aspect-ratio">
-                <!-- <img :src="thumbnailImage" class="thumbnail"> -->
+                <!-- <img :src="thumbnailImage" class="thumbnail"> 340x160 -->
+                <!-- <nuxt-img preset="card" :src="'/images/' + image" class="thumbnail" /> -->
                 <img ref="lazyRef" class="thumbnail">
             </div>
 
@@ -46,7 +47,8 @@ const props = defineProps({
     }
 })
 
-const thumbnailImage = ref(`/images/${props.image}`)
+const $img = useImage()
+const thumbnailImage = ref($img(`/images/${props.image}`, {}, { preset: 'card' }))
 const lazyRef = useLazyload(thumbnailImage, {
     lifecycle: {
         loaded: () => {

@@ -33,35 +33,45 @@
       <div id="partners">
         <div class="title">Partner</div>
         <a href="https://mintzukunftschaffen.de">
-          <img src="/images/mint_logo.jpg" alt="MINT">
+          <!-- <img src="/images/mint_logo.jpg" alt="MINT"> -->
+          <nuxt-img preset="footer" src="/images/mint_logo.jpg" alt="Mint Logo" />
           <span>mintzukunftschaffen</span>
         </a>
         <a href="https://www.mint-ec.de/">
-          <img src="/images/mint_ec_logo.jpg" alt="MINT-EC">
+          <!-- <img src="/images/mint_ec_logo.jpg" alt="MINT-EC"> -->
+          <nuxt-img preset="footer" src="/images/mint_ec_logo.jpg" alt="Mint EC Logo" />
           <span>MINT-EC</span>
         </a>
         <a href="https://www.schule-ohne-rassismus.org/">
-          <img src="/images/sor-logo.jpg" alt="SORSMC">
+          <!-- <img src="/images/sor-logo.jpg" alt="SORSMC"> -->
+          <nuxt-img preset="footer" src="/images/sor-logo.jpg" alt="Schule ohne Rassismus Logo" />
           <span>Schule ohne Rassismus</span>
         </a>
         <a href="https://www.jugend-debattiert.de/">
-          <img src="/images/jugend-debattiert-logo.jpg" alt="JD">
+          <!-- <img src="/images/jugend-debattiert-logo.jpg" alt="JD"> -->
+          <nuxt-img preset="footer" src="/images/jugend-debattiert-logo.jpg" alt="Jugend Debattiert Logo" />
           <span>Jugend Debattiert</span>
         </a>
         <a href="https://www.mintregion-neumarkt.de/">
-          <img src="/images/mint_nm_logo.jpg" alt="Mint Neumarkt">
+          <!-- <img src="/images/mint_nm_logo.jpg" alt="Mint Neumarkt"> -->
+          <nuxt-img preset="footer" src="/images/mint_nm_logo.jpg" alt="Mint Neumarkt Logo" />
+
           <span>MINT Region Neumarkt</span>
         </a>
         <a href="https://www.n-ergie.de/">
-          <img src="/images/n-ergie_logo.jpg" alt="N-Ergie">
+          <!-- <img src="/images/n-ergie_logo.jpg" alt="N-Ergie"> -->
+          <nuxt-img preset="footer" src="/images/n-ergie_logo.jpg" alt="N-Ergie Logo" />
           <span>N-ERGIE</span>
         </a>
         <a href="http://wp.feedbackschule.de/">
-          <img src="/images/feedback_schule_logo.jpg" alt="FbSch">
+          <!-- <img src="/images/feedback_schule_logo.jpg" alt="FbSch"> -->
+          <nuxt-img preset="footer" src="/images/feedback_schule_logo.jpg" alt="Feedback Schule Logo" />
+
           <span>FeedbackSchule</span>
         </a>
         <a href="http://www.umwelterziehung.de/projekte/umweltschule/index.html">
-          <img src="/images/umweltschule_logo.jpg" alt="Umwelt">
+          <!-- <img src="/images/umweltschule_logo.jpg" alt="Umwelt"> -->
+          <nuxt-img preset="footer" src="/images/umweltschule_logo.jpg" alt="Umweltschule Logo" />
           <span>Umweltschule</span>
         </a>
       </div>
