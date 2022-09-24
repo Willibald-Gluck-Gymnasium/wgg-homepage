@@ -14,7 +14,7 @@ published_on: '02.11.2020 00:12'
 <h4>Unter der Großen Überschrift</h4>
 <h5>Kleine Überschrift</h5>
 <h6>Unter der kleinen Überschrift</h6>
-<p>Für Links außerhalb der Schulwebsite können ganz normale html links verwendet werden: <a href="https://github.com/Willibald-Gluck-Gymnasium/wgg-homepage">Dieser Link führt zum GitHub repository von unserer Website</a>, für Verlinkungen innerhalb der webseite sollte <code>inertia-link</code> verwendet werden: <inertia-link href="/">Zur Startseite</inertia-link></p>
+<p>Für Links außerhalb der Schulwebsite können ganz normale html links verwendet werden: <a href="https://github.com/Willibald-Gluck-Gymnasium/wgg-homepage">Dieser Link führt zum GitHub repository von unserer Website</a>, für Verlinkungen innerhalb der webseite sollte <code>inertia-link</code> verwendet werden: <a href="/">Test</a></p>
 <p>Jedes Bild sollte wie folgt eingefügt werden:</p>
 <figure>
     <v-image name="masks"></v-image>

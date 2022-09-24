@@ -1,19 +1,18 @@
 <template>
-    <NuxtLink class="slide" :to="'/' + link">
-        <img class="background-image" src="/images/construction-sign.jpg">
+    <NuxtLink class="slide" :to="link">
+        <img class="background-image" :src="'/images/' + image">
         <div class="background-gradient"></div>
         <div class="title">{{ title }}</div>
     </NuxtLink>
 </template>
 
 <script setup>
-// const props = defineProps(['image', 'title', 'link'])
 const props = defineProps({
-    image: {
+    title: {
         type: String,
         required: true
     },
-    title: {
+    image: {
         type: String,
         required: true
     },
