@@ -4,9 +4,6 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxtjs/google-fonts',
   ],
-  meta: {
-    title: 'WGG'
-  },
   head: {
     script: {
       src: '/js/modernizr.js'

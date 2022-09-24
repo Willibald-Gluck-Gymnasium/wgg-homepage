@@ -10,5 +10,10 @@
 const slides = await queryContent('/').limit(5).find()
 const cards = await queryContent('/').find()
 
-
+useHead({
+  title: '',
+  meta: [
+    { name: 'description', content: 'Die offizielle Website des Willibald-Gluck-Gymnasiums. Aktuelle Informationen und Artikel.' }
+  ]
+})
 </script>
