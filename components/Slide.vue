@@ -1,6 +1,8 @@
 <template>
     <NuxtLink class="slide" :to="link">
-        <img class="background-image" :src="'/images/' + image">
+        <!-- <img class="background-image" :src="'/images/' + image"> -->
+        <nuxt-img preset="slide" :src="'/images/' + image" class="background-image" />
+
         <div class="background-gradient"></div>
         <div class="title">{{ title }}</div>
     </NuxtLink>

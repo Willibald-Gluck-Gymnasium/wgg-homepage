@@ -1,4 +1,7 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
+
+const imageScaleFactor = 1.5
+
 export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
@@ -16,16 +19,24 @@ export default defineNuxtConfig({
         modifiers: {
           format: 'jpg',
           quality: 60,
-          width: 100,
-          height: 100
+          width: 50 * imageScaleFactor,
+          height: 50 * imageScaleFactor
         }
       },
       card: {
         modifiers: {
           format: 'jpg',
           quality: 60,
-          width: 680,
-          height: 320
+          width: 340 * imageScaleFactor,
+          height: 160 * imageScaleFactor
+        }
+      },
+      slide: {
+        modifiers: {
+          format: 'jpg',
+          quality: 60,
+          width: 1080 * imageScaleFactor,
+          height: 300 * imageScaleFactor
         }
       }
     }
