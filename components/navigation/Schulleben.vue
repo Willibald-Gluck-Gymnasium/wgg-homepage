@@ -4,7 +4,7 @@
 
             <h4>{{ categorie }}</h4>
 
-            <menuItem @click="emit('closeNavMenu')" v-for="menuItem in subjects" :text="menuItem.text" :icon="menuItem.icon" />
+            <NavigationMenuItem @click="emit('closeNavMenu')" v-for="menuItem in subjects" :text="menuItem.text" :icon="menuItem.icon" />
 
 
         </div>
@@ -51,7 +51,7 @@ const menuItems = {
     align-content: flex-start;
     justify-content: flex-start;
     flex-wrap: wrap;
-    max-height: 550px;
+    max-height: 500px;
     width: 750px;
 
     .category {
@@ -63,11 +63,12 @@ const menuItems = {
             color: hsl(29, 100%, 55%);
             font-weight: bold;
             margin-bottom: 0.7em;
+            margin-top: 0;
         }
 
-        :v-deep(.menu-item) {
-            margin-right: 50px;
-        }
+        // :v-deep(.menu-item) {
+        //     margin-right: 50px;
+        // }
     }
     
 }

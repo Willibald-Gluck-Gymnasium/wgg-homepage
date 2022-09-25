@@ -4,7 +4,7 @@
 
             <h4>{{ categorie }}</h4>
 
-            <menuItem @click="emit('closeNavMenu')" v-for="menuItem in subjects" :text="menuItem.text" :icon="menuItem.icon" />
+            <NavigationMenuItem @click="emit('closeNavMenu')" v-for="menuItem in subjects" :text="menuItem.text" :icon="menuItem.icon" />
 
 
         </template>
@@ -12,28 +12,26 @@
 </template>
 
 <script setup>
-const menuItem = resolveComponent('Icons/menuItem')
-
-const ArtIcon = resolveComponent('IconsArtIcon')
-const BiologyIcon = resolveComponent('IconsBiologyIcon')
-const BusinessInformaticsIcon = resolveComponent('IconsBusinessInformaticsIcon')
-const ChemistryIcon = resolveComponent('IconsChemistryIcon')
-const EconomyIcon = resolveComponent('IconsEconomyIcon')
-const EnglishIcon = resolveComponent('IconsEnglishIcon')
-const EthicsIcon = resolveComponent('IconsEthicsIcon')
-const FrenchIcon = resolveComponent('IconsFrenchIcon')
-const GeographyIcon = resolveComponent('IconsGeographyIcon')
-const GermanIcon = resolveComponent('IconsGermanIcon')
-const HistoryIcon = resolveComponent('IconsHistoryIcon')
-const LatinIcon = resolveComponent('IconsLatinIcon')
-const MathIcon = resolveComponent('IconsMathIcon')
-const MusicIcon = resolveComponent('IconsMusicIcon')
-const PhysicsIcon = resolveComponent('IconsPhysicsIcon')
-const ProgrammingIcon = resolveComponent('IconsProgrammingIcon')
-const ReligionIcon = resolveComponent('IconsReligionIcon')
-const SocialStudiesIcon = resolveComponent('IconsSocialStudiesIcon')
-const SpanishIcon = resolveComponent('IconsSpanishIcon')
-const SportsIcon = resolveComponent('IconsSportsIcon')
+const ArtIcon = resolveComponent('IconsArt')
+const BiologyIcon = resolveComponent('IconsBiology')
+const BusinessInformaticsIcon = resolveComponent('IconsBusinessInformatics')
+const ChemistryIcon = resolveComponent('IconsChemistry')
+const EconomyIcon = resolveComponent('IconsEconomy')
+const EnglishIcon = resolveComponent('IconsEnglish')
+const EthicsIcon = resolveComponent('IconsEthics')
+const FrenchIcon = resolveComponent('IconsFrench')
+const GeographyIcon = resolveComponent('IconsGeography')
+const GermanIcon = resolveComponent('IconsGerman')
+const HistoryIcon = resolveComponent('IconsHistory')
+const LatinIcon = resolveComponent('IconsLatin')
+const MathIcon = resolveComponent('IconsMath')
+const MusicIcon = resolveComponent('IconsMusic')
+const PhysicsIcon = resolveComponent('IconsPhysics')
+const ProgrammingIcon = resolveComponent('IconsProgramming')
+const ReligionIcon = resolveComponent('IconsReligion')
+const SocialStudiesIcon = resolveComponent('IconsSocialStudies')
+const SpanishIcon = resolveComponent('IconsSpanish')
+const SportsIcon = resolveComponent('IconsSports')
 
 
 
@@ -93,6 +91,7 @@ const menuItems = {
         color: hsl(29, 100%, 55%);
         font-weight: bold;
         margin-bottom: 0.7em;
+        margin-top: 0;
     }
 
     :v-deep(.menu-item) {

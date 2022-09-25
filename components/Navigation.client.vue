@@ -1,7 +1,7 @@
 <template >
     <vsm-menu
         :menu="menu"
-        class="navigation-scoped-P6Wnx vsm-menu"
+        class="vsm-menu"
         element="header"
         handler="hover"
         align="center"
@@ -51,15 +51,19 @@ const closeNavMenu = ref(() => {
 })
 
 
-onMounted(() => {
+onMounted(async () => {
+    await nextTick()
     closeNavMenu.value = navigationMenu.value.closeDropdown
+    setTimeout(() => {
+        navigationMenu.value.closeDropdown = () => {}
+    }, 1000)
 })
 
 const menu = [
     // { title: 'Aktuelles', dropdown: 'aktuelles', component: 'comp1' },
-    { title: 'Schulleben', dropdown: 'schulleben', component: 'SchullebenNav' },
-    { title: 'Unterricht', dropdown: 'unterricht', component: 'UnterrichtNav' },
-    { title: 'Für Eltern', dropdown: 'füreltern', component: 'FürElternNav' }
+    { title: 'Schulleben', dropdown: 'schulleben', component: 'NavigationSchulleben' },
+    { title: 'Unterricht', dropdown: 'unterricht', component: 'NavigationUnterricht' },
+    { title: 'Für Eltern', dropdown: 'füreltern', component: 'NavigationFürEltern' }
 ]
 
 </script>
@@ -69,7 +73,7 @@ const menu = [
 // @import "~vue-stripe-menu/src/scss/index";
 @import 'vue-stripe-menu/dist/vue-stripe-menu.css';
 
-.navigation-scoped-P6Wnx, .vsm-menu {
+.vsm-menu {
     color: black;
     background-color: white;
     border-bottom: 3px solid hsl(29,100%,55%);

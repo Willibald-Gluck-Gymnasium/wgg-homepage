@@ -1,7 +1,7 @@
 <template>
     <div class="container">
 
-        <menuItem @click="emit('closeNavMenu')" v-for="menuItem in menuItems" :text="menuItem.text"/>
+        <NavigationMenuItem @click="emit('closeNavMenu')" v-for="menuItem in menuItems" :text="menuItem.text"/>
 
     </div>
 </template>

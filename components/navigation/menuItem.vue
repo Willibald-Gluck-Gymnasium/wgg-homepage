@@ -24,7 +24,8 @@ const props = defineProps({
 <style scoped lang="scss">
 
 .menu-item {
-    width: 200px;
+    text-decoration: none;
+    width: 250px;
     color: hsl(0, 0%, 20%);
     display: flex;
     align-items: center;
@@ -61,7 +62,7 @@ const props = defineProps({
     }
 
     &:hover {
-        text-decoration: underline;
+        // text-decoration: underline;
         &::before {
             transition: transform 150ms ease-out, opacity 150ms ease-out;
             transform: scale(1);
