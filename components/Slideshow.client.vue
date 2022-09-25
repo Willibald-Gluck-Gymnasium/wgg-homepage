@@ -85,7 +85,7 @@ mutationObserver.observe(document, {attributes: false, childList: true, characte
 
             &:active {
                 opacity: 1;
-                filter: brightness(0.5);
+                filter: brightness(0.7);
             }
         }
     }
