@@ -3,7 +3,7 @@ title: 'Sicherheit während Corona'
 link: Sicherheit-während-Corona
 author: 'Jan Bayer'
 tags: [Neuigkeiten, Elternbrief]
-thumbnail: masks.jpg
+thumbnail: masks.png
 published_on: '01.11.2020 13:00'
 ---
 <figure class="float-right">

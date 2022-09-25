@@ -2,6 +2,6 @@
 title: Krafttraining für Zuhause
 link: sport_krafttraining
 tags: [Sport]
-thumbnail: Krafttraining-für-Zuhause.jpg
+thumbnail: Krafttraining für Zuhause.png
 ---
 

@@ -4,7 +4,7 @@
             v-for="(card, i) in cards"
 			:key="i"
 			:title="card.title"
-			category="Test"
+			:category="card.tags?.[0] || 'Allgemein'"
 			:timestamp="card.published_on"
     		:image="card.thumbnail"
 			:link="card._path"

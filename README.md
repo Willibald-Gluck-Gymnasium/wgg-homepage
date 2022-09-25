@@ -7,14 +7,7 @@ Look at the [Content documentation](https://content-v2.nuxtjs.org/) to learn mor
 Make sure to install the dependencies:
 
 ```bash
-# yarn
-yarn install
-
-# npm
 npm install
-
-# pnpm
-pnpm install --shamefully-hoist
 ```
 
 ## Development Server
