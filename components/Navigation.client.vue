@@ -25,7 +25,7 @@
             </NuxtLink>
         </template>
         <template #after-nav>
-            <!-- <search-bar></search-bar> -->
+            <SearchBar />
             <vsm-mob>Mobile Content</vsm-mob>
         </template>
     </vsm-menu>

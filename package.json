@@ -9,14 +9,18 @@
   "devDependencies": {
     "@nuxt/content": "^2.1.0",
     "@nuxt/image-edge": "^1.0.0-27719579.87dcdf2",
+    "meilisearch": "^0.27.0",
     "nuxt": "^3.0.0-rc.10",
     "sass": "^1.54.9"
   },
   "dependencies": {
+    "@meilisearch/instant-meilisearch": "^0.8.2",
     "@nuxtjs/google-fonts": "^3.0.0-0",
     "flickity": "^3.0.0",
+    "instantsearch.css": "^7.4.5",
     "isotope-layout": "^3.0.6",
     "reading-time": "^1.5.0",
+    "vue-instantsearch": "^4.5.0",
     "vue-stripe-menu": "^2.1.1",
     "vue3-lazyload": "^0.3.6"
   }
