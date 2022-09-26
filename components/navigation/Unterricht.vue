@@ -77,6 +77,7 @@ const menuItems = {
     min-width: none;
     padding: 25px;
     padding-bottom: 0;
+    padding-right: 0;
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
@@ -84,6 +85,7 @@ const menuItems = {
     justify-content: flex-start;
     flex-wrap: wrap;
     max-height: 550px;
+    column-gap: 25px;
     width: 750px;
         
 

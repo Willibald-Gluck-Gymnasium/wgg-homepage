@@ -45,6 +45,7 @@ const menuItems = {
     min-width: none;
     padding: 25px;
     padding-bottom: 0;
+    padding-right: 0;
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
@@ -52,11 +53,11 @@ const menuItems = {
     justify-content: flex-start;
     flex-wrap: wrap;
     max-height: 500px;
+    column-gap: 25px;
     width: 750px;
 
     .category {
         margin-bottom: 25px;
-        width: 250px;
         color: hsl(0, 0%, 20%);
         
         h4 {
@@ -65,10 +66,6 @@ const menuItems = {
             margin-bottom: 0.7em;
             margin-top: 0;
         }
-
-        // :v-deep(.menu-item) {
-        //     margin-right: 50px;
-        // }
     }
     
 }

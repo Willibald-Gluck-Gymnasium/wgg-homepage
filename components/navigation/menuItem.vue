@@ -25,7 +25,7 @@ const props = defineProps({
 
 .menu-item {
     text-decoration: none;
-    width: 250px;
+    width: 225px;
     color: hsl(0, 0%, 20%);
     display: flex;
     align-items: center;
