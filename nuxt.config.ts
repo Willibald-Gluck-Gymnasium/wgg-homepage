@@ -28,6 +28,9 @@ export default defineNuxtConfig({
       //   .then((res) => console.log(res))
     }
   },
+  content: {
+    defaultLocale: 'de'
+  },
   image: {
     presets: {
       footer: {

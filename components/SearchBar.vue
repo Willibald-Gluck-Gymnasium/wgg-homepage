@@ -25,8 +25,8 @@ const unfocusSearchBox = () => {
 </script>
 
 <template>
-    <AisInstantSearch :search-client="searchClient" index-name="movies">
-        <AisSearchBox placeholder="Suche hier..." ref="searchbox" @focus="showResults = true" @blur="showResults = true" /> 
+    <AisInstantSearch :search-client="searchClient" index-name="articles">
+        <AisSearchBox placeholder="Suche hier..." ref="searchbox" @focus="showResults = true" @blur="showResults = false" /> 
 
         <AisStateResults>
             <template v-slot="{ results: { hits, query } }">
@@ -43,7 +43,7 @@ const unfocusSearchBox = () => {
                             </h2>
                             <p>
                                 <AisSnippet
-                                    attribute="overview"
+                                    attribute="plaintext"
                                     :hit="item"
                                     highlightedTagName="mark"
                                 />
@@ -68,7 +68,7 @@ const unfocusSearchBox = () => {
         </AisStateResults>
 
         <AisConfigure
-            :attributesToSnippet="['overview']"
+            :attributesToSnippet="['plaintext']"
             snippetEllipsisText="..."
             :hits-per-page.camel="3"
         />

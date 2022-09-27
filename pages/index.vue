@@ -2,6 +2,8 @@
 const slides = await queryContent('/').limit(5).find()
 const cards = await queryContent('/').find()
 
+console.log(cards);
+
 useHead({
     title: '',
     meta: [
