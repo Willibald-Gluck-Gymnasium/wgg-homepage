@@ -1,7 +1,6 @@
 <script setup>
 const tag = useRoute().params.slug
 const cards = await queryContent().where({ tags: { $contains: tag } }).only(['title', 'author', 'category', 'tags', 'thumbnail', '_path']).find()
-console.log(cards);
 </script>
 
 <template>

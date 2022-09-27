@@ -26,7 +26,7 @@ const unfocusSearchBox = () => {
 
 <template>
     <AisInstantSearch :search-client="searchClient" index-name="movies">
-        <AisSearchBox placeholder="Suche hier..." ref="searchbox" @focus="showResults = true" @blur="showResults = false" /> 
+        <AisSearchBox placeholder="Suche hier..." ref="searchbox" @focus="showResults = true" @blur="showResults = true" /> 
 
         <AisStateResults>
             <template v-slot="{ results: { hits, query } }">
@@ -136,6 +136,10 @@ const unfocusSearchBox = () => {
                 border-top: 1px solid hsl(0, 0%, 70%);
                 padding: 0;
 
+                &:hover {
+                    background-color: hsl(29, 50%, 85%);
+                }
+
                 a, .ais-no-hits {
                     padding: 1em 1em;
                 }
@@ -143,6 +147,8 @@ const unfocusSearchBox = () => {
                 a {
                     color: inherit;
                     text-decoration: none;
+                    display: block;
+                    width: 100%;
                 }
 
                 h2 {
@@ -159,6 +165,7 @@ const unfocusSearchBox = () => {
                 .ais-Highlight-highlighted, .ais-Snippet-highlighted {
                     background-color: hsla(29, 100%, 55%, 0.2);
                     color: hsl(29, 100%, 50%);
+                    line-height: 1;
                 }
                 
             }
