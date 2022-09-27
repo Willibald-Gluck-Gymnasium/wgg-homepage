@@ -1,7 +1,7 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 
 import { MeiliSearch } from 'meilisearch'
-import movies from './small_movies.json'
+// import movies from './small_movies.json'
 
 
 const imageScaleFactor = 2

@@ -10,7 +10,7 @@
     "@nuxt/content": "^2.1.0",
     "@nuxt/image-edge": "^1.0.0-27719579.87dcdf2",
     "meilisearch": "^0.27.0",
-    "nuxt": "^3.0.0-rc.10",
+    "nuxt": "^3.0.0-rc.11",
     "sass": "^1.54.9"
   },
   "dependencies": {

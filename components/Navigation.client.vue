@@ -54,9 +54,7 @@ const closeNavMenu = ref(() => {
 onMounted(async () => {
     await nextTick()
     closeNavMenu.value = navigationMenu.value.closeDropdown
-    setTimeout(() => {
-        navigationMenu.value.closeDropdown = () => {}
-    }, 1000)
+    // navigationMenu.value.closeDropdown = () => {}
 })
 
 const menu = [
