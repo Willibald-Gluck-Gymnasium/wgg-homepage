@@ -4,6 +4,7 @@ link: Beispiel-Artikel
 tags: [dev-only]
 author: 'Max Mustermann'
 thumbnail: construction-sign.jpg
+draft: true
 published_on: '02.11.2020 00:12'
 ---
 <h2>Beispiel Überschrift</h2>
