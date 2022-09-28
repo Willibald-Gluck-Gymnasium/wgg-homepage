@@ -12,26 +12,24 @@ thumbnail: 13_ggeb_3.jpg
     <v-image name="13_ggeb_1" alt="13_ggeb_1"></v-image>
 </figure>
 
-<p>
-    Die Schüler des Willibald-Gluck-Gymnasiums (WGG) staunten nicht schlecht, als am 2. Juli der aus dem Reich des Todes zurückgekehrte 
-    Willibald Ritter von Gluck ausgerechnet an seinem 298. Geburtstag leibhaftig in der Aula ihrer Schule auftauchte.
+Die Schüler des Willibald-Gluck-Gymnasiums (WGG) staunten nicht schlecht, als am 2. Juli der aus dem Reich des Todes zurückgekehrte 
+Willibald Ritter von Gluck ausgerechnet an seinem 298. Geburtstag leibhaftig in der Aula ihrer Schule auftauchte.
 
-    Der Opernkomponist wunderte sich ebenfalls sehr über die modernen Zeiten, das „Kaff“ Neumarkt und die gymnasialen Räumlichkeiten, in 
-    die es ihn verschlagen hatte. Besonders enttäuscht war er darüber, dass seine Musik heutzutage so wenig Beachtung findet und die Schüler 
-    lieber in seinen Ohren grauenhafte Techno- oder Rap-Musik hören oder Grunge von Kurt Cobain, den er aus dem Jenseits kennt. Das muss anders 
-    werden, forderte er und riet dringend zu einer Rückbesinnung auf seine Klänge, seine genialen Kompositionen in einem Gymnasium, das ja nach 
-    ihm benannt ist, wie er erstaunt bemerkte.
+Der Opernkomponist wunderte sich ebenfalls sehr über die modernen Zeiten, das „Kaff“ Neumarkt und die gymnasialen Räumlichkeiten, in 
+die es ihn verschlagen hatte. Besonders enttäuscht war er darüber, dass seine Musik heutzutage so wenig Beachtung findet und die Schüler 
+lieber in seinen Ohren grauenhafte Techno- oder Rap-Musik hören oder Grunge von Kurt Cobain, den er aus dem Jenseits kennt. Das muss anders 
+werden, forderte er und riet dringend zu einer Rückbesinnung auf seine Klänge, seine genialen Kompositionen in einem Gymnasium, das ja nach 
+ihm benannt ist, wie er erstaunt bemerkte.
 
-    Es war der Kollegiat Pascal Czerwek , der da so grandios in Glucks Rolle geschlüpft war. Er und seine Interviewerin Valeria van Dijk 
-    sind Schüler der Q11, die, wie noch zwölf andere, ein P-Seminar im Fach Kunst belegt haben, bei dem es in der Projektphase darum geht, 
-    Bühnenbilder zu gestalten und Theatertexte zu erstellen. Die thekenartige Sperrholzkonstruktion mit zwei Säulen links und rechts wurde von 
-    handwerklich begabten Schülern unter der Leitung von Beate Orthwein erstellt und bemalt, für den Feinschliff des Dialogs der beiden 
-    Schauspieler sorgte Dr. Susanne Kleinöder-Strobel.
+Es war der Kollegiat Pascal Czerwek , der da so grandios in Glucks Rolle geschlüpft war. Er und seine Interviewerin Valeria van Dijk 
+sind Schüler der Q11, die, wie noch zwölf andere, ein P-Seminar im Fach Kunst belegt haben, bei dem es in der Projektphase darum geht, 
+Bühnenbilder zu gestalten und Theatertexte zu erstellen. Die thekenartige Sperrholzkonstruktion mit zwei Säulen links und rechts wurde von 
+handwerklich begabten Schülern unter der Leitung von Beate Orthwein erstellt und bemalt, für den Feinschliff des Dialogs der beiden 
+Schauspieler sorgte Dr. Susanne Kleinöder-Strobel.
 
-    Die Bühnenaufbauten waren mit Bildern von Orten verziert, die im Leben des weitgereisten Willibald Gluck eine große Rolle spielten; sie 
-    zeigten z.B. sein Geburtshaus im nahegelegenen Erasbach, den Stephansdom in Wien, den Mailänder Dom und Londoner Sehenswürdigkeiten.
+Die Bühnenaufbauten waren mit Bildern von Orten verziert, die im Leben des weitgereisten Willibald Gluck eine große Rolle spielten; sie 
+zeigten z.B. sein Geburtshaus im nahegelegenen Erasbach, den Stephansdom in Wien, den Mailänder Dom und Londoner Sehenswürdigkeiten.
 
-</p>
 
 <figure class="float-left">
     <v-image name="13_ggeb_3" alt="13_ggeb_3"></v-image>

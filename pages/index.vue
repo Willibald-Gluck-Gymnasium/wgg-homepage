@@ -1,8 +1,6 @@
 <script setup>
-const slides = await queryContent('/').limit(5).find()
-const cards = await queryContent('/').find()
-
-console.log(cards);
+const slides = await queryContent('/').only(['_path', 'title', 'tags', 'thumbnail']).limit(5).find()
+const cards = await queryContent('/').only(['_path', 'title', 'tags', 'thumbnail']).find()
 
 useHead({
     title: '',
@@ -14,9 +12,24 @@ useHead({
 
 <template>
     <NuxtLayout>
-        <slideshow :slides="slides"></slideshow>
+
+        <ClientOnly>
+            <slideshow :slides="slides"></slideshow>
+
+            <template #placeholder>
+                <div style="height: 300px; display:grid; place-items: center"></div>
+            </template>
+        </ClientOnly>
+
         <h1>Neuigkeiten</h1>
-        <card-cluster :cards="cards"></card-cluster>
+        
+        <ClientOnly>
+            <card-cluster :cards="cards"></card-cluster>
+
+            <template #placeholder>
+                <div style="height: 1000px; display:grid; place-items: center"></div>
+            </template>
+        </ClientOnly>
     </NuxtLayout>
 </template>
 
