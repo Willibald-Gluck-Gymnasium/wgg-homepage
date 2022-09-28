@@ -26,6 +26,7 @@ useHead({
 
 <template>
   <div>
+    <NuxtLoadingIndicator color="#ff881a" /> 
     <NuxtPage />
   </div>
 </template>
