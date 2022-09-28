@@ -2,7 +2,7 @@
 title: Adresse und Anfahrt an das Schulgelände
 link: Addresse-und-Anfahrt-an-das-Schulgelände
 author: 'Jan Bayer'
-thumbnail: route-zum-wgg.png
+thumbnail: route-zum-wgg.jpg
 ---
 <p>Die Adresse des Willibald-Gluck-Gymnasium Neumarkt i.d.Opf. lautet:</p>
 <p>

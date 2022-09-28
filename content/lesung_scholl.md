@@ -2,7 +2,7 @@
 title: Lesung der Sophie Scholl Biographie
 link: lesung_scholl
 tags: [Religion, Unterricht, Events]
-thumbnail: Rel_Scholl
+thumbnail: Rel_Scholl.jpg
 ---
 <p>Am Freitag, 21. Mai 2021, fand anlässlich des Sophie-Scholl-Jubiläums-Jahres 2021 für die 10. Klassen eine Lesung mit Dr. Robert Zoske statt, der aus seiner Biographie von Sophie Scholl las.</p>
 <p>Die SZ fasst das Buch folgendermaßen zusammen:</p>

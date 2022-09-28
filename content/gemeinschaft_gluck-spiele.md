@@ -2,7 +2,7 @@
 title: Eurydike und Orpheus am WGG
 link: gemeinschaft_gluck-spiele
 tags: [Gemeinschaft]
-thumbnail: 19_gluck_spiele
+thumbnail: 19_gluck_spiele.jpg
 ---
 
 <p>

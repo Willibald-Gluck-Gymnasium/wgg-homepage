@@ -3,7 +3,7 @@ title: Infoportal
 link: Infoportal
 tags: [Neuigkeiten]
 author: 'Bernhard Schiffer'
-thumbnail: infoportal-login.png
+thumbnail: infoportal-login.jpg
 published_on: '30.01.2022 19:03'
 ---
 <p>Sehr geehrte Eltern,</p>

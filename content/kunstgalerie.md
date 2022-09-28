@@ -2,7 +2,7 @@
 title: Galerie der Fachschaft Kunst
 link: kunstgalerie
 tags: [Kunst]
-thumbnail: Bild_LauraBareiß
+thumbnail: Bild_LauraBareiß.jpg
 ---
 <p><h2>Q12 Treppenhausbilder</h2></p>
 <gallery title="treppenhausbilder">

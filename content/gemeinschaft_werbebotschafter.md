@@ -2,7 +2,7 @@
 title: WGG-Schüler wird Wertebotschafter
 link: gemeinschaft_werbebotschafter
 tags: [Gemeinschaft]
-thumbnail: 00_wertebot_2
+thumbnail: 00_wertebot_2.jpg
 ---
 
 

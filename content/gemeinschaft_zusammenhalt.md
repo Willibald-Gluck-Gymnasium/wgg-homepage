@@ -2,7 +2,7 @@
 title: Schüler und Schülerinnen des WGG setzen Zeichen des Zuammenhalts
 link: gemeinschaft_zusammenhalt
 tags: [Gemeinschaft]
-thumbnail: zeichen
+thumbnail: zeichen.jpg
 ---
 
 <h3>

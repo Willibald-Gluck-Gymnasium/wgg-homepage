@@ -2,7 +2,7 @@
 title: MintEc Chemie-Wettbewerb 2019
 link: mintec19-chem-wettbewerb
 tags: [Chemie, Unterricht]
-thumbnail: 19mintec_wb
+thumbnail: 19mintec_wb.jpg
 ---
 <figure class="float-right">
     <v-image name="19mintec_wb">

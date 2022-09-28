@@ -3,7 +3,7 @@ title: Anmeldung zum Info-Portal
 link: Anmeldung-zum-Info-Portal
 tags: [Neuigkeiten, Elternbrief]
 author: 'Bernhard Schiffer'
-thumbnail: infoportal-login.png
+thumbnail: infoportal-login.jpg
 ---
 <p>
     Sehr geehrte Eltern,

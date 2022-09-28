@@ -2,7 +2,7 @@
 title: Certificate in Advanced English (CAE)
 link: Certificate-in-Advanced-English
 tags: [Englisch]
-thumbnail: cae_information_thumbnail_slide.png
+thumbnail: cae_information_thumbnail_slide.jpg
 ---
 <h3>Certificate in Advanced English (CAE)</h3>
 

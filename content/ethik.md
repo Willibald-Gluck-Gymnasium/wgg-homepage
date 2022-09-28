@@ -2,7 +2,7 @@
 title: Ethik
 link: ethik
 tags: [Ethik, Unterricht]
-thumbnail: aristoteles_ethik
+thumbnail: aristoteles_ethik.jpg
 ---
 <h3>Was ist Ethikunterricht?</h3>
 <p>Ethikunterricht ist für diejenigen Schüler Pflichtfach, die nicht am Religionsunterricht teilnehmen.</p>

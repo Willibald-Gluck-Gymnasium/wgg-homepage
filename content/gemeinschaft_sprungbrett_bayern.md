@@ -2,7 +2,7 @@
 title: Sprungbrett Bayern hop on hop off
 link: gemeinschaft_sprungbrett_bayern
 tags: [Gemeinschaft]
-thumbnail: 18_hoponoff_01
+thumbnail: 18_hoponoff_01.jpg
 ---
 
 <h3>

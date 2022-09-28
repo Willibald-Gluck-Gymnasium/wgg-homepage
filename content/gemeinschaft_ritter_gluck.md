@@ -2,7 +2,6 @@
 title: Ritter Gluck
 link: gemeinschaft_ritter_gluck
 tags: [Gemeinschaft]
-thumbnail: color1
 ---
 <h3>
     Die Identität des "Ritter Gluck":

@@ -2,7 +2,7 @@
 title: Geburtstag Willibald Glucks
 link: gemeinschaft_wgg_geburtstag
 tags: [Gemeinschaft]
-thumbnail: 13_ggeb_3
+thumbnail: 13_ggeb_3.jpg
 ---
 <h3>
     Hoher Besuch zu Willibald Glucks Geburtstag am WGG

@@ -2,7 +2,7 @@
 title: Schüler experimentieren und Jugend forscht 2021
 link: 21_jufo
 tags: [Schülerexperimentieren, Jugendforscht]
-thumbnail: 21_jufo_01
+thumbnail: 21_jufo_01.jpg
 ---
 <p>
     Auch in diesem Jahr sind wir wieder stolz auf unsere insgesamt 14 Teilnehmer beim Wettbewerb Jugend forscht / Schüler experimentieren und freuen uns über zahlreiche Auszeichnungen: Von den insgesamt zehn Arbeiten im Bereich Jugend forscht (ab 16 Jahre) gingen zwei erste Preise, zwei zweite und ein dritter Preis an Schüler*innen des WGG, die beiden Arbeiten in der Altersgruppe Schüler experimentieren erhielten einen ersten und einen zweiten Preis.

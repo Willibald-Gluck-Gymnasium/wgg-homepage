@@ -2,7 +2,7 @@
 title: Mathewettbewerbe im Schuljahr 2017/18
 link: Mathewettbewerbe-im-Schuljahr-2017-18
 tags: [Mathematik, Events]
-thumbnail: calculator
+thumbnail: calculator.jpg
 ---
 <!-- TODO: Bild funktioniert nicht! -->
 <figure class="float-left">

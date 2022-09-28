@@ -2,7 +2,7 @@
 title: Die Ukraine unterstützen - mit Brezen und Kuchen
 link: ukraine_unterstuetzung
 tags: [Schulprojekte, Gemeinschaft]
-thumbnail: Ukraine01
+thumbnail: Ukraine01.jpg
 ---
 <p>
     „Wir dürfen den Krieg in der Ukraine nicht vergessen. Wir wollen und können helfen, notfalls eben mit Brezen und Kuchen!“, so erklärte der Schüler Patrick Wager aus der Q 11 die jüngste Spendenaktion am WGG. Am Freitag, den 20.05. 2022 wurden den ganzen Tag über Kuchen, Honigsemmel und 500 Brezen, die das Backhaus Fuchs gespendet hatte, am WGG verkauft.

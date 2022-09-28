@@ -2,7 +2,7 @@
 title: 'Religiöses Leben am WGG'
 link: religiöses_leben_am_wgg
 tags: [Religion, Unterricht, Gemeinschaft]
-thumbnail:  Labyrinth
+thumbnail:  Labyrinth.jpg
 ---
 <figure class="float-right">
     <v-image name="reliLeben_02" alt="Morgenandacht'Frühschicht'">

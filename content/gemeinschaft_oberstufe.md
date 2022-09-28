@@ -2,7 +2,7 @@
 title: Die Oberstufe am WGG
 link: gemeinschaft_oberstufe
 tags: [Gemeinschaft]
-thumbnail: oberstufe
+thumbnail: oberstufe.jpg
 ---
 
 <h3>

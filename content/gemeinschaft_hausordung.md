@@ -2,7 +2,7 @@
 title: Hausordnug
 link: gemeinschaft_hausordnung
 tags: [Gemeinschaft]
-thumbnail: dining-tables-461866_960_720
+thumbnail: dining-tables-461866_960_720.jpg
 ---
 
 <h3>

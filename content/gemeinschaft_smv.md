@@ -2,7 +2,7 @@
 title: SMV
 link: gemeinschaft_smv
 tags: [Gemeinschaft]
-thumbnail: 00_smv250
+thumbnail: 00_smv250.jpg
 ---
 
 

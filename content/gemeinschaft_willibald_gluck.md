@@ -2,7 +2,7 @@
 title: Christoph Willibald Gluck
 link: gemeinschaft_willibald_gluck
 tags: [Gemeinschaft]
-thumbnail: 00_willibaldgluck
+thumbnail: 00_willibaldgluck.jpg
 ---
 
 <h3>

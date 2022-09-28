@@ -2,7 +2,7 @@
 title: Pausenchemie
 link: pausenchemie
 tags: [Chemie, Unterricht]
-thumbnail: pausenchem
+thumbnail: pausenchem.jpg
 ---
 <figure class="float-left">
   <v-image name="chemie-head" alt="Logo Pausenexperimente" />

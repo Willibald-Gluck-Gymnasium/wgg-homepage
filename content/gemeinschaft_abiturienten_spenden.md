@@ -2,7 +2,7 @@
 title: Abiturienten 2020 spenden
 link: gemeinschaft_abiturienten_spenden
 tags: [Gemeinschaft]
-thumbnail: 19_AbiSpende
+thumbnail: 19_AbiSpende.jpg
 ---
 
 <h3>

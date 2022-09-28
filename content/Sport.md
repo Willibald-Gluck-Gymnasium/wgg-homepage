@@ -1,4 +1,3 @@
-
 ---
 title: Sport am WGG
 link: Sport

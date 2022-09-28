@@ -2,7 +2,7 @@
 title: Religion
 link: reli
 tags: [Religion, Unterricht]
-thumbnail: religion
+thumbnail: religion.jpg
 ---
 <figure>
     <v-image name="religion_thumbnail" alt="Religion" />

@@ -2,7 +2,7 @@
 title: Mint freundliche Schule
 link: mint_schule
 tags: [Gemeinschaft]
-thumbnail: 18_mintfreunde_01
+thumbnail: 18_mintfreunde_01.jpg
 ---
 <gallery title="mintsiegel">
     <figure class="float-left">

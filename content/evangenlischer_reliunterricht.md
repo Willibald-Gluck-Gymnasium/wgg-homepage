@@ -2,7 +2,7 @@
 title: Der evangelische Religionsunterricht
 link: evangelischer_reliunterricht
 tags: [Religion, Unterricht]
-thumbnail: evRel_01
+thumbnail: evRel_01.jpg
 ---
 <figure class="float-right">
     <v-image name="evRel_02" alt="evangelische Religion" />
