@@ -26,7 +26,7 @@ useHead({
 
 <template>
   <div>
-    <NuxtLoadingIndicator color="repeating-linear-gradient(to right, hsl(44, 100%, 55%) 0%, hsl(29, 100%, 55%) 55% hsl(20, 100%, 55%) 100%)" /> 
+    <NuxtLoadingIndicator color="repeating-linear-gradient(to right, hsl(44, 100%, 55%) 0%, hsl(29, 100%, 55%) 55%, hsl(20, 100%, 55%) 100%)" /> 
     <NuxtPage />
   </div>
 </template>
