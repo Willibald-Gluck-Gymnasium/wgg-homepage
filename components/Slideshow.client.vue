@@ -48,7 +48,6 @@ mutationObserver.observe(document, {attributes: false, childList: true, characte
 <style lang="scss" scoped>
 
 .slider {
-    overflow: hidden;
     width: 100%;
     height: 300px;
 }
