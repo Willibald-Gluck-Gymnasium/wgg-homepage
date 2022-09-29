@@ -1,11 +1,14 @@
 <template>
-    <NuxtLink class="slide" :to="link">
-        <!-- <img class="background-image" :src="'/images/' + image"> -->
-        <nuxt-img preset="slide" :src="'/images/' + image" class="background-image" />
+    <div class="slide">
+        <NuxtLink :to="link">
+            <!-- <img class="background-image" :src="'/images/' + image"> -->
+            <nuxt-img preset="slide" :src="'/images/' + image" class="background-image" />
 
-        <div class="background-gradient"></div>
-        <div class="title">{{ title }}</div>
-    </NuxtLink>
+            <div class="background-gradient"></div>
+            <div class="title">{{ title }}</div>
+        </NuxtLink>
+    </div>
+    
 </template>
 
 <script setup>
@@ -32,7 +35,11 @@ const props = defineProps({
     max-width: 1080px;
     height: 100%;
     transition: filter 0.5s;
-    display: block;
+    
+    a {
+        display: block;
+        height: 100%;
+    }
 
     &:not(.is-selected) {
         filter: saturate(0.5) brightness(40%);
