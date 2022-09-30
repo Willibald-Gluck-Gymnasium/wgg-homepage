@@ -14,6 +14,7 @@ const mutationObserver = new MutationObserver(() => {
             wrapAround: true,
             autoPlay: true,
             autoPlay: 6000,
+            setGallerySize: false,
             on: {
                 'dragStart': () => {
                     slider.value.style.pointerEvents = 'none'
@@ -44,25 +45,35 @@ mutationObserver.observe(document, {attributes: false, childList: true, characte
 </template>
 
 
-
 <style lang="scss" scoped>
 
-.slider {
+.slider :deep() {
     width: 100%;
-    height: 300px;
-}
-</style>
+    height: 50vw;
+    max-height: 300px;
+    font-size: 6.4vw;
+    margin-bottom: 80px;
 
+    @media (min-width: 600px) {
+        font-size: 2.5rem;
+    }
 
-<style lang="scss">
-.slider {
     .flickity-button {
+        top: unset;
+        bottom: -42px;
+        transform: scale(0.5);
         position: absolute;
         background: hsla(0, 0%, 100%, 0.3);
         border: none;
         color: hsla(0, 0%, 0%, 0.8);
         filter: brightness(100%);
         transition: 0.15s background-color; //0.15s filter; // BUG: Filter doesnt work with css transitions
+
+        @media (min-width: 900px) {
+            top: 50%;
+            bottom: unset;
+            transform: translateY(-50%);
+        }
 
         &:hover {
             background: hsla(0, 0%, 100%, 0.5);
@@ -99,6 +110,12 @@ mutationObserver.observe(document, {attributes: false, childList: true, characte
         @media (min-width: 1080px) {
 		    right: calc((100% - 1080px) / 2 + 10px)
 	    }
+    }
+
+    .flickity-page-dots {
+        width: max-content;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
 </style>

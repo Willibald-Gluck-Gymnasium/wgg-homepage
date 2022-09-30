@@ -63,7 +63,7 @@ const props = defineProps({
     .title {
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
-        font-size: 2.5rem;
+        font-size: 1em;
         // font-size: 1.8rem;
         line-height: 1.3;
         color: #FFFFFF;
