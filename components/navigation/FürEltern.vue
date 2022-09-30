@@ -23,17 +23,8 @@ const menuItems = [
 
 <style lang="scss" scoped>
 .container {
-    box-sizing: content-box;
-    min-width: none;
-    padding: 25px;
-    // padding-bottom: 0;
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    align-content: flex-start;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    max-height: 550px;
+    padding-bottom: 25px !important;
+    padding-right: 25px !important;
         
 
     h4 {

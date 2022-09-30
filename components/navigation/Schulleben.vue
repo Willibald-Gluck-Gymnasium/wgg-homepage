@@ -41,20 +41,10 @@ const menuItems = {
 
 <style lang="scss" scoped>
 .container {
-    box-sizing: content-box;
-    min-width: none;
-    padding: 25px;
-    padding-bottom: 0;
-    padding-right: 0;
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    align-content: flex-start;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    max-height: 500px;
-    column-gap: 25px;
-    width: 750px;
+    @media (min-width: 770px) {
+        width: 750px !important;
+    }
+
 
     .category {
         margin-bottom: 25px;

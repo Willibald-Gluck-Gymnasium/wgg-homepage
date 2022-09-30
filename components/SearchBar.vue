@@ -78,7 +78,6 @@ const unfocusSearchBox = () => {
 <style lang="scss">
 .ais-InstantSearch {
     width: 100%;
-    margin-left: auto;
     max-width: 400px;
     height: 42px;
     color: black;
@@ -96,6 +95,7 @@ const unfocusSearchBox = () => {
             }
 
             .ais-SearchBox-input {
+                font-size: 1em;
                 caret-color: hsl(29, 100%, 55%);
                 box-shadow: none;
                 border: none;

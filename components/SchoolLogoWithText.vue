@@ -16,7 +16,7 @@ import SchoolLogo from './SchoolLogo';
     align-items: center;
     color: inherit;
     text-decoration: none;
-    margin-right: 15px;
+    
     .logo {
         height: 32px;
         margin-right: 12px;
