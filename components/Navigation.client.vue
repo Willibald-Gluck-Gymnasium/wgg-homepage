@@ -162,10 +162,9 @@ $oneRowBreakPoint: 800px;
                     display: flex;
                     flex: 1 1 auto;
                     justify-content: space-around;
-                    column-gap: 30px;
-
 
                     @media (min-width: 500px) {
+                        column-gap: 30px;
                         justify-content: center;
                     }
 
