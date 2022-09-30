@@ -84,7 +84,7 @@ $oneRowBreakPoint: 800px;
         width: calc(100% - 20px);
         max-width: 1080px;
         display: grid;
-        grid-template-rows: 67px 67px;
+        grid-template-rows: 67px 54px;
         grid-template-columns: min-content auto;
         align-items: center;
         column-gap: 20px;
