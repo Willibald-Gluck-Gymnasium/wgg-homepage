@@ -26,7 +26,7 @@ const unfocusSearchBox = () => {
 
 <template>
     <AisInstantSearch :search-client="searchClient" index-name="articles">
-        <AisSearchBox placeholder="Suche hier..." ref="searchbox" @focus="showResults = true" @blur="showResults = false" /> 
+        <AisSearchBox placeholder="Suche hier..." ref="searchbox" @focus="showResults = true" @blur="showResults = true" /> 
 
         <AisStateResults>
             <template v-slot="{ results: { hits, query } }">
@@ -75,10 +75,9 @@ const unfocusSearchBox = () => {
     </AisInstantSearch>
 </template>
 
-<style lang="scss">
-.ais-InstantSearch {
+<style lang="scss" scoped>
+.ais-InstantSearch :deep() {
     width: 100%;
-    margin-left: auto;
     max-width: 400px;
     height: 42px;
     color: black;
@@ -96,11 +95,12 @@ const unfocusSearchBox = () => {
             }
 
             .ais-SearchBox-input {
+                font-size: 1em;
                 caret-color: hsl(29, 100%, 55%);
                 box-shadow: none;
                 border: none;
                 color: black;
-                background-color: hsl(0, 0%, 90%);
+                background-color: hsl(0, 0%, 95%);
                 border-radius: 21px;
                 width: 100%;
                 margin: 0;
@@ -130,10 +130,13 @@ const unfocusSearchBox = () => {
         overflow: hidden;
 
         .ais-Hits-list {
+
             .ais-Hits-item {
                 border-radius: 0;
-                background-color: hsl(0, 0%, 90%);
-                border-top: 1px solid hsl(0, 0%, 70%);
+                box-shadow: initial;
+                background-color: hsl(0, 0%, 95%);
+                border: none;
+                border-top: 1px solid hsl(0, 0%, 80%);
                 padding: 0;
 
                 &:hover {

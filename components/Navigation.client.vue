@@ -1,38 +1,40 @@
-<template >
-    <vsm-menu
-        :menu="menu"
-        class="vsm-menu"
-        element="header"
-        handler="hover"
-        align="center"
-        ref="navigationMenu"
-    >
-        <template #default="{ item }">
-            <!--Dropdown content of each menu item with a "dropdown" property-->
-            <!--You can replace it with a separate component if each menu item has its own style-->
-            <!--Necessarily need to have at least one element within the slot-->
-            <!--An alternate background will be applied from the 2nd element-->
-            <div>
-                <component @closeNavMenu="closeNavMenu()" :is="componentsMap[item.component]" />
-            </div>
-            <!-- <div style="padding: 30px">
-                Second element
-            </div> -->
-        </template>
-        <template #before-nav>
-             <NuxtLink to="/" style="flex-shrink: 0; color: inherit; text-decoration: inherit;">
-                <school-logo-with-text class="mr-3" />
+<template>
+    <header class="navbar">
+        <div class="content">
+            <NuxtLink class="logo-link logo-with-text" to="/">
+                <school-logo-with-text class="" />
             </NuxtLink>
-        </template>
-        <template #after-nav>
-            <SearchBar />
-            <vsm-mob>Mobile Content</vsm-mob>
-        </template>
-    </vsm-menu>
+
+            <NuxtLink class="logo-link logo-small" to="/">
+                <school-logo />
+            </NuxtLink>
+
+            <SearchBar class="searchbar"/>
+
+            <vsm-menu
+                :menu="menu"
+                class="vsm-menu"
+                element="header"
+                handler="hover"
+                align="center"
+                ref="navigationMenu"
+            >
+                <template #default="{ item }">
+                    <div>
+                        <component @closeNavMenu="closeNavMenu()" :is="componentsMap[item.component]" />
+                    </div>
+                </template>
+            </vsm-menu>
+        </div>
+        
+
+    </header>
+    
 </template>
 
 <script setup>
 import * as vueStripeMenu from 'vue-stripe-menu'
+import 'vue-stripe-menu/dist/vue-stripe-menu.css'
 
 const { VsmMenu, VsmMob} = vueStripeMenu
 
@@ -67,65 +69,148 @@ const menu = [
 </script>
 
 
-<style lang="scss">
+<style lang="scss" scoped>
 // @import "~vue-stripe-menu/src/scss/index";
-@import 'vue-stripe-menu/dist/vue-stripe-menu.css';
 
-.vsm-menu {
+$oneRowBreakPoint: 800px;
+
+.navbar {
     color: black;
     background-color: white;
     border-bottom: 3px solid hsl(29,100%,55%);
-    opacity: 1;
-    position: relative;
-    z-index: 800;
-    height: 70px;
 
-    .vsm-background {
-        // background: none;
-    }
-
-    .vsm-dropdown-content {
-        background-color: white;
-        border-radius: 20px;
-    } 
-
-    .vsm-nav {
-        height: 100%;
+    .content {
         margin: 0 auto;
-        max-width: 1080px;
         width: calc(100% - 20px);
-    }
+        max-width: 1080px;
+        display: grid;
+        grid-template-rows: 67px 54px;
+        grid-template-columns: min-content auto;
+        align-items: center;
+        column-gap: 20px;
+        min-height: 67px;
 
-    .vsm-root {
-        height: 100%;
-    }
-
-    .vsm-link-container {
-        justify-content: flex-start;
-        .vsm-link {
-            padding: 0 20px;
-            color: inherit;
+        @media (min-width: $oneRowBreakPoint) {
+            display: flex;
+            justify-content: space-between;
         }
-    }
 
-    
-
-    .vsm-link-container {
-        display: flex;
-        flex: 1 1 auto;
-        justify-content: center;
-    }
-
-    @media screen and (max-width: 1) {
-        .vsm-mob-show {
+        .logo-link {
+            grid-column: 1;
+            color: inherit; 
+            text-decoration: inherit;
             display: block;
+            height: min-content;
+
+            &.logo-with-text {
+                display: none;
+
+                @media (min-width: 500px) {
+                    display: initial;
+                }
+            }
+
+            &.logo-small {
+                @media (min-width: 500px) {
+                    display: none;
+                }
+            }
+
+            svg {
+                height: 100%;
+            }
         }
-        .vsm-mob-hide {
-            display: none;
+
+        .searchbar { 
+            justify-self: end;
+            grid-column: 2;
+
+            @media (min-width: $oneRowBreakPoint) {
+                order: 3;
+            }
         }
-        .vsm-mob-full {
-            flex-grow: 1;
+
+        .vsm-menu {
+            grid-column: 1 / span 2;
+            opacity: 1;
+            z-index: 800;
+            height: 100%;
+            
+
+
+            :deep() {
+                .vsm-background {
+                    // background: none;
+                }
+
+                .vsm-dropdown-content {
+                    background-color: white;
+                    border-radius: 20px;
+                } 
+
+                .vsm-nav {
+                    height: 100%;
+                    margin: 0 auto;
+                    max-width: 1080px;
+                }
+
+                .vsm-root {
+                    height: 100%;
+                }
+
+                .vsm-link-container {
+                    display: flex;
+                    flex: 1 1 auto;
+                    justify-content: space-around;
+
+                    @media (min-width: 500px) {
+                        column-gap: 30px;
+                        justify-content: center;
+                    }
+
+                    .vsm-link {
+                        padding: 0 ;
+                        color: inherit;
+                    }
+                }
+
+                @media screen and (max-width: 1) {
+                    .vsm-mob-show {
+                        display: block;
+                    }
+                    .vsm-mob-hide {
+                        display: none;
+                    }
+                    .vsm-mob-full {
+                        flex-grow: 1;
+                    }
+                }
+            }
+
+            :deep(.container) {
+                box-sizing: content-box;
+                min-width: none;
+                padding: 25px;
+                padding-bottom: 0;
+                display: inline-flex;
+                flex-direction: column;
+                align-items: flex-start;
+                align-content: flex-start;
+                justify-content: flex-start;
+                column-gap: 25px;
+                flex-wrap: nowrap;
+                max-height: fit-content;
+                padding-right: 25px;
+                width: auto;
+
+                @media (min-width: 770px) {
+                    flex-wrap: wrap;
+                    max-height: 500px;
+                    padding-right: 0;
+                }
+            }
         }
     }
+
 }
 </style>
