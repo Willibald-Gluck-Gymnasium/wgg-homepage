@@ -8,9 +8,8 @@ thumbnail:
 ---
 <h3>Certificate in Advanced English (CAE)</h3>
 
-<figure style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px" style="width:30%">
-    <v-image name="cae_information_banner" alt="Your key to success" />
-</figure>
+<img style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px; width:30%" src="/images/cae_information_banner.jpg" alt="Your key to success" />
+
 
 <p>
     Die CAE Prüfung ist eine international anerkannte Sprachprüfung,

@@ -8,7 +8,7 @@ thumbnail:
 ---
 
 <figure>
-    <v-image name="big_challenge_banner" alt="Big Challenge" />
+    <img src="/images/big_challenge_banner.jpg" alt="Big Challenge" />
 </figure>
 
 <br>
