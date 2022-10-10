@@ -1,7 +1,9 @@
 ---
 title: Datenschutzhinweise
 link: Datenschutzhinweise
-thumbnail: law-scale.jpg
+thumbnail: 
+    src: law-scale.jpg
+    alt: Eine Waage, die das Gestz symbolisiert.
 ---
 <p>Diese Datenschutzerklärung bezieht sich auf die Verarbeitung personenbezogener Daten im Rahmen dieses Internetauftritts, einschließlich der dort angebotenen Dienste.</p>
 <p>Für nähere Informationen zur Verarbeitung Ihrer personenbezogenen Daten können Sie uns unter den unten genannten Kontaktdaten erreichen.</p>

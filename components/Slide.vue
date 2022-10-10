@@ -2,7 +2,7 @@
     <div class="slide">
         <NuxtLink :to="link">
             <!-- <img class="background-image" :src="'/images/' + image"> -->
-            <nuxt-img preset="slide" :src="'/images/' + image" class="background-image" />
+            <nuxt-img preset="slide" :src="'/images/' + (image.src || 'missing-thumbnail.jpg')" :alt="image.alt" class="background-image" />
 
             <div class="background-gradient"></div>
             <div class="title">{{ title }}</div>

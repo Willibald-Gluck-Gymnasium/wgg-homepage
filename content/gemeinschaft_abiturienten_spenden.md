@@ -2,7 +2,9 @@
 title: Abiturienten 2020 spenden
 link: gemeinschaft_abiturienten_spenden
 tags: [Gemeinschaft]
-thumbnail: 19_AbiSpende.jpg
+thumbnail: 
+    src: 19_AbiSpende.jpg
+    alt: Ein thumbnail
 ---
 
 <h3>
@@ -10,7 +12,7 @@ thumbnail: 19_AbiSpende.jpg
 </h3>
 
 
-<figure class="float-right">
+<figure style="float: right; margin-left: 15px; width: 50%; margin-bottom: 15px">
     <v-image name="19_AbiSpende" alt="AbiSpende"></v-image>
 </figure>
 

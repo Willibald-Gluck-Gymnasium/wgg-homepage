@@ -4,7 +4,7 @@
             <div class="force-thumbnail-aspect-ratio">
                 <!-- <img :src="thumbnailImage" class="thumbnail"> 340x160 -->
                 <!-- <nuxt-img preset="card" :src="'/images/' + image" class="thumbnail" /> -->
-                <img ref="lazyRef" class="thumbnail">
+                <img ref="lazyRef" class="thumbnail" :alt="image.alt">
             </div>
 
             <div>
@@ -48,7 +48,7 @@ const props = defineProps({
 })
 
 const $img = useImage()
-const thumbnailImage = ref($img(`/images/${props.image}`, {}, { preset: 'card' }))
+const thumbnailImage = ref($img(`/images/${props.image.src || 'missing-thumbnail.jpg'}`, {}, { preset: 'card' }))
 const lazyRef = useLazyload(thumbnailImage, {
     lifecycle: {
         loaded: () => {

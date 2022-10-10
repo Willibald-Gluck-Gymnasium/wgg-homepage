@@ -2,7 +2,9 @@
 title: Grundausstattung Kunst
 link: Grundausstattung-Kunst
 tags: [Kunst, Unterricht]
-thumbnail: malkasten.jpg
+thumbnail: 
+    src: malkasten.jpg
+    alt: Ein thumbnail
 ---
 <h3> Bitte immer in der Schule verfügbar halten, z.B. im Schließfach</h3>
 <ul>

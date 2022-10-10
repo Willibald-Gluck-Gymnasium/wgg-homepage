@@ -2,7 +2,9 @@
 title: WGG zeigt naturwissenschaftliches Profil
 link: schule_jugend_forscht
 tags: [Jugendforscht]
-thumbnail: missing_thumbnail.jpg
+thumbnail: 
+    src: 
+    alt: 
 ---
 <h4>Auszeichnung durch den Sponsorenpool „Jugend forscht“ in Zusammenarbeit mit dem Kultusministerium</h4>
 <p>

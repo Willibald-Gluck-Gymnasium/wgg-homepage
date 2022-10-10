@@ -2,14 +2,16 @@
 title: Sprungbrett Bayern hop on hop off
 link: gemeinschaft_sprungbrett_bayern
 tags: [Gemeinschaft]
-thumbnail: 18_hoponoff_01.jpg
+thumbnail: 
+    src: 18_hoponoff_01.jpg
+    alt: Ein thumbnail
 ---
 
 <h3>
     Hop on - hop off - Praktikumsbus
 </h3>
 
-<figure class="float-right">
+<figure style="float: right; margin-left: 15px; width: 50%; margin-bottom: 15px">
     <v-image name="18_hoponoff_01" alt="Hoponoff"></v-image>
 </figure>
 

@@ -3,7 +3,9 @@ title: Verein der Freunde des WGG
 link: Verein-der-Freunde-des-WGG
 tags: [Verein der Freunde, Elternbrief]
 category: Gemeinschaft
-thumbnail: people-in-arms.jpg
+thumbnail: 
+    src: people-in-arms.jpg
+    alt: Ein thumbnail
 ---
 
 <h3>Sehr geehrte Eltern,</h3>

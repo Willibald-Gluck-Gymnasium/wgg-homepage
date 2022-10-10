@@ -2,7 +2,9 @@
 title: Big Challenge
 link: Big-Challenge
 tags: [Englisch, Events]
-thumbnail: big_challenge_thumbnail_slide.jpg
+thumbnail: 
+    src: big_challenge_thumbnail_slide.jpg
+    alt: Ein thumbnail
 ---
 
 <figure>

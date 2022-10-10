@@ -2,7 +2,9 @@
 title: Bewegungsübungen
 link: sport_bewegungsmangel_02
 tags: [Sport]
-thumbnail: Bewegungsübungen.jpg
+thumbnail: 
+    src: Bewegungsübungen.jpg
+    alt: Ein thumbnail
 ---
 <h3>
     Beine abklatschen

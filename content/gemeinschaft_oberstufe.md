@@ -2,9 +2,10 @@
 title: Die Oberstufe am WGG
 link: gemeinschaft_oberstufe
 tags: [Gemeinschaft]
-thumbnail: oberstufe.jpg
+thumbnail: 
+    src: 
+    alt: Ein thumbnail
 ---
-
 <h3>
     Ansprechpartner:
 </h3>

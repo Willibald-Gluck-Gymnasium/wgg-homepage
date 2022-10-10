@@ -2,11 +2,13 @@
 title: Certificate in Advanced English (CAE)
 link: Certificate-in-Advanced-English
 tags: [Englisch]
-thumbnail: cae_information_thumbnail_slide.jpg
+thumbnail: 
+    src: cae_information_thumbnail_slide.jpg
+    alt: Ein thumbnail
 ---
 <h3>Certificate in Advanced English (CAE)</h3>
 
-<figure class="float-left" style="width:30%">
+<figure style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px" style="width:30%">
     <v-image name="cae_information_banner" alt="Your key to success" />
 </figure>
 

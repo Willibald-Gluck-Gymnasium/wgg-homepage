@@ -2,14 +2,16 @@
 title: Mint freundliche Schule
 link: mint_schule
 tags: [Gemeinschaft]
-thumbnail: 18_mintfreunde_01.jpg
+thumbnail: 
+    src: 18_mintfreunde_01.jpg
+    alt: Ein thumbnail
 ---
 <gallery title="mintsiegel">
-    <figure class="float-left">
+    <figure style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px">
         <v-image name="digitale_schule"></v-image>
         <figcaption></figcaption>
     </figure>
-    <figure class="float-left">
+    <figure style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px">
         <v-image name="mint_freundliche_schule"></v-image>
     <figcaption></figcaption>
 </figure>

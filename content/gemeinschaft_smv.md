@@ -2,7 +2,9 @@
 title: SMV
 link: gemeinschaft_smv
 tags: [Gemeinschaft]
-thumbnail: 00_smv250.jpg
+thumbnail: 
+    src: 00_smv250.jpg
+    alt: Ein thumbnail
 ---
 
 
@@ -20,11 +22,11 @@ thumbnail: 00_smv250.jpg
 
 </p>
 
-<figure class="float-left">
+<figure style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px">
     <v-image name="19_smv_02" alt="19_SMV"></v-image>
 </figure>
 
-<figure class="float-right">
+<figure style="float: right; margin-left: 15px; width: 50%; margin-bottom: 15px">
     <v-image name="00_smv250" alt="SMV"></v-image>
 </figure>
 

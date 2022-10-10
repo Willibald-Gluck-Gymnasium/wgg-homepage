@@ -2,10 +2,12 @@
 title: 'Gründung der Schülergenossenschaft'
 link: Gründung-der-Schülergenossenschaft
 tags: [Gemeinschaft, Schülergenossenschaft, Events]
-thumbnail: schuelergenossenschaft.jpg
+thumbnail: 
+    src: schuelergenossenschaft.jpg
+    alt: Ein thumbnail
 ---
 <!-- TODO: Zweites Bild funktioniert nicht -->
-<figure class="float-right">
+<figure style="float: right; margin-left: 15px; width: 50%; margin-bottom: 15px">
     <v-image name="schuelergenossenschaft" alt="Gruendung Genossenschaft Bild 1" />
 </figure>
 
@@ -22,7 +24,7 @@ thumbnail: schuelergenossenschaft.jpg
     Einen Einblick in wirtschaftliche Prozesse erhalten die Schüler und Schülerinnen auch durch die Unterstützung, die das WGG-Projekt aus der Region erfährt. Wertvolle Hilfe leisteten und leisten Oliver Melde von der Raiffeisenbank, Franz Penker, Regionaldirektor des Genossenschaftsverbandes für die Oberpfalz, ebenso wie Michael Vogel von der Jurenergie und Roland Hadwiger von der Kreisentwicklung des Landratsamts.
 </p>
 
-<figure class="float-left">
+<figure style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px">
     <!-- <v-image name="schuelergenossenschaft_gruendung_2" alt="Gruendung Genossenschaft Bild 2" /> -->
 </figure>
 

@@ -3,9 +3,11 @@ title: 'Beispiel Artikel'
 link: Beispiel-Artikel
 tags: [dev-only]
 author: 'Max Mustermann'
-thumbnail: construction-sign.jpg
 draft: true
 published_on: '02.11.2020 00:12'
+thumbnail: 
+    src: big_challenge_thumbnail_slide.jpg
+    alt: Ein thumbnail
 ---
 <h2>Beispiel Überschrift</h2>
 <p>Dies ist ein Beispiel-Artikel für die Leute die nach uns an dieser Website arbeiten werden und Artikel einfügen werden. Im Verlauf dieses "Artikels" werden Begriffe wie "wie hier" oder "wie folgt" o.ä. verwendet. Diese sollen darauf hinweisen in den Quellcode dieses Artikels zu schauen.</p>
@@ -24,14 +26,14 @@ published_on: '02.11.2020 00:12'
 
 <p>Ist es gewünscht, dass ein Bild seitlich (links oder rechts) floated, so kann dies mit den jeweiligen css Klassen <code>float-right</code> und <code>float-left</code> umgesetzt werden, dabei werden die nachfolgenden Paragraphen um die Bilder wrappen:</p>
 
-<figure class="float-right">
+<figure style="float: right; margin-left: 15px; width: 50%; margin-bottom: 15px">
     <v-image name="color1" alt="Testbild float-right" />
     <figcaption>Test</figcaption>
 </figure>
 <p>
     Dieser Paragraph sollte sich um das Bild wrappen. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum fugiat numquam incidunt assumenda temporibus, rerum soluta aliquam, culpa accusamus mollitia recusandae facere maxime rem? Eius quod voluptate quo? Provident quibusdam nemo a facere dolore fugiat eos cum quisquam similique beatae veritatis veniam sit velit, est cumque earum ipsa ducimus nam aspernatur sequi laborum distinctio odit! Quidem dolores eius recusandae natus illo officia, explicabo voluptatum ea sequi, consequuntur velit nemo, nisi laudantium aspernatur excepturi in! Possimus assumenda, at tempora error deleniti porro molestias aliquam rem ut dignissimos non, ullam libero quas modi illo architecto aspernatur enim molestiae. Excepturi sequi expedita facilis. Repellat, harum! Omnis maxime quam nisi molestias quae! Nulla delectus id amet dolorem distinctio voluptate, tempora soluta eaque, quisquam dolor ex est vero nemo. Consequuntur ratione illum ipsum obcaecati eius suscipit ipsam possimus repellat necessitatibus nihil omnis perspiciatis molestiae exercitationem odit similique, at sapiente, excepturi a! Deleniti, nulla. Vero odit porro exercitationem a quia similique, quaerat necessitatibus aut ipsum quam facilis quod! Accusamus a, voluptates beatae illum ex quas nesciunt officiis! Exercitationem iste voluptate dolorum eum officiis assumenda excepturi expedita numquam harum similique maxime, facere in sint reprehenderit vero nisi dolores velit eveniet repellat? Quam alias incidunt maiores voluptatem numquam?
 </p>
-<figure class="float-left">
+<figure style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px">
     <v-image name="schulbeginn" alt="Testbild float-left" />
 </figure>
 <p>
@@ -63,9 +65,9 @@ published_on: '02.11.2020 00:12'
 <p>Außerdem ist es möglich, YouTube Videos einzubinden:</p>
 <youtube watch="B727cMaMW0M"></youtube>
 <p>Diese Videos können auch floaten: </p>
-<youtube class="float-left" watch="Y9lywb0R-BQ"></youtube>
+<youtube style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px" watch="Y9lywb0R-BQ"></youtube>
 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa magni modi dolore ipsum nesciunt sequi consequatur aliquam rem. Voluptatum cum consequatur id officiis maiores, quod commodi ad quas, necessitatibus, earum suscipit harum aut repellendus velit odit aspernatur. Velit in consequuntur consectetur sint optio ullam blanditiis voluptatem placeat vitae, provident necessitatibus pariatur cupiditate rerum accusantium rem ratione error doloribus cumque et quia laudantium? Eveniet consequatur nihil hic quibusdam. At tenetur adipisci sapiente voluptatibus. Laborum blanditiis, facere eos exercitationem neque repellendus commodi perspiciatis temporibus pariatur mollitia ratione nihil repellat molestiae, doloremque incidunt error. Facere aperiam unde praesentium excepturi culpa consequatur rerum nam vel, fugit dicta blanditiis aut mollitia necessitatibus totam! Quaerat corporis rerum accusamus natus provident ad laborum atque, optio maiores dolor facere doloribus cum voluptatem amet ducimus ab mollitia est tempora, inventore eos id doloremque repudiandae impedit veniam? Placeat quam harum blanditiis aliquid voluptatem sed. Repudiandae, autem accusantium? Sequi, repellat reiciendis, placeat quod veritatis iste harum temporibus natus rem autem delectus fugiat minus, maiores nihil sint saepe enim distinctio omnis ullam aut? Illum illo aliquam, fuga quas cupiditate recusandae. Minus magni veniam dignissimos explicabo quod ex inventore id provident fugit, sit suscipit, quidem sequi voluptatibus mollitia adipisci omnis labore ducimus nihil.</p>
-<youtube class="float-right" watch="8I2aG6aWxfc"></youtube>
+<youtube style="float: right; margin-left: 15px; width: 50%; margin-bottom: 15px" watch="8I2aG6aWxfc"></youtube>
 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat vel praesentium ipsum quos, repudiandae reiciendis! Earum quod assumenda in ipsa fugiat a expedita magnam, nam temporibus at tempora nesciunt repellat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis recusandae illo dolores! Quae soluta neque facilis quasi, tempore non suscipit consectetur! Dolores quisquam molestiae atque velit. Quisquam tenetur dolore accusamus?</p>
 <p class="afterfloat">Zudem können allgemein sehr simpel forms genutzt werden werden, wie folgt:</p>
 <vue-form autocomplete="off">
@@ -149,7 +151,7 @@ published_on: '02.11.2020 00:12'
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vero numquam velit quas voluptatum totam accusantium assumenda consequatur. Molestiae repellendus laboriosam cumque non, explicabo ab esse blanditiis sunt aliquid eius magnam ratione unde accusamus, quis iusto nesciunt minima quasi quidem sit natus commodi ut ipsa! Laborum saepe sunt minima! Maxime, et sint. Est odit obcaecati fuga? Vel ad fugiat corrupti! Eaque vel sequi in maxime consequuntur quas, soluta reprehenderit inventore provident facere perferendis mollitia voluptate molestias laboriosam corrupti ducimus ab facilis, quis, atque asperiores iusto voluptas? Sit velit maiores delectus accusantium et blanditiis facilis quos ut. Earum deleniti ad pariatur!</p>
     <youtube watch="B727cMaMW0M"></youtube>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo reiciendis dolorem cupiditate! Cupiditate quos assumenda repellendus fugit. Perspiciatis, quae rem.</p>
-    <youtube class="float-left" watch="B727cMaMW0M"></youtube>
+    <youtube style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px" watch="B727cMaMW0M"></youtube>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum facere quo cumque eius aperiam officia unde temporibus! Nostrum corporis eius ab quaerat soluta quibusdam, nam excepturi pariatur culpa dicta magnam dolores non quia error a in fugiat aut dolorem beatae laudantium expedita doloremque reprehenderit voluptatem! Sint, tempore! Error autem sint corrupti ratione? Libero esse nemo dolor sed corrupti? Obcaecati eius reiciendis voluptate accusamus tempore! Dolorum laudantium error delectus dolores, vitae minus, eaque corrupti, numquam magni officia alias voluptates voluptatem at! Fugiat fugit, dolore debitis hic quo suscipit vel labore non modi quos ipsam omnis nam nisi consectetur cum! Minus, incidunt!</p>
     <v-image name="color3"></v-image>
 </dropdown>

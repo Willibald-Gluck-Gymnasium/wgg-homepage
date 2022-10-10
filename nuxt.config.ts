@@ -56,6 +56,13 @@ export default defineNuxtConfig({
           width: 1080 * imageScaleFactor,
           height: 300 * imageScaleFactor
         }
+      },
+      article: {
+        modifiers: {
+          format: 'jpg',
+          quality: 60,
+          width: 1080 * imageScaleFactor
+        }
       }
     }
   },

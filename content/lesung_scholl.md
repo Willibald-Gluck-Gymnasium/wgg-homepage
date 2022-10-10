@@ -2,11 +2,13 @@
 title: Lesung der Sophie Scholl Biographie
 link: lesung_scholl
 tags: [Religion, Unterricht, Events]
-thumbnail: Rel_Scholl.jpg
+thumbnail: 
+    src: Rel_Scholl.jpg
+    alt: Ein thumbnail
 ---
 <p>Am Freitag, 21. Mai 2021, fand anlässlich des Sophie-Scholl-Jubiläums-Jahres 2021 für die 10. Klassen eine Lesung mit Dr. Robert Zoske statt, der aus seiner Biographie von Sophie Scholl las.</p>
 <p>Die SZ fasst das Buch folgendermaßen zusammen:</p>
-<figure class="float-right">
+<figure style="float: right; margin-left: 15px; width: 50%; margin-bottom: 15px">
     <v-image name="Rel_Scholl" alt="Sopie Scholl - Es reut mir nichts">
 </figure>
 <h3>Robert M. Zoske - Sophie Scholl, Es reut mir nichts</h3>
