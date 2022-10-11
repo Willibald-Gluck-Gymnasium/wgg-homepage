@@ -2,7 +2,9 @@
 title: WGG-Tischtennisteam feiert Erfolg
 link: WGG-Tischtennisteam-feiert-Erfolg
 tags: [Sport, Events]
-thumbnail: spiel.jpg
+thumbnail: 
+    src: spiel.jpg
+    alt: Ein thumbnail
 ---
 <!-- TODO: Bild geht nicht!! -->
 <p> 
@@ -13,7 +15,7 @@ thumbnail: spiel.jpg
     In der jüngsten Altersgruppe Jungen IV gewann das Gymnasium Neutraubling souverän mit 8:1 gegen die Schulmannschaft des WGG.
 </p>
 
-<figure class="float-left">
+<figure style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px">
     <!-- <v-image name="sport_gruppenbild" alt="Gruppenbild"></v-image> -->
 </figure>
 

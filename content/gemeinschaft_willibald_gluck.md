@@ -2,14 +2,16 @@
 title: Christoph Willibald Gluck
 link: gemeinschaft_willibald_gluck
 tags: [Gemeinschaft]
-thumbnail: 00_willibaldgluck.jpg
+thumbnail: 
+    src: 00_willibaldgluck.jpg
+    alt: Ein thumbnail
 ---
 
 <h3>
     1714 - 1787
 </h3>
 
-<figure class="float-left">
+<figure style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px">
     <v-image name="00_willibaldgluck" alt="Willibald Gluck"></v-image>
 </figure>
 

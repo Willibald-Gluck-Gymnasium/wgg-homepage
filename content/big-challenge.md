@@ -2,11 +2,13 @@
 title: Big Challenge
 link: Big-Challenge
 tags: [Englisch, Events]
-thumbnail: big_challenge_thumbnail_slide.jpg
+thumbnail: 
+    src: big_challenge_thumbnail_slide.jpg
+    alt: Ein thumbnail
 ---
 
 <figure>
-    <v-image name="big_challenge_banner" alt="Big Challenge" />
+    <img src="/images/big_challenge_banner.jpg" alt="Big Challenge" />
 </figure>
 
 <br>

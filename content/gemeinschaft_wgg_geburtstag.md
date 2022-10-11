@@ -2,13 +2,15 @@
 title: Geburtstag Willibald Glucks
 link: gemeinschaft_wgg_geburtstag
 tags: [Gemeinschaft]
-thumbnail: 13_ggeb_3.jpg
+thumbnail: 
+    src: 13_ggeb_3.jpg
+    alt: Ein thumbnail
 ---
 <h3>
     Hoher Besuch zu Willibald Glucks Geburtstag am WGG
 </h3>
 
-<figure class="float-right">
+<figure style="float: right; margin-left: 15px; width: 50%; margin-bottom: 15px">
     <v-image name="13_ggeb_1" alt="13_ggeb_1"></v-image>
 </figure>
 
@@ -31,7 +33,7 @@ Die Bühnenaufbauten waren mit Bildern von Orten verziert, die im Leben des weit
 zeigten z.B. sein Geburtshaus im nahegelegenen Erasbach, den Stephansdom in Wien, den Mailänder Dom und Londoner Sehenswürdigkeiten.
 
 
-<figure class="float-left">
+<figure style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px">
     <v-image name="13_ggeb_3" alt="13_ggeb_3"></v-image>
 </figure>
 
@@ -44,7 +46,7 @@ zeigten z.B. sein Geburtshaus im nahegelegenen Erasbach, den Stephansdom in Wien
     mit Schulleiter Bernhard Schiffer wurde dieser zu seinen Studienorten und den Fahrzeugen befragt, die Autos genannt werden.
 </p>
 
-<figure class="float-right">
+<figure style="float: right; margin-left: 15px; width: 50%; margin-bottom: 15px">
     <v-image name="13_ggeb_2" alt="13_ggeb_2"></v-image>
 </figure>
 

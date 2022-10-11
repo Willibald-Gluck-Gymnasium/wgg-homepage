@@ -2,10 +2,12 @@
 title: WGG im Nordbayernfinale Fußball
 link: WGG-im-Nordbayernfinale-Fußball
 tags: [Sport, Events]
-thumbnail: 18_fussball_01.jpg
+thumbnail: 
+    src: 18_fussball_01.jpg
+    alt: Ein thumbnail
 ---
 
-<figure class="float-left">
+<figure style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px">
     <v-image name="18_fussball_01" alt="Fußballbild Sport"></v-image>
 </figure>
 

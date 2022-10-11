@@ -2,7 +2,9 @@
 title: Kunst am WGG
 link: Kunst
 tags: [Kunst]
-thumbnail: kunst_thumbnail.jpg
+thumbnail: 
+    src: kunst_thumbnail.jpg
+    alt: Ein thumbnail
 ---
 <ul>
     <li>

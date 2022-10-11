@@ -2,7 +2,9 @@
 title: Arbeitskreise
 link: gemeinschaft_arbeitskreise
 tags: [Gemeinschaft]
-thumbnail: Praesentation.jpg
+thumbnail: 
+    src: Praesentation.jpg
+    alt: Ein thumbnail
 ---
 
 <figure class="float-afterfloat">

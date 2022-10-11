@@ -9,7 +9,7 @@
                 <school-logo />
             </NuxtLink>
 
-            <SearchBar class="searchbar"/>
+            <SearchBar v-if="false" class="searchbar"/>
 
             <vsm-menu
                 :menu="menu"

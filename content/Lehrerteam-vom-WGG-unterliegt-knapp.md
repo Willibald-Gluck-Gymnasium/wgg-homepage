@@ -2,7 +2,9 @@
 title: Lehrerteam vom WGG unterliegt knapp
 link: Lehrerteam-vom-WGG-unterliegt-knapp
 tags: [Sport, Events]
-thumbnail: 18_lehrertt_1.jpg
+thumbnail: 
+    src: 18_lehrertt_1.jpg
+    alt: Ein thumbnail
 ---
 
 <p>

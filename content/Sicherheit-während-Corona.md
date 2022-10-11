@@ -3,10 +3,12 @@ title: 'Sicherheit während Corona'
 link: Sicherheit-während-Corona
 author: 'Jan Bayer'
 tags: [Neuigkeiten, Elternbrief]
-thumbnail: masks.jpg
 published_on: '01.11.2020 13:00'
+thumbnail: 
+    src: masks.jpg
+    alt: Ein thumbnail
 ---
-<figure class="float-right">
+<figure style="float: right; margin-left: 15px; width: 50%; margin-bottom: 15px">
     <v-image name="masks" alt="Masken" />
     <figcaption>Es is wichtig Masken zu tragen.</figcaption>
 </figure>

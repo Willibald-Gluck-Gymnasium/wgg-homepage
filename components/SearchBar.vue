@@ -26,7 +26,7 @@ const unfocusSearchBox = () => {
 
 <template>
     <AisInstantSearch :search-client="searchClient" index-name="articles">
-        <AisSearchBox placeholder="Suche hier..." ref="searchbox" @focus="showResults = true" @blur="showResults = true" /> 
+        <AisSearchBox placeholder="Suche hier..." ref="searchbox" @focus="showResults = true" @blur="showResults = false" /> 
 
         <AisStateResults>
             <template v-slot="{ results: { hits, query } }">

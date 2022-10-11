@@ -2,7 +2,9 @@
 title: Atemübungen
 link: sport_bewegungsmangel_01
 tags: [Sport]
-thumbnail: Atemübungen.jpg
+thumbnail: 
+    src: Atemübungen.jpg
+    alt: Ein thumbnail
 ---
 
 

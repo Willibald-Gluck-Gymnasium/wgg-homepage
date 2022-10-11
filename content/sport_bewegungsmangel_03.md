@@ -2,7 +2,9 @@
 title: Gruppenübungen
 link: sport_bewegungsmangel_03
 tags: [Sport]
-thumbnail: Gruppenübungen.jpg
+thumbnail: 
+    src: Gruppenübungen.jpg
+    alt: Ein thumbnail
 ---
 
 <h3>

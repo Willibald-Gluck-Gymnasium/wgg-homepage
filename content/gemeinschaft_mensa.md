@@ -2,7 +2,9 @@
 title: Mensa
 link: gemeinschaft_mensa
 tags: [Gemeinschaft]
-thumbnail: dining-tables-461866_960_720.jpg
+thumbnail: 
+    src: dining-tables-461866_960_720.jpg
+    alt: Ein thumbnail
 ---
 
 <ol>

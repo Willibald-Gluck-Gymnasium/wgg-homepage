@@ -2,11 +2,13 @@
 title: WGG-Schüler wird Wertebotschafter
 link: gemeinschaft_werbebotschafter
 tags: [Gemeinschaft]
-thumbnail: 00_wertebot_2.jpg
+thumbnail: 
+    src: 00_wertebot_2.jpg
+    alt: Ein thumbnail
 ---
 
 
-<figure class="float-left">
+<figure style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px">
     <v-image name="00_wertebot_2" alt="Wertebot"></v-image>
 </figure>
 

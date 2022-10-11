@@ -2,10 +2,12 @@
 title: Mathewettbewerbe im Schuljahr 2017/18
 link: Mathewettbewerbe-im-Schuljahr-2017-18
 tags: [Mathematik, Events]
-thumbnail: calculator.jpg
+thumbnail: 
+    src: calculator.jpg
+    alt: Ein thumbnail
 ---
 <!-- TODO: Bild funktioniert nicht! -->
-<figure class="float-left">
+<figure style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px">
     <!-- <v-image name="mathe_wb_17_article" /> -->
     <figcaption>
         Herr Schiffer, smilia Sprinkart, Benjamin Moller

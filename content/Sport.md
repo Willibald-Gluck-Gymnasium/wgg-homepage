@@ -2,7 +2,9 @@
 title: Sport am WGG
 link: Sport
 tags: [Sport, Unterricht]
-thumbnail: typ-schwimmt-vogelperspektive.jpg
+thumbnail: 
+    src: typ-schwimmt-vogelperspektive.jpg
+    alt: Ein thumbnail
 ---
 <p>Stellvertretend für viele sportliche Aktionen an unserer Schule werden hier kurz ein paar Eindrücke von der alljährlich stattfindenden Gemeinschaftsolympiade am WGG vorgestellt.
 

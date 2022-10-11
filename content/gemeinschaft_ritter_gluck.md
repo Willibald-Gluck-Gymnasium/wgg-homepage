@@ -2,6 +2,9 @@
 title: Ritter Gluck
 link: gemeinschaft_ritter_gluck
 tags: [Gemeinschaft]
+thumbnail: 
+    src: big_challenge_thumbnail_slide.jpg
+    alt: Ein thumbnail
 ---
 <h3>
     Die Identität des "Ritter Gluck":

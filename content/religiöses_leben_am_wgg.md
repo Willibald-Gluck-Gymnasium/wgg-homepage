@@ -2,9 +2,11 @@
 title: 'Religiöses Leben am WGG'
 link: religiöses_leben_am_wgg
 tags: [Religion, Unterricht, Gemeinschaft]
-thumbnail:  Labyrinth.jpg
+thumbnail: 
+    src: Labyrinth.jpg
+    alt: Ein thumbnail
 ---
-<figure class="float-right">
+<figure style="float: right; margin-left: 15px; width: 50%; margin-bottom: 15px">
     <v-image name="reliLeben_02" alt="Morgenandacht'Frühschicht'">
 </figure>
 <p>Weil Leben mehr ist als Arbeit, wir Menschen mehr als Maschinen und Schule mehr als nur Lernen und Noten, liegt uns das religiöse Leben am WGG besonders am Herzen. In Zusammenarbeit mit Schülerinnen und Schülern sowie Kolleg*nnen aus anderen Fachbereichen gestalten und feiern wir in guter ökumenischer Gemeinschaft Gottesdienste und Andachten.</p>

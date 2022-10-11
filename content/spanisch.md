@@ -2,7 +2,9 @@
 title: Spanisch am WGG
 link: Spanisch
 tags: [Spanisch, Unterricht]
-thumbnail: spanisch_thumbnail_slide.jpg
+thumbnail: 
+    src: spanisch_thumbnail_slide.jpg
+    alt: Ein thumbnail
 ---
 <h3>¡Bienvenidos! Willkommen bei der Fachschaft Spanisch</h3>
 

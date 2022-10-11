@@ -2,7 +2,9 @@
 title: Schüler und Schülerinnen des WGG setzen Zeichen des Zuammenhalts
 link: gemeinschaft_zusammenhalt
 tags: [Gemeinschaft]
-thumbnail: zeichen.jpg
+thumbnail: 
+    src: zeichen.jpg
+    alt: Ein thumbnail
 ---
 
 <h3>
@@ -16,7 +18,7 @@ thumbnail: zeichen.jpg
 
 </p>
 
-<figure class="float-left">
+<figure style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px">
     <v-image name="zeichen" alt="Zeichen"></v-image>
  </figure>
  

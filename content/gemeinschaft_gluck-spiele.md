@@ -2,7 +2,9 @@
 title: Eurydike und Orpheus am WGG
 link: gemeinschaft_gluck-spiele
 tags: [Gemeinschaft]
-thumbnail: 19_gluck_spiele.jpg
+thumbnail: 
+    src: 19_gluck_spiele.jpeg
+    alt: Ein thumbnail
 ---
 
 <p>
@@ -37,6 +39,6 @@ thumbnail: 19_gluck_spiele.jpg
 
 </p>
 
-<figure class="float-left">
+<figure style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px">
     <v-image name="19_gluck_spiele" alt="Gluck Spiele"></v-image>
 </figure>
