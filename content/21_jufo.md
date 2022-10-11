@@ -9,8 +9,11 @@ thumbnail:
 <p>
     Auch in diesem Jahr sind wir wieder stolz auf unsere insgesamt 14 Teilnehmer beim Wettbewerb Jugend forscht / Schüler experimentieren und freuen uns über zahlreiche Auszeichnungen: Von den insgesamt zehn Arbeiten im Bereich Jugend forscht (ab 16 Jahre) gingen zwei erste Preise, zwei zweite und ein dritter Preis an Schüler*innen des WGG, die beiden Arbeiten in der Altersgruppe Schüler experimentieren erhielten einen ersten und einen zweiten Preis.
 </p>
+
+<img src="/images/21_jufo_01.jpg">
+
 <figure>
-    <img src="/images/21_jufo_01.jpg"></img>
+    <img src="/images/21_jufo_01.jpg">
     <figcaption>OStD Schiffer überreicht den diesjährigen Teilnehmer*innen und Preisträger*innen des Wettbewerbs Jugend forscht / Schüler experimentieren die Urkunden
 </figcaption>
 </figure>
