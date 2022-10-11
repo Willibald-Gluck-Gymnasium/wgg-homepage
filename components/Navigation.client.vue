@@ -9,7 +9,7 @@
                 <school-logo />
             </NuxtLink>
 
-            <SearchBar v-if="false" class="searchbar"/>
+            <SearchBar v-if="true" class="searchbar"/>
 
             <vsm-menu
                 :menu="menu"
@@ -161,16 +161,29 @@ $oneRowBreakPoint: 800px;
                 .vsm-link-container {
                     display: flex;
                     flex: 1 1 auto;
-                    justify-content: space-around;
+                    justify-content: center;
 
-                    @media (min-width: 500px) {
-                        column-gap: 30px;
-                        justify-content: center;
-                    }
+                    
 
                     .vsm-link {
-                        padding: 0 ;
+                        width: 30%;
+                        max-width: 110px;
+                        padding: 0;
                         color: inherit;
+
+                        @media (min-width: 800px) {
+                            width: min-content;
+                            padding: 0 15px;
+                            max-width: unset;
+
+                            &:first-of-type {
+                                padding-left: 0;
+                            }
+
+                            &:last-of-type {
+                                padding-right: 0;
+                            }
+                        }
                     }
                 }
 
