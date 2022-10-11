@@ -122,30 +122,22 @@ main {
             }
         }
 
-        // img, video, figure {
-        //     width: calc(100% + 20px);
-        //     transform: translateX(-10px);
-
-        //     @media  (min-width: 500px) {
-        //         width: calc(100% + 40px);
-        //         transform: translateX(-20px);
-        //     }
-        // }
-
         img, video {
+            display: block;
             max-width: 100%;
-            max-height: 500px;
-            height: auto;
-            width: auto;
+            max-height: 600px;
+            margin: 2rem auto;
+            border-radius: 5px;
         }
 
         figure {
             max-width: 100%;
-            margin: 0;
+            margin: 2rem 0;
             margin-bottom: 5px;
+            text-align: center;
 
             img {
-                border-radius: 5px;
+                margin: 0 auto;
             }
             
             figcaption {

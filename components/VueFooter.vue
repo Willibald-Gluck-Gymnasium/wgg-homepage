@@ -17,13 +17,13 @@
         <br>
         GitHub: <a class="link" href="https://github.com/Willibald-Gluck-Gymnasium/wgg-homepage">Willibald-Gluck-Gymnasium/wgg-homepage</a>
         <br>
-        <a class="link" href="/license">GPL-3.0 license</a>
+        <a class="link" >GPL-3.0 license</a>
       </div>
       <div id="links">
         <div class="title">Links</div>
-        <NuxtLink class="link" to="'/impressum'">Impressum</NuxtLink>
+        <NuxtLink class="link" to="/impressum">Impressum</NuxtLink>
         <br>
-        <NuxtLink class="link" to="'/Datenschutzhinweise'">Datenschutz</NuxtLink>
+        <NuxtLink class="link" to="/datenschutzhinweise">Datenschutz</NuxtLink>
         <br>
         <!-- <NuxtLink class="link" :href="'/credits'">Credits</NuxtLink> -->
         <a class="link" href="/credits">Credits</a>
