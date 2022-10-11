@@ -2,19 +2,11 @@
     <div class="card">
         <NuxtLink :to="link" class="content">
             <div class="force-thumbnail-aspect-ratio">
-                <!-- <img :src="thumbnailImage" class="thumbnail"> 340x160 -->
-                <!-- <nuxt-img preset="card" :src="'/images/' + image" class="thumbnail" /> -->
-                <img ref="lazyRef" class="thumbnail" :alt="image.alt">
+                <img ref="lazyRef" class="thumbnail" :alt="image.alt" height="160px" width="340px">
             </div>
 
             <div>
                 <span class="category mr-2 font-bold">{{ category }}</span>
-                <span 
-                    v-if="timestamp"
-                    class="timeago" 
-                    ref="publishedAt"
-                    :datetime="timestamp"
-                ></span>
             </div>
 
             <div class="title">{{ title }}</div>
@@ -36,10 +28,8 @@ const props = defineProps({
         type: String,
         default: 'ERROR CATEGORY'
     },
-    timestamp: {
-        default: 'ERROR TIMESTAMP'
-    },
     image: {
+        type: Object,
         default: 'construction-sign.jpg'
     },
     link: {

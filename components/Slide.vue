@@ -18,7 +18,7 @@ const props = defineProps({
         required: true
     },
     image: {
-        type: String,
+        type: Object,
         required: true
     },
     link: {
