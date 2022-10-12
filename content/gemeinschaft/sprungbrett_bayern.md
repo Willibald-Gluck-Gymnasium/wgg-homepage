@@ -1,10 +1,10 @@
 ---
 title: Sprungbrett Bayern hop on hop off
-link: gemeinschaft_sprungbrett_bayern
+link: sprungbrett_bayern
 tags: [Gemeinschaft]
 thumbnail: 
-    src: 18_hoponoff_01.jpg
-    alt: Ein thumbnail
+    src: praktikumsbus.jpg
+    alt: Cartoon-Darstellung eines Busses.
 ---
 
 <h3>
@@ -12,7 +12,7 @@ thumbnail:
 </h3>
 
 <figure style="float: right; margin-left: 15px; width: 50%; margin-bottom: 15px">
-    <v-image name="18_hoponoff_01" alt="Hoponoff"></v-image>
+    <img src="images/praktikumsbus.jpg" alt="Darstellung des Hoponoff Busses"></img>
 </figure>
 
 <p>
@@ -54,6 +54,6 @@ thumbnail:
 </p>
 <p>
     Bewerben könnt ihr euch mit Hilfe eines Motivationsschreibens, das ihr 
-    <a href="https://www.wgg-neumarkt.de/seiten/text/gemeinschaft/00_oberstufe/18_hoponhopoff/bilder/18_hoponoff_motiv.pdf">hier</a>
+    <a href="/documents/hoponoff_bewerbung.pdf" target = "_blank">hier</a>
     findet. Das Formular für das Motivationsschreiben erhaltet ihr auch im Oberstufenbüro.
 </p>

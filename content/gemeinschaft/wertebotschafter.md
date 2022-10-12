@@ -1,15 +1,15 @@
 ---
 title: WGG-Schüler wird Wertebotschafter
-link: gemeinschaft_werbebotschafter
+link: wertebotschafter
 tags: [Gemeinschaft]
 thumbnail: 
-    src: 00_wertebot_2.jpg
+    src: wertebotschafter.jpg
     alt: Ein thumbnail
 ---
 
 
 <figure style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px">
-    <v-image name="00_wertebot_2" alt="Wertebot"></v-image>
+    <img src="images/wertebotschafter.jpg" alt="Wertebotschafter"></img>
 </figure>
 
 
@@ -21,7 +21,7 @@ thumbnail:
     sein, sei es durch das immer wiederkehrende Aufgreifen des „Gluck-Codex“ im Unterricht, das Engagement als „Schule ohne Rassismus – Schule mit Courage“, verschiedene 
     Initiativen wie die Zfu-Stunden, die Anti-Mobbing-Gruppe, die Streitschlichter oder das Mentoren-System – und das sind nur einige wenige Beispiele, die schon 
     seit längerer Zeit existieren.
-
+</p>
 Nun ist ein weiterer Baustein dazugekommen, der der Werteerziehung am WGG einen noch festeren Stand verleiht: Der Neuntklässler Patrick Wager hat sich zum 
 „Wertebotschafter“ ausbilden lassen, um sich im Laufe der nächsten Zeit in dieser Hinsicht ins Schulleben einzubringen. Dabei wird Patrick sowohl mit der 
 Gruppe „Schule ohne Rassismus – Schule mit Courage“ zusammenarbeiten als auch zusammen mit anderen Schülerinnen und Schülern eigene Konzepte entwerfen, z.B. 
@@ -33,4 +33,3 @@ Thema Wertebildung. Am Ende dieses Workshops erhielten die Kandidaten ihre Urkun
 der Oberpfalz, Ltd. OStD Franz Xaver Huber.
 
 Unterstützt wird Patrick am WGG zudem von dem Lehrer Johannes Bäumel, der ebenfalls vom Kultusministerium eigens zum Thema fortgebildet wurde.
-</p>

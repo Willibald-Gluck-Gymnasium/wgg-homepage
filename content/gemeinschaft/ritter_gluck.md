@@ -1,10 +1,10 @@
 ---
 title: Ritter Gluck
-link: gemeinschaft_ritter_gluck
+link: ritter_gluck
 tags: [Gemeinschaft]
 thumbnail: 
-    src: big_challenge_thumbnail_slide.jpg
-    alt: Ein thumbnail
+    src: willibaldgluck.jpg
+    alt: Porträt von Willibald Gluck
 ---
 <h3>
     Die Identität des "Ritter Gluck":
@@ -14,9 +14,8 @@ thumbnail:
     Eine Hinführung zu E.T.A. Hoffmanns gleichnamiger Erzählung
 </h3>
 
-<p>
-    Ein Denkmal literarischer Art wurde Christoph Willibald Gluck in einer Novelle des romantischen Schriftstellers und Musikkritikers E.T.A 
-    Hoffmann gesetzt: Sie trägt den Titel "Ritter Gluck. Eine Erinnerung aus dem Jahre 1809" und erschien in eben diesem Jahr 1809.
+Ein Denkmal literarischer Art wurde Christoph Willibald Gluck in einer Novelle des romantischen Schriftstellers und Musikkritikers E.T.A 
+Hoffmann gesetzt: Sie trägt den Titel "Ritter Gluck. Eine Erinnerung aus dem Jahre 1809" und erschien in eben diesem Jahr 1809.
 
 Bereits die Zeitstruktur gibt Rätsel auf: Die Handlung spielt nämlich ebenfalls im Jahre 1809 oder im Jahr zuvor. Der "echte" Ritter 
 Gluck, "unser" Willibald Gluck mit dem Adelsprädikat eines Ritters, war aber 1787 gestorben.

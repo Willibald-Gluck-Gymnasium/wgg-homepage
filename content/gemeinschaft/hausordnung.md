@@ -1,10 +1,10 @@
 ---
-title: Hausordnug
-link: gemeinschaft_hausordnung
+title: Hausordnung
+link: hausordnung
 tags: [Gemeinschaft]
 thumbnail: 
-    src: dining-tables-461866_960_720.jpg
-    alt: Ein thumbnail
+    src: tische_stuehle.jpg
+    alt: Bild von Tischen und Stühlen in einer Mensa.
 ---
 
 <h3>
@@ -12,6 +12,6 @@ thumbnail:
 </h3>
 <p>
   Für das Zusammenleben einer Gemeinschaft sind Regeln unerlässlich. Ein Teil des Regelwerks für die Schulgemeinschaft am WGG findet sich in der 
-  <a hdref="https://www.wgg-neumarkt.de/seiten/text/gemeinschaft/00_hausordnung/00_hausordnung.pdf" >Hausordnung</a>
+  <a href="/documents/hausordnung.pdf" target = "_blank">Hausordnung</a>
   wieder.
 </p>
