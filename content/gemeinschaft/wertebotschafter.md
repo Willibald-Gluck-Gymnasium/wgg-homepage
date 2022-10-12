@@ -7,11 +7,7 @@ thumbnail:
     alt: Ein thumbnail
 ---
 
-
-<figure style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px">
-    <img src="images/wertebotschafter.jpg" alt="Wertebotschafter"></img>
-</figure>
-
+<img src="images/wertebotschafter.jpg" alt="Wertebotschafter" style="float: left; margin-right: 15px; width: 35%; margin-bottom: 15px"></img>
 
 <p>
     „Solidarisches Miteinander – Respekt und Wertschätzung – Toleranz und Gewaltlosigkeit – Fairness – Kritikfähigkeit – Engagement und Verantwortungsbewusstsein“. 
