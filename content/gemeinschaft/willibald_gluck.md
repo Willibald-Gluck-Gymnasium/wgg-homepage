@@ -10,9 +10,7 @@ thumbnail:
 ### 1714 - 1787
 
 
-<figure style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px">
-    <img src="images/willibaldgluck.jpg" alt="Porträt von Willibald Gluck"></img>
-</figure>
+<img src="images/willibaldgluck.jpg" alt="Porträt von Willibald Gluck" style="float: right; margin-left: 15px; width: 25%; margin-bottom: 15px"></img>
 
 * geboren am 2. 7. 1714 in Erasbach
 * getauft am 4. 7. 1714 in Weidenwang 

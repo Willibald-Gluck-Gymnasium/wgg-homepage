@@ -29,9 +29,8 @@ thumbnail:
 * Adventskalender (gebastelte Türchen werden an den Klassenzimmertüren angebracht)
 
 <p style = "text-align: center">
-    Die SMV 19/20
+    <strong>Die SMV 19/20</strong>
 </p>
-<figure class="float-afterfloat">
-    <img src="images/19_smv_01.jpg" alt="SMV"></img>
-</figure>
+<img src="images/19_smv_01.jpg" alt="SMV"></img>
+
 

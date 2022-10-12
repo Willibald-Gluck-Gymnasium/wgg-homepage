@@ -18,9 +18,7 @@ thumbnail:
 
 </p>
 
-<figure style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px">
-    <img src="images/zeichen_zusammenhalt.jpg" alt="Zeichen für Zusammenhalt - Schüler*innen mit Paketen"></img>
- </figure>
+<img src="images/zeichen_zusammenhalt.jpg" alt="Zeichen für Zusammenhalt - Schüler*innen mit Paketen" style="float: left; margin-right: 15px; width: 40%; margin-bottom: 15px"></img>
 
 „Jedes Päckchen ein Zeichen der Hoffnung“ – das ist das Motto, unter dem die Weihnachtstrucker-Aktion der Johanniter 
 steht. Als eigens geschaffene Sammelstelle werden an die 50 Pakete am größten Gymnasium der Oberpfalz zusammenkommen 

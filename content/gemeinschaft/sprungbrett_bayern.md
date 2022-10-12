@@ -10,10 +10,7 @@ thumbnail:
 <h3>
     Hop on - hop off - Praktikumsbus
 </h3>
-
-<figure style="float: right; margin-left: 15px; width: 50%; margin-bottom: 15px">
-    <img src="images/praktikumsbus.jpg" alt="Darstellung des Hoponoff Busses"></img>
-</figure>
+<img src="images/praktikumsbus.jpg" alt="Darstellung des Hoponoff Busses" style="float: right; margin-left: 15px; width: 25%; margin-bottom: 15px"></img>
 
 <p>
     Das Projekt „sprungbrett bayern“ bietet 10 bis 15 Schülerinnen und Schülern der Q11 am WGG eine einmalige Gelegenheit: In 2er-Teams 

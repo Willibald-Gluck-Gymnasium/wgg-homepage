@@ -26,9 +26,7 @@ Interessant ist die Herangehensweise Wollmanns: Der Künstlerin geht es vor alle
 einzufangen, beginnt im Programm ein Stück etwa im Gluck-Ton mit einer Arie, die Eurydikes Einsamkeit verdeutlicht, um plötzlich umzuschwenken dann deren 
 emotionale Lage im Song „So Lonely“ der Rockgruppe The Police zu spiegeln. Die Kombination von Musik und Text(fragmenten) bestimmt den weiteren Abend. Dazu greift Wollmann auf ein breites Repertoire aus den verschiedensten Kontexten und Traditionen zurück und schafft damit eine Collage, die neue Horizonte eröffnet. So trifft Willibald Gluck unter anderem auf Platon, Rainer Maria Rilke, Ingeborg Bachmann und Elfriede Jelinek.
 
-<figure style="float: left; margin-right: 15px; width: 25%; margin-bottom: 15px">
-    <img src="images/gluck_spiele2019.jpeg" alt="Gluck Spiele"></img>
-</figure>
+<img src="images/gluck_spiele2019.jpeg" alt="Gluck Spiele" style="float: left; margin-right: 15px; width: 25%; margin-bottom: 15px"></img>
 Gleichwohl sind Gluck und auch Orpheus und Eurydike zuerst einmal schwere Kost. Das weiß auch Elke Wollmann. Deshalb hat sie sich gewissermaßen als 
 Gluckbotschafterin aufgemacht. Die Schauspielerin und Sängerin war lange Jahre in festen Schauspielensembles engagiert – von 2002 bis 2018 am Staatstheater 
 in Nürnberg – und wurde mit zahlreichen Preisen geehrt. Mit all Ihrer Erfahrung erklärte Elke Wollmann am 24. Juni den 10. Klassen des Willibald-Gluck-Gymnasiums 
