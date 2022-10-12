@@ -1,17 +1,17 @@
 ---
 title: Geburtstag Willibald Glucks
-link: gemeinschaft_wgg_geburtstag
+link: wgg_geburtstag
 tags: [Gemeinschaft]
 thumbnail: 
-    src: 13_ggeb_3.jpg
-    alt: Ein thumbnail
+    src: wgg_geburstag_czerwek.jpg
+    alt: Bild von Paul Czerwek - verkleidet als Gluck
 ---
 <h3>
     Hoher Besuch zu Willibald Glucks Geburtstag am WGG
 </h3>
 
-<figure style="float: right; margin-left: 15px; width: 50%; margin-bottom: 15px">
-    <v-image name="13_ggeb_1" alt="13_ggeb_1"></v-image>
+<figure style="float: right; margin-left: 15px; width: 25%; margin-bottom: 15px">
+    <img src ="images/wgg_geburtstag_czerwek2.jpg" alt="Bild von Paul Czerwek als Willibald Gluck"></img>
 </figure>
 
 Die Schüler des Willibald-Gluck-Gymnasiums (WGG) staunten nicht schlecht, als am 2. Juli der aus dem Reich des Todes zurückgekehrte 
@@ -33,8 +33,8 @@ Die Bühnenaufbauten waren mit Bildern von Orten verziert, die im Leben des weit
 zeigten z.B. sein Geburtshaus im nahegelegenen Erasbach, den Stephansdom in Wien, den Mailänder Dom und Londoner Sehenswürdigkeiten.
 
 
-<figure style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px">
-    <v-image name="13_ggeb_3" alt="13_ggeb_3"></v-image>
+<figure style="float: left; margin-right: 15px; width: 25%; margin-bottom: 15px">
+    <img src="images/wgg_geburtstag_czerwek.jpg" alt="Bild von Paul Czerwek als Willibald Gluck"></img>
 </figure>
 
 <p>
@@ -46,8 +46,8 @@ zeigten z.B. sein Geburtshaus im nahegelegenen Erasbach, den Stephansdom in Wien
     mit Schulleiter Bernhard Schiffer wurde dieser zu seinen Studienorten und den Fahrzeugen befragt, die Autos genannt werden.
 </p>
 
-<figure style="float: right; margin-left: 15px; width: 50%; margin-bottom: 15px">
-    <v-image name="13_ggeb_2" alt="13_ggeb_2"></v-image>
+<figure style="float: right; margin-left: 15px; width: 25%; margin-bottom: 15px">
+    <img src="images/wgg_geburtstag_verpflegung.jpg" alt="Bild der Musik und des Verpflegungsstandes am Geburstag."></img>
 </figure>
 
 <p>

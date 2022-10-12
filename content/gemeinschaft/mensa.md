@@ -1,49 +1,22 @@
 ---
 title: Mensa
-link: gemeinschaft_mensa
+link: mensa
 tags: [Gemeinschaft]
 thumbnail: 
-    src: dining-tables-461866_960_720.jpg
-    alt: Ein thumbnail
+    src: tische_stuehle.jpg
+    alt: Bild von Tischen und Stühlen in einer Mensa.
 ---
-
-<ol>
-    <li>
-      <a href="#a">Menüangebot und Preis</a>
-    </li>
-    <li>
-      <a href="#b">Bestellsysteme</a>
-    </li>
-    <li>
-      <a href="#c">Bargeldloses Online- Abrechnungssystem</a>
-    </li>
-    <li>
-      <a href="#d">Erläuterung zum Online- Bestellsystem</a>
-    </li>
-    <li>
-      <a href="#e">Erläuterung zum Karten-Bestellsystem</a>
-    </li>
-    <li>
-      <a href="#f">Bestellturnus-Vorbestellung</a>
-    </li>
-    <li>
-      <a href="#g">Stornierung</a>
-    </li>
-    <li>
-      <a href="#h">Anmeldung</a>
-    </li>
-    <li>
-      <a href="#i">Abmeldung</a>
-    </li>
-  </ol>
-
+<style>
+  li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+</style>
 
   <p>
     Angebot zur Teilnahme an der Mittagessensversorgung
     in der gemeinsamen Mensa des Willibald-Gluck-Gymnasiums und des
     Ostendorfer-Gymnasiums in Neumarkt.
   </p>
-
   <p>
     Vertragspartner für den einzelnen Essensteilnehmer ist die
     Kliniken Neumarkt Service GmbH. Die Zubereitung
@@ -51,14 +24,13 @@ thumbnail:
     Kliniken Neumarkt Service GmbH erreicht man über
     die Telefonnummer des Klinikums Neumarkt: 09181 420-0.
   </p>
-
   <ol>
     <li>
-      <span class="fett">
-        <a name="a"></a>Menüangebot und Preis:
-      </span>
       <p>
-        Bestellturnus - Vorbestellung:
+        <strong>Menüangebot und Preis:</strong>
+      </p>
+      <p>
+        <strong>Bestellturnus - Vorbestellung:</strong>
       </p>
       <p>
         Es werden täglich - von Montag bis Donnerstag - zwei verschiedene Menüs (Fleisch- und fleischloses
@@ -78,21 +50,16 @@ thumbnail:
         Nachspeise (Obst oder Joghurt) und ein alkoholfreies Getränk 0,2 Ltr.
       </p>
     </li>
-
     <li>
-      <span class="fett">
-        <a name="b"></a>Bestellsysteme:
-      </span>
-
+        <strong>Bestellsysteme: </strong>
       <ol style="list-style-type:lower-alpha">
         <li>
-          <span class="fett">Die Online-Bestellung</span> über das Internet unter
+          <strong>Die Online-Bestellung</strong> über das Internet unter
           <a href="http://www.mensa-neu.inetmenue.de">www.mensa-neu.inetmenue.de</a>
           <br />und/oder
         </li>
-
         <li>
-          <span class="fett">Die Karten-Bestellung</span> (Die Bestellung erfolgt
+          <strong>Die Karten-Bestellung</strong> (Die Bestellung erfolgt
           über das Bestellterminal in der Schule)<br />
           Bei der Kartenbestellung stehen zwei Alternativen zur Verfügung:
         </li>
@@ -107,11 +74,8 @@ thumbnail:
         </li>
       </ol>
     </li>
-
     <li>
-      <span class="fett">
-        <a name="c"></a>Bargeldloses Online-Abrechnungssystem:
-      </span>
+        <strong>Bargeldloses Online-Abrechnungssystem:</strong>
       <p>
         Der Essensteilnehmer bzw. die Eltern/Erziehungsberechtigen überweisen
         von ihrem Konto, welches auf dem Anmeldeformular angegeben ist, einen
@@ -120,10 +84,10 @@ thumbnail:
       </p>
       <p>
         Bei einer Essenbestellung, ob über Internet oder mit dem
-        Kartensystem, werden automatisch <span class="fett">
+        Kartensystem, werden automatisch <strong>
           pro Bestellung
           4,20€
-        </span> von dem einbezahlten Geldbetrag
+        </strong> von dem einbezahlten Geldbetrag
         abgezogen.
       </p>
       <p>
@@ -138,11 +102,8 @@ thumbnail:
         bis zu vier Werktage dauern!
       </p>
     </li>
-
     <li>
-      <span class="fett">
-        <a name="d"></a>Erläuterung zum Online-Bestellsystem:
-      </span>
+        <strong>Erläuterung zum Online-Bestellsystem:</strong>
       <p>
         über die Internetadresse <a href="http://www.mensa-neu.inetmenue.de">www.mensa-neu.inetmenue.de</a>
         kommen Sie schnell und problemlos auf die Bestellansicht und können dann
@@ -156,21 +117,18 @@ thumbnail:
         durchgeführte Bestellung.
       </p>
     </li>
-
     <li>
-      <span class="fett">
-        <a name="e"></a>Erläuterung zum Karten-Bestellsystem:
+      <strong>Erläuterung zum Karten-Bestellsystem:</strong>
       </span>
       <ol style="list-style-type:lower-alpha">
         <li>
           Mit einem Bestellausweis:<br />
-          <span class="fett">Die Karte mit Chip kostet einmalig 6,00€</span> und ist
+          <strong>Die Karte mit Chip kostet einmalig 6,00€</strong> und ist
           über die Kliniken Neumarkt Service GmbH erhältlich. Der Kaufpreis von
           6,00€ wird mit Ihrer ersten Einzahlung auf das
           Treuhandkonto abgerechnet. (Anforderung der Karte: siehe Vermerk auf dem
           Anmeldeformular Seite 4)
         </li>
-
         <li>
           Mit einer Bankkarte:<br />
           Der Essenteilnehmer benötigt dazu eine Bankkarte mit Chip.
@@ -178,17 +136,15 @@ thumbnail:
           kostenlos und gebührenfrei ein Jugend-Girokonto an.
         </li>
       </ol>
-
       <p>
         Auf diesem Girokonto muss kein Guthaben sein, es werden
         über dieses Konto auch keine Geldtransaktionen durchgeführt,
         wichtig ist hier nur der Chip bzw. die Chip-Nummer der Bankkarte.
       </p>
       <p>
-        <span class="fett">Funktionsweise der beiden Karten:</span>
+        <strong>Funktionsweise der beiden Karten:</strong>
         Die Chip-Nummer wird einmalig erfasst, dem Treuhandkonto zugeordnet und dient
-        dann bei jeder Essensbestellung und Essensausgabe zur Identifizierung (<span
-    class="fett">als Ausweis</span>) des Essensteilnehmers.
+        dann bei jeder Essensbestellung und Essensausgabe zur Identifizierung (<strong>als Ausweis</strong>) des Essensteilnehmers.
       </p>
       <p>
         Bei einer Bestellung wird die Chip-Nummer der Karte über ein
@@ -196,11 +152,8 @@ thumbnail:
         Ihrer auf dem Treuhandkonto hinterlegten Einzahlung auf.
       </p>
     </li>
-
     <li>
-      <span class="fett">
-        <a name="f"></a>Bestellturnus - Vorbestellung:
-      </span>
+      <strong>Bestellturnus - Vorbestellung:</strong>
       <p>
         Die Bestellung kann bis 13:30 Uhr am Essenstag erfolgen.
       </p>
@@ -212,24 +165,21 @@ thumbnail:
         100 verkauft sind, werden noch 150 angezeigt)
       </p>
       <p>
-        <span class="fett">Unser Tipp:</span><br />
+        <strong>Unser Tipp:</strong><br />
         Mit einer frühzeitigen Vorbestellung sichern Sie sich Ihr
         Wunschmenü. Sie können für einzelne Tage oder auch wochenweise
         bis zu 4 Wochen vorbestellen.
       </p>
     </li>
-
     <li>
-      <span class="fett">
-        <a name="g"></a>Stornierung:
-      </span>
+      <strong>Stornierung:</strong>
       <p>
         Eine bereits getätigte Bestellung kann innerhalb einer bestimmten Frist
         (siehe Stornierungszeiten) auch wieder storniert werden. Dies gilt auch
         für Vorbestellungen über mehrere Tage/Wochen.
       </p>
       <p>
-        <span class="fett">Stornierungszeiten:</span><br />
+        <strong>Stornierungszeiten:</strong><br />
         Eine Stornierung ist noch bis 8:15 Uhr am Tag der Essensausgabe möglich.
       </p>
       <p>
@@ -242,11 +192,8 @@ thumbnail:
         Treuhandkonto gutgeschrieben.
       </p>
     </li>
-
     <li>
-      <span class="fett">
-        <a name="h"></a>Anmeldung:
-      </span>
+      <strong>Anmeldung:</strong>
       <p>
         Die Anmeldung verpflichtet nicht automatisch zur
         Mittagsessenteilnahme. Sie bestimmen selbst, zu welchem
@@ -255,7 +202,7 @@ thumbnail:
         möchten.
       </p>
       <p>
-        <span class="fett">Eine Anmeldung ist jederzeit möglich:</span>
+        <strong>Eine Anmeldung ist jederzeit möglich:</strong>
         Bitte geben Sie das unterschriebene Anmeldeformular im Sekretariat der Schule
         ab. Nach der Erfassung der Daten erhalten Sie von den Kliniken Neumarkt Service
         GmbH eine Bestätigung mit der Bankverbindung für das Treuhandkonto,
@@ -270,25 +217,22 @@ thumbnail:
         geben.
       </p>
       <p>
-        -> <a href="https://www.wgg-neumarkt.de/seiten/text/service/00_downloads/00_anmeldungmensa.pdf">Anmeldeformular zum Ausdrucken
+        -> <a href="/documents/anmeldungmensa.pdf" target = "_blank">Anmeldeformular zum Ausdrucken
         </a>
       </p>
     </li>
-
     <li>
-      <span class="fett">
-        <a name="i"></a>Abmeldung:
-      </span>
+      <strong>Abmeldung:</strong>
       <p>
-        <span class="fett">
+        <strong>
           Eine Abmeldung ist jederzeit auch während des
           Schuljahres möglich.
-        </span> Bereits getätigte und nicht abgerufene
+        </strong> Bereits getätigte und nicht abgerufene
         Einzahlungen werden in vollem Umfang zurücküberwiesen.
         Die Abmeldung muss schriftlich erfolgen.
       </p>
       <p>
-        -> <a href="https://www.wgg-neumarkt.de/seiten/text/service/00_downloads/00_abmeldungmensa.pdf">Abmeldeformular zum Ausdrucken
+        -> <a href="/documents/abmeldungmensa.pdf" target = "_blank">Abmeldeformular zum Ausdrucken
         </a>
       </p>
     </li>

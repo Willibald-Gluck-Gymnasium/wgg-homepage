@@ -1,29 +1,23 @@
 ---
 title: Christoph Willibald Gluck
-link: gemeinschaft_willibald_gluck
+link: willibald_gluck
 tags: [Gemeinschaft]
 thumbnail: 
-    src: 00_willibaldgluck.jpg
-    alt: Ein thumbnail
+    src: willibaldgluck.jpg
+    alt: Porträt von Willibald GLuck
 ---
 
-<h3>
-    1714 - 1787
-</h3>
+### 1714 - 1787
+
 
 <figure style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px">
-    <v-image name="00_willibaldgluck" alt="Willibald Gluck"></v-image>
+    <img src="images/willibaldgluck.jpg" alt="Porträt von Willibald Gluck"></img>
 </figure>
 
+* geboren am 2. 7. 1714 in Erasbach
+* getauft am 4. 7. 1714 in Weidenwang 
+* 1717 im Alter von drei Jahren weggezogen ins „Böhmische“
 
-    <p>-geboren am 2. 7. 1714 in Erasbach</p>
-
-   <p>-getauft am 4. 7. 1714 in Weidenwang</p> 
-
-    <p>-1717 im Alter von drei Jahren weggezogen ins „Böhmische“</p>
-
-<p>
-    
 Erasbach und Weidenwang lagen zum Zeitpunkt von Glucks Geburt in den damals durch Österreich besetzten bayrischen Erblanden, 
 kamen später wieder an das – nun – Königreich Bayern, gehörten als selbständige Gemeinden zum Landgericht und Rentamt 
 Beilngries in Mittelfranken, später zum Bezirksamt und Amtsgericht Beilngries in der Oberpfalz (seit 1880).
@@ -39,6 +33,5 @@ Musas praeposuit Sirenis!
 Er stellte die Kunst über alle Verlockungen!
 
 Freudenklänge,Festgesänge, gesungen vom Chor des WGG.
-</p>
 
-<a href="/audio/gluck"></a>
+<a href="/audio/gluck.mp3" target = "_blank">Hörprobe</a>
