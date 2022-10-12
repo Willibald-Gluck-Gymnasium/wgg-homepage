@@ -1,40 +1,6 @@
-<template>
-    <header class="navbar">
-        <div class="content">
-            <NuxtLink class="logo-link logo-with-text" to="/">
-                <school-logo-with-text class="" />
-            </NuxtLink>
-
-            <NuxtLink class="logo-link logo-small" to="/">
-                <school-logo />
-            </NuxtLink>
-
-            <SearchBar v-if="true" class="searchbar"/>
-
-            <vsm-menu
-                :menu="menu"
-                class="vsm-menu"
-                element="header"
-                handler="hover"
-                align="center"
-                ref="navigationMenu"
-            >
-                <template #default="{ item }">
-                    <div>
-                        <component @closeNavMenu="closeNavMenu()" :is="componentsMap[item.component]" />
-                    </div>
-                </template>
-            </vsm-menu>
-        </div>
-        
-
-    </header>
-    
-</template>
-
 <script setup>
 import * as vueStripeMenu from 'vue-stripe-menu'
-import 'vue-stripe-menu/dist/vue-stripe-menu.css'
+// import 'vue-stripe-menu/dist/vue-stripe-menu.css'
 
 const { VsmMenu, VsmMob} = vueStripeMenu
 
@@ -68,9 +34,65 @@ const menu = [
 
 </script>
 
+<template>
+    <header class="navbar">
+        <div class="content">
+            <NuxtLink class="logo-link logo-with-text" to="/">
+                <school-logo-with-text class="" />
+            </NuxtLink>
+
+            <NuxtLink class="logo-link logo-small" to="/">
+                <school-logo />
+            </NuxtLink>
+
+            <SearchBar v-if="true" class="searchbar"/>
+
+            <client-only>
+
+                <vsm-menu
+                    :menu="menu"
+                    class="vsm-menu"
+                    element="header"
+                    handler="hover"
+                    align="center"
+                    ref="navigationMenu"
+                >
+                    <template #default="{ item }">
+                        <div>
+                            <component @closeNavMenu="closeNavMenu()" :is="componentsMap[item.component]" />
+                        </div>
+                    </template>
+                </vsm-menu>
+
+
+
+                <template #placeholder>
+                    <nav class="vsm-menu">
+                        <ul class="vsm-root">
+                            <li class="vsm-link-container vsm-mob-hide">
+                                <button class="vsm-link" v-for="menuItem in menu">
+                                    <span>{{ menuItem.title }}</span>
+                                </button>
+                            </li>
+                        </ul>     
+                    </nav>
+                </template>
+            </client-only>
+        
+            
+        </div>
+        
+
+    </header>
+    
+</template>
+
 
 <style lang="scss" scoped>
-// @import "~vue-stripe-menu/src/scss/index";
+:deep() {
+    @import "vue-stripe-menu/src/scss/index.scss";
+}
+
 
 $oneRowBreakPoint: 800px;
 
@@ -139,6 +161,7 @@ $oneRowBreakPoint: 800px;
 
 
             :deep() {
+
                 .vsm-background {
                     // background: none;
                 }
