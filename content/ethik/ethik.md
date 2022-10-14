@@ -32,7 +32,7 @@ thumbnail:
 <h3>Ethik in der Oberstufe:</h3>
 <p>In den Jahrgangsstufen 11 und 12 beschäftigen wir uns mit folgenden Themen:</p>
 <ul>
-    <li>Grundfragen der philosophischen Ethik<li>
+    <li>Grundfragen der philosophischen Ethik</li>
     <li>Freiheit und Determination</li>
     <li>Glück</li>
     <li>Recht und Gerechtigkeit; Politische Ethik</li>
