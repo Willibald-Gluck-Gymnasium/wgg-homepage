@@ -2,7 +2,7 @@
 title: Bayerische Meisterschaften im Lehrersport Tischtennis
 link: bayerische_meisterschaften_lehrersport_tischtennis
 author: Manfred Nagl
-tags: [Sport, Events]
+tags: [Sport, Events, Unterricht]
 thumbnail: 
     src: lehrertischtennis2018_1.jpg
     alt:  Christian Wurm bei einem sehr rasanten Spiel.

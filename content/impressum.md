@@ -1,6 +1,6 @@
 ---
 title: Impressum
-link: Impressum
+link: impressum
 thumbnail: 
     src: law-scale.jpg
     alt: Eine Waage, die das Gestz symbolisiert.
