@@ -55,7 +55,7 @@ const menuItems = {
     Gesellschaftswissenschaften: [
         { text: "Geschichte", icon: HistoryIcon },
         { text: "Geograhpie", icon: GeographyIcon },
-        { text: "Sozialkunde", icon: SocialStudiesIcon },
+        { text: "Politik und Gesellschaft", icon: SocialStudiesIcon },
         { text: "Wirschaft und Recht", icon: EconomyIcon },
         { text: "Wirschaftsinformatik", icon: BusinessInformaticsIcon },
     ],
