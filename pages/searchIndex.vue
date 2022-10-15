@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 
 if (process.server) {
     const { createHash } = require('crypto');
@@ -48,4 +48,4 @@ if (process.server) {
     <div>
         Indexed...
     </div>
-</template>
+</template> -->

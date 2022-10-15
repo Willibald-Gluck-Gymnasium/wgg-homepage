@@ -1,7 +1,9 @@
 ---
 title: Impressum
-link: Impressum
-thumbnail: law-scale.jpg
+link: impressum
+thumbnail: 
+    src: law-scale.jpg
+    alt: Eine Waage, die das Gestz symbolisiert.
 ---
 <h2 id="herausgeber">Herausgeber</h2>
 <ul>

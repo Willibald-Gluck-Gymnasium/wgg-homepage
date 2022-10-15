@@ -20,6 +20,7 @@ onMounted(() => {
         }
     })()
 })
+
 </script>
 
 <template>
@@ -34,7 +35,6 @@ onMounted(() => {
                     <span class="readtime">Lesezeit: {{ lesezeit }}</span>
                 </div>
                 <ContentDoc />
-                <!-- <div class="clear"></div> -->
             </article>
         </main>
     </NuxtLayout>
@@ -69,7 +69,9 @@ main {
         .main-title {
             margin: 0;
             font-size: 2.75em;
-            line-height: 1.15;
+            line-height: 1.1;
+            font-family: 'Montserrat', sans-serif;
+            // font-family: 'Nunito Sans', sans-serif;
         }
 
         .info {
@@ -83,8 +85,19 @@ main {
 
     // Styles for elements inside the Article
     :deep(article) {
-        p {
-            
+
+
+        /* Prevent long strings from overflowing container */
+        p, h1, h2, h3, h4, h5, h6 {
+            overflow-wrap: break-word;
+        }
+
+        /* Fix line height when title wraps */
+        h1,
+        h2,
+        h3 {
+            line-height: 1.1;
+            font-family: 'Montserrat', sans-serif;
         }
 
         a {
@@ -109,14 +122,22 @@ main {
             }
         }
 
+        img, video {
+            display: block;
+            max-width: 100%;
+            max-height: 600px;
+            margin: 2rem auto;
+            border-radius: 5px;
+        }
+
         figure {
             max-width: 100%;
-            margin: 0;
+            margin: 2rem 0;
             margin-bottom: 5px;
+            text-align: center;
 
             img {
-                border-radius: 5px;
-                width: 100%;
+                margin: 0 auto;
             }
             
             figcaption {
@@ -127,22 +148,6 @@ main {
                 font-size: 16px;
                 display: block;
             }
-        }
-
-        .float-left {
-            float: left;
-            margin-right: 15px;
-            width: 50%;
-        }
-
-        .float-right {
-            float: right;
-            margin-left: 15px;
-            width: 50%;
-        }
-
-        .clear {
-            clear: both;
         }
     }
 }
