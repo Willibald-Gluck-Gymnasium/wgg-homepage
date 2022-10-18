@@ -1,7 +1,9 @@
 ---
 title: Das neue Fach „Wirtschaft und Recht“
 tags: [Wirschaft und Recht, Unterricht]
-thumbnail: wr-fach.jpg
+thumbnail:
+    src: wr-fach.jpg
+    alt: Ein Spaarschwein im Vordergrund, im Hintergrund Münzen, Banknoten und Graphen.
 ---
 
 
@@ -16,26 +18,20 @@ Ein weiteres motivierendes Element ist das Feature, dass sich die Schüler gegen
 So macht Wirtschaft Spaß und vertieft und vermittelt gleichzeitig wertvolle ökonomische Kompetenzen auf anspruchsvollem Niveau. 
 </p>
 
-<figure class="float-left">
-    <v-image name="wrGame"/>
-</figure>
+<img src="/images/wrGame.jpg" alt="Ein Screenshot eines Spieles"/>
 
 <h3>Kreativität ist gefragt!</h3>
 
 <p>Anstatt sich wie sonst immer von Werbung berieseln zu lassen oder umzuschalten, hieß es für die Schüler:innen der Klassen 8e und 8d genau hinsehen, aufmerksam beobachten und selbst kreativ werden. Für ein eigenes Produkt, das es in dieser Art noch nicht gibt, aber durchaus Potenzial auf dem zukünftigen Weltmarkt haben könnte, waren Kreativität und wirtschaftliches Denken gefordert. Ein passendes Design des Produkts, eine ansprechende Verpackung und ein einprägsamer Werbeslogan mussten in Partnerarbeit erstellt und einem Publikum präsentiert werden. Wie selbstverständlich wurden Themen wie Nachhaltigkeit, Werbe- und Verkaufsstrategien sowie das AIDA-Prinzip berücksichtigt, um die potenziellen Kunden vom eigenen Produkt zu überzeugen. Lernen mit allen Sinnen – hier auf jeden Fall. </p>
 
 
-<figure class="float-left">
-    <v-image name="02Westiner_WR_Neues aus WR_Bild6"/>
-</figure>
+<img src="/images/02Westiner_WR_Neues aus WR_Bild6.jpg" alt="Ein Plakat für ein fiktionelles Produkt; Flexo-Bottle"/>
 
 <h3>Ein Marketingkonzept für mein eigenes Produkt!</h3>
 
 <p>Aufbauend auf dem Wissen über Werbemaßnahmen und deren Wirkungen entwickelte jede Schülerin und Schüler der 8f im Distanzunterricht ein eigenes komplettes Marketingkonzept zu einem Phantasieprodukt seiner bzw. ihrer Wahl. Neben der Produktpolitik – Wie setzt sich mein Produkt von der Konkurrenz ab? – mussten zahlreiche weitere Entscheidungen getroffen werden. Welche Preisstrategie möchte ich verfolgen, welche Vertriebswege stehen zur Verfügung bzw. über welche Kanäle möchte ich mein Produkt schließlich bewerben? All das wurde in einer Präsentation zusammengefügt und per Audio aufgezeichnet, da eine Präsentation vor der Klasse leider nicht möglich war. </p>
 
-<figure class="float-left">
-    <v-image name="Chillmoebel"/>
-</figure>
+<img src="/images/Chillmoebel.jpg" alt="Ein Plakat für fiktionale Möbel"/>
 
 <h3>Jugendschutz – Was bedeutet das für mich?</h3>
 
@@ -43,8 +39,6 @@ So macht Wirtschaft Spaß und vertieft und vermittelt gleichzeitig wertvolle ök
 <p>Bei dem mehrwöchigen Projekt im Rahmen des Profilbereichs der 8. Jahrgangsstufe des Wirtschaftszweigs hatten sich die SchülerInnen und Schüler mit Herrn Völkl vorab mit dem Thema Jugendschutz beschäftigt. Die Aufgabe bestand nun darin, die gelernten und recherchierten Inhalte in ansprechende Plakate umzuwandeln. </p>
 <p>So wurden Plakate zu Themen wie „Die Arbeit der USK“, „Wer oder was ist PEGI?“, „Jugendschutz in der Öffentlichkeit“ oder „Was ist der Taschengeldparagraph?“ erstellt. Hierdurch konnten die Schüler*innen nicht nur ihr Wissen festigen und vertiefen, sondern auch ihre Fertigkeiten im Umgang mit Text- und Grafikprogrammen erproben und erweitern. </p>
 
-<figure class="float-left">
-    <v-image name="02Westiner_WR_Neues aus dem WR_Bild2"/>
-</figure>
+<img src="/images/02Westiner_WR_Neues aus dem WR_Bild2.jpg" alt="Zusammenfassung des Jugendschutzgesetzes."/>
 
 <p style='text-align:right; font-style: italic'>Linda Kraus, Matthias Schmid, Matthias Völkl, Yvonne Westiner</p>
