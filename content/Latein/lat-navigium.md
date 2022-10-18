@@ -1,7 +1,9 @@
 ---
 title: Latein lernen mit Navigium
 tags: [Latein, Unterricht]
-thumbnail: navigium-cube.jpg
+thumbnail:
+    src: navigium-cube.jpg
+    alt: Eine Tafel mit lateinischer Aufschrift
 ---
 
 <figure class="float-left">

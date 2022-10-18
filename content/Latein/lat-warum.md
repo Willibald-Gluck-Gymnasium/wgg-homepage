@@ -1,7 +1,9 @@
 ---
 title: Latein Warum?
 tags: [Latein, Unterricht]
-thumbnail: latein-thumbmail.jpg
+thumbnail:
+  src: latein-thumbmail.jpg
+  alt: Eine Tafel mit lateinischer Aufschrift
 ---
 
 <h4 class="text_mitte"> - Eine Information für Eltern und Schüler - </h4>

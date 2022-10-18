@@ -1,7 +1,9 @@
 ---
 title: Latein Lehrwerk
 tags: [Latein, Unterricht]
-thumbnail: latein-thumbmail.jpg
+thumbnail: 
+    src: latein-thumbmail.jpg
+    alt: Eine Tafel mit lateinischer Aufschrift
 ---
 
 <h2>Unser Lehrwerk: <strong>Adeamus! Ausgabe C<strong></h2>

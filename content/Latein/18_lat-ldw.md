@@ -2,7 +2,9 @@
 title: Landeswettbewerb Latein 2019
 link: lat-ldw
 tags: [Latein, Unterricht]
-thumbnail: latein-thumbmail.jpg
+thumbnail:
+    src: latein-thumbmail.jpg
+    alt: Eine Tafel mit lateinischer Aufschrift
 ---
 
 <h2>Heimat und Fremde – Landeswettbewerb Alte Sprachen</h2>

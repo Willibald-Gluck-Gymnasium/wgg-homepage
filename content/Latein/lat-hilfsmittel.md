@@ -1,7 +1,9 @@
 ---
 title: Hilfsmittel Latein
 tags: [Latein, Unterricht]
-thumbnail: latein-thumbmail.jpg
+thumbnail:
+    src: latein-thumbmail.jpg
+    alt: Eine Tafel mit lateinischer AufschriftS
 ---
 
 <h2>Zugelassene Wörterbücher bei der Anfertigung von schriftlichen Leistungsnachweisen und in der Abiturprüfung im Fach Latein (Stand 19.07.2021)</h2>

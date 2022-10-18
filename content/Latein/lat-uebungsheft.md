@@ -1,7 +1,9 @@
 ---
 title: Latein Übungsheft
 tags: [Latein, Unterricht]
-thumbnail: latein-thumbmail.jpg
+thumbnail:
+    src: latein-thumbmail.jpg
+    alt: Eine Tafel mit lateinischer Aufschrift
 ---
 <p>
 Damit ein guter Start im neuen Fach „Latein“ gelingt, die alte Sprache

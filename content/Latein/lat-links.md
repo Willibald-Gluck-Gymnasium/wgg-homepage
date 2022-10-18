@@ -1,7 +1,9 @@
 ---
 title: Latein Links
 tags: [Latein, Unterricht]
-thumbnail: latein-thumbmail.jpg
+thumbnail:
+  src: latein-thumbmail.jpg
+  alt: Eine Tafel mit lateinischer Aufschrift
 ---
 
 

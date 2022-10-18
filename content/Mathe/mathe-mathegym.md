@@ -1,7 +1,9 @@
 ---
 title: Mathegym
 tags: [Mathematik, Unterricht]
-thumbnail: funktionsgraphen.jpg
+thumbnail: 
+    src: mathe-tafel.jpg
+    alt: Eine Tafel mit Mathematischen Inhalten als Tafelbild
 ---
 
 

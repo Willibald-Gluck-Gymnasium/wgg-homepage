@@ -1,7 +1,9 @@
 ---
 title: Fachprofil Mathematik
 tags: [Mathematik, Unterricht]
-thumbnail: mathe-tafel.jpg
+thumbnail:
+    src: mathe-tafel.jpg
+    alt: Eine Tafel mit Mathematischen Inhalten als Tafelbild
 ---
 
 <h4>Fachprofil:</h4>

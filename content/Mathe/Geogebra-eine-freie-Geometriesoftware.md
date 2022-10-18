@@ -1,7 +1,9 @@
 ---
 title: Geogebra - eine freie Geometriesoftware
 tags: [Mathematik, Unterricht]
-thumbnail: geogebra.jpg
+thumbnail:
+    src: geogebra.jpg
+    alt: Ein Bild das die Software GeoGebra zeigt
 ---
 
 <p>
