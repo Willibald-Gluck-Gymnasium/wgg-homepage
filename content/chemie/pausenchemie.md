@@ -1,6 +1,5 @@
 ---
 title: Pausenchemie
-link: pausenchemie
 tags: [Chemie, Unterricht]
 thumbnail: 
     src: pausenchemie.jpg

@@ -1,6 +1,5 @@
 ---
 title: Lesung der Sophie Scholl Biographie
-link: lesung_scholl
 tags: [Religion, Unterricht, Events]
 thumbnail: 
     src: sophie_scholl_buch.jpg

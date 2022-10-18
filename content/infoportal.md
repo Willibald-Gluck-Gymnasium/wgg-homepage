@@ -1,6 +1,5 @@
 ---
 title: Infoportal
-link: Infoportal
 tags: [Neuigkeiten]
 author: 'Bernhard Schiffer'
 published_on: '30.01.2022 19:03'

@@ -1,6 +1,5 @@
 ---
 title: 'Religiöses Leben am WGG'
-link: religioeses_leben_am_wgg
 tags: [Religion, Unterricht, Gemeinschaft]
 thumbnail: 
     src: Labyrinth.jpg

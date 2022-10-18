@@ -1,6 +1,5 @@
 ---
 title: Geburtstag Willibald Glucks
-link: wgg_geburtstag
 tags: [Gemeinschaft]
 thumbnail: 
     src: wgg_geburtstag_czerwek.jpg

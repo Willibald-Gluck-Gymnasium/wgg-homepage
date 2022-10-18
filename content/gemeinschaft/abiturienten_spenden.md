@@ -1,6 +1,5 @@
 ---
 title: Abiturienten 2020 spenden
-link: abiturienten_spenden
 tags: [Gemeinschaft]
 thumbnail: 
     src: AbiSpende2019.jpg

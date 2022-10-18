@@ -1,6 +1,5 @@
 ---
 title: WGG zeigt naturwissenschaftliches Profil
-link: schule_jugend_forscht
 tags: [Jugendforscht]
 thumbnail: 
     src: 

@@ -1,6 +1,5 @@
 ---
 title: Die Oberstufe am WGG
-link: oberstufe
 tags: [Gemeinschaft]
 thumbnail: 
     src: buecher_apfel.jpg

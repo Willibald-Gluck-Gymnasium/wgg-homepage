@@ -1,6 +1,5 @@
 ---
 title: Arbeitskreise SMV
-link: arbeitskreise_smv
 tags: [Gemeinschaft]
 thumbnail: 
     src: smv_arbeitskreise.jpg

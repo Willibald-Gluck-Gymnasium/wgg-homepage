@@ -1,6 +1,5 @@
 ---
 title: Plakate für P-Seminar "Gerätefreies Training"
-link: plakate-pseminar-geraetefreies-training
 tags: [Sport, Unterricht]
 thumbnail: 
     src: plakate_p_seminar_sport.jpg

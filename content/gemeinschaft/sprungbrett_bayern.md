@@ -1,6 +1,5 @@
 ---
 title: Sprungbrett Bayern hop on hop off
-link: sprungbrett_bayern
 tags: [Gemeinschaft]
 thumbnail: 
     src: praktikumsbus.jpg

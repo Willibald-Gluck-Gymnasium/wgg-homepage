@@ -1,8 +1,6 @@
 ---
 title: Verein der Freunde des WGG
-link: Verein-der-Freunde-des-WGG
-tags: [Verein der Freunde, Elternbrief]
-category: Gemeinschaft
+tags: [Verein der Freunde, Elternbrief, Gemeinschaft]
 thumbnail: 
     src: people-in-arms.jpg
     alt: Ein thumbnail
@@ -71,15 +69,9 @@ thumbnail:
     <br>
     Die Kontodaten lauten:
     <br>
-    <br>
-    IBAN: DE49 7605 2080 0000 0114 03
-    <br>
-
+    IBAN: DE49 7605 2080 0000 0114 03 <br>
     BIC: BYLADEM1NMA
-    <br>
-    <br>Dafür erhalten Sie eine Spendenbescheinigung.
 </p>
-
 
 <p>Im Namen der Schule bedanken wir uns sehr herzlich für jede uns zugedachte finanzielle Hilfe.</p>
 

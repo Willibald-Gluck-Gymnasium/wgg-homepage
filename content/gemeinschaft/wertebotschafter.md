@@ -1,6 +1,5 @@
 ---
 title: WGG-Schüler wird Wertebotschafter
-link: wertebotschafter
 tags: [Gemeinschaft]
 thumbnail: 
     src: wertebotschafter.jpg

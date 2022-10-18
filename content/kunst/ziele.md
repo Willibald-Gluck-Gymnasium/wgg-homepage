@@ -1,6 +1,5 @@
 ---
 title: Kunst am WGG
-link: ziele
 tags: [Kunst, Unterricht]
 thumbnail: 
     src: gemälde.jpg

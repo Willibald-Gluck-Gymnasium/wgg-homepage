@@ -1,6 +1,5 @@
 ---
 title: Datenschutzhinweise
-link: Datenschutzhinweise
 thumbnail: 
     src: law-scale.jpg
     alt: Eine Waage, die das Gestz symbolisiert.

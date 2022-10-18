@@ -1,6 +1,5 @@
 ---
 title: Sport am WGG
-link: sport
 tags: [Sport, Unterricht]
 thumbnail: 
     src: typ-schwimmt-vogelperspektive.jpg

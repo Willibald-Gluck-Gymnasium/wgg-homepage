@@ -1,6 +1,5 @@
 ---
 title: Galerie der Fachschaft Kunst
-link: galerie
 tags: [Kunst, Unterricht]
 thumbnail: 
     src: Bild_LauraBareiß.jpg

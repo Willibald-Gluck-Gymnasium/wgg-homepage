@@ -1,6 +1,5 @@
 ---
 title: Grundausstattung Kunst
-link: grundausstattung-kunst
 tags: [Kunst, Unterricht]
 thumbnail: 
     src: malkasten.jpg

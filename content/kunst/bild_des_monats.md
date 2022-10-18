@@ -1,6 +1,5 @@
 ---
 title: Bild des Monats
-link: bild_des_monats
 tags: [Kunst, Unterricht]
 thumbnail: 
     src: bild_des_monats.jpg
