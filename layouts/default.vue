@@ -1,16 +1,8 @@
 <template>
     <div>
 
-        <ClientOnly>
-            <Navigation />
-
-            <template #placeholder>
-                <div style="height: 70px; display:grid; place-items: center"></div>
-            </template>
-        </ClientOnly>
-
-        
-
+        <Navigation />
+            
         <slot></slot>
         
         <VueFooter />
