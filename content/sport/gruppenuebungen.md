@@ -1,6 +1,5 @@
 ---
 title: Gruppenübungen
-link: gruppenuebungen
 tags: [Sport, Unterricht]
 thumbnail: 
     src: Gruppenübungen.jpg

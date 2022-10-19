@@ -1,6 +1,5 @@
 ---
 title: Hausordnung
-link: hausordnung
 tags: [Gemeinschaft]
 thumbnail: 
     src: tische_stuehle.jpg

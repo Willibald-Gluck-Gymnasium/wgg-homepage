@@ -1,6 +1,5 @@
 ---
 title: Anmeldung zum Info-Portal
-link: Anmeldung-zum-Info-Portal
 tags: [Neuigkeiten, Elternbrief]
 author: 'Bernhard Schiffer'
 thumbnail: 

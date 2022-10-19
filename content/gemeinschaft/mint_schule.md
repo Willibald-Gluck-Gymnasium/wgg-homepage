@@ -1,6 +1,5 @@
 ---
 title: Mint freundliche Schule
-link: mint_schule
 tags: [Gemeinschaft]
 thumbnail: 
     src: 18_mintfreunde_01.jpg

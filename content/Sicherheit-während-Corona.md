@@ -1,6 +1,5 @@
 ---
 title: 'Sicherheit während Corona'
-link: Sicherheit-während-Corona
 author: 'Jan Bayer'
 tags: [Neuigkeiten, Elternbrief]
 published_on: '01.11.2020 13:00'

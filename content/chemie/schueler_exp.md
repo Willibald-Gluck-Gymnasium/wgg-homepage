@@ -1,6 +1,5 @@
 ---
 title: Schüler experimentieren
-link: schueler_exp
 tags: [Chemie]
 thumbnail: 
     src: ethen.jpg

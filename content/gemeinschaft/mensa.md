@@ -1,6 +1,5 @@
 ---
 title: Mensa
-link: mensa
 tags: [Gemeinschaft]
 thumbnail: 
     src: tische_stuehle.jpg

@@ -1,6 +1,5 @@
 ---
 title: Ethik
-link: ethik
 tags: [Ethik, Unterricht]
 thumbnail: 
     src: aristoteles_ethik.jpg

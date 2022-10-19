@@ -1,6 +1,5 @@
 ---
 title: SMV
-link: smv
 tags: [Gemeinschaft]
 thumbnail: 
     src: smv_logo.jpg

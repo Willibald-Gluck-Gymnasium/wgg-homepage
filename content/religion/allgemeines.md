@@ -1,6 +1,5 @@
 ---
 title: Religion
-link: allgemeines
 tags: [Religion, Unterricht]
 thumbnail: 
     src: und_was_glaubst_du.jpg

@@ -1,6 +1,5 @@
 ---
 title: Vortrag des Hospizvereins Neumarkt e.V.
-link: vortrag_hospizverein
 tags: [Religion, Unterricht, Events]
 thumbnail: 
     src: bibel.jpg

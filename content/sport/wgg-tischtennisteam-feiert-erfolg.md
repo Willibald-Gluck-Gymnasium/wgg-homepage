@@ -1,6 +1,5 @@
 ---
 title: WGG-Tischtennisteam feiert Erfolg
-link: wgg-tischtennisteam-feiert-erfolg
 tags: [Sport, Events, Unterricht]
 thumbnail: 
     src: tischtennis_gruppenbild.jpg

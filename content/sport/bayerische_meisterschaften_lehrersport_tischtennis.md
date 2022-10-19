@@ -1,6 +1,5 @@
 ---
 title: Bayerische Meisterschaften im Lehrersport Tischtennis
-link: bayerische_meisterschaften_lehrersport_tischtennis
 author: Manfred Nagl
 tags: [Sport, Events, Unterricht]
 thumbnail: 

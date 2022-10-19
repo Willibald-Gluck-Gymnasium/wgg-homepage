@@ -1,6 +1,5 @@
 ---
 title: Certificate in Advanced English (CAE)
-link: certificate-advanced-english
 tags: [Englisch, Unterricht]
 thumbnail: 
     src: cae_information_slide.jpg

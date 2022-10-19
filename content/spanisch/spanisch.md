@@ -1,6 +1,5 @@
 ---
 title: Spanisch am WGG
-link: spanisch
 tags: [Spanisch, Unterricht]
 thumbnail: 
     src: spanisch_hablasespanol.jpg

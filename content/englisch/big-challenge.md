@@ -1,6 +1,5 @@
 ---
 title: Big Challenge
-link: big-Challenge
 tags: [Englisch, Events, Unterricht]
 thumbnail: 
     src: big_challenge_bannerc.jpg

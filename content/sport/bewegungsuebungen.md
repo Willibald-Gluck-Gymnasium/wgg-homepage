@@ -1,6 +1,5 @@
 ---
 title: Bewegungsübungen
-link: bewegungsuebungen
 tags: [Sport, Unterricht]
 thumbnail: 
     src: Bewegungsübungen.jpg
