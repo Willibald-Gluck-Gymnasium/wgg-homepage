@@ -1,6 +1,5 @@
 ---
 title: Christoph Willibald Gluck
-link: willibald_gluck
 tags: [Gemeinschaft]
 thumbnail: 
     src: willibaldgluck.jpg

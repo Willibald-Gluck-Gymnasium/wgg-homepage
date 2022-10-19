@@ -1,6 +1,5 @@
 ---
 title: Eurydike und Orpheus am WGG
-link: gluck-spiele
 tags: [Gemeinschaft]
 thumbnail: 
     src: gluck_spiele2019.jpeg

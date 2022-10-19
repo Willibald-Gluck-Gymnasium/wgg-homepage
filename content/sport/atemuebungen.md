@@ -1,6 +1,5 @@
 ---
 title: Atemübungen
-link: atemuebungen
 tags: [Sport, Unterricht]
 thumbnail: 
     src: Atemübungen.jpg

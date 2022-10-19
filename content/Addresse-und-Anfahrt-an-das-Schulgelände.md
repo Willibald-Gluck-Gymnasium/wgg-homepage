@@ -1,6 +1,5 @@
 ---
 title: Adresse und Anfahrt an das Schulgelände
-link: Addresse-und-Anfahrt-an-das-Schulgelände
 author: 'Jan Bayer'
 thumbnail: 
     src: 'route-zum-wgg.jpg'

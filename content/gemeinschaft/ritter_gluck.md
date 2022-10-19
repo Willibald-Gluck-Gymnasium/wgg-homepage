@@ -1,6 +1,5 @@
 ---
 title: Ritter Gluck
-link: ritter_gluck
 tags: [Gemeinschaft]
 thumbnail: 
     src: willibaldgluck.jpg

@@ -1,6 +1,5 @@
 ---
 title: Die Ukraine unterstützen - mit Brezen und Kuchen
-link: ukraine_unterstuetzung
 tags: [Schulprojekte, Gemeinschaft]
 thumbnail: 
     src: Ukraine01.jpg

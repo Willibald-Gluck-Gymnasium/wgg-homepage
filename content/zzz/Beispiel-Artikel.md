@@ -1,6 +1,5 @@
 ---
 title: 'Beispiel Artikel'
-link: Beispiel-Artikel
 tags: [dev-only]
 author: 'Max Mustermann'
 draft: true

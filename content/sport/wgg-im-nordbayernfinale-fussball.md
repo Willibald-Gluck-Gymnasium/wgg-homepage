@@ -1,6 +1,5 @@
 ---
 title: WGG im Nordbayernfinale Fußball
-link: wgg-im-nordbayernfinale-fussball
 tags: [Sport, Events, Unterricht]
 thumbnail: 
     src: 18_fussball_01.jpg

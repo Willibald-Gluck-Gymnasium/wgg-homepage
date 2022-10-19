@@ -1,6 +1,5 @@
 ---
 title: Der katholische Religionsunterricht
-link: katholische_religion
 tags: [Religion, Unterricht]
 thumbnail: 
     src: KathRel.jpg

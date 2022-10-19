@@ -1,6 +1,5 @@
 ---
 title: Schüler experimentieren und Jugend forscht 2021
-link: 21_jufo
 tags: [Schülerexperimentieren, Jugendforscht]
 thumbnail: 
     src: '21_jufo_01.jpg'

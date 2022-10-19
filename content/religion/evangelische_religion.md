@@ -1,6 +1,5 @@
 ---
 title: Der evangelische Religionsunterricht
-link: evangelische_religion
 tags: [Religion, Unterricht]
 thumbnail: 
     src: evangelische_Religion1.jpg

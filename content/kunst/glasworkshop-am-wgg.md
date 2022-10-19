@@ -1,6 +1,5 @@
 ---
 title: Glasworkshop am WGG
-link: glasworkshop-am-wgg
 tags: [Kunst, Events, Unterricht]
 thumbnail: 
     src: glasworkshop1.jpg

@@ -1,6 +1,5 @@
 ---
 title: 'Gründung der Schülergenossenschaft'
-link: gruendung-der-schuelergenossenschaft
 tags: [Gemeinschaft, Schülergenossenschaft, Events, Wirtschaft]
 thumbnail: 
     src: schuelergenossenschaft.jpg
