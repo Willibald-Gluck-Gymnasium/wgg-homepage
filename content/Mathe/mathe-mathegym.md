@@ -7,9 +7,8 @@ thumbnail:
 ---
 
 
-<figure class="float-left">
-    <v-image name="mathe-mathegym"/>
-</figure>
+<img src="mathe-mathegym"/>
+
 <p>
     <h2>Ein Onlineportal zum Wiederholen und Üben</h2>
 </p>

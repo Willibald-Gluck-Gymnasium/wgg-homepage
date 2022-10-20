@@ -46,9 +46,9 @@ thumbnail:
     Zur Umsetzung dieser Ziele liegt dem Lehrplan des Gymnasiums das folgende
     Kompetenzstrukturmodell zugrunde:
 </p>
-<figure>
-    <v-image name="mathe-konzeptstruktur"/>
-</figure>
+
+<img src="mathe-konzeptstruktur.img"/>
+
 <p>
     Natürlich soll den Kindern und Jugendlichen die Beschäftigung mit
     mathematischen Inhalten auch Spaß machen und wir wollen ihr Interesse

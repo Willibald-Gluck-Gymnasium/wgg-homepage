@@ -6,9 +6,8 @@ thumbnail:
     alt: Eine Tafel mit lateinischer Aufschrift
 ---
 
-<figure class="float-left">
-    <v-image name="navigium-cube" alt="Navigium Logo" />
-</figure>
+<img src="navigium-cube" alt="Navigium Logo" />
+
 
 <h2>Was ist Navigium?</h2>
 
