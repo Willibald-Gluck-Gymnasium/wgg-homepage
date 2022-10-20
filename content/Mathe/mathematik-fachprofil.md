@@ -47,7 +47,7 @@ thumbnail:
     Kompetenzstrukturmodell zugrunde:
 </p>
 
-<img src="mathe-konzeptstruktur.img"/>
+<img src="/images/mathe-konzeptstruktur.jpg"/>
 
 <p>
     Natürlich soll den Kindern und Jugendlichen die Beschäftigung mit

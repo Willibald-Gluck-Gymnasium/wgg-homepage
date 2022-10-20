@@ -6,7 +6,7 @@ thumbnail:
     alt: Eine Tafel mit lateinischer Aufschrift
 ---
 
-<img src="navigium-cube" alt="Navigium Logo" />
+<img src="/images/navigium-cube.png" alt="Navigium Logo" />  <!-- ich hoffe auf transperenz-->
 
 
 <h2>Was ist Navigium?</h2>

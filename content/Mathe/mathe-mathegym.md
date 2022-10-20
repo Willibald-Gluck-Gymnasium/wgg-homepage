@@ -7,7 +7,7 @@ thumbnail:
 ---
 
 
-<img src="mathe-mathegym"/>
+<!-- <img src="/images/mathe-mathegym.jpg"/> Ist zu hässlich-->
 
 <p>
     <h2>Ein Onlineportal zum Wiederholen und Üben</h2>
