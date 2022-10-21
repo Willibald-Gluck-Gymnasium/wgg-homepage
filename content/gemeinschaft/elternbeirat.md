@@ -64,6 +64,10 @@ Der Elternbeirat des WGG wünscht allen Klassen, dass sich auch im nächsten Sch
 
 Wir freuen uns auf Sie - Ihr Elternbeirat des WGG
 
+## Wanderziele
+
+Vorschläge für Wanderziele in <a href = "/gemeinschaft/wanderziele_neumarkt">Neumarkt </a> oder <a href = "/gemeinschaft/wanderziele_nuernberg">Nürnberg </a>.
+
 ## Nützliche Links
 - <a href="http://www.schulberatung.bayern.de/schulberatung/index.asp">Übertritt an Realschule/Quali/Infos</a>
 - <a href="http://www.lev-gym-bayern.de">Landeseltenvereinigung</a>
