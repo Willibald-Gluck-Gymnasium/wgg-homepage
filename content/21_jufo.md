@@ -9,8 +9,6 @@ thumbnail:
     Auch in diesem Jahr sind wir wieder stolz auf unsere insgesamt 14 Teilnehmer beim Wettbewerb Jugend forscht / Schüler experimentieren und freuen uns über zahlreiche Auszeichnungen: Von den insgesamt zehn Arbeiten im Bereich Jugend forscht (ab 16 Jahre) gingen zwei erste Preise, zwei zweite und ein dritter Preis an Schüler*innen des WGG, die beiden Arbeiten in der Altersgruppe Schüler experimentieren erhielten einen ersten und einen zweiten Preis.
 </p>
 
-<img src="/images/21_jufo_01.jpg">
-
 <figure>
     <img src="/images/21_jufo_01.jpg">
     <figcaption>OStD Schiffer überreicht den diesjährigen Teilnehmer*innen und Preisträger*innen des Wettbewerbs Jugend forscht / Schüler experimentieren die Urkunden
@@ -21,11 +19,11 @@ thumbnail:
 
 <h4>Fabian Jockel: Handy Head-up Display, 1. Preis Schüler experimentieren im Fachgebiet Arbeitswelt</h4>
 
-<img style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px" src="/images/21_jufo_02.jpg" alt="Erster Preis Arbeitswelt">
+
+<img style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px, margin-top:0px" src="/images/21_jufo_02.jpg" alt="Erster Preis Arbeitswelt">
 <p>
     Mehr Sicherheit im Straßenverkehr dank Physik. Head-up-Displays werden schon seit einigen Jahrzehnten in Militärflugzeugen eingesetzt und sollen dort den Piloten die wichtigsten Informationen direkt ins Sichtfeld projizieren. Auch moderne Autos können mit diesen Geräten ausgestattet werden. Was ist aber mit älteren Automodellen? Fabian hat sich die Aufgabe gestellt, eine einfache und kostengünstige Nachrüstung zu ermöglichen. In eine selbstkonstruierte Halterung zwischen Windschutzscheibe und Lenkrad mit einer justierbaren Plexiglasscheibe wird einfach nur das eigene Handy gelegt. Über die Reflexion des Handybildschirms und die Transmission des Lichts von der Straße an der Plexiglasscheibe wird der Bildschirm mit Navigations-App in das Sichtfeld des Fahrers projiziert, ohne dabei die Sicht des Fahrers einzuschränken. Der Blick des Fahrers kann so also stets auf die Straße gerichtet bleiben und muss nicht mehr zwischen Straße und Navigationsgerät wandern. Für seine Idee und die sehr gute Umsetzung in einem praktischen Modell ist Fabian am Wettbewerb mit dem 1. Preis im Fachbereich Arbeitswelt ausgezeichnet worden und darf damit am Landeswettbewerb teilnehmen.
 </p>
-<div style="clear:both"></div>
 
 
 <h4>Matteo Nowinski, Levent Yildirim: Zurück in die Steinzeit, 2. Preis Schüler experimentieren im Fachgebiet Biologie, Sonderpreis Geolino</h4>
@@ -50,7 +48,7 @@ thumbnail:
     Um herauszufinden, ob Pflanzen und damit auch unser Essen, Mikroplastik aufnehmen, habe ich einen Versuch durchgeführt. Ich habe mein eigenes Mikroplastik hergestellt und damit Tomatenpflanzen systematisch gegossen. Das habe ich auch mit Kressepflanzen gemacht. Abschließend kann ich sagen, dass die Tomatenpflanzen kein Mikroplastik aufgenommen haben, die Kresse hingegen schon. Das bedeutet, dass die Aufnahme von anderen Faktoren bedingt ist. Viel wichtiger ist jedoch, dass wir das Problem des Mikroplastiks gemeinsam angehen und etwas dagegen tun!
 </p>
 
-<h4 class="afterfloat">Maximilian Fischer: Wirkung von Anästhetika auf Pflanzen, 3. Preis im Fachgebiet Biologie</h4>
+<h4 class="afterfloat">Maximilian Fischer: Wirkung von Anästhetika auf Pflanzen, 3. Preis im Fachgebiet Biologie</h4>   
 
 <img style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px" src="/images/21_jufo_05.jpg" alt="Dritter Preis Biologie">
 
