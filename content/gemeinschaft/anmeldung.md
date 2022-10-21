@@ -6,7 +6,18 @@ thumbnail:
     alt: Stockphoto - Darstellung einer Klingel
 ---
 
+### Online-Anmeldung
+
+Liebe Eltern,
+
+beim Übertritt nach der Grundschule, bei Eintritt in die Einführungsklasse, nach einem Umzug und bei verschiedenen weiteren Situationen ins eine Anmeldung am Willibald-Gluck-Gymnasium möglich. Dazu ist eine Onlineanmeldung über eine externe Homepage nötig. Diese können Sie <a href="https://www.schulantrag.de/?sch=0223">hier</a> durchführen.
+
+### Termine
+
 Die Termine für die Neuanmeldung am Willibald-Gluck-Gymnasium werden hier veröffentlicht. Voraussetzungen für den Übertritt
+
+
+### Allgemeine Informationen
 
 Der Eintritt in das Gymnasium ist grundsätzlich nach der 4. Klasse der Grundschule bzw. auch nach der 5. Klasse der Hauptschule möglich. Das Höchstalter beträgt 12 Jahre.
 
