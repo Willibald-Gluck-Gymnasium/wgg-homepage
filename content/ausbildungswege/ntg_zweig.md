@@ -2,8 +2,8 @@
 title: Das naturwissenschaftlich-technologische Gymnasium (NTG)
 tags: [Ausbildung, Ausbildungsrichtung, Zweige, Zweigwahl, NTG Zweig]
 thumbnail: 
-    src: 'TODO'
-    alt: 'TODO'
+    src: 'ntg_zweig.jpg'
+    alt: 'Eine Glühbirne auf einem dunklen Tisch'
 ---
 
 <h4>Stundentafel der Profilfächer (Wochenstunden)</h4>

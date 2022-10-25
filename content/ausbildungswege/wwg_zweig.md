@@ -2,8 +2,8 @@
 title: Wirtschaftswissenschaftliches Gymnasium (WWG)
 tags: [Ausbildung, Ausbildungsrichtung, Zweige, Zweigwahl, WWG Zweig]
 thumbnail: 
-    src: 'TODO'
-    alt: 'TODO'
+    src: 'wwg_zweig.jpg'
+    alt: '4 Ein-Euro-Stücke, in der Luft schwebend'
 ---
 
 <h4>Stundentafel der Profilfächer (Wochenstunden)</h4>

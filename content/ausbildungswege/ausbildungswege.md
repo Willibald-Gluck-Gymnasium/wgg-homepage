@@ -2,8 +2,8 @@
 title: Ausbildungsrichtungen am Willibald-Gluck-Gymnasium
 tags: [Ausbildung, Ausbildungsrichtung, Zweige, Zweigwahl, NTG Zweig, WWG Zweig]
 thumbnail: 
-    src: 'TODO'
-    alt: 'TODO'
+    src: 'ausbildungswege.jpg'
+    alt: 'Verzweigte Eisenbahnstreck, symbolisiert die Zweigwahl'
 ---
 
 Offizielle Informationen zum Bayerischen Gymnasium finden Sie auf folgenden Seiten des Kultusministeriums:
