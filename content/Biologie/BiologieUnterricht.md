@@ -1,7 +1,7 @@
 ---
 title: Der Biologie Unterricht
 link: bioraeume
-tags: [Biologie]
+tags: [Biologie,Unterricht]
 thumbnail: 
     src: '00_bio_WGG1.jpg'
     alt: 'Ein Bild eines Biologie Lehrsaals im WGG'
@@ -30,9 +30,9 @@ biologischen Anschauungsuntericht, ebenso wie der nahegelegene Kanal
 und Museen in der Region (z.B. Eichstätt, Regensburg, Nürnberg).
 </p>
 
-<img src="00_bio_WGG1.jpg" alt="Ein Bild eines Biologie Lehrsaals im WGG">
+<img src="/images/00_bio_WGG1.jpg" alt="Ein Bild eines Biologie Lehrsaals im WGG">
 
-<img src="00_bio_WGG2.jpg" alt="Ein Bild eines Biologie Lehrsaals im WGG">
+<img src="/images/00_bio_WGG2.jpg" alt="Ein Bild eines Biologie Lehrsaals im WGG">
 
 
 <h4>Biologiesammlung und Medien</h4>
