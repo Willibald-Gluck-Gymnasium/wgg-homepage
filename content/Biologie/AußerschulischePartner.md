@@ -3,7 +3,7 @@ title: Außerschulische Partner der Biologie
 link: bioauschpar
 tags: [Biologie, Unterricht]
 thumbnail: 
-    src: 'hand-g5dca39322_1920.jpg'
+    src: 'handSchuttel.jpg'
     alt: 'Sich schüttelnde Hände'
 ---
 
