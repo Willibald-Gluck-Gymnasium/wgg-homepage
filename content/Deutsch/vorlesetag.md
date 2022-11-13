@@ -1,6 +1,5 @@
 ---
 title: Der bundesweite Vorlesetag
-link: vorlesetag
 tags: [Deutsch, Unterricht]
 thumbnail: 
     src: 'vorlesetag_04.jpg'

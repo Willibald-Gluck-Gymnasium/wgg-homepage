@@ -1,6 +1,5 @@
 ---
 title: Der Vorlesewettbewerb am WGG
-link: vorlesewettbewerb
 tags: [Deutsch, Unterricht]
 thumbnail: 
     src: 'notepadDesk.jpg'

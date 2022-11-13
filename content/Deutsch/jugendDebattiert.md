@@ -1,6 +1,5 @@
 ---
 title: Jugend debattiert
-link: judebat
 tags: [Deutsch, Unterricht]
 thumbnail: 
     src: 'JugendDebattiert.jpg'

@@ -1,6 +1,5 @@
 ---
 title: 'Die Schülerlesebücherei am WGG: Lesefutter nicht nur für die Unterstufe'
-link: Lesefutter
 tags: [Deutsch, Unterricht]
 thumbnail: 
     src: 'lesebib_01.jpg'

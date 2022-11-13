@@ -1,6 +1,5 @@
 ---
 title: Allgemeines zu dem Fach Deutsch
-link: algemeines
 tags: [Deutsch, Unterricht]
 thumbnail: 
     src: 'notepadDesk.jpg'

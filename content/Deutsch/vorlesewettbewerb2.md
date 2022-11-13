@@ -1,6 +1,5 @@
 ---
 title: Der andere Vorlesewettbewerb am WGG
-link: vorlesewettbewerb2
 tags: [Deutsch, Unterricht]
 thumbnail: 
     src: 'vorlesewettbewerb3.jpg'
