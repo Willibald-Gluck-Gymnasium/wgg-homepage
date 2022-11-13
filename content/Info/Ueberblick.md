@@ -1,6 +1,5 @@
 ---
 title: Überblick über die Inhalte des Informatik Unterrichts
-link: infoueberblick
 tags: [Informatik, Unterricht]
 thumbnail: 
     src: 'InfoTN.jpg'

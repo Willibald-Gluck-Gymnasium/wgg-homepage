@@ -1,6 +1,5 @@
 ---
 title: Landeswettbewerb Latein 2019
-link: lat-ldw
 tags: [Latein, Unterricht]
 thumbnail:
     src: latein-thumbmail.jpg

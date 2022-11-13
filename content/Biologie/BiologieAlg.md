@@ -1,6 +1,5 @@
 ---
 title: Die Fachschaft Biologie
-link: bioalg
 tags: [Biologie, Unterricht]
 thumbnail: 
     src: 'SpookyScarrySkelleton.jpg'

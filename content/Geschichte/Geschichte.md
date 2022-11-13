@@ -1,6 +1,5 @@
 ---
 title: Die Lehrer am WGG haben Warum Geschichte Gewählt?
-link: geschichte
 tags: [Geschichte, Unterricht]
 thumbnail: 
     src: 'GluckAlt.jpg' #noch nicht Final es soll der alte neben einem neuen editiert werden (siehe alt text)

@@ -1,6 +1,5 @@
 ---
 title: Biologiesammlung und Medien
-link: biosum
 tags: [Biologie, Unterricht]
 thumbnail: 
     src: 'human-skeleton.jpg'

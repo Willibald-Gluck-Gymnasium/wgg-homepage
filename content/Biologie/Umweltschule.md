@@ -1,6 +1,5 @@
 ---
 title: Das WGG als Umweltschule
-link: biouws
 tags: [Biologie, Unterricht]
 thumbnail: 
     src: 'Umweltschule.jpg'
