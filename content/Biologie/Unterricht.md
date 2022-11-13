@@ -1,6 +1,5 @@
 ---
 title: Der Biologie Unterricht
-link: bioraeume
 tags: [Biologie,Unterricht]
 thumbnail: 
     src: '00_bio_WGG1.jpg'

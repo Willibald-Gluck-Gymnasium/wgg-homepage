@@ -1,6 +1,5 @@
 ---
 title: "P-Seminar: Die virtuelle Wiedererrichtung der Burg Wolfstein als erlebbare Welt für Virtual-Reality Brillen"
-link: wolfsteinvr
 tags: [Informatik, Unterricht]
 thumbnail: 
     src: '18_wolfstein_LOGO.jpg'

@@ -1,6 +1,5 @@
 ---
 title: Selbstverständniss und Aufgaben des Biologie-Unterrichts
-link: bioslebstverst
 tags: [Biologie, Unterricht]
 thumbnail: 
     src: 'bio_LO_Bienen.jpg'

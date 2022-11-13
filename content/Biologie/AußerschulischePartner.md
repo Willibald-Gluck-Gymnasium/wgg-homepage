@@ -1,6 +1,5 @@
 ---
 title: Außerschulische Partner der Biologie
-link: bioauschpar
 tags: [Biologie, Unterricht]
 thumbnail: 
     src: 'handSchuttel.jpg'

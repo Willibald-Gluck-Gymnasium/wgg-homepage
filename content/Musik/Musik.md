@@ -1,6 +1,5 @@
 ---
 title: Musik
-link: Musik
 tags: [Musik, Unterricht]
 thumbnail: 
     src: 'MusikTitel.jpg'
