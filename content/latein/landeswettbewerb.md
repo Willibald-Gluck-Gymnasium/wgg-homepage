@@ -1,6 +1,6 @@
 ---
 title: Landeswettbewerb Latein 2019
-tags: [Latein, Unterricht]
+tags: [Unterricht, Archiv]
 thumbnail:
     src: latein-thumbmail.jpg
     alt: Eine Tafel mit lateinischer Aufschrift

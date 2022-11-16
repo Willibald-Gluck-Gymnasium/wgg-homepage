@@ -1,6 +1,6 @@
 ---
 title: Auslandsaufenthalte
-tags: [Ausland]
+tags: [Ausland, Übergreifendes, Auslandsaufenthalte]
 thumbnail: 
     src: '16_PragAustausch.jpg'
     alt: 'Schülerinnen und Schüler vor ihrem Prag-Austausch'

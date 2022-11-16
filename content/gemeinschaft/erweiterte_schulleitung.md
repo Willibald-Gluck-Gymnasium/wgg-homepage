@@ -1,6 +1,6 @@
 ---
 title: Erweiterte Schulleitung am Willibald-Gluck-Gymnasium
-tags: [Gemeinschaft]
+tags: [Gemeinschaft, Schulleitung]
 thumbnail: 
     src: erweiterte_schulleitung_gruppenbild.jpg
     alt: Gruppenbild mit allen mitgliedern der erweiterten Schulleitung

@@ -1,6 +1,6 @@
 ---
 title: FIND LIFE ON MARS
-tags: [Naturwissenschaften, MintEC]
+tags: [Naturwissenschaften, MintEC, Alle Projekte]
 thumbnail: 
     src: 'mars01.jpg'
     alt: 'Schüler beim Test des Roboters' 

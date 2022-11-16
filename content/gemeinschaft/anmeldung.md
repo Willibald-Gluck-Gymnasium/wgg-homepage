@@ -1,6 +1,6 @@
 ---
 title: Anmeldung am Willibald-Gluck-Gymnasium
-tags: [Gemeinschaft]
+tags: [Gemeinschaft, Anmeldung]
 thumbnail: 
     src: anmeldung.jpg
     alt: Stockphoto - Darstellung einer Klingel

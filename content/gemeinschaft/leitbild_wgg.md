@@ -1,6 +1,6 @@
 ---
 title: Leitbild des WGG
-tags: [Gemeinschaft]
+tags: [Gemeinschaft, Leitbild des WGG]
 thumbnail: 
     src: leitbild.jpg
     alt: Graphische Darstellung der verschiedenen Leitsprüche gemäß des Leitbilds des WGG

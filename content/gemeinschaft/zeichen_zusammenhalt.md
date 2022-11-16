@@ -1,6 +1,6 @@
 ---
 title: Schüler und Schülerinnen des WGG setzen Zeichen des Zuammenhalts
-tags: [Gemeinschaft]
+tags: [Gemeinschaft, Archiv]
 thumbnail: 
     src: zeichen_zusammenhalt.jpg
     alt: Bild von Schülerinnen und Schülern mit Paketen

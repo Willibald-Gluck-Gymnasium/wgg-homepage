@@ -1,6 +1,6 @@
 ---
 title: Geburtstag Willibald Glucks
-tags: [Gemeinschaft]
+tags: [Gemeinschaft, Archiv]
 thumbnail: 
     src: wgg_geburtstag_czerwek.jpg
     alt: Bild von Paul Czerwek - verkleidet als Gluck

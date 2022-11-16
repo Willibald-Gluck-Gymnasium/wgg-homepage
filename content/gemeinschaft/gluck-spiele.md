@@ -1,6 +1,6 @@
 ---
 title: Eurydike und Orpheus am WGG
-tags: [Gemeinschaft]
+tags: [Gemeinschaft, Übergreifendes, Alle Projekte]
 thumbnail: 
     src: gluck_spiele2019.jpeg
     alt: Porträt der Schauspielerin Elke Wollmann.

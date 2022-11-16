@@ -1,6 +1,6 @@
 ---
 title: Excellence-Kurse
-tags: [Excellence]
+tags: [Excellence, Alle Projekte, Übergreifendes, NTG Zweig, WWG Zweig]
 thumbnail: 
     src: 'excellence.jpg'
     alt: 'Logo Excellence-Initiative' 

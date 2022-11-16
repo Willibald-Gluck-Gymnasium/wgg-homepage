@@ -1,6 +1,6 @@
 ---
 title: MZM Schulmediation
-tags: [Gemeinschaft]
+tags: [Gemeinschaft, Beratung]
 thumbnail: 
     src: schulmediation2.jpg
     alt: Logo der Schulmediation

@@ -56,8 +56,8 @@ const menuItems = {
         { text: "Geschichte", icon: HistoryIcon },
         { text: "Geograhpie", icon: GeographyIcon },
         { text: "Politik und Gesellschaft", icon: SocialStudiesIcon },
-        { text: "Wirschaft und Recht", icon: EconomyIcon },
-        { text: "Wirschaftsinformatik", icon: BusinessInformaticsIcon },
+        { text: "Wirtschaft und Recht", icon: EconomyIcon },
+        { text: "Wirtschaftsinformatik", icon: BusinessInformaticsIcon },
     ],
     Kultur: [
         { text: "Religion", icon: ReligionIcon },

@@ -1,6 +1,6 @@
 ---
 title: Berufsorientierung
-tags: [Berufsorientierung]
+tags: [Berufsorientierung, Übergreifendes, Alle Projekte]
 thumbnail: 
     src: 'beruforientierung.jpg'
     alt: 'Verkehrsschild, Schule wird Verlassen, Schule ist die nächste Ortschaft' 

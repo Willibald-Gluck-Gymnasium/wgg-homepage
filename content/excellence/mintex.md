@@ -1,6 +1,6 @@
 ---
 title: MintEx
-tags: [Excellence]
+tags: [Excellence, NTG Zweig, Naturwissenschaften, Übergreifendes, Alle Projekte]
 thumbnail: 
     src: 'mintex16_01.jpg'
     alt: 'Schüler*innen präsentieren ihr Modell eines Hauses mit Sensorik' 

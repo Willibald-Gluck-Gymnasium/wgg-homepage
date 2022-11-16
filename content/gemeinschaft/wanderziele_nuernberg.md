@@ -1,6 +1,6 @@
 ---
 title: Wanderziele in Nürnberg und Umgebung
-tags: [Gemeinschaft]
+tags: [Gemeinschaft, Elternbeirat]
 thumbnail: 
     src: wanderung.jpg
     alt: Stockphoto - Schrecksee

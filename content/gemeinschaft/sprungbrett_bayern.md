@@ -1,6 +1,6 @@
 ---
 title: Sprungbrett Bayern hop on hop off
-tags: [Gemeinschaft]
+tags: [Gemeinschaft, Archiv]
 thumbnail: 
     src: praktikumsbus.jpg
     alt: Cartoon-Darstellung eines Busses.

@@ -1,6 +1,6 @@
 ---
 title: Lesung der Sophie Scholl Biographie
-tags: [Religion, Unterricht, Events]
+tags: [Religion, Unterricht, Alle Projekte]
 thumbnail: 
     src: sophie_scholl_buch.jpg
     alt: Cover des Buches "Es reut mir nichts".

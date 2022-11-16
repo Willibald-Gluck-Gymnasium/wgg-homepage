@@ -1,6 +1,6 @@
 ---
 title: Die Bibliothek am WGG
-tags: [Gemeinschaft]
+tags: [Gemeinschaft, Bibliothek]
 thumbnail: 
     src: blomenhofer_bib.jpg
     alt: Bibliothekarin Frau Blomenhofer bei der Arbeit am PC.

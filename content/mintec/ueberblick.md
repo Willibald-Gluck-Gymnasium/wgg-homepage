@@ -1,6 +1,6 @@
 ---
 title: MINTEC am WGG
-tags: [Naturwissenschaften, MintEC]
+tags: [Naturwissenschaften, MintEC, Alle Projekte]
 thumbnail: 
     src: 'mintec1.jpg'
     alt: 'Verleihung des MintEC Zertifikats' 

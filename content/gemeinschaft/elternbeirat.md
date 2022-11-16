@@ -1,6 +1,6 @@
 ---
 title: Der Elternbeirat am WGG
-tags: [Gemeinschaft]
+tags: [Gemeinschaft, Elternbeirat]
 thumbnail: 
     src: wggHaus.jpg
     alt: Innenansicht des WGG

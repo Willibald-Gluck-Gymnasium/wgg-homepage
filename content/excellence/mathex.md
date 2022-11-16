@@ -1,6 +1,6 @@
 ---
 title: MathEx
-tags: [Excellence]
+tags: [Excellence, NTG Zweig, Alle Projekte, Übergreifendes]
 thumbnail: 
     src: 'mathex.jpg'
     alt: 'Schüler*innen stehen auf dem Pausenhof' 

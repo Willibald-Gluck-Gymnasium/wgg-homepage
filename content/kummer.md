@@ -1,6 +1,6 @@
 ---
 title: Kummer oder Sorgen?
-tags: [Service]
+tags: [Beratung]
 thumbnail: 
     src: kummer.jpg
     alt: Stockphoto - Schreibtisch mit Unterlagen, Getränken und Laptop

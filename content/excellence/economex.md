@@ -1,6 +1,6 @@
 ---
 title: EconomEx
-tags: [Excellence]
+tags: [Excellence, WWG Zweig, Wirtschaftswissenschaften, Alle Projekte]
 thumbnail: 
     src: 'econKlebl.jpg'
     alt: 'Schüler*innen bei einer Exkursion' 

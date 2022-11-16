@@ -1,6 +1,6 @@
 ---
 title: Beratung am Willibald-Gluck-Gymnasium - Beratungslehrer und Schulpsychologin
-tags: [Gemeinschaft]
+tags: [Gemeinschaft, Beratung]
 thumbnail: 
     src: beratung_smileys.jpg
     alt: Stockphoto - Darstellung von Emotionen mit Hilfe von Smiley-Bällen

@@ -1,6 +1,6 @@
 ---
 title: Die gebundene Ganztagesklasse
-tags: [Gemeinschaft]
+tags: [Gemeinschaft, Alle Projekte, Übergreifendes, Leitbild des WGG]
 thumbnail: 
     src: pappWGG.jpg
     alt: Modell des WGG gebastelt von Schüler*innen der Ganztagesklasse

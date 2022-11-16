@@ -1,6 +1,6 @@
 ---
 title: Willkommenstag am WGG
-tags: [Willkommenstag]
+tags: [Willkommenstag, Alle Projekte]
 thumbnail: 
     src: 'willkommenstag01.jpg'
     alt: 'Gruppenphoto beim Willkommenstag' 
