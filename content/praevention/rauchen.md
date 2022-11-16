@@ -1,6 +1,6 @@
 ---
 title: Mobbing – wenn Ausgrenzung einsam macht
-tags: [Praevention]
+tags: [Praevention, Alle Projekte]
 thumbnail: 
     src: 'rauchen16_01.jpg'
     alt: 'Schülerinnen und Schüler bei einem Votrag zum Thema Rauchen'

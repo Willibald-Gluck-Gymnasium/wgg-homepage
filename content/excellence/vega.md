@@ -1,6 +1,6 @@
 ---
 title: V€GA
-tags: [Excellence]
+tags: [Excellence, Wirtschaftswissenschaften, Alle Projekte, WWG Zweig]
 thumbnail: 
     src: 'unimklassenzimmer18_01.jpg'
     alt: 'Schüler*innen bei der Diskussion im Klassenzimmer' 

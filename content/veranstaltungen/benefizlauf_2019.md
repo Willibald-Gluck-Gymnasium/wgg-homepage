@@ -1,6 +1,6 @@
 ---
 title: Benefizlauf 2019
-tags: [Benefizlauf]
+tags: [Benefizlauf, Archiv]
 thumbnail: 
     src: 'benefizlauf19_01.jpg'
     alt: 'Scheckübergabe beim Benefizlauf' 

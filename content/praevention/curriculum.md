@@ -1,6 +1,6 @@
 ---
 title: Miteinander – füreinander
-tags: [Praevention]
+tags: [Praevention, Alle Projekte]
 thumbnail: 
     src: 'praev_1.jpg'
     alt: 'Theaterstück, das im Rahmen der Suchtprävention aufgeführt wurde.'

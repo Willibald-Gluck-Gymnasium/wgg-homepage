@@ -1,6 +1,6 @@
 ---
 title: Einführungsklasse am WGG
-tags: [Gemeinschaft]
+tags: [Gemeinschaft, Anmeldung]
 thumbnail: 
     src: einfuehrungsklasse_wgg.jpg
     alt: Bidliche Darstellung des Wegs zum Abitur auch von anderen Schulformen aus via dem WGG.

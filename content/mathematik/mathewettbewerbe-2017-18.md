@@ -1,6 +1,6 @@
 ---
 title: Mathewettbewerbe im Schuljahr 2017/18
-tags: [Mathematik, Events]
+tags: [Mathematik, Archiv]
 thumbnail: 
     src: calculator.jpg
     alt: Stockphoto eines Taschenrechners

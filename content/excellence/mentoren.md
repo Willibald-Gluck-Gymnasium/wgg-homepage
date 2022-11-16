@@ -1,6 +1,6 @@
 ---
 title: Excellence-Mentoren
-tags: [Excellence, Mentoring]
+tags: [Excellence, Mentoring, Alle Projekte, Übergreifendes]
 thumbnail: 
     src: 'excellenceMentoren.jpg'
     alt: 'Unsere Excellence-Mentoren Matthias Völkl und Natalie Mann' 

@@ -1,6 +1,6 @@
 ---
 title: Die Ukraine unterstützen - mit Brezen und Kuchen
-tags: [Schulprojekte, Gemeinschaft]
+tags: [Alle Projekte, Übergreifendes, Gemeinschaft]
 thumbnail: 
     src: Ukraine01.jpg
     alt: Pausenverkauf zur Unterstützung der Ukraine

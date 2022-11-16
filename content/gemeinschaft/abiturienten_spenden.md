@@ -1,6 +1,6 @@
 ---
 title: Abiturienten 2020 spenden
-tags: [Gemeinschaft]
+tags: [Gemeinschaft, Archiv]
 thumbnail: 
     src: AbiSpende2019.jpg
     alt: Übergabe der Spende an den Verein der Freunde

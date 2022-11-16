@@ -1,6 +1,6 @@
 ---
 title: Refresherkurse am WGG
-tags: [Refresher]
+tags: [Alle Projekte]
 thumbnail: 
     src: buecher_apfel.jpg
     alt: Stockphoto - Schreibtisch mit Büchern und Apfel

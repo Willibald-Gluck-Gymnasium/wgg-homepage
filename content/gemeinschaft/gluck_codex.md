@@ -1,6 +1,6 @@
 ---
 title: Gluck-Codex
-tags: [Gemeinschaft]
+tags: [Gemeinschaft, Leitbild des WGG]
 thumbnail: 
     src: GluckCodex.jpg
     alt: Logo des WGG mit dem Text "Gluck Codex"

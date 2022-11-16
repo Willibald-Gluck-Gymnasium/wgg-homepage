@@ -1,6 +1,6 @@
 ---
 title: WGG zeigt naturwissenschaftliches Profil
-tags: [Jugendforscht, Naturwissenschaften]
+tags: [Jugendforscht, Naturwissenschaften, Alle Projekte]
 thumbnail: 
     src: 
     alt: 

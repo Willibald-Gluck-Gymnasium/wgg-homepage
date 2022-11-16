@@ -1,6 +1,6 @@
 ---
 title: HistoryEx
-tags: [Excellence]
+tags: [Excellence, NTG Zweig, WWG Zweig, Alle Projekte]
 thumbnail: 
     src: 'history1.jpg'
     alt: 'Schüler*innen sitzen im X' 

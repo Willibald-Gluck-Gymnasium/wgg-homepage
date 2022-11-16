@@ -1,6 +1,6 @@
 ---
 title: Christoph Willibald Gluck
-tags: [Gemeinschaft]
+tags: [Gemeinschaft, Leitbild des WGG]
 thumbnail: 
     src: willibaldgluck.jpg
     alt: Porträt von Willibald GLuck

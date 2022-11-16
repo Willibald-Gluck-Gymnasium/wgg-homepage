@@ -1,6 +1,6 @@
 ---
 title: SMV
-tags: [Gemeinschaft]
+tags: [Gemeinschaft, SMV]
 thumbnail: 
     src: smv_logo.jpg
     alt: Das Logo der Schüler mit Verantwortung.

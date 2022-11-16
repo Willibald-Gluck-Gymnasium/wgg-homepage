@@ -1,6 +1,6 @@
 ---
 title: Job-Shadowing
-tags: [Excellence, Job-Shadowing]
+tags: [Excellence, Job-Shadowing, NTG Zweig, WWG Zweig, Alle Projekte]
 thumbnail: 
     src: 'excellence.jpg'
     alt: 'Logo der Excellence-Initiative' 

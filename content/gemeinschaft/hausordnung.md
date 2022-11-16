@@ -1,6 +1,6 @@
 ---
 title: Hausordnung
-tags: [Gemeinschaft]
+tags: [Gemeinschaft, Leitbild des WGG]
 thumbnail: 
     src: tische_stuehle.jpg
     alt: Bild von Tischen und Stühlen in einer Mensa.

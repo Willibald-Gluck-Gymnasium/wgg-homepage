@@ -1,6 +1,6 @@
 ---
 title: Arbeitskreise SMV
-tags: [Gemeinschaft]
+tags: [Gemeinschaft, SMV]
 thumbnail: 
     src: smv_arbeitskreise.jpg
     alt: Übersichtsbild über die verschiedenen Arbeitskreise der SMV

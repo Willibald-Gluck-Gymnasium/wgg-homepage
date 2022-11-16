@@ -1,7 +1,7 @@
 ---
 title: ENERGIEGELADEN - Kooperation von WGG und N-Ergie
 
-tags: [Naturwissenschaften, MintEC]
+tags: [Naturwissenschaften, MintEC, Alle Projekte]
 thumbnail: 
     src: 'nergie_01.jpg'
     alt: 'Übergabe der Partner-Plakette' 
