@@ -1,6 +1,6 @@
 ---
 title: Pausenchemie
-tags: [Chemie, Unterricht]
+tags: [Chemie, Unterricht, Pausen-Chemie]
 thumbnail: 
     src: pausenchemie.jpg
     alt: Experiment während der Pause.
