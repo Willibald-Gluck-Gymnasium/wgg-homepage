@@ -6,26 +6,53 @@ thumbnail:
     alt: Bidliche Darstellung des Wegs zum Abitur auch von anderen Schulformen aus via dem WGG.
 ---
 
-#### Aktuelles
+### Aktuelles
 
-Aktuelle Informationen zur Einführungsklasse im laufenden Schuljahr bzw. für die Anmeldung im nächsten Schuljahr wird zu gegebener Zeit hier veröffentlicht.
+Sehr geehrte Eltern, liebe Schülerinnen und Schüler der 10. Klassen der Realschulen, Wirtschafts- und Mittelschulen, 
 
-#### Allgemeine Informationen
-Die Einführungsklasse will geeigneten Absolventen der Realschule, der Wirtschaftsschule oder einer freiwilligen 10. Klasse einer Hauptschule, also Schülern mit dem mittleren Schulabschluss, zum Eintritt in die Oberstufe eines Gymnasiums und somit zur allgemeinen Hochschulreife führen. Voraussetzung für eine Aufnahme ist, dass nach ihren erkennbaren geistigen Fähigkeiten, nach Haltung und charakterlichen Anlagen der erfolgreiche Abschluss der Ausbildung am Gymnasium erwartet werden kann. Alljährlich wird auf der Grundlage entsprechender Voranmeldungen am Willibald – Gluck – Gymnasium eine so genannte Einführungsklasse eingerichtet, die eine besondere Form der 10. Jahrgangsstufe des Gymnasiums darstellt.
+das Willibald-Gluck-Gymnasium bietet für das Schuljahr 2023/24 wieder eine Einführungsklasse für Schülerinnen und Schüler der Real-, Mittel- oder Wirtschaftsschule an, die mit einem guten oder sehr guten Abschluss eine gymnasiale – und später akademische – Laufbahn einschlagen wollen. 
+
+Das Bestehen der Einführungsklasse berechtigt die Schülerinnen und Schüler, in die Qualifikationsphase einzutreten und den direkten Weg zum Abitur am Gymnasium einzuschlagen.  
+
+Bei Fragen steht die Schulleitung darüber hinaus gerne zur Verfügung. <b>Links zu weiteren Hinweisen befinden sich am Ende dieser Seite</b>.
+
+Mit freundlichen Grüßen <br />
+Bernhard Schiffer, OStD
+
+### Anmeldung zur Einführungsklasse am WGG
+
+1. Voranmeldung: Diese sollten Sie bis zum 1. März 2023 an der bisher besuchten Schule abgeben. Das Formular dazu finden Sie <a href="/documents/EK_Voranmeldung23_24.docx" target = "_blank">hier.</a>
+2. Verbindliche Anmeldung: Diese erfolgt bis Dienstag, den den 26.07.2023.
+3. Zur Anmeldung bringen Sie bitte folgende Unterlagen im Original mit:
+    - Geburtsurkunde
+    - Abschlusszeugnis der Realschule
+    - pädagogisches Gutachten
+    - Im Vorfeld der Anmeldung ist bis spätestens zwei Tage vorher ein Online-Anmeldebogen auszufüllen, den Sie <a href="https://www.schulantrag.de/anmeldung/swonline/ssl/antrag-start-01.asp?sch=223" target = "_blank">hier</a> finden.
+
+### Allgemeine Informationen
+Die Einführungsklasse will geeigneten Absolventen der Realschule, der Wirtschaftsschule oder einer freiwilligen 10. Klasse einer Hauptschule, also Schülern mit dem mittleren Schulabschluss, zum Eintritt in die Oberstufe eines Gymnasiums und somit zur allgemeinen Hochschulreife führen. 
+
+Voraussetzung für eine Aufnahme ist entweder ein Notendurchschnitt von 2,0 in den Fächern Deutsch, Englisch und Mathematik im Abschlusszeugnis oder ein pädagogisches Gutachten der bisher besuchten Schule, das bestätigt, dass nach den erkennbaren geistigen Fähigkeiten, nach Haltung und charakterlichen Anlagen der erfolgreiche Abschluss der Ausbildung am Gymnasium erwartet werden kann. 
+
+Auf der Grundlage entsprechender Voranmeldungen wird am Willibald – Gluck – Gymnasium eine so genannte Einführungsklasse eingerichtet, die eine besondere Form der 11. Jahrgangsstufe des Gymnasiums darstellt. 
 
 Eine Spezifizierung nach Ausbildungsrichtungen ist hier nicht vorgesehen. Stattdessen haben die Einführungsklassen zweierlei Zielsetzungen:
 
-- Zum einen sollen sie in die Breite der gymnasialen Fächer einführen, um auch diesen Schülern die in der Oberstufe vorgesehenen Wahlmöglichkeiten offen zu halten.
-- Zum anderen sollen sie eine gezielte Förderung in den Fächern erhalten, in denen diese Schüler keine oder geringe Vorkenntnisse haben (z.B. 2. Fremdsprache), sowie in denjenigen, die verbindlich schriftliche Abiturprüfungsfächer sind (M, D).
+- Zum einen sollen sie in die Breite der gymnasialen Fächer einführen, um auch diesen Schülern die in der Oberstufe vorgesehenen Wahlmöglichkeiten offen zu halte
+- Zum anderen sollen sie eine gezielte Förderung in den Fächern erhalten, in denen diese Schüler keine oder geringe Vorkenntnisse haben (z.B. 2. Fremdsprache), sowie in denjenigen, die verbindlich schriftliche Abiturprüfungsfächer sind (M, D). 
 
-Die Präsentation, die auch durch den Informationsabend führt, finden Sie <a href="/documents/einführungsklasse.pdf" target="_blank">hier</a> als pdf.
+Ein Schreiben der Schulleitung des WGG an interessierte Eltern und Schüler*innen finden Sie <a href = "/documents/SchreibenEK23_24" target = "_blank">hier</a>. <br>
+Einen Flyer des Bayerischen Staatsministeriums für Unterricht und Kultus zur Einführungsklasse <a href = "/documents/FlyerEK23_24.pdf" target = "_blank"> hier </a>.
 
-#### Voraussetzungen
+### Voraussetzungen
 Nach dem Erwerb eines mittleren Schulabschlusses ist ein Übertritt in das Gymnasium unter folgenden Voraussetzungen möglich:
 - Über eine **Einführungsklasse** (das ist der Weg, den wir Ihnen empfehlen). Voraussetzungen hierfür sind:
     - Mittlerer Schulabschluss
-    - Pädagogisches Gutachten der in Jahrgangsstufe 10 besuchten Schule, in dem die Eignung für den Bildungsweg des Gymnasiums uneingeschränkt bestätigt wird.
-    - Zum Stichtag ist die Schülerin / der Schüler noch nicht 18 Jahre alt.
-- Der **Eintritt** in die **normale Jahrgangsstufe 10** des Gymnasiums ist nach einer erfolgreichen Aufnahmeprüfung und Probezeit ohne weitere Voraussetzungen grundsätzlich möglich.
-- **Direkteintritt in Jahrgangsstufe 10 ohne Aufnahmeprüfung**: Schülerinnen und Schüler, die im Abschlusszeugnis einen Notendurchschnitt von mindestens 3,0 in den Vorrückungsfächern erzielt haben, können ohne Aufnahmeprüfung und Probezeit in die Jgst. 10 des Gymnasiums eintreten. Die Nachholfrist für die zweite Fremdsprache beträgt in der Regel ein Jahr. Die zweite Fremdsprache kann durch eine spät beginnende Fremdsprache ersetzt werden, wenn diese Fremdsprache in den Jahrgangsstufen 10 bis 12 mit insgesamt 12 Wochenstunden belegt wird (§ 31 Abs. GSO).
-- **Direkteintritt in Jahrgangsstufe 11**: Für sehr gute Schülerinnen und Schüler der Wahlpflichtfächergruppe III a an der Realschule (mit fortgeführter zweiter Fremdsprache) besteht bei einem Notenschnitt von 1,5 in Deutsch, Mathematik und einer Fremdsprache die Möglichkeit des direkten Übertritts in Jgst. 11 des achtjährigen Gymnasiums ohne Aufnahmeprüfung und Probezeit. Zusätzlich benötigen diese Schüler ein pädagogisches Gutachten der abgebenden Schule, in dem ein über den Mittleren Abschluss hinausgehender Leistungsstand bescheinigt wird, der für einen direkten Einstieg in die Qualifikationsphase notwendig ist und einen erfolgreichen Durchgang erwarten lässt (§ 31 Abs.4 GSO).
+    - ein Notendurchschnitt von 2,0 in den Fächern Deutsch, Englisch und Mathematik im Abschlusszeugnis oder 
+    - ein pädagogisches Gutachten der bisher besuchten Schule, das bestätigt, dass nach den erkennbaren geistigen Fähigkeiten, nach Haltung und charakterlichen Anlagen der erfolgreiche Abschluss der Ausbildung am Gymnasium erwartet werden kann.
+- **Direkteintritt in Jahrgangsstufe 11 ohne Aufnahmeprüfung**: Schülerinnen und Schüler, die im Abschlusszeugnis einen Notendurchschnitt von mindestens 1,5 erzielt haben, können ohne Aufnahmeprüfung und Probezeit in die Jgst. 11 des Gymnasiums eintreten. 
+- Eintritt in die Jahrgangsstufe 11 des Gymnasiums nach einer erfolgreichen **Aufnahmeprüfung** in den Kernfächern der jeweiligen Ausbildungsrichtung: Schülerinnen und Schüler, die im Abschlusszeugnis einen Notendurchschnitt von mindestens 2,5 erzielt haben. 
+- **Direkteintritt in Jahrgangsstufe 10**: Schülerinnen und Schüler, die im Abschlusszeugnis einen Notendurchschnitt von mindestens 2,5 erzielt haben. Eine Aufnahmeprüfung entfällt.
+
+In den Fällen 2) mit 4) gilt: Die Nachholfrist für die zweite Fremdsprache beträgt in der Regel nicht mehr als ein Jahr. Die zweite Fremdsprache kann durch eine neu einsetzende spät beginnende Fremdsprache ersetzt werden, wenn diese Fremdsprache in den Jahrgangsstufen 11 bis 13 mit insgesamt zwölf Wochenstunden belegt wird.
+
