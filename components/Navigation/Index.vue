@@ -45,7 +45,7 @@ const menu = [
                 <school-logo />
             </NuxtLink>
 
-            <SearchBar v-if="true" class="searchbar"/>
+            <SearchBar v-if="false" class="searchbar"/>
 
             <client-only>
 
