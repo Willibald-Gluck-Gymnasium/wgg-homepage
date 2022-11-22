@@ -1,7 +1,6 @@
 <template>
     <div class="slide">
         <NuxtLink :to="link">
-            <!-- <img class="background-image" :src="'/images/' + image"> -->
             <nuxt-img preset="slide" :src="'/images/' + (image.src || 'missing-thumbnail.jpg')" :alt="image.alt" class="background-image" />
 
             <div class="background-gradient"></div>
@@ -31,9 +30,10 @@ const props = defineProps({
 
 <style lang="scss" scoped>
 .slide {
-    width: 100%;
-    max-width: 1080px;
-    height: 100%;
+    position: relative;
+    height: 300px;
+    width: min(100%,1080px) !important;
+    flex-shrink: 0;
     transition: filter 0.5s;
     
     a {
@@ -41,9 +41,9 @@ const props = defineProps({
         height: 100%;
     }
 
-    &:not(.is-selected) {
-        filter: saturate(0.5) brightness(40%);
-    }
+    // &:not(.is-selected) {
+    //     filter: saturate(0.5) brightness(40%);
+    // }
 
     .background-image {
         width: 100%;
