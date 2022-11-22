@@ -8,9 +8,9 @@
   },
   "devDependencies": {
     "@nuxt/content": "^2.1.0",
-    "@nuxt/image-edge": "^1.0.0-27719579.87dcdf2",
+    "@nuxt/image-edge": "^1.0.0-27809804.194d2d6",
     "meilisearch": "^0.27.0",
-    "nuxt": "^3.0.0-rc.11",
+    "nuxt": "^3.0.0",
     "sass": "^1.54.9"
   },
   "dependencies": {
