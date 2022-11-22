@@ -37,8 +37,14 @@ const props = defineProps({
     }
 })
 
+const image = {
+    src: 'missing-thumbnail.jpg',
+    alt: null,
+    ...props.image
+}
+
 const $img = useImage()
-const thumbnailImage = ref($img(`/images/${props.image.src || 'missing-thumbnail.jpg'}`, {}, { preset: 'card' }))
+const thumbnailImage = ref($img(`/images/${image.src || 'missing-thumbnail.jpg'}`, {}, { preset: 'card' }))
 const lazyRef = useLazyload(thumbnailImage, {
     lifecycle: {
         loaded: () => {
