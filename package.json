@@ -19,6 +19,7 @@
     "flickity": "^3.0.0",
     "instantsearch.css": "^7.4.5",
     "isotope-layout": "^3.0.6",
+    "keen-slider": "^6.8.3",
     "reading-time": "^1.5.0",
     "vue-instantsearch": "^4.5.0",
     "vue-stripe-menu": "^2.1.1",

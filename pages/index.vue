@@ -13,13 +13,8 @@ useHead({
 <template>
     <NuxtLayout>
 
-        <ClientOnly>
-            <slideshow :slides="slides"></slideshow>
+        <slideshow :slides="slides"></slideshow>
 
-            <template #placeholder>
-                <div style="height: 300px; display:grid; place-items: center"></div>
-            </template>
-        </ClientOnly>
 
         <h1>Neuigkeiten</h1>
         
