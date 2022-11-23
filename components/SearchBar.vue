@@ -8,7 +8,7 @@ import {
     AisHighlight,
     AisConfigure,
     AisStateResults
-} from 'vue-instantsearch/vue3/es';
+} from 'vue-instantsearch/vue3/es/index.js';
 import 'instantsearch.css/themes/satellite-min.css';
 
 const searchClient = ref(instantMeiliSearch(

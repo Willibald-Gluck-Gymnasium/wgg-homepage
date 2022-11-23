@@ -22,7 +22,7 @@ const closeNavMenu = ref(() => {
 onMounted(async () => {
     await nextTick()
     closeNavMenu.value = navigationMenu.value.closeDropdown
-    // navigationMenu.value.closeDropdown = () => {}
+    navigationMenu.value.closeDropdown = () => {}
 })
 
 const menu = [
@@ -35,7 +35,7 @@ const menu = [
 </script>
 
 <template>
-    <header class="navbar">
+    <header class="main-header-bar">
         <div class="content">
             <NuxtLink class="logo-link logo-with-text" to="/">
                 <school-logo-with-text class="" />
@@ -52,7 +52,7 @@ const menu = [
                 <vsm-menu
                     :menu="menu"
                     class="vsm-menu"
-                    element="header"
+                    element="div"
                     handler="hover"
                     align="center"
                     ref="navigationMenu"
@@ -63,8 +63,6 @@ const menu = [
                         </div>
                     </template>
                 </vsm-menu>
-
-
 
                 <template #placeholder>
                     <nav class="vsm-menu">
@@ -77,29 +75,20 @@ const menu = [
                         </ul>     
                     </nav>
                 </template>
+
             </client-only>
         
-            
         </div>
-        
-
     </header>
-    
 </template>
 
-
-<style lang="scss" scoped>
-:deep() {
-    @import "vue-stripe-menu/src/scss/index.scss";
-}
-
-
-$oneRowBreakPoint: 800px;
-
-.navbar {
+<style lang="scss">
+.main-header-bar {
     color: black;
     background-color: white;
     border-bottom: 3px solid hsl(29,100%,55%);
+
+    $oneRowBreakPoint: 800px;
 
     .content {
         margin: 0 auto;
@@ -157,96 +146,95 @@ $oneRowBreakPoint: 800px;
             opacity: 1;
             z-index: 800;
             height: 100%;
-            
-
-
-            :deep() {
-
-                .vsm-background {
-                    // background: none;
-                }
-
-                .vsm-dropdown-content {
-                    background-color: white;
-                    border-radius: 20px;
-                } 
-
-                .vsm-nav {
-                    height: 100%;
-                    margin: 0 auto;
-                    max-width: 1080px;
-                }
-
-                .vsm-root {
-                    height: 100%;
-                }
-
-                .vsm-link-container {
-                    display: flex;
-                    flex: 1 1 auto;
-                    justify-content: center;
-
-                    
-
-                    .vsm-link {
-                        width: 30%;
-                        max-width: 110px;
-                        padding: 0;
-                        color: inherit;
-
-                        @media (min-width: 800px) {
-                            width: min-content;
-                            padding: 0 15px;
-                            max-width: unset;
-
-                            &:first-of-type {
-                                padding-left: 0;
-                            }
-
-                            &:last-of-type {
-                                padding-right: 0;
-                            }
-                        }
-                    }
-                }
-
-                @media screen and (max-width: 1) {
-                    .vsm-mob-show {
-                        display: block;
-                    }
-                    .vsm-mob-hide {
-                        display: none;
-                    }
-                    .vsm-mob-full {
-                        flex-grow: 1;
-                    }
-                }
-            }
-
-            :deep(.container) {
-                box-sizing: content-box;
-                min-width: none;
-                padding: 25px;
-                padding-bottom: 0;
-                display: inline-flex;
-                flex-direction: column;
-                align-items: flex-start;
-                align-content: flex-start;
-                justify-content: flex-start;
-                column-gap: 25px;
-                flex-wrap: nowrap;
-                max-height: fit-content;
-                padding-right: 25px;
-                width: auto;
-
-                @media (min-width: 770px) {
-                    flex-wrap: wrap;
-                    max-height: 500px;
-                    padding-right: 0;
-                }
-            }
         }
     }
 
+}
+</style>
+
+<style lang="scss">
+@import "vue-stripe-menu/src/scss/index.scss";
+
+.vsm-background {
+    // background: none;
+}
+
+.vsm-dropdown-content {
+    background-color: white;
+    border-radius: 20px;
+} 
+
+.vsm-nav {
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+.vsm-root {
+    height: 100%;
+}
+
+.vsm-link-container {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+
+    
+
+    .vsm-link {
+        width: 30%;
+        max-width: 110px;
+        padding: 0;
+        color: inherit;
+
+        @media (min-width: 800px) {
+            width: min-content;
+            padding: 0 15px;
+            max-width: unset;
+
+            &:first-of-type {
+                padding-left: 0;
+            }
+
+            &:last-of-type {
+                padding-right: 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1) {
+    .vsm-mob-show {
+        display: block;
+    }
+    .vsm-mob-hide {
+        display: none;
+    }
+    .vsm-mob-full {
+        flex-grow: 1;
+    }
+}
+
+.container {
+    box-sizing: content-box;
+    min-width: none;
+    padding: 25px;
+    padding-bottom: 0;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    column-gap: 25px;
+    flex-wrap: nowrap;
+    max-height: fit-content;
+    padding-right: 25px;
+    width: auto;
+
+    @media (min-width: 770px) {
+        flex-wrap: wrap;
+        max-height: 500px;
+        padding-right: 0;
+    }
 }
 </style>
