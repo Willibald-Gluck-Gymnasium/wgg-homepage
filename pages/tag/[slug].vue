@@ -8,7 +8,7 @@ const cards = await queryContent().where({ tags: { $contains: tag } }).only(['ti
         <main>
             <template v-if="cards.length > 0">
                 <h1>Artikel verwandt mit: {{ tag }}</h1>
-                <CardCluster  :cards="cards"/>
+                <CardCluster :cards="cards"/>
             </template>
 
             
