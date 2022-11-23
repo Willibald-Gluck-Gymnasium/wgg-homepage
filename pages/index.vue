@@ -8,13 +8,15 @@ const articlesInSlide = [
     '/gemeinschaft/gluck_codex'
 ]
 
-const slides = await queryContent('/').where({ _path: { $containsAny: articlesInSlide }}).only(['_path', 'title', 'tags', 'thumbnail']).find()
+const slides = (await Promise.all(articlesInSlide.map((path) => {
+    return queryContent('/').where({ _path: { $eq: path }}).only(['_path', 'title', 'tags', 'thumbnail']).find()
+}))).flat()
+
 
 
 const articleCards = await queryContent('/').sort({ title: 1, date: -1, }).where({pinned: { $ne: true }}).only(['_path', 'date', 'title', 'tags', 'thumbnail', 'pinned']).find()
 
 const highlightedArticlesCards = await queryContent('/').sort({ title: 1, date: -1, }).where({pinned: { $eq: true } }).only(['_path', 'date', 'title', 'tags', 'thumbnail', 'pinned']).find()
-
 
 useHead({
     title: '',
