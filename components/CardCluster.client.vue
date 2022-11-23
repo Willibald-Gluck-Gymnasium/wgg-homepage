@@ -23,6 +23,8 @@ const props = defineProps({
 	}
 })
 
+const cardsRef = toRef(props, 'cards')
+
 const cardCluster = ref(null)
 
 // const resizeObserver = new ResizeObserver(() => {
@@ -33,25 +35,32 @@ const cardCluster = ref(null)
 // https://isotope.metafizzy.co
 // https://masonry.desandro.com
 
-const mutationObserver = new MutationObserver(() => {
-	if (document.contains(cardCluster.value)) {
-		// console.log('Cluster: Ready!');
-
-		new Isotope(cardCluster.value, {
-			// options
-			itemSelector: '.card',
-			layoutMode: 'masonry',
-			transitionDuration: 0,
-			// resize: false,
-			masonry: {
-				gutter: 30
-			}
-		})
-
-		mutationObserver.disconnect()
-	}
+let isotope
+onMounted(async () => {
+	await nextTick()
+	isotope = new Isotope(cardCluster.value, {
+		// options
+		itemSelector: '.card',
+		layoutMode: 'masonry',
+		transitionDuration: 0,
+		// resize: false,
+		masonry: {
+			gutter: 30
+		}
+	})
+	window.test123 = isotope
 })
-mutationObserver.observe(document, {attributes: false, childList: true, characterData: false, subtree:true})
+
+
+
+
+
+watch(cardsRef, async (cards) => {
+	console.log("Changed");
+	await nextTick()
+	isotope.reloadItems()
+	isotope.arrange()
+}, {deep: true})
 
 </script>
 
