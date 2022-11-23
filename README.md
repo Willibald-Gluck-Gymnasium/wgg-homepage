@@ -42,6 +42,7 @@ Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) f
 ```yaml
 ---
 title: 'Beispiel Artikel'
+date: 2023.04.31
 tags: [Mathe, Neuigkeiten, Unterricht]
 author: 'Max Mustermann'
 thumbnail: 
