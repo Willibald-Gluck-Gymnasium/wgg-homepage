@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Abiturienten des WGG zeigen gesellschaftliche Verantwortung
 tags: [Archiv]
 thumbnail: 

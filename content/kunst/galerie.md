@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Galerie der Fachschaft Kunst
 tags: [Kunst, Unterricht]
 thumbnail: 

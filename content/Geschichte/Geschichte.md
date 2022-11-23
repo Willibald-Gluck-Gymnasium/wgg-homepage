@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Die Lehrer am WGG haben Warum Geschichte Gewählt?
 tags: [Geschichte, Unterricht]
 thumbnail: 

@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Flamme sein! Vortrag über Hans Scholl
 tags: [Archiv]
 thumbnail: 

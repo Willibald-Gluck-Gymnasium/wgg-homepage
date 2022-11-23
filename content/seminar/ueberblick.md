@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Das WGG als Seminarschule 
 tags: [Gemeinschaft, Seminar]
 thumbnail: 

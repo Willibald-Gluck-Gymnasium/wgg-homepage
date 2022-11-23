@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Mathewettbewerbe im Schuljahr 2017/18
 tags: [Mathematik, Archiv]
 thumbnail: 

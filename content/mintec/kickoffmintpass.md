@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: MINT-Pass Neumarkt - Der Kickoff
 tags: [Naturwissenschaften, MintEC]
 thumbnail: 

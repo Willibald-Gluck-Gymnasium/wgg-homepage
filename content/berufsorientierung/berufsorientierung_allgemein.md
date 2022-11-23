@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Berufsorientierung
 tags: [Berufsorientierung, Übergreifendes, Alle Projekte]
 thumbnail: 

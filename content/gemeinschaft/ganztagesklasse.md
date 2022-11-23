@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Die gebundene Ganztagesklasse
 tags: [Gemeinschaft, Alle Projekte, Übergreifendes, Leitbild des WGG]
 thumbnail: 

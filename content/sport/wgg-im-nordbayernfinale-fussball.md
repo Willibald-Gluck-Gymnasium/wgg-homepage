@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: WGG im Nordbayernfinale Fußball
 tags: [Sport, Events, Unterricht]
 thumbnail: 

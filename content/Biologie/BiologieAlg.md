@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Die Fachschaft Biologie
 tags: [Biologie, Unterricht]
 thumbnail: 

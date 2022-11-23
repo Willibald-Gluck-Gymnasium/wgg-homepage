@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Mobbing – wenn Ausgrenzung einsam macht
 tags: [Praevention, Alle Projekte]
 thumbnail: 

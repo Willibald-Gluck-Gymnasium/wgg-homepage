@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: "P-Seminar: Die virtuelle Wiedererrichtung der Burg Wolfstein als erlebbare Welt für Virtual-Reality Brillen"
 tags: [Informatik, Unterricht]
 thumbnail: 

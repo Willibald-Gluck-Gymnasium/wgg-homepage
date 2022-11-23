@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Tutorenschulung im G6
 tags: [Tutoren, Archiv]
 thumbnail: 

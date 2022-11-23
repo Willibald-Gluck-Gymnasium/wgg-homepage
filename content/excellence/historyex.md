@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: HistoryEx
 tags: [Excellence, NTG Zweig, WWG Zweig, Alle Projekte]
 thumbnail: 

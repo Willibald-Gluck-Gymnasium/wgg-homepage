@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Physik mit Experimentieren
 tags: [Physik, Unterricht]
 thumbnail: 

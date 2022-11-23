@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Latein Links
 tags: [Latein, Unterricht]
 thumbnail:

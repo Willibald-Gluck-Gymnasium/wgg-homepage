@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: EconomEx
 tags: [Excellence, WWG Zweig, Wirtschaftswissenschaften, Alle Projekte]
 thumbnail: 

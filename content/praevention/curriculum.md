@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Miteinander – füreinander
 tags: [Praevention, Alle Projekte]
 thumbnail: 

@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: 'Religiöses Leben am WGG'
 tags: [Religion, Unterricht, Gemeinschaft]
 thumbnail: 

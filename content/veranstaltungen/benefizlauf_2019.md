@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Benefizlauf 2019
 tags: [Benefizlauf, Archiv]
 thumbnail: 

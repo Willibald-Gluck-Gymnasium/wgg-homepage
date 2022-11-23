@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: 'Sicherheit während Corona'
 author: 'Jan Bayer'
 tags: [Neuigkeiten, Elternbrief]

@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: MINTEC am WGG
 tags: [Naturwissenschaften, MintEC, Alle Projekte]
 thumbnail: 
