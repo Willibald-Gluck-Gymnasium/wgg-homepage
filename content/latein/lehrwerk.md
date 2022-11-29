@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Latein Lehrwerk
 tags: [Latein, Unterricht]
 thumbnail:

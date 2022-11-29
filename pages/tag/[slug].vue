@@ -1,6 +1,13 @@
 <script setup>
 const tag = useRoute().params.slug
-const cards = await queryContent().where({ tags: { $contains: tag } }).only(['title', 'author', 'category', 'tags', 'thumbnail', '_path']).find()
+// const cards = await queryContent().where({ tags: { $contains: tag } }).only(['title', 'author', 'category', 'tags', 'thumbnail', '_path']).find()
+
+const cards = (await Promise.all([
+    queryContent('/').sort({ title: 1, date: -1, }).where({tags: { $contains: tag }, pinned: { $eq: true }}).only(['_path', 'pinned', 'date', 'title', 'tags', 'thumbnail', 'pinned']).find(),
+    queryContent('/').sort({ title: 1, date: -1, }).where({tags: { $contains: tag }, pinned: { $ne: true }}).only(['_path', 'pinned', 'date', 'title', 'tags', 'thumbnail', 'pinned']).find(),
+])).flat()
+
+console.log(cards)
 </script>
 
 <template>

@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Der Vorlesewettbewerb am WGG
 tags: [Deutsch, Unterricht]
 thumbnail: 

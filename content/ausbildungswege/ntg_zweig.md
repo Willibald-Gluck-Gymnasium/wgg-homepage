@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Das naturwissenschaftlich-technologische Gymnasium (NTG)
 tags: [Ausbildung, Ausbildungsrichtung, Zweige, Zweigwahl, NTG Zweig]
 thumbnail: 

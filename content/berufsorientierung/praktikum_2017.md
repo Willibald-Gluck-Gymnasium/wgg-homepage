@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Praktikum 2017
 tags: [Archiv, Praktikum]
 thumbnail: 

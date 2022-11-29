@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Latein lernen mit Navigium
 tags: [Latein, Unterricht]
 thumbnail:

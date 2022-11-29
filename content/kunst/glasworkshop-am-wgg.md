@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Glasworkshop am WGG
 tags: [Kunst, Events, Unterricht]
 thumbnail: 

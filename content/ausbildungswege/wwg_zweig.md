@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Wirtschaftswissenschaftliches Gymnasium (WWG)
 tags: [Ausbildung, Ausbildungsrichtung, Zweige, Zweigwahl, WWG Zweig]
 thumbnail: 

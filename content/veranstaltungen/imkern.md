@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Imkern am WGG
 tags: [Archiv, Imkern]
 thumbnail: 

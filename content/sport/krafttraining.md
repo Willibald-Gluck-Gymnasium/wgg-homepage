@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Krafttraining für Zuhause
 tags: [Sport]
 thumbnail: 

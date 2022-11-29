@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Funktionsgraphen auf dem Pausenhof
 tags: [Mathematik, Unterricht]
 thumbnail: 

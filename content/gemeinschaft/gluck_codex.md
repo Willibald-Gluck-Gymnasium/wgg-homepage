@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Gluck-Codex
 tags: [Gemeinschaft, Leitbild des WGG]
 thumbnail: 

@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Fachsitzung Wirtschaft bei Glossner Bräu
 tags: [Wirschaft und Recht, Unterricht]
 thumbnail:

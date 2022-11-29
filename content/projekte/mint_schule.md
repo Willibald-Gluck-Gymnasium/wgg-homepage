@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Mint freundliche Schule
 tags: [Gemeinschaft, Archiv]
 thumbnail: 

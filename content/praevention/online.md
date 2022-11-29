@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: „ONLINE!“ – Medienpädagogik und Prävention am WGG
 tags: [Praevention, Alle Projekte]
 thumbnail: 

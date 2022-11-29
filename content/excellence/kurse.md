@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Excellence-Kurse
 tags: [Excellence, Alle Projekte, Übergreifendes, NTG Zweig, WWG Zweig]
 thumbnail: 

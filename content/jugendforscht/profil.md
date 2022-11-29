@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: WGG zeigt naturwissenschaftliches Profil
 tags: [Jugendforscht, Naturwissenschaften, Alle Projekte]
 thumbnail: 

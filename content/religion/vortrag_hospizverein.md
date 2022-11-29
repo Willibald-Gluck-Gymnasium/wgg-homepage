@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Vortrag des Hospizvereins Neumarkt e.V.
 tags: [Religion, Unterricht, Events]
 thumbnail: 

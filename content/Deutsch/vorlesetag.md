@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Der bundesweite Vorlesetag
 tags: [Deutsch, Unterricht]
 thumbnail: 

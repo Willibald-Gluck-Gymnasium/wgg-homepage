@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Überblick über die Inhalte des Informatik Unterrichts
 tags: [Informatik, Unterricht]
 thumbnail: 

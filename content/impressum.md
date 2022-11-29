@@ -1,4 +1,5 @@
 ---
+date: 2020.01.01
 title: Impressum
 thumbnail: 
     src: law-scale.jpg
