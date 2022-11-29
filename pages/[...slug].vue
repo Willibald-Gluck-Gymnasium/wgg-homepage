@@ -27,7 +27,7 @@ onMounted(() => {
     <NuxtLayout>
         <main>
             <article ref="article">
-                <NuxtLink v-if="category" :href="'tag/' + category" class="category link">{{ category }}</NuxtLink>
+                <NuxtLink v-if="category" :href="'/tag/' + category" class="category link">{{ category }}</NuxtLink>
                 <h1 class="main-title">{{ meta.title }}</h1>
                 <div id="info" class="info">
                     <span v-if="meta.author" class="author"> {{ meta.author }} </span>
