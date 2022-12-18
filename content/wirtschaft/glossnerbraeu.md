@@ -1,7 +1,7 @@
 ---
 date: 2020.01.01
 title: Fachsitzung Wirtschaft bei Glossner Bräu
-tags: [Wirschaft und Recht, Unterricht]
+tags: [Archiv]
 thumbnail:
     src: GlossnerBraeu.jpg
     alt: Wirtschafts- & Wirtschaftsinformatiklehrer & Herr Schiffer Stehen vor einem Mann in der Glösser Brauerei. 

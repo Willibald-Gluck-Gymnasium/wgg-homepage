@@ -3,7 +3,7 @@ date: 2020.01.01
 title: Der andere Vorlesewettbewerb am WGG
 tags: [Deutsch, Unterricht]
 thumbnail: 
-    src: 'vorlesewettbewerb3.jpg'
+    src: 'Vorlesewettbewerb3.jpg'
     alt: 'Siegerehrung des Vorlesewettbewerbs'
 ---
 

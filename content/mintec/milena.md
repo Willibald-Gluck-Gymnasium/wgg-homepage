@@ -3,7 +3,7 @@ date: 2020.01.01
 title: MILENA
 tags: [Naturwissenschaften, MintEC, MILENA]
 thumbnail: 
-    src: 'milena18_02.jpg.jpg'
+    src: 'milena18_02.jpg'
     alt: 'Schülerinnen und Schüler vor dem X-LAB' 
 ---
 

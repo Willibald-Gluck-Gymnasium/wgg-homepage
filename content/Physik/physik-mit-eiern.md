@@ -3,7 +3,7 @@ date: 2020.01.01
 title: Physik mit Experimentieren
 tags: [Physik, Unterricht]
 thumbnail: 
-    src: 'physikmiteiern.jpg'
+    src: 'physik-mit-eiern.jpg'
     alt: 'Ein Ei in einem Glas'
 ---
 
