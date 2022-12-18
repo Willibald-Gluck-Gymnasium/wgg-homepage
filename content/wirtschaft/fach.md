@@ -1,7 +1,7 @@
 ---
 date: 2020.01.01
 title: Das neue Fach „Wirtschaft und Recht“
-tags: [Wirschaft und Recht, Unterricht]
+tags: [Wirtschaft und Recht, Unterricht]
 thumbnail:
     src: wr-fach.jpg
     alt: Ein Spaarschwein im Vordergrund, im Hintergrund Münzen, Banknoten und Graphen.

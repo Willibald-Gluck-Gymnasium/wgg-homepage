@@ -4,7 +4,8 @@
 
             <h4>{{ categorie }}</h4>
 
-            <NavigationMenuItem @click="emit('closeNavMenu')" v-for="menuItem in subjects" :text="menuItem.text" :icon="menuItem.icon" />
+            <NavigationMenuItem @click="emit('closeNavMenu')" v-for="menuItem in subjects" :text="menuItem.text"
+                :icon="menuItem.icon" />
 
 
         </template>
@@ -54,7 +55,7 @@ const menuItems = {
     ],
     Gesellschaftswissenschaften: [
         { text: "Geschichte", icon: HistoryIcon },
-        { text: "Geograhpie", icon: GeographyIcon },
+        { text: "Geographie", icon: GeographyIcon },
         { text: "Politik und Gesellschaft", icon: SocialStudiesIcon },
         { text: "Wirtschaft und Recht", icon: EconomyIcon },
         { text: "Wirtschaftsinformatik", icon: BusinessInformaticsIcon },
@@ -77,9 +78,9 @@ const menuItems = {
 
     @media (min-width: 770px) {
         width: 750px !important;
-        
+
     }
-        
+
 
     h4 {
         color: hsl(29, 100%, 55%);
@@ -91,7 +92,6 @@ const menuItems = {
     :v-deep(.menu-item) {
         margin-right: 50px;
     }
-    
-}
 
+}
 </style>
