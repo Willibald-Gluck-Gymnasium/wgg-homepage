@@ -14,23 +14,31 @@ const slides = (await Promise.all(articlesInSlide.map((path) => {
 
 
 
-const articleCards = await queryContent('/').sort({ title: 1, date: -1, }).where({pinned: { $ne: true }}).only(['_path', 'date', 'title', 'tags', 'thumbnail', 'pinned']).limit(20).find()
+const articleCards = ref(await queryContent('/').sort({ title: 1, date: -1, }).where({pinned: { $ne: true }}).only(['_path', 'date', 'title', 'tags', 'thumbnail', 'pinned']).limit(20).find())
 
 const highlightedArticlesCards = await queryContent('/').sort({ title: 1, date: -1, }).where({pinned: { $eq: true } }).only(['_path', 'date', 'title', 'tags', 'thumbnail', 'pinned']).find()
 
 
-const fetchRemainingArticles = async () => {
-    const restOfArticles = await queryContent('/').sort({ title: 1, date: -1, }).where({pinned: { $ne: true }}).only(['_path', 'date', 'title', 'tags', 'thumbnail', 'pinned']).skip(20).find()
-    return restOfArticles
-}
-
-let allArticlesLoaded = ref(false)
+const loadMoreArticlesButtonDisabled = ref(false)
+const allArticlesLoaded = ref(false)
 const getRestOfArticles = async () => {
-    console.log("Test");
-    console.log(articleCards);
-    let articlesToAdd = await fetchRemainingArticles()
-    articleCards.value.push(...articlesToAdd)
-    allArticlesLoaded.value = true
+    console.log("click")
+
+    loadMoreArticlesButtonDisabled.value = true
+
+    const { data, pending, error, refresh } = await useAsyncData(
+        'fetchRemainingArticles', 
+        () => queryContent('/').sort({ title: 1, date: -1, }).where({pinned: { $ne: true }}).only(['_path', 'date', 'title', 'tags', 'thumbnail', 'pinned']).skip(20).find()
+    )
+
+    console.log({data: data.value, pending: pending.value, error: error.value})
+    if (error.value === null) {
+        articleCards.value.push(...data.value)
+        allArticlesLoaded.value = true
+    } else {
+        loadMoreArticlesButtonDisabled.value = false
+        console.error("Error Loading more articles")   
+    }
 }
 
 useHead({
@@ -72,46 +80,112 @@ useHead({
             </template>
         </ClientOnly>
 
-        <button class="button" @click.once="getRestOfArticles()" v-if="!allArticlesLoaded">Alle Artikel laden</button>
+        <button class="button" :disabled="loadMoreArticlesButtonDisabled" v-if="!allArticlesLoaded" @click="getRestOfArticles()">
+            <span v-if="!loadMoreArticlesButtonDisabled">Alle Artikel laden</span>
+            <div v-else class="spinner"></div>
+        </button>
 
     </NuxtLayout>
 </template>
 
 <style lang="scss" scoped>
-    h1 {
-        width: calc(100% - 20px);
-        max-width: 1080px;
-        font-weight: 700;
-        margin: 0.6em auto 0.3em;
+h1 {
+    width: calc(100% - 20px);
+    max-width: 1080px;
+    font-weight: 700;
+    margin: 0.6em auto 0.3em;
 
-        @media (min-width: 500px) {
-            width: calc(100% - 40px);
+    @media (min-width: 500px) {
+        width: calc(100% - 40px);
+    }
+}
+
+// .centered {
+//     width: calc(100% - 20px);
+//     max-width: 1080px;
+//     margin: 0 auto;
+// }
+
+.button {
+    border-radius: 15px;
+    margin: 1rem auto;
+    background-color: rgb(255, 153, 0);
+    border: none;
+    color: white;
+    width: 12em;
+    height: 3em;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 150ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        transform: scale(1.02);
+    }
+
+
+    .spinner {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 4px solid #ffffff;
+        animation: spinner-bulqg1 0.8s infinite linear alternate,
+                spinner-oaa3wk 1.6s infinite linear;
+    }
+
+    @keyframes spinner-bulqg1 {
+        0% {
+            clip-path: polygon(50% 50%, 0 0, 50% 0%, 50% 0%, 50% 0%, 50% 0%, 50% 0%);
+        }
+
+        12.5% {
+            clip-path: polygon(50% 50%, 0 0, 50% 0%, 100% 0%, 100% 0%, 100% 0%, 100% 0%);
+        }
+
+        25% {
+            clip-path: polygon(50% 50%, 0 0, 50% 0%, 100% 0%, 100% 100%, 100% 100%, 100% 100%);
+        }
+
+        50% {
+            clip-path: polygon(50% 50%, 0 0, 50% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%);
+        }
+
+        62.5% {
+            clip-path: polygon(50% 50%, 100% 0, 100% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%);
+        }
+
+        75% {
+            clip-path: polygon(50% 50%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 50% 100%, 0% 100%);
+        }
+
+        100% {
+            clip-path: polygon(50% 50%, 50% 100%, 50% 100%, 50% 100%, 50% 100%, 50% 100%, 0% 100%);
         }
     }
 
-    // .centered {
-    //     width: calc(100% - 20px);
-    //     max-width: 1080px;
-    //     margin: 0 auto;
-    // }
+    @keyframes spinner-oaa3wk {
+        0% {
+            transform: scaleY(1) rotate(0deg);
+        }
 
-    .button {
-        border-radius: 15px;
-        margin: 1rem auto;
-        background-color: rgb(255, 153, 0);
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: block;
-        font-size: 1rem;
-        cursor: pointer;
-        transition: all 150ms;
+        49.99% {
+            transform: scaleY(1) rotate(135deg);
+        }
 
-        &:hover {
-            transform: scale(1.02);
+        50% {
+            transform: scaleY(-1) rotate(0deg);
+        }
+
+        100% {
+            transform: scaleY(-1) rotate(-135deg);
         }
     }
+}
 </style>
 

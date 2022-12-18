@@ -11,9 +11,11 @@ import {
 } from 'vue-instantsearch/vue3/es/index.js';
 import 'instantsearch.css/themes/satellite-min.css';
 
+const config = useRuntimeConfig()
+
 const searchClient = ref(instantMeiliSearch(
-    "http://0.0.0.0:7700",
-    "vbMGCSZKMd3hIvseRBdnlN_CYNdd98xffIMT2AHD694rLPpVPlQw2MpLZ2J9cADQ7HZpYL7i5MtKNwqh-rHDyA"
+    config.public.meiliURL,
+    config.public.meiliSearchKey
 ))
 
 const showResults = ref(false)
@@ -33,7 +35,7 @@ const unfocusSearchBox = () => {
 
                 <AisHits v-if="hits.length > 0 && showResults" :escape-HTML="true">
                     <template v-slot:item="{ item }">
-                        <NuxtLink class="link123" @mousedown.prevent @click="unfocusSearchBox()" :to="'test'">
+                        <NuxtLink @mousedown.prevent @click="unfocusSearchBox()" :to="item._path">
                             <h2>
                                 <AisHighlight
                                     attribute="title"
