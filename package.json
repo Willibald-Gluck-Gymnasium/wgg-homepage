@@ -2,6 +2,7 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
+    "buildforplesk": "nuxt build && echo 'import(\"./index.mjs\")' > ./.output/server/entry.js",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview"
