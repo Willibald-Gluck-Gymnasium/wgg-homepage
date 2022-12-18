@@ -1,3 +1,9 @@
+<script setup>
+useHead({
+    title: 'Credits'
+})
+</script>
+
 <template>
     <NuxtLayout>
         <div style="margin: 0 auto; width: min(1080px, 100% - 20px)">
