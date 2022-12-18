@@ -31,7 +31,8 @@ if (process.server) {
         articles = articles.map((article) => {
             return {
                 id: createHash('sha1').update(article._path).digest('base64url'),
-                ...article,
+                title: article.title,
+                _path: article._path,
                 plaintext: renderContent(article.body).replaceAll('\n',' ').replace(/  +/g, ' ').trim()
             }
         })
