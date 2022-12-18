@@ -12,22 +12,18 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '@nuxt/image-edge',
   ],
-  head: {
-    script: {
-      src: '/js/modernizr.js'
+
+  runtimeConfig: {
+    // Private keys are only available on the server 
+    meiliAdminKey: '', // NUXT_MEILI_ADMIN_KEY
+
+    // Public keys that are exposed to the client 
+    public: {
+      meiliURL: '', // NUXT_PUBLIC_MEILI_URL
+      meiliSearchKey: '' // NUXT_PUBLIC_MEILI_SEARCH_KEY
     }
   },
-  hooks: {
-    'build:done': async () => {
-      // const articles = await fetch('127.0.0.1:3000/api/_content/query')
-      // const client = new MeiliSearch({ 
-      //   host: 'http://localhost:7700',
-      //   apiKey: 'vbMGCSZKMd3hIvseRBdnlN_CYNdd98xffIMT2AHD694rLPpVPlQw2MpLZ2J9cADQ7HZpYL7i5MtKNwqh-rHDyA',
-      // })
-      // client.index('articles').addDocuments(articles)
-      //   .then((res) => console.log(res))
-    }
-  },
+
   content: {
     defaultLocale: 'de'
   },

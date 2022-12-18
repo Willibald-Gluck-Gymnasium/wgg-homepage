@@ -22,7 +22,7 @@ const closeNavMenu = ref(() => {
 onMounted(async () => {
     await nextTick()
     closeNavMenu.value = navigationMenu.value.closeDropdown
-    navigationMenu.value.closeDropdown = () => {}
+    // navigationMenu.value.closeDropdown = () => {}
 })
 
 const menu = [
@@ -45,7 +45,7 @@ const menu = [
                 <school-logo />
             </NuxtLink>
 
-            <SearchBar v-if="false" class="searchbar"/>
+            <SearchBar v-if="true" class="searchbar"/>
 
             <client-only>
 
