@@ -3,7 +3,7 @@ date: 2020.01.01
 title: MathEx
 tags: [Excellence, NTG Zweig, Alle Projekte, Übergreifendes]
 thumbnail: 
-    src: 'mathex.jpg'
+    src: 'mathex16.jpg'
     alt: 'Schüler*innen stehen auf dem Pausenhof' 
 ---
 

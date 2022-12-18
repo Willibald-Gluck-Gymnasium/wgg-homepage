@@ -3,8 +3,8 @@ date: 2020.01.01
 title: Latein Lehrwerk
 tags: [Latein, Unterricht]
 thumbnail:
-src: latein-thumbmail.jpg
-alt: Eine Tafel mit lateinischer Aufschrift
+    src: latein-thumbmail.jpg
+    alt: Eine Tafel mit lateinischer Aufschrift
 ---
 
 <h2>Unser Lehrwerk: <strong>Adeamus! Ausgabe C<strong></h2>

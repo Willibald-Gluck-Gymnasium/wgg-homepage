@@ -2,7 +2,7 @@
 date: 2020.01.01
 pinned: true
 title: Anmeldung zum Info-Portal
-tags: [Neuigkeiten, Elternbrief]
+tags: [Neuigkeiten, Elternbrief, Infoportal]
 author: 'Bernhard Schiffer'
 thumbnail: 
     src: infoportal-login.jpg
