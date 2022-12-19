@@ -71,3 +71,39 @@ thumbnail:
     <figcaption>Ein Foto der roten Schule von vorne</figcaption>
 </figure>
 ```
+
+### Pin/Highlight articles+
+
+Pinned articles will appear in the Highlights Section of the homepage.
+
+```yaml
+---
+title: 'Beispiel Artikel'
+pinned: true
+...
+---
+```
+
+### Hide Articles
+
+Hidden articles will not appear on the homepage or on the category view. It is searchable though.
+
+```yaml
+---
+title: 'Beispiel Artikel'
+hidden: true
+...
+---
+```
+
+### Redirect from article
+
+If the redirect property is set on an article, the user will be redirected to the set url. The history entry will be replaced. 
+
+```yaml
+---
+title: 'Beispiel Artikel'
+redirect: '/tag/Bücher'
+...
+---
+```
