@@ -14,7 +14,7 @@ const slides = (await Promise.all(articlesInSlide.map((path) => {
 
 
 
-const articleCards = ref(await queryContent('/').sort({ title: 1, date: -1, }).where({pinned: { $ne: true }}).only(['_path', 'date', 'title', 'tags', 'thumbnail', 'pinned']).limit(20).find())
+const articleCards = ref(await queryContent('/').sort({ title: 1, date: -1, }).where({ pinned: { $ne: true }, hidden: { $ne: true } }).only(['_path', 'date', 'title', 'tags', 'thumbnail', 'pinned']).limit(20).find())
 
 const highlightedArticlesCards = await queryContent('/').sort({ title: 1, date: -1, }).where({pinned: { $eq: true } }).only(['_path', 'date', 'title', 'tags', 'thumbnail', 'pinned']).find()
 
@@ -28,7 +28,7 @@ const getRestOfArticles = async () => {
 
     const { data, pending, error, refresh } = await useAsyncData(
         'fetchRemainingArticles', 
-        () => queryContent('/').sort({ title: 1, date: -1, }).where({pinned: { $ne: true }}).only(['_path', 'date', 'title', 'tags', 'thumbnail', 'pinned']).skip(20).find()
+        () => queryContent('/').sort({ title: 1, date: -1, }).where({ pinned: { $ne: true }, hidden: { $ne: true } }).only(['_path', 'date', 'title', 'tags', 'thumbnail', 'pinned']).skip(20).find()
     )
 
     console.log({data: data.value, pending: pending.value, error: error.value})
