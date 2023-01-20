@@ -1,7 +1,11 @@
 <script setup>
 import readingTime from 'reading-time/lib/reading-time.js'
 
-const meta = await queryContent().where({ _path: useRoute().path }).only(['title', 'author', 'category', 'tags']).findOne()
+const meta = await queryContent().where({ _path: useRoute().path }).only(['title', 'author', 'category', 'tags', 'redirect']).findOne()
+
+if ('redirect' in meta) {
+    await navigateTo(meta.redirect, { replace: true, external: true })
+}
 
 const category = meta.tags?.[0] || 'Allgemein'
 
