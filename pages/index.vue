@@ -56,6 +56,10 @@ useHead({
 
         <slideshow :slides="slides"></slideshow>
 
+        <h1>Termine</h1>
+
+        <Schedule></Schedule>
+
 
         <template v-if="highlightedArticlesCards.length > 0">
             <h1>Highlights</h1>

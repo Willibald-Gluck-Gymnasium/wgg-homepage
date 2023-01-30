@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="260" viewBox="0 0 1080 260">
+    <defs>
+        <filter id="f1" x="0" y="0">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="80" />
+        </filter>
+        <style>
+        .a{fill:#ff881a;}.b{fill:#f4cb00;}.c{fill:#005cff;}.d{fill:#00aa10;}.e{fill:#fff;opacity:0.5; }
+        </style>
+    </defs>
+
+    <g class="group" filter="url(#f1)">
+        <ellipse class="a" cx="123.17" cy="118.36" rx="198.37" ry="187.08"/>
+        <ellipse class="b" cx="1055.87" cy="174.09" rx="217.02" ry="155.39"/>
+        <ellipse class="c" cx="609" cy="47.12" rx="422.42" ry="105.4"/>
+        <ellipse class="d" cx="560.11" cy="220.5" rx="286.48" ry="84.98"/>
+    </g>
+
+    <rect class="e" width="1080" height="260"/>
+
+</svg>
