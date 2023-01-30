@@ -38,7 +38,7 @@ const props = defineProps({
     background-color: hsla(0, 0%, 100%, 0.4);
     border-radius: 10px;
     display: grid;
-    grid-template-rows: min-content auto auto;
+    grid-template-rows: min-content min-content min-content auto;
     -webkit-backdrop-filter: saturate(180%);
     backdrop-filter: saturate(180%);
     transition: all 0.2s;
@@ -59,7 +59,9 @@ const props = defineProps({
     }
 
     h3 {
-        margin: 0;
+        align-self: center;
+        margin: 0.25em 0 0.25em;
+        line-height: 1;
     }
 
     .details {

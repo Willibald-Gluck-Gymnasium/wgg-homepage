@@ -38,14 +38,17 @@ const events = [
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-    padding: 20px;
+    padding: 10px;
     gap: 10px;
-
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+
+    @media (min-width: 700px) {
+        grid-template-columns: 1fr 1fr;
+	}
 	
 	@media (min-width: 500px) {
+        padding: 20px;
 		width: calc(100% - 40px);
 	}
 }
