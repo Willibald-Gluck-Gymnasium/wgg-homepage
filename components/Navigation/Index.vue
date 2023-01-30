@@ -22,7 +22,7 @@ const closeNavMenu = ref(() => {
 onMounted(async () => {
     await nextTick()
     closeNavMenu.value = navigationMenu.value.closeDropdown
-    // navigationMenu.value.closeDropdown = () => {}
+    navigationMenu.value.closeDropdown = () => {}
 })
 
 const menu = [
