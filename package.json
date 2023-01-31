@@ -19,6 +19,7 @@
     "@meilisearch/instant-meilisearch": "^0.8.2",
     "@nuxtjs/google-fonts": "^3.0.0-0",
     "argon2": "^0.30.3",
+    "bcrypt": "^5.1.0",
     "date-and-time": "^2.4.2",
     "flickity": "^3.0.0",
     "instantsearch.css": "^7.4.5",

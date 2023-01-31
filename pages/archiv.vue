@@ -7,8 +7,6 @@ const cards = (await Promise.all([
     queryContent('/').sort({ title: 1, date: -1, }).where({ pinned: { $ne: true }, hidden: { $ne: true }, expireOn: { $lte: now }}).only(['_path', 'pinned', 'date', 'title', 'tags', 'thumbnail', 'pinned']).find(),
 ])).flat()
 
-console.log(cards)
-
 useHead({
     title: 'Archiv'
 })

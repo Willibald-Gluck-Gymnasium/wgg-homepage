@@ -1,28 +1,5 @@
 <script setup>
-const events = ref([
-    {
-        timestamp: new Date('2023-02-15T08:25:00'),
-        title: "Elternsprechtag",
-        details: "Wir heißen sie herzlich willkommen in unserer Schule un wünschen ihnen einen guten Aufenthalt."
-    },
-    {
-        timestamp: new Date('2023-02-12T15:02:00'),
-        title: "Elternsprechtag",
-        details: "Wir heißen sie herzlich willkommen in unserer ihnen einen guten Aufenthalt."
-    },
-    {
-        timestamp: new Date('2023-12-02T08:00:00'),
-        title: "Zeugnisausgabe der Oberstufe und Sektempfang",
-        details: ""
-    }
-])
-
-if (process.client) {
-    let savedEvents = JSON.parse(localStorage.getItem('events'))
-    if (savedEvents !== null) {
-        events.value = savedEvents
-    }
-}
+const events = ref([])
 
 const props = defineProps({
     events: {
@@ -32,7 +9,13 @@ const props = defineProps({
 })
 
 if (props.events === undefined) {
-    // get from server
+    
+    const { data, pending, error, refresh } = await useFetch('/api/getSchedule', {
+        method: 'GET'
+    })
+
+    events.value = data.value.data.events
+
 } else {
     events.value = props.events
 }

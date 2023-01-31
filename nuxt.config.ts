@@ -16,6 +16,11 @@ export default defineNuxtConfig({
   runtimeConfig: {
     // Private keys are only available on the server 
     JWTSecret: '', // NUXT_JWT_SECRET
+    MariaDBHost: '',
+    MariaDBDefaultDatabase: '',
+    MariaDBUser: '',
+    MariaDBPassword: '',
+    MariaDBPort: '3306',
     meiliAdminKey: '', // NUXT_MEILI_ADMIN_KEY
 
     // Public keys that are exposed to the client 

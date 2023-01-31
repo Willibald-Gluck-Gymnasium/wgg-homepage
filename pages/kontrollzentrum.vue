@@ -1,32 +1,29 @@
 <script setup>
 import date from 'date-and-time'
 
-const events = ref([
-    {
-        timestamp: date.format(new Date('2023-02-15T08:25:00'), 'YYYY-MM-DDThh:mm'),
-        title: "test",
-        details: "Wir heißen sie herzlich willkommen in unserer Schule un wünschen ihnen einen guten Aufenthalt."
-    },
-    {
-        timestamp: date.format(new Date('2023-02-15T08:25:00'), 'YYYY-MM-DDThh:mm'),
-        title: "Elternsprechtag",
-        details: "Wir heißen sie herzlich willkommen in unserer ihnen einen guten Aufenthalt."
-    },
-    {
-        timestamp: date.format(new Date('2023-02-15T08:25:00'), 'YYYY-MM-DDThh:mm'),
-        title: "Zeugnisausgabe der Oberstufe und Sektempfang",
-        details: ""
-    }
-])
+useHead({
+    title: 'Kontrollzentrum'
+})
 
-if (process.client) {
-    let savedEvents = JSON.parse(localStorage.getItem('events'))
-    console.table(savedEvents);
-    if (savedEvents !== null) {
-        events.value = savedEvents
-    }
-}
 
+
+onMounted(async () => {
+    await nextTick()
+    if (process.client) {
+        const authToken = localStorage.getItem('authtoken')
+        if (typeof authToken !== 'string') {
+            navigateTo('/login')
+        }
+    }
+})
+
+const events = ref([])
+
+const { data, pending, error, refresh } = await useFetch('/api/getSchedule', {
+    method: 'GET'
+})
+
+events.value = data.value.data.events
 
 function addNewEvent() {
     const newEvent = {
@@ -37,10 +34,41 @@ function addNewEvent() {
     events.value.push(newEvent)
 }
 
+const loading = ref(false)
+const formError = ref(false)
+const unsavedChanges = ref(false)
+
+watch(events, () => {
+    console.log("change")
+    unsavedChanges.value = true
+}, {deep: true})
+
 async function saveData() {
-    console.log('savingData')
-    localStorage.setItem('events', JSON.stringify(events.value))
+    loading.value = true
+    formError.value = false
+
+    const { data, pending, error, refresh } = await useFetch('/api/saveSchedule', {
+        method: 'POST',
+        headers: {
+            authtoken: localStorage.getItem('authtoken')
+        },
+        body: {
+            events: events.value
+        }
+    })
+
+    if (error.value) {
+        formError.value = true
+    } else if (data.value.status !== 'success') {
+        formError.value = true
+    } else {
+        unsavedChanges.value = false
+    }
+
+    loading.value = false
+
 }
+
 </script>
 
 <template>
@@ -49,9 +77,9 @@ async function saveData() {
 
     <Schedule :events="events"></Schedule>
 
-    <form @submit.prevent="saveData()">
+    <form style="margin-top: 20px" @submit.prevent="saveData()">
 
-        <div class="event-group" style="margin-top: 20px" v-for="(eventObject, index) in events">
+        <div class="event-group" v-for="(eventObject, index) in events">
             <div class="input-group">
                 <label for="timestamp">Zeitpunkt</label>
                 <input type="datetime-local" id="timestamp" v-model="eventObject.timestamp">
@@ -70,11 +98,14 @@ async function saveData() {
             <input @click="events.splice(index, 1)" class="delete" type="button" value="Löschen">
         </div>
 
-        <div class="button-group" style="margin-top: 20px">
+        <div v-if="formError" class="notification error">Die Termine konnten nicht gespeichert werden.</div>
+        <div v-if="unsavedChanges" class="notification warning">Achtung, es gibt ungespeicherte Änderungen.</div>
+
+        <div class="button-group">
 
             <button class="new-event" @click.prevent="addNewEvent()">Neuer Termin</button>
 
-            <input class="confirm" type="submit" value="Speichern">
+            <Button style="background-color: rgb(37, 62, 254);" type="submit" ref="button" :loading="loading">Speichern</Button>
 
         </div>
     
@@ -106,9 +137,26 @@ form {
     width: calc(100% - 20px);
     max-width: 1080px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 
     @media (min-width: 500px) {
         width: calc(100% - 40px);
+    }
+
+    .notification {
+        width: 100%;
+        border-radius: 20px;
+        padding: 15px 30px;
+
+        &.warning {
+            background-color: hsl(61, 100%, 65%);
+        }
+        &.error {
+            background-color: hsl(0, 100%, 60%);
+            color: #FFF;
+        }
     }
 }
 .event-group {
