@@ -72,6 +72,20 @@ thumbnail:
 </figure>
 ```
 
+#### Retain transparancy by adding `format="png"`
+```html
+<img src="/images/schule.jpg" format="png" alt="Ein Foto der roten Schule von vorne">
+```
+
+### Other options
+```html
+<img src="src" alt="alt" width="width" height="height" format="format" preset="preset">
+```
+
+[More Info](https://image.nuxtjs.org/components/nuxt-img)
+
+
+
 ### Pin/Highlight articles
 
 Pinned articles will appear in the Highlights Section of the homepage and appear first on the tag site.

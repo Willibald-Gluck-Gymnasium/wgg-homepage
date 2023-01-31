@@ -20,6 +20,6 @@ Den größten Anteil am Informatikunterricht der Mittelstufe hat wohl das umfass
 
 In den Themenschwerpunkten, die in der 11. Jahrgangsstufe folgen, haben sie dann die Gelegenheit, das Gelernte in __verschiedenen Anwendungsgebieten der Informatik__ einzusetzen. Diese Themenbereiche sind Codierung und Verschlüsselung, maschinelles Lernen und weitere Aspekte künstlicher Intelligenz, Algorithmen auf Graphen sowie Kommunikation in Netzwerken.
 
-<img src="/images/NetworkingGraphic.png" alt="Routerloses LAN mit 4PCs und einem Server">
-<img src="/images/AIGraphic.png" alt="Grafik eines Gehirnes geüllt mit Punkten">
+<img format="png" src="/images/NetworkingGraphic.png" alt="Routerloses LAN mit 4PCs und einem Server">
+<img format="png" src="/images/AIGraphic.png" alt="Grafik eines Gehirnes geüllt mit Punkten">
 <img src="/images/QRCodeInfo.jpg" alt="Ein QRCode, der vom Strichmännchen gebastelt Wiederhole">
