@@ -1,5 +1,8 @@
 <script setup>
-const tag = useRoute().params.slug
+const slug = useRoute().params.slug
+const tags = slug.split('+')
+const title = tags.join(', ')
+
 // const cards = await queryContent().where({ tags: { $contains: tag } }).only(['title', 'author', 'category', 'tags', 'thumbnail', '_path']).find()
 
 const now = new Date(Date.now()).toISOString()
@@ -11,12 +14,12 @@ const notExpired = {
 }
 
 const cards = (await Promise.all([
-    queryContent('/').sort({ title: 1, date: -1, }).where({tags: { $contains: tag }, pinned: { $eq: true }, ...notExpired, hidden: { $ne: true }}).only(['_path', 'pinned', 'date', 'title', 'tags', 'thumbnail', 'pinned']).find(),
-    queryContent('/').sort({ title: 1, date: -1, }).where({tags: { $contains: tag }, pinned: { $ne: true }, ...notExpired, hidden: { $ne: true }}).only(['_path', 'pinned', 'date', 'title', 'tags', 'thumbnail', 'pinned']).find(),
+    queryContent('/').sort({ title: 1, date: -1, }).where({tags: { $containsAny: tags }, pinned: { $eq: true }, ...notExpired, hidden: { $ne: true }}).only(['_path', 'pinned', 'date', 'title', 'tags', 'thumbnail', 'pinned']).find(),
+    queryContent('/').sort({ title: 1, date: -1, }).where({tags: { $containsAny: tags }, pinned: { $ne: true }, ...notExpired, hidden: { $ne: true }}).only(['_path', 'pinned', 'date', 'title', 'tags', 'thumbnail', 'pinned']).find(),
 ])).flat()
 
 useHead({
-    title: tag
+    title: title
 })
 
 </script>
@@ -25,7 +28,7 @@ useHead({
     <NuxtLayout>
         <main>
             <template v-if="cards.length > 0">
-                <h1>Artikel verwandt mit: {{ tag }}</h1>
+                <h1>Artikel verwandt mit: {{ title }}</h1>
                 <CardCluster :cards="cards"/>
             </template>
 

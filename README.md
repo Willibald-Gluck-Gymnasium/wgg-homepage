@@ -134,3 +134,13 @@ redirect: '/tag/Bücher'
 ...
 ---
 ```
+
+## Misc
+
+### Searching by tags
+
+You can display all articles containing a tag (or one of multiple tags). Tags are seperated by a plus sign.
+
+`http://localhost:3000/tag/Geschichte`
+
+`http://localhost:3000/tag/Geschichte+Mathe+Deutsch`

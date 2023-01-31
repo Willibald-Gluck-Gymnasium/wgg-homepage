@@ -74,11 +74,9 @@ const menuItems = {
 
 <style lang="scss" scoped>
 .container {
-    padding-bottom: 25px !important;
 
     @media (min-width: 770px) {
         width: 750px !important;
-
     }
 
 
