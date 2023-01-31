@@ -158,3 +158,18 @@ You can display all articles containing a tag (or one of multiple tags). Tags ar
 `http://localhost:3000/tag/Geschichte`
 
 `http://localhost:3000/tag/Geschichte+Mathe+Deutsch`
+
+
+## Database 
+
+To enable login functionality you need to connect a database (MariaDB) and a json web token.
+
+```
+NUXT_MARIA_DB_HOST = localhost
+NUXT_MARIA_DB_DEFAULT_DATABASE = database
+NUXT_MARIA_DB_USER = user
+NUXT_MARIA_DB_PASSWORD = password
+NUXT_MARIA_DB_PORT = 3306
+
+NUXT_JWT_SECRET = 5e3b515547be8f9547d562991f2e7b1d5f5aca309e076763ef3388c8604db5e4
+```

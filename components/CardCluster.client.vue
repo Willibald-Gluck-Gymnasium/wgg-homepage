@@ -56,7 +56,6 @@ onMounted(async () => {
 
 
 watch(cardsRef, async (cards) => {
-	console.log("Changed");
 	await nextTick()
 	isotope.reloadItems()
 	isotope.arrange()
