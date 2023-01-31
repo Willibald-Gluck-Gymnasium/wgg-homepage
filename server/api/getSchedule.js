@@ -16,10 +16,20 @@ export default defineEventHandler(async (event) => {
 
   conn.end()
 
+  let events
+  try {
+    events = JSON.parse(JSON.stringify(res[0].eventdata))
+  } catch (error) {
+    events = error
+  }
+  
+
   return {
     status: "success",
     data: {
-        events: JSON.parse(res[0].eventdata)
+      events: events,
+      unparsedEvents: res[0].eventdata,
+      rawResponse: res
     }
   }
 
