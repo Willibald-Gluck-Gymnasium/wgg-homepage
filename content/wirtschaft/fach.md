@@ -1,5 +1,5 @@
 ---
-date: 2020.01.01
+date: 2020-01-01
 title: Das neue Fach „Wirtschaft und Recht“
 tags: [Wirtschaft und Recht, Unterricht]
 thumbnail:

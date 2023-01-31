@@ -1,5 +1,5 @@
 ---
-date: 2021.08.10
+date: 2021-08-10
 title: Geologie und Tourismus in den Alpen
 tags: [Geographie, Unterricht]
 thumbnail: 

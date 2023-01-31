@@ -1,5 +1,5 @@
 ---
-date: 2020.01.01
+date: 2020-01-01
 title: Seminarlehrkräfte am WGG
 tags: [Gemeinschaft, Seminar]
 thumbnail: 

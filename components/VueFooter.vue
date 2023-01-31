@@ -25,6 +25,8 @@
         <br>
         <NuxtLink class="link" to="/datenschutzhinweise">Datenschutz</NuxtLink>
         <br>
+        <NuxtLink class="link" to="/archiv">Archiv</NuxtLink>
+        <br>
         <!-- <NuxtLink class="link" :href="'/credits'">Credits</NuxtLink> -->
         <a class="link" href="/credits">Credits</a>
       </div>

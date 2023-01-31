@@ -5,9 +5,17 @@ const title = tags.join(', ')
 
 // const cards = await queryContent().where({ tags: { $contains: tag } }).only(['title', 'author', 'category', 'tags', 'thumbnail', '_path']).find()
 
+const now = new Date(Date.now()).toISOString()
+const notExpired = {
+    $or: [
+        { expireOn: { $exists: false } },
+        { expireOn: { $gt: now } }
+    ]
+}
+
 const cards = (await Promise.all([
-    queryContent('/').sort({ title: 1, date: -1, }).where({tags: { $containsAny: tags }, pinned: { $eq: true }}).only(['_path', 'pinned', 'date', 'title', 'tags', 'thumbnail', 'pinned']).find(),
-    queryContent('/').sort({ title: 1, date: -1, }).where({tags: { $containsAny: tags }, pinned: { $ne: true }, hidden: { $ne: true }}).only(['_path', 'pinned', 'date', 'title', 'tags', 'thumbnail', 'pinned']).find(),
+    queryContent('/').sort({ title: 1, date: -1, }).where({tags: { $containsAny: tags }, pinned: { $eq: true }, ...notExpired, hidden: { $ne: true }}).only(['_path', 'pinned', 'date', 'title', 'tags', 'thumbnail', 'pinned']).find(),
+    queryContent('/').sort({ title: 1, date: -1, }).where({tags: { $containsAny: tags }, pinned: { $ne: true }, ...notExpired, hidden: { $ne: true }}).only(['_path', 'pinned', 'date', 'title', 'tags', 'thumbnail', 'pinned']).find(),
 ])).flat()
 
 useHead({

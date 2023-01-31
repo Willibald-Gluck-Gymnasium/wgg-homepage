@@ -1,5 +1,5 @@
 ---
-date: 2020.01.01
+date: 2020-01-01
 title: ENERGIEGELADEN - Kooperation von WGG und N-Ergie
 
 tags: [Naturwissenschaften, MintEC, Alle Projekte]

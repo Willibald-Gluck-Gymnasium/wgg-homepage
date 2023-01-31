@@ -1,5 +1,5 @@
 ---
-date: 2020.01.01
+date: 2020-01-01
 title: Gründung der WGGenossenschaft
 tags: [Wirschaft und Recht, Unterricht, Schülergenossenschaft]
 thumbnail:

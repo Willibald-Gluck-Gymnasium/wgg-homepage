@@ -1,5 +1,5 @@
 ---
-date: 2022.01.01
+date: 2022-01-01
 title: Fachsitzung
 tags: [Wirtschaft und Recht, Fachsitzung]
 thumbnail:

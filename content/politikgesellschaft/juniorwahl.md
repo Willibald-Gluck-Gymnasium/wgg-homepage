@@ -1,5 +1,5 @@
 ---
-date: 2022.01.01
+date: 2022-01-01
 title: Juniorwahl am WGG
 tags: [Politik und Gesellschaft, Unterricht, Juniorwahl]
 thumbnail: 

@@ -1,5 +1,5 @@
 ---
-date: 2020.01.01
+date: 2020-01-01
 title: Verein der Freunde des WGG
 tags: [Verein der Freunde, Elternbrief, Gemeinschaft]
 thumbnail: 

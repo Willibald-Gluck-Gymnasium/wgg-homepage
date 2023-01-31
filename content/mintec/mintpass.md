@@ -1,5 +1,5 @@
 ---
-date: 2020.01.01
+date: 2020-01-01
 title: MINT-Pass Neumarkt
 tags: [Naturwissenschaften, MintEC]
 thumbnail: 
