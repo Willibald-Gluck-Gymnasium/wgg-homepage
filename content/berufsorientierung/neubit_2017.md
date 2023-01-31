@@ -1,5 +1,5 @@
 ---
-date: 2020.01.01
+date: 2020-01-01
 title: NeuBIT 2017
 tags: [Archiv, NeuBIT]
 thumbnail: 

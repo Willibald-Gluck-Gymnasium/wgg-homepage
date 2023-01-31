@@ -1,5 +1,5 @@
 ---
-date: 2020.01.01
+date: 2020-01-01
 title: Die Ukraine unterstützen - mit Brezen und Kuchen
 tags: [Alle Projekte, Übergreifendes, Gemeinschaft]
 thumbnail: 
