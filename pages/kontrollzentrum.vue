@@ -5,8 +5,6 @@ useHead({
     title: 'Kontrollzentrum'
 })
 
-
-
 onMounted(async () => {
     await nextTick()
     if (process.client) {
@@ -72,6 +70,7 @@ async function saveData() {
 
 <template>
 <NuxtLayout>
+    <NuxtLink to="/logout" class="logout">Abmelden</NuxtLink>
     <h1>Termine</h1>
 
     <Schedule :events="events"></Schedule>
@@ -121,15 +120,25 @@ async function saveData() {
 </template>
 
 <style scoped lang="scss">
-h1 {
+h1, .logout {
     width: calc(100% - 20px);
     max-width: 1080px;
-    font-weight: 700;
-    margin: 0.6em auto 0.3em;
+    margin: 0 auto;
 
     @media (min-width: 500px) {
         width: calc(100% - 40px);
     }
+}
+.logout {
+    display: block;
+    color: hsl(0, 100%, 50%);
+    // text-decoration: none; 
+    margin-top: 1rem;
+    font-weight: bold;
+}
+h1 {
+    font-weight: 700;
+    margin: 0.3em auto 0.3em;
 }
 
 form {
