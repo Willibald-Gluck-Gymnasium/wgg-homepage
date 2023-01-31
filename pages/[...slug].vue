@@ -1,7 +1,7 @@
 <script setup>
 import readingTime from 'reading-time/lib/reading-time.js'
 
-const meta = await queryContent().where({ _path: useRoute().path }).only(['title', 'author', 'category', 'tags', 'redirect']).findOne()
+const meta = await queryContent().where({ _path: useRoute().path }).only(['title', 'author', 'category', 'tags', 'redirect', 'expireOn']).findOne()
 
 if ('redirect' in meta) {
     await navigateTo(meta.redirect, { replace: true, external: true })
@@ -25,6 +25,8 @@ onMounted(() => {
     })()
 })
 
+const now = new Date(Date.now()).toISOString()
+
 </script>
 
 <template>
@@ -37,6 +39,9 @@ onMounted(() => {
                     <span v-if="meta.author" class="author"> {{ meta.author }} </span>
                     <span v-if="meta.author"> - </span>
                     <span class="readtime">Lesezeit: {{ lesezeit }}</span>
+                    <span v-if="meta.expireOn <= now"> - </span>
+                    <span v-if="meta.expireOn <= now">Archiviert</span>
+
                 </div>
                 <ContentDoc>
                     <template #not-found>
