@@ -19,7 +19,7 @@ export default defineEventHandler(async (event) => {
   return {
     status: "success",
     data: {
-        events: res[0].eventdata
+        events: JSON.parse(res[0].eventdata)
     }
   }
 
