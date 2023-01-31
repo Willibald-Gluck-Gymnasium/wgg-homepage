@@ -38,7 +38,14 @@ onMounted(() => {
                     <span v-if="meta.author"> - </span>
                     <span class="readtime">Lesezeit: {{ lesezeit }}</span>
                 </div>
-                <ContentDoc />
+                <ContentDoc>
+                    <template #not-found>
+                        <h1>Artikel nicht gefunden</h1>
+                    </template>
+                    <template #empty>
+                        <h1>Artikel nicht gefunden</h1>
+                    </template>
+                </ContentDoc>
             </article>
         </main>
     </NuxtLayout>
