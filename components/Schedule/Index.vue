@@ -1,27 +1,46 @@
 <script setup>
-const events = [
+const events = ref([
     {
-        date: new Date('2023-02-15T08:25:00'),
+        timestamp: new Date('2023-02-15T08:25:00'),
         title: "Elternsprechtag",
         details: "Wir heißen sie herzlich willkommen in unserer Schule un wünschen ihnen einen guten Aufenthalt."
     },
     {
-        date: new Date('2023-02-12T15:02:00'),
+        timestamp: new Date('2023-02-12T15:02:00'),
         title: "Elternsprechtag",
         details: "Wir heißen sie herzlich willkommen in unserer ihnen einen guten Aufenthalt."
     },
     {
-        date: new Date('2023-12-02T08:00:00'),
+        timestamp: new Date('2023-12-02T08:00:00'),
         title: "Zeugnisausgabe der Oberstufe und Sektempfang",
         details: ""
-    },
-    
-]
+    }
+])
+
+if (process.client) {
+    let savedEvents = JSON.parse(localStorage.getItem('events'))
+    if (savedEvents !== null) {
+        events.value = savedEvents
+    }
+}
+
+const props = defineProps({
+    events: {
+        required: false,
+        type: Array
+    }
+})
+
+if (props.events === undefined) {
+    // get from server
+} else {
+    events.value = props.events
+}
 </script>
 
 <template>
     <div class="schedule">
-        <ScheduleEventItem v-for="event in events" :datetime="event.date" :title="event.title" :details="event.details"/>
+        <ScheduleEventItem v-for="event in events" :timestamp="event.timestamp" :title="event.title" :details="event.details"/>
     </div>
 </template>
 
@@ -48,7 +67,7 @@ const events = [
 	}
 	
 	@media (min-width: 500px) {
-        padding: 20px;
+        // padding: 20px;
 		width: calc(100% - 40px);
 	}
 }

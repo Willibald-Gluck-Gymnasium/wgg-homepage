@@ -7,7 +7,7 @@ date.locale(de)
 
 
 const props = defineProps({
-    datetime: {
+    timestamp: {
         required: true
     },
     title: {
@@ -25,7 +25,7 @@ const props = defineProps({
     <div class="item">
         <div class="datetime-row">
             <img class="dot" :src="dot" alt="orange dot">
-            <span>{{ date.format(props.datetime, 'ddd D. MMM YYYY H:mm') }} Uhr</span>
+            <span>{{ date.format(new Date(props.timestamp), 'ddd D. MMM YYYY H:mm') }} Uhr</span>
         </div>
         <h3>{{ props.title }}</h3>
         <div class="details">{{ props.details }}</div>
