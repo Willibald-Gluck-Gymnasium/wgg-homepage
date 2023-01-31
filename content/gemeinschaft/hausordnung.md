@@ -1,5 +1,5 @@
 ---
-date: 2020.01.01
+date: 2020-01-01
 title: Hausordnung
 tags: [Gemeinschaft, Leitbild des WGG]
 thumbnail: 

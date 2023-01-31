@@ -1,5 +1,5 @@
 <template>
-    <nuxt-img :src="src" :alt="alt" :width="width" :height="height" :preset="preset"/>
+    <nuxt-img :src="src" :alt="alt" :width="width" :height="height" :format="format" :preset="preset"/>
 </template>
   
 <script setup lang="ts">
@@ -23,6 +23,9 @@ const props = defineProps({
     preset: {
         type: String,
         default: 'article'
+    },
+    format: {
+        type: String
     }
 })
 </script>

@@ -1,5 +1,5 @@
 ---
-date: 2022.01.01
+date: 2022-01-01
 title: MBO am WGG
 tags: [Wirtschaft und Recht, Unterricht, MBO]
 thumbnail:

@@ -1,7 +1,7 @@
 <template>
-    <NuxtLink :to="`/tag/${link || text}`" class="menu-item">
+    <NuxtLink :to="`/tag/${link || text}`" :class="{'menu-item': true, 'header': element === 'h4'}">
         <component v-if="icon" class="icon" :is="icon" />
-        <span>{{ text }}</span>
+        <component :is="element">{{ text }}</component>
     </NuxtLink>
 </template>
 
@@ -17,11 +17,16 @@ const props = defineProps({
     },
     icon: {
         type: Object
+    },
+    element: {
+        type: String,
+        default: 'span'
     }
 })
 </script>
 
 <style scoped lang="scss">
+
 
 .menu-item {
     text-decoration: none;
@@ -29,10 +34,21 @@ const props = defineProps({
     color: hsl(0, 0%, 20%);
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
     position: relative;
     z-index: 850;
     padding: 5px 0;
+
+    &.header {
+        margin-bottom: 0.7em;
+    }
+
+    h4 {
+        color: hsl(29, 100%, 55%);
+        font-weight: bold;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
 
     .icon {
         width: 24px;

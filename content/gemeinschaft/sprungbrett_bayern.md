@@ -1,5 +1,5 @@
 ---
-date: 2020.01.01
+date: 2020-01-01
 title: Sprungbrett Bayern hop on hop off
 tags: [Gemeinschaft, Archiv]
 thumbnail: 

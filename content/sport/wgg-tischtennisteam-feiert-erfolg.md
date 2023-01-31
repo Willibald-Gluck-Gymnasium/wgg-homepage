@@ -1,5 +1,5 @@
 ---
-date: 2020.01.01
+date: 2020-01-01
 title: WGG-Tischtennisteam feiert Erfolg
 tags: [Sport, Events, Unterricht]
 thumbnail: 

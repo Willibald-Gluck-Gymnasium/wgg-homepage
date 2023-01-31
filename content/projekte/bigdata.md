@@ -1,5 +1,5 @@
 ---
-date: 2020.01.01
+date: 2020-01-01
 title: Projekttag Big Data am WGG
 tags: [BigData, Archiv]
 thumbnail: 
