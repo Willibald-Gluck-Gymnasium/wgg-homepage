@@ -6,7 +6,7 @@ import bcrypt from 'bcrypt'
 export default defineEventHandler(async (event) => {
   const body = await readBody(event)
 
-  if (event.context.auth.user.superadmin !== 1) {
+  if (event.context.auth?.user?.superadmin !== 1) {
     return {
       status: "error",
       message: "You do not have the necessary rights to create a new user."
