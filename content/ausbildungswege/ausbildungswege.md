@@ -1,5 +1,5 @@
 ---
-date: 2020.01.01
+date: 2020-01-01
 title: Ausbildungsrichtungen am Willibald-Gluck-Gymnasium
 tags: [Ausbildung, Ausbildungsrichtung, Zweige, Zweigwahl, NTG Zweig, WWG Zweig]
 thumbnail: 

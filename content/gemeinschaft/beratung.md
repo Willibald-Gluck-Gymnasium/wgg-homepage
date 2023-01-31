@@ -1,5 +1,5 @@
 ---
-date: 2020.01.01
+date: 2020-01-01
 title: Beratung am Willibald-Gluck-Gymnasium - Beratungslehrer und Schulpsychologin
 tags: [Gemeinschaft, Beratung]
 thumbnail: 

@@ -1,5 +1,5 @@
 ---
-date: 2020.01.01
+date: 2020-01-01
 title: Schüler und Schülerinnen des WGG setzen Zeichen des Zuammenhalts
 tags: [Gemeinschaft, Archiv]
 thumbnail: 

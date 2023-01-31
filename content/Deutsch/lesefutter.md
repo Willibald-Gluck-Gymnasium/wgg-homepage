@@ -1,5 +1,5 @@
 ---
-date: 2020.01.01
+date: 2020-01-01
 title: 'Die Schülerlesebücherei am WGG: Lesefutter nicht nur für die Unterstufe'
 tags: [Deutsch, Unterricht]
 thumbnail: 

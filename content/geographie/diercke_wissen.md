@@ -1,5 +1,5 @@
 ---
-date: 2022.01.01
+date: 2022-01-01
 title: Diercke Wissen 2022
 tags: [Geographie, Unterricht]
 thumbnail: 

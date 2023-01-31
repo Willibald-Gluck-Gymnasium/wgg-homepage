@@ -1,5 +1,5 @@
 ---
-date: 2020.01.01
+date: 2020-01-01
 title: Das verschwundene Gas
 tags: [Chemie, Unterricht, Pausen-Chemie]
 thumbnail: 

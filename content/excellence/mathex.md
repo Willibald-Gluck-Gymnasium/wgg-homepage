@@ -1,5 +1,5 @@
 ---
-date: 2020.01.01
+date: 2020-01-01
 title: MathEx
 tags: [Excellence, NTG Zweig, Alle Projekte, Übergreifendes]
 thumbnail: 

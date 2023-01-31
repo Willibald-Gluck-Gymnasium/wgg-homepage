@@ -1,5 +1,5 @@
 ---
-date: 2020.01.01
+date: 2020-01-01
 title: Selbstverständniss und Aufgaben des Biologie-Unterrichts
 tags: [Biologie, Unterricht]
 thumbnail: 
