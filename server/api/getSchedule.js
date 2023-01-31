@@ -16,11 +16,9 @@ export default defineEventHandler(async (event) => {
 
   conn.end()
 
-  let events
-  try {
-    events = JSON.parse(JSON.stringify(res[0].eventdata))
-  } catch (error) {
-    events = error
+  let events = res[0].eventdata
+  if (typeof events !== 'object') {
+    events = JSON.parse(events)
   }
   
 
@@ -28,7 +26,7 @@ export default defineEventHandler(async (event) => {
     status: "success",
     data: {
       events: events,
-      unparsedEvents: res[0].eventdata,
+      typeofevents: typeof events,
       rawResponse: res
     }
   }
