@@ -1,5 +1,5 @@
 ---
-date: 2023.01.20
+date: 2023-01-20
 title: Artenschutz und Biodiversität fördern durch Blühwiesen
 tags: [Biologie, Unterricht, P-Seminar]
 thumbnail: 

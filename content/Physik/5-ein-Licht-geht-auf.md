@@ -1,5 +1,5 @@
 ---
-date: 2020.01.01
+date: 2020-01-01
 title: Ein Licht geht auf
 tags: [5 Minuten Physik, Unterricht]
 thumbnail: 
