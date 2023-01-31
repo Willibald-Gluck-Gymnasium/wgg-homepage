@@ -39,7 +39,6 @@ const formError = ref(false)
 const unsavedChanges = ref(false)
 
 watch(events, () => {
-    console.log("change")
     unsavedChanges.value = true
 }, {deep: true})
 

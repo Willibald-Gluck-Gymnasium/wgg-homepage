@@ -4,9 +4,6 @@ export default defineEventHandler(async (event) => {
 
   const config = useRuntimeConfig()
 
-  console.log("test");
-  console.log(config);
-
   const conn = await mariadb.createConnection({
     host: config.MariaDBHost,
     database: config.MariaDBDefaultDatabase,
