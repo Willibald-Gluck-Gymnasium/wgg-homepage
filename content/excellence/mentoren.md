@@ -1,5 +1,5 @@
 ---
-date: 2020.01.01
+date: 2020-01-01
 title: Excellence-Mentoren
 tags: [Excellence, Mentoring, Alle Projekte, Übergreifendes]
 thumbnail: 

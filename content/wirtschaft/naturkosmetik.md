@@ -1,5 +1,5 @@
 ---
-date: 2022.01.01
+date: 2022-01-01
 title: P-Seminar „Naturkosmetik
 tags: [Wirtschaft und Recht, Unterricht, P-Seminar]
 thumbnail:

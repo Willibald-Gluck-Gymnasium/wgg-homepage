@@ -1,5 +1,5 @@
 ---
-date: 2022.01.01
+date: 2022-01-01
 title: Planspiele
 tags: [Wirtschaft und Recht, Unterricht]
 thumbnail:

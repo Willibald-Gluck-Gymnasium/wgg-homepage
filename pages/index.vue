@@ -8,15 +8,28 @@ const articlesInSlide = [
     '/gemeinschaft/gluck_codex'
 ]
 
+
 const slides = (await Promise.all(articlesInSlide.map((path) => {
     return queryContent('/').where({ _path: { $eq: path }}).only(['_path', 'title', 'tags', 'thumbnail']).find()
 }))).flat()
 
+const attributesToFetch = ['_path', 'date', 'title', 'tags', 'thumbnail', 'pinned']
 
+const highlightedArticlesCards = await queryContent('/').sort({ title: 1, date: -1, }).where({ pinned: { $eq: true }, hidden: { $ne: true } }).only(attributesToFetch).find()
 
-const articleCards = ref(await queryContent('/').sort({ title: 1, date: -1, }).where({ pinned: { $ne: true }, hidden: { $ne: true } }).only(['_path', 'date', 'title', 'tags', 'thumbnail', 'pinned']).limit(20).find())
+const now = new Date(Date.now()).toISOString()
 
-const highlightedArticlesCards = await queryContent('/').sort({ title: 1, date: -1, }).where({pinned: { $eq: true } }).only(['_path', 'date', 'title', 'tags', 'thumbnail', 'pinned']).find()
+const queryForUnpinnedArticles = { 
+    pinned: { $ne: true },
+    hidden: { $ne: true },
+    $or: [
+        { expireOn: { $exists: false } },
+        { expireOn: { $gt: now } }
+    ]
+}
+
+const articleCards = ref(await queryContent('/').sort({ title: 1, date: -1, }).where(queryForUnpinnedArticles).only(attributesToFetch).limit(20).find())
+
 
 
 const loadMoreArticlesButtonDisabled = ref(false)
@@ -28,7 +41,7 @@ const getRestOfArticles = async () => {
 
     const { data, pending, error, refresh } = await useAsyncData(
         'fetchRemainingArticles', 
-        () => queryContent('/').sort({ title: 1, date: -1, }).where({ pinned: { $ne: true }, hidden: { $ne: true } }).only(['_path', 'date', 'title', 'tags', 'thumbnail', 'pinned']).skip(20).find()
+        () => queryContent('/').sort({ title: 1, date: -1, }).where(queryForUnpinnedArticles).only(attributesToFetch).skip(20).find()
     )
 
     console.log({data: data.value, pending: pending.value, error: error.value})

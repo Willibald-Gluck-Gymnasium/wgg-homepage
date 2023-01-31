@@ -1,5 +1,5 @@
 ---
-date: 2020.01.01
+date: 2020-01-01
 title: Fasst euch an die Hände!
 tags: [5 Minuten Physik, Unterricht]
 thumbnail: 

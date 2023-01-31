@@ -42,7 +42,7 @@ Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) f
 ```yaml
 ---
 title: 'Beispiel Artikel'
-date: 2023.04.31
+date: 2023-04-16
 tags: [Mathe, Neuigkeiten, Unterricht]
 author: 'Max Mustermann'
 thumbnail: 
@@ -72,9 +72,9 @@ thumbnail:
 </figure>
 ```
 
-### Pin/Highlight articles+
+### Pin/Highlight articles
 
-Pinned articles will appear in the Highlights Section of the homepage.
+Pinned articles will appear in the Highlights Section of the homepage and appear first on the tag site.
 
 ```yaml
 ---
@@ -95,6 +95,33 @@ hidden: true
 ...
 ---
 ```
+
+***Slides ignore `hidden`.***
+
+
+### Add expiration date (archive Articles)
+
+Hidden articles will not appear on the homepage or on the category view. It is searchable though.
+
+```yaml
+---
+title: 'Artikel wird archiviert am 17.06.2023'
+expireOn: 2023-06-17
+...
+---
+```
+
+```yaml
+---
+title: 'Artikel wird archiviert am 30.01.2023 um 8:00 Uhr'
+expireOn: 2023-01-30T08:00
+...
+---
+```
+
+***Slides ignore `expireOn`.***
+
+
 
 ### Redirect from article
 

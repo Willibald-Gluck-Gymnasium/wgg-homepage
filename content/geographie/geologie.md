@@ -1,5 +1,5 @@
 ---
-date: 2022.01.10
+date: 2022-01-10
 title: Lehrplanalternative Geologie
 tags: [Geographie, Unterricht]
 thumbnail: 

@@ -1,5 +1,5 @@
 ---
-date: 2020.01.01
+date: 2020-01-01
 title: Fachprofil
 tags: [Biologie, Unterricht]
 thumbnail: 

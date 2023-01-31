@@ -1,5 +1,5 @@
 ---
-date: 2020.01.01
+date: 2020-01-01
 title: Wirtschaftsplanspiel „Play The Market“ 2020/21
 tags: [Archiv]
 thumbnail:

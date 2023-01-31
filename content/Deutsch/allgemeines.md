@@ -1,5 +1,6 @@
 ---
-date: 2020.01.01
+date: 2022-01-01
+expireOn: 2022-01-02
 title: Allgemeines zu dem Fach Deutsch
 tags: [Deutsch, Unterricht]
 thumbnail: 

@@ -1,5 +1,5 @@
 ---
-date: 2020.01.01
+date: 2020-01-01
 title: Plakate für P-Seminar "Gerätefreies Training"
 tags: [Sport, Unterricht]
 thumbnail: 
