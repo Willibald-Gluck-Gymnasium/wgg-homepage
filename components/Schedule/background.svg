@@ -1,20 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="260" viewBox="0 0 1080 260">
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
     <defs>
         <filter id="f1" x="0" y="0">
-            <feGaussianBlur in="SourceGraphic" stdDeviation="80" />
+            <feGaussianBlur in="SourceGraphic" stdDeviation="110" />
         </filter>
         <style>
-        .a{fill:#ff881a;}.b{fill:#f4cb00;}.c{fill:#005cff;}.d{fill:#00aa10;}.e{fill:#fff;opacity:0.5; }
+        .a{fill:#ff881a;}.b{fill:#f4cb00;}.c{fill:#005cff;}.d{fill:#00aa10;}.e{fill:#fff;opacity:0.6; }
         </style>
     </defs>
 
     <g class="group" filter="url(#f1)">
-        <ellipse class="a" cx="123.17" cy="118.36" rx="198.37" ry="187.08"/>
-        <ellipse class="b" cx="1055.87" cy="174.09" rx="217.02" ry="155.39"/>
-        <ellipse class="c" cx="609" cy="47.12" rx="422.42" ry="105.4"/>
-        <ellipse class="d" cx="560.11" cy="220.5" rx="286.48" ry="84.98"/>
+        
+        <ellipse class="c" cx="609" cy="200" rx="620" ry="400.4"/>
+        <ellipse class="d" cx="560" cy="1000" rx="600" ry="500"/>
+        <ellipse class="a" cx="0" cy="500" rx="230" ry="690"/>
+        <ellipse class="b" cx="1100" cy="580" rx="220" ry="700"/>
     </g>
 
-    <rect class="e" width="1080" height="260"/>
+    <rect class="e" width="1080" height="1080"/>
 
 </svg>
