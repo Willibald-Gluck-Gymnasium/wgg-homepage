@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01
 title: Zaubertrank
-tags: [Chemie, Unterricht, Pausen-Chemie]
+tags: [Pausen-Chemie]
 thumbnail: 
     src: chemie/zaubertrank.png
     alt: Experiment "Zaubertrank"

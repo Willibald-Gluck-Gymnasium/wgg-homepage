@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01
 title: Das verschwundene Gas
-tags: [Chemie, Unterricht, Pausen-Chemie]
+tags: [Pausen-Chemie]
 thumbnail: 
     src: chemie/das_verschwundene_gas.jpg
     alt: Experiment "Das verschwundene Gas"

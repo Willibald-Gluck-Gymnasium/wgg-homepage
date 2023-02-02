@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01
 title: Abgase
-tags: [Chemie, Unterricht, Pausen-Chemie]
+tags: [Pausen-Chemie]
 thumbnail: 
     src: chemie/abgase_1.png
     alt: Experiment "Abgase"

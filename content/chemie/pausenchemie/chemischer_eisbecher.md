@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01
 title: Chemischer Eisbecher
-tags: [Chemie, Unterricht, Pausen-Chemie]
+tags: [Pausen-Chemie]
 thumbnail: 
     src: chemie/chemischer_eisbecher.jpg
     alt: Experiment "Chemischer Eisbecher"

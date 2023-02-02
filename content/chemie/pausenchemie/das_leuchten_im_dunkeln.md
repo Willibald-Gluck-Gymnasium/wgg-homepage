@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01
 title: Das Leuchten im Dunkeln
-tags: [Chemie, Unterricht, Pausen-Chemie]
+tags: [Pausen-Chemie]
 thumbnail: 
     src: chemie/das_leuchten_im_dunkeln.png
     alt: Experiment "Das Leuchten im Dunkeln"
