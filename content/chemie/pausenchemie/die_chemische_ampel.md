@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01
 title: Die Chemische Ampel
-tags: [Chemie, Unterricht, Pausen-Chemie]
+tags: [Pausen-Chemie]
 thumbnail: 
     src: chemie/die_chemische_ampel.png
     alt: Experiment "Die Chemische Ampel"

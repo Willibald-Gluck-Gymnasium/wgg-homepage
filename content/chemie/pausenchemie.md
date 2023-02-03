@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01
 title: Pausenchemie
-tags: [Chemie, Unterricht, Pausen-Chemie]
+tags: [Pausen-Chemie]
 thumbnail: 
     src: pausenchemie.jpg
     alt: Experiment während der Pause.
@@ -26,3 +26,5 @@ thumbnail:
 </p>
 <img src="/images/pausenexp_1.jpg" alt="Pausen Experimente" style="float: right; margin-left: 15px; width: 35%; margin-bottom: 15px"></img>
 <p>Der Termin für das nächste Pausenexperiment in der Chemie wird über den Infoscreen in der Pausenhalle bekannt gegeben.</p>
+
+Alle weiteren Artikel zum Thema Pausenchemie findet ihr unter <a href='/tag/Pausen-Chemie'>

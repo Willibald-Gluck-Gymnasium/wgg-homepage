@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01
 title: Kriechende Dämpfe und Feuerbälle
-tags: [Chemie, Unterricht, Pausen-Chemie]
+tags: [Pausen-Chemie]
 thumbnail: 
     src: chemie/kriechende_daempfe_und_feuerbaelle.png
     alt: Experiment "Kriechende Dämpfe und Feuerbälle"

@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01
 title: Der Stein der Weisen - endlich gefunden?
-tags: [Chemie, Unterricht, Pausen-Chemie, Moritz.Wenger]
+tags: [Pausen-Chemie, Moritz.Wenger]
 thumbnail: 
     src: chemie/stein_der_weisen_1.jpg
     alt: Experiment "Der Stein der Weisen - endlich gefunden?"

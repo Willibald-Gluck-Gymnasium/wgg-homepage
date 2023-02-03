@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01
 title: Feuer mit Eis
-tags: [Chemie, Unterricht, Pausen-Chemie]
+tags: [Pausen-Chemie]
 thumbnail: 
     src: chemie/feuer_mit_eis.png
     alt: Experiment "Feuer mit Eis"

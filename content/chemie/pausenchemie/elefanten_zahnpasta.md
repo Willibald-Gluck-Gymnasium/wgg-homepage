@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01
 title: Elefantenzahnpasta
-tags: [Chemie, Unterricht, Pausen-Chemie]
+tags: [Pausen-Chemie]
 thumbnail: 
     src: chemie/elefantenzahnpasta.png
     alt: Experiment "Elefantenzahnpasta"
