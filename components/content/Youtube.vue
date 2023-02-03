@@ -1,7 +1,7 @@
 <template>
     <div class="force-iframe-aspect-ratio" id="youtube-container" ref="vid">
         <div class="message">
-            <span>Wenn dieses YouTube Video läd, kann es vorkommen, dass YouTube Ihre Daten sammelt und überträgt.</span><span class="more"> Wenn Sie das Risiko eingehen wollen und das Video trotzdem laden wollen, drücken Sie bitte unten auf den Knopf zum Akzeptieren.</span>
+            <span>Wenn dieses YouTube Video lädt, kann es vorkommen, dass YouTube Ihre Daten sammelt und überträgt.</span><span class="more"> Wenn Sie das Risiko eingehen wollen und das Video trotzdem laden wollen, drücken Sie bitte unten auf den Knopf zum Akzeptieren.</span>
             <button ref="button">Akzeptieren und Laden</button>
         </div>
     </div>
