@@ -71,7 +71,7 @@ async function saveData() {
 <template>
 <NuxtLayout>
     <NuxtLink to="/logout" class="logout">Abmelden</NuxtLink>
-    <h1>Kontrollzentrum</h1>
+    <h1>Kontrollzentrum 3</h1>
 
     <Schedule :events="events"></Schedule>
 
