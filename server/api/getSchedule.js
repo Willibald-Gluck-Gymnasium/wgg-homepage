@@ -26,8 +26,6 @@ export default defineEventHandler(async (event) => {
     status: "success",
     data: {
       events: events,
-      typeofevents: typeof events,
-      rawResponse: res
     }
   }
 
