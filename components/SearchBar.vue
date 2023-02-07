@@ -76,7 +76,7 @@ const searchSubmit = () => {
         <AisConfigure
             :attributesToSnippet="['plaintext']"
             snippetEllipsisText="..."
-            :hits-per-page.camel="3"
+            :hits-per-page.camel="5"
         />
     </AisInstantSearch>
 </template>
