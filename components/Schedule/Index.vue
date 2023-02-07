@@ -9,13 +9,10 @@ const props = defineProps({
 })
 
 if (props.events === undefined) {
-    /*
     const { data, pending, error, refresh } = await useFetch('/api/getSchedule', {
         method: 'GET'
     })
-    
     events.value = data.value.data.events
-    */
 } else {
     events.value = props.events
 }
