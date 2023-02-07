@@ -24,11 +24,15 @@ const searchbox = ref(null)
 const unfocusSearchBox = () => {
     searchbox.value.$el.querySelector('input').blur()
 }
+
+const searchSubmit = () => {
+    navigateTo(`/search/${searchbox.value.$el.querySelector('input').value}`)
+}
 </script>
 
 <template>
     <AisInstantSearch :search-client="searchClient" index-name="articles">
-        <AisSearchBox placeholder="Suche hier..." ref="searchbox" @focus="showResults = true" @blur="showResults = false" /> 
+        <AisSearchBox placeholder="Suche hier..." ref="searchbox" @submit="searchSubmit()" @focus="showResults = true" @blur="showResults = false" /> 
 
         <AisStateResults>
             <template v-slot="{ results: { hits, query } }">
@@ -58,7 +62,7 @@ const unfocusSearchBox = () => {
                     <div class="ais-Hits">
                         <ol class="ais-Hits-list">
                             <li class="ais-Hits-item">
-                                <p class="ais-no-hits">No results have been found for <b>{{ query }}</b>.</p>
+                                <p class="ais-no-hits">Keine Ergebnisse für <b>{{ query }}</b>.</p>
                             </li>
                         </ol>
                     </div>                
