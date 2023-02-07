@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01
 title: Kampf der Lösungen
-tags: [Chemie, Unterricht, Pausen-Chemie]
+tags: [Pausen-Chemie]
 thumbnail: 
     src: chemie/kampf_der_loesungen_2.jpg
     alt: Experiment "Kampf der Lösungen"

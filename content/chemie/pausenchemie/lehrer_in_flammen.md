@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01
 title: Lehrer in Flammen
-tags: [Chemie, Unterricht, Pausen-Chemie]
+tags: [Pausen-Chemie]
 thumbnail: 
     src: chemie/lehrer_in_flammen.png
     alt: Experiment "Lehrer in Flammen"

@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01
 title: Das pulsierende Sektglas
-tags: [Chemie, Unterricht, Pausen-Chemie]
+tags: [Pausen-Chemie]
 thumbnail: 
     src: chemie/das_pulsierende_sektglas.png
     alt: Experiment "Das Pulsierende Sektglas"
