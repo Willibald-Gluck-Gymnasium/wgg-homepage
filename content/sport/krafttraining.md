@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Krafttraining für Zuhause
 tags: [Sport]
 thumbnail: 
-    src: Krafttraining für Zuhause.jpg
+    src: sport/Krafttraining für Zuhause.jpg
     alt: Ein thumbnail
 ---
 

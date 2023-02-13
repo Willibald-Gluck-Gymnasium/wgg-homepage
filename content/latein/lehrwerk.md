@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Latein Lehrwerk
 tags: [Latein, Unterricht]
 thumbnail:
-    src: latein-thumbmail.jpg
+    src: latein/latein-thumbmail.jpg
     alt: Eine Tafel mit lateinischer Aufschrift
 ---
 

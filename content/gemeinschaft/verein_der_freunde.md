@@ -3,8 +3,8 @@ date: 2020-01-01
 title: Verein der Freunde des WGG
 tags: [Verein der Freunde, Elternbrief, Gemeinschaft]
 thumbnail: 
-    src: people-in-arms.jpg
-    alt: Ein thumbnail
+    src: gemeinschaft/people-in-arms.jpg
+    alt: Stochphoto von menschen, die mit dem Rücken zur Kamera sitzen und sich umarmen
 ---
 
 <h3>Sehr geehrte Eltern,</h3>

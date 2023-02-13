@@ -3,7 +3,7 @@ date: 2020-01-01
 title: WGG zeigt naturwissenschaftliches Profil
 tags: [Jugendforscht, Naturwissenschaften, Alle Projekte]
 thumbnail: 
-    src: 'jufo17_01.jpg'
+    src: 'jugendforscht/jufo17_01.jpg'
     alt: 'Preisverleihung Jugend forscht mit Schulleiter Bernhard Schiffer'
 ---
 <h4>Auszeichnung durch den Sponsorenpool „Jugend forscht“ in Zusammenarbeit mit dem Kultusministerium</h4>

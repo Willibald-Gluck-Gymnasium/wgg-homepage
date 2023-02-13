@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Wichtige Änderung im Sekretariat
 tags: [Gemeinschaft]
 thumbnail: 
-    src: sekretariat.jpg
+    src: gemeinschaft/sekretariat.jpg
     alt: Stockphoto - Arbeitsplatz mit Pflanze, Tastatur, Maus und Bildschirm
 ---
 

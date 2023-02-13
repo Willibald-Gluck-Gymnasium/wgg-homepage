@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Auslandsaufenthalte
 tags: [Ausland, Übergreifendes, Auslandsaufenthalte]
 thumbnail: 
-    src: '16_PragAustausch.jpg'
+    src: 'ausland/16_PragAustausch.jpg'
     alt: 'Schülerinnen und Schüler vor ihrem Prag-Austausch'
 ---
 

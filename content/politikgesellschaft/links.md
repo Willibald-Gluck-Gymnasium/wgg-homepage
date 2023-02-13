@@ -3,7 +3,7 @@ date: 2022-01-01
 title: Hilfreiche Links
 tags: [Politik und Gesellschaft, Unterricht]
 thumbnail: 
-    src: pug.jpg
+    src: politikgesellschaft/pug.jpg
     alt: Stilisierte Säulen mit Motto "Politik ist keine Wissenschaft, sondern eine Kunst"
 ---
 

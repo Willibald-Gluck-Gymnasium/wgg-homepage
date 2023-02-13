@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Erweiterte Schulleitung am Willibald-Gluck-Gymnasium
 tags: [Gemeinschaft, Schulleitung]
 thumbnail: 
-    src: erweiterte_schulleitung_gruppenbild.jpg
+    src: schulleitung/erweiterte_schulleitung_gruppenbild.jpg
     alt: Gruppenbild mit allen mitgliedern der erweiterten Schulleitung
 ---
 
@@ -16,18 +16,18 @@ thumbnail:
 <p>Neben den Mitgliedern der Schulleitung gehören folgende Lehrkräfte zur erweiterten Schulleitung:
 </p>
 <figure style = "width:25%; float: left">
-        <img src="/images/00_bfx_01.jpg">
+        <img src="/images/schulleitung/00_bfx_01.jpg">
         <figcaption>Herr Beer</figcaption>
 </figure>
 <figure style = "width:25%; float: right">
-        <img src="/images/00_gw_01.jpg">
+        <img src="/images/schulleitung/00_gw_01.jpg">
         <figcaption>Herr Gelo</figcaption>
 </figure>
 <figure style = "width:25%; float: left">
-        <img src="/images/00_kt_01.jpg">
+        <img src="/images/schulleitung/00_kt_01.jpg">
         <figcaption>Herr Dr. Kraus</figcaption>
 </figure>
 <figure style = "width:25%; float: right">
-        <img src="/images/linzmaier_tobias.jpg">
+        <img src="/images/schulleitung/linzmaier_tobias.jpg">
         <figcaption>Herr Linzmaier</figcaption>
 </figure>

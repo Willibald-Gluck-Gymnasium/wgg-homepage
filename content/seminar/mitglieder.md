@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Seminarlehrkräfte am WGG
 tags: [Gemeinschaft, Seminar]
 thumbnail: 
-    src: seminar.jpg
+    src: seminar/seminar.jpg
     alt: Stockphoto - Schreibtisch mit Unterlagen, Getränken und Laptop
 ---
 <figure style = "float:left; width:25%">

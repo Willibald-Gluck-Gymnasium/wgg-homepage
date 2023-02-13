@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Mensa
 tags: [Gemeinschaft]
 thumbnail: 
-    src: tische_stuehle.jpg
+    src: gemeinschaft/tische_stuehle.jpg
     alt: Bild von Tischen und Stühlen in einer Mensa.
 ---
 <style>

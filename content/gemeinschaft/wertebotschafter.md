@@ -3,11 +3,11 @@ date: 2020-01-01
 title: WGG-Schüler wird Wertebotschafter
 tags: [Gemeinschaft, Archiv]
 thumbnail: 
-    src: wertebotschafter.jpg
+    src: gemeinschaft/wertebotschafter.jpg
     alt: Ein thumbnail
 ---
 
-<img src="images/wertebotschafter.jpg" alt="Wertebotschafter" style="float: left; margin-right: 15px; width: 35%; margin-bottom: 15px"></img>
+<img src="images/gemeinschaft/wertebotschafter.jpg" alt="Wertebotschafter" style="float: left; margin-right: 15px; width: 35%; margin-bottom: 15px"></img>
 
 <p>
     „Solidarisches Miteinander – Respekt und Wertschätzung – Toleranz und Gewaltlosigkeit – Fairness – Kritikfähigkeit – Engagement und Verantwortungsbewusstsein“. 

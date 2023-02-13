@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Gluck-Codex
 tags: [Gemeinschaft, Leitbild des WGG]
 thumbnail: 
-    src: GluckCodex.jpg
+    src: gemeinschaft/GluckCodex.jpg
     alt: Logo des WGG mit dem Text "Gluck Codex"
 ---
 

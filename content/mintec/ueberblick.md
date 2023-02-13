@@ -3,11 +3,11 @@ date: 2020-01-01
 title: MINTEC am WGG
 tags: [Naturwissenschaften, MintEC, Alle Projekte]
 thumbnail: 
-    src: 'mintec1.jpg'
+    src: 'mintec/mintec1.jpg'
     alt: 'Verleihung des MintEC Zertifikats' 
 ---
 <figure style="width:75%;margin:auto">
-    <img src = "/images/mintec1.jpg">
+    <img src = "/images/mintec/mintec1.jpg">
     <figcaption>
         Verleihung des MINT-EC Zertifikats
     </figcaption>
@@ -34,7 +34,7 @@ Zur offiziellen <a href = "https://www.mint-ec.de/angebote/schuelerinnen-und-sch
 - Mikrokontroller
 
 <figure style="width:75%;margin:auto">
-    <img src = "/images/mintec2.jpg">
+    <img src = "/images/mintec/mintec2.jpg">
     <figcaption>
         Löten einer elektronischen Schaltung
     </figcaption>
@@ -48,7 +48,7 @@ Zur offiziellen <a href = "https://www.mint-ec.de/angebote/schuelerinnen-und-sch
 - Energie und Umwelt
 
 <figure style="width:75%;margin:auto">
-    <img src = "/images/mintec3.jpg">
+    <img src = "/images/mintec/mintec3.jpg">
     <figcaption>
         Schüler beim experimentieren
     </figcaption>
@@ -62,7 +62,7 @@ Zur offiziellen <a href = "https://www.mint-ec.de/angebote/schuelerinnen-und-sch
 - Waldökologietag
 
 <figure style="width:75%;margin:auto">
-    <img src = "/images/mintec4.jpg">
+    <img src = "/images/mintec/mintec4.jpg">
     <figcaption>
         An der Simon-Ohm Fachschule
     </figcaption>
@@ -75,7 +75,7 @@ Zur offiziellen <a href = "https://www.mint-ec.de/angebote/schuelerinnen-und-sch
 - 5-Minuten-Physik
 
 <figure style="width:75%;margin:auto">
-    <img src = "/images/mintec5.jpg">
+    <img src = "/images/mintec/mintec5.jpg">
     <figcaption>
        Grundschüler erleben Experimente Live
     </figcaption>
@@ -92,7 +92,7 @@ Zur offiziellen <a href = "https://www.mint-ec.de/angebote/schuelerinnen-und-sch
 - Hans-Riegel-Fachpreis
 
 <figure style="width:75%;margin:auto">
-    <img src = "/images/mintec6.jpg">
+    <img src = "/images/mintec/mintec6.jpg">
     <figcaption>
        Unsere Teilnehmer bei Jugend forscht 2013
     </figcaption>

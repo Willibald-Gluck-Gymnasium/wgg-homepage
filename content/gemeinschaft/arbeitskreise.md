@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Arbeitskreise SMV
 tags: [Gemeinschaft, SMV]
 thumbnail: 
-    src: smv_arbeitskreise.jpg
+    src: gemeinschaft/smv_arbeitskreise.jpg
     alt: Übersichtsbild über die verschiedenen Arbeitskreise der SMV
 ---
 
@@ -31,6 +31,6 @@ thumbnail:
 <p style = "text-align: center">
     <strong>Die SMV 19/20</strong>
 </p>
-<img src="images/19_smv_01.jpg" alt="SMV"></img>
+<img src="images/gemeinschaft/19_smv_01.jpg" alt="SMV"></img>
 
 
