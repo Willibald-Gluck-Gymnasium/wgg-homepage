@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Seminar Wirtschaft und Recht - Geographie
 tags: [Gemeinschaft, Seminar]
 thumbnail: 
-    src: seminar.jpg
+    src: seminar/seminar.jpg
     alt: Stockphoto - Schreibtisch mit Unterlagen, Getränken und Laptop
 ---
 

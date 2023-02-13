@@ -3,7 +3,7 @@ date: 2020-01-01
 title: „ONLINE!“ – Medienpädagogik und Prävention am WGG
 tags: [Praevention, Alle Projekte]
 thumbnail: 
-    src: 'praev_1.jpg'
+    src: 'praevention/praev_1.jpg'
     alt: 'Theaterstück, das im Rahmen der Suchtprävention aufgeführt wurde.'
 ---
 
@@ -17,7 +17,7 @@ Online-Dienste  und Abos und mit der besten Freundin, weil Jule keine Zeit mehr 
 Im Theaterstück wurden wichtige Fragen des Umgangs angeschnitten. Je nach Möglichkeit werden diese im weiteren Unterricht thematisiert und sollen zu einem reflektierten,
 souveränen Umgang mit dem Smartphone beitragen.
 
-<img src = "/images/praev_1.jpg">
+<img src = "/images/praevention/praev_1.jpg">
 
 Tobias Linzmaier, Manuela Bernowsky
 Präventionsbeauftragte am WGG

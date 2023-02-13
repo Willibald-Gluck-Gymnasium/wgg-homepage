@@ -3,7 +3,7 @@ date: 2022-01-01
 title: Politik und Gesellschaft
 tags: [Politik und Gesellschaft, Unterricht, Lehrplan]
 thumbnail: 
-    src: pug.jpg
+    src: politikgesellschaft/pug.jpg
     alt: Stilisierte Säulen mit Motto "Politik ist keine Wissenschaft, sondern eine Kunst"
 ---
 

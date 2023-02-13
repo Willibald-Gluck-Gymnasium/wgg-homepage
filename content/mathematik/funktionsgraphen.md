@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Funktionsgraphen auf dem Pausenhof
 tags: [Mathematik, Unterricht]
 thumbnail: 
-    src: funktionsgraphen.jpg
+    src: mathematik/funktionsgraphen.jpg
     alt: Schüler, die einen Funktionsgraphen auf Asphalt bilden.
 ---
 

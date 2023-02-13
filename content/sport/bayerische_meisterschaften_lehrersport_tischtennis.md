@@ -4,7 +4,7 @@ title: Bayerische Meisterschaften im Lehrersport Tischtennis
 author: Manfred Nagl
 tags: [Sport, Events, Unterricht]
 thumbnail: 
-    src: lehrertischtennis2018_1.jpg
+    src: sport/lehrertischtennis2018_1.jpg
     alt:  Christian Wurm bei einem sehr rasanten Spiel.
 ---
 
@@ -12,7 +12,7 @@ thumbnail:
     <strong>Lehrersport vom WGG unterliegt knapp.</strong>
 </p>
 <figure>
-<img src="/images/lehrertischtennis2018_2.jpg" alt="Gruppenbild am Ende der Meisterschaft"></img>
+<img src="/images/sport/lehrertischtennis2018_2.jpg" alt="Gruppenbild am Ende der Meisterschaft"></img>
 <figcaption> Das Team am Ende der Meisterschaft</figcaption>
 </figure>
 <p>
@@ -29,7 +29,7 @@ thumbnail:
 
 </p>
 <figure>
-<img src="/images/lehrertischtennis2018_1.jpg" alt="Lehrer in Action."></img>
+<img src="/images/sport/lehrertischtennis2018_1.jpg" alt="Lehrer in Action."></img>
 <figcaption> Christian Wurm bei einem sehr rasanten Spiel.</figcaption>
 </figure>
 <p>

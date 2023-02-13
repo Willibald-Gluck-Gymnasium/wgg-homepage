@@ -3,14 +3,14 @@ date: 2020-01-01
 title: Sciencecamp 2017
 tags: [Naturwissenschaften, MintEC]
 thumbnail: 
-    src: 'sciencecamp17_01.jpg'
+    src: 'mintec/sciencecamp17_01.jpg'
     alt: 'Vortrag beim Science Camp' 
 ---
 
 „Schaut euch mal dieses Prachtexemplar an!“ – mit diesem Worten hebt Herr Anthofer das Schweineherz in seinen Händen empor, damit sich die 16 Schülerinnen und Schüler, die an dem diesjährigen ScienceCamp in Weiden teilnehmen, die Blutgefäße und Klappen ganz aus der Nähe anschauen können. Auch zwei Schüler des Willibald-Gluck-Gymnasiums nahmen an diesem teil und berichten über ihre aufregenden Erlebnisse im Bereich der Biophysik.
 
 <figure style="width:75%;margin:auto">
-    <img src = "/images/sciencecamp17_01.jpg">
+    <img src = "/images/mintec/sciencecamp17_01.jpg">
     <figcaption>
         Abschlussvortrag: Martin erklärt den Alterssimulationsanzug
     </figcaption>
@@ -21,7 +21,7 @@ Am 12.07.2017 fuhren wir (Martin Schächtel und Benedikt Naumann, Q11) an die Os
 Nach kurzen organisatorischen Besprechungen ging es für die insgesamt 16 Schüler los, wenn auch erst mit viel Theorie. Der Aufbau eines Herzens, die Grundlagen des Blutkreislaufs sowie die Klärung von Fachbegriffen wie „Systole“ oder „Diastole“ nahmen die gesamte Konzentration der Jugendlichen in Anspruch, auch der physikalische Teil über die Grundlagen eines EKGs brachte den ein oder anderen Schüler zum Schwitzen. Anschließend ging es mit einer praktischen Übung weiter, wobei manche der Teilnehmer doch ein eher befremdliches Gefühl bei der Sektion des Schweineherzens hatten. Aber trotzdem gab dies den Schülern eine einmalige Gelegenheit, sich doch mal die einzelnen Bestandteile des wichtigsten Muskels anzusehen.
 
 <figure style="width:75%;margin:auto">
-    <img src = "/images/sciencecamp17_02.jpg">
+    <img src = "/images/mintec/sciencecamp17_02.jpg">
     <figcaption>
         Die Neumarkter Teilnehmer von WGG und OG am Ostbayerischen ScienceCamp in Weiden
     </figcaption>

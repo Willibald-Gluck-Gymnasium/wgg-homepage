@@ -1,15 +1,16 @@
 ---
 date: 2020-01-01
+expireOn: 2021-12-31
 title: NeuBIT 2017
 tags: [Archiv, NeuBIT]
 thumbnail: 
-    src: 'neubit17_01.jpg'
+    src: 'berufsorientierung/neubit17_01.jpg'
     alt: 'Schüler*innen und Lehrer*innen auf der NeuBIT' 
 ---
 
 ### (Traum)jobs auch in unserer Region – Schüler fragen, Profis antworten
 
-<img src = "/images/neubit17_02.jpg" style ="float:right;width: 45%;margin-left:20px">
+<img src = "/images/berufsorientierung/neubit17_02.jpg" style ="float:right;width: 45%;margin-left:20px">
 
 Das Ende der Schulzeit kommt so langsam in Sichtweite – aber wie geht’s dann weiter? Zur Uni oder doch lieber eine Ausbildung beginnen? Der Rotary Club Nürnberg-Neumarkt lädt zusammen mit dem Willibald-Gluck-Gymnasium am Samstag, 17. März, von 9 Uhr bis 13 h zum zehnten Neumarkter Berufs- und Informationstag ins WGG ein.
 

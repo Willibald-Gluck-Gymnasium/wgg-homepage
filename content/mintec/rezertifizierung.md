@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Tolle MINT-EC-Schule mit sehr hohem Qualitätsniveau
 tags: [Naturwissenschaften, MintEC]
 thumbnail: 
-    src: 'rezert19_01.jpg'
+    src: 'mintec/rezert19_01.jpg'
     alt: 'Wetterballon steigt am WGG auf' 
 ---
 
@@ -20,7 +20,7 @@ ausgebaut hat. Am Gluck belegen sehr viele Schülerinnen und Schüler Kurse und 
 Schüler sowohl erreichen als auch tatsächlich nachhaltig sind.
 
 <figure style="width:75%;margin:auto">
-    <img src = "/images/rezert19_01.jpg">
+    <img src = "/images/mintec/rezert19_01.jpg">
     <figcaption>
         MINT-EX-Kurs beim Starten des Wetterballons
     </figcaption>

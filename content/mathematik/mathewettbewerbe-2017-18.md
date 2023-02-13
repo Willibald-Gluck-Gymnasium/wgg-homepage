@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Mathewettbewerbe im Schuljahr 2017/18
 tags: [Mathematik, Archiv]
 thumbnail: 
-    src: calculator.jpg
+    src: mathematik/calculator.jpg
     alt: Stockphoto eines Taschenrechners
 ---
 <h3>

@@ -3,7 +3,7 @@ date: 2022-01-01
 title: Das Fach Deutsch
 tags: [Deutsch, Unterricht]
 thumbnail: 
-    src: 'notepadDesk.jpg'
+    src: 'deutsch/notepadDesk.jpg'
     alt: 'Notizbuch auf einem Schreibtisch'
 ---
 

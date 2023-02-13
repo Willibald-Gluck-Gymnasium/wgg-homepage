@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Geogebra - eine freie Geometriesoftware
 tags: [Mathematik, Unterricht]
 thumbnail:
-    src: geogebra.jpg
+    src: mathematik/geogebra.jpg
     alt: Ein Bild das die Software GeoGebra zeigt
 ---
 

@@ -3,7 +3,7 @@ date: 2022-01-01
 title: Diercke Wissen 2022
 tags: [Geographie, Unterricht]
 thumbnail: 
-    src: diercke1.jpg
+    src: geographie/diercke1.jpg
     alt: Urkundenverliehung für den Diercke Wissens-Wettbewerb
 ---
 
@@ -17,5 +17,5 @@ Auch die beiden zweit- und drittplatzierten Schüler durften sich über kleine P
 
 In diesem Jahr führte das WGG auch in allen 5. Klassen den Wettbewerb „Diercke Wissen – JUNIOREN“ durch. Auch hier gab es für die drei besten Schüler aus allen 5. Klassen Preise. Lukas Pröbstle, 5e, erreichte den ersten Platz und durfte sich über ein kleines Geographie-Quartett freuen. Weitere Preise für den zweiten Platz gingen an Felix Lippmann, 5c, und für den dritten Platz an Jonas Jockel, 5b.
 
-![Urkundenverleihung Diercke Wissen](/images/diercke1.jpg)
-![Urkundenverleihung Diercke Wissen](/images/diercke2.jpg)
+![Urkundenverleihung Diercke Wissen](/images/geographie/diercke1.jpg)
+![Urkundenverleihung Diercke Wissen](/images/geographie/diercke2.jpg)

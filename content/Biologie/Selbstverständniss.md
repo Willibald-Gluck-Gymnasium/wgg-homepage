@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Selbstverständniss und Aufgaben des Biologie-Unterrichts
 tags: [Biologie, Unterricht]
 thumbnail: 
-    src: 'bio_LO_Bienen.jpg'
+    src: 'biologie/bio_LO_Bienen.jpg'
     alt: 'Bienen auf einer Wabe'
 ---
 
@@ -70,4 +70,4 @@ title="Externer Link">Natur und Technik (Biologie (5) bzw. Biologie und Informat
 title="Externer Link">Biologie <?= $pfeil ?></a>
 </p>
 
-<img src="/images/bio_LO_Bienen.jpg" alt="Bienem">
+<img src="/images/biologie/bio_LO_Bienen.jpg" alt="Bienem">

@@ -3,11 +3,11 @@ date: 2020-01-01
 title: 'Gründung der Schülergenossenschaft'
 tags: [Gemeinschaft, Schülergenossenschaft, Events, Wirtschaft]
 thumbnail: 
-    src: schuelergenossenschaft.jpg
+    src: schuelergenossenschaft/schuelergenossenschaft.jpg
     alt: Gruppenbild aller Anwesenden bei der Gründung der Schülergenossenschaft.
 ---
 
-<img src="/images/schuelergenossenschaft.jpg" alt=" Gruppenbild aller Anwesenden bei der Gründung der Schülergenossenschaft." style="float: right; margin-left: 15px; width: 50%; margin-bottom: 15px"></img>
+<img src="/images/schuelergenossenschaft/schuelergenossenschaft.jpg" alt=" Gruppenbild aller Anwesenden bei der Gründung der Schülergenossenschaft." style="float: right; margin-left: 15px; width: 50%; margin-bottom: 15px"></img>
 
 <p>
     „Ihr habt ein Zeichen für Gemeinschaft gesetzt. Das ist zu Zeiten der Vereinzelung wichtig!“, lobte Schulleiter Bernhard Schiffer 25 Schülerinnen und Schüler am 25. November in der Aula des Willibald-Gluck-Gymnasiums. Anlass war die Gründungsveranstaltung der WGGenossenschaft eSG, einer Firma auf die Beine gestellt von Schülern für Schüler und die erste Schülergenossenschaft an einem bayerischen Gymnasium.
@@ -21,7 +21,7 @@ thumbnail:
 <p>
     Einen Einblick in wirtschaftliche Prozesse erhalten die Schüler und Schülerinnen auch durch die Unterstützung, die das WGG-Projekt aus der Region erfährt. Wertvolle Hilfe leisteten und leisten Oliver Melde von der Raiffeisenbank, Franz Penker, Regionaldirektor des Genossenschaftsverbandes für die Oberpfalz, ebenso wie Michael Vogel von der Jurenergie und Roland Hadwiger von der Kreisentwicklung des Landratsamts.
 </p>
-<img src="/images/schuelergenossenschaft2.jpg" alt="Abstimmung zur Satzung" style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px"></img> 
+<img src="/images/schuelergenossenschaft/schuelergenossenschaft2.jpg" alt="Abstimmung zur Satzung" style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px"></img> 
 <p>
     Philipp Dull ist aber auch wichtig zu betonen, dass die Rechtsform der Genossenschaft im Unterschied zu anderen Unternehmensformen viel wirtschaftliche Teilhabe ermöglicht. Die Mitglieder der Genossenschaft entscheiden nämlich alles Wichtige gemeinsam. „Deshalb ist das auch Demokratieerziehung! Deshalb setzen sich die Wirtschaftslehrer am Gluck auch für die Genossenschaft ein“, unterstreicht Philipp Dull den besonderen pädagogischen Wert des Projekts.
 </p><p>

@@ -3,14 +3,14 @@ date: 2020-01-01
 title: Christoph Willibald Gluck
 tags: [Gemeinschaft, Leitbild des WGG]
 thumbnail: 
-    src: willibaldgluck.jpg
+    src: gemeinschaft/willibaldgluck.jpg
     alt: Porträt von Willibald GLuck
 ---
 
 ### 1714 - 1787
 
 
-<img src="images/willibaldgluck.jpg" alt="Porträt von Willibald Gluck" style="float: right; margin-left: 15px; width: 25%; margin-bottom: 15px"></img>
+<img src="images/gemeinschaft/willibaldgluck.jpg" alt="Porträt von Willibald Gluck" style="float: right; margin-left: 15px; width: 25%; margin-bottom: 15px"></img>
 
 * geboren am 2. 7. 1714 in Erasbach
 * getauft am 4. 7. 1714 in Weidenwang 

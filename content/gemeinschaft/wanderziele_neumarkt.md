@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Wanderziele in Neumarkt und Umgebung
 tags: [Gemeinschaft, Elternbeirat]
 thumbnail: 
-    src: wanderung.jpg
+    src: gemeinschaft/wanderung.jpg
     alt: Stockphoto - Schrecksee
 ---
 
