@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Imkern am WGG
 tags: [Archiv, Imkern]
 thumbnail: 
-    src: 'imkern19_01.jpg'
+    src: 'veranstaltungen/imkern19_01.jpg'
     alt: 'Schülerinnen beim Imkern' 
 ---
 
@@ -18,8 +18,8 @@ Die Idee zum Projekttag hatte Ludwig Härteis, Deutschlehrer der Klasse und selb
 
 
 <figure>
-    <img src="/images/imkern19_02.jpg">
-    <img src="/images/imkern19_03.jpg">
+    <img src="/images/veranstaltungen/imkern19_02.jpg">
+    <img src="/images/veranstaltungen/imkern19_03.jpg">
     <figcaption>
         „Da ist die Königin! Ich hab’ sie gefunden.“
     </figcaption>

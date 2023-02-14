@@ -3,12 +3,12 @@ date: 2020-01-01
 title: Leitbild des WGG
 tags: [Gemeinschaft, Leitbild des WGG]
 thumbnail: 
-    src: leitbild.jpg
+    src: gemeinschaft/leitbild.jpg
     alt: Graphische Darstellung der verschiedenen Leitsprüche gemäß des Leitbilds des WGG
 ---
 
 Anlässlich des Sommerfests am 24. Juli 2017 wurde unser neues Leitbild durch den Schulleiter OStD Schiffer, OStRin Englert und OStR Gelo für die Gruppe der Lehrer, Herrn Thomas Thumann als Vertreter des Elternbeirats sowie Lena Pruy als Schülersprecherin der Schulgemeinschaft vorgestellt. Mit den sechs Leitsätzen wollen wir nicht nur der Schulgemeinschaft eine Orientierung geben, sondern uns auch als eine moderne, menschliche, engagierte Schule nach außen darstellen. 
-![Graphische Darstellung der verschiedenen Leitsprüche gemäß des Leitbilds des WGG](/images/leitbild.jpg)
+![Graphische Darstellung der verschiedenen Leitsprüche gemäß des Leitbilds des WGG](/images/gemeinschaft/leitbild.jpg)
 
 **Wir stärken unser Profile**,weil eine zunehmend technisierte und ökonomisierte Welt ein vertefes Wissen und praxistaugliche Kompetenzen im naturwissenschaftlich-technologischen und wirtschaftswissenschaftlichen Bereich erfordert. Dementsprechend bieten wir am WGG ein weitgefächertes Wahlkurs- und Seminarangebot. Zudem ermöglichen wir in diesen beiden Bereichen außerunter-richtliche Erfahrungen, beispielsweise in Form von Wettbewerben und Berufspraktka. Mit dieser Akzentsetzung schreiben wir auch jene für Neumarkt und den Landkreis wichtige natur- und wirtschaftswissenschaftliche Bildungstraditon fort, die 1874 mit der Gründung der königlichen Gewerbeschule begann und über Realschule und Oberrealschule bis zum WGG führt.
 

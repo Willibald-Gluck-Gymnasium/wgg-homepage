@@ -3,11 +3,11 @@ date: 2020-01-01
 title: Abiturienten des WGG zeigen gesellschaftliche Verantwortung
 tags: [Archiv]
 thumbnail: 
-    src: 'abiturientenzv.jpg'
+    src: 'veranstaltungen/abiturientenzv.jpg'
     alt: 'Übergabe eines Schecks für gemeinnützige Zwecke' 
 ---
 
-<img src = "/images/abiturientenzv.jpg" style ="float:left;width: 45%; margin-right:20px">
+<img src = "/images/veranstaltungen/abiturientenzv.jpg" style ="float:left;width: 45%; margin-right:20px">
 
 „Wir haben uns entschieden, in Krisenzeiten Zusammenhalt zu zeigen!“ So begründet der Oberstufensprecher Florian Thumann die Spenden seines Abiturjahrgangs über 4500 Euro an drei gemeinnützige Organisationen.
 Die Spenden wurden am 22.7. 20 in der Aula des WGG an die Empfänger übergeben. Die Corona-Pandemie und die damit verbundenen Auflagen trafen auch die Abiturfeier am WGG. 

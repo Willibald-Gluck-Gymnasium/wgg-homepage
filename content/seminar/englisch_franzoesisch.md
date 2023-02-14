@@ -3,14 +3,14 @@ date: 2020-01-01
 title: Seminar Englisch - Französisch
 tags: [Gemeinschaft, Seminar]
 thumbnail: 
-    src: seminar.jpg
+    src: seminar/seminar.jpg
     alt: Stockphoto - Schreibtisch mit Unterlagen, Getränken und Laptop
 ---
 
 
-<img src="/images/gb.gif" alt="Decoration" style = "float:left; width:31%; margin-right:20px"/>
-<img src="/images/us.gif" alt="Decoration" style = "float:left; width:31%; margin-right:20px" />
-<img src="/images/fr.gif" alt="Decoration" style = "float:right; width:31%;"/>
+<img src="/images/seminar/gb.gif" alt="Decoration" style = "float:left; width:31%; margin-right:20px"/>
+<img src="/images/seminar/us.gif" alt="Decoration" style = "float:left; width:31%; margin-right:20px" />
+<img src="/images/seminar/fr.gif" alt="Decoration" style = "float:right; width:31%;"/>
 
 
 #### Zwei Jahre intensivster Ausbildung

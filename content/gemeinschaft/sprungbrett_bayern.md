@@ -3,14 +3,14 @@ date: 2020-01-01
 title: Sprungbrett Bayern hop on hop off
 tags: [Gemeinschaft, Archiv]
 thumbnail: 
-    src: praktikumsbus.jpg
+    src: gemeinschaft/praktikumsbus.jpg
     alt: Cartoon-Darstellung eines Busses.
 ---
 
 <h3>
     Hop on - hop off - Praktikumsbus
 </h3>
-<img src="images/praktikumsbus.jpg" alt="Darstellung des Hoponoff Busses" style="float: right; margin-left: 15px; width: 25%; margin-bottom: 15px"></img>
+<img src="images/gemeinschaft/praktikumsbus.jpg" alt="Darstellung des Hoponoff Busses" style="float: right; margin-left: 15px; width: 25%; margin-bottom: 15px"></img>
 
 <p>
     Das Projekt „sprungbrett bayern“ bietet 10 bis 15 Schülerinnen und Schülern der Q11 am WGG eine einmalige Gelegenheit: In 2er-Teams 

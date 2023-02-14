@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Geburtstag Willibald Glucks
 tags: [Gemeinschaft, Archiv]
 thumbnail: 
-    src: wgg_geburtstag_czerwek.jpg
+    src: gemeinschaft/wgg_geburtstag_czerwek.jpg
     alt: Bild von Paul Czerwek - verkleidet als Gluck
 ---
 <h3>
@@ -11,7 +11,7 @@ thumbnail:
 </h3>
 
 <figure style="float: right; margin-left: 15px; width: 25%; margin-bottom: 15px">
-    <img src ="images/wgg_geburtstag_czerwek2.jpg" alt="Bild von Paul Czerwek als Willibald Gluck"></img>
+    <img src ="images/gemeinschaft/wgg_geburtstag_czerwek2.jpg" alt="Bild von Paul Czerwek als Willibald Gluck"></img>
 </figure>
 
 Die Schüler des Willibald-Gluck-Gymnasiums (WGG) staunten nicht schlecht, als am 2. Juli der aus dem Reich des Todes zurückgekehrte 
@@ -34,7 +34,7 @@ zeigten z.B. sein Geburtshaus im nahegelegenen Erasbach, den Stephansdom in Wien
 
 
 <figure style="float: left; margin-right: 15px; width: 25%; margin-bottom: 15px">
-    <img src="images/wgg_geburtstag_czerwek.jpg" alt="Bild von Paul Czerwek als Willibald Gluck"></img>
+    <img src="images/gemeinschaft/wgg_geburtstag_czerwek.jpg" alt="Bild von Paul Czerwek als Willibald Gluck"></img>
 </figure>
 
 <p>
@@ -47,7 +47,7 @@ zeigten z.B. sein Geburtshaus im nahegelegenen Erasbach, den Stephansdom in Wien
 </p>
 
 <figure style="float: right; margin-left: 15px; width: 25%; margin-bottom: 15px">
-    <img src="images/wgg_geburtstag_verpflegung.jpg" alt="Bild der Musik und des Verpflegungsstandes am Geburstag."></img>
+    <img src="images/gemeinschaft/wgg_geburtstag_verpflegung.jpg" alt="Bild der Musik und des Verpflegungsstandes am Geburstag."></img>
 </figure>
 
 <p>

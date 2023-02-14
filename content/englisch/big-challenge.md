@@ -3,11 +3,11 @@ date: 2020-01-01
 title: Big Challenge
 tags: [Englisch, Events, Unterricht]
 thumbnail: 
-    src: big_challenge_bannerc.jpg
+    src: englisch/big_challenge_bannerc.jpg
     alt: Banner der Aktion Big Challenge.
 ---
 
-<img src="/images/big_challenge_bannerc.jpg" alt="Big Challenge Banner" />
+<img src="/images/englisch/big_challenge_bannerc.jpg" alt="Big Challenge Banner" />
 
 <br>
 <h3>

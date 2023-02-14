@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Berufsorientierung
 tags: [Berufsorientierung, Übergreifendes, Alle Projekte]
 thumbnail: 
-    src: 'beruforientierung.jpg'
+    src: 'berufsorientierung/beruforientierung.jpg'
     alt: 'Verkehrsschild, Schule wird Verlassen, Schule ist die nächste Ortschaft' 
 ---
 
@@ -39,10 +39,10 @@ Mit erfolgreichem Abschluss der Abiturprüfungen am WGG erhältst du die Allgeme
 </ul>
 <br>
 <p>Die folgenden Selbsterkundungstools können dir bei deinen Fragen weiterhelfen. Sehr umfangreiche Testmöglichkeiten liefern ein differenziertes Ergebnis (Studium, Duales Studium, Ausbildung)</p>
-<a href="https://www.arbeitsagentur.de/bildung" target = "_blank"><img src="/images/LogoBundesagenturFuerArbeit.jpg"></a>
+<a href="https://www.arbeitsagentur.de/bildung" target = "_blank"><img src="/images/berufsorientierungLogoBundesagenturFuerArbeit.jpg"></a>
 
 <p> Entdecke für dich passende Ausbildungsberufe. </p>
-<a href="https://www.arbeitsagentur.de/bildung/ausbildung/ueber-berufe-informieren" target="_blank"><img src="/images/LogoBerufeEntdecker.jpg"></a>
+<a href="https://www.arbeitsagentur.de/bildung/ausbildung/ueber-berufe-informieren" target="_blank"><img src="/images/berufsorientierungLogoBerufeEntdecker.jpg"></a>
 
 Dein direkter Weg zum Schülerpraktikum: <a href = "https://www.sprungbrett-bayern.de/schueler/" target = "_blank">Sprungbrett Bayern</a>
 

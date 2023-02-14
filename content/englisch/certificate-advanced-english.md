@@ -3,12 +3,12 @@ date: 2020-01-01
 title: Certificate in Advanced English (CAE)
 tags: [Englisch, Unterricht]
 thumbnail: 
-    src: cae_information_slide.jpg
+    src: englisch/cae_information_slide.jpg
     alt: Informationsbanner des Cambridge Advanced English Zertifikats.
 ---
 <h3>Certificate in Advanced English (CAE)</h3>
 
-<img style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px; width:30%" src="/images/cae_information_banner.jpg" alt="Informationsbanner des Cambridge Advanced English Zertifikats." />
+<img style="float: left; margin-right: 15px; width: 50%; margin-bottom: 15px; width:30%" src="/images/englisch/cae_information_banner.jpg" alt="Informationsbanner des Cambridge Advanced English Zertifikats." />
 
 
 <p>

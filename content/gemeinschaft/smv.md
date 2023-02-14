@@ -3,7 +3,7 @@ date: 2020-01-01
 title: SMV
 tags: [Gemeinschaft, SMV]
 thumbnail: 
-    src: smv_logo.jpg
+    src: gemeinschaft/smv_logo.jpg
     alt: Das Logo der Schüler mit Verantwortung.
 ---
 

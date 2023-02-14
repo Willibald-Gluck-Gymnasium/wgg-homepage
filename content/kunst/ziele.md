@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Kunst am WGG
 tags: [Kunst, Unterricht]
 thumbnail: 
-    src: gemälde.jpg
+    src: kunst/gemälde.jpg
     alt: Foto eines Gemäldes, erstellt von der Fachschaft Kunst.
 ---
 <ul>

@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Musik
 tags: [Musik, Unterricht]
 thumbnail: 
-    src: 'MusikTitel.jpg'
+    src: 'musik/MusikTitel.jpg'
     alt: 'Klavier in einer Murmel'
 ---
 

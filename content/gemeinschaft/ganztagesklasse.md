@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Die gebundene Ganztagesklasse
 tags: [Gemeinschaft, Alle Projekte, Übergreifendes, Leitbild des WGG]
 thumbnail: 
-    src: pappWGG.jpg
+    src: gemeinschaft/pappWGG.jpg
     alt: Modell des WGG gebastelt von Schüler*innen der Ganztagesklasse
 ---
 
@@ -23,7 +23,7 @@ Mehr Informationen als PDF-Dateien
   überdenken müssen, wurde am Willibald-Gluck-Gymnasium im Schuljahr
   2011/2012 ein gebundenes Ganztagesangebot eingerichtet.
 </p>
-<img src="/images/15_gt_mittag1.jpg" alt="Mittagspause draußen" style="width:33%;margin:10px 12px;float:left"/>
+<img src="/images/gemeinschaft/15_gt_mittag1.jpg" alt="Mittagspause draußen" style="width:33%;margin:10px 12px;float:left"/>
 Sobald es das Wetter zulässt, sind wir mittags draußen.
 
 <p>
@@ -45,7 +45,7 @@ Sobald es das Wetter zulässt, sind wir mittags draußen.
   beginnende Selbstständigkeit und Eigenverantwortlichkeit Ihres
   Kindes.
 </p>
-<img src="/images/15_gt_mittag2.jpg" alt="Mittagspause drinnen" style="width:33%;margin: 10px 12px;float:right"/>
+<img src="/images/gemeinschaft/15_gt_mittag2.jpg" alt="Mittagspause drinnen" style="width:33%;margin: 10px 12px;float:right"/>
 Auch der Innenbereich des WGG bietet vielfältige Möglichkeiten zur Gestaltung der Mittagspause!
 </p>
 <p>

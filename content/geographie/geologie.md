@@ -3,7 +3,7 @@ date: 2022-01-10
 title: Lehrplanalternative Geologie
 tags: [Geographie, Unterricht]
 thumbnail: 
-    src: Geologie2.jpg
+    src: geographie/Geologie2.jpg
     alt: Verschiedene Gesteine im Überblick
 ---
 
@@ -19,8 +19,8 @@ Ganz nebenbei galt es auch noch, die Erdgeschichte im Schnelldurchlauf zu behand
 
 Matthias Völkl
 
-<img src="/images/Geologie2.jpg" alt="erschiedene Gesteine im Überblick">
+<img src="/images/geographie/Geologie2.jpg" alt="erschiedene Gesteine im Überblick">
 
-![Schüler:innen bei der Arbeit im Geologie-Kurs](/images/Geologie1.jpg)
+![Schüler:innen bei der Arbeit im Geologie-Kurs](/images/geographie/Geologie1.jpg)
 
 

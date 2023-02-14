@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Mediencurriculum
 tags: [Unterricht]
 thumbnail: 
-    src: mediencurriculum.jpg
+    src: unterricht/mediencurriculum.jpg
     alt: Erste Seite des Mediencurriculums des Willibald-Gluck-Gymnasiums
 ---
 

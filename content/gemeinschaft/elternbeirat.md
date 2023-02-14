@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Der Elternbeirat am WGG
 tags: [Gemeinschaft, Elternbeirat]
 thumbnail: 
-    src: wggHaus.jpg
+    src: gemeinschaft/wggHaus.jpg
     alt: Innenansicht des WGG
 ---
 
@@ -130,61 +130,61 @@ Die aktuellen Mitglieder des Elternbeirats
 
 <table style="margin:auto;border-collapse:separate;border-spacing:50px">
     <tr>
-        <td><img width="140px" src="/images/gsturm.jpg" alt="Elternbeirat" /></td>
+        <td><img width="140px" src="/images/elternbeirat/gsturm.jpg" alt="Elternbeirat" /></td>
         <td>
             <b>Gerlinde Sturm</b><br> Erste Vorsitzende
         </td>
-        <td><img width="140px" src="/images/swanka.jpg" alt="Elternbeirat" /></td>
+        <td><img width="140px" src="/images/elternbeirat/swanka.jpg" alt="Elternbeirat" /></td>
         <td>
             <b>Silvia Wanka</b><br> Zweite Vorsitzende
         </td>
     </tr>
     <tr>
-        <td><img width="140px" src="/images/mmossburger.jpg" alt="Elternbeirat" /></td>
+        <td><img width="140px" src="/images/elternbeirat/mmossburger.jpg" alt="Elternbeirat" /></td>
         <td>
             <b>Martin Moßburger</b><br>Kasse und Buchführung
         </td>
-        <td><img width="140px" src="/images/mstroeber.jpg" alt="Elternbeirat" /></td>
+        <td><img width="140px" src="/images/elternbeirat/mstroeber.jpg" alt="Elternbeirat" /></td>
         <td>
             <b>Martina Ströber</b>
         </td>
     </tr>
     <tr>
-        <td><img width="140px" src="/images/trefz-ghassemi.jpg" alt="Elternbeirat"></td>
+        <td><img width="140px" src="/images/elternbeirat/trefz-ghassemi.jpg" alt="Elternbeirat"></td>
         <td>
             <b>Dr. Margit Trefz-Ghassemi</b>
         </td>
-        <td><img width="140px" src="/images/tkinn.jpg" alt="Elternbeirat" /></td>
+        <td><img width="140px" src="/images/elternbeirat/tkinn.jpg" alt="Elternbeirat" /></td>
         <td>
             <b>Thomas Kinn</b>
         </td>
     </tr>
     <tr>
-        <td><img width="140px" src="/images/sbuchner.jpg" alt="Elternbeirat" /></td>
+        <td><img width="140px" src="/images/elternbeirat/sbuchner.jpg" alt="Elternbeirat" /></td>
         <td>
             <b>Susanne Buchner</b>
         </td>
-        <td><img width="140px" src="/images/nfeldberger.jpg" alt="Elternbeirat" /></td>
+        <td><img width="140px" src="/images/elternbeirat/nfeldberger.jpg" alt="Elternbeirat" /></td>
         <td>
             <b>Nicole Feldberger</b>
         </td>
     </tr>
     <tr>
-        <td><img width="140px" src="/images/ediepenseifen.jpg" alt="Elterbeirat"></td>
+        <td><img width="140px" src="/images/elternbeirat/ediepenseifen.jpg" alt="Elterbeirat"></td>
         <td>
             <b>Eva Diepenseifen</b><br>
         </td>
-        <td><img width="140px" src="/images/cgerner.jpg" alt="Elternbeirat" /></td>
+        <td><img width="140px" src="/images/elternbeirat/cgerner.jpg" alt="Elternbeirat" /></td>
         <td>
             <b>Claudia Gerner</b>
         </td>
     </tr>
     <tr>
-        <td><img width="140px" src="/images/fpapenburg.jpg" alt="Elternbeirat" /></td>
+        <td><img width="140px" src="/images/elternbeirat/fpapenburg.jpg" alt="Elternbeirat" /></td>
         <td>
             <b>Frank Papenburg</b>
         </td>
-        <td><img width="140px" src="/images/kwolf.jpg" alt="Elternbeirat" /></td>
+        <td><img width="140px" src="/images/elternbeirat/kwolf.jpg" alt="Elternbeirat" /></td>
         <td>
             <b>Katja Wolf</b>
         </td>

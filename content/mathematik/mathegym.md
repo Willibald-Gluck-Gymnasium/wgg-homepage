@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Mathegym
 tags: [Mathematik, Unterricht]
 thumbnail: 
-    src: mathe-tafel.jpg
+    src: mathematik/mathe-tafel.jpg
     alt: Eine Tafel mit Mathematischen Inhalten als Tafelbild
 ---
 

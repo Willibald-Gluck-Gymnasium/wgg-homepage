@@ -3,7 +3,7 @@ date: 2022-01-01
 title: Exkursion zum "Haus am Habsberg"
 tags: [Geographie, Unterricht]
 thumbnail: 
-    src: ExkursionHabsberg.jpg
+    src: geographie/ExkursionHabsberg.jpg
     alt: Gruppenbild bei der Exkursion zum Umweltbildungszentrum
 ---
 
@@ -11,7 +11,7 @@ thumbnail:
 
 Wissen Sie, wie viele Bodenlebewesen in einem Kubikmeter Erde zu finden sind? Die Schülerinnen und Schüler der Klasse 5a könnten Ihnen dazu eine fundierte Antwort geben. Denn in einer vorbereitenden Schulstunde zur Exkursion zum Haus am Habsberg lernten sie allerhand zu all den Bodenlebewesen, die diese „Grundlage“ so lebendig machen, bevor sie dann selbst Bodenproben untersuchen durften.
 
-![Gruppenbild bei der Exkursion zum Umweltbildungszentrum](images/ExkursionHabsberg.jpg)
+![Gruppenbild bei der Exkursion zum Umweltbildungszentrum](images/geographie/ExkursionHabsberg.jpg)
 
 Im Rahmen des Geographieunterrichts der 5. Klasse werden die Grundlagen für eine funktionierende Landwirtschaft erarbeitet. So war es für die Klasse 5a möglich, sich Mitte Juni am Umweltbildungszentrum Habsberg mit dem Thema Boden genauer auseinanderzusetzen. 
 

@@ -3,7 +3,7 @@ date: 2020-01-01
 title: MINTEC- Zertifikat
 tags: [Naturwissenschaften, MintEC]
 thumbnail: 
-    src: 'mintecZertifikat.jpg'
+    src: 'mintec/mintecZertifikat.jpg'
     alt: 'Verleihung des MintEC Zertifikats' 
 ---
 

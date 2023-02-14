@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Wettbewerbe
 tags: [Biologie, Unterricht]
 thumbnail: 
-    src: 'bio_LO_beet.jpg'
+    src: 'biologie/bio_LO_beet.jpg'
     alt: 'Hochbeet, angelegt von der Fachschaft Biologie'
 ---
 

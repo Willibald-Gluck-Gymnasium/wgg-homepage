@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Die Lehrer am WGG haben Warum Geschichte Gewählt?
 tags: [Geschichte, Unterricht]
 thumbnail: 
-    src: 'GluckAlt.jpg' #noch nicht Final es soll der alte neben einem neuen editiert werden (siehe alt text)
+    src: 'geschichte/GluckAlt.jpg' #noch nicht Final es soll der alte neben einem neuen editiert werden (siehe alt text)
     alt: 'Die neue Gluck Statue neu neben der Alten'
 ---
 

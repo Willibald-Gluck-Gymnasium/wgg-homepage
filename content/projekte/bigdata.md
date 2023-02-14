@@ -3,11 +3,11 @@ date: 2020-01-01
 title: Projekttag Big Data am WGG
 tags: [BigData, Archiv]
 thumbnail: 
-    src: '19_bigdata_01.jpg'
+    src: 'projekte/19_bigdata_01.jpg'
     alt: 'Vortrag im Rahmen von Big Data'
 ---
 
-<img src ="/images/19_bigdata_01.jpg">
+<img src ="/images/projekte/19_bigdata_01.jpg">
 
 Schülerinnen und Schüler der 10. Klassen diskutieren die Auswirkungen der Digitalisierung auf unseren Alltag.
 
@@ -20,7 +20,7 @@ Gleichzeitig gilt es aber zu überlegen, wo ungeklärte Fragen oder sogar mögli
 Über solche Fragen wurde am Dienstag im Projekttag „Big Data“ am WGG diskutiert. Die Schülerinnen und Schüler der 10. Jahrgangsstufe setzten sich in Rollenspielen und anderen Lerneinheiten intensiv mit der Thematik auseinander. Dabei wurde behandelt, wie Algorithmen arbeiten, wo im Alltag Daten anfallen, welche Vor- und Nachteile die Technik für den Einzelnen und unser Zusammenleben im Ganzen haben kann und welche ethischen und gesellschaftlichen Fragen dabei diskutiert werden müssen.
 
 
-<img src ="/images/19_bigdata_02.jpg" style="float:right; width:15%;margin-left:20px">
+<img src ="/images/projekte/19_bigdata_02.jpg" style="float:right; width:15%;margin-left:20px">
 
 Mit dem Philosophen Prof. Dr. Karsten Weber vom Institut für Technikfolgenabschätzung an der OTH Regensburg hatte man einen profunden Kenner der Materie für die Veranstaltung gewonnen, der in einem Abschlussvortrag zum Thema „Sind Daten das neue (Erd-)Öl?“ der Frage nachging, welche Folgen es für unsere Gesellschaft haben kann, wenn einzelne Unternehmen wie etwa Google, Facebook oder Amazon über eine herausgehobene Marktmacht im Umgang mit Daten verfügen. An diesen Vortrag schloss sich eine lebhafte Diskussion an, die zeigte, dass die Jugendlichen ihre Umwelt mit wachem und kritischem Blick betrachten und sich beileibe nicht nur unreflektiert dem Medienkonsum hingeben.
 

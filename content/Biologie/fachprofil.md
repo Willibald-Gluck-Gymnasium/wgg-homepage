@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Fachprofil
 tags: [Biologie, Unterricht]
 thumbnail: 
-    src: 'fachprofil_biologie.jpg'
+    src: 'biologie/fachprofil_biologie.jpg'
     alt: 'Stochphoto von Hasen auf einer Bank vor einem Pilzhaus'
 ---
 

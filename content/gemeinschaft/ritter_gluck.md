@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Ritter Gluck
 tags: [Gemeinschaft, Leitbild des WGG]
 thumbnail: 
-    src: willibaldgluck.jpg
+    src: gemeinschaft/willibaldgluck.jpg
     alt: Porträt von Willibald Gluck
 ---
 <h3>
