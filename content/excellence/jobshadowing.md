@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Job-Shadowing
 tags: [Excellence, Job-Shadowing, NTG Zweig, WWG Zweig, Alle Projekte]
 thumbnail: 
-    src: 'excellence.jpg'
+    src: 'excellence/excellence.jpg'
     alt: 'Logo der Excellence-Initiative' 
 ---
 

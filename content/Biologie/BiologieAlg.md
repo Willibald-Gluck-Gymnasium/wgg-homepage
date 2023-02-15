@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Die Fachschaft Biologie
 tags: [Biologie, Unterricht]
 thumbnail: 
-    src: 'SpookyScarrySkelleton.jpg'
+    src: 'biologie/SpookyScarrySkelleton.jpg'
     alt: 'Ein menschliches Plastikskelett legt den Arm auf ein Modell eines menschlichen  Oberkörpers mit innereien.'
 ---
 

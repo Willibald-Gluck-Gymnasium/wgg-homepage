@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Galerie der Fachschaft Kunst
 tags: [Kunst, Unterricht]
 thumbnail: 
-    src: Bild_LauraBareiß.jpg
+    src: kunst/Bild_LauraBareiß.jpg
     alt: Illustration der Kontinente
 ---
 <p><h2>Q12 Treppenhausbilder</h2></p>

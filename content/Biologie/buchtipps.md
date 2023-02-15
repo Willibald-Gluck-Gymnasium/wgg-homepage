@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Buchtipps
 tags: [Biologie, Unterricht]
 thumbnail: 
-    src: 'buch_operatoren.jpg'
+    src: 'unterricht/buch_operatoren.jpg'
     alt: 'Stockphoto eines aufgeschlagenen Buches'
 ---
 

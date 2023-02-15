@@ -1,5 +1,6 @@
 ---
 date: 2023-01-27
+date: 2024-01-01
 title: chemische Winter-Impressionen 
 tags: [Chemie]
 thumbnail: 
