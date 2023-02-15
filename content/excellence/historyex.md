@@ -3,7 +3,7 @@ date: 2020-01-01
 title: HistoryEx
 tags: [Excellence, NTG Zweig, WWG Zweig, Alle Projekte]
 thumbnail: 
-    src: 'history1.jpg'
+    src: 'excellence/history1.jpg'
     alt: 'Schüler*innen sitzen im X' 
 ---
 

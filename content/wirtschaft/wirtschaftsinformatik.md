@@ -3,7 +3,7 @@ date: 2022-01-01
 title: Wirtschaftsinformatik - ein neues Fach!
 tags: [Wirtschaft und Recht, Unterricht, Wirtschaftsinformatik]
 thumbnail:
-    src: wr-fach.jpg
+    src: wirtschaft/wr-fach.jpg
     alt: Ein Spaarschwein im Vordergrund, im Hintergrund Münzen, Banknoten und Graphen.
 ---
 

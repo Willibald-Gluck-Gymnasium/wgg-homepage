@@ -3,20 +3,20 @@ date: 2020-01-01
 title: MintEx
 tags: [Excellence, NTG Zweig, Naturwissenschaften, Übergreifendes, Alle Projekte]
 thumbnail: 
-    src: 'mintex16_01.jpg'
+    src: 'excellence/mintex16_01.jpg'
     alt: 'Schüler*innen präsentieren ihr Modell eines Hauses mit Sensorik' 
 ---
 
 
 ## Und die Welt wird uns zu Füßen liegen … - Wetterballon des MINTeX Kurses startet am 22. März
 
-<img src = "/images/mintex_ballon18_01.jpg" style ="float:right;width: 45%; margin-left:20px">
+<img src = "/images/excellence/mintex_ballon18_01.jpg" style ="float:right;width: 45%; margin-left:20px">
 
 Freitag, 22. März 2019. Ein außergewöhnlicher Tag für die Schülerinnen und Schüler, die den Wahlkurs MINTeX am WGG besuchen. Die Sonne strahlt, es weht kaum ein Wind. Beste Voraussetzungen also für den Start des Wetterballons, der eine Sonde mit Messinstrumenten in die Stratosphäre bringen wird. Der Ballon, der mit Helium gefüllt ist, wird in einer Höhe von 25000 m platzen und danach mit einem Fallschirm zurück auf die Erde fallen. Danach geht sie los: die Suche nach der gelandeten Messsonde, in der ein GPS-Tracker eingebaut ist. Dieser wird hoffentlich seine Koordinaten per SMS an die Handies der MINTeXler senden. Gespannt sind alle, ob das klappt und ob sich die Sonde bergen lässt. Mit einer Portion Glück müsste das doch klappen!
 
 Das ganze Schuljahr hat sich der MINTeX-Kurs dem Start des Wetterballons gewidmet: Das notwendige Material musste zusammengestellt und besorgt werden. Eine Genehmigung vom Luftamt war erforderlich. Die Sensoren, die Temperatur, Luftdruck, Luftfeuchtigkeit und UV-Index messen, mussten ausgewählt und programmiert werden. Gesteuert werden die Sensoren durch den Mikrocontroller Arduino. Ein Schaltplan wurde erstellt und die einzelnen Komponenten wurden schließlich miteinander verdrahtet. Ebenso musste der zeitliche Ablauf des Projektes geplant und auf die Einhaltung der Termine geachtet werden.
 
-<img src = "/images/mintex_ballon18_02.jpg" style ="float:left;width: 45%; margin-right:20px">
+<img src = "/images/excellence/mintex_ballon18_02.jpg" style ="float:left;width: 45%; margin-right:20px">
 
 All diese Aufgaben erledigen die Schülerinnen und Schüler des Wahlkurses in Gruppen eigenständig, die betreuende Lehrkraft Ulrike Englert steht dabei beratend zur Seite. Der Kurs MINTeX ist ein Baustein des eXcellence-Programms am Willibald-Gluck-Gymnasium, in dem besonders engagiere und begabte Jugendliche gefördert werden. Beim MINTeX-Kurs sind es die Schülerinnen und Schüler, die besondere Talente in den MINT-Fächern haben. Die Projektarbeit schult neben fachlichen Kompetenzen zudem Organisationsgeschick, Kommunikationsfähigkeit und das gemeinsame Arbeiten im Team.
 

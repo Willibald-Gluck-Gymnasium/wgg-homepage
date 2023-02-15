@@ -1,5 +1,6 @@
 ---
 date: 2023-01-20
+expireOn: 2025-01-20
 title: Artenschutz und Biodiversität fördern durch Blühwiesen
 tags: [Biologie, Unterricht, P-Seminar]
 thumbnail: 
