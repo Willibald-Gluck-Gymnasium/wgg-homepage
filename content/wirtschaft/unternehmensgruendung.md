@@ -23,5 +23,5 @@ Im P-Seminar Unternehmensgründung konnten die Jugendlichen den Weg einer Existe
 
 !["Zwei Schüler bei der Vorstellung ihrer Unternehmensgründung."](/images/anmeldung/wirtschaft/gruendung_p_sem1.jpg)
 !["Zwei Schüler bei der Vorstellung ihrer Unternehmensgründung."](/images/anmeldung/wirtschaft/gruendung_p_sem2.jpg)
-!["Drei Schülerinnen bei der Vorstellung ihrer Unternehmensgründung."](/images/anmeldung/wirtschaft/gruendung_p_sem3.jpg)
+!["Drei Schülerinnen bei der Vorstellung ihrer Unternehmensgründung."](/images/wirtschaft/gruendung_p_sem3.jpg)
 !["Zwei Schüler bei der Vorstellung ihrer Unternehmensgründung."](/images/anmeldung/wirtschaft/gruendung_p_sem4.jpg)

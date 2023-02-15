@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Wirtschaftsplanspiel „Play The Market“ 2020/21
 tags: [Archiv]
 thumbnail:
-    src: playthemarket.png
+    src: wirtschaft/playthemarket.png
     alt: Ein Logo des Wirtschafts-Simulators "Play The Market"
 ---
 <p>Trotz der Corona-Pandemie und den damit verbundenen Schwierigkeiten, haben die Teams aus drei 10. Klassen des WGG, zusammen mit vielen anderen Teams aus Bayern, an dem betriebswirtschaftlichen Planspiel „Play The Market“ teilgenommen. Bei diesem Spiel geht es darum, über mehrere Geschäftsjahre (= Spielrunden) die Führung eines virtuellen, mittelständischen Produktions-unternehmens zu übernehmen. Neben der Gewinnmaximierung sind auch die soziale und ökologische Verantwortung Ziele des Spiels und fließen mit in die Bewertung ein. Die Aufgabe der Spielgruppen ist es, das Unternehmen möglichst erfolgreich zu führen und für jede Spielrunde Entscheidungen in den Bereichen Einkauf/Lager, Produktion, Marketing/Vertrieb und Finanzen zu treffen. Dafür müssen sich die Gruppen eine Strategie überlegen und anwenden, damit sie eine möglichst hohe Platzierung auf ihrem Markt erzielen können. Hilfreich für das Treffen der Entscheidungen ist ein Planungstool, das den Teilnehmer*innen zur Verfügung stand. </p>

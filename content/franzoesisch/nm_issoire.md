@@ -2,7 +2,7 @@
 title: Gelebte Partnerschaft
 tags: [Französisch, Unterricht]
 thumbnail: 
-    src: 'bugatt.jpg'
+    src: 'franzoesisch/bugatt.jpg'
     alt: 'Baguetts'
 ---
 ## [Neumark](https://www.neumarkt.de) - [Issoire](https://www.issoire.fr)

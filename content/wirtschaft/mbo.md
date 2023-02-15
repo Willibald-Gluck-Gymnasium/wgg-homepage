@@ -3,7 +3,7 @@ date: 2022-01-01
 title: MBO am WGG
 tags: [Wirtschaft und Recht, Unterricht, MBO]
 thumbnail:
-    src: mbo_bild1.jpg
+    src: wirtschaft/mbo_bild1.jpg
     alt: Schüler beim Verkabeln elektrischer Schalter
 ---
 
@@ -16,12 +16,12 @@ Die „Initiative Junge Forscherinnen und Forscher e.V.“ unter der Leitung von
 
 Im Rahmen einer Potenzialanalyse des Beruflichen Fortbildungszentrums der Bayerischen Wirtschaft (bfz) Neumarkt konnten die Neuntklässler bei verschiedensten Aufgaben theoretischer und praktischer Natur ihre persönliche Arbeitsweise zeigen. Beobachtet wurden sie dabei von Mitarbeiter*innen des bfz, um festzuhalten, wie sich jede/r Einzelne in solchen gruppendynamischen Prozessen verhält. Eine individuelle Auswertung der eigenen Stärken und den Bereichen, in denen noch Entwicklungspotential steckt, erhalten alle Schüler*innen noch am Ende des Schuljahres. Viele positive Rückmeldungen von allen Beteiligten bestätigen die kompakte Auseinandersetzung mit dem Thema „Beruf“ und diese findet sicher im kommenden Schuljahr seine Fortsetzung!
 
-![Schüler beim Verkabeln eines Schalters](/images/mbo_bild1.jpg)
+![Schüler beim Verkabeln eines Schalters](/images/wirtschaft/mbo_bild1.jpg)
 
-![Schüler:innen in der Holzwerkstatt](/images/mbo_bild2.jpg)
+![Schüler:innen in der Holzwerkstatt](/images/wirtschaft/mbo_bild2.jpg)
 
-![Schüler:innen beim Teambuilding workshop](/images/mbo_bild3.jpg)
+![Schüler:innen beim Teambuilding workshop](/images/wirtschaft/mbo_bild3.jpg)
 
-![Schüler:innen bei der beruflichen Orientierung](/images/mbo_bild4.jpg)
+![Schüler:innen bei der beruflichen Orientierung](/images/wirtschaft/mbo_bild4.jpg)
 
-![Schülerinnen mit Mikroskop](/images/mbo_bild5.jpg)
+![Schülerinnen mit Mikroskop](/images/wirtschaft/mbo_bild5.jpg)
