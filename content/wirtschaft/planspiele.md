@@ -3,7 +3,7 @@ date: 2022-01-01
 title: Planspiele
 tags: [Wirtschaft und Recht, Unterricht]
 thumbnail:
-    src: planspiele.jpg
+    src: wirtschaft/planspiele.jpg
     alt: Gruppenbild mit Schüler:innen beim Planspiel
 ---
 
@@ -19,4 +19,4 @@ Alles in allem waren die beiden Planspiele sehr lehrreiche Erfahrungen mit tiefe
 
 Michael Blomeier
 
-![Gruppenbild mit Schüler:innen beim Planspiel](/images/planspiele.jpg)
+![Gruppenbild mit Schüler:innen beim Planspiel](/images/wirtschaft/planspiele.jpg)

@@ -3,7 +3,7 @@ date: 2020-01-01
 title: V€GA
 tags: [Excellence, Wirtschaftswissenschaften, Alle Projekte, WWG Zweig]
 thumbnail: 
-    src: 'unimklassenzimmer18_01.jpg'
+    src: 'excellence/unimklassenzimmer18_01.jpg'
     alt: 'Schüler*innen bei der Diskussion im Klassenzimmer' 
 ---
 
@@ -27,11 +27,11 @@ Nachfolgend ein Bericht eines V€GA-Kurses:
 
 Als Delegierter die Interessen eines ganzen Landes zu vertreten und vor dem UN-Sicherheitsrat eine Rede zu halten – dies wurde für die Schülerinnen und Schüler des eXcellence-Kurses „V€GA – Vereintes Europa Gemeinsam Arbeiten“ des Willibald-Gluck-Gymnasiums im Rahmen des Planspiels „UN im Klassenzimmer“ Wirklichkeit.
 
-<img src = "/images/unimklassenzimmer18_01.jpg" style ="float:right;width: 45%; margin-left:20px">
+<img src = "/images/excellence/unimklassenzimmer18_01.jpg" style ="float:right;width: 45%; margin-left:20px">
 
 Die Deutsche Gesellschaft für die Vereinten Nationen e.V. (DGVN) schickt ausgebildete Teamer an Schulen und simuliert realitätsnah eine Sitzung des UN-Sicherheitsrats zu aktuellen Themen. Nach einem 90-minütigen Basismodul, in dem die Grundlagen zu den Zielen, Organen und der Arbeitsweise der Vereinten Nationen erarbeiten wurden, begann die eigentliche Simulation. Darin setzten sich die Vertreter der 5 ständigen Mitglieder USA, Großbritannien, Frankreich, Russland und China, die sogenannten Permanent Five, und die übrigen 10 Mitgliedsländer über mehrere Stunden mit einem UN-Resolutionsentwurf zu Syrien auseinander. Dabei wurden hochaktuelle und brisante Forderungen wie die Einhaltung des Waffenstillstands in der entmilitarisierten Zone in Idlib, die Verurteilung des Einsatzes von Chemiewaffen durch die syrische Regierung in Ost-Ghouta oder die Einrichtung eines von Syrien geleiteten konstitutionellen Komitees diskutiert. Im Vorfeld informierten sich die Schüler intensiv über die politische Position ihres Landes zum Syrienkonflikt, denn die eigene persönliche Meinung musste auf dem diplomatischen Parkett hinter die Interessen des eigenen Landes treten. 
 
-<img src = "/images/unimklassenzimmer18_02.jpg" style ="float:left;width: 45%; margin-right:20px">
+<img src = "/images/excellence/unimklassenzimmer18_02.jpg" style ="float:left;width: 45%; margin-right:20px">
 
 Für die Schüler war es nach eigener Anischt eine besondere Herausforderungen, die eigenen Redebeiträge konsequent in der dritten Person zu formulieren und die strengen Vorgaben des diplomatischen Protokolls des Sicherheitsrats einzuhalten.
 Ehemalige Schüler des eXcellence-Kurse, die bereits Erfahrungen bei der Großveranstaltung Model United Nations in Stuttgart sammeln konnten, übernahmen angeleitet durch den Teamer Martin Schunk von der DGVN den Vorsitz des UN-Sicherheitsrats.

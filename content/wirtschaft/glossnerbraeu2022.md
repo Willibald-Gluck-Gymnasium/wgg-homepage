@@ -3,7 +3,7 @@ date: 2022-01-01
 title: Fachsitzung
 tags: [Wirtschaft und Recht, Fachsitzung]
 thumbnail:
-    src: glossner_braeu.jpg
+    src: wirtschaft/glossner_braeu.jpg
     alt: Führung in der Brauerei Glossner-Bräu
 ---
 
@@ -15,4 +15,4 @@ Die Fachschaft Wirtschaft und Recht traf sich am 21.10.2022 in der Brauerei Glos
 
 Yvonne Westiner 
 
-![Führung in der Brauerei Glossner-Bräu](/images/glossner_braeu.jpg)
+![Führung in der Brauerei Glossner-Bräu](/images/wirtschaft/glossner_braeu.jpg)

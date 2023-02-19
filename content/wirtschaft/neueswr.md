@@ -3,7 +3,7 @@ date: 2022-01-01
 title: Neues aus dem Wirtschaftsunterricht!
 tags: [Wirtschaft und Recht, Unterricht]
 thumbnail:
-    src: wr_veranstaltungen.jpg
+    src: wirtschaft/wr_veranstaltungen.jpg
     alt: Podiumsvortrag vor Schüler:innen
 ---
 
@@ -27,4 +27,4 @@ Am 22.6.2022 nahmen die Klassen 9c, 9d, 9e und 10e  an einem Vortrag zum Thema D
 
 Yvonne Westiner
 
-![Podiumsvortrag vor Schüler:innen](/images/wr_veranstaltungen.jpg)
+![Podiumsvortrag vor Schüler:innen](/images/wirtschaft/wr_veranstaltungen.jpg)

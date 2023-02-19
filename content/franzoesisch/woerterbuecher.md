@@ -2,7 +2,7 @@
 title: Anschaffung und Gebrauch von Wörterbüchern in Französisch
 tags: [Französisch, Unterricht]
 thumbnail: 
-    src: 'bugatt.jpg'
+    src: 'franzoesisch/bugatt.jpg'
     alt: 'Baguetts'
 ---
 ### Sehr geehrte Eltern, liebe Schülerinnen und Schüler,

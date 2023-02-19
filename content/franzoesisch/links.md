@@ -2,7 +2,7 @@
 title: Linksammlung Französisch
 tags: [Französisch, Unterricht]
 thumbnail: 
-    src: 'bugatt.jpg'
+    src: 'franzoesisch/bugatt.jpg'
     alt: 'Baguetts'
 ---
 
