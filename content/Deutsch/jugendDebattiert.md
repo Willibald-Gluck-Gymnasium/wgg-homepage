@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Jugend debattiert
 tags: [Deutsch, Unterricht]
 thumbnail: 
-    src: 'JugendDebattiert.jpg'
+    src: 'deutsch/JugendDebattiert.jpg'
     alt: 'Jugend debattiert Logo'
 ---
 

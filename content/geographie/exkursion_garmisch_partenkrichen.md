@@ -3,7 +3,7 @@ date: 2021-08-10
 title: Geologie und Tourismus in den Alpen
 tags: [Geographie, Unterricht]
 thumbnail: 
-    src: GeologieTourismus1.jpg
+    src: geographie/GeologieTourismus1.jpg
     alt: Gruppenbild - entstanden während der Exkursion nach Garmisch-Partenkirchen
 ---
 
@@ -13,7 +13,7 @@ Nach zweijähriger Pause konnte in diesem Schuljahr wieder eine zweitägige Alpe
 
 Schon auf der Hinfahrt nach Garmisch-Partenkirchen waren die Schülerinnen und Schüler der Geographiekurse der Q12 gefragt. Während die Landschaft an ihnen vorbeirauschte, galt es zu beobachten, wie sich diese auf der Fahrt von Neumarkt Richtung Alpen merklich verändert. So stellten die Teilnehmer fest, dass mehrere eindeutige Änderungen des Landschaftsbildes vorliegen, zum einen der durch das Schichtstufenland geprägte Raum um Neumarkt, das Tertiärhügelland mit dem Hopfenanbaugebiet Hallertau, der Münchener Schotter mit seiner flachen Ebene und die durch End- und Grundmoränen geprägte Landschaft der Voralpen ab Starnberg.
 
-![Gruppenbild - entstanden während der Exkursion nach Garmisch-Partenkirchen](/images/GeologieTourismus1.jpg)
+![Gruppenbild - entstanden während der Exkursion nach Garmisch-Partenkirchen](/images/geographie/GeologieTourismus1.jpg)
 
 Die erste Station war ein kurzer Abstecher ins Murnauer Moos. Hier konnten die SchülerInnen den Lebensraum Moor live sehen und erfuhren mehr über die wichtigsten Funktionen der Moore im Voralpenland (v.a. Hochwasserschutz) sowie deren Gefährdung. Auch wurde die Entstehung der Moore im Voralpenraum im Nachgang der Eiszeiten erörtert.
 

@@ -4,14 +4,14 @@ title: ENERGIEGELADEN - Kooperation von WGG und N-Ergie
 
 tags: [Naturwissenschaften, MintEC, Alle Projekte]
 thumbnail: 
-    src: 'nergie_01.jpg'
+    src: 'mintec/nergie_01.jpg'
     alt: 'Übergabe der Partner-Plakette' 
 ---
 
 Seit dem Schuljahr 16/17 kooperiert das Willibald-Gluck-Gymnasium mit der N-ERGIE AG aus Nürnberg.
 
 <figure style="width:75%;margin:auto">
-    <img src = "/images/nergie_01.jpg">
+    <img src = "/images/mintec/nergie_01.jpg">
     <figcaption>
         André Beck von der N-ERGIE und Vertreter der Schülerschaft des WG
     </figcaption>
@@ -31,13 +31,13 @@ Seit dem Schuljahr 16/17 kooperiert das Willibald-Gluck-Gymnasium mit der N-ERGI
 - Betreuung von Projekten z.B. im Rahmen der Oberstufenseminare oder im Profilunterricht des NTG-Zweigs
 
 <figure style="width:75%;margin:auto">
-    <img src = "/images/heizkraftwerk.jpg">
+    <img src = "/images/mintec/heizkraftwerk.jpg">
     <figcaption>
         Besuch des Heizkraftwerks
     </figcaption>
 </figure>
 <figure style="width:75%;margin:auto">
-    <img src = "/images/bewerbungstraining.jpg">
+    <img src = "/images/mintec/bewerbungstraining.jpg">
     <figcaption>
         Bewerbertraining mit dem P-Seminar
     </figcaption>
@@ -51,7 +51,7 @@ auf die Zukunft mit Blick auf die Energiewende vor. Und das Unternehmen könne t
 für eine Festanstellung gewinnen.
 
 <figure style="width:75%;margin:auto">
-    <img src = "/images/unterzeichnung.jpg">
+    <img src = "/images/mintec/unterzeichnung.jpg">
     <figcaption>
         Unterzeichnung der Kooperationsvereinbarung
     </figcaption>
@@ -68,7 +68,7 @@ nach Energiebedarf mit Wadl-Kraft angetrieben. Bei dem ganzen Spaß erfahren die
 die Energiewende gelingen kann.
 
 <figure style="width:75%;margin:auto">
-    <img src = "/images/theater.jpg">
+    <img src = "/images/mintec/theater.jpg">
     <figcaption>
         Theaterprojekt „Abschalten“
     </figcaption>

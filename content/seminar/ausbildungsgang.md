@@ -3,12 +3,12 @@ date: 2020-01-01
 title: Ausbildungsgang
 tags: [Gemeinschaft, Seminar]
 thumbnail: 
-    src: seminar.jpg
+    src: seminar/seminar.jpg
     alt: Stockphoto - Schreibtisch mit Unterlagen, Getränken und Laptop
 ---
 
 
-<h3 class="kat_gemein">Überblick über die Ausbildungsabschnitte</h3>
+<h3>Überblick über die Ausbildungsabschnitte</h3>
     
 <h3>1. Ausbildungsabschnitt</h3>
 <p>Im ersten, ein halbes Jahr umfassenden Ausbildungsabschnitt werden die

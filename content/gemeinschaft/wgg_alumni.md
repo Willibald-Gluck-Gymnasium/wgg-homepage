@@ -3,11 +3,11 @@ date: 2020-01-01
 title: WGG - Alumni
 tags: [Gemeinschaft]
 thumbnail: 
-    src: alumni.jpg
+    src: gemeinschaft/alumni.jpg
     alt: Ausschnitt der Alumni Website. 
 ---
 
-<img src = "/images/alumni2.jpg" style = "float: right; margin-left: 15px; width: 50%"> 
+<img src = "/images/gemeinschaft/alumni2.jpg" style = "float: right; margin-left: 15px; width: 50%"> 
 Spätestens mit der Einführung des Sommerfests im Jahr 2017 wurde am WGG die Diskussion wieder neu entfacht, wie wir es schaffen, die Ehemaligenkultur an unserer Schule weiter zu stärken und eine tragfähige, nachhaltige Basis hierfür zu gestalten.
 
 Ein Team um StD Martin Sachs, bestehend aus Vertretern des Elternbeirats und des Vereins der Freunde sowie Lehrkräften, ehemaligen und aktuellen Schülerinnen und Schülern, rief deswegen in mehrmonatiger Vorbereitungszeit die Alumni-Homepage ins Leben und füllte sie mit Inhalten. 

@@ -3,7 +3,7 @@ date: 2020-01-01
 title: WGG im Nordbayernfinale Fußball
 tags: [Sport, Events, Unterricht]
 thumbnail: 
-    src: 18_fussball_01.jpg
+    src: sport/18_fussball_01.jpg
     alt: Gruppenbild der WGG-Fußballmannschaft
 ---
 <p>
@@ -19,4 +19,4 @@ thumbnail:
      Das Team vom Dientzenhofer Gymnasium Bamberg qualifizierte sich als 
      Sieger für den Landesentscheid in Ergolding.
 </p>
-<img src="/images/18_fussball_01.jpg" alt="Gruppenbild der WGG-Fußballmannschaft"></img>
+<img src="/images/sport/18_fussball_01.jpg" alt="Gruppenbild der WGG-Fußballmannschaft"></img>

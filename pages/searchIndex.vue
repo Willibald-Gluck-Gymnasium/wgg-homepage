@@ -33,6 +33,7 @@ if (process.server) {
                 id: createHash('sha1').update(article._path).digest('base64url'),
                 title: article.title,
                 _path: article._path,
+                thumbnail: article.thumbnail,
                 plaintext: renderContent(article.body).replaceAll('\n',' ').replace(/  +/g, ' ').trim()
             }
         })

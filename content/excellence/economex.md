@@ -3,13 +3,13 @@ date: 2020-01-01
 title: EconomEx
 tags: [Excellence, WWG Zweig, Wirtschaftswissenschaften, Alle Projekte]
 thumbnail: 
-    src: 'econKlebl.jpg'
+    src: 'excellence/econKlebl.jpg'
     alt: 'Schüler*innen bei einer Exkursion' 
 ---
 
 ## Was für ein erstes Jahr …
 
-<img src = "/images/econKlebl.jpg" style ="float:right;width: 45%; margin-left:20px">
+<img src = "/images/excellence/econKlebl.jpg" style ="float:right;width: 45%; margin-left:20px">
 
 Direkte, persönliche und informative Kontakte zu Neumarkter
 Unternehmen waren das Ziel des diesjährigen Wahlkurses EconomeX

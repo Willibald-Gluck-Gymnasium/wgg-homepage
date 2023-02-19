@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Ethik
 tags: [Ethik, Unterricht]
 thumbnail: 
-    src: aristoteles_ethik.jpg
+    src: ethik/aristoteles_ethik.jpg
     alt: Büste von Aristoteles
 ---
 <h3>Was ist Ethikunterricht?</h3>

@@ -3,8 +3,8 @@ date: 2020-01-01
 title: Der katholische Religionsunterricht
 tags: [Religion, Unterricht]
 thumbnail: 
-    src: KathRel.jpg
-    alt: Ein thumbnail
+    src: religion/KathRel.jpg
+    alt: Logo katholische Religion
 ---
 <p>Im katholischen Religionsunterricht erschließen die Schüler, ausgehend von der christlichen Überlieferung, einen religiösen Zugang zur Wirklichkeit, der sich durch keine andere Dimension der Welterfahrung ersetzen lässt, und erarbeiten in diesem Horizont tragfähige Lebensperspektiven. Dabei werden sie mit den christlichen Wurzeln unserer abendländischen Kultur vertraut.</p>
 <p>Der katholische Religionsunterricht begleitet die jungen Menschen in ihrer Selbsterfahrung und Identitätsfindung, insbesondere unterstützt er ihre religiöse und soziale Entwicklung.</p>

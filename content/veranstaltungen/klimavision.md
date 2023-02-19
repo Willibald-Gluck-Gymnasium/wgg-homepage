@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Energievision 2050 am WGG
 tags: [Archiv]
 thumbnail: 
-    src: 'klimavision20_01.jpg'
+    src: 'veranstaltungen/klimavision20_01.jpg'
     alt: 'Vogelperspektive der Pausenhalle 1 während des Vortrags' 
 ---
 
@@ -21,7 +21,7 @@ Endlich geht es im Oktober für 240 Schülerinnen und Schüler mal nicht um Coro
 
 #### „Energievision 2050“: Filme, Vorträge und Interaktionen
 
-<img src = "/images/klimavision20_02.jpg" style ="float:left;width: 45%; margin-right:20px">
+<img src = "/images/veranstaltungen/klimavision20_02.jpg" style ="float:left;width: 45%; margin-right:20px">
 
 Ziel der vom Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung geförderten und von der UNESCO ausgezeichneten Schau ist es, den Schülerinnen und Schülern die Zusammenhänge rund um den Klimaschutz sowie die Möglichkeiten der ressourcenschonenden Energiegewinnung und -verwendung zu veranschaulichen. Die 90-minütige Multivisionsveranstaltung ist modular aus Kurzfilmen, Beiträgen von Experten und Innovatoren sowie Interaktionen mit dem Publikum aufgebaut. Die N-ERGIE, deren Tochterunternehmen N-ERGIE Netz GmbH als Netzbetreiber den Ausbau der erneuerbaren Energien vorantreibt, hat als unser Schulpartner die Veranstaltung komplett gesponsert. Das Besondere dabei: Jeder Teilnehmende bezahlte zuvor einen Euro, das für ein Projekt der AG „Fairtrade und Nachhaltigkeit“ gespendet wird.
 
@@ -31,7 +31,7 @@ Die Multivision wagt einen Blick in die Zukunft: Was wird sich in den Bereichen 
 
 #### „Umdenken“ für eure Zukunft!
 
-<img src = "/images/klimavision20_03.jpg" style ="float:right;width: 45%; margin-left:20px">
+<img src = "/images/veranstaltungen/klimavision20_03.jpg" style ="float:right;width: 45%; margin-left:20px">
 
 Was kann also jeder einzelne tun? Das Fazit aus der Veranstaltung: Auch wenn der Beitrag des Einzelnen klein ist, wir können unsere Zukunft gestalten und die Energiewende schaffen, wenn wir es gemeinsam tun.
 

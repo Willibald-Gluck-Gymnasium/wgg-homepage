@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Die Ukraine unterstützen - mit Brezen und Kuchen
 tags: [Alle Projekte, Übergreifendes, Gemeinschaft]
 thumbnail: 
-    src: Ukraine01.jpg
+    src: gemeinschaft/Ukraine01.jpg
     alt: Pausenverkauf zur Unterstützung der Ukraine
 ---
 <p>
@@ -15,5 +15,5 @@ thumbnail:
 <p>
     Patrick Wager ist auch Werte-Botschafter am WGG und gehört wie die anderen Schülerinnen und Schüler, die gebacken, verkauft und Spenden gesammelt haben, der Arbeitsgemeinschaft „Wir gegen Gewalt“ an. 
 </p>
-<img src="/images/Ukraine01.jpg" alt = "Pausenverkauf zur Unterstützung der Ukraine"></img>
-<img src="/images/Ukraine02.jpg" alt = "Übergabe Scheck"></img>
+<img src="/images/gemeinschaft/Ukraine01.jpg" alt = "Pausenverkauf zur Unterstützung der Ukraine"></img>
+<img src="/images/gemeinschaft/Ukraine02.jpg" alt = "Übergabe Scheck"></img>

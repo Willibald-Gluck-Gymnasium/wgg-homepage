@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Willkommenstag am WGG
 tags: [Willkommenstag, Alle Projekte]
 thumbnail: 
-    src: 'willkommenstag01.jpg'
+    src: 'veranstaltungen/willkommenstag01.jpg'
     alt: 'Gruppenphoto beim Willkommenstag' 
 ---
 
@@ -11,6 +11,6 @@ Seit vielen heißt das Willibald Gluck Gymnasium seine neuen Schüler und Schül
 
 ### Impressionen
 
-<img src = "/images/willkommenstag01.jpg">
-<img src = "/images/willkommenstag02.jpg">
-<img src = "/images/willkommenstag03.jpg">
+<img src = "/images/veranstaltungen/willkommenstag01.jpg">
+<img src = "/images/veranstaltungen/willkommenstag02.jpg">
+<img src = "/images/veranstaltungen/willkommenstag03.jpg">

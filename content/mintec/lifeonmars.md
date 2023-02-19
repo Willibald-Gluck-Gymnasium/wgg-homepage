@@ -3,7 +3,7 @@ date: 2020-01-01
 title: FIND LIFE ON MARS
 tags: [Naturwissenschaften, MintEC, Alle Projekte]
 thumbnail: 
-    src: 'mars01.jpg'
+    src: 'mintec/mars01.jpg'
     alt: 'Schüler beim Test des Roboters' 
 ---
 
@@ -17,5 +17,5 @@ Ein halbes Jahr bereiteten sich die Schülerinnen und Schüler der vier Gymnasie
 
 Natürlich braucht es auch die entsprechende Bedingungen, damit solch ein großes Projekt realisiert werden kann. Am Willibald-Gluck-Gymnasium ist das der Wahlkurs MINTeX. Dieser Kurs bietet exzellenten Schülerinnen und Schülern in den MINT-Fächern die Möglichkeit, eigenständig an herausfordernden technischen Projekten zu arbeiten. Der Kurs gehört zur umfangreichen Begabtenförderung am WGG.
 
-<img src = "/images/mars01.jpg">
-<img src = "/images/mars02.jpg">
+<img src = "/images/mintec/mars01.jpg">
+<img src = "/images/mintec/mars02.jpg">

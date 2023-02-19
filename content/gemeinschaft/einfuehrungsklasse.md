@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Einführungsklasse am WGG
 tags: [Gemeinschaft, Anmeldung]
 thumbnail: 
-    src: einfuehrungsklasse_wgg.jpg
+    src: gemeinschaft/einfuehrungsklasse_wgg.jpg
     alt: Bidliche Darstellung des Wegs zum Abitur auch von anderen Schulformen aus via dem WGG.
 ---
 

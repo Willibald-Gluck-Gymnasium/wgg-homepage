@@ -3,13 +3,13 @@ date: 2020-01-01
 title: Die Bibliothek am WGG
 tags: [Gemeinschaft, Bibliothek]
 thumbnail: 
-    src: blomenhofer_bib.jpg
+    src: gemeinschaft/blomenhofer_bib.jpg
     alt: Bibliothekarin Frau Blomenhofer bei der Arbeit am PC.
 ---
 
 Im Folgenden finden sich einige nützliche Ressourcen rund um die schuleigene Bibliothek.
 
-![Drei Aufnahmen aus der Bibliothek](/images/bibliothek.jpg)
+![Drei Aufnahmen aus der Bibliothek](/images/gemeinschaft/bibliothek.jpg)
 
 ### Das Bib-Tutorial
 Unsere Bibliothekarin hat ein Video-Tutorial **Das Bib-Tutorial** erstellt, das auf Youtube zu finden ist. 

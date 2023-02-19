@@ -1,10 +1,9 @@
 ---
 date: 2022-01-01
-expireOn: 2022-01-02
-title: Allgemeines zu dem Fach Deutsch
+title: Das Fach Deutsch
 tags: [Deutsch, Unterricht]
 thumbnail: 
-    src: 'notepadDesk.jpg'
+    src: 'deutsch/notepadDesk.jpg'
     alt: 'Notizbuch auf einem Schreibtisch'
 ---
 

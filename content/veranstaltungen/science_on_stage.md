@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Science on Stage
 tags: [Archiv, Science on Stage]
 thumbnail: 
-    src: 'ScienceonStage19_01.jpg'
+    src: 'veranstaltungen/ScienceonStage19_01.jpg'
     alt: 'Ulrike Englert mit ihrem norwegischen Kollegen' 
 ---
 
@@ -20,7 +20,7 @@ und sich darüber auszutauschen. Getreu dem Motto „Skills for the future“ f�
 mit diesem Festival gezielt die internationale Weiterbildung von MINT-Lehrkräften, um die Qualität des 
 Unterrichts über Landesgrenzen hinweg zu verbessern.
 
-<img src = "/images/ScienceonStage19_01.jpg" style ="float:right;width: 45%; margin-left:20px">
+<img src = "/images/veranstaltungen/ScienceonStage19_01.jpg" style ="float:right;width: 45%; margin-left:20px">
 
 Ulrike Englert, Lehrerin am Willibald-Gluck-Gymnasiumin  Neumarkt, nahm als Teil  
 der deutschen Delegation an der Ideenbörse teil. Mit ihrem norwegischen Lehrerkollegen Gerald  
