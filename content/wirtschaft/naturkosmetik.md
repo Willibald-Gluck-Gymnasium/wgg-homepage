@@ -3,7 +3,7 @@ date: 2022-01-01
 title: P-Seminar „Naturkosmetik
 tags: [Wirtschaft und Recht, Unterricht, P-Seminar]
 thumbnail:
-    src: naturkosmetik.jpg
+    src: wirtschaft/naturkosmetik.jpg
     alt: Verkauf von selbstgemachten Naturkosmetik-Projekten
 ---
 
@@ -17,4 +17,4 @@ Der Verkauf lief gut und brachte über 500 € ein, die über die Bürgerstiftun
 
 Susanne Messingschlager
 
-![Verkauf von selbstgemachten Naturkosmetik Produkten](/images/naturkosmetik.jpg)
+![Verkauf von selbstgemachten Naturkosmetik Produkten](/images/wirtschaft/naturkosmetik.jpg)

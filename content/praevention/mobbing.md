@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Mobbing – wenn Ausgrenzung einsam macht
 tags: [Praevention, Alle Projekte]
 thumbnail: 
-    src: 'praev_1.jpg'
+    src: 'praevention/praev_1.jpg'
     alt: 'Theaterstück, das im Rahmen der Suchtprävention aufgeführt wurde.'
 ---
 So wie eine Kette nur so stark ist, wie ihr schwächstes Glied, ist auch eine Klassengemeinschaft nur so gut, wie der Umgang mit jedem einzelnen Schüler und jeder einzelnen Schülerin.

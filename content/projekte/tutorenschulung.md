@@ -3,11 +3,11 @@ date: 2020-01-01
 title: Tutorenschulung im G6
 tags: [Tutoren, Archiv]
 thumbnail: 
-    src: 'tutoren16_01.jpg'
+    src: 'projekte/tutoren16_01.jpg'
     alt: 'Tutor*innen beim Kochen'
 ---
 
-<img src="/images/tutoren16_03.jpg">
+<img src="/images/projekte/tutoren16_03.jpg">
 
 Am 12. und 13. Juli haben insgesamt knapp 50 Schülerinnen und Schüler des WGG an einer Tutorenschulung teilgenommen,
 die von Andreas Meyer im G6 geleitet wurde.
@@ -24,6 +24,6 @@ Wie setze ich mich in einer Schulklasse durch? Wie kriege ich einzelne Schüler 
 
 "Mit ganz praktischen Tipps und vielen Erfahrungen war dies ein schöner Abschluss für die alten Tutoren und ein gelungener Start für die Neulinge,
 die nun hochmotiviert ihr neues Amt ausüben wollen" so Linda Kraus, die diese  Idee für diesen zusätzlichen Input außerhalb der Schule hatte.
-<img src="/images/tutoren16_01.jpg">
-<img src="/images/tutoren16_02.jpg">
+<img src="/images/projekte/tutoren16_01.jpg">
+<img src="/images/projekte/tutoren16_02.jpg">
 Linda Kraus

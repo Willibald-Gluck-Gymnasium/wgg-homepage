@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Das Direktorat des WGG
 tags: [Gemeinschaft, Schulleitung]
 thumbnail: 
-    src: akten.jpg
+    src: gemeinschaft/akten.jpg
     alt: Stockphoto - Aktenreihen
 ---
 
@@ -16,10 +16,10 @@ thumbnail:
     </tr>
     <tr>
         <td colspan="2">
-            <img src="/images/schiffer.jpg" alt="OStD Schiffer" />
+            <img src="/images/schulleitung/schiffer.jpg" alt="OStD Schiffer" />
         </td>
         <td colspan="2" style="padding-left:20px;">
-            <img src="/images/kroiss.jpg" alt="StD Kroiß" />
+            <img src="/images/schulleitung/kroiss.jpg" alt="StD Kroiß" />
         </td>
     </tr>
     <tr>
@@ -37,13 +37,13 @@ thumbnail:
     </tr>
     <tr>
         <td>
-            <img src="/images/holler.jpg" alt="StDin Holler" style=" padding-right:15px">
+            <img src="/images/schulleitung/holler.jpg" alt="StDin Holler" style=" padding-right:15px">
         </td>
         <td>
-            <img src="/images/sachs.jpg" alt="StD Sachs" style="padding-left:20px;">
+            <img src="/images/schulleitung/sachs.jpg" alt="StD Sachs" style="padding-left:20px;">
         </td>
         <td>
-            <img src="/images/wagenhofer.jpg" alt="OStR Wagenhofer" style="padding-left:20px;">
+            <img src="/images/schulleitung/wagenhofer.jpg" alt="OStR Wagenhofer" style="padding-left:20px;">
         </td>
     </tr>
     <tr>

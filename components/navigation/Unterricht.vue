@@ -33,7 +33,7 @@ const ReligionIcon = resolveComponent('IconsReligion')
 const SocialStudiesIcon = resolveComponent('IconsSocialStudies')
 const SpanishIcon = resolveComponent('IconsSpanish')
 const SportsIcon = resolveComponent('IconsSports')
-
+const CoursesIcon = resolveComponent('IconsProgramming')
 
 
 const emit = defineEmits(['closeNavMenu'])
@@ -66,6 +66,9 @@ const menuItems = {
         { text: "Kunst", icon: ArtIcon },
         { text: "Musik", icon: MusicIcon },
         { text: "Sport", icon: SportsIcon }
+    ],
+    Sonstiges: [
+        { text: "Wahlkurse", icon: CoursesIcon }
     ],
 }
 

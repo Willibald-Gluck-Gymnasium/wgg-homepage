@@ -3,7 +3,7 @@ date: 2020-01-01
 title: MILENA
 tags: [Naturwissenschaften, MintEC, MILENA]
 thumbnail: 
-    src: 'milena18_02.jpg'
+    src: 'mintec/milena18_02.jpg'
     alt: 'Schülerinnen und Schüler vor dem X-LAB' 
 ---
 
@@ -17,7 +17,7 @@ Das MILENA-Projekt (MInt-LEhramts-NAchwuchsförderprogramm) ist für Schüler mi
 Als Abschluss des eineinhalbjährigen MILeNa-Programms besuchten 8 Schülerinnen und Schüler der Q11 vom 9.-10.März das „X-lab“ in Göttingen.
 
 <figure style="width:75%;margin:auto">
-    <img src = "/images/milena18_02.jpg">
+    <img src = "/images/mintec/milena18_02.jpg">
     <figcaption>
         Teilnehmer des MILeNa-Programms 16/18 und Hr. Linzmaier vor dem X-Lab in Göttingen
     </figcaption>
@@ -30,7 +30,7 @@ Die Veranstaltung in Göttingen wurde weitgehend vom Verein MINT-EC finanziert, 
 „MILeNa hat mir dabei geholfen, mich genauer mit den MINT-Fächern zu beschäftigen und mögliche Wege für mein zukünftiges Studium näher kennen zu lernen. Es war eine gute Möglichkeit, mal auch hinter die Kulissen der Lehrer zu schauen und sich selber mal auszuprobieren in der Rolle des Lehrers. Allgemein kann man sagen, dass MILeNa ein aufschlussreiches Programm für die Schüler ist, welche in den MINT-Fächern und am Beruf des Lehrers Interesse haben.“ <br/><br/>- Fatih Akcakoyun, Q11
 
 <figure style="width:75%;margin:auto">
-    <img src = "/images/milena18_06.jpg">
+    <img src = "/images/mintec/milena18_06.jpg">
     <figcaption>
         Beschickung des Gels mit DNA-Fragmenten
     </figcaption>
@@ -41,7 +41,7 @@ Die Veranstaltung in Göttingen wurde weitgehend vom Verein MINT-EC finanziert, 
 „Beim MILeNa - Projekt wurden uns die MINT - Fächer auf interessante Weise, z.B. mit Hilfe von Ausflügen (Bsp. XLAB Göttingen), näher gebracht. Zudem hat man einen Einblick in den Beruf des Lehrers bekommen, viele Leute kennen gelernt und neue Freundschaften geknüpft.“ <br/><br/>- Johanna Vögerl, Q11
 
 <figure style="width:75%;margin:auto">
-    <img src = "/images/milena18_04.jpg">
+    <img src = "/images/mintec/milena18_04.jpg">
     <figcaption>
         Messung von radioaktivem Zerfallsraten
     </figcaption>
@@ -51,7 +51,7 @@ Die Veranstaltung in Göttingen wurde weitgehend vom Verein MINT-EC finanziert, 
 		Das ganze MiLeNa-Programm war grundsätzlich eine großartige Erfahrung, da ich insgesamt einen großen,ausgiebigen Blick in das Berufsfeld eines Mint-Lehrers werfen durfte und mich intensiv mit Naturwissenschaften beschäftigt habe“ <br/><br/>- Pavlos Gousis Q11
 
 <figure style="width:75%;margin:auto">
-    <img src = "/images/milena18_03.jpg">
+    <img src = "/images/mintec/milena18_03.jpg">
     <figcaption>
         Mit Knetmassenstreifen fixierte Heuschrecke, bei der mittels Elektroden Nervenpotentiale abgeleitet werden
     </figcaption>
@@ -62,7 +62,7 @@ Die Veranstaltung in Göttingen wurde weitgehend vom Verein MINT-EC finanziert, 
 <br/>Ich würde diese Initative jeden ans Herz legen, der Spaß hat sein naturwissenschaftliches Verständnis mit anderen zu teilen und sich den Beruf mal anschauen möchte“ <br/><br/>- Martin Schächtel, Q11
 
 <figure style="width:75%;margin:auto">
-    <img src = "/images/milena18_05.jpg">
+    <img src = "/images/mintec/milena18_05.jpg">
     <figcaption>
         Dokumentation der Zerfallsraten
     </figcaption>
@@ -70,14 +70,14 @@ Die Veranstaltung in Göttingen wurde weitgehend vom Verein MINT-EC finanziert, 
 
 
 <figure style="width:75%;margin:auto">
-    <img src = "/images/milena18_07.jpg">
+    <img src = "/images/mintec/milena18_07.jpg">
     <figcaption>
         fertiges DNA-Elektropherogramm: DNA-Fragmente fluoreszieren im UV-Licht
     </figcaption>
 </figure>
 
 <figure style="width:75%;margin:auto">
-    <img src = "/images/milena18_08.jpg">
+    <img src = "/images/mintec/milena18_08.jpg">
     <figcaption>
         Glasbearbeitung
     </figcaption>
@@ -103,8 +103,8 @@ Die Teilnehmer des Programms 2015-17 sind:
 <tr><td>Dengler, Marie</td><td>10f</td></tr>
 </table>
 
-<img src = "/images/milena15_01.jpg" style = "float:right; margin-right: 75px">
-<img src = "/images/milena15_02.jpg" style = "float:left;margin-left:75px">
+<img src = "/images/mintec/milena15_01.jpg" style = "float:right; margin-right: 75px">
+<img src = "/images/mintec/milena15_02.jpg" style = "float:left;margin-left:75px">
 
 Wir danken dem Verein MINT-EC und der Else und Wilhelm-Heraeus Stiftung für die finanzielle Ermöglichung
 und organisatorische Umsetzung des Programms, Prof. Rincke von Universität Regensburg für seine didaktische

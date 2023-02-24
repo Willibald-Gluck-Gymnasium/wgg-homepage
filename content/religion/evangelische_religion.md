@@ -3,17 +3,17 @@ date: 2020-01-01
 title: Der evangelische Religionsunterricht
 tags: [Religion, Unterricht]
 thumbnail: 
-    src: evangelische_Religion1.jpg
+    src: religion/evangelische_Religion1.jpg
     alt: Logo Evangelische Religion
 ---
- <img src="/images/evangelische_Religion2.jpg" alt="Spruch zur Religion" style="float: right; margin-left: 15px; width: 35%; margin-bottom: 15px"></img>
+ <img src="/images/religion/evangelische_Religion2.jpg" alt="Spruch zur Religion" style="float: right; margin-left: 15px; width: 35%; margin-bottom: 15px"></img>
 
 <p>Mut und Vertrauen, Freiheit und Verantwortung – das sind Schlüsselbegriffe evangelischen Glaubens. Diese Werte im Leben zu entwickeln und umzusetzen, dabei möchte der evangelische Religionsunterricht die Schülerinnen und Schüler unterstützen. Seine Aufgabe ist es, eine Brücke zu schlagen zwischen der christlichen Tradition evangelischer Prägung und der Lebenswelt der Schüler.</p>
 <p>Der Lehrplan formuliert folgendermaßen:</p>
 <p>„Der evangelische Religionsunterricht hat im Fächerkanon der Schule die Aufgabe, der Kommunikation der Schülerinnen und Schüler mit der christlichen Tradition in der gegenwärtigen Welt zu dienen.“</p> 
 <a href="https://www.lehrplanplus.bayern.de/fachprofil/gymnasium/evangelische-religionslehre">(vergleiche: https://www.lehrplanplus.bayern.de/fachprofil/gymnasium/evangelische-religionslehre)</a>
 
-<img src="/images/evangelische_Religion3.jpg" alt="Spruch zur Religion" style="float: left; margin-right: 35px; width: 35%; margin-bottom: 15px"></img>
+<img src="/images/religion/evangelische_Religion3.jpg" alt="Spruch zur Religion" style="float: left; margin-right: 35px; width: 35%; margin-bottom: 15px"></img>
 
 <p>Exemplarische Unterrichtsinhalte:</p>
 
@@ -32,7 +32,7 @@ thumbnail:
 * Judentum (9) 
 * Gerechtigkeit und Frieden in der einen Welt (10) 
 * Buddhismus (10) 
-<img src="/images/evangelische_Religion4.jpg" alt="Spruch zur Religion" style="float: right; margin-left: 15px; width: 50%; margin-bottom: 15px"></img>
+<img src="/images/religion/evangelische_Religion4.jpg" alt="Spruch zur Religion" style="float: right; margin-left: 15px; width: 50%; margin-bottom: 15px"></img>
 
 * Denken und Glauben (11) 
 * Woran dein Herz hängt: Die Sinnfrage und die Gottesfrage (11) 

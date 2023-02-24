@@ -3,11 +3,11 @@ date: 2020-01-01
 title: Latein lernen mit Navigium
 tags: [Latein, Unterricht]
 thumbnail:
-    src: navigium-cube.jpg
+    src: latein/navigium-cube.jpg
     alt: Eine Tafel mit lateinischer Aufschrift
 ---
 
-<img src="/images/navigium-cube.png" alt="Navigium Logo" />  <!-- ich hoffe auf transperenz-->
+<img format="png" src="/images/latein/navigium-cube.png" alt="Navigium Logo" />  <!-- ich hoffe auf transperenz-->
 
 
 <h2>Was ist Navigium?</h2>

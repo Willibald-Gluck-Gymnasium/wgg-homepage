@@ -1,9 +1,10 @@
 ---
-date: 2020-01-01
+date: 2019-01-01
+expireOn: 2021-12-31
 title: Abiturienten 2020 spenden
 tags: [Gemeinschaft, Archiv]
 thumbnail: 
-    src: AbiSpende2019.jpg
+    src: gemeinschaft/AbiSpende2019.jpg
     alt: Übergabe der Spende an den Verein der Freunde
 ---
 
@@ -11,7 +12,7 @@ thumbnail:
     Abiturienten des WGG zeigen gesellschaftliche Verantwortung
 </h3>
 
-<img src="/images/AbiSpende2019.jpg" alt="Übergabe der Spende an den Verein der Freunde" style="float: right; margin-left: 15px; width: 50%; margin-bottom: 15px"></img>
+<img src="/images/gemeinschaft/AbiSpende2019.jpg" alt="Übergabe der Spende an den Verein der Freunde" style="float: right; margin-left: 15px; width: 50%; margin-bottom: 15px"></img>
 
 
 „Wir haben uns entschieden, in Krisenzeiten Zusammenhalt zu zeigen!“ So begründet der Oberstufensprecher Florian Thumann die Spenden seines 

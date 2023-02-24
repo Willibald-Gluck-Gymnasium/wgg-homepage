@@ -2,7 +2,7 @@
 title: Das Englisch-Lehrwerk
 tags: [Englisch, Unterricht]
 thumbnail: 
-    src: 'english-dictionary.jpg'
+    src: 'englisch/english-dictionary.jpg'
     alt: 'Eine Frau, die ein Englisch wörterbuch ließt'
 ---
 

@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Weihnachtsbasar 2019
 tags: [Archiv, Weihnachtsbasar]
 thumbnail: 
-    src: 'weihnachtsbasar19_01.jpg'
+    src: 'veranstaltungen/weihnachtsbasar19_01.jpg'
     alt: 'Vogelperspektive des Weihnachtsbasars in Pausenhalle 2' 
 ---
 Erlös aus dem diesjährigen Weihnachtsbasar kommt der DKMS, Schutzengel gesucht e.V. sowie einem Schulpatenkind zugute.
@@ -11,7 +11,7 @@ Erlös aus dem diesjährigen Weihnachtsbasar kommt der DKMS, Schutzengel gesucht
 NEUMARKT. Kurz vor den Weihnachtsferien, bereits am 19.12.2019, war es wieder soweit: Das Willibald-Gluck-Gymnasium lud, nun schon zum 41. Mal, zu seinem traditionellen Weihnachtsbasar und anschließendem Weihnachtskonzert ein. Um 16 Uhr wurde der Markt mit einem Trompetenstück, gespielt von Oliver Dorr und Paul Fein, sowie Begrüßungsworten von Schulleiter Bernhard Schiffer eröffnet. Den zahlreichen Besucher*innen erwartete wie in jedem Jahr eine bunte Mischung aus netten und nützlichen, selbstgebastelten Dingen bis hin zu Kinderpunsch, Zuckerwatte, Waffeln und der obligatorischen Bratwurstsemmel.
 
 <figure style ="float:right;width: 45%; margin-left:20px">
-<img src = "/images/weihnachtsbasar19_02.jpg" >
+<img src = "/images/veranstaltungen/weihnachtsbasar19_02.jpg" >
 <figcaption> Frau Tischner vom Verein Schutzengel gesucht e.V. nahm stellvertretend den Scheck des WGG in Empfang. Schuldirektor Bernhard Schiffer, zwei Schülersprecher und die Lehrkräfte Linda Kraus und Birgit Fritsch als Organisatorinnen waren bei der Übergabe dabei. 
 </figcaption>
 </figure>

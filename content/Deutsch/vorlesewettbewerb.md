@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Der Vorlesewettbewerb am WGG
 tags: [Deutsch, Unterricht]
 thumbnail: 
-    src: 'notepadDesk.jpg'
+    src: 'deutsch/notepadDesk.jpg'
     alt: 'Notizbuch auf einem Schreibtisch'
 ---
 

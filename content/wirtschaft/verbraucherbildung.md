@@ -4,7 +4,7 @@ author: Larissa Bernhardt
 title: Partnerschule Verbraucherbildung
 tags: [Wirtschaft und Recht, Unterricht]
 thumbnail:
-    src: partnerschule.jpg
+    src: wirtschaft/partnerschule.jpg
     alt: Gruppenbild mit Schüler:innen und Urkunde
 ---
 
@@ -14,4 +14,4 @@ Zur Vertiefung ihres Wissens und ihrer Kompetenzen zum Themenbereich „Konsum�
 
 Larissa Bernhardt
 
-![Gruppenbild mit Schüler:innen und Urkunde](/images/partnerschule.jpg)
+![Gruppenbild mit Schüler:innen und Urkunde](/images/wirtschaft/partnerschule.jpg)

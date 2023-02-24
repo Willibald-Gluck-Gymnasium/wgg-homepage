@@ -3,7 +3,7 @@ date: 2020-01-01
 title: "P-Seminar: Die virtuelle Wiedererrichtung der Burg Wolfstein als erlebbare Welt für Virtual-Reality Brillen"
 tags: [Informatik, Unterricht]
 thumbnail: 
-    src: '18_wolfstein_LOGO.jpg'
+    src: 'informatik/18_wolfstein_LOGO.jpg'
     alt: 'Logo des WolfsteinVR P-Seminars'
 ---
 
@@ -18,7 +18,7 @@ Der Projektleiter Max Herrmann und die beiden Teamleiter Marco Wiedmann und Math
 <p>Um in der (virtuellen) Burg spazieren gehen zu können, laden Sie die <a href="/documents/WolfsteinVR_1_0.apk" target="_blank"> App auf Ihr Android-Handy</a> herunter. Hinweise zur Installation und Bedienung finden Sie <a href="/documents/WVRanleitung.pdf" target="_blank">hier</a>. In einem Clip (siehe unten) kann man einen virtuellen Rundflug über die Burganlage machen.
 <!-- youtube fehlt -->
 <figure>
-    <img src="/images/18wolfsteinVR_LB.jpg" alt="https://commons.wikimedia.org/wiki/File:Luftbild_Burgruine_Wolfstein.jpg unter CC BY 3.0 DE lizenziert. Das Bild wurde zugeschnitten.">
+    <img src="/images/informatik/18wolfsteinVR_LB.jpg" alt="https://commons.wikimedia.org/wiki/File:Luftbild_Burgruine_Wolfstein.jpg unter CC BY 3.0 DE lizenziert. Das Bild wurde zugeschnitten.">
     <figcaption>https://commons.wikimedia.org/wiki/File:Luftbild_Burgruine_Wolfstein.jpg unter CC BY 3.0 DE lizenziert. Das Bild wurde zugeschnitten.</figcaption>
 </figure>
-<img src="/images/18wolfsteinVR_VR.jpg" alt="3d-Modell der Burg Wolfstein">
+<img src="/images/informatik/18wolfsteinVR_VR.jpg" alt="3d-Modell der Burg Wolfstein">

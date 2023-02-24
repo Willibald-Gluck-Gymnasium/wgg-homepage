@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Sciencecamp 2021
 tags: [Naturwissenschaften, MintEC]
 thumbnail: 
-    src: 'blutdruckmessung.jpg'
+    src: 'mintec/blutdruckmessung.jpg'
     alt: 'Blutdruckmessung am Arm einer Schlerin' 
 ---
 
@@ -18,14 +18,14 @@ Alle teilnehmenden Schülerinnen und Schüler erhielten jeweils eine Teilnehmeru
 Kristýna Himmel, Q11
 
 <figure style="width:75%;margin:auto">
-    <img src = "/images/blutdruckmessung.jpg">
+    <img src = "/images/mintec/blutdruckmessung.jpg">
     <figcaption>
         Blutdruckmessung
     </figcaption>
 </figure>
 
 <figure style="width:75%;margin:auto">
-    <img src = "/images/kristyna_himmel.jpg">
+    <img src = "/images/mintec/kristyna_himmel.jpg">
     <figcaption>
         Kristýna Himmel (Q11) mit der Siegerurkunde des Science-Camps
     </figcaption>

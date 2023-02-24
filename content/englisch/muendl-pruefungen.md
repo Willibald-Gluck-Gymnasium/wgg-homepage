@@ -2,7 +2,7 @@
 title: Mündliche Englisch Prüfungen
 tags: [Englisch, Unterricht]
 thumbnail: 
-    src: 'english-dictionary.jpg'
+    src: 'englisch/english-dictionary.jpg'
     alt: 'Eine Frau, die ein Englisch wörterbuch ließt'
 ---
 Um der Mündlichkeit im Englischunterricht einen ihr gebührenden Stellenwert einzuräumen und auch die Leistungen der Schüler im Bereich Mündlichkeit besser fördern zu können, werden am WGG in drei Jahrgangsstufen mündliche Schulaufgaben im Fach Englisch abgehalten.

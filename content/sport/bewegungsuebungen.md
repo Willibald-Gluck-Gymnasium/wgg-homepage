@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Bewegungsübungen
 tags: [Sport, Unterricht]
 thumbnail: 
-    src: Bewegungsübungen.jpg
+    src: sport/Bewegungsübungen.jpg
     alt: Stockphoto - Outdoor Training
 ---
 <h3>

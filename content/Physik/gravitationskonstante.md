@@ -1,9 +1,10 @@
 ---
 date: 2020-01-01
+expireOn: 2022-12-31
 title: Die Gravitationskonstante
 tags: [Archiv]
 thumbnail: 
-    src: 'physik/5min/grav_drehwaage.jpg'
+    src: 'physik/grav_drehwaage.jpg'
     alt: 'Gravitationsdrehwaage nach Cavendish'
 ---
 

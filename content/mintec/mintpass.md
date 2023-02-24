@@ -3,7 +3,7 @@ date: 2020-01-01
 title: MINT-Pass Neumarkt
 tags: [Naturwissenschaften, MintEC]
 thumbnail: 
-    src: 'mintpass_logo.jpg'
+    src: 'mintec/mintpass_logo.jpg'
     alt: 'Logo des MINT-Passes Neumarkt' 
 ---
 

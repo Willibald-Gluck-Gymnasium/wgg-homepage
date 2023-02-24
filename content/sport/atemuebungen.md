@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Atemübungen
 tags: [Sport, Unterricht]
 thumbnail: 
-    src: Atemübungen.jpg
+    src: sport/Atemübungen.jpg
     alt: Stockphoto - Frau in der Natur
 ---
 

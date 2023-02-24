@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Seminar Deutsch
 tags: [Gemeinschaft, Seminar]
 thumbnail: 
-    src: seminar.jpg
+    src: seminar/seminar.jpg
     alt: Stockphoto - Schreibtisch mit Unterlagen, Getränken und Laptop
 ---
 
@@ -71,7 +71,7 @@ unterschiedlicher Altersstufen.“
   Fachseminar:
 </p>
 
-<img src="/images/dgraph.gif" alt="Deutschseminar" />
+<img src="/images/seminar/dgraph.gif" alt="Deutschseminar" />
 
 
 <p>

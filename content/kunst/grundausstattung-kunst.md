@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Grundausstattung Kunst
 tags: [Kunst, Unterricht]
 thumbnail: 
-    src: malkasten.jpg
+    src: kunst/malkasten.jpg
     alt: Stock-Foto eines Malkastens 
 ---
 <h3> Bitte immer in der Schule verfügbar halten, z.B. im Schließfach</h3>

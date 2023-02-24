@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Gruppenübungen
 tags: [Sport, Unterricht]
 thumbnail: 
-    src: Gruppenübungen.jpg
+    src: sport/Gruppenübungen.jpg
     alt: Stockphoto - Fahrradfahrer auf einer Rennbahn
 ---
 

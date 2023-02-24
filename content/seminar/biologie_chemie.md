@@ -3,11 +3,11 @@ date: 2020-01-01
 title: Seminar Biologie - Chemie
 tags: [Gemeinschaft, Seminar]
 thumbnail: 
-    src: seminar.jpg
+    src: seminar/seminar.jpg
     alt: Stockphoto - Schreibtisch mit Unterlagen, Getränken und Laptop
 ---
 
-<h3 class="kat_gemein">Seminar oder „2-jähriger Wellness-URLAUB im 5-Sterne Hotel“ am WGG</h3>
+<h3>Seminar oder „2-jähriger Wellness-URLAUB im 5-Sterne Hotel“ am WGG</h3>
 
 <h4>Die allgemeine Animation:</h4>
 
@@ -46,7 +46,7 @@ thumbnail:
 <p><a href="/documents/Biologie.pdf">Ausbildungsplan Biologie</a><br />
 <a href="/documents/Chemie.pdf">Ausbildung Chemie</a>
 
-<h3 class="kat_gemein">Das Fach Chemie im Studienseminar</h3>
+<h3>Das Fach Chemie im Studienseminar</h3>
 
 <p>Die Ausbildung zum Lehrer an bayerischen Gymnasien sieht nach der universitären Ausbildung ein Referendariat an Gymnasien, d.h. der Seminarschule und den Einsatzschulen, vor. Am Willibald-Gluck-Gymnasium haben Sie als Lehramtsbewerber die Möglichkeit sich im Fach Chemie zum fertigen Lehrer weiterbilden zu können. Es bietet Ihnen und Ihren Schülern eine Reihe an Chancen sich individuell zu entwickeln. Gerade das chemische Experiment ermöglicht es, Jugendliche zu fesseln und kompetenzorientiert zu fördern. In diesem Zusammenhang ist der Prozess der selbstständigen Erkenntnisgewinnung im Profilbereich eine große Herausforderung für uns Lehrer. Methoden- und Medienvielfalt lassen sich in den Chemieunterricht bestens integrieren und gewährleisten einen abwechslungsreichen und spannenden Unterricht.</p>
 

@@ -1,12 +1,13 @@
 ---
 date: 2023-01-20
+expireOn: 2025-01-20
 title: Artenschutz und Biodiversität fördern durch Blühwiesen
 tags: [Biologie, Unterricht, P-Seminar]
 thumbnail: 
-    src: 'p_sem_bluehwiese.jpg'
+    src: 'biologie/p_sem_bluehwiese.jpg'
     alt: 'Drei Beispielbilder von Arbeiten, die während des P-Seminars durchgeführt wurden'
 ---
-![Drei Beispielbilder von Arbeiten, die während des P-Seminars durchgeführt wurden](/images/p_sem_bluehwiese.jpg)
+![Drei Beispielbilder von Arbeiten, die während des P-Seminars durchgeführt wurden](/images/biologie/p_sem_bluehwiese.jpg)
 <p>Die Schülerinnen und Schüler das P - Seminars Biologie "Artenschutz und Biodiversität fördern durch Blühwiesen" hatten folgende Ziele:
 <ul><li>Mit unserem Projekt wollen wir auf
 ungenutzten Bereichen des
