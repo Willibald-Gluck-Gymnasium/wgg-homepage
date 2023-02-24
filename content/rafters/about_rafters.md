@@ -2,6 +2,7 @@
 date: 2020-01-01
 title: Rafters 3D
 tags: [Rafters, Moritz.Wenger, 3D-Druck]
+hidden: true
 thumbnail: 
     src: rafters/rafters.png
     alt: Rafters 3D - Das Unternehmen eines Schülers
