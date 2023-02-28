@@ -2,13 +2,14 @@
 
 <script>
 export default {
+    props: ['fps'],
     mounted() {
         document.body.onmousemove = function (e) {
-            mouseX = e.clientX;
-            mouseY = e.clientY ;
-
-            console.log(mouseX + " " + mouseY);
+            mouseX = e.clientX + window.scrollX;
+            mouseY = e.clientY + window.scrollY;
         }
+
+        timeStep = 1000.0 / this.fps;
 
         nextLevel();
         aktiv = window.setInterval(moveAll, timeStep);
@@ -21,7 +22,7 @@ var mouseX = 0, mouseY = 0;
 var level = 0;
 
 const texturePath = "/images/wahlkurse/theHomepageGames";
-const timeStep = 1000.0 / 30.0;
+var timeStep = 1000.0 / 60.0;
 const flightbox = 300;
 const hitbox = 30;
 
@@ -74,20 +75,25 @@ function Fly() {
     }
 
     this.checkEdge = function () {
-        if (this.x < 0) {
-            this.x = 0;
+        var left = window.scrollX;
+        var right = window.scrollX + window.innerWidth;
+        var top = window.scrollY;
+        var bottom = window.scrollY + window.innerHeight;
+
+        if (this.x < left) {
+            this.x = left;
             this.vx += 2;
         }
-        if (this.x > window.innerWidth - hitbox / 2) {
-            this.x = window.innerWidth - hitbox / 2;
+        if (this.x > right - hitbox / 2) {
+            this.x = right - hitbox / 2;
             this.vx -= 2;
         }
-        if (this.y < 0) {
-            this.y = 0;
+        if (this.y < top) {
+            this.y = top;
             this.vy += 2;
         }
-        if (this.y > window.innerHeight - hitbox / 2) {
-            this.y = window.innerHeight - hitbox / 2;
+        if (this.y > bottom - hitbox / 2) {
+            this.y = bottom - hitbox / 2;
             this.vy -= 2;
         }
     }
@@ -145,8 +151,8 @@ function spawn(a) {
     var r = 10 * Math.sqrt(a);
     for (var i = 0; i < a; i++) {
         var n = new Fly();
-        n.x = window.innerWidth / 2 + r * Math.cos(2 * Math.PI * i / a);
-        n.y = window.innerHeight / 2 + r * Math.sin(2 * Math.PI * i / a);
+        n.x = window.scrollX + window.innerWidth / 2 + r * Math.cos(2 * Math.PI * i / a);
+        n.y = window.scrollY + window.innerHeight / 2 + r * Math.sin(2 * Math.PI * i / a);
         n.vx = Math.cos(2 * Math.PI * i / a);
         n.vy = Math.sin(2 * Math.PI * i / a);
     }

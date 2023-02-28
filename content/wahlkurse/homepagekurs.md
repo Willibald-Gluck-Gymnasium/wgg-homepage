@@ -7,7 +7,7 @@ thumbnail:
     alt: Leeeeeeer
 ---
 
-<Fliegen></Fliegen>
+<Fliegen fps=20></Fliegen>
 
 In diesem Kurs wird die Schulhomepage auf den neusten Stand gebracht;
 außerdem könnt ihr hier auch Markdown und CSS lernen und in die Programmiersprachen
@@ -29,4 +29,4 @@ Im folgenden Graukeil sollen alle 16 Stufen von weiß nach schwarz auf dem Monit
 
 <a href="/">Hier</a> können Sie sehen, was der Homepage-Kurs bis jetzt gemacht hat.
 
-Um der Seite wenigstens ein bisschen Inhalt zu verleihen, gibt es zum einen das Fliegen-Spiel und <a href="">hier</a> gehts auch zu Hangman. Beim Fliegen-Spiel ist es das Ziel, alle Fliegen zu dabatschn, der Rekord liegt bei 16777216 (uns war mal auch ne Zeit lang langeweilig ^-°O°-^)!
+Um der Seite wenigstens ein bisschen Inhalt zu verleihen, gibt es zum einen das Fliegen-Spiel und <a href="">hier</a> gehts auch zu Hangman. Beim Fliegen-Spiel ist es das Ziel, alle Fliegen zu dabatschn, der Rekord liegt bei 1681 (Level 41) (uns war mal auch ne Zeit lang langeweilig ^-°O°-^)!
