@@ -177,7 +177,6 @@
 
 <script>
 export default {
-    props: [],
     methods: {
         run: function () {
             var gridChildren = Array.from(document.getElementsByClassName("grid-wrapper")[0].children);

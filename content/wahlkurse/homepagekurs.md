@@ -24,26 +24,7 @@ Nachdem wir uns immer am Freitag, den 12. Ponny um 13:30 Uhr in EDV2 getroffen h
 
 Im folgenden Graukeil sollen alle 16 Stufen von weiß nach schwarz auf dem Monitor sichtbar sein.
 
-<table id="graukeil" style="width:100%">
-    <tr>
-        <td style="background-color:#fff">&nbsp;</td>
-        <td style="background-color:#eee">&nbsp;</td>
-        <td style="background-color:#ddd">&nbsp;</td>
-        <td style="background-color:#ccc">&nbsp;</td>
-        <td style="background-color:#bbb">&nbsp;</td>
-        <td style="background-color:#aaa">&nbsp;</td>
-        <td style="background-color:#999">&nbsp;</td>
-        <td style="background-color:#888">&nbsp;</td>
-        <td style="background-color:#777">&nbsp;</td>
-        <td style="background-color:#666">&nbsp;</td>
-        <td style="background-color:#555">&nbsp;</td>
-        <td style="background-color:#444">&nbsp;</td>
-        <td style="background-color:#333">&nbsp;</td>
-        <td style="background-color:#222">&nbsp;</td>
-        <td style="background-color:#111">&nbsp;</td>
-        <td style="background-color:#000">&nbsp;</td>
-    </tr>
-</table>
+<img src="images/wahlkurse/theHomepageGames/graybar.png">
 <div id="fliegenanzahl"></div>
 
 <a href="/">Hier</a> können Sie sehen, was der Homepage-Kurs bis jetzt gemacht hat.
