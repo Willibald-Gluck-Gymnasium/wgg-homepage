@@ -1,6 +1,6 @@
 ---
 date: 2023-02-03
-title: Begrüßung
+title: Anmeldung am WGG
 tags: [Anmeldung]
 pinned: true
 thumbnail: 

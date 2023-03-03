@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Schüler experimentieren
 tags: [Chemie]
 thumbnail: 
-    src: ethen.jpg
+    src: chemie/ethen.jpg
     alt: Chemieaufbau für Experimente mit Ethen
 ---
 In dieser Rubrik findet sich eine lose Sammlung von Experimenten, die im Rahmen des stundenplanmäßigen Profilunterrichts in den Jahrgangsstufen 8-10 des NTG-Zweiges von Schülerinnen und Schülern durchgeführt und dokumentiert wurden.

@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Physik mit Eiern
 tags: [5 Minuten Physik, Unterricht]
 thumbnail: 
-    src: 'physik-mit-eiern.jpg'
+    src: 'physik/physik-mit-eiern.jpg'
     alt: 'Ein Ei in einem Glas'
 ---
 

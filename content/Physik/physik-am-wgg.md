@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Physik am WGG
 tags: [Physik, Unterricht]
 thumbnail: 
-    src: 'physikamwgg.jpg'
+    src: 'physik/physikamwgg.jpg'
     alt: 'Physik am WGG'
 ---
 
