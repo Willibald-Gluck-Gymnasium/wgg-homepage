@@ -4,7 +4,7 @@ expireOn: 2022-12-31
 title: MintEc Chemie-Wettbewerb 2019
 tags: [Chemie, Unterricht]
 thumbnail: 
-    src: 19mintec_wb.jpg
+    src: chemie/19mintec_wb.jpg
     alt: Urkundenverleihung MINT EC Wettbewerb 2019
 ---
 <img src="/images/19mintec_wb.jpg" alt = "Urkundenverleihung MINT EC Wettbewerb 2019" style="float: right; margin-left: 15px; width: 50%; margin-bottom: 15px"></img>
