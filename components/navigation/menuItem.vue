@@ -1,5 +1,5 @@
 <template>
-    <NuxtLink :to="`/tag/${link || text}`" :class="{'menu-item': true, 'header': element === 'h4'}">
+    <NuxtLink :to="link" :class="{'menu-item': true, 'header': element === 'h4'}">
         <component v-if="icon" class="icon" :is="icon" />
         <component :is="element">{{ text }}</component>
     </NuxtLink>
@@ -13,6 +13,7 @@ const props = defineProps({
         required: true
     },
     link: {
+        required: true,
         type: String
     },
     icon: {

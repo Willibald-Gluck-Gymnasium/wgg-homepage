@@ -16,11 +16,18 @@ if (props.events === undefined) {
 } else {
     events.value = props.events
 }
+
+const midnightToday= new Date(Date.now()).setHours(24,0,0,0)
+
 </script>
 
 <template>
     <div class="schedule">
-        <ScheduleEventItem v-for="event in events" :timestamp="event.timestamp" :title="event.title" :details="event.details"/>
+
+        <template v-for="event in events">
+            <!-- Event disapears if timestamp is not today or later -->
+            <ScheduleEventItem v-if="new Date(event.timestamp).getTime() >= midnightToday" :timestamp="event.timestamp" :dayonly="event.dayonly" :title="event.title" :details="event.details"/>
+        </template>
     </div>
 </template>
 

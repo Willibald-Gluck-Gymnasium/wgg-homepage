@@ -1,17 +1,3 @@
-<template>
-    <div class="container">
-        <template v-for="(subjects, categorie) in menuItems">
-
-            <h4>{{ categorie }}</h4>
-
-            <NavigationMenuItem @click="emit('closeNavMenu')" v-for="menuItem in subjects" :text="menuItem.text"
-                :icon="menuItem.icon" />
-
-
-        </template>
-    </div>
-</template>
-
 <script setup>
 const ArtIcon = resolveComponent('IconsArt')
 const BiologyIcon = resolveComponent('IconsBiology')
@@ -72,8 +58,34 @@ const menuItems = {
     ],
 }
 
+function combineAllMenuItems(category, additionalTags) {
+    const tags = []
+
+    tags.push(...additionalTags)
+
+    tags.push(...category.map(menuItem => {
+        return menuItem.link || menuItem.text
+    }))
+
+    return tags.join('+')
+}
 
 </script>
+
+<template>
+    <div class="container">
+        <template v-for="(subjects, category) in menuItems">
+
+            <!-- <h4>{{ category }}</h4> -->
+
+            <NavigationMenuItem @click="emit('closeNavMenu')" element="h4" :text="category" :link="`/tag/${combineAllMenuItems(subjects, [category])}`" />
+
+            <NavigationMenuItem @click="emit('closeNavMenu')" v-for="menuItem in subjects" :text="menuItem.text" :link="`/tag/${menuItem.text}`" :icon="menuItem.icon" />
+
+
+        </template>
+    </div>
+</template>
 
 <style lang="scss" scoped>
 .container {

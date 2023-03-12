@@ -27,14 +27,19 @@ useHead({
 <template>
     <NuxtLayout>
         <main>
+            <div class="tags">
+                <NuxtLink :to="`/tag/${tag}`" class="tag" v-for="tag in tags">
+                    <IconsTag class="icon" />
+                    <div>{{ tag }}</div>
+                </NuxtLink>
+            </div>
+
             <template v-if="cards.length > 0">
-                <h1>Artikel verwandt mit: {{ title }}</h1>
-                <CardCluster :cards="cards"/>
+                <CardCluster class="centered" :cards="cards"/>
             </template>
 
-            
             <template v-else>
-                <h1 style="margin-bottom: 4em;">Keine Artikel verwandt mit: {{ tag }}</h1>
+                <h1 style="margin-bottom: 4em;">Keine Artikel mit diesen Tags gefunden.</h1>
             </template>
         </main>
     </NuxtLayout>
@@ -42,6 +47,53 @@ useHead({
 
 
 <style lang="scss" scoped>
+.centered {
+    margin: 0 auto;
+    width: calc(100% - 20px);
+    max-width: 1080px;
+
+    @media (min-width: 500px) {
+        width: calc(100% - 40px);
+    }
+}
+
+.tags {
+    @extend .centered;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    gap: 0.5em;
+
+    .tag {
+        .icon {
+            height: 18px;
+            max-width: 18px;
+        }
+
+        flex-shrink: 0;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+        color: hsl(0, 0%, 30%);
+        fill: hsl(0, 0%, 30%);
+        font-size: 16px;
+        padding: 0.25em 0.7em;
+        padding-left: 0.5em;
+        background-color: hsl(0, 0%, 100%);
+        border: 1px solid hsl(0, 0%, 90%);
+        border-radius: 1em;
+        transition-duration: 100ms;
+
+        &:hover {
+            background-color: hsl(29, 100%, 90%);
+            border: 1px solid hsl(29, 100%, 80%);
+        }
+
+    }
+}
+
+
 h1 {
     margin-left: auto;
     margin-right: auto;

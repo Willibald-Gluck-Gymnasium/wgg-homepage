@@ -21,39 +21,39 @@ const attributesToFetch = ['_path', 'date', 'title', 'tags', 'thumbnail', 'pinne
 
 const highlightedArticlesCards = await queryContent('/').sort({ title: 1, date: -1, }).where({ pinned: { $eq: true }, hidden: { $ne: true } }).only(attributesToFetch).find()
 
-const now = new Date(Date.now()).toISOString()
+// const now = new Date(Date.now()).toISOString()
 
-const queryForUnpinnedArticles = { 
-    pinned: { $ne: true },
-    hidden: { $ne: true },
-    $or: [
-        { expireOn: { $exists: false } },
-        { expireOn: { $gt: now } }
-    ]
-}
+// const queryForUnpinnedArticles = { 
+//     pinned: { $ne: true },
+//     hidden: { $ne: true },
+//     $or: [
+//         { expireOn: { $exists: false } },
+//         { expireOn: { $gt: now } }
+//     ]
+// }
 
-const articleCards = ref(await queryContent('/').sort({ title: 1, date: -1, }).where(queryForUnpinnedArticles).only(attributesToFetch).limit(20).find())
+// const articleCards = ref(await queryContent('/').sort({ title: 1, date: -1, }).where(queryForUnpinnedArticles).only(attributesToFetch).limit(20).find())
 
 
 
-const loadMoreArticlesButtonDisabled = ref(false)
-const allArticlesLoaded = ref(false)
-const getRestOfArticles = async () => {
-    loadMoreArticlesButtonDisabled.value = true
+// const loadMoreArticlesButtonDisabled = ref(false)
+// const allArticlesLoaded = ref(false)
+// const getRestOfArticles = async () => {
+//     loadMoreArticlesButtonDisabled.value = true
 
-    const { data, pending, error, refresh } = await useAsyncData(
-        'fetchRemainingArticles', 
-        () => queryContent('/').sort({ title: 1, date: -1, }).where(queryForUnpinnedArticles).only(attributesToFetch).skip(20).find()
-    )
+//     const { data, pending, error, refresh } = await useAsyncData(
+//         'fetchRemainingArticles', 
+//         () => queryContent('/').sort({ title: 1, date: -1, }).where(queryForUnpinnedArticles).only(attributesToFetch).skip(20).find()
+//     )
 
-    if (error.value === null) {
-        articleCards.value.push(...data.value)
-        allArticlesLoaded.value = true
-    } else {
-        loadMoreArticlesButtonDisabled.value = false
-        console.error("Error Loading more articles")   
-    }
-}
+//     if (error.value === null) {
+//         articleCards.value.push(...data.value)
+//         allArticlesLoaded.value = true
+//     } else {
+//         loadMoreArticlesButtonDisabled.value = false
+//         console.error("Error Loading more articles")   
+//     }
+// }
 
 useHead({
     title: '',
@@ -70,11 +70,6 @@ useHead({
 
         <slideshow :slides="slides"></slideshow>
 
-        <h1>Termine</h1>
-
-        <Schedule></Schedule>
-
-
         <template v-if="highlightedArticlesCards.length > 0">
             <h1>Highlights</h1>
 
@@ -86,8 +81,12 @@ useHead({
                 </template>
             </ClientOnly>
         </template>
-       
 
+        <h1>Termine</h1>
+
+        <Schedule style="margin-bottom: 60px"></Schedule>
+       
+        <!--
         <h1>Neuigkeiten</h1>
         
         <ClientOnly>
@@ -99,6 +98,8 @@ useHead({
         </ClientOnly>
 
         <Button style="margin: 1rem auto; border-radius: 15px;" v-if="!allArticlesLoaded" :loading="loadMoreArticlesButtonDisabled" @click="getRestOfArticles()">Alle Artikel laden</Button>
+        -->
+
 
     </NuxtLayout>
 </template>
