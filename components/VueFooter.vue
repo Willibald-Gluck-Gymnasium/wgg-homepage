@@ -5,7 +5,7 @@
         <div class="title">Willibald Gluck Gymnasium</div>
         Woffenbacher Straße 33
         <br>
-        92381 Neumarkt
+        92318 Neumarkt
         <br>
         Tel.: 09181 472-0
       </div>
