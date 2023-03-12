@@ -27,22 +27,19 @@ useHead({
 <template>
     <NuxtLayout>
         <main>
+            <div class="tags">
+                <NuxtLink :to="`/tag/${tag}`" class="tag" v-for="tag in tags">
+                    <IconsTag class="icon" />
+                    <div>{{ tag }}</div>
+                </NuxtLink>
+            </div>
+
             <template v-if="cards.length > 0">
-                <div class="tags">
-
-                    <NuxtLink :to="`/tag/${tag}`" class="tag" v-for="tag in tags">
-                        <IconsTag class="icon" />
-                        <div>{{ tag }}</div>
-                    </NuxtLink>
-
-                </div>
-                <!-- <h1>Artikel verwandt mit: {{ title }}</h1> -->
                 <CardCluster class="centered" :cards="cards"/>
             </template>
 
-            
             <template v-else>
-                <h1 style="margin-bottom: 4em;">Keine Artikel verwandt mit: {{ tag }}</h1>
+                <h1 style="margin-bottom: 4em;">Keine Artikel mit diesen Tags gefunden.</h1>
             </template>
         </main>
     </NuxtLayout>
