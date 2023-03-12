@@ -60,6 +60,7 @@ useHead({
 .tags {
     @extend .centered;
     display: flex;
+    flex-wrap: wrap;
     margin: 30px auto;
     gap: 0.5em;
 
@@ -69,6 +70,7 @@ useHead({
             max-width: 18px;
         }
 
+        flex-shrink: 0;
         text-decoration: none;
         display: flex;
         align-items: center;

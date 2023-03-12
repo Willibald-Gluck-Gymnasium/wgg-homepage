@@ -3,9 +3,9 @@
         <div v-for="(subjects, category) in menuItems" class="category">
 
             <!-- <NuxtLink :to="`/tag/${combineAllMenuItems(subjects)}`"> <h4>{{ category }}</h4> </NuxtLink> -->
-            <NavigationMenuItem element="h4" @click="emit('closeNavMenu')" :text="category" :link="combineAllMenuItems(subjects, [category])"/>
+            <NavigationMenuItem element="h4" @click="emit('closeNavMenu')" :text="category" :link="`/tag/${combineAllMenuItems(subjects, [category])}`"/>
 
-            <NavigationMenuItem @click="emit('closeNavMenu')" v-for="menuItem in subjects" :text="menuItem.text" :icon="menuItem.icon" />
+            <NavigationMenuItem @click="emit('closeNavMenu')" v-for="menuItem in subjects" :text="menuItem.text" :link="`/tag/${menuItem.text}`" :icon="menuItem.icon" />
 
 
         </div>
