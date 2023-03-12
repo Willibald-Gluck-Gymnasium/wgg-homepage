@@ -10,6 +10,11 @@ const props = defineProps({
     timestamp: {
         required: true
     },
+    dayonly: {
+        required: false,
+        default: true,
+        type: Boolean
+    },
     title: {
         required: true,
         type: String
@@ -19,13 +24,15 @@ const props = defineProps({
         type: String
     }
 })
+
 </script>
 
 <template>
     <div class="item">
         <div class="datetime-row">
             <img class="dot" :src="dot" alt="orange dot">
-            <span>{{ date.format(new Date(props.timestamp), 'ddd D. MMM YYYY H:mm') }} Uhr</span>
+            <span v-if="props.dayonly">{{ date.format(new Date(props.timestamp), 'ddd D. MMM YYYY') }}</span>
+            <span v-else>{{ date.format(new Date(props.timestamp), 'ddd D. MMM YYYY H:mm') }} Uhr</span>
         </div>
         <h3>{{ props.title }}</h3>
         <div class="details">{{ props.details }}</div>
