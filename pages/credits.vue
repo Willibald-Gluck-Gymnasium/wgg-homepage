@@ -30,6 +30,10 @@ useHead({
                 <li>Musik: Music by PEBRIANTO from NounProject.com</li>
                 <li>Sport: Sports by Minh Do from NounProject.com</li>
             </ul>
+            <h3>Andere Icons:</h3>
+            <ul>
+                <li>Tag by Genius Icons from <a href="https://thenounproject.com/browse/icons/term/tag/" target="_blank" title="Tag Icons">Noun Project</a></li>
+            </ul>
         </div>
     </NuxtLayout>
 </template>

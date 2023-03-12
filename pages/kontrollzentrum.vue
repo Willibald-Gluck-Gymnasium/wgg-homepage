@@ -26,6 +26,7 @@ events.value = data.value.data.events
 function addNewEvent() {
     const newEvent = {
         timestamp: date.format(new Date(Date.now()), 'YYYY-MM-DDThh:mm'),
+        dayonly: true,
         title: "Neues Event",
         details: ""
     }
@@ -38,6 +39,7 @@ const unsavedChanges = ref(false)
 
 watch(events, () => {
     unsavedChanges.value = true
+    console.log(events.value);
 }, {deep: true})
 
 async function saveData() {
@@ -77,10 +79,18 @@ async function saveData() {
 
     <form style="margin-top: 20px" @submit.prevent="saveData()">
 
+        <div v-if="formError" class="notification error">Die Termine konnten nicht gespeichert werden.</div>
+        <div v-if="unsavedChanges" class="notification warning">Achtung, es gibt ungespeicherte Änderungen.</div>
+
         <div class="event-group" v-for="(eventObject, index) in events">
             <div class="input-group">
                 <label for="timestamp">Zeitpunkt</label>
                 <input type="datetime-local" id="timestamp" v-model="eventObject.timestamp">
+            </div>
+
+            <div class="input-group">
+                <label for="dayonly">Ganztägig</label>
+                <input type="checkbox" id="dayonly" v-model="eventObject.dayonly">
             </div>
             
             <div class="input-group">
@@ -177,13 +187,14 @@ form {
 
     @media (min-width: 600px) {
         grid-template-rows: none;
-        grid-template-columns: min-content 4fr 6fr min-content;
+        grid-template-columns: min-content min-content 4fr 6fr min-content;
         align-items: flex-end;
     }
 }
 
 .button-group {
     display: flex;
+    gap: 10px;
     justify-content: space-between;
 }
 

@@ -45,7 +45,7 @@ function getImageSrc(img) {
                         <template v-slot:item="{ item }">
                             <NuxtLink class="search-item" @mousedown.prevent :to="item._path">
 
-                                <img :src="getImageSrc(item.thumbnail.src)" :alt="item.thumbnail.alt">
+                                <img class="thumbnail" :src="getImageSrc(item.thumbnail.src)" :alt="item.thumbnail.alt">
                                 
                                 <div>
                                     <h2>
@@ -69,14 +69,7 @@ function getImageSrc(img) {
                     </AisInfiniteHits>
             
                     <div v-else class="no-hits">
-                        <div class="ais-Hits">
-                            <ol class="ais-Hits-list">
-                                <li class="ais-Hits-item">
-                                    <p class="ais-no-hits">Keine Ergebnisse für <b>{{ query }}</b>.</p>
-                                </li>
-                            </ol>
-                        </div>
-                    
+                        Keine Ergebnisse für <b>{{ query }}</b>.
                     </div>
 
                 </template>
@@ -102,7 +95,21 @@ function getImageSrc(img) {
     }
 
     :deep(.ais-SearchBox-form) {
-        background: none
+        background: none;
+
+        .ais-SearchBox-input {
+            border: 1px solid hsl(0, 0%, 90%);
+            background-color: hsl(0, 0%, 100%);
+            box-shadow: unset;
+            border-radius: 20px;
+            height: 40px;
+            margin: 0;
+
+            &:focus {
+                box-shadow: 0 0 0 3px hsl(29, 100%, 80%);
+            }
+        }
+
     }
 }
 
@@ -115,36 +122,89 @@ function getImageSrc(img) {
         width: calc(100% - 40px);
     }
 
-    .search-item {
+    :deep(.ais-InfiniteHits-list) {
         display: grid;
-        width: 100%;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 20px;
-        grid-template-columns: min-content 1fr;
+        
+        .ais-InfiniteHits-item {
+            border-radius: unset;
+            box-shadow: unset;
+            padding: unset;
+            background-color: unset;
 
-        color: inherit;
-        text-decoration: none;
+            a {
+                background-color: hsl(0, 0%, 100%);
+                display: grid;
+                width: 100%;
+                height: 100%;
+                border-radius: 15px;
+                overflow: hidden;
+                grid-template-rows: minmax(100px, 200px) min-content;
+                
 
-        img {
-            width: 340px;
-            height: 160px;
-            object-fit: cover;
-            border-radius: 5px;
-        }
+                $box-shadow-color: hsla(0, 0%, 0%, 0.08);
+                $box-shadow--default: 0 4px 20px 0 $box-shadow-color;
+                $box-shadow--expanded: 0 8px 30px 0 $box-shadow-color;
+                box-shadow: $box-shadow--default;
+                transition: transform 0.2s, box-shadow 0.2s;
 
-        div {
-            h2 {  
-                font-family: 'Montserrat', sans-serif;
+                &:hover {
+                    transform: scale(1.003) translate(0, -2px);
+                    box-shadow: $box-shadow--expanded;
+                }
+
+                color: inherit;
+                text-decoration: none;
+
+                .thumbnail {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    overflow: hidden;
+                }
+
+                div {
+                    padding: 20px;
+                    h2 {
+                        margin: 0;
+                        margin-bottom: 0.5em;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                    p {
+                        margin: 0;
+                    }
+                }
+
+
+                .ais-Highlight-highlighted, .ais-Snippet-highlighted {
+                    background-color: hsla(29, 100%, 55%, 0.2);
+                    color: hsl(29, 100%, 50%);
+                    line-height: 1;
+                }
             }
         }
+    }
 
-        :deep(.ais-Highlight-highlighted), :deep(.ais-Snippet-highlighted) {
-            background-color: hsla(29, 100%, 55%, 0.2);
-            color: hsl(29, 100%, 50%);
-            line-height: 1;
+    :deep(.ais-InfiniteHits-loadMore) {
+        box-shadow: none;
+        border: none;
+        background-color: hsl(29, 100%, 55%);
+        background-image: unset;
+        color: #FFFFFF;
+        height: 40px;
+        border-radius: 20px;
+        transition: all 150ms;
+
+        &:active {
+            transform: scale(0.99);
         }
 
-
+        &:disabled {
+            opacity: 0.5;
+        }
     }
+
 }
 
 .no-hits {
