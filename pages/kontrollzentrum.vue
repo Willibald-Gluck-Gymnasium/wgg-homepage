@@ -75,7 +75,9 @@ async function saveData() {
     <NuxtLink to="/logout" class="logout">Abmelden</NuxtLink>
     <h1>Kontrollzentrum</h1>
 
-    <Schedule :events="events"></Schedule>
+    <Schedule :events="events" limit="100"></Schedule>
+
+    <div class="information"><b>Info:</b> Auf der Startseite werden nur die nächsten acht Termine gezeigt. Termine vom Vortag oder früher sind unsichtbar.</div>
 
     <form style="margin-top: 20px" @submit.prevent="saveData()">
 
@@ -109,6 +111,7 @@ async function saveData() {
         <div v-if="formError" class="notification error">Die Termine konnten nicht gespeichert werden.</div>
         <div v-if="unsavedChanges" class="notification warning">Achtung, es gibt ungespeicherte Änderungen.</div>
 
+
         <div class="button-group">
 
             <button class="new-event" @click.prevent="addNewEvent()">Neuer Termin</button>
@@ -130,6 +133,21 @@ async function saveData() {
 </template>
 
 <style scoped lang="scss">
+.centered {
+    margin: 0 auto;
+    width: calc(100% - 20px);
+    max-width: 1080px;
+
+    @media (min-width: 500px) {
+        width: calc(100% - 40px);
+    }
+}
+
+.information {
+    @extend .centered;
+    margin: 20px auto;
+}
+
 h1, .logout {
     width: calc(100% - 20px);
     max-width: 1080px;

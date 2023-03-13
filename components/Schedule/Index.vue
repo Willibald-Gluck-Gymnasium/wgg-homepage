@@ -5,6 +5,11 @@ const props = defineProps({
     events: {
         required: false,
         type: Array
+    },
+    limit: {
+        required: false,
+        type: Number,
+        default: 8
     }
 })
 
@@ -40,9 +45,9 @@ watch(sortedEvents, (val) => {
 <template>
     <div class="schedule">
 
-        <template v-for="event in sortedEvents">
+        <template v-for="(event, key) in sortedEvents" >
             <!-- Event disapears if timestamp is not today or later -->
-            <ScheduleEventItem v-if="new Date(event.timestamp).getTime() >= midnightYesterday" :timestamp="event.timestamp" :dayonly="event.dayonly" :title="event.title" :details="event.details"/>
+            <ScheduleEventItem v-if="new Date(event.timestamp).getTime() >= midnightYesterday && key < props.limit" :timestamp="event.timestamp" :dayonly="event.dayonly" :title="event.title" :details="event.details"/>
         </template>
     </div>
 </template>
