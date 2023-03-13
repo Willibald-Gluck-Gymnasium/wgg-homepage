@@ -1,15 +1,8 @@
 <script setup>
 const searchquery = ref(useRoute().params.slug)
 
-// const { data: searchAPIResponse, pending, error, refresh: refreshSearchAPICall } = await useFetch('/api/search', {
-//     params: {
-//         query: searchquery.value
-//     },
-//     key: searchquery.value
-// })
-
 const { data: searchAPIResponse, pending, error, refresh: refreshSearchAPICall } = await useAsyncData(
-    'search',
+    'searchbig',
     () => $fetch('/api/search', {
         params: {
             query: searchquery.value
@@ -37,9 +30,8 @@ watch(searchquery, (query) => {
             <input ref="searchinput" class="input" type="search" placeholder="Suchen..." v-model="searchquery">
             <div class="pending" v-if="pending">
                 <LoadingSpinner class="spinner"/>
-            
             </div>
-            <input class="submit" type="submit" value>
+            <input class="submit" type="submit" value=" ">
         </form>
 
 
@@ -60,6 +52,8 @@ watch(searchquery, (query) => {
         <div class="noresults" v-else>
             Keine Artikel für <b>{{ searchquery }}</b> gefunden.
         </div>
+
+        
         
         
 
@@ -89,7 +83,6 @@ watch(searchquery, (query) => {
     grid-template-columns: 1fr 38px;
     overflow: hidden;
     border: 1px solid hsl(0, 0%, 90%);
-    background-color: hsl(0, 0%, 100%);
     margin-bottom: 20px;
 
     .input, .submit {

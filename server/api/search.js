@@ -11,11 +11,12 @@ export default defineEventHandler(async (event) => {
       query: {
         attributesToHighlight: 'title,plaintext',
         attributesToCrop: 'plaintext',
-        cropLength: '15',
+        cropLength: query.cropLength || '15',
         cropMarker: '...',
         highlightPreTag: '<mark>',
         highlightPostTag: '</mark>',
         attributesToRetrieve: '_path,thumbnail',
+        limit: query.limit || 9999999,
         q: query.query
       },
       headers: {
