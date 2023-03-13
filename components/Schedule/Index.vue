@@ -17,16 +17,32 @@ if (props.events === undefined) {
     events.value = props.events
 }
 
-const midnightToday= new Date(Date.now()).setHours(24,0,0,0)
+const midnightYesterday = new Date(Date.now()).setHours(0,0,0,0)
+
+function sortByTimestamp(a, b) {
+    if (a.timestamp < b.timestamp) return -1
+    if (a.timestamp > b.timestamp) return 1
+    return 0
+}
+
+const sortedEvents = computed(() => {
+    const sortedArray = Array.from(events.value)
+    sortedArray.sort(sortByTimestamp)
+    return sortedArray
+})
+
+watch(sortedEvents, (val) => {
+    console.log(val);
+})
 
 </script>
 
 <template>
     <div class="schedule">
 
-        <template v-for="event in events">
+        <template v-for="event in sortedEvents">
             <!-- Event disapears if timestamp is not today or later -->
-            <ScheduleEventItem v-if="new Date(event.timestamp).getTime() >= midnightToday" :timestamp="event.timestamp" :dayonly="event.dayonly" :title="event.title" :details="event.details"/>
+            <ScheduleEventItem v-if="new Date(event.timestamp).getTime() >= midnightYesterday" :timestamp="event.timestamp" :dayonly="event.dayonly" :title="event.title" :details="event.details"/>
         </template>
     </div>
 </template>

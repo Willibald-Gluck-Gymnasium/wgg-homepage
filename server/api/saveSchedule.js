@@ -10,9 +10,19 @@ export default defineEventHandler(async (event) => {
       message: "You do not have the necessary rights to make changes to the schedule."
     }
   }
-  
-  const events = JSON.stringify(body.events)
 
+  const events = body.events
+
+  console.log(events);
+
+  function sortByTimestamp(a, b) {
+    if (a.timestamp < b.timestamp) return -1
+    if (a.timestamp > b.timestamp) return 1
+    return 0
+  }
+  events.sort(sortByTimestamp)
+
+  const eventsJSON = JSON.stringify(events)
 
   const config = useRuntimeConfig()
 
@@ -24,7 +34,7 @@ export default defineEventHandler(async (event) => {
     port: config.MariaDBPort
   })
   
-  const res = await conn.query("UPDATE `eventdatajson` SET `eventdata` = ?", [ events ])
+  const res = await conn.query("UPDATE `eventdatajson` SET `eventdata` = ?", [ eventsJSON ])
 
   conn.end()
 
