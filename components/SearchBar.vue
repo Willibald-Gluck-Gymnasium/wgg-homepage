@@ -1,22 +1,5 @@
 <script setup>
-import { instantMeiliSearch } from '@meilisearch/instant-meilisearch';
-import {
-    AisInstantSearch,
-    AisSearchBox,
-    AisHits,
-    AisSnippet,
-    AisHighlight,
-    AisConfigure,
-    AisStateResults
-} from 'vue-instantsearch/vue3/es/index.js';
-import 'instantsearch.css/themes/satellite-min.css';
 
-const config = useRuntimeConfig()
-
-const searchClient = ref(instantMeiliSearch(
-    config.public.meiliURL,
-    config.public.meiliSearchKey
-))
 
 const showResults = ref(false)
 const searchbox = ref(null)
@@ -31,54 +14,7 @@ const searchSubmit = () => {
 </script>
 
 <template>
-    <AisInstantSearch :search-client="searchClient" index-name="articles">
-        <AisSearchBox placeholder="Suche hier..." ref="searchbox" @submit="searchSubmit()" @focus="showResults = true" @blur="showResults = false" /> 
-
-        <AisStateResults>
-            <template v-slot="{ results: { hits, query } }">
-
-                <AisHits v-if="hits.length > 0 && showResults" :escape-HTML="true">
-                    <template v-slot:item="{ item }">
-                        <NuxtLink @mousedown.prevent @click="unfocusSearchBox()" :to="item._path">
-                            <h2>
-                                <AisHighlight
-                                    attribute="title"
-                                    :hit="item"
-                                    highlightedTagName="mark"
-                                />
-                            </h2>
-                            <p>
-                                <AisSnippet
-                                    attribute="plaintext"
-                                    :hit="item"
-                                    highlightedTagName="mark"
-                                />
-                            </p>
-                        </NuxtLink>
-                    </template>
-                </AisHits>
-        
-                <div v-else-if="showResults">
-                    <div class="ais-Hits">
-                        <ol class="ais-Hits-list">
-                            <li class="ais-Hits-item">
-                                <p class="ais-no-hits">Keine Ergebnisse für <b>{{ query }}</b>.</p>
-                            </li>
-                        </ol>
-                    </div>                
-                
-                </div>
-                <div v-else></div>
-
-            </template>
-        </AisStateResults>
-
-        <AisConfigure
-            :attributesToSnippet="['plaintext']"
-            snippetEllipsisText="..."
-            :hits-per-page.camel="5"
-        />
-    </AisInstantSearch>
+    <div></div>
 </template>
 
 <style lang="scss" scoped>

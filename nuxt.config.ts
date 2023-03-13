@@ -22,12 +22,12 @@ export default defineNuxtConfig({
     MariaDBPassword: '',
     MariaDBPort: '3306',
     meiliAdminKey: '', // NUXT_MEILI_ADMIN_KEY
+    meiliIndexUID: 'articles', // NUXT_MEILI_INDEX_UID
+    meiliURL: '', // NUXT_MEILI_URL
+    meiliSearchKey: '' // NUXT_MEILI_SEARCH_KEY
 
     // Public keys that are exposed to the client 
-    public: {
-      meiliURL: '', // NUXT_PUBLIC_MEILI_URL
-      meiliSearchKey: '' // NUXT_PUBLIC_MEILI_SEARCH_KEY
-    }
+    // public: {}
   },
 
   content: {
