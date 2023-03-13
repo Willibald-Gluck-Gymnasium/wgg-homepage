@@ -20,7 +20,6 @@ function getImageSrc(img) {
 }
 
 watch(searchquery, (query) => {
-    console.log(searchquery.value);
     refreshSearchAPICall()
 })
 </script>
@@ -153,7 +152,7 @@ watch(searchquery, (query) => {
                 
 
                 $box-shadow-color: hsla(0, 0%, 0%, 0.08);
-                $box-shadow--default: 0 4px 20px 0 $box-shadow-color;
+                $box-shadow--default: 0 4px 10px 0 $box-shadow-color;
                 $box-shadow--expanded: 0 8px 30px 0 $box-shadow-color;
                 box-shadow: $box-shadow--default;
                 transition: transform 0.2s, box-shadow 0.2s;

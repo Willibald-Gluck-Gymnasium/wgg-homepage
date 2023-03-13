@@ -17,11 +17,13 @@ onMounted(async () => {
 
 const events = ref([])
 
-const { data, pending, error, refresh } = await useFetch('/api/getSchedule', {
-    method: 'GET'
+const { data: APIScheduleResponse, pending: getSchedulePending, error, refresh } = useLazyFetch('/api/getSchedule', {
+    server: false
 })
 
-events.value = data.value.data.events
+watch(APIScheduleResponse, (val) => {
+    events.value = val?.data?.events
+})
 
 function addNewEvent() {
     const newEvent = {
@@ -37,16 +39,18 @@ const loading = ref(false)
 const formError = ref(false)
 const unsavedChanges = ref(false)
 
-watch(events, () => {
-    unsavedChanges.value = true
-    console.log(events.value);
-}, {deep: true})
+watch(getSchedulePending, (pendingStatus) => {
+    watch(events, () => {
+        unsavedChanges.value = true
+    }, {deep: true})
+})
+
 
 async function saveData() {
     loading.value = true
     formError.value = false
 
-    const { data, pending, error, refresh } = await useFetch('/api/saveSchedule', {
+    const { data, error, refresh } = await useFetch('/api/saveSchedule', {
         method: 'POST',
         headers: {
             authtoken: localStorage.getItem('authtoken')
@@ -75,7 +79,9 @@ async function saveData() {
     <NuxtLink to="/logout" class="logout">Abmelden</NuxtLink>
     <h1>Kontrollzentrum</h1>
 
-    <Schedule :events="events" limit="100"></Schedule>
+    <Schedule :events="events" :limit="100"></Schedule>
+
+    <div class="information" v-if="getSchedulePending">Lädt...</div>
 
     <div class="information"><b>Info:</b> Auf der Startseite werden nur die nächsten acht Termine gezeigt. Termine vom Vortag oder früher sind unsichtbar.</div>
 
@@ -114,9 +120,9 @@ async function saveData() {
 
         <div class="button-group">
 
-            <button class="new-event" @click.prevent="addNewEvent()">Neuer Termin</button>
+            <button class="new-event" :disabled="getSchedulePending" @click.prevent="addNewEvent()">Neuer Termin</button>
 
-            <Button style="background-color: rgb(37, 62, 254);" type="submit" ref="button" :loading="loading">Speichern</Button>
+            <Button :disabled="getSchedulePending" style="background-color: rgb(37, 62, 254);" type="submit" ref="button" :loading="loading">Speichern</Button>
 
         </div>
     

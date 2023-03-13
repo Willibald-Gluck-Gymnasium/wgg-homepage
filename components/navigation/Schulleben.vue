@@ -49,10 +49,6 @@ function combineAllMenuItems(category, additionalTags) {
     return tags.join('+')
 }
 
-// console.log(combineAllMenuItems(menuItems.Events))
-// console.log(combineAllMenuItems(menuItems.Schulteam))
-// console.log(combineAllMenuItems(menuItems.Schulprofil))
-
 
 </script>
 

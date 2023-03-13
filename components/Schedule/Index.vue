@@ -1,6 +1,4 @@
 <script setup>
-const events = ref([])
-
 const props = defineProps({
     events: {
         required: false,
@@ -13,13 +11,9 @@ const props = defineProps({
     }
 })
 
-if (props.events === undefined) {
-    const { data, pending, error, refresh } = await useFetch('/api/getSchedule', {
-        method: 'GET'
-    })
-    events.value = data.value.data.events
-} else {
-    events.value = props.events
+let getScheduleAPIResponse
+if (!props.events) {
+    getScheduleAPIResponse = await useLazyFetch('/api/getSchedule', { server: false })
 }
 
 const midnightYesterday = new Date(Date.now()).setHours(0,0,0,0)
@@ -31,20 +25,18 @@ function sortByTimestamp(a, b) {
 }
 
 const sortedEvents = computed(() => {
-    const sortedArray = Array.from(events.value)
+    const sortedArray = Array.from(props.events || getScheduleAPIResponse.data.value?.data.events || [])
     sortedArray.sort(sortByTimestamp)
     return sortedArray
-})
-
-watch(sortedEvents, (val) => {
-    console.log(val);
 })
 
 </script>
 
 <template>
     <div class="schedule">
-
+        <div class="spinnerbox" v-if="getScheduleAPIResponse?.pending.value">
+            <LoadingSpinner class="spinner" />
+        </div>
         <template v-for="(event, key) in sortedEvents" >
             <!-- Event disapears if timestamp is not today or later -->
             <ScheduleEventItem v-if="new Date(event.timestamp).getTime() >= midnightYesterday && key < props.limit" :timestamp="event.timestamp" :dayonly="event.dayonly" :title="event.title" :details="event.details"/>
@@ -55,6 +47,7 @@ watch(sortedEvents, (val) => {
 <style lang="scss" scoped>
 
 .schedule {
+    position: relative;
     width: calc(100% - 20px);
     max-width: 1080px;
     // height: 260px;
@@ -69,6 +62,7 @@ watch(sortedEvents, (val) => {
     gap: 10px;
     display: grid;
     grid-template-columns: 1fr;
+    min-height: 200px;
 
     @media (min-width: 700px) {
         grid-template-columns: 1fr 1fr;
@@ -78,6 +72,21 @@ watch(sortedEvents, (val) => {
         // padding: 20px;
 		width: calc(100% - 40px);
 	}
+
+    .spinnerbox {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        height: 50px;
+        width: 50px;
+        stroke: #FFFFFF;
+
+        .spinner {
+            height: 100%;
+            width: 100%;
+        }
+    }
 }
 
 </style>

@@ -13,8 +13,6 @@ export default defineEventHandler(async (event) => {
 
   const events = body.events
 
-  console.log(events);
-
   function sortByTimestamp(a, b) {
     if (a.timestamp < b.timestamp) return -1
     if (a.timestamp > b.timestamp) return 1

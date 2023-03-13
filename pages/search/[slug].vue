@@ -16,7 +16,6 @@ function getImageSrc(img) {
 }
 
 watch(searchquery, (query) => {
-    console.log(searchquery.value);
     refreshSearchAPICall()
 })
 
