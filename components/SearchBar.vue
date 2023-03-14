@@ -3,32 +3,27 @@ const searchquery = ref('')
 
 const showResults = ref(false)
 
-const { data: searchAPIResponse, pending, error, refresh: refreshSearchAPICall } = await useAsyncData(
-    'navbarSearch',
-    () => $fetch('/api/search', {
-        params: {
-            query: searchquery.value,
-            limit: 5,
-            cropLength: 10
-        },
-    })
-)
+const navSearchAPICall = useLazyFetch('/api/search', {
+    params: {
+        query: searchquery,
+        limit: 5,
+        cropLength: 10
+    },
+    server: false,
+    watch: [searchquery],
+})
 
 const $img = useImage()
 function getImageSrc(img) {
     return $img(`/images/${img || 'missing-thumbnail.jpg'}`, {}, { preset: 'card' })
 }
-
-watch(searchquery, (query) => {
-    refreshSearchAPICall()
-})
 </script>
 
 <template>
     <div class="searchbox">
         <form :class="{ searchform: true, 'show-results': showResults}" @submit.prevent="useRouter().push(`/search/${searchquery}`)">
             <input ref="searchinput" @focus="showResults = true" @blur="showResults = false" class="input" type="search" placeholder="Suchen..." v-model="searchquery">
-            <div class="pending" v-if="pending">
+            <div class="pending" v-if="navSearchAPICall.pending.value">
                 <LoadingSpinner class="spinner"/>
             
             </div>
@@ -37,12 +32,25 @@ watch(searchquery, (query) => {
 
         <div class="resultbox" v-if="showResults">
 
-            <div class="error" v-if="error">
-                Ein Fehler ist aufgetreten: {{ error }}.
+            <!-- <div class="error" v-if="error || searchAPIResponse.status === 'error'">
+                Ein Fehler ist aufgetreten: "{{ error || searchAPIResponse.message }}".
+            </div> -->
+
+            <div class="error" v-if="navSearchAPICall.error.value">
+                <span>Ein Fehler ist aufgetreten: </span>
+                <span v-if="navSearchAPICall.error.value">{{ navSearchAPICall.error.value }}</span>
             </div>
 
-            <ul class="resultlist" v-else-if="searchAPIResponse?.data?.hits?.length > 0">
-                <NuxtLink @mousedown.prevent v-for="result in searchAPIResponse?.data?.hits" class="result" role="listitem" :to="result._path">
+            <div class="error" v-else-if="navSearchAPICall.data.value.status === 'error'">
+                <span>Ein Fehler ist aufgetreten: </span>
+                <span v-if="navSearchAPICall.data.value.data?.name">{{ navSearchAPICall.data.value.data.name }}: </span>
+                <span v-if="navSearchAPICall.data.value.message">{{ navSearchAPICall.data.value.data.message }}</span>
+            </div>
+
+            
+
+            <ul class="resultlist" v-else-if="navSearchAPICall.data.value.data?.hits?.length > 0">
+                <NuxtLink @mousedown.prevent v-for="result in navSearchAPICall.data.value.data.hits" class="result" role="listitem" :to="result._path">
                     <img class="thumbnail" :src="getImageSrc(result.thumbnail.src)" :alt="result.thumbnail.alt">
 
                     <div>
@@ -51,6 +59,10 @@ watch(searchquery, (query) => {
                     </div>
                 </NuxtLink>
             </ul>
+
+            <div class="pending" v-else-if="navSearchAPICall.pending.value">
+                Suchen...
+            </div>
 
             <div class="noresults" v-else>
                 Keine Artikel für <b>{{ searchquery }}</b> gefunden.

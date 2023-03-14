@@ -2,7 +2,6 @@
 const props = defineProps({
     events: {
         required: false,
-        type: Array
     },
     limit: {
         required: false,
@@ -12,24 +11,15 @@ const props = defineProps({
 })
 
 let getScheduleAPIResponse
-if (!props.events) {
-    getScheduleAPIResponse = await useLazyFetch('/api/getSchedule', { server: false })
+if (props.events) {
+    getScheduleAPIResponse = props.events
+} else {
+    getScheduleAPIResponse = useLazyFetch('/api/getSchedule', {
+        server: false
+    })
 }
 
 const midnightYesterday = new Date(Date.now()).setHours(0,0,0,0)
-
-function sortByTimestamp(a, b) {
-    if (a.timestamp < b.timestamp) return -1
-    if (a.timestamp > b.timestamp) return 1
-    return 0
-}
-
-const sortedEvents = computed(() => {
-    const sortedArray = Array.from(props.events || getScheduleAPIResponse.data.value?.data.events || [])
-    sortedArray.sort(sortByTimestamp)
-    return sortedArray
-})
-
 </script>
 
 <template>
@@ -37,9 +27,10 @@ const sortedEvents = computed(() => {
         <div class="spinnerbox" v-if="getScheduleAPIResponse?.pending.value">
             <LoadingSpinner class="spinner" />
         </div>
-        <template v-for="(event, key) in sortedEvents" >
+        <template v-for="(event, key) in getScheduleAPIResponse?.data.value?.data?.events" >
             <!-- Event disapears if timestamp is not today or later -->
             <ScheduleEventItem v-if="new Date(event.timestamp).getTime() >= midnightYesterday && key < props.limit" :timestamp="event.timestamp" :dayonly="event.dayonly" :title="event.title" :details="event.details"/>
+            <!-- <ScheduleEventItem :timestamp="event.timestamp" :dayonly="event.dayonly" :title="event.title" :details="event.details"/> -->
         </template>
     </div>
 </template>
@@ -62,7 +53,7 @@ const sortedEvents = computed(() => {
     gap: 10px;
     display: grid;
     grid-template-columns: 1fr;
-    min-height: 200px;
+    min-height: 100px;
 
     @media (min-width: 700px) {
         grid-template-columns: 1fr 1fr;

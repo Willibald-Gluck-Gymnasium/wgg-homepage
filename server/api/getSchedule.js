@@ -24,8 +24,7 @@ export default defineEventHandler(async (event) => {
   function timeout(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
-  await timeout(2000)
-  
+  await timeout(1000)
 
   return {
     status: "success",

@@ -28,7 +28,10 @@ export default defineEventHandler(async (event) => {
     return {
       status: 'error',
       message: 'An unknown error occured.',
-      data: error,
+      data: {
+        name: error.name,
+        message: error.message
+      },
     }
   }
 

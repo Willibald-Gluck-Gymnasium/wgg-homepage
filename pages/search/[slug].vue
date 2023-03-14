@@ -1,25 +1,31 @@
 <script setup>
 const searchquery = ref(useRoute().params.slug)
 
-const { data: searchAPIResponse, pending, error, refresh: refreshSearchAPICall } = await useAsyncData(
-    'searchbig',
-    () => $fetch('/api/search', {
-        params: {
-            query: searchquery.value
-        },
-    })
-)
+// const searchAPICall = useLazyAsyncData(
+//     'searchbig',
+//     () => $fetch('/api/search', {
+//         params: {
+//             query: searchquery.value
+//         },
+//     }),
+//     { 
+//         server: false,
+//         watch: searchquery
+//     }
+// )
+
+const searchAPICall = useLazyFetch('/api/search', {
+    params: {
+        query: searchquery
+    },
+    server: false,
+    watch: [searchquery],
+})
 
 const $img = useImage()
 function getImageSrc(img) {
     return $img(`/images/${img || 'missing-thumbnail.jpg'}`, {}, { preset: 'card' })
 }
-
-watch(searchquery, (query) => {
-    refreshSearchAPICall()
-})
-
-
 </script>
 
 <template>
@@ -27,16 +33,26 @@ watch(searchquery, (query) => {
 
         <form class="searchbox" @submit.prevent="useRouter().replace(`/search/${searchquery}`)">
             <input ref="searchinput" class="input" type="search" placeholder="Suchen..." v-model="searchquery">
-            <div class="pending" v-if="pending">
+            <div class="pending" v-if="searchAPICall.pending.value">
                 <LoadingSpinner class="spinner"/>
             </div>
             <input class="submit" type="submit" value=" ">
         </form>
 
+        <div class="error" v-if="searchAPICall.error.value">
+            <span>Ein Fehler ist aufgetreten: </span>
+            <span v-if="searchAPICall.error.value">{{ searchAPICall.error.value }}</span>
+        </div>
 
-        <ul class="resultlist" v-if="searchAPIResponse?.data?.hits?.length > 0">
+        <div class="error" v-else-if="searchAPICall.data.value?.status === 'error'">
+            <span>Ein Fehler ist aufgetreten: </span>
+            <span v-if="searchAPICall.data.value.data?.name">{{ searchAPICall.data.value.data.name }}: </span>
+            <span v-if="searchAPICall.data.value.message">{{ searchAPICall.data.value.data.message }}</span>
+        </div>
 
-            <NuxtLink v-for="result in searchAPIResponse?.data?.hits" class="result" role="listitem" :to="result._path">
+        <ul class="resultlist" v-else-if="searchAPICall.data.value?.data?.hits?.length > 0">
+
+            <NuxtLink v-for="result in searchAPICall.data.value.data.hits" class="result" role="listitem" :to="result._path">
                 <img class="thumbnail" :src="getImageSrc(result.thumbnail.src)" :alt="result.thumbnail.alt">
 
                 <div>
@@ -47,6 +63,10 @@ watch(searchquery, (query) => {
 
             
         </ul>
+
+        <div class="pending" v-else-if="searchAPICall.pending.value">
+            Suchen...
+        </div>
 
         <div class="noresults" v-else>
             Keine Artikel für <b>{{ searchquery }}</b> gefunden.
@@ -190,9 +210,10 @@ watch(searchquery, (query) => {
     }
 }
 
-.noresults {
+.noresults, .error, .pending {
     @extend .centered;
 
+    overflow-wrap: anywhere;
     margin-bottom: 20px;
 }
 
