@@ -41,7 +41,7 @@ if (process.server) {
         const config = useRuntimeConfig()
 
         const client = new MeiliSearch({
-            host: config.public.meiliURL,
+            host: config.meiliURL,
             apiKey: config.meiliAdminKey,
         })
         

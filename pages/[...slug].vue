@@ -48,7 +48,7 @@ const now = new Date(Date.now()).toISOString()
                         <h1>Artikel nicht gefunden</h1>
                     </template>
                     <template #empty>
-                        <h1>Artikel nicht gefunden</h1>
+                        <h1>Artikel leer</h1>
                     </template>
                 </ContentDoc>
             </article>
