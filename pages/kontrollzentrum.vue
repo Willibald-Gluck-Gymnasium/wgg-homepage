@@ -15,8 +15,6 @@ onMounted(async () => {
     }
 })
 
-const events = ref([])
-
 const getScheduleAPICallControll = useLazyFetch('/api/getSchedule', {
     key: "getSchedule",
     server: false
@@ -40,8 +38,36 @@ function addNewEvent() {
     getScheduleAPICallControll.data.value.data.events.push(newEvent)
 }
 
+const unsavedChanges = ref(false)
+
+const callAfterInactivity = (threshold, functionToCall) => {
+    let runningInstances = 0
+    const wakeUp = () => {
+        runningInstances++
+        setTimeout(() => {
+            runningInstances--
+            if (runningInstances == 0) {
+                functionToCall()
+            }
+        }, threshold)
+    }
+    return wakeUp
+}
+
+const wakeUp = callAfterInactivity(2000, saveData)
+const deleteWaitForScheduleAPICall = watch(getScheduleAPICallControll.pending, (newPendingStatus) => {
+    deleteWaitForScheduleAPICall()
+    watch(getScheduleAPICallControll.data, (newAPIResponse) => {
+        unsavedChanges.value = true
+        wakeUp()
+    }, {deep: true})
+})
+
+
+
 const saveScheduleAPICall = ref(null)
 function saveData() {
+    const events = JSON.parse(JSON.stringify(getScheduleAPICallControll.data.value.data.events))
     saveScheduleAPICall.value = useLazyFetch('/api/saveSchedule', {
         key: "saveSchedule",
         method: 'POST',
@@ -49,7 +75,13 @@ function saveData() {
             authtoken: localStorage.getItem('authtoken')
         },
         body: {
-            events: getScheduleAPICallControll.data.value.data.events
+            events: events
+        }
+    })
+    const deleteWaitForSaveAPICall = watch(saveScheduleAPICall.value.pending, (newPendingState) => {
+        deleteWaitForSaveAPICall()
+        if (!saveScheduleAPICall.value.error.value) {
+            unsavedChanges.value = false
         }
     })
 }
@@ -68,6 +100,8 @@ function saveData() {
     <div class="information"><b>Info:</b> Auf der Startseite werden nur die nächsten acht Termine gezeigt. Termine vom Vortag oder früher sind unsichtbar.</div>
 
     <form style="margin-top: 20px" @submit.prevent="saveData()">
+
+        <div v-if="unsavedChanges" class="notification warning">Achtung, es gibt ungespeicherte Änderungen.</div>
 
         <div class="event-group" v-for="(eventObject, index) in getScheduleAPICallControll?.data.value?.data.events">
             <div class="input-group">
@@ -95,6 +129,7 @@ function saveData() {
 
         <div v-if="saveScheduleAPICall?.error.value" class="notification error">Fehler beim Speichern: {{ saveScheduleAPICall.error }}</div>
         <div v-if="saveScheduleAPICall?.data?.value?.status === 'error'" class="notification error">Fehler beim Speichern: {{ saveScheduleAPICall.data.value.message }}</div>
+        <div v-if="unsavedChanges" class="notification warning">Achtung, es gibt ungespeicherte Änderungen.</div>
 
 
         <div class="button-group">
