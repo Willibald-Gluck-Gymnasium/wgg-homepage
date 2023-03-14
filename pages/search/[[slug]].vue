@@ -1,22 +1,10 @@
 <script setup>
 const searchquery = ref(useRoute().params.slug)
 
-// const searchAPICall = useLazyAsyncData(
-//     'searchbig',
-//     () => $fetch('/api/search', {
-//         params: {
-//             query: searchquery.value
-//         },
-//     }),
-//     { 
-//         server: false,
-//         watch: searchquery
-//     }
-// )
-
 const searchAPICall = useLazyFetch('/api/search', {
     params: {
-        query: searchquery
+        query: searchquery,
+        limit: 100
     },
     server: false,
     watch: [searchquery],
