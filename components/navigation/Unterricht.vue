@@ -78,9 +78,9 @@ function combineAllMenuItems(category, additionalTags) {
 
             <!-- <h4>{{ category }}</h4> -->
 
-            <NavigationMenuItem @click="emit('closeNavMenu')" element="h4" :text="category" :link="`/tag/${combineAllMenuItems(subjects, [category])}`" />
+            <NavigationMenuItem class="menu-item--unterricht" @click="emit('closeNavMenu')" element="h4" :text="category" :link="`/tag/${combineAllMenuItems(subjects, [category])}`" />
 
-            <NavigationMenuItem @click="emit('closeNavMenu')" v-for="menuItem in subjects" :text="menuItem.text" :link="`/tag/${menuItem.text}`" :icon="menuItem.icon" />
+            <NavigationMenuItem class="menu-item--unterricht" @click="emit('closeNavMenu')" v-for="menuItem in subjects" :text="menuItem.text" :link="`/tag/${menuItem.text}`" :icon="menuItem.icon" />
 
 
         </template>
@@ -94,17 +94,13 @@ function combineAllMenuItems(category, additionalTags) {
         width: 750px !important;
     }
 
+    
 
-    h4 {
-        color: hsl(29, 100%, 55%);
-        font-weight: bold;
-        margin-bottom: 0.7em;
-        margin-top: 0;
+}
+
+.menu-item--unterricht {
+    &:last-child {
+        margin-bottom: 1.25em;
     }
-
-    :v-deep(.menu-item) {
-        margin-right: 50px;
-    }
-
 }
 </style>
