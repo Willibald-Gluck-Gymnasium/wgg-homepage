@@ -102,6 +102,7 @@ function getImageSrc(img) {
     }
 
     .input {
+        appearance: none;
         padding: 0 0 0 1em;
         font-size: 16px;
         font-family: inherit;
