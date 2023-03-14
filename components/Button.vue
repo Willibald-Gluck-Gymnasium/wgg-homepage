@@ -5,12 +5,17 @@ const props = defineProps({
         type: Boolean,
         default: false
     },
+    disabled: {
+        required: false,
+        default: false,
+        type: Boolean
+    }
 })
 
 </script>
 
 <template>
-    <button class="buttonWithLoader" :disabled="loading">
+    <button class="buttonWithLoader" :disabled="loading || disabled">
         <span v-if="!props.loading"><slot /></span>
         <div v-else class="spinner"></div>
     </button>
@@ -40,6 +45,10 @@ const props = defineProps({
 
     &:active {
         transform: scale(1.00);
+    }
+
+    &:disabled {
+        opacity: 0.7;
     }
 
 

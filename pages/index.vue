@@ -116,12 +116,5 @@ h1 {
     }
 }
 
-// .centered {
-//     width: calc(100% - 20px);
-//     max-width: 1080px;
-//     margin: 0 auto;
-// }
-
-
 </style>
 
