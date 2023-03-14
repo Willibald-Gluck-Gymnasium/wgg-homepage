@@ -3,6 +3,8 @@ const searchquery = ref('')
 
 const showResults = ref(false)
 
+defineExpose({ showResults })
+
 const navSearchAPICall = useLazyFetch('/api/search', {
     params: {
         query: searchquery,
@@ -74,7 +76,7 @@ function getImageSrc(img) {
 <style lang="scss" scoped>
 .searchbox {
     width: 100%;
-    max-width: 400px;
+    max-width: 480px;
     position: relative;
 
     .searchform {
@@ -101,6 +103,8 @@ function getImageSrc(img) {
         }
 
         .input {
+            min-width: 100px;
+            appearance: none;
             padding: 0 0 0 1em;
             font-size: 16px;
             font-family: inherit;
