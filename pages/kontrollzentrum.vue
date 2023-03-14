@@ -56,11 +56,13 @@ const callAfterInactivity = (threshold, functionToCall) => {
 
 const wakeUp = callAfterInactivity(2000, saveData)
 const deleteWaitForScheduleAPICall = watch(getScheduleAPICallControll.pending, (newPendingStatus) => {
-    deleteWaitForScheduleAPICall()
-    watch(getScheduleAPICallControll.data, (newAPIResponse) => {
-        unsavedChanges.value = true
-        wakeUp()
-    }, {deep: true})
+    if (!newPendingStatus) {
+        deleteWaitForScheduleAPICall()
+        watch(getScheduleAPICallControll.data, (newAPIResponse) => {
+            unsavedChanges.value = true
+            // wakeUp()
+        }, {deep: true})
+    }
 })
 
 
