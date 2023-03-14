@@ -39,27 +39,28 @@ function addNewEvent() {
 }
 
 const unsavedChanges = ref(false)
+const showSaved = ref(false)
 
-const callAfterInactivity = (threshold, functionToCall) => {
-    let runningInstances = 0
-    const wakeUp = () => {
-        runningInstances++
-        setTimeout(() => {
-            runningInstances--
-            if (runningInstances == 0) {
-                functionToCall()
-            }
-        }, threshold)
-    }
-    return wakeUp
-}
+// const callAfterInactivity = (threshold, functionToCall) => {
+//     let runningInstances = 0
+//     const wakeUp = () => {
+//         runningInstances++
+//         setTimeout(() => {
+//             runningInstances--
+//             if (runningInstances == 0) {
+//                 functionToCall()
+//             }
+//         }, threshold)
+//     }
+//     return wakeUp
+// }
 
-const wakeUp = callAfterInactivity(2000, saveData)
+// const wakeUp = callAfterInactivity(2000, saveData)
 const deleteWaitForScheduleAPICall = watch(getScheduleAPICallControll.pending, (newPendingStatus) => {
     deleteWaitForScheduleAPICall()
     watch(getScheduleAPICallControll.data, (newAPIResponse) => {
         unsavedChanges.value = true
-        wakeUp()
+        // wakeUp()
     }, {deep: true})
 })
 
@@ -82,6 +83,7 @@ function saveData() {
         deleteWaitForSaveAPICall()
         if (!saveScheduleAPICall.value.error.value) {
             unsavedChanges.value = false
+            showSaved.value = true
         }
     })
 }
@@ -100,8 +102,6 @@ function saveData() {
     <div class="information"><b>Info:</b> Auf der Startseite werden nur die nächsten acht Termine gezeigt. Termine vom Vortag oder früher sind unsichtbar.</div>
 
     <form style="margin-top: 20px" @submit.prevent="saveData()">
-
-        <div v-if="unsavedChanges" class="notification warning">Achtung, es gibt ungespeicherte Änderungen.</div>
 
         <div class="event-group" v-for="(eventObject, index) in getScheduleAPICallControll?.data.value?.data.events">
             <div class="input-group">
@@ -127,9 +127,16 @@ function saveData() {
             <input @click="getScheduleAPICallControll.data.value.data.events.splice(index, 1)" class="delete" type="button" value="Löschen">
         </div>
 
-        <div v-if="saveScheduleAPICall?.error.value" class="notification error">Fehler beim Speichern: {{ saveScheduleAPICall.error }}</div>
-        <div v-if="saveScheduleAPICall?.data?.value?.status === 'error'" class="notification error">Fehler beim Speichern: {{ saveScheduleAPICall.data.value.message }}</div>
-        <div v-if="unsavedChanges" class="notification warning">Achtung, es gibt ungespeicherte Änderungen.</div>
+        <div class="notificationbox">
+            <div v-if="saveScheduleAPICall?.error.value" class="notification error">Fehler beim Speichern: {{ saveScheduleAPICall.error }}</div>
+            <div v-if="saveScheduleAPICall?.data?.value?.status === 'error'" class="notification error">Fehler beim Speichern: {{ saveScheduleAPICall.data.value.message }}</div>
+            <div v-if="unsavedChanges" class="notification warning">Achtung, es gibt ungespeicherte Änderungen.</div>
+        </div>
+
+        <div style="min-height: 1.5em;">
+            <div v-if="showSaved && !unsavedChanges">Gespeichert!</div>
+        </div>
+
 
 
         <div class="button-group">
@@ -200,17 +207,27 @@ form {
         width: calc(100% - 40px);
     }
 
-    .notification {
-        width: 100%;
-        border-radius: 20px;
-        padding: 15px 30px;
+    .notificationbox {
+        position: fixed;
+        bottom: 10px;
+        left: 10px;
+        margin-right: 10px;
+        z-index: 1000;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
 
-        &.warning {
-            background-color: hsl(61, 100%, 65%);
-        }
-        &.error {
-            background-color: hsl(0, 100%, 60%);
-            color: #FFF;
+        .notification {
+            border-radius: 20px;
+            padding: 15px 30px;
+
+            &.warning {
+                background-color: hsl(61, 100%, 65%);
+            }
+            &.error {
+                background-color: hsl(0, 100%, 60%);
+                color: #FFF;
+            }
         }
     }
 }
