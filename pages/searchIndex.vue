@@ -42,12 +42,14 @@ if (process.server) {
 
         const client = new MeiliSearch({
             host: config.public.meiliURL,
-            apiKey:  config.meiliAdminKey,
+            apiKey: config.meiliAdminKey,
         })
         
         // console.log(articles);
-        console.log(await client.deleteIndex('articles'))
-        console.log(await client.index('articles').addDocuments(articles))
+        // NUXT_MEILI_INDEX_UID
+        console.log(config);
+        console.log(await client.deleteIndex(config.meiliIndexUID))
+        console.log(await client.index(config.meiliIndexUID).addDocuments(articles))
 
     } catch (error) {
         
@@ -60,6 +62,6 @@ if (process.server) {
 
 <template>
     <div>
-        Indexed...
+        Indexing...
     </div>
 </template>

@@ -20,7 +20,11 @@ export default defineEventHandler(async (event) => {
   if (typeof events !== 'object') {
     events = JSON.parse(events)
   }
-  
+
+  function timeout(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+  await timeout(1000)
 
   return {
     status: "success",

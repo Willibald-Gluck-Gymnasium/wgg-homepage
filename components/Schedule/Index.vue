@@ -1,32 +1,36 @@
 <script setup>
-const events = ref([])
-
 const props = defineProps({
     events: {
         required: false,
-        type: Array
+    },
+    limit: {
+        required: false,
+        type: Number,
+        default: 8
     }
 })
 
-if (props.events === undefined) {
-    const { data, pending, error, refresh } = await useFetch('/api/getSchedule', {
-        method: 'GET'
-    })
-    events.value = data.value.data.events
+let getScheduleAPIResponse
+if (props.events) {
+    getScheduleAPIResponse = props.events
 } else {
-    events.value = props.events
+    getScheduleAPIResponse = useLazyFetch('/api/getSchedule', {
+        server: false
+    })
 }
 
-const midnightToday= new Date(Date.now()).setHours(24,0,0,0)
-
+const midnightYesterday = new Date(Date.now()).setHours(0,0,0,0)
 </script>
 
 <template>
     <div class="schedule">
-
-        <template v-for="event in events">
+        <div class="spinnerbox" v-if="getScheduleAPIResponse?.pending.value">
+            <LoadingSpinner class="spinner" />
+        </div>
+        <template v-for="(event, key) in getScheduleAPIResponse?.data.value?.data?.events" >
             <!-- Event disapears if timestamp is not today or later -->
-            <ScheduleEventItem v-if="new Date(event.timestamp).getTime() >= midnightToday" :timestamp="event.timestamp" :dayonly="event.dayonly" :title="event.title" :details="event.details"/>
+            <ScheduleEventItem v-if="new Date(event.timestamp).getTime() >= midnightYesterday && key < props.limit" :timestamp="event.timestamp" :dayonly="event.dayonly" :title="event.title" :details="event.details"/>
+            <!-- <ScheduleEventItem :timestamp="event.timestamp" :dayonly="event.dayonly" :title="event.title" :details="event.details"/> -->
         </template>
     </div>
 </template>
@@ -34,6 +38,7 @@ const midnightToday= new Date(Date.now()).setHours(24,0,0,0)
 <style lang="scss" scoped>
 
 .schedule {
+    position: relative;
     width: calc(100% - 20px);
     max-width: 1080px;
     // height: 260px;
@@ -48,6 +53,7 @@ const midnightToday= new Date(Date.now()).setHours(24,0,0,0)
     gap: 10px;
     display: grid;
     grid-template-columns: 1fr;
+    min-height: 100px;
 
     @media (min-width: 700px) {
         grid-template-columns: 1fr 1fr;
@@ -57,6 +63,21 @@ const midnightToday= new Date(Date.now()).setHours(24,0,0,0)
         // padding: 20px;
 		width: calc(100% - 40px);
 	}
+
+    .spinnerbox {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        height: 50px;
+        width: 50px;
+        stroke: #FFFFFF;
+
+        .spinner {
+            height: 100%;
+            width: 100%;
+        }
+    }
 }
 
 </style>
