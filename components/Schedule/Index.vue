@@ -10,16 +10,34 @@ const props = defineProps({
     }
 })
 
+function sortByTimestamp(a, b) {
+    if (a.timestamp < b.timestamp) return -1
+    if (a.timestamp > b.timestamp) return 1
+    return 0
+}
+
 let getScheduleAPIResponse
+let sortedEvents
 if (props.events) {
     getScheduleAPIResponse = props.events
+    getScheduleAPIResponse.execute()
+    sortedEvents = computed(() => {
+        return JSON.parse(JSON.stringify(getScheduleAPIResponse.data.value?.data.events)).sort(sortByTimestamp)
+    })
 } else {
-    getScheduleAPIResponse = useLazyFetch('/api/getSchedule', {
+    getScheduleAPIResponse = await useLazyFetch('/api/getSchedule', {
         server: false
     })
 }
 
 const midnightYesterday = new Date(Date.now()).setHours(0,0,0,0)
+
+const activeEvents = computed(() => {
+    let events = sortedEvents?.value ||  JSON.parse(JSON.stringify(getScheduleAPIResponse?.data.value?.data.events || []))
+    events = events.filter(eventObj => new Date(eventObj.timestamp).getTime() >= midnightYesterday)
+    return events
+})
+
 </script>
 
 <template>
@@ -27,9 +45,9 @@ const midnightYesterday = new Date(Date.now()).setHours(0,0,0,0)
         <div class="spinnerbox" v-if="getScheduleAPIResponse?.pending.value">
             <LoadingSpinner class="spinner" />
         </div>
-        <template v-for="(event, key) in getScheduleAPIResponse?.data.value?.data?.events" >
+        <template v-else v-for="(event, key) in activeEvents" >
             <!-- Event disapears if timestamp is not today or later -->
-            <ScheduleEventItem v-if="new Date(event.timestamp).getTime() >= midnightYesterday && key < props.limit" :timestamp="event.timestamp" :dayonly="event.dayonly" :title="event.title" :details="event.details"/>
+            <ScheduleEventItem v-if="key < props.limit" :timestamp="event.timestamp" :dayonly="event.dayonly" :title="event.title" :details="event.details"/>
             <!-- <ScheduleEventItem :timestamp="event.timestamp" :dayonly="event.dayonly" :title="event.title" :details="event.details"/> -->
         </template>
     </div>
@@ -53,7 +71,7 @@ const midnightYesterday = new Date(Date.now()).setHours(0,0,0,0)
     gap: 10px;
     display: grid;
     grid-template-columns: 1fr;
-    min-height: 100px;
+    min-height: 310px;
 
     @media (min-width: 700px) {
         grid-template-columns: 1fr 1fr;
