@@ -15,18 +15,28 @@ onMounted(async () => {
     }
 })
 
-const getScheduleAPICallControll = useLazyFetch('/api/getSchedule', {
-    key: "getSchedule",
-    server: false
+const unsavedChanges = ref(false)
+const showSaved = ref(false)
+
+const getScheduleAPICallControll = await useLazyFetch('/api/getSchedule', {
+    server: false,
+    immediate: false,
+    onResponse({ request, response, options }) {
+        if (response._data.status === 'success') {
+            const deleteWaitForScheduleAPICall = watch(getScheduleAPICallControll.pending, (newPendingStatus) => {
+                // Wait for api call to be finished
+                if (!newPendingStatus) {
+                    deleteWaitForScheduleAPICall()
+    
+                    // Activate change observer
+                    watch(getScheduleAPICallControll.data, () => {
+                        unsavedChanges.value = true
+                    }, {deep: true})
+                }
+            })
+        }
+    }
 })
-
-// const { data: APIScheduleResponse, pending: getSchedulePending, error, refresh } = useLazyFetch('/api/getSchedule', {
-//     server: false
-// })
-
-// watch(APIScheduleResponse, (val) => {
-//     events.value = val?.data?.events
-// })
 
 function addNewEvent() {
     const newEvent = {
@@ -38,58 +48,30 @@ function addNewEvent() {
     getScheduleAPICallControll.data.value.data.events.push(newEvent)
 }
 
-const unsavedChanges = ref(false)
-const showSaved = ref(false)
-
-// const callAfterInactivity = (threshold, functionToCall) => {
-//     let runningInstances = 0
-//     const wakeUp = () => {
-//         runningInstances++
-//         setTimeout(() => {
-//             runningInstances--
-//             if (runningInstances == 0) {
-//                 functionToCall()
-//             }
-//         }, threshold)
-//     }
-//     return wakeUp
-// }
-
-// const wakeUp = callAfterInactivity(2000, saveData)
-const deleteWaitForScheduleAPICall = watch(getScheduleAPICallControll.pending, (newPendingStatus) => {
-    if (!newPendingStatus) {
-        deleteWaitForScheduleAPICall()
-        watch(getScheduleAPICallControll.data, (newAPIResponse) => {
-            unsavedChanges.value = true
-            // wakeUp()
-        }, {deep: true})
-    }
-})
-
-
-
-const saveScheduleAPICall = ref(null)
-function saveData() {
-    const events = JSON.parse(JSON.stringify(getScheduleAPICallControll.data.value.data.events))
-    saveScheduleAPICall.value = useLazyFetch('/api/saveSchedule', {
-        key: "saveSchedule",
+const saveScheduleAPICall = await useLazyAsyncData(
+    () => $fetch('/api/saveSchedule', {
         method: 'POST',
         headers: {
-            authtoken: localStorage.getItem('authtoken')
+            authtoken: process.client && localStorage.getItem('authtoken')
         },
         body: {
-            events: events
-        }
-    })
-    const deleteWaitForSaveAPICall = watch(saveScheduleAPICall.value.pending, (newPendingState) => {
-        deleteWaitForSaveAPICall()
-        if (!saveScheduleAPICall.value.error.value) {
-            unsavedChanges.value = false
-            showSaved.value = true
-        }
-    })
-}
+            events: getScheduleAPICallControll.data.value?.data.events
+        },
+        onResponse({ request, response, options }) {
+            if (response._data.status === 'success') {
+                unsavedChanges.value = false
+                showSaved. value = true
+            }
+        },
+    }),
+    {
+        immediate: false,
+        server: false,
+    }
+)
+saveScheduleAPICall.pending.value = false
 
+const midnightYesterday = new Date(Date.now()).setHours(0,0,0,0)
 </script>
 
 <template>
@@ -103,35 +85,39 @@ function saveData() {
 
     <div class="information"><b>Info:</b> Auf der Startseite werden nur die nächsten acht Termine gezeigt. Termine vom Vortag oder früher sind unsichtbar.</div>
 
-    <form style="margin-top: 20px" @submit.prevent="saveData()">
+    <form style="margin-top: 20px" @submit.prevent="saveScheduleAPICall.execute()">
 
-        <div class="event-group" v-for="(eventObject, index) in getScheduleAPICallControll?.data.value?.data.events">
-            <div class="input-group">
-                <label for="timestamp">Zeitpunkt</label>
-                <input type="datetime-local" id="timestamp" v-model="eventObject.timestamp">
+        <template v-for="(eventObj, index) in getScheduleAPICallControll?.data.value?.data.events">
+
+            <div :class="{ 'event-group': true, 'event-group--old': !(new Date(eventObj.timestamp).getTime() >= midnightYesterday)}">
+                <div class="input-group">
+                    <label for="timestamp">Zeitpunkt</label>
+                    <input type="datetime-local" id="timestamp" v-model="eventObj.timestamp">
+                </div>
+
+                <div class="input-group">
+                    <label for="dayonly">Ganztägig</label>
+                    <input type="checkbox" id="dayonly" v-model="eventObj.dayonly">
+                </div>
+                
+                <div class="input-group">
+                    <label for="title" style="margin-left: 5px;">Titel</label>
+                    <input class="textinput" type="text" id="title" v-model="eventObj.title">
+                </div>
+
+                <div class="input-group">
+                    <label for="details" style="margin-left: 5px;">Details</label>
+                    <textarea id="details" rows="3" v-model="eventObj.details"></textarea>
+                </div>
+
+                <input @click="getScheduleAPICallControll.data.value.data.events.splice(index, 1)" class="button delete" type="button" value="Löschen">
             </div>
 
-            <div class="input-group">
-                <label for="dayonly">Ganztägig</label>
-                <input type="checkbox" id="dayonly" v-model="eventObject.dayonly">
-            </div>
-            
-            <div class="input-group">
-                <label for="title">Titel</label>
-                <input type="text" id="title" v-model="eventObject.title">
-            </div>
-
-            <div class="input-group">
-                <label for="details">Details</label>
-                <textarea id="details" rows="3" v-model="eventObject.details"></textarea>
-            </div>
-
-            <input @click="getScheduleAPICallControll.data.value.data.events.splice(index, 1)" class="delete" type="button" value="Löschen">
-        </div>
+        </template>
 
         <div class="notificationbox">
-            <div v-if="saveScheduleAPICall?.error.value" class="notification error">Fehler beim Speichern: {{ saveScheduleAPICall.error }}</div>
-            <div v-if="saveScheduleAPICall?.data?.value?.status === 'error'" class="notification error">Fehler beim Speichern: {{ saveScheduleAPICall.data.value.message }}</div>
+            <div v-if="saveScheduleAPICall.error.value" class="notification error">Fehler beim Speichern: {{ saveScheduleAPICall.error }}</div>
+            <div v-if="saveScheduleAPICall.data.value?.status === 'error'" class="notification error">Fehler beim Speichern: {{ saveScheduleAPICall.data.value.message }}</div>
             <div v-if="unsavedChanges" class="notification warning">Achtung, es gibt ungespeicherte Änderungen.</div>
         </div>
 
@@ -142,10 +128,8 @@ function saveData() {
 
 
         <div class="button-group">
-
-            <button class="new-event" :disabled="getScheduleAPICallControll?.pending.value" @click.prevent="addNewEvent()">Neuer Termin</button>
-
-            <Button :disabled="getScheduleAPICallControll?.pending.value" style="background-color: rgb(37, 62, 254);" type="submit" ref="button" :loading="saveScheduleAPICall?.pending.value">Speichern</Button>
+            <button class="new-event button" :disabled="getScheduleAPICallControll.pending.value" @click.prevent="addNewEvent()">Neuer Termin</button>
+            <Button :disabled="getScheduleAPICallControll.pending.value" style="background-color: rgb(37, 62, 254);" type="submit" ref="button" :loading="saveScheduleAPICall.pending.value">Speichern</Button>
         </div>
     
     </form>
@@ -209,6 +193,25 @@ form {
         width: calc(100% - 40px);
     }
 
+    .event-group {
+        border-radius: 20px;
+        background-color: #FFF;
+        padding: 10px;
+        display: grid;
+        gap: 10px;
+        grid-template-rows: repeat(4, min-content);
+
+        @media (min-width: 600px) {
+            grid-template-rows: none;
+            grid-template-columns: min-content min-content 4fr 6fr min-content;
+        }
+
+        &.event-group--old {
+            // filter: brightness(0.8);
+            opacity: 0.6;
+        }
+    }
+
     .notificationbox {
         position: fixed;
         bottom: 10px;
@@ -233,20 +236,6 @@ form {
         }
     }
 }
-.event-group {
-    border-radius: 20px;
-    background-color: #FFF;
-    padding: 10px;
-    display: grid;
-    gap: 10px;
-    grid-template-rows: repeat(4, auto);
-
-    @media (min-width: 600px) {
-        grid-template-rows: none;
-        grid-template-columns: min-content min-content 4fr 6fr min-content;
-        align-items: flex-end;
-    }
-}
 
 .button-group {
     display: flex;
@@ -258,10 +247,9 @@ label {
     display: block;
     color: hsl(29, 0%, 50%);
     font-size: 14px;
-    margin-left: 5px;
 }
 
-input, textarea, button {
+.textinput, textarea, .button {
     resize: none;
     display: block;
     width: 100%;
@@ -278,6 +266,7 @@ input, textarea, button {
         background-color: hsl(0, 100%, 65%);
         color: #FFFFFF;
         cursor: pointer;
+        align-self: flex-end;
     }
 
     &.confirm {
