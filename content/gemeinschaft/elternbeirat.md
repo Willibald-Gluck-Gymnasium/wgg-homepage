@@ -3,8 +3,8 @@ date: 2020-01-01
 title: Der Elternbeirat am WGG
 tags: [Gemeinschaft, Elternbeirat]
 thumbnail: 
-    src: gemeinschaft/wggHaus.jpg
-    alt: Innenansicht des WGG
+    src: elternbeirat/gruppenbild.jpg
+    alt: Gruppenbild des aktuellen Elternbeirats
 ---
 
 Im Folgenden finden sich Informationen rund um den Elternbeirat des WGG
@@ -144,15 +144,15 @@ Die aktuellen Mitglieder des Elternbeirats
         <td>
             <b>Martin Moßburger</b><br>Kasse und Buchführung
         </td>
-        <td><img width="140px" src="/images/elternbeirat/mstroeber.jpg" alt="Elternbeirat" /></td>
+        <td><img width="140px" src="/images/elternbeirat/kwolf.jpg" alt="Elternbeirat" /></td>
         <td>
-            <b>Martina Ströber</b>
+            <b>Katja Wolf <br> Schriftführerin</b>
         </td>
     </tr>
     <tr>
-        <td><img width="140px" src="/images/elternbeirat/trefz-ghassemi.jpg" alt="Elternbeirat"></td>
+        <td><img width="140px" src="/images/elternbeirat/sbuchner.jpg" alt="Elternbeirat" /></td>
         <td>
-            <b>Dr. Margit Trefz-Ghassemi</b>
+            <b>Susanne Buchner <br> Schriftführerin</b>
         </td>
         <td><img width="140px" src="/images/elternbeirat/tkinn.jpg" alt="Elternbeirat" /></td>
         <td>
@@ -160,9 +160,9 @@ Die aktuellen Mitglieder des Elternbeirats
         </td>
     </tr>
     <tr>
-        <td><img width="140px" src="/images/elternbeirat/sbuchner.jpg" alt="Elternbeirat" /></td>
+        <td><img width="140px" src="/images/elternbeirat/ahollweck.jpg" alt="Elternbeirat" /></td>
         <td>
-            <b>Susanne Buchner</b>
+            <b>Anja Hollweck</b>
         </td>
         <td><img width="140px" src="/images/elternbeirat/nfeldberger.jpg" alt="Elternbeirat" /></td>
         <td>
@@ -170,24 +170,39 @@ Die aktuellen Mitglieder des Elternbeirats
         </td>
     </tr>
     <tr>
-        <td><img width="140px" src="/images/elternbeirat/ediepenseifen.jpg" alt="Elterbeirat"></td>
+        <td><img width="140px" src="/images/elternbeirat/tpartenheimer.jpg" alt="Elternbeirat" /></td>
         <td>
-            <b>Eva Diepenseifen</b><br>
+            <b>Torsten Partenheimer</b>
         </td>
-        <td><img width="140px" src="/images/elternbeirat/cgerner.jpg" alt="Elternbeirat" /></td>
+        <td><img width="140px" src="/images/elternbeirat/awill.jpg" alt="Elternbeirat" /></td>
         <td>
-            <b>Claudia Gerner</b>
+            <b>Andrea Will</b>
         </td>
     </tr>
     <tr>
-        <td><img width="140px" src="/images/elternbeirat/fpapenburg.jpg" alt="Elternbeirat" /></td>
+        <td><img width="140px" src="/images/elternbeirat/sseifert.jpg" alt="Elternbeirat" /></td>
         <td>
-            <b>Frank Papenburg</b>
+            <b>Dr. Sibylle Seifert</b>
         </td>
-        <td><img width="140px" src="/images/elternbeirat/kwolf.jpg" alt="Elternbeirat" /></td>
+        <td><img width="140px" src="/images/elternbeirat/sschmitt.jpg" alt="Elternbeirat" /></td>
         <td>
-            <b>Katja Wolf</b>
+            <b>Sabine Schmitt <br> Beisitzerin</b>
         </td>
     </tr>
-
+    <tr>
+        <td><img width="140px" src="/images/elternbeirat/mgrote.jpg" alt="Elternbeirat" /></td>
+        <td>
+            <b>Martina Grote <br> Beisitzerin</b>
+        </td>
+        <td><img width="140px" src="/images/elternbeirat/agross.jpg" alt="Elternbeirat" /></td>
+        <td>
+            <b>Anastasia Gross <br> Beisitzerin</b>
+        </td>
+    </tr>
+    <tr>
+        <td><img width="140px" src="/images/elternbeirat/mbandele.jpg" alt="Elternbeirat" /></td>
+        <td>
+            <b>Margarete Bandele<br> Beisitzerin</b>
+        </td>
+    </tr>
 </table>
