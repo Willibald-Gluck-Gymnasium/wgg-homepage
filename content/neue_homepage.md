@@ -10,7 +10,7 @@ thumbnail:
 
 
 Sehr geehrte Besucher unserer neugestalteten Homepage,
-<img src="images/schulleitung/schiffer_klein.jpg" style="float:right; width:20%">
+<img src="images/schulleitung/Schiffer_klein.jpg" style="float:right; width:20%">
 
 nach etlichen Jahren haben wir unsere Homepage einer Auffrischung unterzogen und hoffen, dass Sie hier die wesentlichen Informationen über das Willibald-Gluck-Gymnasium Neumarkt erhalten.
 
