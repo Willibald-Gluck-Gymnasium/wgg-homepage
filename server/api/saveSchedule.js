@@ -38,6 +38,11 @@ export default defineEventHandler(async (event) => {
 
     conn.end()
 
+    function timeout(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
+    }
+    await timeout(1000)
+
     return {
       status: "success",
       data: null
