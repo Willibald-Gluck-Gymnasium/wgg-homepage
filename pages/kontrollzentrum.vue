@@ -118,19 +118,24 @@ const midnightYesterday = new Date(Date.now()).setHours(0,0,0,0)
         <div class="notificationbox">
             <div v-if="saveScheduleAPICall.error.value" class="notification error">Fehler beim Speichern: {{ saveScheduleAPICall.error }}</div>
             <div v-if="saveScheduleAPICall.data.value?.status === 'error'" class="notification error">Fehler beim Speichern: {{ saveScheduleAPICall.data.value.message }}</div>
-            <div v-if="unsavedChanges" class="notification warning">Achtung, es gibt ungespeicherte Änderungen.</div>
+            <div v-if="unsavedChanges" class="notification warning">
+                <span>Achtung, es gibt ungespeicherte Änderungen. </span>
+                <input class="submit-save-button" type="submit" value="Speichern" :disabled="getScheduleAPICallControll.pending.value || saveScheduleAPICall.pending.value">
+            </div>
         </div>
 
-        <div style="min-height: 1.5em;">
-            <div v-if="showSaved && !unsavedChanges">Gespeichert!</div>
-        </div>
-
+        
 
 
         <div class="button-group">
             <button class="new-event button" :disabled="getScheduleAPICallControll.pending.value" @click.prevent="addNewEvent()">Neuer Termin</button>
             <Button :disabled="getScheduleAPICallControll.pending.value" style="background-color: rgb(37, 62, 254);" type="submit" ref="button" :loading="saveScheduleAPICall.pending.value">Speichern</Button>
         </div>
+
+        <div style="min-height: 1.5em;">
+            <div v-if="showSaved && !unsavedChanges">Gespeichert!</div>
+        </div>
+
     
     </form>
 
@@ -186,7 +191,7 @@ form {
     max-width: 1080px;
     margin: 0 auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 20px;
 
     @media (min-width: 500px) {
@@ -232,6 +237,18 @@ form {
             &.error {
                 background-color: hsl(0, 100%, 60%);
                 color: #FFF;
+            }
+
+            .submit-save-button {
+                text-decoration: underline;
+                cursor: pointer;
+                background-color: unset;
+                color: inherit;
+                font: inherit;
+                padding: 0;
+                display: inline;
+                margin: 0;
+                border: none;
             }
         }
     }

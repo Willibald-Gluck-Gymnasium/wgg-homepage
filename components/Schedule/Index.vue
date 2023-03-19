@@ -41,7 +41,7 @@ const activeEvents = computed(() => {
 </script>
 
 <template>
-    <div class="schedule">
+    <div :class="{'schedule': true, 'loading': getScheduleAPIResponse?.pending.value}">
         <div class="spinnerbox" v-if="getScheduleAPIResponse?.pending.value">
             <LoadingSpinner class="spinner" />
         </div>
@@ -71,7 +71,11 @@ const activeEvents = computed(() => {
     gap: 10px;
     display: grid;
     grid-template-columns: 1fr;
-    min-height: 310px;
+    min-height: 50px;
+
+    &.loading {
+        min-height: 310px;
+    }
 
     @media (min-width: 700px) {
         grid-template-columns: 1fr 1fr;
