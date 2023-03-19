@@ -30,9 +30,6 @@
 html, body {
     overflow-x: hidden;
     background-color: hsl(0deg, 0%, 95%);
-}
-
-html {
     min-width: 320px;
 }
 

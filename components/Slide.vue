@@ -61,16 +61,25 @@ const props = defineProps({
     }
 
     .title {
+        overflow-wrap: break-word;
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
-        font-size: 2.5rem;
-        // font-size: 1.8rem;
+        hyphens: auto;
+        font-size: 1.8rem;
         line-height: 1.3;
         color: #FFFFFF;
         position: absolute;
         right: 20px;
         bottom: 10px;
         left: 20px;
+
+        @media (min-width: 500px) {
+            font-size: 2.1rem;
+        }
+
+        @media (min-width: 600px) {
+            font-size: 2.5rem;
+        }
     }
 }
 </style>
