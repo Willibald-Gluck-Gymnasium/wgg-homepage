@@ -1,8 +1,7 @@
 ---
 date: 2023-02-03
-title: Anmeldung am WGG
+title: Begrüßung
 tags: [Anmeldung]
-pinned: true
 thumbnail: 
     src: '/anmeldung/papierblock_stift.jpg'
     alt: 'Stockphoto eines Klebezettelblocks mit Stift obenauf.'
