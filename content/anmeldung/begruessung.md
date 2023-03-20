@@ -1,8 +1,7 @@
 ---
-date: 2023-02-03
-title: Anmeldung am WGG
+date: 2023-03-20
+title: Begrüßung
 tags: [Anmeldung]
-pinned: true
 thumbnail: 
     src: '/anmeldung/papierblock_stift.jpg'
     alt: 'Stockphoto eines Klebezettelblocks mit Stift obenauf.'
@@ -29,7 +28,7 @@ Sollten Sie sich **per Post bzw. per Einwurf der Unterlagen in unseren Briefkast
 
 Falls in Ausnahmefällen eine Online-Anmeldung über das Internet nicht möglich ist, bitten wir um telefonische Kontaktaufnahme unter 09181/4720.
 
-Der <a href="/anmeldung/probeunterricht/">**Probeunterricht**</a> findet am Dienstag, den 16. Mai, am Mittwoch, den 17. Mai und am Freitag, den 19. Mai 2023 für beide Gymnasien am **Willibald-Gluck-Gymnasium** statt. 
+Der <a href="/anmeldung/probeunterricht">**Probeunterricht**</a> findet am Dienstag, den 16. Mai, am Mittwoch, den 17. Mai und am Freitag, den 19. Mai 2023 für beide Gymnasien am **Willibald-Gluck-Gymnasium** statt. 
 
 Und wenn etwas unklar ist, können Sie uns darüber hinaus täglich außer an Wochenenden und Feiertagen bis 16.30 Uhr, freitags bis 14.00 Uhr anrufen oder uns eine Mail unter verwaltung@wgg-neumarkt.de schreiben. Auch über eine Mail Ihrer Kinder freuen wir uns jederzeit und werden sie zeitnah beantworten! Dies gilt insbesondere bei Fragen zu unserer Ganztagesklasse, unserer Forscher- und unserer Sportlerklasse. 
 

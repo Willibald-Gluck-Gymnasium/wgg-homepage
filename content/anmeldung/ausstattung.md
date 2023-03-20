@@ -112,11 +112,11 @@ table, th, td {
     </tr>
     <tr>
         <td>Kunst</td>
-        <td><a href="/documents/anmeldung/ausstattung_kunst.pdf">Ausstattung</a></td>
+        <td><a href="/documents/anmeldung/ausstattung_kunst.pdf" target="_blank">Ausstattung</a></td>
     </tr>
 </table>
 
-<a href="/documents/anmeldung/Ausstattung_Regel.pdf">Zum Download</a>
+<a href="/documents/anmeldung/Ausstattung_Regel.pdf" target = "_blank">Zum Download</a>
 
 ### Grundausstattung für die Schüler der Ganztagesklasse
 
@@ -211,8 +211,8 @@ table, th, td {
     </tr>
     <tr>
         <td>Kunst</td>
-        <td><a href="/documents/anmeldung/austattung_kunst.pdf">Ausstattung</a></td>
+        <td><a href="/documents/anmeldung/ausstattung_kunst.pdf" target = "_blank">Ausstattung</a></td>
     </tr>
 </table>
 
-<a href="/documents/anmeldung/Ausstattung_Ganz.pdf">Zum Download</a>
+<a href="/documents/anmeldung/Ausstattung_Ganz.pdf" target = "_blank">Zum Download</a>

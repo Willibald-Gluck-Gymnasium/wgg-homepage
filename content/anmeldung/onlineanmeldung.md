@@ -1,5 +1,5 @@
 ---
-date: 2023-02-03
+date: 2023-03-19
 title: Onlineanmeldung
 tags: [Anmeldung]
 thumbnail: 
@@ -27,4 +27,4 @@ uns ist bewusst, dass der Anmeldeprozess, den wir ja ansonsten an der Schule dur
 
 **Geben Sie bei der Anmeldung unbedingt Ihre Mailadresse und Ihre Telefonnummer an! Bitte achten Sie beim Ausdruck darauf, dass die Blätter nur einseitig bedruckt sind.**
 
-<a href = "http://www.schulantrag.de/?sch=0223", target = "_blank"> Anmeldung am WGG</a>
+<a href = "http://www.schulantrag.de/?sch=0223" target = "_blank"> Anmeldung am WGG</a>
