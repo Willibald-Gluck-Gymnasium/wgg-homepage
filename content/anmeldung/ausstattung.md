@@ -211,7 +211,7 @@ table, th, td {
     </tr>
     <tr>
         <td>Kunst</td>
-        <td><a href="/documents/anmeldung/austattung_kunst.pdf" target = "_blank">Ausstattung</a></td>
+        <td><a href="/documents/anmeldung/ausstattung_kunst.pdf" target = "_blank">Ausstattung</a></td>
     </tr>
 </table>
 

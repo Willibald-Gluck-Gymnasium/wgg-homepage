@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01
 title: Anmeldung am Willibald-Gluck-Gymnasium
-tags: [Gemeinschaft, Anmeldung]
+tags: [Gemeinschaft]
 thumbnail: 
     src: gemeinschaft/anmeldung.jpg
     alt: Stockphoto - Darstellung einer Klingel
