@@ -43,6 +43,4 @@ Im Mai kannst du dich bei der Einschreibung am WGG für die Sportklasse verbindl
 
 Die Sportlehrerinnen und Sportlehrer des WGG freuen sich auf dich!
 
-!["Stockphoto eines Hürdenläufers"](/images/anmeldung/sportler.jpg)
-
 Weitere Informationen: StD Jürgen Hübner, Fachbetreuer Sport
