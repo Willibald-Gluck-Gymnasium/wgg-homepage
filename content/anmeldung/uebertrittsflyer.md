@@ -11,4 +11,4 @@ Um an das Gymnasium übertreten zu können, müssen einerseits Dinge beachtet we
 
 <img src="/images/anmeldung/Uebertrittsvoraussetzungen.png" format="png" alt="Ein Foto der roten Schule von vorne">
 
-In diesem <a href="/documents/uebertritt2023.pdf">Flyer</a> sind die wichtigsten Daten und weitere Informationen zum Übertritt zusammengestellt.
+In diesem <a href="/documents/anmeldung/uebertritt2023.pdf" target="_blank">Flyer</a> sind die wichtigsten Daten und weitere Informationen zum Übertritt zusammengestellt.

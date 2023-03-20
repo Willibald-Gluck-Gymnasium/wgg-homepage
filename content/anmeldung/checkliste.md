@@ -15,7 +15,7 @@ table, th, td {
 }
 </style>
 
-**Zum Abhaken –  eine Übersicht über alle benötigten Dokumente und Formulare als** <a href = "/documents/">PDF</a>
+**Zum Abhaken –  eine Übersicht über alle benötigten Dokumente und Formulare als** <a href = "/documents/anmeldung/Zum_Abhaken.pdf" target="_blank">PDF</a>
 
 <table>
         <tr>
