@@ -1,7 +1,7 @@
 ---
 date: 2023-03-03
 title: Informationen
-tags: []
+tags: [Anmeldung]
 redirect: '/tag/Anmeldung-Informationen'
 thumbnail: 
     src: '/anmeldung/papierblock_stift.jpg'
