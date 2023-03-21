@@ -1,7 +1,7 @@
 ---
 date: 2023-02-03
 title: Sportlerklasse
-tags: [Anmeldung]
+tags: [Anmeldung-Informationen]
 thumbnail: 
     src: '/anmeldung/fussball.jpg'
     alt: 'Stockphoto von Fußballspielenden Kindern.'
@@ -24,7 +24,7 @@ thumbnail:
 - Wandertag unter sportlichem Aspekt
 - Einladung von externen Spielern und Trainern an die Schule
 - Teilname an "Jugend trainiert für Olympia"
-- Fäcgerübergreifendes Arbeiten: Bio / NT / D / E / M / etc.
+- Fächerübergreifendes Arbeiten: Bio / NT / D / E / M / etc.
 - Frühsport vor 8 Uhr (1 - 2 mal die Woche)
 
 ### Anforderungsprofil für Schüler*innen der Sportlerklasse
@@ -39,10 +39,8 @@ thumbnail:
 
 ### Wie geht es weiter?
 
-Im Mai kannst du dich bei der Einschreibung am WGG für die Sportklasse verbindlich anmelden. Vielleicht gibt es bei sehr großer Nachfrage einen kleinen, praktischen Eignungstest. Doch der dürfte für dich kein Problem sein. Hast du noch Fragen? Ruf im Sekretariat an, hinterlasse deine Telefonnummer und wir antworten dir gerne.
+Im Mai kannst du dich bei der Einschreibung am WGG für die Sportklasse verbindlich anmelden. Vielleicht gibt es bei sehr großer Nachfrage einen kleinen, praktischen Eignungstest. Doch der dürfte für dich kein Problem sein. Hast du noch Fragen? Ruf im Sekretariat an, hinterlasse deine Telefonnummer, und wir antworten dir gerne.
 
 Die Sportlehrerinnen und Sportlehrer des WGG freuen sich auf dich!
-
-!["Stockphoto eines Hürdenläufers"](/images/anmeldung/sportler.jpg)
 
 Weitere Informationen: StD Jürgen Hübner, Fachbetreuer Sport

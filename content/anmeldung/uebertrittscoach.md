@@ -1,7 +1,7 @@
 ---
 date: 2023-02-03
 title: Übertrittscoach
-tags: [Anmeldung]
+tags: [Anmeldung-Informationen]
 thumbnail: 
     src: '/anmeldung/papierblock_stift.jpg'
     alt: 'Stockphoto eines Klebezettelblocks mit Stift obenauf.'
@@ -15,6 +15,6 @@ Wenn Sie also weiteren Beratungsbedarf rund um den Übertritt an das Gymnasium h
 
 Nehmen Sie dazu bitte per E-Mail (beratung@wgg-neumarkt.de) Kontakt mit mir auf, um einen Beratungstermin zu vereinbaren.
 
-Mit freundlichen Grüßen
-Iris Herrmann
+Mit freundlichen Grüßen<br>
+Iris Herrmann<br>
 Beratungslehrkraft am Willibald-Gluck-Gymnasium

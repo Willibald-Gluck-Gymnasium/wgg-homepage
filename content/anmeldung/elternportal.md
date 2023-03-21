@@ -1,7 +1,7 @@
 ---
 date: 2023-02-03
 title: Das Elternportal
-tags: [Anmeldung]
+tags: [Anmeldung-Informationen]
 thumbnail: 
     src: '/anmeldung/papierblock_stift.jpg'
     alt: 'Stockphoto eines Klebezettelblocks mit Stift obenauf.'
@@ -13,7 +13,7 @@ seit einigen Jahren wird am Willibald-Gluck-Gymnasium das sogenannte „Infoport
 
 So können wir einerseits über diese webbasierte Software
 - Elternschreiben papierlos versenden und
-- mit Eltern in einem geschützten Bereich Kontakt aufnahmen.
+- mit Eltern in einem geschützten Bereich Kontakt aufnehmen.
 
 Besonders aber freut es uns, dass wir Ihnen mit dem Elternmodul folgende Serviceleistungen anbieten können, sie können unter anderem:
 
@@ -22,5 +22,5 @@ Besonders aber freut es uns, dass wir Ihnen mit dem Elternmodul folgende Service
 - dem Infoportal wichtige Termine Ihres Kindes bzw. der Schule entnehmen,
 - Ihr Kind vorab über das Elternmodul krank melden.
 - um Befreiungen für Ihr Kind ersuchen. 
-- mit den Fachlehrern Ihres Kindes Kontat aufnehmen.
+- mit den Fachlehrern Ihres Kindes Kontakt aufnehmen.
 - sich für Sprechstunden und den Elternsprechtag anmelden. 
