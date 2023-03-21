@@ -11,7 +11,7 @@ thumbnail:
 
 Liebe Eltern,
 
-beim Übertritt nach der Grundschule, bei Eintritt in die Einführungsklasse, nach einem Umzug und bei verschiedenen weiteren Situationen ins eine Anmeldung am Willibald-Gluck-Gymnasium möglich. Dazu ist eine Onlineanmeldung über eine externe Homepage nötig. Diese können Sie <a href="https://www.schulantrag.de/?sch=0223">hier</a> durchführen.
+beim Übertritt nach der Grundschule, bei Eintritt in die Einführungsklasse, nach einem Umzug und bei verschiedenen weiteren Situationen ins eine Anmeldung am Willibald-Gluck-Gymnasium möglich. Dazu ist eine Onlineanmeldung über eine externe Homepage nötig. Diese können Sie <a href="https://www.schulantrag.de/?sch=0223">**hier**</a> durchführen.
 
 ### Termine
 

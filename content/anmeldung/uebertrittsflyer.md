@@ -1,7 +1,7 @@
 ---
 date: 2023-02-03
 title: Übertrittsflyer
-tags: [Anmeldung]
+tags: [Anmeldung-Informationen]
 thumbnail: 
     src: '/anmeldung/papierblock_stift.jpg'
     alt: 'Stockphoto eines Klebezettelblocks mit Stift obenauf.'
