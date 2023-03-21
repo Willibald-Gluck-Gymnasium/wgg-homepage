@@ -17,6 +17,10 @@ table, th, td {
 
 **Zum Abhaken –  eine Übersicht über alle benötigten Dokumente und Formulare als** <a href = "/documents/anmeldung/Checkliste.pdf" target="_blank">PDF</a>
 
+Die Formulare 1 bis 5 werden bei der Onlineanmeldung erzeugt erzeugt, diese bitte einseitig ausdrucken!
+
+Die Formulare 6 bis 8 finden Sie verlinkt unter <a href = "anmeldung/onlineanmeldung">Onlineanmeldung</a>.
+
 <table>
         <tr>
             <td>1</td>
