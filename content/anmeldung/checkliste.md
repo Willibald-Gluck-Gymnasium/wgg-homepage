@@ -19,7 +19,7 @@ table, th, td {
 
 Die Formulare 1 bis 5 werden bei der Onlineanmeldung erzeugt erzeugt, diese bitte einseitig ausdrucken!
 
-Die Formulare 6 bis 8 finden Sie verlinkt unter <a href = "anmeldung/onlineanmeldung">Onlineanmeldung</a>.
+Die Formulare 6 bis 8 finden Sie verlinkt unter <a href = "/anmeldung/onlineanmeldung">Onlineanmeldung</a>.
 
 <table>
         <tr>
