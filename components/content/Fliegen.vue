@@ -2,14 +2,18 @@
 
 <script>
 export default {
-    props: ['fps'],
+    props: ['fps', 'december'],
     mounted() {
         document.body.onmousemove = function (e) {
             mouseX = e.clientX + window.scrollX;
             mouseY = e.clientY + window.scrollY;
         }
 
-        timeStep = 1000.0 / this.fps;
+        if (this.fps > 0.0)
+            timeStep = 1000.0 / this.fps;
+
+        isDecember = this.december;
+        if (new Date().getMonth() == 11) isDecember = true;
 
         nextLevel();
         aktiv = window.setInterval(moveAll, timeStep);
@@ -21,10 +25,13 @@ var lastIndex = 0;
 var mouseX = 0, mouseY = 0;
 var level = 0;
 
+var timeStep = 1000.0 / 50.0;
+var isDecember = false;
+
 const texturePath = "/images/wahlkurse/theHomepageGames";
-var timeStep = 1000.0 / 60.0;
-const flightbox = 300;
-const hitbox = 30;
+const escapeRange = 300;
+const hitbox = 25;
+const speed = 0.2;
 
 function Vector() {
     this.x = arguments[0];
@@ -50,7 +57,7 @@ function Vector() {
 function Fly() {
     this.index = lastIndex++;
     this.o = document.createElement("img");
-    this.o.src = texturePath + "/Fliege.png";
+    this.o.src = texturePath + (isDecember ? "/WeihnachtsFliege.png" : "/Fliege.png");
     this.o.style.position = "absolute";
     this.o.style.zIndex = "11";
     this.o.id = "fliege" + this.index;
@@ -100,7 +107,7 @@ function Fly() {
 
     this.kill = function () {
         this.dead = true;
-        this.o.src = texturePath + "/FliegeTot.png";
+        this.o.src = texturePath + (isDecember ? "/WeihnachtsFliegeTot.png" : "/FliegeTot.png");
         this.o.style.pointerEvents = "none";
 
         flies.splice((flies.indexOf(this)), 1);
@@ -110,8 +117,8 @@ function Fly() {
         if (this.dead) return;
         this.checkMouse(mouseX, mouseY);
 
-        this.vx += (Math.random() - 0.5) * t * 0.3;
-        this.vy += (Math.random() - 0.5) * t * 0.3;
+        this.vx += (Math.random() - 0.5) * t * speed;
+        this.vy += (Math.random() - 0.5) * t * speed;
         this.vx = Math.min(Math.max(this.vx, -8), 8);
         this.vy = Math.min(Math.max(this.vy, -8), 8);
 
@@ -137,7 +144,7 @@ function Fly() {
         if (this.dead) return;
         var relMausVek = new Vector(this.x - mx, this.y - my);
         var dist = relMausVek.mag();
-        if (dist < flightbox) this.flyAway(relMausVek);
+        if (dist < escapeRange) this.flyAway(relMausVek);
         if (dist < hitbox) this.kill();
         else {
             this.vx * 0.1;
@@ -162,13 +169,13 @@ function moveAll() {
     for (var i = 0; i < flies.length; i++) flies[i].move(2 * timeStep / 100);
     if (flies.length <= 0)
         nextLevel();
-    document.getElementById("fliegenanzahl").innerHTML = flies.length + " " + (flies.length > 1 ? "flies" : "fly") + " left!";
+    document.getElementById("fliegenanzahl").innerHTML = "Noch " + flies.length + " " + (isDecember ? "Weihnachts-" : "") + (flies.length > 1 ? "Fliegen" : "Fliege") + "!";
 }
 
 function nextLevel() {
     level++;
     var a = Math.min(level * level, 16777216);
-    if (level > 1) alert("Level: " + level + "\nFlies: " + a);
+    if (level > 1) alert("Level: " + level + "\nFliegen: " + a);
     spawn(a);
 }
 </script>
