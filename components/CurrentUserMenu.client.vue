@@ -20,7 +20,7 @@ if(typeof localStorage.getItem('authtoken') === 'string') {
             <div class="text">Herzlich Willkommen, <b>{{ currentUserInfo.data.value.data.user.username }}</b>.</div>
         </div>
 
-        <NuxtLink class="item" to="kontrollzentrum">
+        <NuxtLink class="item" to="/kontrollzentrum">
             <IconsSchedule class="icon"/>
             <div class="text">Termine ändern</div>
         </NuxtLink>
