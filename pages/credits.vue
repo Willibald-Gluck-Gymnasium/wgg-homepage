@@ -33,6 +33,11 @@ useHead({
             <h3>Andere Icons:</h3>
             <ul>
                 <li>Tag by Genius Icons from <a href="https://thenounproject.com/browse/icons/term/tag/" target="_blank" title="Tag Icons">Noun Project</a></li>
+                <li>User by Leapp Icon from <a href="https://thenounproject.com/browse/icons/term/user/" target="_blank" title="User Icons">Noun Project</a></li>
+                <li>logout by abdul rohman from <a href="https://thenounproject.com/browse/icons/term/logout/" target="_blank" title="logout Icons">Noun Project</a></li>
+                <li>Key by Annisa from <a href="https://thenounproject.com/browse/icons/term/key/" target="_blank" title="Key Icons">Noun Project</a></li>
+                <li>schedule by Alice Design from <a href="https://thenounproject.com/browse/icons/term/schedule/" target="_blank" title="schedule Icons">Noun Project</a></li>
+                <li>admin by The Icon Z from <a href="https://thenounproject.com/browse/icons/term/admin/" target="_blank" title="admin Icons">Noun Project</a></li>
             </ul>
         </div>
     </NuxtLayout>

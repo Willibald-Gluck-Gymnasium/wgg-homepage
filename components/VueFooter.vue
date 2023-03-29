@@ -1,3 +1,7 @@
+<script setup>
+const isUserLoggedIn = ref(process.client && typeof localStorage.getItem('authtoken') === 'string')
+</script>
+
 <template>
   <div class="footer">
     <div class="content">
@@ -27,10 +31,13 @@
         <br>
         <NuxtLink class="link" to="/archiv">Archiv</NuxtLink>
         <br>
-        <NuxtLink class="link" to="/kontrollzentrum">Kontrollzentrum</NuxtLink>
-        <br>
-        <!-- <NuxtLink class="link" :href="'/credits'">Credits</NuxtLink> -->
-        <a class="link" href="/credits">Credits</a>
+        <ClientOnly>
+          <template v-if="!isUserLoggedIn">
+            <NuxtLink class="link" to="/login" >Anmelden</NuxtLink>
+            <br>
+          </template> 
+        </ClientOnly>
+        <NuxtLink class="link" to="/credits">Credits</NuxtLink>
       </div>
     </div>
     <div class="content">

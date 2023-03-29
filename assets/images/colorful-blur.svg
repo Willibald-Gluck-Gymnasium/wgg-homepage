@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+    <defs>
+        <filter id="f1" x="0" y="0">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="110" />
+        </filter>
+        <style>
+        .a{fill:#ff881a;}.b{fill:#f4cb00;}.c{fill:#005cff;}.d{fill:#00aa10;}.e{fill:#fff;opacity:0.6; }
+        </style>
+    </defs>
+
+    <g class="group" filter="url(#f1)">
+        
+        <ellipse class="c" cx="609" cy="200" rx="620" ry="400.4"/>
+        <ellipse class="d" cx="560" cy="1000" rx="600" ry="500"/>
+        <ellipse class="a" cx="0" cy="500" rx="230" ry="690"/>
+        <ellipse class="b" cx="1100" cy="580" rx="220" ry="700"/>
+    </g>
+
+    <rect class="e" width="1080" height="1080"/>
+
+</svg>
