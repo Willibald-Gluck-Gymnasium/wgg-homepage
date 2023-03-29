@@ -5,14 +5,8 @@ useHead({
     title: 'Kontrollzentrum'
 })
 
-onMounted(async () => {
-    await nextTick()
-    if (process.client) {
-        const authToken = localStorage.getItem('authtoken')
-        if (typeof authToken !== 'string') {
-            navigateTo('/login')
-        }
-    }
+definePageMeta({
+    middleware: ["user-logged-in"]
 })
 
 const unsavedChanges = ref(false)
@@ -60,7 +54,7 @@ const saveScheduleAPICall = await useLazyAsyncData(
         onResponse({ request, response, options }) {
             if (response._data.status === 'success') {
                 unsavedChanges.value = false
-                showSaved. value = true
+                showSaved.value = true
             }
         },
     }),
@@ -76,7 +70,8 @@ const midnightYesterday = new Date(Date.now()).setHours(0,0,0,0)
 
 <template>
 <NuxtLayout>
-    <NuxtLink to="/logout" class="logout">Abmelden</NuxtLink>
+    <CurrentUserMenu style="margin-top: 20px; margin-bottom: 30px;"/>
+
     <h1>Kontrollzentrum</h1>
 
     <Schedule :events="getScheduleAPICallControll" :limit="100"></Schedule>
@@ -230,6 +225,7 @@ form {
         .notification {
             border-radius: 20px;
             padding: 15px 30px;
+            overflow-wrap: anywhere;
 
             &.warning {
                 background-color: hsl(61, 100%, 65%);

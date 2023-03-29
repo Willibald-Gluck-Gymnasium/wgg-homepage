@@ -13,6 +13,14 @@ export default defineNuxtConfig({
     '@nuxt/image-edge',
   ],
 
+  routeRules: {
+    '/admin/**': { ssr: false },
+    '/kontrollzentrum': { ssr: false },
+    '/neuespasswort': { ssr: false },
+    '/neuespasswort/**': { ssr: false },
+
+  },
+  
   runtimeConfig: {
     // Private keys are only available on the server 
     JWTSecret: '', // NUXT_JWT_SECRET
