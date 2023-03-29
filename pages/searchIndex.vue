@@ -1,13 +1,12 @@
 <script setup>
 
+import { createHash } from 'crypto'
+import MeiliSearch from 'meilisearch'
+
 if (process.server) {
 
     try {
         
-        const { createHash } = require('crypto');
-        const { MeiliSearch } = require('meilisearch')
-
-
         const renderContent = (node) => {
             let text = ''
 
