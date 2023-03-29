@@ -1,13 +1,18 @@
 <script setup>
 import readingTime from 'reading-time/lib/reading-time.js'
 
-const meta = await queryContent().where({ _path: useRoute().path }).only(['title', 'author', 'category', 'tags', 'redirect', 'expireOn']).findOne()
+let meta = (await queryContent().where({ _path: useRoute().path }).only(['title', 'author', 'category', 'tags', 'redirect', 'expireOn']).find())[0]
+
+if (typeof meta !== 'object') {
+    throw createError({ statusCode: 404, statusMessage: 'Page Not Found', fatal: true })
+}
+
 
 if ('redirect' in meta) {
     await navigateTo(meta.redirect, { replace: true, external: true })
 }
 
-const category = meta.tags?.[0] || 'Allgemein'
+const category = meta?.tags?.[0] || 'Allgemein'
 
 const article = ref(null)
 
