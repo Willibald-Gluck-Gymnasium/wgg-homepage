@@ -13,6 +13,10 @@ export default defineNuxtConfig({
     '@nuxt/image-edge',
   ],
 
+  experimental: {
+    componentIslands: true
+  },
+
   routeRules: {
     '/admin/**': { ssr: false },
     '/kontrollzentrum': { ssr: false },
