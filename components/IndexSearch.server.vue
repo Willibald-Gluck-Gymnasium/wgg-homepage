@@ -1,7 +1,7 @@
 <script setup>
 
-import { createHash } from 'crypto'
-import MeiliSearch from 'meilisearch'
+import crypto from 'crypto'
+import { MeiliSearch } from 'meilisearch'
 
 if (process.server) {
 
@@ -29,7 +29,7 @@ if (process.server) {
         
         articles = articles.map((article) => {
             return {
-                id: createHash('sha1').update(article._path).digest('base64url'),
+                id: crypto.createHash('sha1').update(article._path).digest('base64url'),
                 title: article.title,
                 _path: article._path,
                 thumbnail: article.thumbnail,
