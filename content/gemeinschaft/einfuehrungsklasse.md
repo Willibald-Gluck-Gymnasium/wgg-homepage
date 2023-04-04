@@ -2,7 +2,7 @@
 date: 2020-01-01
 title: Einführungsklasse am WGG
 pinned: true
-tags: [Gemeinschaft]
+tags: [Gemeinschaft, Schulprofil]
 thumbnail: 
     src: gemeinschaft/einfuehrungsklasse_wgg.jpg
     alt: Bidliche Darstellung des Wegs zum Abitur auch von anderen Schulformen aus via dem WGG.

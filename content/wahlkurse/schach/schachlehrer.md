@@ -1,5 +1,5 @@
 ---
-date: 2020.01.01
+date: 2020-01-01
 title: Bayerischer Schachlehrer 2015
 tags: [Schach]
 thumbnail: 

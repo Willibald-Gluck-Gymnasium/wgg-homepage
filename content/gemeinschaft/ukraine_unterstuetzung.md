@@ -1,5 +1,6 @@
 ---
 date: 2020-01-01
+expireOn: 2023-12-31
 title: Die Ukraine unterstützen - mit Brezen und Kuchen
 tags: [Alle Projekte, Übergreifendes, Gemeinschaft]
 thumbnail: 

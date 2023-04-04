@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01
 title: Unser Hausmeister
-tags: [Gemeinschaft]
+tags: [Gemeinschaft, Schulteam]
 thumbnail: 
     src: gemeinschaft/hausmeister_lang.jpg
     alt: Bild von unserem Hausmeister Herr Lang

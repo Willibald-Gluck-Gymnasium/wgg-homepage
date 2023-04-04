@@ -1,5 +1,6 @@
 ---
 date: 2022-01-01
+expireOn: 2023-12-31
 title: Exkursion zum "Haus am Habsberg"
 tags: [Geographie, Unterricht]
 thumbnail: 

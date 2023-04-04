@@ -1,5 +1,6 @@
 ---
 date: 2020-01-01
+expireOn: 2022-12-31
 title: Geburtstag Willibald Glucks
 tags: [Gemeinschaft, Archiv]
 thumbnail: 

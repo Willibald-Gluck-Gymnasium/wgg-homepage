@@ -1,5 +1,6 @@
 ---
 date: 2020-01-01
+expireOn: 2022-12-31
 title: Energievision 2050 am WGG
 tags: [Archiv]
 thumbnail: 

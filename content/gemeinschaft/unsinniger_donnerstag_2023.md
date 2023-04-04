@@ -1,6 +1,6 @@
 ---
 date: 2023-02-16
-expireOn: 2023-12-31
+expireOn: 2024-02-16
 title: Unsinniger Donnerstag 2023
 tags: [Events]
 thumbnail: 

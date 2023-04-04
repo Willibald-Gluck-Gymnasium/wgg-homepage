@@ -1,5 +1,6 @@
 ---
 date: 2020-01-01
+expireOn: 2022-12-31
 title: Schüler und Schülerinnen des WGG setzen Zeichen des Zuammenhalts
 tags: [Gemeinschaft, Archiv]
 thumbnail: 
