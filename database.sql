@@ -45,8 +45,8 @@ INSERT INTO `eventdatajson` (`eventdata`) VALUES
 --
 
 CREATE TABLE `user` (
-  `id` int(10) UNSIGNED NOT NULL,
-  `username` varchar(255) NOT NULL,
+  `id` int(10) UNSIGNED NOT NULL UNIQUE AUTO_INCREMENT,
+  `username` varchar(255) NOT NULL UNIQUE,
   `hash` varchar(255) NOT NULL,
   `superadmin` tinyint(1) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

@@ -70,6 +70,8 @@ useHead({
 
         <slideshow :slides="slides"></slideshow>
 
+        <CurrentUserMenu style="margin-top: 20px; margin-bottom: 30px;"/>
+
         <template v-if="highlightedArticlesCards.length > 0">
             <h1>Highlights</h1>
 

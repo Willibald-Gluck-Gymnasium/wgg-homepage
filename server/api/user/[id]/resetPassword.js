@@ -6,24 +6,13 @@ import bcrypt from 'bcrypt'
 export default defineEventHandler(async (event) => {
 
   try {
-
-    const body = await readBody(event)
-
     if (event.context.auth?.user?.superadmin !== 1) {
-      throw new Error("You do not have the necessary rights to create a new user.")
-    }
-    
-    if (body.user?.username == undefined) {
-      throw new Error('Body has to have user object user: { username }.')
+      throw new Error("You do not have the necessary rights to reset a password.")
     }
 
-
-    const username = body.user.username
-    const superadmin = body.user.superadmin || 'false'
+    const userID = event.context.params.id
 
     const password = crypto.randomBytes(6).toString('base64')
-
-
     const hash = await bcrypt.hash(password, 10)
 
     const config = useRuntimeConfig()
@@ -35,32 +24,26 @@ export default defineEventHandler(async (event) => {
       password: config.MariaDBPassword,
       port: config.MariaDBPort
     })
-
-    const superadminInt = (() => { 
-      if (superadmin === true) {
-        return 1
-      }
-      return 0
-    })()
     
-    const res = await conn.query("INSERT INTO `user` (`username`, `hash`, `superadmin`) VALUES (?, ?, ?)", [username, hash, superadminInt])
+    const res = await conn.query("UPDATE user SET hash = ? WHERE id = ?", [hash, userID])
+    
+    if (res.affectedRows !== 1) {
+      throw new Error("Password wasn't resetted")
+    }
 
     conn.end()
 
     return {
       status: "success",
       data: {
-        password: password
+        newpassword: password
       }
     }
-    
   } catch (error) {
     return {
       status: "error",
       message: `${error.name}: ${error.message}`,
     }
   }
-
-  
 
 });
