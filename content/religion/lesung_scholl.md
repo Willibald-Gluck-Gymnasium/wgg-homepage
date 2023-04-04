@@ -1,5 +1,6 @@
 ---
 date: 2020-01-01
+expireOn: 2023-12-31
 title: Lesung der Sophie Scholl Biographie
 tags: [Religion, Unterricht, Alle Projekte]
 thumbnail: 

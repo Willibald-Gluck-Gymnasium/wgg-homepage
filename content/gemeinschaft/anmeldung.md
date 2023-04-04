@@ -1,5 +1,6 @@
 ---
 date: 2020-01-01
+hidden: true
 title: Anmeldung am Willibald-Gluck-Gymnasium
 tags: [Gemeinschaft]
 thumbnail: 

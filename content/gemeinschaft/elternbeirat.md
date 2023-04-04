@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01
 title: Der Elternbeirat am WGG
-tags: [Gemeinschaft, Elternbeirat]
+tags: [Schulteam, Gemeinschaft, Elternbeirat]
 thumbnail: 
     src: elternbeirat/gruppenbild.jpg
     alt: Gruppenbild des aktuellen Elternbeirats
