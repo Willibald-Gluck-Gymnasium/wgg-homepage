@@ -1,5 +1,6 @@
 ---
 date: 2022-01-01
+expireOn: 2022-12-31
 title: Diercke Wissen 2022
 tags: [Geographie, Unterricht]
 thumbnail: 

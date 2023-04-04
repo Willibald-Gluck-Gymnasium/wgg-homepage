@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01
 title: Die Bibliothek am WGG
-tags: [Gemeinschaft, Bibliothek]
+tags: [Schulteam, Bibliothek]
 thumbnail: 
     src: gemeinschaft/blomenhofer_bib.jpg
     alt: Bibliothekarin Frau Blomenhofer bei der Arbeit am PC.

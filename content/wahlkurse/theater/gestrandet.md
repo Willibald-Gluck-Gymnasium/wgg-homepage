@@ -1,5 +1,6 @@
 ---
-date: 2020.01.01
+date: 2020-01-01
+expireOn: 2022-12-31
 title: Gestrandet - Aufführung 2018
 tags: [Wahlkurse, Unterricht]
 thumbnail: 

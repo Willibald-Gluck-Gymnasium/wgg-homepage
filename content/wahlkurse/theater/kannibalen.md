@@ -1,5 +1,6 @@
 ---
-date: 2020.01.01
+date: 2020-01-01
+expireOn: 2022-12-31
 title: Unter Kannibalen - Aufführung 2016
 tags: [Wahlkurse, Unterricht]
 thumbnail: 

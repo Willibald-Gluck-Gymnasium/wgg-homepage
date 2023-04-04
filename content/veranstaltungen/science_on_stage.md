@@ -1,6 +1,7 @@
 ---
 date: 2020-01-01
 title: Science on Stage
+expireOn: 2022-12-31
 tags: [Archiv, Science on Stage]
 thumbnail: 
     src: 'veranstaltungen/ScienceonStage19_01.jpg'
