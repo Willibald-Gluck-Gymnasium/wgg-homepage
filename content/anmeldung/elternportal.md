@@ -15,7 +15,7 @@ So können wir einerseits über diese webbasierte Software
 - Elternschreiben papierlos versenden und
 - mit Eltern in einem geschützten Bereich Kontakt aufnehmen.
 
-Besonders aber freut es uns, dass wir Ihnen mit dem Elternmodul folgende Serviceleistungen anbieten können, sie können unter anderem:
+Besonders aber freut es uns, dass wir Ihnen mit dem Elternmodul folgende Serviceleistungen anbieten können, Sie können unter anderem:
 
 - den Stundenplan und den Schulaufgabenplan Ihres Kindes einsehen,
 - den Vertretungsplan Ihres Kindes für den folgenden Tag einsehen,
