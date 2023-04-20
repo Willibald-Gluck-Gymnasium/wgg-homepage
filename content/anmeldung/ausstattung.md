@@ -60,7 +60,7 @@ table, th, td {
         <td>Englisch</td>
         <td>
             <ul>
-                <li>zwei Hefte DIN A4 liniert mit einem breiten weißem Rand</li>
+                <li>zwei Hefte DIN A4 liniert mit einem breiten weißen Rand</li>
             </ul>
         </td>
     </tr>
@@ -159,7 +159,7 @@ table, th, td {
         <td>Englisch</td>
         <td>
             <ul>
-                <li>zwei Hefte DIN A4 liniert mit einem breiten weißem Rand</li>
+                <li>zwei Hefte DIN A4 liniert mit einem breiten weißen Rand</li>
             </ul>
         </td>
     </tr>
