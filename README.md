@@ -77,6 +77,12 @@ thumbnail:
 <img src="/images/schule.jpg" format="png" alt="Ein Foto der roten Schule von vorne">
 ```
 
+#### As a gallery
+Importent: please note that the images have to be seperated with a ',' and not a ', '
+```html
+<gallery images="/images/iamge1.jpg,/images/image2.jpg,/images/image3.jpg"></gallery>
+```
+
 ### Other options
 ```html
 <img src="src" alt="alt" width="width" height="height" format="format" preset="preset">
