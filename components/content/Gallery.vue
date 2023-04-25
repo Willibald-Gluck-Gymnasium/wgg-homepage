@@ -30,7 +30,7 @@ export default {
         '<img src="' + this.imagesA[this.i] + '"alt="">';
     },
     changetoleft() {
-      if (this.i > 1) {
+      if (this.i > 0) {
         this.i--;
       } else {
         this.i = this.imagesA.length - 1;
