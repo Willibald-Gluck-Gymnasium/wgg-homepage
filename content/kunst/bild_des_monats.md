@@ -7,5 +7,4 @@ thumbnail:
     alt: Das aktuelle Bild des Monats
 ---
 <p>Die Fachschaft Kunst wählt jeden Monat ein neues Schülerbild zum "Bild des Monats"</p>
-
-<img src="/images/kunst/bild_des_monats.jpg"></img>
+<gallery images="/images/kunst/bild_des_monats/april23_max_werner.jpg,/images/kunst/bild_des_monats/april23_raya_dobreva.jpg" captions="Max Werner,Raya Dobreva"></gallery>
