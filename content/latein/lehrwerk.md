@@ -9,18 +9,7 @@ thumbnail:
 
 <h2>Unser Lehrwerk: <strong>Adeamus! Ausgabe C<strong></h2>
 
-<gallery title="Übungshefte">  <!-- ich hoffe auf eine Gallerie-->
-<figure>
-    <v-image name="latubh1"></v-image>
-</figure>
-<figure>
-    <v-image name="latubh2"></v-image>
-</figure>
-<figure>
-    <v-image name="latubh3"></v-image>
-</figure>
-    
-</gallery>
+<gallery images="/images/latein/latubh1.jpg,/images/latein/latubh2.jpg,/images/latein/latubh3.jpg"></gallery>
 
 <p>
 zum Lehrwerk vorhandenes Übungsmaterial:
