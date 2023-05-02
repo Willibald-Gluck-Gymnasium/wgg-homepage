@@ -1,12 +1,19 @@
 <template>
-  <div ref="imagecon"></div>
-  <div style="text-align: center">
-    <button @click="changetoleft" class="button-36" role="button" width="50%">
-      &lt
-    </button>
-    <button @click="changetoright" class="button-36" role="button" width="50%">
-      &gt
-    </button>
+  <div margin-top="2rem" margin-bottom="2rem">
+    <div ref="imagecon"></div>
+    <div style="text-align: center">
+      <button @click="changetoleft" class="button-36" role="button" width="50%">
+        &lt
+      </button>
+      <button
+        @click="changetoright"
+        class="button-36"
+        role="button"
+        width="50%"
+      >
+        &gt
+      </button>
+    </div>
   </div>
 </template>
 
