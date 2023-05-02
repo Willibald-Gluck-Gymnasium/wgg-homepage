@@ -30,6 +30,10 @@ Der <a href="/anmeldung/probeunterricht">**Probeunterricht**</a> findet am Diens
 
 Und wenn etwas unklar ist, können Sie uns darüber hinaus täglich außer an Wochenenden und Feiertagen bis 16.30 Uhr, freitags bis 14.00 Uhr anrufen oder uns eine Mail unter verwaltung@wgg-neumarkt.de schreiben. Auch über eine Mail Ihrer Kinder freuen wir uns jederzeit und werden sie zeitnah beantworten! Dies gilt insbesondere bei Fragen zu unserer Ganztagesklasse, unserer Forscher- und unserer Sportlerklasse. 
 
+Zusätzlich hätten wir noch eine kleine Bitte an Sie. Personalrat und Schulleitung haben zusammen einen Fragebogen erstellt, mit dem wir eine Rückmeldung zur Qualität und zum Format des Tages der offenen Tür einholen möchten. Wir wären Ihnen sehr dankbar, wenn Sie die Vorlage ausdrucken und ausgefüllt den weiteren Unterlagen hinzufügen würden. Bitte füllen Sie die entsprechenden Fragen auch aus, wenn Sie nicht am Tag der offenen Tür waren. Vielen herzlichen Dank.
+
+Den Link zum Fragebogen finden Sie <a href = "/documents/anmeldung/fragebogen_willkommen.pdf" target = "_blank"> hier </a>.
+
 Und nun freuen wir uns auf euch, liebe Schülerinnen und Schüler, und darauf, zum Schuljahresbeginn 2023/24 euch und natürlich Ihnen, sehr geehrte Eltern, einen schönen Empfang bei uns bereiten zu können. 
 
 Mit herzlichen Grüßen aus dem WGG
