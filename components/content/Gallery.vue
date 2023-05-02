@@ -12,11 +12,12 @@
 
 <script>
 export default {
-  props: ["images"],
+  props: ["images", "captions"],
   data() {
     return {
       i: 0,
       imagesA: [],
+      captionsA: [],
     };
   },
   methods: {
@@ -26,8 +27,17 @@ export default {
       } else {
         this.i = 0;
       }
-      this.$refs.imagecon.innerHTML =
-        '<img src="' + this.imagesA[this.i] + '"alt="">';
+      if (!this.captions) {
+        this.$refs.imagecon.innerHTML =
+          '<img src="' + this.imagesA[this.i] + '" alt = "">';
+      } else {
+        this.$refs.imagecon.innerHTML =
+          '<figure><img src="' +
+          this.imagesA[this.i] +
+          '" alt=""><figcaption>' +
+          this.captionsA[this.i] +
+          "</figcaption></figure>";
+      }
     },
     changetoleft() {
       if (this.i > 0) {
@@ -35,8 +45,17 @@ export default {
       } else {
         this.i = this.imagesA.length - 1;
       }
-      this.$refs.imagecon.innerHTML =
-        '<img src="' + this.imagesA[this.i] + '" alt = "">';
+      if (!this.captions) {
+        this.$refs.imagecon.innerHTML =
+          '<img src="' + this.imagesA[this.i] + '" alt = "">';
+      } else {
+        this.$refs.imagecon.innerHTML =
+          '<figure><img src="' +
+          this.imagesA[this.i] +
+          '" alt=""><figcaption>' +
+          this.captionsA[this.i] +
+          "</figcaption></figure>";
+      }
     },
     returnhello: function () {
       alert("hello");
@@ -47,8 +66,22 @@ export default {
   },
   mounted() {
     this.imagesA = this.images.split(",");
-    this.$refs.imagecon.innerHTML =
-      '<img src="' + this.imagesA[0] + '" alt="">';
+    if (!this.captions) {
+      this.$refs.imagecon.innerHTML =
+        '<img src="' + this.imagesA[0] + '" alt="">';
+    } else {
+      this.captionsA = this.captions.split(",");
+      if (this.imagesA.length == this.captionsA.length) {
+        this.$refs.imagecon.innerHTML =
+          '<figure><img src="' +
+          this.imagesA[0] +
+          '" alt=""><figcaption>' +
+          this.captionsA[0] +
+          "</figcaption></figure>";
+      } else {
+        allert("ANZAHL DER BILDER UND CAPTIONS STIMMT NICHT ÜBEREIN!!!");
+      }
+    }
   },
 };
 </script>
