@@ -16,6 +16,13 @@ der anzustrebenden Abschlüsse wie auch bei Lern- und Leistungsschwierigkeiten u
 
 Um eine möglichst schnelle Kontaktaufnahme mit den Beratungsfachkräften zu ermöglichen, schreiben Sie bitte eine kurze Email mit Ihrem Anliegen an Frau Herrmann (beratung@wgg-neumarkt.de) oder Frau Kribbel (schulpsychologie@wgg-neumarkt.de).
 
+Eine Telefon-Sprechstunde findet im folgenden Zeitraum statt:
+
+**Donnerstags 10:30-11:15**  
+
+**Frau Herrmann: 09181 472131** <br>
+**Frau Kribbel: 09181 472135**
+
 Die Beratungslehrerin und die Schulpsychologin unterliegen der Schweigepflicht, es sei denn, es liegt eine Gefährdung der eigenen oder anderer Personen vor.
 
 Sie beraten bei
