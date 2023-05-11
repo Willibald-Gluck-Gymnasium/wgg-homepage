@@ -1,11 +1,12 @@
 ---
 date: 2023-05-10
 expireOn: 2024-12-31
+pinned: true
 title: Ehemaligentreffen WGG
 tags: [Events]
 thumbnail: 
-    src: '/anmeldung/papierblock_stift.jpg'
-    alt: 'Stockphoto eines Klebezettelblocks mit Stift obenauf.'
+    src: '/veranstaltungen/stockphoto_treffen.jpg'
+    alt: 'Stockphoto von personen bei einem Treffen außen - Bild von Maira Ali'
 ---
 
 Liebe ehemalige Schüler:innen des WGG,
@@ -19,6 +20,7 @@ Die Einladung richtet sich an alle Abiturjahrgänge bis zum Abschlussjahr 2022, 
 **Ab wann kann man sich anmelden?**
 
 Die Anmeldung kann ab Erhalt dieser Einladung bis zum 30.06.2023 erfolgen.
+
 
 **Wie kann man sich anmelden?**
 
