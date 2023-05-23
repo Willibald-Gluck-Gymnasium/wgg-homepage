@@ -20,7 +20,6 @@ export default defineEventHandler(async (event) => {
   if (typeof events !== 'object') {
     events = JSON.parse(events)
   }
-  
 
   return {
     status: "success",

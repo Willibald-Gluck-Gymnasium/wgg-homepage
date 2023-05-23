@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01
 title: Die Oberstufe am WGG
-tags: [Gemeinschaft]
+tags: [Gemeinschaft, Schulteam]
 thumbnail: 
     src: buecher_apfel.jpg
     alt: Bild eines Apfels auf einem Stapel Bücher

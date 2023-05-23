@@ -1,8 +1,8 @@
 ---
 date: 2023-02-03
-title: Checkliste
-tags: [Anmeldung]
-redirect: '/tag/Wahlkurs'
+title: Wahlkurse
+tags: [Anmeldung-Informationen]
+redirect: '/tag/Wahlkurse'
 thumbnail: 
     src: '/anmeldung/papierblock_stift.jpg'
     alt: 'Stockphoto eines Klebezettelblocks mit Stift obenauf.'

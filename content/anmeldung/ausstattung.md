@@ -1,7 +1,7 @@
 ---
 date: 2023-03-02
 title: Ausstattung 5. Klasse
-tags: [Anmeldung]
+tags: [Anmeldung-Informationen]
 thumbnail: 
     src: '/anmeldung/buechertasche.jpg'
     alt: 'Stockphoto einer Büchertasche vor einer blauen Wand.'
@@ -60,7 +60,7 @@ table, th, td {
         <td>Englisch</td>
         <td>
             <ul>
-                <li>zwei Hefte DIN A4 liniert mit einem breiten weißem Rand</li>
+                <li>zwei Hefte DIN A4 liniert mit einem breiten weißen Rand</li>
             </ul>
         </td>
     </tr>
@@ -112,11 +112,11 @@ table, th, td {
     </tr>
     <tr>
         <td>Kunst</td>
-        <td><a href="/documents/anmeldung/ausstattung_kunst.pdf">Ausstattung</a></td>
+        <td><a href="/documents/anmeldung/ausstattung_kunst.pdf" target="_blank">Ausstattung</a></td>
     </tr>
 </table>
 
-<a href="/documents/anmeldung/Ausstattung_Regel.pdf">Zum Download</a>
+<a href="/documents/anmeldung/Ausstattung_Regel.pdf" target = "_blank">Zum Download</a>
 
 ### Grundausstattung für die Schüler der Ganztagesklasse
 
@@ -159,7 +159,7 @@ table, th, td {
         <td>Englisch</td>
         <td>
             <ul>
-                <li>zwei Hefte DIN A4 liniert mit einem breiten weißem Rand</li>
+                <li>zwei Hefte DIN A4 liniert mit einem breiten weißen Rand</li>
             </ul>
         </td>
     </tr>
@@ -211,8 +211,8 @@ table, th, td {
     </tr>
     <tr>
         <td>Kunst</td>
-        <td><a href="/documents/anmeldung/austattung_kunst.pdf">Ausstattung</a></td>
+        <td><a href="/documents/anmeldung/ausstattung_kunst.pdf" target = "_blank">Ausstattung</a></td>
     </tr>
 </table>
 
-<a href="/documents/anmeldung/Ausstattung_Ganz.pdf">Zum Download</a>
+<a href="/documents/anmeldung/Ausstattung_Ganz.pdf" target = "_blank">Zum Download</a>

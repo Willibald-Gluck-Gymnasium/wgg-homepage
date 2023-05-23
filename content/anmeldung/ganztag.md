@@ -1,7 +1,7 @@
 ---
 date: 2023-02-03
 title: Die Ganztagesklasse
-tags: [Anmeldung]
+tags: [Anmeldung-Informationen]
 thumbnail: 
     src: '/anmeldung/papierblock_stift.jpg'
     alt: 'Stockphoto eines Klebezettelblocks mit Stift obenauf.'
@@ -21,4 +21,4 @@ Die Ganztagsschule stellt ein freiwilliges Angebot des WGG dar. Über die Aufnah
 
 Gerne informieren wir Sie ausführlich über unser Ganztageskonzept, die Rahmenbedingungen und weitere Fragen. Wenden Sie sich hierzu bitte **telefonisch (09181-4720) oder per E-Mail (m.sachs@wgg-neumarkt.de)** an Herrn Martin Sachs, dem Koordinator der Ganztagesklassen am WGG. Bei dieser Gelegenheit können Sie auch gerne individuelle Videokonferenztermine mit ihm vereinbaren.
 
-Anmeldeschluss für den Antrag zur Aufnahme in die gebundene Ganztagsklasse ist **Freitag, der 12.Mai 2022**.
+Anmeldeschluss für den Antrag zur Aufnahme in die gebundene Ganztagsklasse ist **Freitag, der 12. Mai 2023**.

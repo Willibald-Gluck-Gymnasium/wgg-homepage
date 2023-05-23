@@ -1,5 +1,6 @@
 ---
 date: 2021-08-10
+expireOn: 2023-12-31
 title: Geologie und Tourismus in den Alpen
 tags: [Geographie, Unterricht]
 thumbnail: 

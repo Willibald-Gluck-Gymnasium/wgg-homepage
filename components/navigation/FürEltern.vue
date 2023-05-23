@@ -1,7 +1,9 @@
 <template>
     <div class="container">
 
-        <NavigationMenuItem @click="emit('closeNavMenu')" v-for="menuItem in menuItems" :text="menuItem.text"/>
+        <NavigationMenuItem element="h4" @click="emit('closeNavMenu')" text="Überblick" :link="`/tag/${combineAllMenuItems(menuItems, ['Für Eltern'])}`"/>
+
+        <NavigationMenuItem @click="emit('closeNavMenu')" v-for="menuItem in menuItems" :link="menuItem.link || `/tag/${menuItem.text}`" :text="menuItem.text"/>
 
     </div>
 </template>
@@ -15,10 +17,20 @@ const menuItems = [
     { text: "Downloads" },
     { text: "Infoportal" },
     { text: "Bücher" },
-    { text: "Busse" }
+    { text: "Busse", link: "/tag/Busse" }
 ]
 
+function combineAllMenuItems(menuItems, additionalTags) {
+    const tags = []
 
+    tags.push(...additionalTags)
+
+    tags.push(...menuItems.map(menuItem => {
+        return menuItem.text
+    }))
+
+    return tags.join('+')
+}
 </script>
 
 <style lang="scss" scoped>

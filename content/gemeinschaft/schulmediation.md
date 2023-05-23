@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01
 title: MZM Schulmediation
-tags: [Gemeinschaft, Beratung]
+tags: [Gemeinschaft, Beratung, Schulteam]
 thumbnail: 
     src: gemeinschaft/schulmediation2.jpg
     alt: Logo der Schulmediation

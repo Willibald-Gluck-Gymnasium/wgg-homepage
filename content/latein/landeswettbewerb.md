@@ -1,5 +1,6 @@
 ---
 date: 2020-01-01
+expireOn: 2022-12-31
 title: Landeswettbewerb Latein 2019
 tags: [Unterricht, Archiv]
 thumbnail:

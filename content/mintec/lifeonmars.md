@@ -1,5 +1,6 @@
 ---
 date: 2020-01-01
+expireOn: 2024-12-31
 title: FIND LIFE ON MARS
 tags: [Naturwissenschaften, MintEC, Alle Projekte]
 thumbnail: 

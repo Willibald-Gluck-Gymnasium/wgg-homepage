@@ -14,20 +14,19 @@
                 ></Slide>
             </div>
 
-            <svg
+            <button 
+                v-if="slider"
                 @click="slider.prev()"
                 :class="{
                     arrow: true,
                     'arrow--left': true,
-                    'arrow--disabled': current === 0,
+                    'arrow--disabled': current === slider.track.details.slides.length - 1,
                 }"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
             >
-                <path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"></path>
-            </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"></path></svg>
+            </button>
 
-            <svg
+            <button 
                 v-if="slider"
                 @click="slider.next()"
                 :class="{
@@ -35,11 +34,9 @@
                     'arrow--right': true,
                     'arrow--disabled': current === slider.track.details.slides.length - 1,
                 }"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
             >
-                <path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"></path>
-            </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"></path></svg>
+            </button>
 
         </div>
         <div class="dots">
@@ -140,14 +137,45 @@ const dotHelper = computed(() => slider.value ? [...Array(slider.value.track.det
     background: #000;
 }
 .arrow {
-    width: 30px;
-    height: 30px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    fill: #fff;
+    border: none;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    padding: 7px;
     cursor: pointer;
+    transition: all 100ms;
+    fill: #FFFFFF;
+
+    @at-root html.backdropfilter & {
+        // fill: #000000;
+        background-color: transparent;
+        backdrop-filter: blur(10px) saturate(180%) brightness(0.7);
+    }
+
+    &:active {
+        transform: translateY(-50%) scale(0.95);
+    }
+
+    svg {
+        fill: inherit;
+        width: 100%;
+        height: 100%;
+    }
+
+    &.arrow--left {
+        svg {
+            transform: translateX(-2px);
+        }
+    }
+    &.arrow--right {
+        svg {
+            transform: translateX(2px);
+        }
+    }
 }
 
 $arrow-screen-padding: 10px;

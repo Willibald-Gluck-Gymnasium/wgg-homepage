@@ -1,7 +1,8 @@
 ---
 date: 2020-01-01
+hidden: true
 title: Anmeldung am Willibald-Gluck-Gymnasium
-tags: [Gemeinschaft, Anmeldung]
+tags: [Gemeinschaft]
 thumbnail: 
     src: gemeinschaft/anmeldung.jpg
     alt: Stockphoto - Darstellung einer Klingel
@@ -11,7 +12,7 @@ thumbnail:
 
 Liebe Eltern,
 
-beim Übertritt nach der Grundschule, bei Eintritt in die Einführungsklasse, nach einem Umzug und bei verschiedenen weiteren Situationen ins eine Anmeldung am Willibald-Gluck-Gymnasium möglich. Dazu ist eine Onlineanmeldung über eine externe Homepage nötig. Diese können Sie <a href="https://www.schulantrag.de/?sch=0223">hier</a> durchführen.
+beim Übertritt nach der Grundschule, bei Eintritt in die Einführungsklasse, nach einem Umzug und bei verschiedenen weiteren Situationen ins eine Anmeldung am Willibald-Gluck-Gymnasium möglich. Dazu ist eine Onlineanmeldung über eine externe Homepage nötig. Diese können Sie <a href="https://www.schulantrag.de/?sch=0223">**hier**</a> durchführen.
 
 ### Termine
 

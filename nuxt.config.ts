@@ -13,6 +13,18 @@ export default defineNuxtConfig({
     '@nuxt/image-edge',
   ],
 
+  experimental: {
+    componentIslands: true
+  },
+
+  routeRules: {
+    '/admin/**': { ssr: false },
+    '/kontrollzentrum': { ssr: false },
+    '/neuespasswort': { ssr: false },
+    '/neuespasswort/**': { ssr: false },
+
+  },
+  
   runtimeConfig: {
     // Private keys are only available on the server 
     JWTSecret: '', // NUXT_JWT_SECRET
@@ -22,12 +34,12 @@ export default defineNuxtConfig({
     MariaDBPassword: '',
     MariaDBPort: '3306',
     meiliAdminKey: '', // NUXT_MEILI_ADMIN_KEY
+    meiliIndexUID: 'articles', // NUXT_MEILI_INDEX_UID
+    meiliURL: '', // NUXT_MEILI_URL
+    meiliSearchKey: '' // NUXT_MEILI_SEARCH_KEY
 
     // Public keys that are exposed to the client 
-    public: {
-      meiliURL: '', // NUXT_PUBLIC_MEILI_URL
-      meiliSearchKey: '' // NUXT_PUBLIC_MEILI_SEARCH_KEY
-    }
+    // public: {}
   },
 
   content: {

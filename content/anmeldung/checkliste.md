@@ -1,7 +1,7 @@
 ---
 date: 2023-02-03
 title: Checkliste
-tags: [Anmeldung]
+tags: [Anmeldung-Informationen]
 thumbnail: 
     src: '/anmeldung/papierblock_stift.jpg'
     alt: 'Stockphoto eines Klebezettelblocks mit Stift obenauf.'
@@ -15,51 +15,51 @@ table, th, td {
 }
 </style>
 
-**Zum Abhaken –  eine Übersicht über alle benötigten Dokumente und Formulare als** <a href = "/documents/">PDF</a>
+**Zum Abhaken –  eine Übersicht über alle benötigten Dokumente und Formulare als** <a href = "/documents/anmeldung/Checkliste.pdf" target="_blank">PDF</a>
+
+Die Formulare 1 bis 5 werden bei der Onlineanmeldung erzeugt erzeugt, diese bitte einseitig ausdrucken!
+
+Die Formulare 6 bis 8 finden Sie verlinkt unter <a href = "/anmeldung/onlineanmeldung">Onlineanmeldung</a>.
 
 <table>
         <tr>
             <td>1</td>
-            <td>Original des Übertrittszeugnisses</td>
+            <td>Schülerdatei - Ersterfassung</td>
         </tr>
         <tr>
             <td>2</td>
-            <td>Kopie der Geburtsurkunde</td>
+            <td>Nachweis zur Masernimmunisierung (von der Schule auszufüllen)</td>
         </tr>
         <tr>
             <td>3</td>
-            <td>Kopie des Masernimpfschutzes (Impfbuch)</td>   
+            <td>Einwilligungserklärung bzgl. personenbezogener Daten</td>   
         </tr>
         <tr>
             <td>4</td>
-            <td>Schülerdatei -Ersterfassung</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>Nachweis zur Masernimmunisierung (wird von der Schule ausgefüllt)</td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>Einwilligungserklärung bzgl. personenbezogener Daten</td>
-        </tr>
-        <tr>
-            <td>7</td>
             <td>Erfassungsbogen (für Kostenfreiheit des Schulwegs)</td>
         </tr>
         <tr>
-            <td>8</td>
-            <td>Für Ganztagesschüler: ein entsprechender Antrag und eine Anmeldung zur Mensa</td>
+            <td>5</td>
+            <td>für Ganztagesschüler: ein entsprechender Antrag und eine Anmeldung zur Mensa.</td>
         </tr>
         <tr>
-            <td>9</td>
+            <td>6</td>
             <td>Einwilligung zur Datenverarbeitung für das Elternportal</td>
         </tr>
         <tr>
-            <td>10</td>
+            <td>7</td>
             <td>Formular zur Klassenbildung</td>
         </tr>
         <tr>
-            <td>11</td>
+            <td>8</td>
             <td>Landkreis Nürnberger Land: Formular zur Kostenfreiheit des Schulwegs</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Original des Übertrittszeugnisses</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Kopie der Geburtsurkunde</td>
         </tr>
     </table>

@@ -1,5 +1,6 @@
 ---
 date: 2023-03-03
+expireOn: 2026-03-03
 title: KI@school
 tags: [Events]
 thumbnail: 

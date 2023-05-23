@@ -2,7 +2,7 @@
 import * as vueStripeMenu from 'vue-stripe-menu'
 // import 'vue-stripe-menu/dist/vue-stripe-menu.css'
 
-const { VsmMenu, VsmMob} = vueStripeMenu
+const { VsmMenu } = vueStripeMenu
 
 // This is to prevent the component from getting reactive, wich can cause problems
 const componentsMap = {
@@ -13,6 +13,8 @@ const componentsMap = {
 }
 
 const navigationMenu = ref(null)
+
+const searchbar = ref(null)
 
 const closeNavMenu = ref(() => {
     console.log("Not mounted yet")
@@ -32,6 +34,8 @@ const menu = [
     { title: 'Für Eltern', dropdown: 'füreltern', component: 'NavigationFürEltern' }
 ]
 
+
+
 </script>
 
 <template>
@@ -41,11 +45,13 @@ const menu = [
                 <school-logo-with-text class="" />
             </NuxtLink>
 
-            <NuxtLink class="logo-link logo-small" to="/">
+            <NuxtLink v-if="!searchbar?.showResults" class="logo-link logo-small" to="/">
                 <school-logo />
             </NuxtLink>
 
-            <SearchBar class="searchbar"/>
+            <SearchBar ref="searchbar" :class="{ 'searchbar': true, 'searchbar--showResults': searchbar?.showResults}"/>
+
+            <!-- {{ searchbar }} -->
 
             <client-only>
 
@@ -89,6 +95,7 @@ const menu = [
     border-bottom: 3px solid hsl(29,100%,55%);
 
     $oneRowBreakPoint: 800px;
+    $smallLogoBreakPoint: 500px;
 
     .content {
         margin: 0 auto;
@@ -116,13 +123,13 @@ const menu = [
             &.logo-with-text {
                 display: none;
 
-                @media (min-width: 500px) {
+                @media (min-width: $smallLogoBreakPoint) {
                     display: initial;
                 }
             }
 
             &.logo-small {
-                @media (min-width: 500px) {
+                @media (min-width: $smallLogoBreakPoint) {
                     display: none;
                 }
             }
@@ -135,6 +142,14 @@ const menu = [
         .searchbar { 
             justify-self: end;
             grid-column: 2;
+
+            &.searchbar--showResults {
+                grid-column: 1 / span 2;
+
+                @media (min-width: $smallLogoBreakPoint) {
+                    grid-column: 2;
+                }
+            }
 
             @media (min-width: $oneRowBreakPoint) {
                 order: 3;

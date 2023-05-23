@@ -2,7 +2,7 @@
 date: 2020-01-01
 title: Einführungsklasse am WGG
 pinned: true
-tags: [Gemeinschaft, Anmeldung]
+tags: [Gemeinschaft, Schulprofil]
 thumbnail: 
     src: gemeinschaft/einfuehrungsklasse_wgg.jpg
     alt: Bidliche Darstellung des Wegs zum Abitur auch von anderen Schulformen aus via dem WGG.
@@ -43,7 +43,7 @@ Eine Spezifizierung nach Ausbildungsrichtungen ist hier nicht vorgesehen. Stattd
 - Zum einen sollen sie in die Breite der gymnasialen Fächer einführen, um auch diesen Schülern die in der Oberstufe vorgesehenen Wahlmöglichkeiten offen zu halte
 - Zum anderen sollen sie eine gezielte Förderung in den Fächern erhalten, in denen diese Schüler keine oder geringe Vorkenntnisse haben (z.B. 2. Fremdsprache), sowie in denjenigen, die verbindlich schriftliche Abiturprüfungsfächer sind (M, D). 
 
-Ein Schreiben der Schulleitung des WGG an interessierte Eltern und Schüler*innen finden Sie <a href = "/documents/SchreibenEK23_24" target = "_blank">hier</a>. <br>
+Ein Schreiben der Schulleitung des WGG an interessierte Eltern und Schüler*innen finden Sie <a href = "/documents/SchreibenEK23_24.pdf" target = "_blank">hier</a>. <br>
 Einen Flyer des Bayerischen Staatsministeriums für Unterricht und Kultus zur Einführungsklasse <a href = "/documents/FlyerEK23_24.pdf" target = "_blank"> hier </a>.
 
 ### Voraussetzungen

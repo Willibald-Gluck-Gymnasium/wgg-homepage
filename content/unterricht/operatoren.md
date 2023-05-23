@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01
 title: Operatoren
-tags: [Unterricht]
+tags: [Unterricht, Sonstiges]
 thumbnail: 
     src: unterricht/buch_operatoren.jpg
     alt: Aufgeschlagene Bücher

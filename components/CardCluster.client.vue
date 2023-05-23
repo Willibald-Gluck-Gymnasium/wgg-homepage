@@ -48,7 +48,6 @@ onMounted(async () => {
 			gutter: 30
 		}
 	})
-	window.test123 = isotope
 })
 
 

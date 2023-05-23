@@ -8,7 +8,7 @@ onMounted(async () => {
     if (process.client) {
         const authToken = localStorage.getItem('authtoken')
         if (typeof authToken === 'string') {
-            navigateTo('/kontrollzentrum')
+            navigateTo('/')
         }
     }
 })
@@ -17,7 +17,7 @@ onMounted(async () => {
 
 <template>
     <NuxtLayout>
-        <LoginForm @success="navigateTo('/kontrollzentrum')"/>
+        <LoginForm @success="navigateTo('/')"/>
     </NuxtLayout>
 </template>
 

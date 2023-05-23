@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01
 title: WGG - Alumni
-tags: [Gemeinschaft]
+tags: [Gemeinschaft, Schulteam]
 thumbnail: 
     src: gemeinschaft/alumni.jpg
     alt: Ausschnitt der Alumni Website. 
