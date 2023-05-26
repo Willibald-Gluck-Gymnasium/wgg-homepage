@@ -86,7 +86,7 @@ thumbnail:
         Bei einer Essenbestellung, ob über Internet oder mit dem
         Kartensystem, werden automatisch <strong>
           pro Bestellung
-          4,20€
+          5,00€
         </strong> von dem einbezahlten Geldbetrag
         abgezogen.
       </p>
