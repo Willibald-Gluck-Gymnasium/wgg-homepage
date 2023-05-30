@@ -19,7 +19,7 @@ thumbnail:
 
 #### Vermischtes
 
-- <a href="/documents/anmeldungmensa.pdf" target = "_blank">Anmeldung zur Mensa</a>
-- <a href="/documents/abmeldungmensa.pdf" target = "_blank">Abmeldung von der Mensa</a>
+- <a href="/documents/mensa/anmeldungmensa.pdf" target = "_blank">Anmeldung zur Mensa</a>
+- <a href="/documents/mensa/abmeldungmensa.pdf" target = "_blank">Abmeldung von der Mensa</a>
 - <a href="/documents/elternbrief.pdf" target = "_blank"> Elternbrief </a>
 - <a href="/documents/infomappe.pdf" target = "_blank">Infomappe des Elternbeirats</a>
