@@ -134,3 +134,5 @@ export default {
   }
 }
 </style>
+
+<!-- Maybe some "fullscreen mode" with the new <dialog></dialog> tags -->
