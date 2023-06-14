@@ -3,8 +3,8 @@ date: 2020-01-01
 title: Der Homepage-Kurs
 tags: [Wahlkurse, Unterricht, Easteregg]
 thumbnail: 
-    src: wahlkurse/homepagekurs.jpg
-    alt: Leeeeeeer
+    src: wahlkurse/theHomepageGames/homepage.jpg
+    alt: Ein Schreibtisch mit Bildschirm, Laptop, Tablet, Tastatur und Maus.
 ---
 
 <Fliegen fps=20></Fliegen>
@@ -29,4 +29,4 @@ Im folgenden Graukeil sollen alle 16 Stufen von weiß nach schwarz auf dem Monit
 
 <a href="/">Hier</a> können Sie sehen, was der Homepage-Kurs bis jetzt gemacht hat.
 
-Um der Seite wenigstens ein bisschen Inhalt zu verleihen, gibt es zum einen das Fliegen-Spiel und <a href="">hier</a> gehts auch zu Hangman. Beim Fliegen-Spiel ist es das Ziel, alle Fliegen zu dabatschn, der Rekord liegt bei 1681 (Level 41) (uns war mal auch ne Zeit lang langeweilig ^-°O°-^)!
+Um der Seite wenigstens ein bisschen Inhalt zu verleihen, gibt es zum einen das Fliegen-Spiel und <a href="/wahlkurse/hangman">hier</a> gehts auch zu Hangman. Beim Fliegen-Spiel ist es das Ziel, alle Fliegen zu dabatschn, der Rekord liegt bei 1681 (Level 41). (uns ist auch mal langeweilig :] )
