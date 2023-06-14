@@ -1,5 +1,5 @@
 ---
-date: 2020.01.01
+date: 2020-01-01
 title: Rafters 3D
 tags: [Rafters, Moritz.Wenger, 3D-Druck]
 hidden: true
