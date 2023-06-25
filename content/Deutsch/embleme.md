@@ -4,8 +4,8 @@ expireOn: 2024-12-31
 title: Emblematische Dichtung 
 tags: [Deutsch, Unterricht]
 thumbnail: 
-    src: 'deutsch/filmvorfuehrung_02.jpg'
-    alt: 'Filmausschnitt des gezeigten Films'
+    src: 'deutsch/embleme.jpg'
+    alt: 'Beispielemblem'
 ---
 
 ### Emblematische Dichtung des Barock
