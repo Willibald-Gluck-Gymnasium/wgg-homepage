@@ -55,7 +55,7 @@ thumbnail:
     sicher nicht weniger. Daher laden wir Sie ein, Mitglied im Verein zu
     werden. Mitgliedschaft bedeutet im übrigen nicht nur Beitrag zu zahlen,
     sie dokumentiert auch die Verbundenheit mit der Arbeit der Schule.
-    <strong><a href="freunde_wgg_antrag.pdf">Zum Mitgliedsantrag als pdf-Datei</a></strong>
+    <strong><a href="/documents/freunde_wgg_antrag.pdf" target ="_blank">Zum Mitgliedsantrag als pdf-Datei</a></strong>
 </p>
 
 <p>

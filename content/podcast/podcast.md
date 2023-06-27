@@ -3,7 +3,7 @@ date: 2023-06-25
 title: Der Gluckcast
 tags: [Podcast, Gluckcast, Schulprofil]
 thumbnail: 
-    src: Gluckcast.jpg
+    src: podcast/Gluckcast.jpg
     alt: Logo des Gluckcasts
 ---
 
