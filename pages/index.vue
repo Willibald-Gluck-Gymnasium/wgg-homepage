@@ -2,7 +2,6 @@
 
 // path of articles in slide
 const articlesInSlide = [
-    '/gemeinschaft/unsinniger_donnerstag_2023',
     '/gemeinschaft/ukraine_unterstuetzung',
     '/gemeinschaft/friedenstauben',
     '/gemeinschaft/kiatschool',
