@@ -1,7 +1,6 @@
 ---
 date: 2023-05-10
 expireOn: 2024-12-31
-pinned: true
 title: Ehemaligentreffen WGG
 tags: [Events]
 thumbnail: 
