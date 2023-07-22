@@ -1,15 +1,19 @@
 <template>
-  <div margin-top="2rem" margin-bottom="2rem">
+  <div class="gallery-container">
     <figure v-if="imageData[i]">
       <img :src="imageData[i].src" />
       <figcaption v-if="imageData[i].caption">{{ imageData[i].caption }}</figcaption>
     </figure>
     <div style="text-align: center">
-      <button @click="prev" class="button-36" role="button" width="50%">
-        &lt
+      <button @click="prev" class="arrow arrow-left" role="button" width="50%">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"></path>
+        </svg>
       </button>
-      <button @click="next" class="button-36" role="button" width="50%">
-        &gt
+      <button @click="next" class="arrow arrow-right" role="button" width="50%">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"></path>
+        </svg>
       </button>
     </div>
   </div>
@@ -49,44 +53,65 @@ function prev() {
 }
 </script>
 
-<style lang="scss">
-/* CSS */
-.button-36 {
-  background-color: #ff5e0e;
-  border-radius: 8px;
-  border-style: none;
-  box-sizing: border-box;
-  color: #ffffff;
+<style lang="scss" scoped>
+.gallery-container {
+  position: relative;
+  margin: 2rem;
+}
+
+// Copied / Adapted from the Slideshow.vue file
+.arrow {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background-color: hsla(0, 0%, 0%, 0.5);
+  box-shadow: 0 0 10px 0 #0003;
+  padding: 7px;
   cursor: pointer;
-  flex-shrink: 0;
-  font-family: "Inter UI", "SF Pro Display", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-    sans-serif;
-  font-size: 50px;
-  font-weight: 500;
-  justify-content: center;
-  align-items: center;
-  height: 3, 75rem;
-  padding: 0 1.6rem;
-  text-align: center;
-  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
-  transition: all 0.5s;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  margin-left: 5px;
-  margin-right: 5px;
-  opacity: 0.8;
-}
+  transition: all 100ms;
+  fill: #FFFFFF;
 
-.button-36:hover {
-  box-shadow: rgba(255, 81, 0, 0.5) 0 1px 30px;
-  transition-duration: 0.1s;
-}
-
-@media (min-width: 768px) {
-  .button-36 {
-    padding: 0 2.6rem;
+  @at-root html.backdropfilter & {
+    // fill: #000000;
+    background-color: transparent;
+    backdrop-filter: blur(10px) saturate(180%) brightness(0.7);
   }
+
+  &:active {
+    transform: translateY(-50%) scale(0.95);
+  }
+
+  svg {
+    fill: inherit;
+    width: 100%;
+    height: 100%;
+  }
+
+  &.arrow-left {
+    svg {
+      transform: translateX(-2px);
+    }
+  }
+
+  &.arrow-right {
+    svg {
+      transform: translateX(2px);
+    }
+  }
+}
+
+$arrow-screen-padding: 10px;
+
+.arrow-left {
+  left: max(calc((100% - 1080px) / 2 + $arrow-screen-padding), $arrow-screen-padding);
+}
+
+.arrow-right {
+  left: auto;
+  right: max(calc((100% - 1080px) / 2 + $arrow-screen-padding), $arrow-screen-padding);
 }
 </style>
