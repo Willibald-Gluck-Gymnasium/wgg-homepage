@@ -78,13 +78,14 @@ thumbnail:
 ```
 
 #### As a gallery
-Importent: please note that the images and captions have to be seperated with a ',' and not a ', '
+Images and captions need to be separated using `,` with an arbitrary amount of spaces afterward.
+
 ```html
 without captions:
-<gallery images="/images/iamge1.jpg,/images/image2.jpg,/images/image3.jpg"></gallery>
+<gallery images="/images/iamge1.jpg, /images/image2.jpg,/images/image3.jpg"></gallery>
 
 with captions:
-<gallery images="/images/iamge1.jpg,/images/image2.jpg,/images/image3.jpg" captions="captions1,captions2,captions3"></gallery>
+<gallery images="/images/iamge1.jpg,/images/image2.jpg,  /images/image3.jpg" captions="captions1, captions2,captions3"></gallery>
 ```
 
 ### Other options
