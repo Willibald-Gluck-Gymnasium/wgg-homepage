@@ -1,96 +1,52 @@
 <template>
   <div margin-top="2rem" margin-bottom="2rem">
-    <div ref="imagecon"></div>
+    <figure v-if="imageData[i]">
+      <img :src="imageData[i].src" />
+      <figcaption v-if="imageData[i].caption">{{ imageData[i].caption }}</figcaption>
+    </figure>
     <div style="text-align: center">
-      <button @click="changetoleft" class="button-36" role="button" width="50%">
+      <button @click="prev" class="button-36" role="button" width="50%">
         &lt
       </button>
-      <button
-        @click="changetoright"
-        class="button-36"
-        role="button"
-        width="50%"
-      >
+      <button @click="next" class="button-36" role="button" width="50%">
         &gt
       </button>
     </div>
   </div>
 </template>
 
-<script>
-export default {
-  props: ["images", "captions"],
-  data() {
-    return {
-      i: 0,
-      imagesA: [],
-      captionsA: [],
-    };
-  },
-  methods: {
-    changetoright() {
-      if (this.i < this.imagesA.length - 1) {
-        this.i++;
-      } else {
-        this.i = 0;
-      }
-      if (!this.captions) {
-        this.$refs.imagecon.innerHTML =
-          '<img src="' + this.imagesA[this.i] + '" alt = "">';
-      } else {
-        this.$refs.imagecon.innerHTML =
-          '<figure><img src="' +
-          this.imagesA[this.i] +
-          '" alt=""><figcaption>' +
-          this.captionsA[this.i] +
-          "</figcaption></figure>";
-      }
-    },
-    changetoleft() {
-      if (this.i > 0) {
-        this.i--;
-      } else {
-        this.i = this.imagesA.length - 1;
-      }
-      if (!this.captions) {
-        this.$refs.imagecon.innerHTML =
-          '<img src="' + this.imagesA[this.i] + '" alt = "">';
-      } else {
-        this.$refs.imagecon.innerHTML =
-          '<figure><img src="' +
-          this.imagesA[this.i] +
-          '" alt=""><figcaption>' +
-          this.captionsA[this.i] +
-          "</figcaption></figure>";
-      }
-    },
-    returnhello: function () {
-      alert("hello");
-    },
-    returni: function (i) {
-      alert(i);
-    },
-  },
-  mounted() {
-    this.imagesA = this.images.split(",");
-    if (!this.captions) {
-      this.$refs.imagecon.innerHTML =
-        '<img src="' + this.imagesA[0] + '" alt="">';
-    } else {
-      this.captionsA = this.captions.split(",");
-      if (this.imagesA.length == this.captionsA.length) {
-        this.$refs.imagecon.innerHTML =
-          '<figure><img src="' +
-          this.imagesA[0] +
-          '" alt=""><figcaption>' +
-          this.captionsA[0] +
-          "</figcaption></figure>";
-      } else {
-        allert("ANZAHL DER BILDER UND CAPTIONS STIMMT NICHT ÜBEREIN!!!");
-      }
-    }
-  },
-};
+<script setup lang="ts">
+import { ref } from "vue";
+
+const props = defineProps<{
+  images: string,
+  captions: string
+}>();
+
+let i = ref(0);
+
+const splitCaptions = props.captions.split(/, */g);
+
+let imageData: { src: string, caption?: string }[] = props.images.split(/, */g).map((imageSrc, index) => {
+  return {
+    src: imageSrc,
+    caption: splitCaptions[index]
+  }
+});
+
+function change(by: number) {
+  if (imageData.length < 1) {
+    i.value = 0;
+    return;
+  }
+  i.value = (i.value + by + imageData.length) % imageData.length;
+}
+function next() {
+  change(1);
+}
+function prev() {
+  change(-1);
+}
 </script>
 
 <style lang="scss">
