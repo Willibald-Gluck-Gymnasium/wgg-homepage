@@ -59,7 +59,7 @@ thumbnail:
 ![Ein Foto der roten Schule von vorne](/images/schule.jpg)
 ```
 
-#### As html tag (if you want to add some css for example)
+#### As HTML tag (if you want to add some CSS for example)
 ```html
 <img src="/images/schule.jpg" alt="Ein Foto der roten Schule von vorne">
 ```
@@ -72,7 +72,7 @@ thumbnail:
 </figure>
 ```
 
-#### Retain transparancy by adding `format="png"`
+#### Retain transparency by adding `format="png"`
 ```html
 <img src="/images/schule.jpg" format="png" alt="Ein Foto der roten Schule von vorne">
 ```
@@ -150,7 +150,7 @@ expireOn: 2023-01-30T08:00
 
 ### Redirect from article
 
-If the redirect property is set on an article, the user will be redirected to the set url. The history entry will be replaced. 
+If the redirect property is set on an article, the user will be redirected to the set URL. The history entry will be replaced. 
 
 ```yaml
 ---
@@ -164,7 +164,7 @@ redirect: '/tag/Bücher'
 
 ### Searching by tags
 
-You can display all articles containing a tag (or one of multiple tags). Tags are seperated by a plus sign.
+You can display all articles containing a tag (or one of multiple tags). Tags are separated by a plus sign.
 
 `http://localhost:3000/tag/Geschichte`
 
@@ -173,7 +173,7 @@ You can display all articles containing a tag (or one of multiple tags). Tags ar
 
 ## Database 
 
-To enable login functionality you need to connect a database (MariaDB) and a json web token.
+To enable login functionality you need to connect a database (MariaDB) and a JSON Web Token.
 
 ```
 NUXT_MARIA_DB_HOST = localhost
