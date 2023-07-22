@@ -1,21 +1,23 @@
 <template>
-  <div class="gallery-container">
-    <figure v-if="imageData[i]">
-      <img :src="imageData[i].src" />
-      <figcaption v-if="imageData[i].caption">{{ imageData[i].caption }}</figcaption>
-    </figure>
-    <div style="text-align: center">
-      <button @click="prev" class="arrow arrow-left" role="button" width="50%">
+  <div class="gallery-container" aria-label="Gallerie">
+    <button aria-label="Vorheriges Bild" @click="prev" class="arrow arrow-left" role="button">
+      <div aria-hidden="true" class="arrow-container">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
           <path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"></path>
         </svg>
-      </button>
-      <button @click="next" class="arrow arrow-right" role="button" width="50%">
+      </div>
+    </button>
+    <figure aria-label="Bildanzeige" class="gallery-figure" v-if="imageData[i]">
+      <img :src="imageData[i].src" :alt="imageData[i].caption" />
+      <figcaption v-if="imageData[i].caption">{{ imageData[i].caption }}</figcaption>
+    </figure>
+    <button aria-label="Nächstes Bild" @click="next" class="arrow arrow-right" role="button">
+      <div aria-hidden="true" class="arrow-container">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
           <path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"></path>
         </svg>
-      </button>
-    </div>
+      </div>
+    </button>
   </div>
 </template>
 
@@ -29,12 +31,12 @@ const props = defineProps<{
 
 let i = ref(0);
 
-const splitCaptions = props.captions.split(/, */g);
+const splitCaptions = props.captions?.split(/, */g);
 
 let imageData: { src: string, caption?: string }[] = props.images.split(/, */g).map((imageSrc, index) => {
   return {
     src: imageSrc,
-    caption: splitCaptions[index]
+    caption: splitCaptions && splitCaptions[index]
   }
 });
 
@@ -56,33 +58,67 @@ function prev() {
 <style lang="scss" scoped>
 .gallery-container {
   position: relative;
-  margin: 2rem;
+  margin: 2rem auto;
+  display: flex;
+  width: max-content;
+  max-width: 100%;
+}
+
+figure.gallery-figure {
+  margin: 0;
+  height: max-content;
+  position: relative;
+  width: max-content;
+
+  img {
+    border-radius: 0;
+  }
+
+  figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    background-color: #000d;
+    margin: 0;
+    padding: 5px;
+
+    @at-root .backdropfilter & {
+      background: transparent;
+      backdrop-filter: blur(80px) saturate(180%) brightness(0.7);
+    }
+  }
 }
 
 // Copied / Adapted from the Slideshow.vue file
 .arrow {
-  border-radius: 50%;
   width: 40px;
-  height: 40px;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
   border: none;
-  background-color: hsla(0, 0%, 0%, 0.5);
-  box-shadow: 0 0 10px 0 #0003;
   padding: 7px;
   cursor: pointer;
   transition: all 100ms;
-  fill: #FFFFFF;
+  fill: #000;
+  background: transparent;
 
-  @at-root html.backdropfilter & {
-    // fill: #000000;
-    background-color: transparent;
-    backdrop-filter: blur(10px) saturate(180%) brightness(0.7);
+  &:hover,
+  &:focus-visible {
+    background: #0002;
   }
 
-  &:active {
-    transform: translateY(-50%) scale(0.95);
+  &:focus-visible {
+    box-shadow: inset 0 0 0 2px #000;
+    outline: none
+  }
+
+  &:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  &:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
   }
 
   svg {
@@ -91,16 +127,8 @@ function prev() {
     height: 100%;
   }
 
-  &.arrow-left {
-    svg {
-      transform: translateX(-2px);
-    }
-  }
-
-  &.arrow-right {
-    svg {
-      transform: translateX(2px);
-    }
+  .arrow-container {
+    width: 20px;
   }
 }
 
