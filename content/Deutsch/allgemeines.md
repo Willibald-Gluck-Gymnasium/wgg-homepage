@@ -1,5 +1,5 @@
 ---
-date: 2022-01-01
+date: 2023-07-04
 title: Das Fach Deutsch
 tags: [Deutsch, Unterricht]
 thumbnail: 

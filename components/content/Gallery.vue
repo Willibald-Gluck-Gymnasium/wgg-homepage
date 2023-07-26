@@ -143,3 +143,5 @@ $arrow-screen-padding: 10px;
   right: max(calc((100% - 1080px) / 2 + $arrow-screen-padding), $arrow-screen-padding);
 }
 </style>
+
+<!-- Maybe some "fullscreen mode" with the new <dialog></dialog> tags -->

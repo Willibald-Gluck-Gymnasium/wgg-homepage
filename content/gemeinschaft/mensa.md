@@ -46,7 +46,7 @@ thumbnail:
         Während der schulfreien Zeit entfällt die Mittagessensversorgung.
       </p>
       <p>
-        Der Menüpreis beträgt 4,20€ (inkl. MwSt.) und beinhaltet ein Hauptgericht, eine
+        Der Menüpreis beträgt 6,00€ (inkl. MwSt.) und beinhaltet ein Hauptgericht, eine
         Nachspeise (Obst oder Joghurt) und ein alkoholfreies Getränk 0,2 Ltr.
       </p>
     </li>
@@ -86,7 +86,7 @@ thumbnail:
         Bei einer Essenbestellung, ob über Internet oder mit dem
         Kartensystem, werden automatisch <strong>
           pro Bestellung
-          4,20€
+          6,00€
         </strong> von dem einbezahlten Geldbetrag
         abgezogen.
       </p>
@@ -188,7 +188,7 @@ thumbnail:
         seine Gültigkeit.
       </p>
       <p>
-        Bei einer Stornierung wird der Geldbetrag (4,20€) automatisch wieder Ihrer Einzahlung auf dem
+        Bei einer Stornierung wird der Geldbetrag (6,00€) automatisch wieder Ihrer Einzahlung auf dem
         Treuhandkonto gutgeschrieben.
       </p>
     </li>
@@ -217,7 +217,7 @@ thumbnail:
         geben.
       </p>
       <p>
-        -> <a href="/documents/anmeldungmensa.pdf" target = "_blank">Anmeldeformular zum Ausdrucken
+        -> <a href="/documents/mensa/anmeldungmensa.pdf" target = "_blank">Anmeldeformular zum Ausdrucken
         </a>
       </p>
     </li>
@@ -232,7 +232,7 @@ thumbnail:
         Die Abmeldung muss schriftlich erfolgen.
       </p>
       <p>
-        -> <a href="/documents/abmeldungmensa.pdf" target = "_blank">Abmeldeformular zum Ausdrucken
+        -> <a href="/documents/mensa/abmeldungmensa.pdf" target = "_blank">Abmeldeformular zum Ausdrucken
         </a>
       </p>
     </li>

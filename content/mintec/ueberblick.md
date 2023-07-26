@@ -6,6 +6,9 @@ thumbnail:
     src: 'mintec/mintec1.jpg'
     alt: 'Verleihung des MintEC Zertifikats' 
 ---
+
+![Überblicksgrafik MintEC](/images/mintec/mintec_ueberblick.jpg)
+
 <figure style="width:75%;margin:auto">
     <img src = "/images/mintec/mintec1.jpg">
     <figcaption>
