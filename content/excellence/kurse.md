@@ -87,6 +87,9 @@ Logos verstehen sich als Links zu weiteren Informationen):
             <td>Sozialkunde, Politik etc.</td>
         </tr>
         <tr>
+            <td><a href="/excellence/challengeex">ChallengeEx</a></td>
+        </tr>
+        <tr>
             <td style="padding-right:15px">Rhetorikseminar</td>
             <td>7-10</td>
             <td>eXcellence-Kurs-Teilnehmer*innen</td>
