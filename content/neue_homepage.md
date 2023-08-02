@@ -1,7 +1,6 @@
 ---
 date: 2023-03-03
 title: Begrüßung auf der neuen Homepage
-pinned: true
 tags: [Schulprofil]
 thumbnail: 
     src: wgg_personen.png

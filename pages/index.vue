@@ -4,7 +4,6 @@
 const articlesInSlide = [
     '/gemeinschaft/ukraine_unterstuetzung',
     '/gemeinschaft/friedenstauben',
-    '/gemeinschaft/kiatschool',
     '/gemeinschaft/schwarz_weiss_ball_2023',
 ]
 
