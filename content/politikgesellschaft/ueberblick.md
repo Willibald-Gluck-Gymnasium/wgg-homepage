@@ -1,6 +1,6 @@
 ---
 date: 2022-01-01
-title: Politik und Gesellschaft
+title: Überblick
 tags: [Politik und Gesellschaft, Unterricht]
 thumbnail: 
     src: politikgesellschaft/pug.jpg

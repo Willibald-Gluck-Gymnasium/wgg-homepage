@@ -14,6 +14,8 @@ table, th, td {
 }
 </style>
 
+**Achtung**: Noch G(-Bücher!)
+
 <table>
      <tr>
             <th>Fach</th>

@@ -1,6 +1,6 @@
 ---
 date: 2022-01-01
-title: Politik und Gesellschaft
+title: Lehrplan
 tags: [Politik und Gesellschaft, Unterricht, Lehrplan]
 thumbnail: 
     src: politikgesellschaft/pug.jpg

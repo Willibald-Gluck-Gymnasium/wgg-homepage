@@ -16,6 +16,7 @@ thumbnail:
     </tr>
     <tr>
         <td colspan="2">
+              <img src="/images/schulleitung/Fiedler.jpg" alt="OStD Fiedler" style = "width: 50%">
         </td>
         <td colspan="2" style="padding-left:20px;">
         </td>
