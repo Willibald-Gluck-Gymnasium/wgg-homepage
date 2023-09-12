@@ -1,6 +1,7 @@
 ---
 date: 2023-03-03
-title: Informationen
+title: Übertritt
+pinned: true
 tags: [Anmeldung]
 redirect: '/tag/Anmeldung-Informationen'
 thumbnail: 
