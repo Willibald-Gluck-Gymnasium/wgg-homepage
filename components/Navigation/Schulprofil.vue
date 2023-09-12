@@ -13,11 +13,9 @@
 const emit = defineEmits(['closeNavMenu'])
 
 const menuItems = [
-    // { text: "WGG von A bis Z", icon: '' },
-    //{ text: "Downloads" },
-    { text: "Infoportal" },
-    //{ text: "Bücher" },
-    //{ text: "Busse", link: "/tag/Busse" }
+    { text: "Ausbildungswege" },
+    { text: "MINT-EC" },
+    { text: "Ganztagesklasse" }    
 ]
 
 function combineAllMenuItems(menuItems, additionalTags) {

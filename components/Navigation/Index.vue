@@ -6,9 +6,11 @@ const { VsmMenu } = vueStripeMenu
 
 // This is to prevent the component from getting reactive, wich can cause problems
 const componentsMap = {
-    NavigationUnterricht: resolveComponent('NavigationUnterricht'),
+    NavigationFächer: resolveComponent('NavigationFächer'),
     NavigationFürEltern: resolveComponent('NavigationFürEltern'),
-    NavigationSchulleben: resolveComponent('NavigationSchulleben')
+    //NavigationSchulleben: resolveComponent('NavigationSchulleben'),
+    NavigationSchulgemeinschaft: resolveComponent('NavigationSchulgemeinschaft'),
+    NavigationSchulprofil: resolveComponent('NavigationSchulprofil')
   // ... 
 }
 
@@ -29,9 +31,11 @@ onMounted(async () => {
 
 const menu = [
     // { title: 'Aktuelles', dropdown: 'aktuelles', component: 'comp1' },
-    { title: 'Schulleben', dropdown: 'schulleben', component: 'NavigationSchulleben' },
-    { title: 'Unterricht', dropdown: 'unterricht', component: 'NavigationUnterricht' },
-    { title: 'Für Eltern', dropdown: 'füreltern', component: 'NavigationFürEltern' }
+    { title: 'Schulgemeinschaft', dropdown: 'schulgemeinschaft', component: 'NavigationSchulgemeinschaft' },
+    { title: 'Schulprofil', dropdown: 'schulprofil', component: 'NavigationSchulprofil' },
+    //{ title: 'Schulleben', dropdown: 'schulleben', component: 'NavigationSchulleben' },
+    { title: 'Für Eltern', dropdown: 'füreltern', component: 'NavigationFürEltern' },
+    { title: 'Fächer', dropdown: 'fächer', component: 'NavigationFächer' }
 ]
 
 
@@ -64,7 +68,7 @@ const menu = [
                     ref="navigationMenu"
                 >
                     <template #default="{ item }">
-                        <div>
+                        <div class = "menu-item">
                             <component @closeNavMenu="closeNavMenu()" :is="componentsMap[item.component]" />
                         </div>
                     </template>
@@ -141,7 +145,8 @@ const menu = [
 
         .searchbar { 
             justify-self: end;
-            grid-column: 2;
+            grid-column: 2 / span 1;
+            width: 30%;
 
             &.searchbar--showResults {
                 grid-column: 1 / span 2;
@@ -163,8 +168,11 @@ const menu = [
             height: 100%;
         }
     }
-
+    
 }
+
+
+
 </style>
 
 <style lang="scss">
@@ -191,14 +199,13 @@ const menu = [
 
 .vsm-link-container {
     display: flex;
-    flex: 1 1 auto;
+    flex-wrap: wrap;
     justify-content: center;
 
-    
 
     .vsm-link {
-        width: 30%;
-        max-width: 110px;
+        width: 50%;
+        max-width: 150px;
         padding: 0;
         color: inherit;
 

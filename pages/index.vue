@@ -68,7 +68,7 @@ useHead({
         <CurrentUserMenu style="margin-top: 20px; margin-bottom: 30px;"/>
 
         <template v-if="highlightedArticlesCards.length > 0">
-            <h1>Highlights</h1>
+            <br>
 
             <ClientOnly>
                 <card-cluster :cards="highlightedArticlesCards"></card-cluster>
@@ -79,11 +79,12 @@ useHead({
             </ClientOnly>
         </template>
 
+        <!--
         <h1>Termine</h1>
 
         <Schedule style="margin-bottom: 60px"></Schedule>
        
-        <!--
+        
         <h1>Neuigkeiten</h1>
         
         <ClientOnly>
