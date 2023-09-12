@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01
 title: Impressionen Forscherklasse
-tags: [Naturwissenschaften, Forscherklasse]
+tags: [Naturwissenschaften, Forscherklasse, MintEC]
 thumbnail: 
     src: 'mintec/forscherklasse04.jpg'
     alt: 'Gießen des Zinns' 

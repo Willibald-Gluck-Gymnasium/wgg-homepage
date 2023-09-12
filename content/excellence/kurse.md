@@ -63,7 +63,7 @@ Logos verstehen sich als Links zu weiteren Informationen):
     <tbody>
         <tr>
             <td><a href="/excellence/historyex"><img src="/images/excellence/historyex_nav.gif" alt="HistoryeX" width="70" /></a></td>
-            <td>7–8</td>
+            <td>7–9</td>
             <td>Geschichte</td>
         </tr>
         <tr>

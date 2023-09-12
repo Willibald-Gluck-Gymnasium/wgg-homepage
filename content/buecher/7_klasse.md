@@ -51,7 +51,7 @@ table, th, td {
     </tr>
     <tr>
         <td>Ethik</td>
-        <td>ethikos 7</td>
+        <td>Ethikos 7</td>
         <td>Oldenbourg</td>
     </tr>
     <tr>
@@ -80,7 +80,7 @@ table, th, td {
     </tr>
     <tr>
         <td>Religionslehre ev.</td>
-        <td>Moment mal! 7</td>
-        <td>Klett</td>
+        <td>Ortswechsel Plus 7</td>
+        <td>Claudius</td>
     </tr>
 </table>
