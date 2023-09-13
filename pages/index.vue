@@ -63,6 +63,7 @@ useHead({
 <template>
     <NuxtLayout>
 
+
         <slideshow :slides="slides"></slideshow>
 
         <CurrentUserMenu style="margin-top: 20px; margin-bottom: 30px;"/>
