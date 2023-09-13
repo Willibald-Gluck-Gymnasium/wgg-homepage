@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01
 expireOn: 2024-12-31
-title: Pausenchemie
+title: Science Olympiade 2023
 tags: [Chemie, WWG Zweig]
 thumbnail: 
     src: /chemie/science_olympiade_2023.jpg

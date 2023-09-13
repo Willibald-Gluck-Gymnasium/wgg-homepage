@@ -6,9 +6,12 @@ const { VsmMenu } = vueStripeMenu
 
 // This is to prevent the component from getting reactive, wich can cause problems
 const componentsMap = {
-    NavigationUnterricht: resolveComponent('NavigationUnterricht'),
+    NavigationFächer: resolveComponent('NavigationFächer'),
     NavigationFürEltern: resolveComponent('NavigationFürEltern'),
-    NavigationSchulleben: resolveComponent('NavigationSchulleben')
+    NavigationSchule: resolveComponent("NavigationSchule")
+    //NavigationSchulleben: resolveComponent('NavigationSchulleben'),
+    //NavigationSchulgemeinschaft: resolveComponent('NavigationSchulgemeinschaft'),
+    //NavigationSchulprofil: resolveComponent('NavigationSchulprofil')
   // ... 
 }
 
@@ -29,9 +32,12 @@ onMounted(async () => {
 
 const menu = [
     // { title: 'Aktuelles', dropdown: 'aktuelles', component: 'comp1' },
-    { title: 'Schulleben', dropdown: 'schulleben', component: 'NavigationSchulleben' },
-    { title: 'Unterricht', dropdown: 'unterricht', component: 'NavigationUnterricht' },
-    { title: 'Für Eltern', dropdown: 'füreltern', component: 'NavigationFürEltern' }
+    //{ title: 'Schulgemeinschaft', dropdown: 'schulgemeinschaft', component: 'NavigationSchulgemeinschaft' },
+    //{ title: 'Schulprofil', dropdown: 'schulprofil', component: 'NavigationSchulprofil' },
+    //{ title: 'Schulleben', dropdown: 'schulleben', component: 'NavigationSchulleben' },
+    { title: "Schule", dropdown: "schule", component: "NavigationSchule" },
+    { title: 'Für Eltern', dropdown: 'füreltern', component: 'NavigationFürEltern' },
+    { title: 'Fächer', dropdown: 'fächer', component: 'NavigationFächer' }
 ]
 
 
@@ -40,6 +46,13 @@ const menu = [
 
 <template>
     <header class="main-header-bar">
+        <div class = "tel">
+            <div class = "left">&nbsp;</div>
+            <div class = "right">
+                Tel.: <a href = "tel:+4991814720">+49 (0) 9181-472-0</a> &nbsp;&nbsp;&nbsp;<img src="images/emailIcon.png" style="width:20px;">&nbsp
+                <a href="mailto:verwaltung@wgg-neumarkt.de">verwaltung@wgg-neumarkt.de</a>
+            </div>
+        </div>
         <div class="content">
             <NuxtLink class="logo-link logo-with-text" to="/">
                 <school-logo-with-text class="" />
@@ -64,7 +77,7 @@ const menu = [
                     ref="navigationMenu"
                 >
                     <template #default="{ item }">
-                        <div>
+                        <div class = "menu-item">
                             <component @closeNavMenu="closeNavMenu()" :is="componentsMap[item.component]" />
                         </div>
                     </template>
@@ -93,9 +106,34 @@ const menu = [
     color: black;
     background-color: white;
     border-bottom: 3px solid hsl(29,100%,55%);
+    border-top: 3px solid hsl(29,100%,55%);
 
     $oneRowBreakPoint: 800px;
     $smallLogoBreakPoint: 500px;
+
+    .tel {
+        margin: 0 auto;
+        width: calc(100% - 20px);
+        max-width: 1080px;
+        align-items: center;
+        padding-top: 5px;
+        padding-bottom: 2px;
+        font-size: 10pt;
+
+        .left {
+            float:left;
+        }
+
+        .right {
+            float:right;
+        }
+
+        a {
+            text-decoration: none; 
+            color: black; 
+        }
+    
+    }
 
     .content {
         margin: 0 auto;
@@ -107,6 +145,7 @@ const menu = [
         align-items: center;
         column-gap: 20px;
         min-height: 67px;
+        
 
         @media (min-width: $oneRowBreakPoint) {
             display: flex;
@@ -141,7 +180,8 @@ const menu = [
 
         .searchbar { 
             justify-self: end;
-            grid-column: 2;
+            grid-column: 2 / span 1;
+            width: 40%;
 
             &.searchbar--showResults {
                 grid-column: 1 / span 2;
@@ -163,8 +203,11 @@ const menu = [
             height: 100%;
         }
     }
-
+    
 }
+
+
+
 </style>
 
 <style lang="scss">
@@ -194,11 +237,10 @@ const menu = [
     flex: 1 1 auto;
     justify-content: center;
 
-    
 
     .vsm-link {
-        width: 30%;
-        max-width: 110px;
+        width: 50%;
+        max-width: 150px;
         padding: 0;
         color: inherit;
 
@@ -248,8 +290,10 @@ const menu = [
 
     @media (min-width: 770px) {
         flex-wrap: wrap;
-        max-height: 500px;
+        max-height: 470px;
         padding-right: 0;
     }
 }
+
+
 </style>

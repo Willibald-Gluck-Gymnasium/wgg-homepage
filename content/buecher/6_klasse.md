@@ -51,7 +51,7 @@ table, th, td {
         </tr>
         <tr>
             <td>Ethik</td>
-            <td>ethikos 6</td>
+            <td>Ethikos 6</td>
             <td>Oldenbourg</td>
         </tr>
         <tr>

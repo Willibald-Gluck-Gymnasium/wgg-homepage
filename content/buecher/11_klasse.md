@@ -26,18 +26,14 @@ table, th, td {
             <td>Klett</td>
         </tr>
         <tr>
-            <td rowspan="2">Religionslehre ev.</td>
-            <td>Ortswechsel 11</td>
+            <td>Religionslehre ev.</td>
+            <td>Ortswechsel Plus 11</td>
             <td>Claudius</td>
         </tr>
         <tr>
-            <td>Kompetent evangelisch 11</td>
-            <td>Vandenhoek & Ruprecht</td>
-        </tr>
-        <tr>
             <td>Ethik</td>
-            <td>Ethikos 11</td>
-            <td>Oldenbourg</td>
+            <td>Ethik 11 in der Oberstufe</td>
+            <td>Buchner</td>
         </tr>
         <tr>
             <td>Deutsch</td>
@@ -45,83 +41,54 @@ table, th, td {
             <td>Cornelsen</td>
         </tr>
         <tr>
-            <td rowspan="3">Englisch</td>
-            <td>Green Line Oberstufe</td>
+            <td >Englisch</td>
+            <td>Green Line Transition</td>
             <td>Klett</td>
         </tr>
         <tr>
-            <td>New Summit</td>
-            <td>Schöningh</td>
-        </tr>
-        <tr>
-            <td>Context</td>
-            <td>Cornelsen</td>
-        </tr>
-        <tr>
-            <td rowspan="2">Französisch</td>
-            <td>Horizons</td>
+            <td>Französisch</td>
+            <td>Decouvertes Transition</td>
             <td>Klett</td>
         </tr>
         <tr>
-            <td>Parcours plus</td>
-            <td>Cornelsen</td>
-        </tr>
-        <tr>
-            <td rowspan="2">Mathematik</td>
+            <td>Mathematik</td>
             <td>Lambacher Schweizer 11</td>
             <td>Klett</td>
         </tr>
         <tr>
-            <td>Tafelwerk zur Stochastik</td>
-            <td></td>
-        </tr>
-        <tr>
             <td>Geographie</td>
-            <td>Seydlitz Geographie 11</td>
-            <td>Schroedel</td>
+            <td>Diercke Geographie 11</td>
+            <td>Westermann</td>
         </tr>
         <tr>
             <td>Geschichte</td>
-            <td>Forum Geschichte 11</td>
-            <td>Cornelsen</td>
+            <td>Buchners Kolleg Geschichte</td>
+            <td>Buchner</td>
         </tr>
         <tr>
-            <td>Sozialkunde</td>
+            <td>Politik und Gesellschaft</td>
             <td>Politik aktuell 11</td>
             <td>Buchner</td>
         </tr>
         <tr>
             <td>Wirtschaft</td>
-            <td>Kolleg Wirtschaft und Recht 11</td>
+            <td>Saldo - Wirtschaft und Recht</td>
+            <td>Westermann</td>
+        </tr>
+        <tr>
+            <td>Physik</td>
+            <td>Physik 11</td>
             <td>Buchner</td>
         </tr>
         <tr>
-            <td rowspan="2">Physik</td>
-            <td>Physik 11</td>
-            <td>Duden</td>
-        </tr>
-        <tr>
-            <td>Astrophysik</td>
-            <td>C. C. Buchner</td>
-        </tr>
-        <tr>
             <td>Chemie</td>
-            <td>Galvani Chemie 11</td>
-            <td>Oldenbourg</td>
-        </tr>
-        <tr>
-            <td rowspan="2">Biologie</td>
-            <td>Nautilus 11</td>
-            <td>Oldenbourg</td>
-        </tr>
-        <tr>
-            <td>Fokus Biologie 12</td>
-            <td> Cornelsen</td>
+            <td>Galvani 11</td>
+            <td>Cornelsen</td>
         </tr>
         <tr>
             <td>Informatik</td>
-            <td>Informatik 4</td>
-            <td>Klett</td>
+            <td>Informatik 5</td>
+            <td>Cornelsen</td>
         </tr>
         <tr>
             <td>Sport Theorie</td>
@@ -129,12 +96,18 @@ table, th, td {
             <td>Weineck</td>
         </tr>
         <tr>
-            <td rowspan="2">Spanisch</td>
+            <td>Latein</td>
+            <td>Lastein lesebuch Sammlung ratio</td>
+            <td>Cornelsen</td>
+        </tr>
+        <tr>
+            <td>Spanisch</td>
             <td>"Vale vale 1</td>
             <td> Buchner</td>
         </tr>
         <tr>
-            <td>Adalante</td>
-            <td> Klett </td>
+            <td>Wirtschaftsinformatik</td>
+            <td>Wirtschaftsinformatik 11</td>
+            <td> Buchner</td>
         </tr>
     </table>
