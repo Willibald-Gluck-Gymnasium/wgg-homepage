@@ -12,7 +12,7 @@ const componentsMap = {
     //NavigationSchulleben: resolveComponent('NavigationSchulleben'),
     //NavigationSchulgemeinschaft: resolveComponent('NavigationSchulgemeinschaft'),
     //NavigationSchulprofil: resolveComponent('NavigationSchulprofil')
-  // ... 
+    // ... 
 }
 
 const navigationMenu = ref(null)
@@ -46,11 +46,11 @@ const menu = [
 
 <template>
     <header class="main-header-bar">
-        <div class = "tel">
-            <div class = "left">&nbsp;</div>
-            <div class = "right">
-                Tel.: <a href = "tel:+4991814720">+49 (0) 9181-472-0</a> &nbsp;&nbsp;&nbsp;<img src="images/emailIcon.png" style="width:20px;">&nbsp
-                <a href="mailto:verwaltung@wgg-neumarkt.de">verwaltung@wgg-neumarkt.de</a>
+        <div class="tel">
+            <div class = "left"></div>
+            <div class="right">
+                <a href="tel:+4991814720"> &#9742; +49 (0) 9181-472-0</a> &nbsp;&nbsp;&nbsp;
+                <a href="mailto:verwaltung@wgg-neumarkt.de"> &#128231;verwaltung@wgg-neumarkt.de</a>
             </div>
         </div>
         <div class="content">
@@ -62,22 +62,15 @@ const menu = [
                 <school-logo />
             </NuxtLink>
 
-            <SearchBar ref="searchbar" :class="{ 'searchbar': true, 'searchbar--showResults': searchbar?.showResults}"/>
+            <SearchBar ref="searchbar" :class="{ 'searchbar': true, 'searchbar--showResults': searchbar?.showResults }" />
 
             <!-- {{ searchbar }} -->
 
             <client-only>
 
-                <vsm-menu
-                    :menu="menu"
-                    class="vsm-menu"
-                    element="div"
-                    handler="hover"
-                    align="center"
-                    ref="navigationMenu"
-                >
+                <vsm-menu :menu="menu" class="vsm-menu" element="div" handler="hover" align="center" ref="navigationMenu">
                     <template #default="{ item }">
-                        <div class = "menu-item">
+                        <div class="menu-item">
                             <component @closeNavMenu="closeNavMenu()" :is="componentsMap[item.component]" />
                         </div>
                     </template>
@@ -91,12 +84,12 @@ const menu = [
                                     <span>{{ menuItem.title }}</span>
                                 </button>
                             </li>
-                        </ul>     
+                        </ul>
                     </nav>
                 </template>
 
             </client-only>
-        
+
         </div>
     </header>
 </template>
@@ -105,8 +98,8 @@ const menu = [
 .main-header-bar {
     color: black;
     background-color: white;
-    border-bottom: 3px solid hsl(29,100%,55%);
-    border-top: 3px solid hsl(29,100%,55%);
+    border-bottom: 3px solid hsl(29, 100%, 55%);
+    border-top: 3px solid hsl(29, 100%, 55%);
 
     $oneRowBreakPoint: 800px;
     $smallLogoBreakPoint: 500px;
@@ -121,18 +114,18 @@ const menu = [
         font-size: 10pt;
 
         .left {
-            float:left;
+            float: left;
         }
 
         .right {
-            float:right;
+            float: right;
         }
 
         a {
-            text-decoration: none; 
-            color: black; 
+            text-decoration: none;
+            color: black;
         }
-    
+
     }
 
     .content {
@@ -145,7 +138,7 @@ const menu = [
         align-items: center;
         column-gap: 20px;
         min-height: 67px;
-        
+
 
         @media (min-width: $oneRowBreakPoint) {
             display: flex;
@@ -154,7 +147,7 @@ const menu = [
 
         .logo-link {
             grid-column: 1;
-            color: inherit; 
+            color: inherit;
             text-decoration: inherit;
             display: block;
             height: min-content;
@@ -178,7 +171,7 @@ const menu = [
             }
         }
 
-        .searchbar { 
+        .searchbar {
             justify-self: end;
             grid-column: 2 / span 1;
             width: 40%;
@@ -203,11 +196,8 @@ const menu = [
             height: 100%;
         }
     }
-    
+
 }
-
-
-
 </style>
 
 <style lang="scss">
@@ -220,7 +210,7 @@ const menu = [
 .vsm-dropdown-content {
     background-color: white;
     border-radius: 20px;
-} 
+}
 
 .vsm-nav {
     height: 100%;
@@ -264,9 +254,11 @@ const menu = [
     .vsm-mob-show {
         display: block;
     }
+
     .vsm-mob-hide {
         display: none;
     }
+
     .vsm-mob-full {
         flex-grow: 1;
     }
@@ -294,6 +286,4 @@ const menu = [
         padding-right: 0;
     }
 }
-
-
 </style>
