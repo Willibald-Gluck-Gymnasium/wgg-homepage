@@ -15,11 +15,11 @@ thumbnail:
     <li>Tel.: <a href="tel:091814720">09181 - 472 0</a></li>
     <li>Fax: 09181 - 472 472</li>
     <li>E-Mail: <a href="mailto:verwaltung@wgg-neumarkt.de">verwaltung[at]wgg-neumarkt.de</a></li>
-    <li>Schulleiter: Bernhard Schiffer</li>
+    <li>Schulleiter: Frank Fiedler</li>
 </ul>
 <hr>
 <h2 id="inhalt">Verantwortlich für den Inhalt</h2>
-<p>OStD Bernhard Schiffer (Schulleiter)</p>
+<p>OStD Frank Fiedler (Schulleiter)</p>
 <p>Namentlich gekennzeichnete Internetseiten geben die Auffassungen und Erkenntnisse der genannten Personen wieder.</p>
 <hr>
 <h2 id="nutzungsbedingungen">Nutzungsbedingungen</h2>

@@ -69,7 +69,6 @@ useHead({
 
         <template v-if="highlightedArticlesCards.length > 0">
             <br>
-
             <ClientOnly>
                 <card-cluster :cards="highlightedArticlesCards"></card-cluster>
 
