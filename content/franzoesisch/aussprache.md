@@ -1,4 +1,5 @@
 ---
+date: 2021-12-12
 title: Französisch Aussprache
 tags: [Französisch,Unterricht]
 thumbnail: 
