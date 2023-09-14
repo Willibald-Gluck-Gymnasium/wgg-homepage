@@ -54,6 +54,7 @@ const menu = [
             </div>
         </div>
         <div class="content">
+        
             <NuxtLink class="logo-link logo-with-text" to="/">
                 <school-logo-with-text class="" />
             </NuxtLink>
@@ -100,6 +101,9 @@ const menu = [
     background-color: white;
     border-bottom: 3px solid hsl(29, 100%, 55%);
     border-top: 3px solid hsl(29, 100%, 55%);
+    display: grid;
+    grid-template-rows: auto 1fr; /* First row for .tel, second row for content */
+    grid-template-columns: 1fr; /* Single column layout */
 
     $oneRowBreakPoint: 800px;
     $smallLogoBreakPoint: 500px;

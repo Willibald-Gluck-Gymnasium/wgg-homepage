@@ -1,4 +1,5 @@
 ---
+date: 2021-12-12
 title: Anschaffung und Gebrauch von Wörterbüchern in Französisch
 tags: [Französisch, Unterricht]
 thumbnail: 
