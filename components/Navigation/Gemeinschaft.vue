@@ -17,7 +17,7 @@ const menuItems = [
     { text: "Schulleitung", link: "/gemeinschaft/direktorat"},
     { text: "SMV" },
     { text: "Elternbeirat" },
-    
+    { text: "Verein der Freunde" } 
 ]
 
 function combineAllMenuItems(menuItems, additionalTags) {

@@ -15,7 +15,7 @@ const emit = defineEmits(['closeNavMenu'])
 const menuItems = [
     // { text: "WGG von A bis Z", icon: '' },
     //{ text: "Downloads" },
-    { text: "Infoportal" },
+    { text: "Infoportal", link: "https://willigym.eltern-portal.org/"},
     //{ text: "Bücher" },
     //{ text: "Busse", link: "/tag/Busse" }
 ]
