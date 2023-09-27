@@ -8,10 +8,10 @@ const { VsmMenu } = vueStripeMenu
 const componentsMap = {
     NavigationFächer: resolveComponent('NavigationFächer'),
     NavigationFürEltern: resolveComponent('NavigationFürEltern'),
-    NavigationSchule: resolveComponent("NavigationSchule")
+    NavigationSchule: resolveComponent("NavigationSchule"),
     //NavigationSchulleben: resolveComponent('NavigationSchulleben'),
-    //NavigationSchulgemeinschaft: resolveComponent('NavigationSchulgemeinschaft'),
-    //NavigationSchulprofil: resolveComponent('NavigationSchulprofil')
+    NavigationGemeinschaft: resolveComponent('NavigationGemeinschaft'),
+    NavigationProfil: resolveComponent('NavigationProfil')
     // ... 
 }
 
@@ -32,10 +32,10 @@ onMounted(async () => {
 
 const menu = [
     // { title: 'Aktuelles', dropdown: 'aktuelles', component: 'comp1' },
-    //{ title: 'Schulgemeinschaft', dropdown: 'schulgemeinschaft', component: 'NavigationSchulgemeinschaft' },
-    //{ title: 'Schulprofil', dropdown: 'schulprofil', component: 'NavigationSchulprofil' },
+    { title: 'Gemeinschaft', dropdown: 'gemeinschaft', component: 'NavigationGemeinschaft' },
+    { title: 'Profil', dropdown: 'profil', component: 'NavigationProfil' },
     //{ title: 'Schulleben', dropdown: 'schulleben', component: 'NavigationSchulleben' },
-    { title: "Schule", dropdown: "schule", component: "NavigationSchule" },
+    //{ title: "Schule", dropdown: "schule", component: "NavigationSchule" },
     { title: 'Für Eltern', dropdown: 'füreltern', component: 'NavigationFürEltern' },
     { title: 'Fächer', dropdown: 'fächer', component: 'NavigationFächer' }
 ]
