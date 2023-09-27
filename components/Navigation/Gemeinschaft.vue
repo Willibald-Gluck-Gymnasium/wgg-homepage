@@ -13,8 +13,8 @@
 const emit = defineEmits(['closeNavMenu'])
 
 const menuItems = [
-    { text: "Sekretariat" },
-    { text: "Schulleitung" },
+    { text: "Sekretariat", link: "/sekretariat"},
+    { text: "Schulleitung", link: "/gemeinschaft/direktorat"},
     { text: "SMV" },
     { text: "Elternbeirat" },
     
