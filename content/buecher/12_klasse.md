@@ -1,6 +1,6 @@
 ---
 date: 2020-01-01
-title: 6. Klasse
+title: 12. Klasse
 tags: [Bücher]
 thumbnail: 
     src: buecher_apfel.jpg
@@ -14,7 +14,7 @@ table, th, td {
 }
 </style>
 
-**Achtung**: Noch G(-Bücher!)
+**Achtung**: Noch G8-Bücher!
 
 <table>
      <tr>

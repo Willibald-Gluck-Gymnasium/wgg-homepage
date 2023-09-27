@@ -9,7 +9,7 @@ thumbnail:
 <h3> Bitte immer in der Schule verfügbar halten, z.B. im Schließfach</h3>
 <ul>
     <li>Zeichenblock DIN A3, wenn möglich mit stärkerem Papier z.B. 120 g/m²</li>
-    <li>Heft DIN A4, blanko, weißes Papier, kein Umschlag </li>
+    <li>DIN A 4 Papp-Hefter mit 20 gelochten und eingehefteten weißen Blättern</li>
     <li>Malkasten (möglichst von Pelikan) mit 12 Deckfarben und einer Tube Deckweiß</li>
     <br>
     <li>
@@ -24,7 +24,7 @@ thumbnail:
     <li>Mallappen (saugfähige Naturfaser, z.B. von altem Unterhemd oder Baumwollbeutel, ca. 50 x 50 cm)</li>
     <li>Kleines Schwämmchen 8, z.B. halber Spülschwamm</li>
     <br>
-    <li>3 Bleistifte: 2B, 4B, 6B</li>
+    <li>4 Bleistifte: 2B, 4B, 6B, HB</li>
     <li>6 Aquarellstifte in den Farben Gelb, Orange, Rot, Violett, Blau, Grün (mehr sind wünschenswert, aber nicht zwingend notwendig)</li>
     <li>1 feiner schwarzer Faserstift (Fineliner)</li>
     <li>1 Gläschen schwarze Tusche + 1 Federhalter mit Zeichenfeder, z.B. Cito fein (vorne spitz, keine Schreibfedern!)</li>
