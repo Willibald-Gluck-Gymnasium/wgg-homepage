@@ -7,6 +7,8 @@ thumbnail:
     alt: Stockphoto - Arbeitsplatz mit Pflanze, Tastatur, Maus und Bildschirm
 ---
 
+Sie erreichen das Sekretariat unter **+49 (0) 9181-472-0** oder per Mail unter **verwaltung@wgg-neumarkt.de**.
+
 **Unsere Sekretärinnen**
 
 - Frau Schertel
