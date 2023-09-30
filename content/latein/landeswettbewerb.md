@@ -4,7 +4,7 @@ expireOn: 2022-12-31
 title: Landeswettbewerb Latein 2019
 tags: [Unterricht, Archiv]
 thumbnail:
-    src: latein/latein-thumbmail.jpg
+    src: latein/lateintafel.jpg
     alt: Eine Tafel mit lateinischer Aufschrift
 ---
 
