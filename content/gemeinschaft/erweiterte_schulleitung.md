@@ -1,6 +1,7 @@
 ---
 date: 2020-01-01
 title: Erweiterte Schulleitung am Willibald-Gluck-Gymnasium
+hidden: true
 tags: [Gemeinschaft, Schulleitung]
 thumbnail: 
     src: schulleitung/erweiterte_schulleitung_gruppenbild.jpg

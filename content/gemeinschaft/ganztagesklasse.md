@@ -75,8 +75,3 @@ Auch der Innenbereich des WGG bietet vielfältige Möglichkeiten zur Gestaltung 
 <p>
   Wir freuen uns auf Ihr Kommen!
 </p>
-
-<p>
-  Bernhard Schiffer<br />
-  Oberstudiendirektor
-</p>

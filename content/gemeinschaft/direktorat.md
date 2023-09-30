@@ -11,49 +11,95 @@ thumbnail:
 
 <table style="margin:auto">
     <tr>
-        <td colspan="2" style="padding-top: 2em; text-align: center">Unser Chef</td>
-        <td colspan="2" style="padding-top: 2em;padding-left: 20px;text-align:center">seine Stellvertreterin</td>
+        <td style="padding-top: 2em; text-align: center">Unser Chef</td>
+        <td style="padding-top: 2em;padding-left: 20px;text-align:center">seine Stellvertreterin</td>
     </tr>
     <tr>
-        <td colspan="2">
-              <img src="/images/schulleitung/Fiedler.jpg" alt="OStD Fiedler" style = "width: 50%">
+        <td>
+              <img src="/images/schulleitung/Fiedler.jpg" alt="OStD Fiedler" style = "width: 180px">
         </td>
-        <td colspan="2" style="padding-left:20px;">
+        <td>
+            <img src="/images/schulleitung/kleinoeder.jpg" alt="StDin Kleinöder-Strobel" style = "width: 180px">
         </td>
     </tr>
     <tr>
-        <td colspan="2" style="text-align: center">
+        <td style="text-align: center">
            OStD Frank Fiedler
         </td>
-        <td colspan="2" style="padding-left:20px; text-align: center">
+        <td style = "text-align: center">
             StDin Dr. Susanne Kleinöder-Strobel
         </td>
     </tr>
+</table>
+
+<br>
+<br>
+
+<table style="margin:auto">
     <tr>
-        <td colspan="4" style="padding-top: 2em; text-align:left">
-            &nbsp; und die Mitarbeiter des Direktorats:
+        <td colspan="3" style="text-align:center">
+            Die Mitarbeiter des Direktorats
         </td>
     </tr>
     <tr>
         <td>
-            <img src="/images/schulleitung/holler.jpg" alt="StDin Holler" style="padding-right:80px">
+            <img src="/images/schulleitung/holler.jpg" alt="StDin Holler", style="padding-right: 80px">
         </td>
         <td>
-            <img src="/images/schulleitung/sachs.jpg" alt="StD Sachs">
+            <img src="/images/schulleitung/sachs.jpg" alt="StD Sachs" style="padding-right: 60px">
         </td>
         <td>
             <img src="/images/schulleitung/wagenhofer.jpg" alt="OStR Wagenhofer">
         </td>
     </tr>
     <tr>
-        <td style = "text-align: center; padding-right:80px">
+        <td style = "text-align: center; padding-right:60px">
             StDin Doris Holler
         </td>
-        <td style="text-align: center">
+        <td style="text-align: center; padding-right:60px" >
             StD Martin Sachs
         </td>
         <td style="text-align: center">
             StD Gunther Wagenhofer
         </td>
+    </tr>
+</table>
+
+<br>
+<br>
+
+<table style ="margin:auto">
+    <tr>
+    <td colspan="4" style="text-align: center">
+        Und die Mitglieder der erweiterten Schulleitung
+    </td>
+    <tr>
+    <tr>
+        <td>
+            <img src="/images/schulleitung/bfx.jpg" alt="StD Beer", style="padding-right: 80px">
+        </td>
+        <td>
+            <img src="/images/schulleitung/gw.jpg" alt="StD Gelo" style="padding-right: 80px">
+        </td>
+        <td>
+            <img src="/images/schulleitung/kt.jpg" alt="StD Dr. Kraus" style="padding-right: 80px">
+        </td>
+         <td>
+            <img src="/images/schulleitung/lt.jpg" alt="StD Linzmaier">
+        </td>
+    </tr>
+        <td style = "text-align: center; padding-right:80px">
+            StD Beer
+        </td>
+        <td style="text-align: center; padding-right:80px" >
+            StD Gelo
+        </td>
+        <td style="text-align: center; padding-right:80px">
+            StD Dr. Kraus
+        </td>
+        <td style="text-align: center">
+            StD Linzmaier
+        </td>
+    <tr>
     </tr>
 </table>

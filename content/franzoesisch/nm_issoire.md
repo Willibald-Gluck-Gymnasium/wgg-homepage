@@ -1,4 +1,5 @@
 ---
+date: 2021-12-12
 title: Gelebte Partnerschaft
 tags: [Französisch, Unterricht]
 thumbnail: 
