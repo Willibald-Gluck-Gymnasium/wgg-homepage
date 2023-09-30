@@ -33,15 +33,10 @@ thumbnail:
     </tr>
 </table>
 
-<br>
-<br>
+
+### Die Mitarbeiter des Direktorats
 
 <table style="margin:auto">
-    <tr>
-        <td style="text-align:center">
-            Die Mitarbeiter des Direktorats
-        </td>
-    </tr>
     <tr>
         <td>
             <img src="/images/schulleitung/holler.jpg" alt="StDin Holler" style="padding-right: 80px">
@@ -66,15 +61,11 @@ thumbnail:
     </tr>
 </table>
 
-<br>
-<br>
+
+### Und die Mitglieder der erweiterten Schulleitung
+
 
 <table style ="margin:auto">
-    <tr>
-    <td colspan="4" style="text-align: center">
-        Und die Mitglieder der erweiterten Schulleitung
-    </td>
-    <tr>
     <tr>
         <td>
             <img src="/images/schulleitung/bfx.jpg" alt="StD Beer" style="padding-right: 80px">
