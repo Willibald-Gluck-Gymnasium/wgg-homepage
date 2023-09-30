@@ -9,6 +9,7 @@ thumbnail:
 
 ### Die Schulleitung
 
+
 <table style="margin:auto">
     <tr>
         <td style="padding-top: 2em; text-align: center">Unser Chef</td>
@@ -37,19 +38,19 @@ thumbnail:
 
 <table style="margin:auto">
     <tr>
-        <td colspan="3" style="text-align:center">
+        <td style="text-align:center">
             Die Mitarbeiter des Direktorats
         </td>
     </tr>
     <tr>
         <td>
-            <img src="/images/schulleitung/holler.jpg" alt="StDin Holler", style="padding-right: 80px">
+            <img src="/images/schulleitung/holler.jpg" alt="StDin Holler" style="padding-right: 80px">
         </td>
         <td>
             <img src="/images/schulleitung/sachs.jpg" alt="StD Sachs" style="padding-right: 60px">
         </td>
         <td>
-            <img src="/images/schulleitung/wagenhofer.jpg" alt="OStR Wagenhofer">
+            <img src="/images/schulleitung/wagenhofer.jpg" alt="StD Wagenhofer">
         </td>
     </tr>
     <tr>
@@ -76,7 +77,7 @@ thumbnail:
     <tr>
     <tr>
         <td>
-            <img src="/images/schulleitung/bfx.jpg" alt="StD Beer", style="padding-right: 80px">
+            <img src="/images/schulleitung/bfx.jpg" alt="StD Beer" style="padding-right: 80px">
         </td>
         <td>
             <img src="/images/schulleitung/gw.jpg" alt="StD Gelo" style="padding-right: 80px">

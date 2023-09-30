@@ -13,8 +13,8 @@
 const emit = defineEmits(['closeNavMenu'])
 
 const menuItems = [
-    { text: "Sekretariat", link: "/gemeinschaft/sekretariat"},
-    { text: "Schulleitung", link: "/gemeinschaft/direktorat"},
+    { text: "Sekretariat", link: "/gemeinschaft/sekretariat" },
+    { text: "Schulleitung", link: "/gemeinschaft/direktorat" },
     { text: "Schulberatung", link: "/gemeinschaft/beratung" },
     { text: "SMV" , link: "/gemeinschaft/smv" },
     { text: "Elternbeirat", link: "/gemeinschaft/elternbeirat" },
@@ -34,6 +34,9 @@ function combineAllMenuItems(menuItems, additionalTags) {
 
     return tags.join('+')
 }
+
+
+console.log('menuItems:', menuItems);
 </script>
 
 <style lang="scss" scoped>
