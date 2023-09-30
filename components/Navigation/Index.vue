@@ -7,9 +7,8 @@ const { VsmMenu } = vueStripeMenu
 // This is to prevent the component from getting reactive, wich can cause problems
 const componentsMap = {
     NavigationFächer: resolveComponent('NavigationFächer'),
-    NavigationFürEltern: resolveComponent('NavigationFürEltern'),
-    NavigationSchule: resolveComponent("NavigationSchule"),
-    //NavigationSchulleben: resolveComponent('NavigationSchulleben'),
+    NavigationService: resolveComponent('NavigationService'),
+    NavigationSchulleben: resolveComponent('NavigationSchulleben'),
     NavigationGemeinschaft: resolveComponent('NavigationGemeinschaft'),
     NavigationProfil: resolveComponent('NavigationProfil')
     // ... 
@@ -31,13 +30,11 @@ onMounted(async () => {
 })
 
 const menu = [
-    // { title: 'Aktuelles', dropdown: 'aktuelles', component: 'comp1' },
     { title: 'Gemeinschaft', dropdown: 'gemeinschaft', component: 'NavigationGemeinschaft' },
     { title: 'Profil', dropdown: 'profil', component: 'NavigationProfil' },
-    //{ title: 'Schulleben', dropdown: 'schulleben', component: 'NavigationSchulleben' },
-    //{ title: "Schule", dropdown: "schule", component: "NavigationSchule" },
-    { title: 'Für Eltern', dropdown: 'füreltern', component: 'NavigationFürEltern' },
-    { title: 'Fächer', dropdown: 'fächer', component: 'NavigationFächer' }
+    { title: 'Service', dropdown: 'service', component: 'NavigationService' },
+    { title: 'Schulleben', dropdown: 'schulleben', component: 'NavigationSchulleben' },
+    //{ title: 'Fächer', dropdown: 'fächer', component: 'NavigationFächer' }
 ]
 
 
@@ -174,7 +171,7 @@ const menu = [
                 height: 100%;
             }
         }
-
+        
         .searchbar {
             justify-self: end;
             grid-column: 2 / span 1;
@@ -192,7 +189,7 @@ const menu = [
                 order: 3;
             }
         }
-
+        
         .vsm-menu {
             grid-column: 1 / span 2;
             opacity: 1;

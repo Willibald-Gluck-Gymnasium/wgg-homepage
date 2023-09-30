@@ -13,13 +13,16 @@
 const emit = defineEmits(['closeNavMenu'])
 
 const menuItems = [
-    { text: "Sekretariat", link: "/sekretariat"},
+    { text: "Sekretariat", link: "/gemeinschaft/sekretariat"},
     { text: "Schulleitung", link: "/gemeinschaft/direktorat"},
-    { text: "SMV" },
-    { text: "Elternbeirat" },
-    { text: "Verein der Freunde" } 
+    { text: "Schulberatung", link: "/gemeinschaft/beratung" },
+    { text: "SMV" , link: "/gemeinschaft/smv" },
+    { text: "Elternbeirat", link: "/gemeinschaft/elternbeirat" },
+    { text: "Förderverein", link: "/gemeinschaft/verein_der_freunde" },
+    { text: "Ganztagesschule", link: "/gemeinschaft/ganztagesklasse" },
+    { text: "Mensa", link: "/gemeinschaft/mensa" },
+    { text: "Ehemalige", link: "https://wgg.alumnii.de/" }
 ]
-
 function combineAllMenuItems(menuItems, additionalTags) {
     const tags = []
 

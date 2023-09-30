@@ -13,11 +13,12 @@
 const emit = defineEmits(['closeNavMenu'])
 
 const menuItems = [
-    // { text: "WGG von A bis Z", icon: '' },
-    //{ text: "Downloads" },
     { text: "Infoportal", link: "https://willigym.eltern-portal.org/"},
-    //{ text: "Bücher" },
-    //{ text: "Busse", link: "/tag/Busse" }
+    { text: "Beratung", link: "/gemeinschaft/beratung" }, 
+    { text: "Übertritt", link: "/anmeldung/anmeldung"}, 
+    { text: "Bücher", link: "/buecher/buecher_wgg"}, 
+    { text: "Videokonferenzen", link: "https://visavid.de/" }, 
+    { text: "Anfahrt", link: "/anfahrt" }
 ]
 
 function combineAllMenuItems(menuItems, additionalTags) {

@@ -1,5 +1,6 @@
 ---
 date: 2020-01-01
+hidden: true
 title: Infoportal
 tags: [Infoportal]
 published_on: '30.01.2022 19:03'
