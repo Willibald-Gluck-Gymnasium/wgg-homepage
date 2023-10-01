@@ -1,9 +1,5 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 
-import { MeiliSearch } from 'meilisearch'
-// import movies from './small_movies.json'
-
-
 const imageScaleFactor = 2
 
 export default defineNuxtConfig({
@@ -12,6 +8,12 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '@nuxt/image-edge',
   ],
+
+  nitro: {
+    prerender: {
+      routes: ['/api/indexsearch']
+    }
+  },
 
   experimental: {
     componentIslands: true
