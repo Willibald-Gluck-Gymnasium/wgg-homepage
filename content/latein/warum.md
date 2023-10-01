@@ -3,7 +3,7 @@ date: 2020-01-01
 title: Latein Warum?
 tags: [Latein, Unterricht]
 thumbnail:
-  src: latein/latein-thumbmail.jpg
+  src: latein/lateintafel.jpg
   alt: Eine Tafel mit lateinischer Aufschrift
 ---
 

@@ -1,6 +1,6 @@
 ---
 date: 2023-03-03
-title: Anmeldung am WGG
+title: Übertritt
 pinned: true
 tags: []
 redirect: '/tag/Anmeldung'

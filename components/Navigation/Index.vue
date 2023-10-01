@@ -6,10 +6,12 @@ const { VsmMenu } = vueStripeMenu
 
 // This is to prevent the component from getting reactive, wich can cause problems
 const componentsMap = {
-    NavigationUnterricht: resolveComponent('NavigationUnterricht'),
-    NavigationFürEltern: resolveComponent('NavigationFürEltern'),
-    NavigationSchulleben: resolveComponent('NavigationSchulleben')
-  // ... 
+    NavigationFächer: resolveComponent('NavigationFächer'),
+    NavigationService: resolveComponent('NavigationService'),
+    NavigationSchulleben: resolveComponent('NavigationSchulleben'),
+    NavigationGemeinschaft: resolveComponent('NavigationGemeinschaft'),
+    NavigationProfil: resolveComponent('NavigationProfil')
+    // ... 
 }
 
 const navigationMenu = ref(null)
@@ -28,10 +30,11 @@ onMounted(async () => {
 })
 
 const menu = [
-    // { title: 'Aktuelles', dropdown: 'aktuelles', component: 'comp1' },
+    { title: 'Gemeinschaft', dropdown: 'gemeinschaft', component: 'NavigationGemeinschaft' },
+    { title: 'Profil', dropdown: 'profil', component: 'NavigationProfil' },
+    { title: 'Service', dropdown: 'service', component: 'NavigationService' },
     { title: 'Schulleben', dropdown: 'schulleben', component: 'NavigationSchulleben' },
-    { title: 'Unterricht', dropdown: 'unterricht', component: 'NavigationUnterricht' },
-    { title: 'Für Eltern', dropdown: 'füreltern', component: 'NavigationFürEltern' }
+    //{ title: 'Fächer', dropdown: 'fächer', component: 'NavigationFächer' }
 ]
 
 
@@ -40,7 +43,15 @@ const menu = [
 
 <template>
     <header class="main-header-bar">
+        <div class="tel">
+            <div class = "left"></div>
+            <div class="right">
+                <a href="tel:+4991814720"> &#9742; +49 (0) 9181-472-0</a> &nbsp;&nbsp;&nbsp;
+                <a href="mailto:verwaltung@wgg-neumarkt.de"> &#128231;verwaltung@wgg-neumarkt.de</a>
+            </div>
+        </div>
         <div class="content">
+        
             <NuxtLink class="logo-link logo-with-text" to="/">
                 <school-logo-with-text class="" />
             </NuxtLink>
@@ -49,22 +60,15 @@ const menu = [
                 <school-logo />
             </NuxtLink>
 
-            <SearchBar ref="searchbar" :class="{ 'searchbar': true, 'searchbar--showResults': searchbar?.showResults}"/>
+            <SearchBar ref="searchbar" :class="{ 'searchbar': true, 'searchbar--showResults': searchbar?.showResults }" />
 
             <!-- {{ searchbar }} -->
 
             <client-only>
 
-                <vsm-menu
-                    :menu="menu"
-                    class="vsm-menu"
-                    element="div"
-                    handler="hover"
-                    align="center"
-                    ref="navigationMenu"
-                >
+                <vsm-menu :menu="menu" class="vsm-menu" element="div" handler="hover" align="center" ref="navigationMenu">
                     <template #default="{ item }">
-                        <div>
+                        <div class="menu-item">
                             <component @closeNavMenu="closeNavMenu()" :is="componentsMap[item.component]" />
                         </div>
                     </template>
@@ -78,12 +82,12 @@ const menu = [
                                     <span>{{ menuItem.title }}</span>
                                 </button>
                             </li>
-                        </ul>     
+                        </ul>
                     </nav>
                 </template>
 
             </client-only>
-        
+
         </div>
     </header>
 </template>
@@ -92,10 +96,38 @@ const menu = [
 .main-header-bar {
     color: black;
     background-color: white;
-    border-bottom: 3px solid hsl(29,100%,55%);
+    border-bottom: 3px solid hsl(29, 100%, 55%);
+    border-top: 3px solid hsl(29, 100%, 55%);
+    display: grid;
+    grid-template-rows: auto 1fr; /* First row for .tel, second row for content */
+    grid-template-columns: 1fr; /* Single column layout */
 
     $oneRowBreakPoint: 800px;
     $smallLogoBreakPoint: 500px;
+
+    .tel {
+        margin: 0 auto;
+        width: calc(100% - 20px);
+        max-width: 1080px;
+        align-items: center;
+        padding-top: 5px;
+        padding-bottom: 2px;
+        font-size: 10pt;
+
+        .left {
+            float: left;
+        }
+
+        .right {
+            float: right;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+    }
 
     .content {
         margin: 0 auto;
@@ -108,6 +140,7 @@ const menu = [
         column-gap: 20px;
         min-height: 67px;
 
+
         @media (min-width: $oneRowBreakPoint) {
             display: flex;
             justify-content: space-between;
@@ -115,7 +148,7 @@ const menu = [
 
         .logo-link {
             grid-column: 1;
-            color: inherit; 
+            color: inherit;
             text-decoration: inherit;
             display: block;
             height: min-content;
@@ -138,10 +171,11 @@ const menu = [
                 height: 100%;
             }
         }
-
-        .searchbar { 
+        
+        .searchbar {
             justify-self: end;
-            grid-column: 2;
+            grid-column: 2 / span 1;
+            width: 40%;
 
             &.searchbar--showResults {
                 grid-column: 1 / span 2;
@@ -155,7 +189,7 @@ const menu = [
                 order: 3;
             }
         }
-
+        
         .vsm-menu {
             grid-column: 1 / span 2;
             opacity: 1;
@@ -177,7 +211,7 @@ const menu = [
 .vsm-dropdown-content {
     background-color: white;
     border-radius: 20px;
-} 
+}
 
 .vsm-nav {
     height: 100%;
@@ -194,11 +228,10 @@ const menu = [
     flex: 1 1 auto;
     justify-content: center;
 
-    
 
     .vsm-link {
-        width: 30%;
-        max-width: 110px;
+        width: 50%;
+        max-width: 150px;
         padding: 0;
         color: inherit;
 
@@ -222,9 +255,11 @@ const menu = [
     .vsm-mob-show {
         display: block;
     }
+
     .vsm-mob-hide {
         display: none;
     }
+
     .vsm-mob-full {
         flex-grow: 1;
     }
@@ -248,7 +283,7 @@ const menu = [
 
     @media (min-width: 770px) {
         flex-wrap: wrap;
-        max-height: 500px;
+        max-height: 470px;
         padding-right: 0;
     }
 }

@@ -26,11 +26,11 @@ table, th, td {
 <td>Klett</td></tr>
 <tr>
 <td>Religionslehre ev.</td>
-<td>Ortswechsel 9</td>
+<td>Ortswechsel Plus 9</td>
 <td>Claudius</td></tr>
 <tr>
 <td>Ethik</td>
-<td>Forum Ethik 9</td>
+<td>Ethikos 9</td>
 <td>Klett</td></tr>
 <tr>
 <td>Deutsch</td>
@@ -38,7 +38,7 @@ table, th, td {
 <td>Cornelsen</td></tr>
 <tr>
 <td>Englisch</td>
-<td>Green Line New 5</td>
+<td>Green Line 5</td>
 <td>Klett</td></tr>
 <tr>
 <td rowspan="2">Französisch</td>
@@ -49,45 +49,43 @@ table, th, td {
 <td>Klett</td></tr>
 <tr>
 <td>Latein</td>
-<td>Legamus I</td>
-<td>Oldenbourg</td></tr>
+<td>Lesebuch Latein Mittelstufe 1</td>
+<td>Buchner</td></tr>
 <tr>
 <td>Mathematik</td>
 <td>Lambacher Schweizer 9</td>
 <td>Klett</td></tr>
 <tr>
 <td>Physik</td>
-<td>Physik 9</td>
-<td>Duden</td></tr>
+<td>Fokus Physik 9</td>
+<td>Cornelsen</td></tr>
 <tr>
 <td>Biologie</td>
-<td>Nautilus 9</td>
-<td>Oldenbourg</td></tr>
-<tr>
-<td rowspan="2">Geschichte</td>
-<td>Horizonte 9</td>
-<td>Westermann</td></tr>
-<tr>
-<td>Horizonte 9 Weimar</td>
-<td>Westermann</td></tr>
-<tr>
-<td>Chemie (NTG)</td>
-<td>Galvani Chemie 2</td>
-<td>Oldenbourg</td></tr>
-<tr>
-<td>Informatik (NTG)</td>
-<td>Informatik I</td>
-<td>Oldenbourg</td></tr>
-<tr>
-<td>Wirtschaft (NTG)</td>
-<td>Wirtschaft 1 (NTG)</td>
+<td>Biologie 9</td>
 <td>Buchner</td></tr>
 <tr>
+<td>Geschichte</td>
+<td>Forum Geschichte 9</td>
+<td>Cornelsen</td></tr>
+<tr>
+<tr>
+<td>Chemie (NTG)</td>
+<td>Galvani 9</td>
+<td>BSV</td></tr>
+<tr>
+<td>Informatik (NTG)</td>
+<td>Informatik 2</td>
+<td>Klett</td></tr>
+<tr>
+<td>Wirtschaft (NTG)</td>
+<td>Saldo - Wirtschaft und Recht</td>
+<td>Westermann</td></tr>
+<tr>
 <td>Chemie (WSW)</td>
-<td>Galvani Chemie S1 </td>
+<td>Galvani Chemie S1</td>
 <td>Oldenbourg</td></tr>
 <tr>
-<td>Sozialkunde (WSW)</td>
+<td>Politik und Gesellschaft (WSW)</td>
 <td>Politik aktuell 9</td>
 <td>Buchner</td></tr>
 <tr>

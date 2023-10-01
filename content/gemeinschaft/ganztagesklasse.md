@@ -11,8 +11,8 @@ thumbnail:
 ### Gebundene Ganztagesklasse - Informationsblatt
 
 Mehr Informationen als PDF-Dateien
-- <a href="ganztageskonzept.pdf" target="_blank">Ganztageskonzept Infobroschüre</a>
-- <a href="stundenplan.pdf" target = "_blank">Möglicher Stundenplan der 5. Jahrgangsstufe</a>
+- <a href="/documents/ganztageskonzept.pdf" target="_blank">Ganztageskonzept Infobroschüre</a>
+- <a href="/documents/stundenplan.pdf" target = "_blank">Möglicher Stundenplan der 5. Jahrgangsstufe</a>
 
 #### Sehr geehrte Eltern unserer künftigen Fünftklässler,
 
@@ -74,9 +74,4 @@ Auch der Innenbereich des WGG bietet vielfältige Möglichkeiten zur Gestaltung 
 
 <p>
   Wir freuen uns auf Ihr Kommen!
-</p>
-
-<p>
-  Bernhard Schiffer<br />
-  Oberstudiendirektor
 </p>

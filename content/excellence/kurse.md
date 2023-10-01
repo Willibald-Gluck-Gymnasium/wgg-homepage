@@ -63,7 +63,7 @@ Logos verstehen sich als Links zu weiteren Informationen):
     <tbody>
         <tr>
             <td><a href="/excellence/historyex"><img src="/images/excellence/historyex_nav.gif" alt="HistoryeX" width="70" /></a></td>
-            <td>7–8</td>
+            <td>7–9</td>
             <td>Geschichte</td>
         </tr>
         <tr>
@@ -85,6 +85,9 @@ Logos verstehen sich als Links zu weiteren Informationen):
             <td><a href="/excellence/vega"><img src="/images/excellence/vegaex_nav.gif" alt="VegaeX" width="55" /></a></td>
             <td>9–10</td>
             <td>Sozialkunde, Politik etc.</td>
+        </tr>
+        <tr>
+            <td><a href="/excellence/challengeex">ChallengeEx</a></td>
         </tr>
         <tr>
             <td style="padding-right:15px">Rhetorikseminar</td>

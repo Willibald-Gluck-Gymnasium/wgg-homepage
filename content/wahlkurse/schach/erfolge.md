@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01
 title: Erfolge
-tags: [Schach]
+tags: [Schach, Wahlkurse]
 thumbnail: 
     src: wahlkurse/schach/00_index_bg.jpg
     alt: Das WGG Schach Logo
@@ -19,7 +19,7 @@ thumbnail:
     }
 </style>
 
-Hier stehen die Erfolge, die man beim Schach am WGG erreichen kann.
+Hier stehen die Erfolge, die man beim Schach am WGG bisher erreicht wurden!
 
 <table border class="stmittig">
     <tr>
@@ -46,7 +46,7 @@ Hier stehen die Erfolge, die man beim Schach am WGG erreichen kann.
     </tr>
     <tr>
         <td class="up">Kursablauf</td>
-        <td class="up">&#189; Stunde Theorie, danach wird gespielt, denn die <b>Praxis</b> machts!</td>
+        <td class="up">&#189; Stunde Theorie, danach wird gespielt, denn die <b>PRAXIS</b> machts!</td>
     </tr>
     <tr>
         <td class="up">Abwechslung durch</td>
@@ -80,6 +80,8 @@ Hier stehen die Erfolge, die man beim Schach am WGG erreichen kann.
                 <li>Oberpfalzmeister WK III 2015</li>
                 <li>Oberpfalzmeister WK I 2018</li>
                 <li>Oberpfalzmeister WK IV 2018<br /><b>&#10148; Erfolgreichste Schule der Oberpfalz</b></li>
+                <li>Oberpfalzmeister WK IV 2019</li>
+                <li>Oberpfalzmeister WK III 2022</li>
             </ul>
         </td>
     </tr>
@@ -115,6 +117,9 @@ Hier stehen die Erfolge, die man beim Schach am WGG erreichen kann.
                 <li>2016: WK III 2. Platz</li>
                 <li>2016: WK Mädchen 3. Platz (Freiplatz)</li>
                 <li>2017: WK Mädchen 6. Platz (Freiplatz)</li>
+                <li>2019: WK I 1. Platz</li>
+                <li>2019: WK IV 6. Platz</li>
+                <li>2023: WK III 1. Platz</li>
             </ul>
         </td>
     </tr>
@@ -130,7 +135,23 @@ Hier stehen die Erfolge, die man beim Schach am WGG erreichen kann.
                 <li>2007 Kiel: 7. Platz</li>
                 <li>2008 Verden: 3. Platz </li>
                 <li>2009 Bad Homburg: 5. Platz </li>
+                <li>2023 Kassel: 6. Platz</li>
             </ul>
         </td>    
     </tr>
+    <tr>
+        <td class="up">
+            Frühere Erfolge:
+        </td>
+        <td>
+            <ul>
+                <li>1985: Bayerischer Meister WK III</li>
+                <li>1985: Deutsche Meisterschaften Usingen - 4.Platz </li>
+                <li>1990: <b>&#10148; Erfolgreichste Schule der Oberpfalz</b></li>
+            </ul>
+        </td>    
+    </tr>
+
 </table>
+
+Stand: Mai 2023

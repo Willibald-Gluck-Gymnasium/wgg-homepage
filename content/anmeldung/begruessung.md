@@ -1,5 +1,6 @@
 ---
 date: 2023-03-20
+hidden: true
 title: Begrüßung
 tags: [Anmeldung]
 thumbnail: 

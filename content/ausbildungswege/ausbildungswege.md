@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01
 title: Ausbildungsrichtungen am Willibald-Gluck-Gymnasium
-tags: [Ausbildung, Ausbildungsrichtung, Zweige, Zweigwahl, NTG Zweig, WWG Zweig]
+tags: [Ausbildung, Ausbildungswege, Zweige, Zweigwahl, NTG Zweig, WWG Zweig]
 thumbnail: 
     src: 'ausbildungswege/ausbildungswege.jpg'
     alt: 'Verzweigte Eisenbahnstreck, symbolisiert die Zweigwahl'

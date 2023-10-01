@@ -1,7 +1,7 @@
 <template>
     <div class="container">
 
-        <NavigationMenuItem element="h4" @click="emit('closeNavMenu')" text="Überblick" :link="`/tag/${combineAllMenuItems(menuItems, ['Für Eltern'])}`"/>
+        <!--<NavigationMenuItem element="h4" @click="emit('closeNavMenu')" text="Überblick" :link="`/tag/${combineAllMenuItems(menuItems, ['Für Eltern'])}`"/>-->
 
         <NavigationMenuItem @click="emit('closeNavMenu')" v-for="menuItem in menuItems" :link="menuItem.link || `/tag/${menuItem.text}`" :text="menuItem.text"/>
 
@@ -13,13 +13,16 @@
 const emit = defineEmits(['closeNavMenu'])
 
 const menuItems = [
-    // { text: "WGG von A bis Z", icon: '' },
-    { text: "Downloads" },
-    { text: "Infoportal" },
-    { text: "Bücher" },
-    { text: "Busse", link: "/tag/Busse" }
+    { text: "Sekretariat", link: "/gemeinschaft/sekretariat" },
+    { text: "Schulleitung", link: "/gemeinschaft/direktorat" },
+    { text: "Schulberatung", link: "/gemeinschaft/beratung" },
+    { text: "SMV" , link: "/gemeinschaft/smv" },
+    { text: "Elternbeirat", link: "/gemeinschaft/elternbeirat" },
+    { text: "Förderverein", link: "/gemeinschaft/verein_der_freunde" },
+    { text: "Ganztagesschule", link: "/gemeinschaft/ganztagesklasse" },
+    { text: "Mensa", link: "/gemeinschaft/mensa" },
+    { text: "Ehemalige", link: "https://wgg.alumnii.de/" }
 ]
-
 function combineAllMenuItems(menuItems, additionalTags) {
     const tags = []
 
@@ -31,6 +34,9 @@ function combineAllMenuItems(menuItems, additionalTags) {
 
     return tags.join('+')
 }
+
+
+console.log('menuItems:', menuItems);
 </script>
 
 <style lang="scss" scoped>
