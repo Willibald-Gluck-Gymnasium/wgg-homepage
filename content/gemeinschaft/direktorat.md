@@ -33,8 +33,7 @@ thumbnail:
     </tr>
 </table>
 
-
-### Die Mitarbeiter des Direktorats
+###D ie Mitarbeiter des Direktorats
 
 <table style="margin:auto">
     <tr>
@@ -61,9 +60,7 @@ thumbnail:
     </tr>
 </table>
 
-
 ### Und die Mitglieder der erweiterten Schulleitung
-
 
 <table style ="margin:auto">
     <tr>
