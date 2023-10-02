@@ -3,11 +3,13 @@ date: 2020-01-01
 title: Der Elternbeirat am WGG
 tags: [Schulteam, Gemeinschaft, Elternbeirat]
 thumbnail: 
-    src: elternbeirat/gruppenbild.jpg
+    src: elternbeirat/gruppenbild2324.jpg
     alt: Gruppenbild des aktuellen Elternbeirats
 ---
 
 Im Folgenden finden sich Informationen rund um den Elternbeirat des WGG
+
+![Gruppenbild Elternbeirat](/images/elternbeirat/gruppenbild2324.jpg)
 
 ## Allgemeine Informationen
 
@@ -18,8 +20,6 @@ Beteiligten wollen eine gute Schule. Eine Schule, in der man sich wohl fühlt, d
 Viele der Ziele des Gluck-Codex können aber nur mit einer vertrauensvollen Zusammenarbeit und Partnerschaft zwischen Elternhaus und Schule erreicht werden. Der Elternbeirat des Willibald-Gluck-Gymnasiums möchte alle Eltern ermutigen, sich in der Schule zu engagieren und sich an der Arbeit der Elternvertretungen zu beteiligen.
 
 Wir als Elternbeirat – zusammen mit den Klassenelternsprechern und mit Ihnen als Eltern – wollen in diese Partnerschaft mit der Schule die Sicht der Dinge aus der Elternperspektive einbringen und die Schule bei ihren vielfältigen Aufgaben beraten und unterstützen und durch Anregungen ihre Weiterentwicklung fördern. Dabei hat der Elternbeirat regelmäßig die kollektiven Rechte der Eltern gegenüber der Schule, den Schulbehörden und der Öffentlichkeit zu vertreten. Außerdem unterstützt er die Eltern auf Wunsch auch bei der Klärung individueller Probleme.
-
-Der Elternbeirat empfiehlt den Eltern den <a href="">Newsletter der Schulleitung - Link noch tot!</a> zu abonnieren.
 
 Bitte informieren Sie sich über die Arbeit des Elternbeirates auf den nachfolgenden Seiten, damit wir gemeinsam im Interesse Ihrer und unserer Kinder und in Zusammenarbeit mit der Schule die bestmögliche Grundlage für ein erfolgreiches Wirken schaffen.
 
@@ -87,7 +87,7 @@ Vorschläge für Wanderziele in <a href = "/gemeinschaft/wanderziele_neumarkt">N
 ## Projekte
 
 #### Infomappe
-<a href="/documents/infomappe.pdf" target="_blank">Infomappe (einige MB)</a> hat der Elternbeirat einen kleinen Leitfaden erstellt mit Wissenswertem rund um das Schulleben am WGG. Die Infomappe soll den Einstieg in die Schule erleichtern und kann als Nachschlagewerk von der 5. Klasse bis zum Abitur dienen. Wenn Sie Vorschläge haben, wie unsere Mappe weiter ausgebaut und verbessert werden könnte, freuen wir uns über Ihr Feedback via <a href="mailto:elternbeirat@wgg-neumarkt.de">Mail</a>.
+Mit der <a href="/documents/infomappe.pdf" target="_blank">Infomappe (einige MB)</a> hat der Elternbeirat einen kleinen Leitfaden erstellt mit Wissenswertem rund um das Schulleben am WGG. Die Infomappe soll den Einstieg in die Schule erleichtern und kann als Nachschlagewerk von der 5. Klasse bis zum Abitur dienen. Wenn Sie Vorschläge haben, wie unsere Mappe weiter ausgebaut und verbessert werden könnte, freuen wir uns über Ihr Feedback via <a href="mailto:elternbeirat@wgg-neumarkt.de">Mail</a>.
 
 #### Wandertage
 Der Elternbeirat des WGG hat viele attraktive Ziele und Vorschläge zusammengestellt, um den Wandertag für Schüler sowie auch für Lehrer interessanter und abwechslungsreicher zu gestalten.
