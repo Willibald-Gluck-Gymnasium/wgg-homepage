@@ -1,8 +1,8 @@
 ---
 date: 2020-01-01
+hidden: true
 title: Infoportal
 tags: [Infoportal]
-author: 'Bernhard Schiffer'
 published_on: '30.01.2022 19:03'
 thumbnail: 
     src: infoportal-login.jpg

@@ -37,7 +37,7 @@ table, th, td {
     </tr>
     <tr>
         <td>Ethik</td>
-        <td>ethikos 5</td>
+        <td>Ethikos 5</td>
         <td>Oldenbourg</td>
     </tr>
     <tr>

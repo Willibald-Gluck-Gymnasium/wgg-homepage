@@ -1,7 +1,6 @@
 ---
 date: 2020-01-01
 title: Einführungsklasse am WGG
-pinned: true
 tags: [Gemeinschaft, Schulprofil]
 thumbnail: 
     src: gemeinschaft/einfuehrungsklasse_wgg.jpg

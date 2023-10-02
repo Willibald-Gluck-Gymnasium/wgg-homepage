@@ -9,7 +9,7 @@ thumbnail:
 
 Liebe Eltern,
 
-uns ist bewusst, dass der Anmeldeprozess, den wir ja ansonsten an der Schule durchführen, online nicht ganz unkompliziert ist. Wir haben, um Ihnen die Anmeldung leichter zu machen, einerseits die folgende Anleitung, andererseits eine <a href="/anmeldung/checkliste">Checkliste zum Abhaken</a> erstellt. Sollten Sie dennoch Schwierigkeiten haben, dürfen Sie uns gerne telefonisch kontaktieren.
+wir haben, um Ihnen die Anmeldung leichter zu machen, einerseits die folgende Anleitung, andererseits eine <a href="/anmeldung/checkliste">Checkliste zum Abhaken</a> erstellt. Sollten Sie dennoch Schwierigkeiten haben, dürfen Sie uns gerne telefonisch kontaktieren.
 
 - Führen Sie zunächst die <a href = "http://www.schulantrag.de/?sch=0223" target = "_blank">**Onlineanmeldung**</a> durch. Sie erzeugen dabei folgende Formulare:
     - einen Schülererfassungsbogen,
