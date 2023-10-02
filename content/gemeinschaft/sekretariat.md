@@ -14,7 +14,7 @@ Sie erreichen das Sekretariat unter **+49 (0) 9181-472-0** oder per Mail unter *
 - Frau Schertel
 - Frau Diedrich
 - Frau Jaspers
-- Frau Obermayer
+- Frau Obermeier
 - Frau Karl (Oberstufe)
 - Frau Blomenhofer (Bibliothek)
 
@@ -22,7 +22,7 @@ Um die gesetzlich vorgeschriebenen Pausenzeiten einzuhalten, bitten wir um Verst
 
 **Öffnungszeiten**
 
-**Montag bis Donnerstag:** 7.45 - 13.30 und 14:00 - 16:30
+**Montag bis Donnerstag:** 7.45 - 13.30 und 14:30 - 16:30
 
 **Freitag:** 7:45 - 14:00
 
