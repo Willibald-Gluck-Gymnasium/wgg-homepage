@@ -4,6 +4,6 @@ title: Wirtschaftsinformatik
 redirect: '/wirtschaft/wirtschaftsinformatik'
 tags: [Fächer]
 thumbnail: 
-    src: wirtschaft/wr-fach.jpg
+    src: wirtschaft/titelbild_wrinfo.png
     alt: Stockphoto mit verschiedenen Wirtschaftssymbolen
 ---

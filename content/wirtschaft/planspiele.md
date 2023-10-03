@@ -1,6 +1,7 @@
 ---
 date: 2022-01-01
 title: Planspiele
+expireOn: 2023-01-01
 tags: [Wirtschaft und Recht, Unterricht]
 thumbnail:
     src: wirtschaft/planspiele.jpg

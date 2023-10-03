@@ -1,5 +1,6 @@
 ---
 date: 2020-01-01
+expireOn: 2023-01-01
 title: Das neue Fach „Wirtschaft und Recht“
 tags: [Wirtschaft und Recht, Unterricht]
 thumbnail:

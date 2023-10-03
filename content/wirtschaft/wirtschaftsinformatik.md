@@ -1,5 +1,6 @@
 ---
 date: 2022-01-01
+expireOn: 2023-01-01
 title: Wirtschaftsinformatik - ein neues Fach!
 tags: [Wirtschaft und Recht, Unterricht, Wirtschaftsinformatik]
 thumbnail:
