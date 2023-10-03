@@ -1,6 +1,5 @@
 ---
 date: 2023-02-13
-expireOn: 2024-31-12
 title: Unternehmensgründung im P-Seminar
 tags: [Wirtschaft und Recht]
 thumbnail:

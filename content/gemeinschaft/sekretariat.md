@@ -11,14 +11,30 @@ Sie erreichen das Sekretariat unter **+49 (0) 9181-472-0** oder per Mail unter *
 
 **Unsere Sekretärinnen**
 
-- Frau Schertel
-- Frau Diedrich
-- Frau Jaspers
-- Frau Obermeier
-- Frau Karl (Oberstufe)
-- Frau Blomenhofer (Bibliothek)
+<table>
+<tr>
+    <td><img src = "images/sekretariat/schertel.jpg" style="padding-right: 2px"></td>
+    <td><img src = "images/sekretariat/diedrich.jpg" style="padding-right: 2px;width:99%"></td>
+    <td><img src = "images/sekretariat/jaspers.jpg" style="width:97%"></td>
+</tr>
+<tr>
+    <td style = "text-align: center" >Frau Schertel</td>
+    <td style = "text-align: center">Frau Diedrich</td>
+    <td style = "text-align: center">Frau Jaspers</td>
+</tr>
+<tr>
+    <td><img src = "images/sekretariat/obermeier.jpg" ></td>
+    <td><img src = "images/sekretariat/karl.jpg" ></td>
+    <td><img src = "images/sekretariat/blomenhofer.jpg" ></td>
+</tr>
+<tr>
+    <td style = "text-align: center" style ="padding-right: 5px">Frau Obermeier</td>
+    <td style = "text-align: center" style="padding-right: 5px;width:99%">Frau Karl (Oberstufe)</td>
+    <td style = "text-align: center" style="width:95%">Frau Blomenhofer (Bibliothek)</td>
+</tr>
+</table>
 
-Um die gesetzlich vorgeschriebenen Pausenzeiten einzuhalten, bitten wir um Verständnis dafür, dass das Sekretariat zwischen 13.30 Uhr und 14.00 Uhr keine Anrufe entgegennimmt - vielen Dank.
+Um die gesetzlich vorgeschriebenen Pausenzeiten einzuhalten, bitten wir um Verständnis dafür, dass das Sekretariat zwischen 13.30 Uhr und 14.30 Uhr keine Anrufe entgegennimmt - vielen Dank.
 
 **Öffnungszeiten**
 

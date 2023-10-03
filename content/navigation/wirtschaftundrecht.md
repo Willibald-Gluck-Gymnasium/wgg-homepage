@@ -4,6 +4,6 @@ title: Wirtschaft und Recht
 redirect: '/tag/Wirtschaft und Recht'
 tags: [Fächer]
 thumbnail: 
-    src: wirtschaft/wr-fach.jpg
+    src: wirtschaft/titelbild_wr.jpg
     alt: Stockphoto mit verschiedenen Wirtschaftssymbolen
 ---

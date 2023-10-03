@@ -1,6 +1,6 @@
 ---
 date: 2022-01-01
-expireOn: 2024-12-31
+expireOn: 2023-01-01
 title: Fachsitzung
 tags: [Wirtschaft und Recht, Fachsitzung]
 thumbnail:
