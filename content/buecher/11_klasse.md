@@ -102,8 +102,8 @@ table, th, td {
         </tr>
         <tr>
             <td>Spanisch</td>
-            <td>"Vale vale 1</td>
-            <td> Buchner</td>
+            <td>A_tope.com, Ausgabe B, Band 1</td>
+            <td>Cornelsen</td>
         </tr>
         <tr>
             <td>Wirtschaftsinformatik</td>

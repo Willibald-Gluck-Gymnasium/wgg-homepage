@@ -1,19 +1,17 @@
 ---
 date: 2020-01-01
-title: Das Direktorat des WGG
+title: Die Schulleitung des WGG
 tags: [Gemeinschaft, Schulleitung]
 thumbnail: 
     src: gemeinschaft/akten.jpg
     alt: Stockphoto - Aktenreihen
 ---
 
-### Die Schulleitung
-
 
 <table style="margin:auto">
     <tr>
-        <td style="padding-top: 2em; text-align: center">Unser Chef</td>
-        <td style="padding-top: 2em;padding-left: 20px;text-align:center">seine Stellvertreterin</td>
+        <td style="padding-top: 2em; text-align: center">Schulleiter</td>
+        <td style="padding-top: 2em;padding-left: 20px;text-align:center">Stellvertreterin des SL</td>
     </tr>
     <tr>
         <td>
@@ -25,15 +23,17 @@ thumbnail:
     </tr>
     <tr>
         <td style="text-align: center">
-           OStD Frank Fiedler
+           Frank Fiedler
         </td>
         <td style = "text-align: center">
-            StDin Dr. Susanne Kleinöder-Strobel
+            Dr. Susanne Kleinöder-Strobel
         </td>
     </tr>
 </table>
-
-###D ie Mitarbeiter des Direktorats
+<br>
+<p align="center">
+ <strong>Mitarbeiter in der Schulleitung</strong>
+</p>
 
 <table style="margin:auto">
     <tr>
@@ -48,19 +48,22 @@ thumbnail:
         </td>
     </tr>
     <tr>
-        <td style = "text-align: center; padding-right:60px">
-            StDin Doris Holler
+        <td style = "text-align: center; padding-right:80px">
+            Doris Holler
         </td>
         <td style="text-align: center; padding-right:60px" >
-            StD Martin Sachs
+            Martin Sachs
         </td>
         <td style="text-align: center">
-            StD Gunther Wagenhofer
+            Gunther Wagenhofer
         </td>
     </tr>
 </table>
 
-### Und die Mitglieder der erweiterten Schulleitung
+<br>
+<p align="center">
+ <strong>Erweiterte Schulleitung</strong>
+</p>
 
 <table style ="margin:auto">
     <tr>
@@ -78,16 +81,16 @@ thumbnail:
         </td>
     </tr>
         <td style = "text-align: center; padding-right:80px">
-            StD Beer
+            Franz Xaver Beer
         </td>
         <td style="text-align: center; padding-right:80px" >
-            StD Gelo
+            Wilfried Gelo
         </td>
         <td style="text-align: center; padding-right:80px">
-            StD Dr. Kraus
+            Dr. Thomas Kraus
         </td>
         <td style="text-align: center">
-            StD Linzmaier
+            Tobias Linzmaier
         </td>
     <tr>
     </tr>

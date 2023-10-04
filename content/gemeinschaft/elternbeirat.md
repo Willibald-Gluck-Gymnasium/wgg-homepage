@@ -11,6 +11,8 @@ Im Folgenden finden sich Informationen rund um den Elternbeirat des WGG
 
 ![Gruppenbild Elternbeirat](/images/elternbeirat/gruppenbild2324.jpg)
 
+Der Elternbeirat mit der Vorsitzenden **Gerlinde Sturm** und der stellvertretenden Vorsitzenden **Silvia Wanka**.
+
 ## Allgemeine Informationen
 
 Die Zusammenarbeit von Elternhaus und Schule ist für die Zukunft der
@@ -124,85 +126,4 @@ Ein Ziel des EB ist, es, dass in allen Klassen Klassenelternsprecher gewählt we
 #### Tag der offenen Tür
 An einem Infostand bietet sich die Gelegenheit zum Gespräch mit dem Elternbeirat.
 
-## Mitglieder
-Die aktuellen Mitglieder des Elternbeirats
-
-
-<table style="margin:auto;border-collapse:separate;border-spacing:50px">
-    <tr>
-        <td><img width="140px" src="/images/elternbeirat/gsturm.jpg" alt="Elternbeirat" /></td>
-        <td>
-            <b>Gerlinde Sturm</b><br> Erste Vorsitzende
-        </td>
-        <td><img width="140px" src="/images/elternbeirat/swanka.jpg" alt="Elternbeirat" /></td>
-        <td>
-            <b>Silvia Wanka</b><br> Zweite Vorsitzende
-        </td>
-    </tr>
-    <tr>
-        <td><img width="140px" src="/images/elternbeirat/mmossburger.jpg" alt="Elternbeirat" /></td>
-        <td>
-            <b>Martin Moßburger</b><br>Kasse und Buchführung
-        </td>
-        <td><img width="140px" src="/images/elternbeirat/kwolf.jpg" alt="Elternbeirat" /></td>
-        <td>
-            <b>Katja Wolf <br> Schriftführerin</b>
-        </td>
-    </tr>
-    <tr>
-        <td><img width="140px" src="/images/elternbeirat/sbuchner.jpg" alt="Elternbeirat" /></td>
-        <td>
-            <b>Susanne Buchner <br> Schriftführerin</b>
-        </td>
-        <td><img width="140px" src="/images/elternbeirat/tkinn.jpg" alt="Elternbeirat" /></td>
-        <td>
-            <b>Thomas Kinn</b>
-        </td>
-    </tr>
-    <tr>
-        <td><img width="140px" src="/images/elternbeirat/ahollweck.jpg" alt="Elternbeirat" /></td>
-        <td>
-            <b>Anja Hollweck</b>
-        </td>
-        <td><img width="140px" src="/images/elternbeirat/nfeldberger.jpg" alt="Elternbeirat" /></td>
-        <td>
-            <b>Nicole Feldberger</b>
-        </td>
-    </tr>
-    <tr>
-        <td><img width="140px" src="/images/elternbeirat/tpartenheimer.jpg" alt="Elternbeirat" /></td>
-        <td>
-            <b>Torsten Partenheimer</b>
-        </td>
-        <td><img width="140px" src="/images/elternbeirat/awill.jpg" alt="Elternbeirat" /></td>
-        <td>
-            <b>Andrea Will</b>
-        </td>
-    </tr>
-    <tr>
-        <td><img width="140px" src="/images/elternbeirat/sseifert.jpg" alt="Elternbeirat" /></td>
-        <td>
-            <b>Dr. Sibylle Seifert</b>
-        </td>
-        <td><img width="140px" src="/images/elternbeirat/sschmitt.jpg" alt="Elternbeirat" /></td>
-        <td>
-            <b>Sabine Schmitt <br> Beisitzerin</b>
-        </td>
-    </tr>
-    <tr>
-        <td><img width="140px" src="/images/elternbeirat/mgrote.jpg" alt="Elternbeirat" /></td>
-        <td>
-            <b>Martina Grote <br> Beisitzerin</b>
-        </td>
-        <td><img width="140px" src="/images/elternbeirat/agross.jpg" alt="Elternbeirat" /></td>
-        <td>
-            <b>Anastasia Gross <br> Beisitzerin</b>
-        </td>
-    </tr>
-    <tr>
-        <td><img width="140px" src="/images/elternbeirat/mbandele.jpg" alt="Elternbeirat" /></td>
-        <td>
-            <b>Margarete Bandele<br> Beisitzerin</b>
-        </td>
-    </tr>
 </table>
