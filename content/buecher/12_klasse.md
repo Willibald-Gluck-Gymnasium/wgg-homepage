@@ -131,11 +131,6 @@ table, th, td {
             <td>Weineck</td>
         </tr>
         <tr>
-            <td rowspan="2">Spanisch</td>
-            <td>"Vale vale 2</td>
-            <td> Buchner</td>
-        </tr>
-        <tr>
             <td>Adalante</td>
             <td> Klett </td>
         </tr>
