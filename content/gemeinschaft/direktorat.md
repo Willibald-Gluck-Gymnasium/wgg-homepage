@@ -7,91 +7,84 @@ thumbnail:
     alt: Stockphoto - Aktenreihen
 ---
 
-
-<table style="margin:auto">
+<table>
     <tr>
-        <td style="padding-top: 2em; text-align: center">Schulleiter</td>
-        <td style="padding-top: 2em;padding-left: 20px;text-align:center">Stellvertreterin des SL</td>
+        <td colspan="2"></td>
+        <td colspan = "2" style="text-align:center">Schulleiter</td>
+        <td colspan="2" style="text-align:center">Stellvertreterin des SL</td>
+        <td colspan="2"></td>
     </tr>
     <tr>
-        <td>
-              <img src="/images/schulleitung/Fiedler.jpg" alt="OStD Fiedler" style = "width: 180px">
+        <td colspan="2"></td>
+        <td colspan="2">
+            <img src="/images/schulleitung/Fiedler.jpg" alt="OStD Fiedler">
         </td>
-        <td>
-            <img src="/images/schulleitung/kleinoeder.jpg" alt="StDin Kleinöder-Strobel" style = "width: 180px">
+        <td colspan="2">
+            <img src="/images/schulleitung/kleinoeder.jpg" alt="StDin Kleinöder-Strobel">
         </td>
+        <td colspan="2"></td>
     </tr>
     <tr>
-        <td style="text-align: center">
-           Frank Fiedler
-        </td>
-        <td style = "text-align: center">
-            Dr. Susanne Kleinöder-Strobel
-        </td>
+        <td colspan="2"></td> 
+        <td colspan="2" style="text-align:center">Frank Fiedler</td>
+        <td colspan="2" style="text-align:center">Dr. Susanne Kleinöder-Strobel</td>
+        <td colspan="2"></td>
     </tr>
-</table>
-<br>
-<p align="center">
- <strong>Mitarbeiter in der Schulleitung</strong>
-</p>
-
-<table style="margin:auto">
     <tr>
-        <td>
-            <img src="/images/schulleitung/holler.jpg" alt="StDin Holler" style="padding-right: 80px">
+        <td colspan="8" style="text-align: center"><strong>Mitarbeiter in der Schulleitung</strong></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td colspan="2">
+            <img src="/images/schulleitung/holler.jpg" alt="StDin Holler">
         </td>
-        <td>
-            <img src="/images/schulleitung/sachs.jpg" alt="StD Sachs" style="padding-right: 60px">
+        <td colspan="2">
+            <img src="/images/schulleitung/sachs.jpg" alt="StD Sachs">
         </td>
-        <td>
+        <td colspan="2">
             <img src="/images/schulleitung/wagenhofer.jpg" alt="StD Wagenhofer">
         </td>
+        <td></td>
     </tr>
     <tr>
-        <td style = "text-align: center; padding-right:80px">
-            Doris Holler
-        </td>
-        <td style="text-align: center; padding-right:60px" >
-            Martin Sachs
-        </td>
-        <td style="text-align: center">
-            Gunther Wagenhofer
-        </td>
+        <td></td>
+        <td colspan="2" style="text-align:center">Doris Holler</td>
+        <td colspan="2" style="text-align:center">Martin Sachs</td>
+        <td colspan="2" style="text-align:center">Gunther Wagenhofer</td>
+        <td></td>
     </tr>
-</table>
-
-<br>
-<p align="center">
- <strong>Erweiterte Schulleitung</strong>
-</p>
-
-<table style ="margin:auto">
     <tr>
-        <td>
-            <img src="/images/schulleitung/bfx.jpg" alt="StD Beer" style="padding-right: 80px">
+        <td colspan="8" style="text-align: center"><strong>Erweiterte Schulleitung</strong></td>
+    </tr>
+        <tr>
+        <td colspan="2">
+            <img src="/images/schulleitung/bfx.jpg" alt="StD Beer">
         </td>
-        <td>
-            <img src="/images/schulleitung/gw.jpg" alt="StD Gelo" style="padding-right: 80px">
+        <td colspan="2">
+            <img src="/images/schulleitung/gw.jpg" alt="StD Gelo">
         </td>
-        <td>
-            <img src="/images/schulleitung/kt.jpg" alt="StD Dr. Kraus" style="padding-right: 80px">
+        <td colspan="2">
+            <img src="/images/schulleitung/kt.jpg" alt="StD Dr. Kraus">
         </td>
-         <td>
+        <td colspan="2">
             <img src="/images/schulleitung/lt.jpg" alt="StD Linzmaier">
         </td>
     </tr>
-        <td style = "text-align: center; padding-right:80px">
-            Franz Xaver Beer
-        </td>
-        <td style="text-align: center; padding-right:80px" >
-            Wilfried Gelo
-        </td>
-        <td style="text-align: center; padding-right:80px">
-            Dr. Thomas Kraus
-        </td>
-        <td style="text-align: center">
-            Tobias Linzmaier
-        </td>
     <tr>
+        <td colspan="2" style="text-align:center">Franz Xaver Beer</td>
+        <td colspan="2" style="text-align:center">Wilfried Gelo</td>
+        <td colspan="2" style="text-align:center">Dr. Thomas Kraus</td>
+        <td colspan="2" style="text-align:center">Tobias Linzmaier</td>
     </tr>
 </table>
+
+<style>
+table {
+  width: 100%;
+}
+
+table td {
+  width: 12.5%; 
+  padding: 8px; 
+}
+</style>
