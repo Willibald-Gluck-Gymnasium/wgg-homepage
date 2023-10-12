@@ -7,84 +7,98 @@ thumbnail:
     alt: Stockphoto - Aktenreihen
 ---
 
-<table>
-    <tr>
-        <td colspan="2"></td>
-        <td colspan = "2" style="text-align:center">Schulleiter</td>
-        <td colspan="2" style="text-align:center">Stellvertreterin des SL</td>
-        <td colspan="2"></td>
-    </tr>
-    <tr>
-        <td colspan="2"></td>
-        <td colspan="2">
-            <img src="/images/schulleitung/Fiedler.jpg" alt="OStD Fiedler">
-        </td>
-        <td colspan="2">
-            <img src="/images/schulleitung/kleinoeder.jpg" alt="StDin Kleinöder-Strobel">
-        </td>
-        <td colspan="2"></td>
-    </tr>
-    <tr>
-        <td colspan="2"></td> 
-        <td colspan="2" style="text-align:center">Frank Fiedler</td>
-        <td colspan="2" style="text-align:center">Dr. Susanne Kleinöder-Strobel</td>
-        <td colspan="2"></td>
-    </tr>
-    <tr>
-        <td colspan="8" style="text-align: center"><strong>Mitarbeiter in der Schulleitung</strong></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td colspan="2">
-            <img src="/images/schulleitung/holler.jpg" alt="StDin Holler">
-        </td>
-        <td colspan="2">
-            <img src="/images/schulleitung/sachs.jpg" alt="StD Sachs">
-        </td>
-        <td colspan="2">
-            <img src="/images/schulleitung/wagenhofer.jpg" alt="StD Wagenhofer">
-        </td>
-        <td></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td colspan="2" style="text-align:center">Doris Holler</td>
-        <td colspan="2" style="text-align:center">Martin Sachs</td>
-        <td colspan="2" style="text-align:center">Gunther Wagenhofer</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td colspan="8" style="text-align: center"><strong>Erweiterte Schulleitung</strong></td>
-    </tr>
-        <tr>
-        <td colspan="2">
-            <img src="/images/schulleitung/bfx.jpg" alt="StD Beer">
-        </td>
-        <td colspan="2">
-            <img src="/images/schulleitung/gw.jpg" alt="StD Gelo">
-        </td>
-        <td colspan="2">
-            <img src="/images/schulleitung/kt.jpg" alt="StD Dr. Kraus">
-        </td>
-        <td colspan="2">
-            <img src="/images/schulleitung/lt.jpg" alt="StD Linzmaier">
-        </td>
-    </tr>
-    <tr>
-        <td colspan="2" style="text-align:center">Franz Xaver Beer</td>
-        <td colspan="2" style="text-align:center">Wilfried Gelo</td>
-        <td colspan="2" style="text-align:center">Dr. Thomas Kraus</td>
-        <td colspan="2" style="text-align:center">Tobias Linzmaier</td>
-    </tr>
-</table>
+<!-- Schulleiter and Stellvertreterin -->
+<div class="row">
+    <div class="person">
+        <div class="title">Schulleiter</div>
+        <img src="/images/schulleitung/Fiedler.jpg" alt="OStD Fiedler">
+        <div class="name">Frank Fiedler</div>
+    </div>
+    <div class="person">
+        <div class="title">Stellvertreterin des SL</div>
+        <img src="/images/schulleitung/kleinoeder.jpg" alt="StDin Kleinöder-Strobel">
+        <div class="name">Dr. Susanne Kleinöder-Strobel</div>
+    </div>
+</div>
+
+<h3>Mitarbeiter in der Schulleitung</h3>
+
+<div class="row">
+    <div class="person">
+        <img src="/images/schulleitung/holler.jpg" alt="StDin Holler">
+        <div class="name">Doris Holler</div>
+    </div>
+    <div class="person">
+        <img src="/images/schulleitung/sachs.jpg" alt="StD Sachs">
+        <div class="name">Martin Sachs</div>
+    </div>
+    <div class="person">
+        <img src="/images/schulleitung/wagenhofer.jpg" alt="StD Wagenhofer">
+        <div class="name">Gunther Wagenhofer</div>
+    </div>
+</div>
+
+<h3>Erweiterte Schulleitung</h3>
+
+<div class="row">
+    <div class="person">
+        <img src="/images/schulleitung/bfx.jpg" alt="StD Beer">
+        <div class="name">Franz Xaver Beer</div>
+    </div>
+    <div class="person">
+        <img src="/images/schulleitung/gw.jpg" alt="StD Gelo">
+        <div class="name">Wilfried Gelo</div>
+    </div>
+    <div class="person">
+        <img src="/images/schulleitung/kt.jpg" alt="StD Dr. Kraus">
+        <div class="name">Dr. Thomas Kraus</div>
+    </div>
+    <div class="person">
+        <img src="/images/schulleitung/lt.jpg" alt="StD Linzmaier">
+        <div class="name">Tobias Linzmaier</div>
+    </div>
+</div>
 
 <style>
-table {
-  width: 100%;
-}
+    h3 {
+        text-align: center;
+        margin: 1rem 0;
+    }
 
-table td {
-  width: 12.5%; 
-  padding: 8px; 
-}
+    .row {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .person {
+        width: 180px;
+        display: grid;
+        grid-template-rows: 3rem 180px 3rem; /* title, image, name structure */
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .row > .person > .title {
+        grid-row: 1;
+    }
+        
+
+    .row > .person > img {
+        grid-row: 2;
+        margin: 0;
+        width: 100%;
+        max-width: 180px;
+        height: auto;
+        margin 0
+    }
+
+    .row > .person > .name {
+        grid-row: 3;
+    }
+
+    .title, .name {
+        margin: 0;
+    }
 </style>
