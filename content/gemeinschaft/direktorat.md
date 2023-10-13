@@ -74,14 +74,15 @@ thumbnail:
 
     .person {
         width: 180px;
-        display: grid;
-        grid-template-rows: 3rem 180px 3rem; /* title, image, name structure */
+        display: flex;
+        flex-direction: column;
         gap: 1rem;
         text-align: center;
     }
 
     .row > .person > .title {
         grid-row: 1;
+        height: 3rem;
     }
         
 
