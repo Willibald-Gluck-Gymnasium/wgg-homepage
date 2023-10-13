@@ -7,5 +7,5 @@ thumbnail:
     alt: Das Logo der Profilschulen für Informatik und Zukunftstechnologien.
 ---
 
-![Das Logo für Profilschulen für Informatik und Zukunftstechnologien](images/piz-logo.png)
-<img src = "/images/maintenance.jpg">
+<img src="/images/piz-logo.png" alt="Das Logo für Profilschulen für Informatik und Zukunftstechnologien" format="png">
+<img src="/images/maintenance.jpg">
