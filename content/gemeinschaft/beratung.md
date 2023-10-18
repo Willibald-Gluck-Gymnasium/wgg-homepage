@@ -7,6 +7,8 @@ thumbnail:
     alt: Stockphoto - Darstellung von Emotionen mit Hilfe von Smiley-Bällen
 ---
 
+Neben den folgenden Angeboten besteht seit einiger Zeit auch die Möglichkeit einer externen <a href="/gemeinschaft/schulmediation">Schulmediation</a>. 
+
 Für die Beratung in Fragen der Wahl der Ausbildungsrichtung, der Schullaufbahn, des Übertritts an eine andere Schule,
 der anzustrebenden Abschlüsse wie auch bei Lern- und Leistungsschwierigkeiten und Verhaltensauffälligkeiten stehen Ihnen zur Verfügung
 

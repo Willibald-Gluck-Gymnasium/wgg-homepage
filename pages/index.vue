@@ -2,9 +2,13 @@
 
 // path of articles in slide
 const articlesInSlide = [
-    '/gemeinschaft/ukraine_unterstuetzung',
-    '/gemeinschaft/friedenstauben',
-    '/gemeinschaft/schwarz_weiss_ball_2023',
+    '/slider/slider1',
+    '/slider/slider4',
+    '/slider/slider2',
+    '/slider/slider5',
+    '/slider/slider3',
+    '/slider/slider6',
+    '/slider/slider7',
 ]
 
 

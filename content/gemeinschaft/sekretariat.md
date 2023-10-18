@@ -8,6 +8,8 @@ thumbnail:
 ---
 
 Sie erreichen das Sekretariat unter **+49 (0) 9181-472-0** oder per Mail unter **verwaltung@wgg-neumarkt.de**.
+
+Frau Karl (Oberstufensekretariat) ist unter **+49 (0) 9181 472 124** zu erreichen.
 <table>
 <tr>
     <td><img src = "images/sekretariat/schertel.jpg" ></td>
@@ -29,7 +31,7 @@ Sie erreichen das Sekretariat unter **+49 (0) 9181-472-0** oder per Mail unter *
 </tr>
 </table>
 
-Um die gesetzlich vorgeschriebenen Pausenzeiten einzuhalten, bitten wir um Verständnis dafür, dass das Sekretariat zwischen 13.30 Uhr und 14.30 Uhr keine Anrufe entgegennimmt - vielen Dank.
+Um die gesetzlich vorgeschriebenen Pausenzeiten einzuhalten, bitten wir um Verständnis dafür, dass das Sekretariat zwischen 13.30 Uhr und 14.00 Uhr keine Anrufe entgegennimmt - vielen Dank.
 
 **Öffnungszeiten**
 

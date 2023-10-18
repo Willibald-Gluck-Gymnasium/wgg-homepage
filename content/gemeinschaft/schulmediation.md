@@ -23,7 +23,7 @@ thumbnail:
     mit Klärungsgesprächen, Beratung und Mediation: Schüler, Eltern, Lehrkräfte, Mitarbeiter und Schulleitung. Unsere Mediatorin ist gerne für uns da. Ihre Begleitung tut gut.
 </p>
 
-<strong>Dienstags von 9:00 bis 13:00 Uhr im Mediationsraum 1.43</strong>
+<strong>Mittwochs von 9:00 bis 13:00 Uhr im Mediationsraum 1.43</strong>
 
 <figure>
     <img src="/images/gemeinschaft/magdalena_steib.jpg">
