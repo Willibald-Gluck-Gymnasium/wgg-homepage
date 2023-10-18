@@ -10,12 +10,12 @@ thumbnail:
 <!-- Schulleiter and Stellvertreterin -->
 <div class="row">
     <div class="person">
-        <div class="title">Schulleiter</div>
+        <div class="title"><h3>Schulleiter</h3></div>
         <img src="/images/schulleitung/Fiedler.jpg" alt="OStD Fiedler">
         <div class="name">Frank Fiedler</div>
     </div>
     <div class="person">
-        <div class="title">Stellvertreterin des SL</div>
+        <div class="title"><h3>Stellvertreterin des SL</h3></div>
         <img src="/images/schulleitung/kleinoeder.jpg" alt="StDin Kleinöder-Strobel">
         <div class="name">Dr. Susanne Kleinöder-Strobel</div>
     </div>

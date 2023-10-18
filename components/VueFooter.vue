@@ -85,6 +85,11 @@ const isUserLoggedIn = ref(process.client && typeof localStorage.getItem('authto
           <nuxt-img preset="footer" src="/images/umweltschule_logo.jpg" alt="Umweltschule Logo" />
           <span>Umweltschule</span>
         </a>
+        <a href="https://www.ggs.bayern.de/">
+          <!-- <img src="/images/umweltschule_logo.jpg" alt="Umwelt"> -->
+          <nuxt-img preset="footer" src="/images/logo_gute_gesunde_schule.jpg" alt="Logo gute gesunde Schule" />
+          <span>Gute gesunde Schule</span>
+        </a>
       </div>
     </div>
   </div>
