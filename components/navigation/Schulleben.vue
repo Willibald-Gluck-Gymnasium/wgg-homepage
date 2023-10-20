@@ -14,6 +14,7 @@ const emit = defineEmits(['closeNavMenu'])
 
 const menuItems = [
     { text: "Schülerfahrten", link: "/ausland/schuelerfahrten"},
+    { text: "Schülergenossenschaft", link: "/schuelergenossenschaft/genossenschaft" },
     { text: "Gluck-Cast", link: "/podcast/podcast" }, 
     { text: "Schulhaus" , link: "/schulhaus"}
 ]
