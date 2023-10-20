@@ -8,7 +8,7 @@ const articlesInSlide = [
     '/slider/slider5',
     '/slider/slider3',
     '/slider/slider6',
-    '/slider/slider7',
+    '/slider/slider7'
 ]
 
 
