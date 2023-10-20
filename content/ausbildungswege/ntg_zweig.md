@@ -59,9 +59,10 @@ Im Informatikunterricht der Mittelstufe des NTG lernen die Schüler u.a. größe
 Die aktuellen Lehrpläne können Sie hier für die Klassen
 <a href="https://www.lehrplanplus.bayern.de/fachlehrplan/gymnasium/9/informatik" title='Informatik Lehrplan Klassenstufe 9'>9<?= $pfeil ?></a>,
 <a href="https://www.lehrplanplus.bayern.de/fachlehrplan/gymnasium/10/informatik" title='Informatik Lehrplan Klassenstufe 10'>10<?= $pfeil ?></a>
-einsehen (externe Links).
+<a href="https://www.lehrplanplus.bayern.de/fachlehrplan/gymnasium/11/informatik" title='Informatik Lehrplan Klassenstufe 11'>11<?= $pfeil ?></a>
+einsehen.
 
-Weitere Informationen zur Informatik finden Sie auch auf unserer Homepage oben bei <a href="http://localhost/tag/Informatik">Unterricht/Informatik</a>.
+Weitere Informationen zur Informatik finden Sie auch auf unserer Homepage oben bei <a href="/tag/Informatik">Unterricht/Informatik</a>.
 
 <h4>Profilbereich</h4>
 

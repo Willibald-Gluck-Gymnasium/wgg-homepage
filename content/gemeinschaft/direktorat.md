@@ -15,7 +15,7 @@ thumbnail:
         <div class="name">Frank Fiedler</div>
     </div>
     <div class="person">
-        <div class="title"><h3>Stellvertreterin des SL</h3></div>
+        <div class="title"><h3 style ="font-size: 17pt">Stellvertreterin</h3></div>
         <img src="/images/schulleitung/kleinoeder.jpg" alt="StDin Kleinöder-Strobel">
         <div class="name">Dr. Susanne Kleinöder-Strobel</div>
     </div>
