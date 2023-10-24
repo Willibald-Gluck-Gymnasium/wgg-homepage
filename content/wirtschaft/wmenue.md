@@ -1,6 +1,6 @@
 ---
 date: 2023-04-04
-title: Wirtschaftswissen-schaften
+title: Wirtschaftswissenschaften
 pinned: true
 redirect: '/tag/WRMenü'
 tags: []

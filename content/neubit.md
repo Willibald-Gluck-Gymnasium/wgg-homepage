@@ -22,6 +22,7 @@ Hier finden Sie bald die aktuellsten Informationen!
 #### Informationen für Referenten:
 
 <a href="/documents/neubit/FAQ_NeuBIT_Referenten_24.pdf" target="_blank">FAQ</a>
+<a href="/documents/neubit/Programmflyer2022.pdf" target="_blank">Programmflyer</a> (von 2022, zur Orientierung)
 
 Bei Fragen wenden Sie sich bitte an das Sekretariat.
 
