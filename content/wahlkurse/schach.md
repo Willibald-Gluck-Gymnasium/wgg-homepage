@@ -16,7 +16,7 @@ thumbnail:
         trifft sich <br />
         am Mittwochnachmittag <br />
         von 14:00 bis 15:30 Uhr <br />
-        im Raum E22.<br /><br />
+        im Raum E16.<br /><br />
         <a href="/tag/Schach">Hier</a> geht's zu den Unterartikeln!
     </p>
 </div>
