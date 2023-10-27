@@ -1,6 +1,7 @@
 ---
 date: 2020-01-01
 title: Gründung der WGGenossenschaft
+hidden: true
 tags: [Wirschaft und Recht, Unterricht, Schülergenossenschaft]
 thumbnail:
     src: schuelergenossenschaft/WGGenossenschaftLogo.jpg

@@ -89,6 +89,8 @@ useHead({
         <Schedule style="margin-bottom: 60px"></Schedule>
        
         -->
+        <br>
+        <br>
         <h1>Neuigkeiten</h1>
         
         <ClientOnly>
