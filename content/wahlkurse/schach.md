@@ -21,6 +21,11 @@ thumbnail:
     </p>
 </div>
 
+
+**Unser Schachfilm**
+
+<youtube watch="W7ZDP3RFDYc"></youtube>
+
 <!--
 <a href="/wahlkurse/schach/erfolge">Erfolge</a><br />
 <a href="/wahlkurse/schach/links">Links zum Schach</a><br />
