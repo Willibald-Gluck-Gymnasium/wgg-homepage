@@ -1,5 +1,6 @@
 ---
 date: 2020-01-01
+expireOn: 2023-09-09
 title: Bayerischer Schachlehrer 2015
 tags: [Schach]
 thumbnail: 
