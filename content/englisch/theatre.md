@@ -1,9 +1,9 @@
 ---
 date: 2022-03-25
-expireOn: 2023-31-12
+expireOn: 2023-16-10
 title: English Theatre am WGG
 tags: [Englisch, Unterricht]
-thumbnail: 
+thumbnail:
     src: 'englisch/theatre_01.jpg'
     alt: 'Theateraufführung auf einer kleinen Bühne'
 ---

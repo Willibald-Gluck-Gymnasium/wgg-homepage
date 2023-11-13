@@ -1,8 +1,8 @@
 ---
-date: 2022-10-10
+date: 2023-10-10
 title: Schach am WGG
 tags: [Schach, Wahlkurse]
-thumbnail: 
+thumbnail:
     src: wahlkurse/schach/00_index_bg.jpg
     alt: Das WGG Schach Logo
 ---
