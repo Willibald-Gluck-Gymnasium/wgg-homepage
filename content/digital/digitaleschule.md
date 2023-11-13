@@ -7,4 +7,6 @@ thumbnail:
     alt: Das Logo der Profilschulen für Informatik und Zukunftstechnologien.
 ---
 
-<img src = "/images/maintenance.jpg">
+### Mediencurriculum
+
+Die aktuelle Variante des Mediencurriculums an unserer Schule finden Sie <a href="/documents/mediencurriculum/mediencurriculum.pdf" target="_blank">hier</a>

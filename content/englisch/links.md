@@ -1,8 +1,8 @@
 ---
 date: 2021-12-12
-title: Ein paar Links zum Fach Englisch
+title: Links zum Üben
 tags: [Englisch, Unterricht]
-thumbnail: 
+thumbnail:
     src: 'englisch/english-dictionary.jpg'
     alt: 'Eine Frau, die ein Englisch wörterbuch ließt'
 ---
