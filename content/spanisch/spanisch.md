@@ -2,9 +2,9 @@
 date: 2020-01-01
 title: Spanisch am WGG
 tags: [Spanisch, Unterricht]
-thumbnail: 
-    src: spanisch/spanisch_hablasespanol.jpg
-    alt: Tafel mit der Aufschrift "Hablas Espanol?"
+thumbnail:
+    src: spanisch/spanisch.jpg
+    alt: Stochphoto - Küste Spaniens
 ---
 <h3>¡Bienvenidos! Willkommen bei der Fachschaft Spanisch</h3>
 
