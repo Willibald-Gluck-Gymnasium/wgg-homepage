@@ -1,6 +1,6 @@
 ---
 date: 2023-11-20
-title: Ethik
+title: Bewährungshelferinnen zu Besuch
 tags: [Ethik, Unterricht]
 thumbnail:
     src: ethik/bewaehrungshelferinnen.jpg
