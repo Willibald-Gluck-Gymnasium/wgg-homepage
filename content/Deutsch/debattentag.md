@@ -1,7 +1,7 @@
 ---
 date: 2023-11-22
 expireOn: 2024-12-31
-title: Die fleißigsten Leser
+title: Debattentag
 tags: [Deutsch, Unterricht]
 thumbnail: 
     src: 'deutsch/debattentag.jpg'
