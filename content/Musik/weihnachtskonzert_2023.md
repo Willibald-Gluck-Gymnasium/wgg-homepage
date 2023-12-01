@@ -1,5 +1,5 @@
 ---
-date: 2022-11-30
+date: 2023-11-30
 expireOn: 2024-12-31
 title: Einladung Weihnachtskonzert
 tags: [Musik, Unterricht]
