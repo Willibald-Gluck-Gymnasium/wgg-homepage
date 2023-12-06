@@ -1,6 +1,6 @@
 ---
 date: 2023-11-01
-expireOn: 2018-12-31
+expireOn: 2024-12-31
 title: Projekt Pflege
 tags: [BuS]
 thumbnail: 
@@ -20,4 +20,4 @@ Es ist wichtig den Menschen in der Pflege eine Stimme zu geben, um das Bewusstse
 
 Kathleen Weber und David-Nicolai-Schmidt
 
-<iframe width='100%' height='166' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1673004774&color=ff5500&show_comments=false'></iframe><div style='font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;'><a href='https://soundcloud.com/info-946328072' title='Info' target='_blank' style='color: #cccccc; text-decoration: none;'>Info</a> · <a href='https://soundcloud.com/info-946328072/podcast-neue-pflege-neumarkt' title='Podcast Neue Pflege Neumarkt' target='_blank' style='color: #cccccc; text-decoration: none;'>Podcast Neue Pflege Neumarkt</a></div>
+<iframe width='100%' height='300' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1681966308&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'></iframe><div style='font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;'><a href='https://soundcloud.com/info-946328072' title='Info' target='_blank' style='color: #cccccc; text-decoration: none;'>Info</a> · <a href='https://soundcloud.com/info-946328072/podcast-neue-pflege-neumarkt' title='Podcast Neue Pflege Neumarkt' target='_blank' style='color: #cccccc; text-decoration: none;'>Podcast Neue Pflege Neumarkt</a></div>
