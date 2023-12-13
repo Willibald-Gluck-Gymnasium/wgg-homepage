@@ -3,9 +3,9 @@ date: 2023-11-01
 expireOn: 2024-12-31
 title: Projekt Pflege
 tags: [BuS]
-thumbnail: 
-    src: 'berufsorientierung/projektpflege'
-    alt: 'Klavier spielende Schüler' 
+thumbnail:
+    src: 'berufsorientierung/projektpflege.jpg'
+    alt: 'Klavier spielende Schüler'
 ---
 
 ### Schülerprojekt am Willibald-Gluck-Gymnasium: Podcast beleuchtet die Welt des Pflegeberufs
