@@ -1,5 +1,5 @@
 ---
-date: 2020-01-01
+date: 2023-12-01
 title: PIZ
 tags: [MINT]
 thumbnail: 
@@ -13,5 +13,4 @@ thumbnail:
 
 Im Rahmen der Maßnahme vernetzen sich die Schulen untereinander sowie mit außerschulischen Partnern, lernen voneinander und tauschen sich über gelungene Ansätze aus. Ein Beirat aus Wissenschaft und angewandter Forschung unterstützt die Schulen dabei. Als Schwerpunkte am WGG sehen wir derzeit die Projektgruppe zur Mobilen Robotik, den Offenen Coding Treff, Informatikwettbewerbe, Seminare zur Softwareentwicklung, Workshops mit externen Partnern (zuletzt: XR-Classroom) und den Schulversuch KI@School. Aber sicherlich wird noch einiges dazu kommen …
 
-
-<img src="/images/piz-zertifikat.jpg" alt="">
+![Verleihung Zertifikat](images/informatik/piz_zertifikat.jpg)
