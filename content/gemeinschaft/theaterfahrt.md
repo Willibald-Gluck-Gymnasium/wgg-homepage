@@ -10,4 +10,4 @@ thumbnail:
 
 Im Rahmen des Theater-Abos besuchen rund 60 Schüler und 12 Lehrer regelmäßig Vorstellungen im Staatstheater Nürnberg. Auf den Brettern, die die Welt bedeuten, tun sich neue, interessante Welten auf, die manchmal zu regen Diskussionen führen. Zuletzt waren wir in „The Legends of Georgia McBride“.
 
-![Bild von einem Auftritt beim Theater-Abo](/images/gemeinschaft/theater_abo.jpg)
+<gallery images="/images/gemeinschaft/theater_abo.jpg,/images/gemeinschaft/theater_abo1.jpg,/images/gemeinschaft/theater_abo2.jpg, /images/gemeinschaft/theater_abo3.jpg,/images/gemeinschaft/theater_abo4.jpg"></gallery>
