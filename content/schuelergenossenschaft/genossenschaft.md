@@ -6,11 +6,8 @@ thumbnail:
     src: schuelergenossenschaft/schuelergenossenschaft.jpg
     alt: Gruppenbild aller Anwesenden bei der Gründung der Schülergenossenschaft.
 ---
-
-<img src = "/images/schuelergenossenschaft/logo.jpg"></img>
-<p style = "text-align: center">
-<a href ="https://www.instagram.com/wgg_enossenschaft/" target = "_blank">Die Schülergenossenschaft auf Instagramm</a>
-</p>
+<a href ="https://www.instagram.com/wgg_enossenschaft/" target = "_blank">
+<img src = "/images/schuelergenossenschaft/WGGenossenschaftlogo.png" format ="png"></img></a>
 
 Willkommen bei der WGGenossenschaft eSG – deiner Plattform für innovative Ideen und unternehmerische Erfahrungen!
 
@@ -18,18 +15,22 @@ Als Schülergenossenschaft am wirtschaftswissenschaftlichen Gymnasium belassen w
 
 Werde Teil einer inspirierenden Gemeinschaft, welche das Unternehmertum von morgen gestaltet.
 
-
 <table style="width:100%; text-align:center">
 <tr>
-<td style = "width:33%"><a href ="/tag/Schülergenossenschaft">Aktuelles</a></td>
-<td style = "width:33%"><a href ="documents/antrag.pdf" target = "_blank">Mitgliedsantrag</a></td>
-<td style = "width:33%"><a href ="abteilungen">Unsere Abteilungen</a></td>
+<td style = "width:33%"><a href ="/tag/Schülergenossenschaft"><img src = "/images/schuelergenossenschaft/PikAktuelles.png" format="png"></img></a></td>
+<td style = "width:33%"><a href ="/documents/genossenschaft/antragbeitritt.pdf" target = "_blank"><img src = "/images/schuelergenossenschaft/PikBeitrittsantrag.png" format="png"></img></a></td>
+<td style = "width:33%"><a href ="abteilungen"><img src = "/images/schuelergenossenschaft/PikAbteilungen.png" format="png"></img></a></td>
 </tr>
 </table>
 
 <p style = "text-align: center">
-Unsere Partner:
+<strong>Unsere Partner:</strong>
+<table style="width:100%">
+<tr>
+<td style = "width:50%"><img src = "/images/schuelergenossenschaft/jurenergie.png" format="png"></img></td>
+<td style = "width:50%"><img src = "/images/schuelergenossenschaft/raiffeisen.png" format="png"></img></td>
+</tr>
+</table>
 
-<img src = "/images/schuelergenossenschaft/jurenergie.jpg"></img>
-<img src = "/images/schuelergenossenschaft/raiffeisen.jpg"></img>
+
 </p>
