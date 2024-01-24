@@ -5,7 +5,7 @@ title: Schwarz-Weiß-Ball 2023
 tags: [Events]
 thumbnail: 
     src: gemeinschaft/swball2023.jpg
-    alt: Bild des Lehrerbaletts am Schwarz-Weiß-Ball
+    alt: Bild des Lehrerballetts am Schwarz-Weiß-Ball
 ---
 
 
