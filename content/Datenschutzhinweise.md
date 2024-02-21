@@ -7,7 +7,7 @@ thumbnail:
 ---
 <p>Diese Datenschutzerklärung bezieht sich auf die Verarbeitung personenbezogener Daten im Rahmen dieses Internetauftritts, einschließlich der dort angebotenen Dienste.</p>
 <p>Für nähere Informationen zur Verarbeitung Ihrer personenbezogenen Daten können Sie uns unter den unten genannten Kontaktdaten erreichen.</p>
-<p>Die Infos zum Datenschutz für Visavid finden Sie <a href="visavid_datenschutz.pdf">hier</a>.</p>
+<p>Die Infos zum Datenschutz für Visavid finden Sie <a href="(https://visavid.de/datenschutz/" target = "_blank">hier</a>.</p>
 <hr>
 <h2>A) Allgemeine Informationen</h2>
 <h3>Name und Kontaktdaten des Verantwortlichen</h3>
