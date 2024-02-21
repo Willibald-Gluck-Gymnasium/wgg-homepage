@@ -5,7 +5,7 @@ pinned: true
 title: Tag der offenen Tür
 tags: [Deutsch, Unterricht]
 thumbnail: 
-    src: 'gemeinschaft/tdot24.jpg'
+    src: 'gemeinschaft/tdot24_u.jpg'
     alt: 'Logo Tag der offenen Tür'
 ---
 

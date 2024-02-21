@@ -4,7 +4,7 @@ expireOn: 2025-01-16
 title: Vortrag Geldpolitik
 tags: [Wirtschaft und Recht, Unterricht]
 thumbnail:
-    src: wirtschaft/geldpolitik1.jpg
+    src: wirtschaft/geldpolitik1_q.jpg
     alt: Bild vom Vortrag
 ---
 
@@ -16,4 +16,4 @@ Dabei wurden nicht nur die theoretischen Mechanismen der Geldpolitik betrachtet,
 Zum Schluss bedankten sich die Lehrkräfte Fr. Deml, Hr. Dull und Fr. Köhler bei Hr. Schiller. Außerdem überreichte ihm Marco Strobl, stellvertretend für die Schülerschaft, einen im P-Seminar selbst gebauten Kerzenständer und ein Glas.
 
 
-<gallery images="/images/wirtschaft/geldpolitik1.jpg,/images/wirtschaft/geldpolitik2.jpg"></gallery>
+<gallery images="/images/wirtschaft/geldpolitik1_q.jpg,/images/wirtschaft/geldpolitik2.jpg"></gallery>
