@@ -3,10 +3,10 @@ date: 2024-02-21
 expireOn: 2024-03-17
 pinned: true
 title: Tag der offenen Tür
-tags: [Deutsch, Unterricht]
+tags: [Allgemein]
 thumbnail: 
-    src: 'gemeinschaft/tdot24_u.jpg'
-    alt: 'Logo Tag der offenen Tür'
+    src: 'tdot24.jpg'
+    alt: 'Einladung durch Schülerinnen und Schüler'
 ---
 
 <p style="text-align: center; font-weight: bold">

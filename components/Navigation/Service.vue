@@ -14,12 +14,13 @@ const emit = defineEmits(['closeNavMenu'])
 
 const menuItems = [
     { text: "Infoportal", link: "https://willigym.eltern-portal.org/"},
-    { text: "Beratung", link: "/gemeinschaft/beratung" }, 
-    { text: "Übertritt", link: "/anmeldung/anmeldung"}, 
+    { text: "Beratung", link: "/gemeinschaft/beratung" },
+    { text: "Übertritt", link: "/anmeldung/anmeldung"},
     { text: "Bibliothek", link: "/gemeinschaft/bibliothek" },
-    { text: "Bücher", link: "/buecher/buecher_wgg"}, 
-    { text: "Videokonferenzen", link: "https://visavid.de/" }, 
-    { text: "Anfahrt", link: "/anfahrt" }
+    { text: "Bücher", link: "/buecher/buecher_wgg"},
+    { text: "Videokonferenzen", link: "https://visavid.de/" },
+    { text: "Anfahrt", link: "/anfahrt" },
+    { text: "Willi", link: "https://willi.wgg-neumarkt.de/"}
 ]
 
 function combineAllMenuItems(menuItems, additionalTags) {
