@@ -1,7 +1,7 @@
 ---
 date: 2024-01-16
 expireOn: 2025-01-16
-title: Votrag Geldpolitik
+title: Vortrag Geldpolitik
 tags: [Wirtschaft und Recht, Unterricht]
 thumbnail:
     src: wirtschaft/geldpolitik1.jpg

@@ -20,7 +20,7 @@ Um eine möglichst schnelle Kontaktaufnahme mit den Beratungsfachkräften zu erm
 
 Eine Telefon-Sprechstunde findet im folgenden Zeitraum statt:
 
-**Donnerstags 10:30-11:15**  
+**Mittwochs 10:30-11:15**
 
 **Frau Herrmann: 09181 472131** <br>
 **Frau Kribbel: 09181 472135**

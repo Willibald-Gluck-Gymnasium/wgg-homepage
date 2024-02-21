@@ -10,8 +10,7 @@ thumbnail:
 
 ### Gebundene Ganztagesklasse - Informationsblatt
 
-Mehr Informationen als PDF-Dateien
-- <a href="/documents/ganztageskonzept.pdf" target="_blank">Ganztageskonzept Infobroschüre</a>
+Mehr Informationen als PDF-Datei:
 - <a href="/documents/stundenplan.pdf" target = "_blank">Möglicher Stundenplan der 5. Jahrgangsstufe</a>
 
 #### Sehr geehrte Eltern unserer künftigen Fünftklässler,
