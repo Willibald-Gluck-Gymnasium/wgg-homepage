@@ -15,6 +15,11 @@ thumbnail:
 
 **09.03.2024**
  
+**Der Zeitplan, sowie alle angebotenen Workshops mit den zugehörigen Referenten finden sich im**
+
+<a href="/documents/neubit/Programmflyer2024.pdf" target="_blank">Programmflyer</a>
+
+
 #### Informationen für Aussteller:
 
 ![Neubit Plakat 2024](images/neubit/plakat24.jpg)
@@ -24,8 +29,6 @@ Auch als <a href="/documents/neubit/plakat24.pdf" target="_blank">PDF</a>
 #### Informationen für Referenten:
 
 <a href="/documents/neubit/FAQ_NeuBIT_Referenten_24.pdf" target="_blank">FAQ</a>
-
-<a href="/documents/neubit/Programmflyer2022.pdf" target="_blank">Programmflyer</a> (von 2022, zur Orientierung)
 
 Bei Fragen wenden Sie sich bitte an das Sekretariat.
 
