@@ -1,10 +1,11 @@
 ---
 date: 2020-01-01
+expireOn: 2023-01-01
 title: MINT-Pass Neumarkt - Der Kickoff
 tags: [Naturwissenschaften, MintEC]
-thumbnail: 
+thumbnail:
     src: 'mintec/mintpass17_01.jpg'
-    alt: 'Schülerinnen beim Experimentieren' 
+    alt: 'Schülerinnen beim Experimentieren'
 ---
 
 27 Schülerinnen und Schüler aus den 6. Jahrgangsstufen des WGG nahmen am 11. April 2018 an der Auftaktveranstaltung zum MINT-Pass teil.

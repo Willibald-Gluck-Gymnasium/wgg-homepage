@@ -8,13 +8,12 @@ thumbnail:
 ---
 <center>
 
-
 ### Neumarkter Berufsinformationstag NeuBIT
 
 **Willibald-Gluck-Gymnasium Neumarkt**
 
 **09.03.2024**
- 
+
 **Der Zeitplan, sowie alle angebotenen Workshops mit den zugehörigen Referenten finden sich im**
 
 <a href="/documents/neubit/Programmflyer2024.pdf" target="_blank">Programmflyer</a>

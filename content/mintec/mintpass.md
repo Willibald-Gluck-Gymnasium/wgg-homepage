@@ -1,10 +1,11 @@
 ---
 date: 2020-01-01
+expireOn: 2023-01-01
 title: MINT-Pass Neumarkt
 tags: [Naturwissenschaften, MintEC]
-thumbnail: 
+thumbnail:
     src: 'mintec/mintpass_logo.jpg'
-    alt: 'Logo des MINT-Passes Neumarkt' 
+    alt: 'Logo des MINT-Passes Neumarkt'
 ---
 
 ### Was ist der MINT-Pass
