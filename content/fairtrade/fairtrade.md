@@ -15,7 +15,7 @@ Seit dem Jahr 2019 trägt das Willibald-Gluck-Gymnasium den Titel der <a href = 
 
 <a href = "/fairtrade/fairtradewgg"><img src="images/fairtrade/pointflohmarkt.jpg"></a>
 
-Der andere Schwerpunkt liegt im Bereich der Nachhaltigkeit [Link zum Unterreiter]. Wie können wir als Schulfamilie dazu beitragen, unser Schulleben so zu gestalten, dass wir z.B. Müll vermeiden, CO2 einsparen oder sogar positiv zum Umweltschutz beitragen?
+Der andere Schwerpunkt liegt im Bereich der <a href = "/fairtrade/17ziele.jpg">Nachhaltigkeit</a>. Wie können wir als Schulfamilie dazu beitragen, unser Schulleben so zu gestalten, dass wir z.B. Müll vermeiden, CO2 einsparen oder sogar positiv zum Umweltschutz beitragen?
 
 <a href = "/fairtrade/nachhaltigkeit"><img src="images/fairtrade/17ziele.jpg"></a>
 
