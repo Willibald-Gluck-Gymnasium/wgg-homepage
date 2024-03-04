@@ -22,7 +22,6 @@ Wir freuen uns auf dein Kommen!
 Unsere Schulfamilie freut sich darauf, Euch bzw. Sie zu unserem Tag der offenen Tür am Willibald-Gluck-Gymnasium begrüßen zu können.
 
 Unsere Schülerinnen, Eltern und Lehrkräfte haben ein sehr abwechslungsreiches und informatives Programm vorbereitet:
-- Schnupperunterricht,
 - die bekannte WGG-Chemieshow,
 - zahlreiche Auftritte auf unserer Live-Bühne,
 - mathematische Spiele und Knobeleien,
