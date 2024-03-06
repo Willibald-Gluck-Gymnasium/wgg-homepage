@@ -23,13 +23,19 @@ Unsere Schulfamilie freut sich darauf, Euch bzw. Sie zu unserem Tag der offenen 
 
 Unsere Schülerinnen, Eltern und Lehrkräfte haben ein sehr abwechslungsreiches und informatives Programm vorbereitet:
 - die bekannte WGG-Chemieshow,
-- zahlreiche Auftritte auf unserer Live-Bühne,
 - mathematische Spiele und Knobeleien,
-- internationale Köstlichkeiten im Fremdsprachen-Bistro,
 - Führungen durch unser schönes Schulgebäude,
 - Informationen über unser Ganztagesangebot und unsere zwei zukunftsträchtigen Ausbildungsrichtungen,
 - Einblicke in die Vielfalt des Wahlkursangebots am WGG,
+- Wirtschaft zum Anfassen
+- zahlreiche Experimente in Physik, Chemie und Bilogie
+- Theater- und Chorprobe
 - und, und, und, ...
+
+!["Programm Teil 1"](/images/gemeinschaft/tdot24_1.jpg)
+!["Programm Teil 2"](/images/gemeinschaft/tdot24_2.jpg)
+
+
 
 Wir freuen uns auf viele interessante Begegnungen und Gespräche.
 
