@@ -1,7 +1,6 @@
 ---
 date: 2024-02-21
-expireOn: 2024-03-17
-pinned: true
+expireOn: 2024-17-17
 title: Tag der offenen Tür
 tags: [Allgemein]
 thumbnail: 

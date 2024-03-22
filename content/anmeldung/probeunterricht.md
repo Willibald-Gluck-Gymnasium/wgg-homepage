@@ -25,6 +25,9 @@ Der diesjährige Probeunterricht findet am **14., 15. und 16. Mai 2024** statt.
 
 08:30 - 11:00 Unterrichtsgespräch Deutsch und Mathematik
 
+**Einen detaillierten Zeitplan erhalten Sie mit dem Merkblatt zum Probeunterricht 2024**
+
+
 ### Allgemeine Informationen zum Probeunterricht
 
 Bestätigt das Übertrittszeugnis der 4. Jahrgangsstufe die Eignung für das Gymnasium nicht und wünschen die Eltern trotzdem den Übertritt, muss die Schülerin oder der Schüler an dem dreitägigen Probeunterricht teilnehmen. Dabei wird das Kind in den Fächern Deutsch und Mathematik geprüft, an den ersten beiden Tagen schriftlich, der dritte Tag dient dem Unterrichtsgespräch. Die Aufgaben werden zentral vom Staatsministerium gestellt. Für das Bestehen des Probeunterrichts muss mindestens in einem Fach Note 3 und in dem anderen Fach mindestens Note 4 erreicht werden.
