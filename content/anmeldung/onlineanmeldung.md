@@ -13,12 +13,12 @@ wir haben, um Ihnen die Anmeldung leichter zu machen, einerseits die folgende An
 
 - Führen Sie zunächst die <a href = "http://www.schulantrag.de/?sch=0223" target = "_blank">**Onlineanmeldung**</a> durch. Sie erzeugen dabei folgende Formulare:
     - einen Schülererfassungsbogen,
-    - Nachweis zur Masernimmunisierung (wird von der Schule ausgefüllt),
     - eine Erklärung zur Datenverwendung,
     - den Antrag auf Kostenfreiheit des Schulwegs und
     - Antrag und eine Anmeldung zur Mensa.
+    - ggf. Antrag für Ganztagesklasse
 - Drucken Sie bitte **alle** Formulare **einseitg** aus,
-- Laden Sie zusätzlich die folgenden <a href = "/documents/anmeldung/Anmeldung_Formulare2023.pdf" target = "_blank">**Formulare**</a> herunter (Die Bestimmungen zur Datenschutzerklärung müssen nicht ausgedruckt werden). 
+- Laden Sie zusätzlich die folgenden <a href = "/documents/anmeldung/Anmeldung_Formulare2024.pdf" target = "_blank">**Formulare**</a> herunter (Die Bestimmungen zur Datenschutzerklärung müssen nicht ausgedruckt werden).
 - Gegebenenfalls, falls sie im Landkreis Nürnberger Land wohnen - laden Sie dieses <a href="/documents/anmeldung/Kostenfreiheit_LA_Lauf.pdf" target = "_blank">**Formular**</a> zur Kostenfreiheit des Schulwegs herunter und füllen es aus.
 - Und das Wichtigste: wir benötigen das **Original des Übertrittszeugnisses** sowie eine **Kopie der Geburtsurkunde**. Lassen Sie dieses **zusammen mit allen bisher erwähnten Formularen** nach Erhalt des Übertrittszeugnisses in einem verschlossenen DIN-A4-Umschlag dem WGG zukommen. Entweder senden Sie uns die Unterlagen per Post an unsere Adresse oder werfen Sie diese in einem verschlossenen Umschlag am Briefkasten (Haupteingang Woffenbacher Straße 33) ein. Die Unterlagen sollten **bis zum 10. Mai** bei uns eingegangen sein.
 - Sollten Sie uns gesonderte Informationen (z.B. das Vorliegen einer Legasthenie, anderer spezieller Nachteilsausgleiche o.Ä.) zu Ihrem Kind mitteilen wollen, bitten wir, diese schriftlich dem Brief beizulegen.

@@ -1,7 +1,6 @@
 ---
 date: 2024-03-13
 expireOn: 2024-03-21
-pinned: true
 title: Informationsabend Ganztagesklasse
 tags: [Allgemein, Ganztag]
 thumbnail:
