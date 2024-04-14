@@ -1,6 +1,6 @@
 ---
-date: 2023-03-22
-expireOn: 2024-03-22
+date: 2024-03-22
+expireOn: 2025-03-22
 title: 4. Generalversammlung
 tags: [Schülergenossenschaft]
 thumbnail:

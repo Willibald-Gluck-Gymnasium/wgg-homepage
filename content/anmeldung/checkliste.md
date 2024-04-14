@@ -52,15 +52,14 @@ Die Formulare 5 bis 8 finden Sie verlinkt unter <a href = "/anmeldung/onlineanme
         </tr>
         <tr>
             <td>8</td>
-            <td>"Datenverarbeitung im Schülerportal
-des WGG</td>
-        </tr>
-        <tr>
-            <td>8</td>
-            <td>Original des Übertrittszeugnisses</td>
+            <td>Datenverarbeitung im Schülerportal des WGG</td>
         </tr>
         <tr>
             <td>9</td>
+            <td>Original des Übertrittszeugnisses</td>
+        </tr>
+        <tr>
+            <td>10</td>
             <td>Kopie der Geburtsurkunde</td>
         </tr>
     </table>
