@@ -9,4 +9,4 @@ thumbnail:
 ---
 
 
-<gallery images="/images/gemeinschaft/drohne1.jpg,/images/gemeinschaft/drohne2.jpg,/images/gemeinschaft/drohne3.jpg"></gallery>
+<gallery images="/images/gemeinschaft/drohne1.jpg,/images/gemeinschaft/drohne2.jpg,/images/gemeinschaft/drohne3.jpg,/images/gemeinschaft/drohne4.jpg"></gallery>
