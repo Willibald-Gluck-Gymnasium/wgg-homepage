@@ -51,7 +51,7 @@ const menu = [
             </div>
         </div>
         <div class="content">
-        
+
             <NuxtLink class="logo-link logo-with-text" to="/">
                 <school-logo-with-text class="" />
             </NuxtLink>
@@ -59,10 +59,10 @@ const menu = [
             <NuxtLink v-if="!searchbar?.showResults" class="logo-link logo-small" to="/">
                 <school-logo />
             </NuxtLink>
-
+            <!--
             <SearchBar ref="searchbar" :class="{ 'searchbar': true, 'searchbar--showResults': searchbar?.showResults }" />
 
-            <!-- {{ searchbar }} -->
+             {{ searchbar }} -->
 
             <client-only>
 
