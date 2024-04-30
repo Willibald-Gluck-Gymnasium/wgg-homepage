@@ -36,6 +36,10 @@ thumbnail:
         <img src="/images/schulleitung/wagenhofer.jpg" alt="StD Wagenhofer">
         <div class="name">Gunther Wagenhofer</div>
     </div>
+    <div class="person">
+        <img src="/images/schulleitung/kt.jpg" alt="StD Dr. Kraus">
+        <div class="name">Dr. Thomas Kraus</div>
+    </div>
 </div>
 
 <h3>Erweiterte Schulleitung</h3>
@@ -48,10 +52,6 @@ thumbnail:
     <div class="person">
         <img src="/images/schulleitung/gw.jpg" alt="StD Gelo">
         <div class="name">Wilfried Gelo</div>
-    </div>
-    <div class="person">
-        <img src="/images/schulleitung/kt.jpg" alt="StD Dr. Kraus">
-        <div class="name">Dr. Thomas Kraus</div>
     </div>
     <div class="person">
         <img src="/images/schulleitung/lt.jpg" alt="StD Linzmaier">
