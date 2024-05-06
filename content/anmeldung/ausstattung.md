@@ -1,7 +1,7 @@
 ---
 date: 2023-03-02
 title: Ausstattung 5. Klasse
-tags: [Anmeldung-Informationen]
+tags: [Anmeldung]
 thumbnail: 
     src: '/anmeldung/buechertasche.jpg'
     alt: 'Stockphoto einer Büchertasche vor einer blauen Wand.'
