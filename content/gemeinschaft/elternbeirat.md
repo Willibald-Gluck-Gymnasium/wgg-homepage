@@ -126,6 +126,9 @@ Ein Ziel des EB ist, es, dass in allen Klassen Klassenelternsprecher gewählt we
 #### Tag der offenen Tür
 An einem Infostand bietet sich die Gelegenheit zum Gespräch mit dem Elternbeirat.
 
+
+#### Das Team des WGG Elternbeirats
+
 <table style="margin:auto;border-collapse:separate;border-spacing:50px">
     <tr>
         <td><img width="140px" src="/images/elternbeirat/gsturm.jpg" alt="Elternbeirat" /></td>
@@ -158,9 +161,9 @@ An einem Infostand bietet sich die Gelegenheit zum Gespräch mit dem Elternbeira
         </td>
     </tr>
     <tr>
-        <td></td>
+        <td><img width="140px" src="/images/elternbeirat/tkinn.jpg" alt="Elternbeirat" /></td>
         <td>
-            <b>Thomas Klein</b>
+            <b>Thomas Kinn</b>
         </td>
         <td><img width="140px" src="/images/elternbeirat/awill.jpg" alt="Elternbeirat" /></td>
         <td>
@@ -182,25 +185,25 @@ An einem Infostand bietet sich die Gelegenheit zum Gespräch mit dem Elternbeira
         <td>
             <b>Martina Grote</b>
         </td>
-        <td><img width="140px" src="/images/elternbeirat/klippel.jpg" alt="Elternbeirat" /></td>
+        <td><img width="140px" src="/images/elternbeirat/cklippel.jpg" alt="Elternbeirat" /></td>
         <td>
-            <b>Christoph Klippel </b><br> Beisitzer
+            <b>Christoph Klippel </b>
         </td>
     </tr>
     <tr>
         <td><img width="140px" src="/images/elternbeirat/sörgel.png" alt="Elternbeirat" /></td>
         <td>
-            <b>Bianca Sörgel</b><br> Beisitzerin
+            <b>Bianca Sörgel</b>
         </td>
-        <td></td>
+        <td><img width="140px" src="/images/elternbeirat/csitu.png" alt="Elternbeirat" /></td>
         <td>
-            <b>Wenny Situ</b><br> Beisitzerin
+            <b>Ciuwen Situ</b>
         </td>
     </tr>
     <tr>
-        <td></td>
+        <td><img width="140px" src="/images/elternbeirat/rMouadeu.jpg" alt="Elternbeirat" /></td>
         <td>
-            <b>Rodrigue Mouadeu</b><br> Beisitzer
+            <b>Rodrigue Mouadeu</b>
         </td>
     </tr>
 </table>
