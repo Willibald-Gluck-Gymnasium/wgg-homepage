@@ -99,13 +99,6 @@ Hier stehen die Erfolge, die man beim Schach am WGG bisher erreicht wurden!
                 <li>2004: WK IV 2. Platz</li>
                 <li>2005: WK IV 1. Platz</li>
                 <li>2006: WK III 3. Platz</li>
-                <li>1997: WK II 4. Platz</li>
-                <li>1998: WK II 3. Platz</li>
-                <li>2000: WK I 6. Platz</li>
-                <li>2002: WK III 1. Platz</li>
-                <li>2004: WK IV 2. Platz</li>
-                <li>2005: WK IV 1. Platz</li>
-                <li>2006: WK III 3. Platz</li>
                 <li>2007: WK III 1. Platz</li>
                 <li>2008: WK II 1. Platz</li>
                 <li>2009: WK II 1. Platz</li>
@@ -120,6 +113,7 @@ Hier stehen die Erfolge, die man beim Schach am WGG bisher erreicht wurden!
                 <li>2019: WK I 1. Platz</li>
                 <li>2019: WK IV 6. Platz</li>
                 <li>2023: WK III 1. Platz</li>
+                <li>2024: WK III 1. Platz (Freiplatz) </li>
             </ul>
         </td>
     </tr>
@@ -136,6 +130,7 @@ Hier stehen die Erfolge, die man beim Schach am WGG bisher erreicht wurden!
                 <li>2008 Verden: 3. Platz </li>
                 <li>2009 Bad Homburg: 5. Platz </li>
                 <li>2023 Kassel: 6. Platz</li>
+                <li>2024 Aurich: 2. Platz Vizemeister!</li>
             </ul>
         </td>    
     </tr>
