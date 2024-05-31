@@ -1,6 +1,6 @@
 ---
 date: 2024-05-15
-title: Vizemeister im Schulschach
+title: Deutscher Vizemeister im Schulschach
 tags: [Schach, Wahlkurse]
 thumbnail:
     src: wahlkurse/schach/aurich24.jpg
