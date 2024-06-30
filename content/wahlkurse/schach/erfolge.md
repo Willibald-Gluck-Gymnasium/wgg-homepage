@@ -38,8 +38,7 @@ Hier stehen die Erfolge, die man beim Schach am WGG bisher erreicht wurden!
         <td class="up">Unterstützung durch</td>
         <td class="up">
             <ul>
-                <li>Erfahrene</li>
-                <li>Ältere Schüler</li>
+                <li>Erfahrene, ältere Schüler</li>
                 <li>Zum Teil Kollegen</li>
             </ul>
         </td>
