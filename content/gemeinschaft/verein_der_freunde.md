@@ -60,7 +60,7 @@ thumbnail:
 
 <p>
     Der Mindest-Mitgliedsbeitrag beträgt zur Zeit
-    <strong>10 Euro pro Kalenderjahr</strong>,
+    <strong>15 Euro pro Kalenderjahr</strong>,
     höhere Beiträge werden natürlich gerne
     akzeptiert.
     <br>
