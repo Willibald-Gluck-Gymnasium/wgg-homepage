@@ -19,7 +19,7 @@ Frau Karl (Oberstufensekretariat) ist unter **+49 (0) 9181 472 124** zu erreiche
 <tr>
     <td style = "text-align: center" >Frau Schertel</td>
     <td style = "text-align: center">Frau Diedrich</td>
-    <td style = "text-align: center">Frau Jaspers</td>
+    <td style = "text-align: center">Frau Jaspers<br> Schulleitungsassistenz</td>
 </tr>
 <tr>
     <td><img src = "images/sekretariat/obermeier.jpg" ></td>
