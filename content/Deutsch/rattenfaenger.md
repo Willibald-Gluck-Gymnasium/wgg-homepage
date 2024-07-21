@@ -4,7 +4,7 @@ expireOn: 2025-07-18
 title: Theater Rattenfänger
 tags: [Theater, Unterricht, Wahlkurs, Deutsch]
 thumbnail: 
-    src: 'deutsch/rattenfaenger3jpg'
+    src: 'deutsch/rattenfaenger3.jpg'
     alt: 'Bild von der Aufführung'
 ---
 
