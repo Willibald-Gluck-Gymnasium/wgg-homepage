@@ -2,9 +2,9 @@
 date: 2020-01-01
 expireOn: 2023-01-01
 title: MINT-Pass Neumarkt - Der Kickoff
-tags: [Naturwissenschaften, MintEC]
+tags: [Naturwissenschaften, MintEC, MINT]
 thumbnail:
-    src: 'mintec/mintpass17_01.jpg'
+    src: 'mintec/experimenteantworten.jpg'
     alt: 'Schülerinnen beim Experimentieren'
 ---
 
