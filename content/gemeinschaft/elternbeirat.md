@@ -13,6 +13,11 @@ Im Folgenden finden sich Informationen rund um den Elternbeirat des WGG
 
 Der Elternbeirat mit der Vorsitzenden **Gerlinde Sturm** und der stellvertretenden Vorsitzenden **Sylvia Wanka**.
 
+#### Infomappe
+Mit der <a href="/documents/infomappe.pdf" target="_blank">Infomappe (einige MB)</a> hat der Elternbeirat einen kleinen Leitfaden erstellt mit Wissenswertem rund um das Schulleben am WGG. Die Infomappe soll den Einstieg in die Schule erleichtern und kann als Nachschlagewerk von der 5. Klasse bis zum Abitur dienen. Wenn Sie Vorschläge haben, wie unsere Mappe weiter ausgebaut und verbessert werden könnte, freuen wir uns über Ihr Feedback via <a href="mailto:elternbeirat@wgg-neumarkt.de">Mail</a>.
+
+
+
 ## Allgemeine Informationen
 
 Die Zusammenarbeit von Elternhaus und Schule ist für die Zukunft der
@@ -88,8 +93,6 @@ Vorschläge für Wanderziele in <a href = "/gemeinschaft/wanderziele_neumarkt">N
 
 ## Projekte
 
-#### Infomappe
-Mit der <a href="/documents/infomappe.pdf" target="_blank">Infomappe (einige MB)</a> hat der Elternbeirat einen kleinen Leitfaden erstellt mit Wissenswertem rund um das Schulleben am WGG. Die Infomappe soll den Einstieg in die Schule erleichtern und kann als Nachschlagewerk von der 5. Klasse bis zum Abitur dienen. Wenn Sie Vorschläge haben, wie unsere Mappe weiter ausgebaut und verbessert werden könnte, freuen wir uns über Ihr Feedback via <a href="mailto:elternbeirat@wgg-neumarkt.de">Mail</a>.
 
 #### Wandertage
 Der Elternbeirat des WGG hat viele attraktive Ziele und Vorschläge zusammengestellt, um den Wandertag für Schüler sowie auch für Lehrer interessanter und abwechslungsreicher zu gestalten.
