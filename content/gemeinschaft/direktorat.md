@@ -15,9 +15,9 @@ thumbnail:
         <div class="name">Frank Fiedler</div>
     </div>
     <div class="person">
-        <div class="title"><h3 style ="font-size: 17pt">Stellvertreterin</h3></div>
-        <img src="/images/schulleitung/kleinoeder.jpg" alt="StDin Kleinöder-Strobel">
-        <div class="name">Dr. Susanne Kleinöder-Strobel</div>
+        <div class="title"><h3 style ="font-size: 17pt">Stellvertreter</h3></div>
+        <img src="/images/schulleitung/sachs.jpg" alt="StD Sachs">
+        <div class="name">Martin Sachs</div>
     </div>
 </div>
 
@@ -27,10 +27,6 @@ thumbnail:
     <div class="person">
         <img src="/images/schulleitung/holler.jpg" alt="StDin Holler">
         <div class="name">Doris Holler</div>
-    </div>
-    <div class="person">
-        <img src="/images/schulleitung/sachs.jpg" alt="StD Sachs">
-        <div class="name">Martin Sachs</div>
     </div>
     <div class="person">
         <img src="/images/schulleitung/wagenhofer.jpg" alt="StD Wagenhofer">
