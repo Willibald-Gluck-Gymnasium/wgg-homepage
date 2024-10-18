@@ -7,4 +7,4 @@ thumbnail:
     alt: Stockphoto - Schreibtisch mit Unterlagen, Getränken und Laptop
 ---
 
-Am WGG werden junge Lehrkräfte als Referendarinnen und Referendare in den Fächern  Deutsch, Englisch, Chemie, Biologie, Geopgraphie, Wirtschafts- und Rechtslehre sowie Wirtschaftsinformatik auf den Schuldienst vorbereitet.
+Am WGG werden junge Lehrkräfte als Referendarinnen und Referendare in den Fächern  Deutsch, Englisch, Chemie, Biologie, Geographie, Wirtschafts- und Rechtslehre sowie Wirtschaftsinformatik auf den Schuldienst vorbereitet.
