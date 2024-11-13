@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01
-title: Digitale Schule
-tags: [MINT]
+title: Mediencurriculum
+tags: [Digitale Schule]
 thumbnail: 
     src: piz-logo.png
     alt: Das Logo der Profilschulen für Informatik und Zukunftstechnologien.

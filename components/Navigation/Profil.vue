@@ -18,7 +18,7 @@ const menuItems = [
     { text: "Gluck-Codex", link: "/gemeinschaft/gluck_codex" },
     { text: "MINT", link: "/tag/MINT" },
     { text: "Berufsorientierung", link: "/tag/Berufsorientierung" },
-    { text: "Digitale Schule", link: "/digital/digitaleschule" }, 
+    { text: "Digitale Schule", link: "/tag/Digitale Schule" },
     { text: "Werteerziehung", link: "/tag/Werteerziehung"}, 
     { text: "Fächer", link: "/tag/Fächer" }, 
     { text: "Willibald Gluck" , link: "/gemeinschaft/willibald_gluck"},
