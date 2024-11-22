@@ -90,6 +90,11 @@ const isUserLoggedIn = ref(process.client && typeof localStorage.getItem('authto
           <nuxt-img preset="footer" src="/images/logo_gute_gesunde_schule.jpg" alt="Logo gute gesunde Schule" />
           <span>Gute gesunde Schule</span>
         </a>
+        <a href="
+https://www.deutsche-schachjugend.de/service/auszeichnung-und-foerderung/qualitaetssiegel/deutsche-schachschule-ein-guetesiegel-der-dsj/">
+          <nuxt-img preset="footer" src="/images/schachschule_bronze.jpg" alt="Logo Schachschule" />
+          <span>Deutsche Schachschule</span>
+        </a>
       </div>
     </div>
   </div>
