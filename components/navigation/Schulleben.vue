@@ -17,7 +17,8 @@ const menuItems = [
     { text: "Schülergenossenschaft", link: "/schuelergenossenschaft/genossenschaft" },
     { text: "Gluck-Cast", link: "/podcast/podcast" },
     { text: "Schulhaus" , link: "/schulhaus"},
-    { text: "WK Nachhaltigkeit" , link: "/fairtrade/fairtrade" }
+    { text: "WK Nachhaltigkeit" , link: "/fairtrade/fairtrade" },
+    { text: "Oberstufe" , link: "/gemeinschaft/oberstufe" }
 ]
 
 function combineAllMenuItems(menuItems, additionalTags) {

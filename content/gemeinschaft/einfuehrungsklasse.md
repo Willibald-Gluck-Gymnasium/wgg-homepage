@@ -17,7 +17,7 @@ Das Besten der Einführungsklasse berechtigt die Schülerinnen und Schüler, in 
 
 Um Ihnen und Ihren Kindern genauere Informationen zukommen zu lassen laden wir Sie
 
-<p style="text-align: center;"><strong>am Dienstag, den 12.12.2023 <br> um 18.30 Uhr</strong></p>
+<p style="text-align: center;"><strong>am Mittwoch, den 11.12.2024 <br> um 18.30 Uhr</strong></p>
 
 zu einem Informationsabend über die Einführungsklasse an das Willibald-Gluck-Gymnasium ein.
 
