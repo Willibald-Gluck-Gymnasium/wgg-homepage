@@ -6,33 +6,15 @@ thumbnail:
     src: kunst/Bild_LauraBareiß.jpg
     alt: Illustration der Kontinente
 ---
-<p><h2>Q12 Treppenhausbilder</h2></p>
-<gallery title="treppenhausbilder">
-    <figure>
-        <v-image name="Carl Mütze_thumb"></v-image>
-    </figure>
-    <figure>
-        <v-image name="Emma Meyer_thumb"></v-image>
-    </figure>
-    <figure>
-        <v-image name="Franziska Steib_thumb"></v-image>
-    </figure>
-    <figure>
-        <v-image name="Bild_LauraBareiß"></v-image>
-    </figure>
-    <figure>
-        <v-image name="Laura Gottschalk_thumb"></v-image>
-    </figure>
-    <figure>
-        <v-image name="Lena Vogentanz_thumb"></v-image>
-    </figure>
-    <figure>
-        <v-image name="Marco Spitz_thumb"></v-image>
-    </figure>
-    <figure>
-        <v-image name="Pia Gösswein_thumb"></v-image>
-    </figure>
-    <figure>
-        <v-image name="Tringa Rushiti_thumb"></v-image>
-    </figure>    
-</gallery>
+
+## 2024 - Europa-Wettbewerb
+
+<gallery images = "/images/kunst/europawettbewerb/ew (1).JPG,/images/kunst/europawettbewerb/ew (2).JPG,/images/kunst/europawettbewerb/ew (3).JPG,/images/kunst/europawettbewerb/ew (4).JPG,/images/kunst/europawettbewerb/ew (5).JPG,/images/kunst/europawettbewerb/ew (6).JPG,/images/kunst/europawettbewerb/ew (7).JPG,/images/kunst/europawettbewerb/ew (8).JPG,/images/kunst/europawettbewerb/ew (9).JPG,/images/kunst/europawettbewerb/ew (11).JPG,/images/kunst/europawettbewerb/ew (12).JPG,/images/kunst/europawettbewerb/ew (13).JPG,/images/kunst/europawettbewerb/ew (14).JPG,/images/kunst/europawettbewerb/ew (15).JPG,/images/kunst/europawettbewerb/ew (16).JPG,/images/kunst/europawettbewerb/ew (17).JPG,/images/kunst/europawettbewerb/ew (18).JPG,/images/kunst/europawettbewerb/ew (19).JPG,/images/kunst/europawettbewerb/ew (20).JPG,/images/kunst/europawettbewerb/ew (21).JPG,/images/kunst/europawettbewerb/ew (22).JPG,/images/kunst/europawettbewerb/ew (23).JPG,/images/kunst/europawettbewerb/ew (24).JPG,/images/kunst/europawettbewerb/ew (25).JPG,/images/kunst/europawettbewerb/ew (29).JPG,/images/kunst/europawettbewerb/ew (30).JPG,/images/kunst/europawettbewerb/ew (34).JPG,/images/kunst/europawettbewerb/ew (35).JPG,/images/kunst/europawettbewerb/ew (36).JPG,/images/kunst/europawettbewerb/ew (37).JPG,/images/kunst/europawettbewerb/ew (38).JPG,/images/kunst/europawettbewerb/ew (39).JPG,/images/kunst/europawettbewerb/ew (40).JPG,/images/kunst/europawettbewerb/ew (41).JPG,/images/kunst/europawettbewerb/ew (42).JPG,/images/kunst/europawettbewerb/ew (43).JPG,/images/kunst/europawettbewerb/ew (44).JPG,/images/kunst/europawettbewerb/ew (45).JPG,/images/kunst/europawettbewerb/ew (46).JPG,/images/kunst/europawettbewerb/ew (47).JPG,/images/kunst/europawettbewerb/ew (48).JPG,/images/kunst/europawettbewerb/ew (49).JPG,/images/kunst/europawettbewerb/ew (50).JPG,/images/kunst/europawettbewerb/ew (51).JPG,/images/kunst/europawettbewerb/ew (52).JPG,/images/kunst/europawettbewerb/ew (53).JPG,/images/kunst/europawettbewerb/ew (54).JPG,/images/kunst/europawettbewerb/ew (55).JPG,/images/kunst/europawettbewerb/ew (56).JPG,/images/kunst/europawettbewerb/ew (57).JPG,/images/kunst/europawettbewerb/ew (58).JPG,/images/kunst/europawettbewerb/ew (59).JPG,/images/kunst/europawettbewerb/ew (60).JPG"></gallery>
+
+## 2024 - Stadtansichten
+
+<gallery images="/images/kunst/stadtansichten/stadt (1).JPG,/images/kunst/stadtansichten/stadt (2).JPG,/images/kunst/stadtansichten/stadt (3).JPG,/images/kunst/stadtansichten/stadt (4).JPG,/images/kunst/stadtansichten/stadt (5).JPG"></gallery>
+
+## 2024 - Entwürfe Tafel Neumarkt
+
+<gallery images="/images/kunst/tafelneumarkt/tafel (1).JPG,/images/kunst/tafelneumarkt/tafel (2).JPG,/images/kunst/tafelneumarkt/tafel (3).JPG,/images/kunst/tafelneumarkt/tafel (4).JPG,/images/kunst/tafelneumarkt/tafel (5).JPG,/images/kunst/tafelneumarkt/tafel (6).JPG,/images/kunst/tafelneumarkt/tafel (7).JPG,/images/kunst/tafelneumarkt/tafel (8).JPG,/images/kunst/tafelneumarkt/tafel (9).JPG,/images/kunst/tafelneumarkt/tafel (10).JPG,/images/kunst/tafelneumarkt/tafel (11).JPG,/images/kunst/tafelneumarkt/tafel (12).JPG,/images/kunst/tafelneumarkt/tafel (13).JPG,/images/kunst/tafelneumarkt/tafel (14).JPG,/images/kunst/tafelneumarkt/tafel (15).JPG,/images/kunst/tafelneumarkt/tafel (16).JPG,/images/kunst/tafelneumarkt/tafel (17).JPG,/images/kunst/tafelneumarkt/tafel (18).JPG,/images/kunst/tafelneumarkt/tafel (19).JPG,/images/kunst/tafelneumarkt/tafel (20).JPG,/images/kunst/tafelneumarkt/tafel (21).JPG,/images/kunst/tafelneumarkt/tafel (22).JPG,/images/kunst/tafelneumarkt/tafel (23).JPG,/images/kunst/tafelneumarkt/tafel (24).JPG,/images/kunst/tafelneumarkt/tafel (25).JPG,/images/kunst/tafelneumarkt/tafel (26).JPG,/images/kunst/tafelneumarkt/tafel (27).JPG,/images/kunst/tafelneumarkt/tafel (28).JPG,/images/kunst/tafelneumarkt/tafel (29).JPG,/images/kunst/tafelneumarkt/tafel (30).JPG,/images/kunst/tafelneumarkt/tafel (31).JPG,/images/kunst/tafelneumarkt/tafel (32.JPG"></gallery>
