@@ -1,6 +1,7 @@
 ---
-date: 2020-01-01
-title: 'Buchhaltung und Controlling'
+date: 2024-12-17
+expireOn: 2025-12-16
+title: Kooperationstour
 tags: []
 thumbnail: 
     src: schuelergenossenschaft/kooperationstour.jpg
