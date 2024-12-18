@@ -1,6 +1,6 @@
 ---
-date: 2020-01-01
-expireOn: 2023-09-09
+date: 2024-12-16
+expireOn: 2025-12-16
 title: Zweimal Vizemeister in der Oberpfalz!
 tags: [Schach]
 thumbnail: 
