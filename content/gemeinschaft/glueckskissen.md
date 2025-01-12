@@ -1,7 +1,7 @@
 ---
 date: 2025-01-11
 expireOn: 2026-01-01
-title: Anmeldung am Willibald-Gluck-Gymnasium
+title: Glückskissen
 tags: [P-Seminar]
 thumbnail: 
     src: gemeinschaft/glueckskissen2.jpg
