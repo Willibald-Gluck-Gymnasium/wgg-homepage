@@ -9,23 +9,23 @@ thumbnail:
 
 ### Termin
 
-Der diesjährige Probeunterricht findet am **14., 15. und 16. Mai 2024** statt.
+Der diesjährige Probeunterricht findet am **13., 14. und 15. Mai 2025** statt.
 
 **Zeitplan**
 
-**1. Prüfungstag: Dienstag, 14. Mai 2024**
+**1. Prüfungstag: Dienstag, 13. Mai 2025**
 
 08:00 - 11:30 schriftliche Prüfungen in Deutsch und Mathematik
 
-**2. Prüfungstag: Mittwoch, 15. Mai 2024**
+**2. Prüfungstag: Mittwoch, 14. Mai 2025**
 
 08:30 - 11:30 schriftliche Prüfungen in Deutsch und Mathematik
 
-**3. Prüfungstag: Freitag, 16. Mai 2024**
+**3. Prüfungstag: Freitag, 15. Mai 2025**
 
 08:30 - 11:00 Unterrichtsgespräch Deutsch und Mathematik
 
-**Einen detaillierten Zeitplan erhalten Sie mit dem Merkblatt zum Probeunterricht 2024**
+**Einen detaillierten Zeitplan erhalten Sie mit dem Merkblatt zum Probeunterricht 2025**
 
 
 ### Allgemeine Informationen zum Probeunterricht
