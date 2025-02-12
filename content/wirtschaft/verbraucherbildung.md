@@ -1,5 +1,6 @@
 ---
 date: 2022-01-01
+expireOn: 2023-01-01
 author: Larissa Bernhardt
 title: Partnerschule Verbraucherbildung
 tags: [Wirtschaft und Recht, Unterricht]
